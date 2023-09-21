@@ -40,6 +40,10 @@
   }
 }
 
+.button-primary {
+  @apply bg-primary text-contrast-primary outline-primary;
+}
+
 .button-sm {
   @apply h-10 px-4;
 }

@@ -1,0 +1,5 @@
+h1 {
+  @apply font-bold;
+  font-size: 56px;
+  line-height: 72px;
+}
