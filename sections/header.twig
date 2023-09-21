@@ -1,0 +1,151 @@
+<header class="flex items-center gap-20 py-3 mt-4">
+  <div>
+    <a href="/app">
+      <img src="/assets/logo-light.svg"
+        alt="LOGO"
+        class="hidden group-data-[mode=dark]/html:block">
+      <img src="/assets/logo-dark.svg"
+        alt="LOGO"
+        class="block group-data-[mode=dark]/html:hidden">
+    </a>
+  </div>
+
+  <div class="flex items-center gap-4 ml-auto">
+    <mode-switcher>
+      <button
+        class="flex items-center justify-center w-10 h-10 text-2xl rounded-full bg-contrast-secondary hover:bg-contrast-accent hover:text-accent">
+        <i class="ti ti-moon group-data-[mode=dark]/html:hidden"></i>
+        <i class="ti ti-sun hidden group-data-[mode=dark]/html:block"></i>
+      </button>
+    </mode-switcher>
+
+    <language-switcher>
+      <button
+        class="flex items-center justify-center w-10 h-10 text-sm rounded-full bg-contrast-secondary hover:bg-contrast-accent hover:text-accent">
+        EN
+      </button>
+    </language-switcher>
+
+    {% if auth_user is defined %}
+    <div class="relative flex items-center group"
+      x-ref="usermenu"
+      @click.outside="$el.removeAttribute('data-open')">
+
+      <div
+        class="w-0 h-6 border-l border-l-line-tertiary group-hover:opacity-0 group-data-[open]:opacity-0">
+      </div>
+
+      <button
+        class="flex items-center gap-2 px-4 py-2 rounded-lg hover:bg-contrast-secondary group-data-[open]:bg-contrast-secondary"
+        @click="$refs.usermenu.hasAttribute('data-open') ? $refs.usermenu.removeAttribute('data-open') : $refs.usermenu.setAttribute('data-open', '')">
+
+        {% set full_name = auth_user.first_name ~ " " ~ auth_user.last_name %}
+        <div
+          class="relative flex items-center justify-center w-10 h-10 text-xs font-bold uppercase rounded-full bg-contrast-accent text-accent shrink-0">
+          <span
+            x-text="`{{ full_name }}`.match(/(\b\S)?/g).join('').slice(0, 2)">{{ full_name[0:2]}}</span>
+
+          {% if auth_user.avatar %}
+          <img src="{{ auth_user.avatar }}"
+            alt="{{ full_name }}"
+            class="absolute top-0 left-0 object-cover w-full h-full rounded-full">
+          {% endif %}
+        </div>
+
+        <span class="text-sm">
+          {{ full_name }}
+        </span>
+
+        <i class="text-xl ti ti-chevron-down"></i>
+      </button>
+
+      <div class="context-menu w-60 max-h-max"
+        @click="$refs.usermenu.removeAttribute('data-open')">
+
+        <a href="/app/account"
+          class="flex items-center w-full gap-3 p-4 text-left hover:bg-contrast-secondary hover:no-underline">
+          <div
+            class="relative flex items-center justify-center w-10 h-10 text-xs font-bold uppercase rounded-full bg-contrast-accent text-accent shrink-0">
+            <span
+              x-text="`{{ full_name }}`.match(/(\b\S)?/g).join('').slice(0, 2)">{{ full_name[0:2]}}</span>
+
+            {% if auth_user.avatar %}
+            <img src="{{ auth_user.avatar }}"
+              alt="{{ full_name }}"
+              class="absolute top-0 left-0 object-cover w-full h-full rounded-full">
+            {% endif %}
+          </div>
+
+          <div>
+            <div class="font-bold">{{ full_name }}</div>
+            <div class="mt-1 text-sm text-tertiary">{{ auth_user.email }}</div>
+          </div>
+        </a>
+
+        <hr class="border-t border-line-tertiary">
+        <ul>
+          <li>
+            <a href="/app"
+              class="flex items-center gap-2 px-4 py-2 hover:bg-contrast-secondary hover:no-underline">
+              <i class="text-2xl ti ti-sparkles"></i>
+              Go to app
+            </a>
+          </li>
+        </ul>
+
+        <hr class="border-t border-line-tertiary">
+
+        <ul>
+          <li>
+            <a href="/app/documents"
+              class="flex items-center gap-2 px-4 py-2 hover:bg-contrast-secondary hover:no-underline">
+              <i class="text-2xl ti ti-files"></i>
+              Documents
+            </a>
+          </li>
+
+          <li>
+            <a href="/app/billing"
+              class="flex items-center gap-2 px-4 py-2 hover:bg-contrast-secondary hover:no-underline">
+              <i class="text-2xl ti ti-credit-card"></i>
+              Billing
+            </a>
+          </li>
+        </ul>
+
+        <hr class="border-t border-line-tertiary">
+
+        <ul>
+          <li>
+            <a href="/app/account"
+              class="flex items-center gap-2 px-4 py-2 hover:bg-contrast-secondary hover:no-underline">
+              <i class="text-2xl ti ti-user-circle"></i>
+              Account
+            </a>
+          </li>
+
+          <li>
+            <a href="/logout"
+              class="flex items-center gap-2 px-4 py-2 hover:bg-contrast-secondary hover:no-underline">
+              <i class="text-2xl ti ti-logout"></i>
+              Logout
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    {% else %}
+    <div class="w-0 h-6 border-l border-l-line-tertiary"></div>
+
+    <a href="/login"
+      class="button button-outline button-sm">
+      Login
+    </a>
+
+    <a href="/signup"
+      class="button button-sm">
+      Get Started
+    </a>
+    {% endif %}
+  </div>
+</header>
