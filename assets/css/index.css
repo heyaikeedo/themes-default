@@ -2,44 +2,27 @@
 @import 'typography.css';
 
 @import 'tailwindcss/components';
+@import 'components.css';
 @import 'button.css';
+@import 'float.css';
 
 @import 'tailwindcss/utilities';
 
-@layer components {
+@import 'presets.css';
+
+@layer base {
   a {
     @apply underline-offset-2 hover:underline;
-  }
-
-  /* Dropdown context menu */
-  .context-menu {
-    @apply absolute 
-            right-0 
-            mt-1 
-            z-20 
-            hidden
-            border 
-            rounded-lg 
-            top-full 
-            border-line-tertiary 
-            bg-contrast-primary 
-            data-[open]:block  /* deprecated */
-            group-data-[open]:block
-            shadow-[0px_4px_6px_-2px_rgba(0,0,9,0.03),0px_12px_16px_-4px_rgba(0,0,9,0.08)]
-            whitespace-nowrap
-            max-h-72
-            overflow-auto;
-
-    min-width: 8rem;
-  }
-
-  .tippy-content {
-    @apply text-xs;
   }
 }
 
 @layer utilities {
   [x-cloak] {
     @apply hidden;
+  }
+
+  .bg-clip-text {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 }
