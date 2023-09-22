@@ -1,0 +1,18 @@
+{% macro human_readable(input, fraction) %}
+{% set kilo = 1000 %}
+{% set mega = kilo * 1000 %}
+{% set giga = mega * 1000 %}
+{% set tera = giga * 1000 %}
+
+{% if input < kilo %}
+{{ input }}
+{% elseif input < mega %}
+{{ (input / kilo)|number_format(fraction, '.') ~ 'K' }}
+{% elseif input < giga %}
+{{ (input / mega)|number_format(fraction, '.') ~ 'M' }}
+{% elseif input < tera %}
+{{ (input / giga)|number_format(fraction, '.') ~ 'G' }}
+{% else %}
+{{ (input / tera)|number_format(fraction, '.') ~ 'T' }}
+{% endif %}
+{% endmacro %}
