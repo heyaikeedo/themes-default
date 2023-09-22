@@ -27,7 +27,7 @@
 
   &:after {
     content: '';
-    @apply absolute top-0 left-0 w-full h-full rounded-xl bg-current opacity-10 z-0;
+    @apply absolute top-0 left-0 w-full h-full rounded-xl bg-current opacity-5 z-0;
   }
 
   &.shadow-left {
