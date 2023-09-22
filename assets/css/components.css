@@ -25,7 +25,7 @@ a {
 }
 
 .wrapper {
-  @apply rounded-2xl border-line-tertiary relative;
+  @apply rounded-4xl border-line-tertiary relative;
   border-width: 10px;
 }
 
