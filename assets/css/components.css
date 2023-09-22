@@ -25,15 +25,14 @@ a {
 }
 
 .wrapper {
-  @apply rounded-4xl border-line-tertiary relative;
+  @apply rounded-4xl border-contrast-secondary relative;
   border-width: 10px;
 }
 
+/*
 .wrapper-inverted {
   @apply border-primary bg-primary text-contrast-primary bg-gradient-to-r from-primary to-primary/75;
 }
-
-/*
 .tippy-content {
     @apply text-xs;
 }

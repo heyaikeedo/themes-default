@@ -14,17 +14,17 @@
     <ul class="flex items-center gap-4">
       <li>
         <a href="/#product"
-          class="block px-2 py-1 bg-transparent rounded-lg hover:bg-contrast-secondary hover:no-underline">Product</a>
+          class="block px-2 py-1 bg-transparent rounded-lg hover:bg-line-tertiary hover:no-underline">Product</a>
       </li>
 
       <li>
         <a href="/#pricing"
-          class="block px-2 py-1 bg-transparent rounded-lg hover:bg-contrast-secondary hover:no-underline">Pricing</a>
+          class="block px-2 py-1 bg-transparent rounded-lg hover:bg-line-tertiary hover:no-underline">Pricing</a>
       </li>
 
       <li>
         <a href="/#faq"
-          class="block px-2 py-1 bg-transparent rounded-lg hover:bg-contrast-secondary hover:no-underline">FAQ</a>
+          class="block px-2 py-1 bg-transparent rounded-lg hover:bg-line-tertiary hover:no-underline">FAQ</a>
       </li>
     </ul>
   </nav>
@@ -32,7 +32,7 @@
   <div class="flex items-center gap-4 ml-auto">
     <mode-switcher>
       <button
-        class="flex items-center justify-center w-10 h-10 text-2xl rounded-full bg-contrast-secondary hover:bg-contrast-accent hover:text-accent">
+        class="flex items-center justify-center w-10 h-10 text-2xl rounded-full bg-line-tertiary hover:bg-contrast-accent hover:text-accent">
         <i class="ti ti-moon group-data-[mode=dark]/html:hidden"></i>
         <i class="ti ti-sun hidden group-data-[mode=dark]/html:block"></i>
       </button>
@@ -40,7 +40,7 @@
 
     <language-switcher>
       <button
-        class="flex items-center justify-center w-10 h-10 text-sm rounded-full bg-contrast-secondary hover:bg-contrast-accent hover:text-accent">
+        class="flex items-center justify-center w-10 h-10 text-sm rounded-full bg-line-tertiary hover:bg-contrast-accent hover:text-accent">
         EN
       </button>
     </language-switcher>
@@ -95,9 +95,10 @@
             {% endif %}
           </div>
 
-          <div>
-            <div class="font-bold">{{ full_name }}</div>
-            <div class="mt-1 text-sm text-tertiary">{{ auth_user.email }}</div>
+          <div class="max-w-[154px]">
+            <div class="font-bold truncate">{{ full_name }}</div>
+            <div class="mt-1 text-sm truncate text-tertiary">
+              {{ auth_user.email }}</div>
           </div>
         </a>
 
