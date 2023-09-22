@@ -1,0 +1,40 @@
+@keyframes float {
+  0% {
+    translate: 0px 0px;
+  }
+  50% {
+    translate: 0px -16px;
+  }
+  100% {
+    translate: 0px 0px;
+  }
+}
+
+.float {
+  @apply absolute rounded-xl;
+  animation: float 6s ease-in-out infinite;
+  /*
+  box-shadow: 0px 0px 0px 2px rgb(var(--color-contrast-primary));
+  */
+}
+
+.icon {
+  @apply w-14 h-14 px-4 rounded-xl border-2 border-current inline-flex items-center justify-center relative bg-white font-bold;
+
+  i {
+    @apply text-3xl z-10 relative;
+  }
+
+  &:after {
+    content: '';
+    @apply absolute top-0 left-0 w-full h-full rounded-xl bg-current opacity-10 z-0;
+  }
+
+  &.shadow-left {
+    box-shadow: -1px 1px 0px 1px currentcolor;
+  }
+
+  &.shadow-right {
+    box-shadow: 1px 1px 0px 1px currentcolor;
+  }
+}
