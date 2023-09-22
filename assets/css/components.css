@@ -1,0 +1,45 @@
+a {
+  @apply underline-offset-2 hover:underline;
+}
+
+/* Dropdown context menu */
+.context-menu {
+  @apply absolute 
+            right-0 
+            mt-1 
+            z-20 
+            hidden
+            border 
+            rounded-lg 
+            top-full 
+            border-line-tertiary 
+            bg-contrast-primary 
+            data-[open]:block  /* deprecated */
+            group-data-[open]:block
+            shadow-[0px_4px_6px_-2px_rgba(0,0,9,0.03),0px_12px_16px_-4px_rgba(0,0,9,0.08)]
+            whitespace-nowrap
+            max-h-72
+            overflow-auto;
+
+  min-width: 8rem;
+}
+
+.wrapper {
+  @apply rounded-2xl border-line-tertiary relative;
+  border-width: 10px;
+}
+
+.wrapper-inverted {
+  @apply border-primary bg-primary text-contrast-primary bg-gradient-to-r from-primary to-primary/75;
+}
+
+/*
+.tippy-content {
+    @apply text-xs;
+}
+*/
+
+.badge {
+  @apply font-bold py-1 px-2 rounded-lg border-2 border-current bg-contrast-secondary inline-flex;
+  box-shadow: 2px 2px 0px 1px currentcolor;
+}
