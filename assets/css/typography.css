@@ -1,5 +1,17 @@
 h1 {
-  @apply font-bold;
-  font-size: 56px;
-  line-height: 72px;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.28571429;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.33333333;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.5;
 }
