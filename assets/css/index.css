@@ -9,6 +9,7 @@
 @import 'tailwindcss/utilities';
 
 @import 'presets.css';
+@import 'image-generator.css';
 
 @layer base {
   a {
