@@ -57,6 +57,10 @@ module.exports = {
             '--tw-prose-td-borders': 'rgb(var(--color-line-tertiary))',
           }
         }
+      },
+
+      borderRadius: {
+        '4xl': '2.25rem',
       }
     },
   },
