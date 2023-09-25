@@ -1,6 +1,6 @@
-<footer class="mb-28 wrapper enter">
+<footer class="mb-10 xl:mb-28 wrapper enter">
   <div class="p-12 bg-contrast-secondary">
-    <div class="flex items-start justify-between gap-20">
+    <div class="items-start justify-between gap-20 md:flex">
       <div>
         <svg xmlns="http://www.w3.org/2000/svg"
           width="97"
@@ -36,7 +36,7 @@
         </address>
       </div>
 
-      <nav class="flex items-start gap-20 font-bold">
+      <nav class="flex items-start gap-20 mt-6 font-bold md:mt-0">
         <ul class="flex flex-col gap-4">
           <li>
             <a href="/#product">Product</a>
@@ -67,7 +67,7 @@
       </nav>
     </div>
 
-    <div class="flex items-center justify-between mt-20">
+    <div class="justify-between mt-20 md:flex md:items-center">
       <div>
         &copy; {{ 'now' | date('Y') }} All rights reserved.
 
@@ -76,7 +76,7 @@
         {% endif %}
       </div>
 
-      <div class="flex gap-4 text-2xl">
+      <div class="flex gap-4 mt-6 text-2xl md:mt-0">
         <a href="#"
           target="_blank"
           class="hover:no-underline">

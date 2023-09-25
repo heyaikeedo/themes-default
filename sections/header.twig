@@ -1,4 +1,4 @@
-<header class="flex items-center gap-20 py-3 mt-4">
+<header class="flex items-center gap-5 mt-4 sm:py-3 lg:gap-20">
   <div>
     <a href="/">
       <img src="/assets/logo-light.svg"
@@ -10,7 +10,7 @@
     </a>
   </div>
 
-  <nav class="font-medium">
+  <nav class="hidden font-medium lg:block">
     <ul class="flex items-center gap-4">
       <li>
         <a href="/#product"
@@ -29,7 +29,7 @@
     </ul>
   </nav>
 
-  <div class="flex items-center gap-4 ml-auto">
+  <div class="flex items-center gap-2 ml-auto sm:gap-4">
     <mode-switcher>
       <button
         class="flex items-center justify-center w-10 h-10 text-2xl rounded-full bg-line-tertiary hover:bg-contrast-accent hover:text-accent">
@@ -38,7 +38,7 @@
       </button>
     </mode-switcher>
 
-    <language-switcher>
+    <language-switcher class="hidden">
       <button
         class="flex items-center justify-center w-10 h-10 text-sm rounded-full bg-line-tertiary hover:bg-contrast-accent hover:text-accent">
         EN
@@ -71,7 +71,7 @@
           {% endif %}
         </div>
 
-        <span class="text-sm">
+        <span class="hidden text-sm sm:inline">
           {{ full_name }}
         </span>
 
@@ -158,12 +158,12 @@
     <div class="w-0 h-6 border-l border-l-line-tertiary"></div>
 
     <a href="/login"
-      class="button button-outline button-sm">
+      class="hidden button button-outline button-sm sm:inline-flex">
       Login
     </a>
 
     <a href="/signup"
-      class="button button-sm">
+      class="h-8 px-2 text-sm button button-sm whitespace-nowrap sm:text-base sm:h-10 sm:px-4">
       Get Started
     </a>
     {% endif %}

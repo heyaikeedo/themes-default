@@ -19,7 +19,7 @@
 }
 
 .icon {
-  @apply w-14 h-14 px-4 rounded-xl border-2 border-current inline-flex items-center justify-center relative bg-contrast-primary font-bold;
+  @apply w-14 h-14 px-4 rounded-xl border-2 border-current md:inline-flex items-center justify-center relative bg-contrast-primary font-bold hidden;
 
   i {
     @apply text-3xl z-10 relative;

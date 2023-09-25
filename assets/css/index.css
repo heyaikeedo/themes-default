@@ -31,31 +31,35 @@
 @keyframes enter {
   from {
     @apply grayscale opacity-0;
-    transform: scale(1.05) translateX(var(--x, 0px));
+    transform: scale(var(--scale, 1)) translateX(var(--x, 0px));
     grayscale: 1;
   }
 }
 
 .enter,
 .enter3 {
-  --view: 0px;
+  --x: 0;
+  --scale: 0.95;
   animation: enter both linear;
   animation-timeline: view(0px);
   animation-range: entry;
 }
 
-.enter3 {
-  &:nth-child(3n + 1 of &) {
-    --x: -36px;
-    transform-origin: left center;
+@media only screen and (min-width: 768px) {
+  .enter,
+  .enter3 {
+    --scale: 1.05;
   }
 
-  &:nth-child(3n + 2 of &) {
-    --x: 0%;
-  }
+  .enter3 {
+    &:nth-child(3n + 1 of &) {
+      --x: -36px;
+      transform-origin: left center;
+    }
 
-  &:nth-child(3n + 3 of &) {
-    --x: 36px;
-    transform-origin: right center;
+    &:nth-child(3n + 3 of &) {
+      --x: 36px;
+      transform-origin: right center;
+    }
   }
 }

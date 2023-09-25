@@ -7,14 +7,14 @@
     </div>
   </h2>
 
-  <div class="flex flex-col gap-10 mt-12">
+  <div class="flex flex-col gap-6 mt-6 md:mt-12 md:gap-10">
     {% include "@theme/sections/writer.twig" %}
     {% include "@theme/sections/presets.twig" %}
     {% include "@theme/sections/code.twig" %}
     {% include "@theme/sections/image.twig" %}
     {% include "@theme/sections/chat.twig" %}
 
-    <div class="grid grid-cols-2 gap-12 enter">
+    <div class="grid gap-5 md:gap-12 md:grid-cols-2 enter">
       {% include "@theme/sections/speech-to-text.twig" %}
       {% include "@theme/sections/text-to-voice.twig" %}
     </div>

@@ -5,7 +5,7 @@
 }
 
 .scrolling-presets {
-  @apply absolute top-0 -right-10 w-[48%] h-full rotate-[5deg] scale-110;
+  @apply absolute top-0 right-0 md:-right-10 w-full md:w-[48%] h-full rotate-[5deg] scale-110 opacity-5 md:opacity-100;
   background-image: url('presets.png');
   background-size: 100% auto;
   background-repeat: repeat-y;
