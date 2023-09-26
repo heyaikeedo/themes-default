@@ -1,12 +1,13 @@
 <header class="flex items-center gap-5 mt-4 sm:py-3 lg:gap-20">
   <div>
     <a href="/">
-      <img src="/assets/logo-light.svg"
-        alt="LOGO"
-        class="hidden group-data-[mode=dark]/html:block">
-      <img src="/assets/logo-dark.svg"
-        alt="LOGO"
-        class="block group-data-[mode=dark]/html:hidden">
+      <img src="{{ option.brand.logo_dark ?? '/assets/logo-light.svg' }}"
+        alt="{{ option.site.name  }}"
+        class="hidden group-data-[mode=dark]/html:block max-w-[140px]">
+
+      <img src="{{ option.brand.logo ?? '/assets/logo-dark.svg' }}"
+        alt="{{ option.site.name  }}"
+        class="block group-data-[mode=dark]/html:hidden  max-w-[140px]">
     </a>
   </div>
 
