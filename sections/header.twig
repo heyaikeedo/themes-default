@@ -2,11 +2,11 @@
   <div>
     <a href="/">
       <img src="{{ option.brand.logo_dark ?? '/assets/logo-light.svg' }}"
-        alt="{{ option.site.name  }}"
+        alt="{{ option.site.name ?? 'Logo'  }}"
         class="hidden group-data-[mode=dark]/html:block max-w-[140px]">
 
       <img src="{{ option.brand.logo ?? '/assets/logo-dark.svg' }}"
-        alt="{{ option.site.name  }}"
+        alt="{{ option.site.name ?? 'Logo'  }}"
         class="block group-data-[mode=dark]/html:hidden  max-w-[140px]">
     </a>
   </div>

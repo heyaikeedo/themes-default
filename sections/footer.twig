@@ -4,12 +4,12 @@
       <div>
         <img
           src="{{ option.brand.alternative_logo_dark ?? option.brand.logo_dark ?? '/assets/logo-light.svg' }}"
-          alt="{{ option.site.name  }}"
+          alt="{{ option.site.name ?? 'Logo'  }}"
           class="hidden group-data-[mode=dark]/html:block  max-w-[140px]">
 
         <img
           src="{{ option.brand.alternative_logo ?? option.brand.logo ?? '/assets/logo-dark.svg' }}"
-          alt="{{ option.site.name  }}"
+          alt="{{ option.site.name ?? 'Logo'  }}"
           class="block group-data-[mode=dark]/html:hidden  max-w-[140px]">
 
         <address class="mt-6 not-italic">
