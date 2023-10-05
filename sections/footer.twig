@@ -34,17 +34,17 @@
         </ul>
 
         <ul class="flex flex-col gap-4">
-          <li>
-            <a href="/policies/privacy">Privacy Notice</a>
-          </li>
+          {% if option.policies.tos is defined and option.policies.tos is not empty %}
+          <li><a href="/policies/terms">Terms of services</a></li>
+          {% endif %}
 
-          <li>
-            <a href="/policies/terms">Terms of Services</a>
-          </li>
+          {% if option.policies.privacy is defined and option.policies.privacy is not empty %}
+          <li><a href="/policies/privacy">Privacy policy</a></li>
+          {% endif %}
 
-          <li>
-            <a href="/policies/refund">Refund Policy</a>
-          </li>
+          {% if option.policies.refund is defined and option.policies.refund is not empty %}
+          <li><a href="/policies/refund">Refund policy</a></li>
+          {% endif %}
         </ul>
       </nav>
     </div>
