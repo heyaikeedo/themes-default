@@ -12,10 +12,13 @@
           alt="{{ option.site.name ?? 'Logo'  }}"
           class="block group-data-[mode=dark]/html:hidden  max-w-[140px]">
 
-        <address class="mt-6 not-italic">
-          651 N Broad St, Suite 201, Middletown, <br>
-          DE 19709, USA
-        </address>
+        <div class="mt-6">
+          &copy; {{ 'now' | date('Y') }} All rights reserved.
+
+          {% if option.site.name is defined %}
+          <strong>{{ option.site.name }}</strong>
+          {% endif %}
+        </div>
       </div>
 
       <nav class="flex items-start gap-20 mt-6 font-bold md:mt-0">
@@ -47,36 +50,6 @@
           {% endif %}
         </ul>
       </nav>
-    </div>
-
-    <div class="justify-between mt-20 md:flex md:items-center">
-      <div>
-        &copy; {{ 'now' | date('Y') }} All rights reserved.
-
-        {% if option.site.name is defined %}
-        <strong>{{ option.site.name }}</strong>
-        {% endif %}
-      </div>
-
-      <div class="flex gap-4 mt-6 text-2xl md:mt-0">
-        <a href="#"
-          target="_blank"
-          class="hover:no-underline">
-          <i class="ti ti-brand-facebook"></i>
-        </a>
-
-        <a href="#"
-          target="_blank"
-          class="hover:no-underline">
-          <i class="ti ti-brand-instagram"></i>
-        </a>
-
-        <a href="#"
-          target="_blank"
-          class="hover:no-underline">
-          <i class="ti ti-brand-x"></i>
-        </a>
-      </div>
     </div>
   </div>
 </footer>
