@@ -51,89 +51,92 @@
   <div class="grid gap-12 mt-8 lg:mt-16 lg:grid-cols-2 xl:grid-cols-3"
     x-cloak>
     {% for plan in plans %}
-    <div class="p-8 wrapper enter"
+    <div
+      class="enter p-[10px] rounded-4xl bg-contrast-secondary flex {% if plan.is_featured %}bg-gradient-to-br from-[#E7FF9B] to-[#CFE6FF]{% endif %}"
       x-show="`{{ plan.billing_cycle }}` == cycle">
-      <h3>{{ plan.title }}</h3>
+      <div class="w-full p-8 bg-contrast-primary rounded-3xl">
+        <h3>{{ plan.title }}</h3>
 
-      {% if plan.description is not empty %}
-      <p class="text-tertiary">{{ plan.description }}</p>
-      {% endif %}
+        {% if plan.description is not empty %}
+        <p class="text-tertiary">{{ plan.description }}</p>
+        {% endif %}
 
-      <div class="mt-8">
-        {% set price = plan.price / 10 ** currency.fraction_digits %}
-        <span
-          class="text-4xl font-bold">{{ price | format_currency(currency.code, {max_fraction_digit:currency.fraction_digits, fraction_digit:0}) }}</span>
-        <span class="text-tertiary">/{{ plan.billing_cycle }}</span>
+        <div class="mt-8">
+          {% set price = plan.price / 10 ** currency.fraction_digits %}
+          <span
+            class="text-4xl font-bold">{{ price | format_currency(currency.code, {max_fraction_digit:currency.fraction_digits, fraction_digit:0}) }}</span>
+          <span class="text-tertiary">/{{ plan.billing_cycle }}</span>
+        </div>
+
+        <a href="/app/billing/checkout/{{ plan.id }}"
+          class="flex mt-8 button">
+          Get started
+        </a>
+
+        <ul class="flex flex-col gap-4 mt-12">
+          <li class="flex items-center gap-2 font-semibold">
+            {% if plan.token_credit == 0 and plan.token_credit is not null %}
+            <i class="text-2xl ti ti-square-rounded-x text-tertiary"></i>
+            Access to templates is disabled
+            {% else %}
+            <i class="text-2xl ti ti-square-rounded-check-filled"></i>
+            Access to all templates
+            {% endif %}
+          </li>
+
+          <li class="flex items-center gap-2 font-semibold">
+            {% if plan.token_credit is null %}
+            <i class="text-2xl ti ti-square-rounded-check-filled"></i>
+            Unlimited tokens
+            {% elseif plan.token_credit == 0 %}
+            <i class="text-2xl ti ti-square-rounded-x text-tertiary"></i>
+            <span class="text-tertiary">No token credits</span>
+            {% else %}
+            <i class="text-2xl ti ti-square-rounded-check-filled"></i>
+            {{ human_readable(plan.token_credit) }}
+            tokens
+            {% endif %}
+          </li>
+
+          <li class="flex items-center gap-2 font-semibold">
+            {% if plan.image_credit is null %}
+            <i class="text-2xl ti ti-square-rounded-check-filled"></i>
+            Unlimited images
+            {% elseif plan.image_credit == 0 %}
+            <i class="text-2xl ti ti-square-rounded-x text-tertiary"></i>
+            <span class="text-tertiary">No image credit</span>
+            {% else %}
+            <i class="text-2xl ti ti-square-rounded-check-filled"></i>
+            {{ human_readable(plan.image_credit) }}
+            images
+            {% endif %}
+          </li>
+
+          <li class="flex items-center gap-2 font-semibold">
+            {% if plan.audio_credit is null %}
+            <i class="text-2xl ti ti-square-rounded-check-filled"></i>
+            Unlimited audio seconds
+            {% elseif plan.audio_credit == 0 %}
+            <i class="text-2xl ti ti-square-rounded-x text-tertiary"></i>
+            <span class="text-tertiary">No audio credit</span>
+            {% else %}
+            <i class="text-2xl ti ti-square-rounded-check-filled"></i>
+            {{ human_readable(plan.audio_credit) }}
+            audio seconds
+            {% endif %}
+          </li>
+
+          <li class="flex items-center gap-2 font-semibold">
+            {% if plan.price > 0  %}
+            <i class="text-2xl ti ti-square-rounded-check-filled"></i>
+            Priority support
+            {% else %}
+            <i class="text-2xl ti ti-square-rounded-check-filled"></i>
+            Basic support
+            {% endif %}
+          </li>
+        </ul>
       </div>
-
-      <a href="/app/billing/checkout/{{ plan.id }}"
-        class="flex mt-8 button">
-        Get started
-      </a>
-
-      <ul class="flex flex-col gap-4 mt-12">
-        <li class="flex items-center gap-2 font-semibold">
-          {% if plan.token_credit == 0 and plan.token_credit is not null %}
-          <i class="text-2xl ti ti-square-rounded-x text-tertiary"></i>
-          Access to templates is disabled
-          {% else %}
-          <i class="text-2xl ti ti-square-rounded-check-filled"></i>
-          Access to all templates
-          {% endif %}
-        </li>
-
-        <li class="flex items-center gap-2 font-semibold">
-          {% if plan.token_credit is null %}
-          <i class="text-2xl ti ti-square-rounded-check-filled"></i>
-          Unlimited tokens
-          {% elseif plan.token_credit == 0 %}
-          <i class="text-2xl ti ti-square-rounded-x text-tertiary"></i>
-          <span class="text-tertiary">No token credits</span>
-          {% else %}
-          <i class="text-2xl ti ti-square-rounded-check-filled"></i>
-          {{ human_readable(plan.token_credit) }}
-          tokens
-          {% endif %}
-        </li>
-
-        <li class="flex items-center gap-2 font-semibold">
-          {% if plan.image_credit is null %}
-          <i class="text-2xl ti ti-square-rounded-check-filled"></i>
-          Unlimited images
-          {% elseif plan.image_credit == 0 %}
-          <i class="text-2xl ti ti-square-rounded-x text-tertiary"></i>
-          <span class="text-tertiary">No image credit</span>
-          {% else %}
-          <i class="text-2xl ti ti-square-rounded-check-filled"></i>
-          {{ human_readable(plan.image_credit) }}
-          images
-          {% endif %}
-        </li>
-
-        <li class="flex items-center gap-2 font-semibold">
-          {% if plan.audio_credit is null %}
-          <i class="text-2xl ti ti-square-rounded-check-filled"></i>
-          Unlimited audio seconds
-          {% elseif plan.audio_credit == 0 %}
-          <i class="text-2xl ti ti-square-rounded-x text-tertiary"></i>
-          <span class="text-tertiary">No audio credit</span>
-          {% else %}
-          <i class="text-2xl ti ti-square-rounded-check-filled"></i>
-          {{ human_readable(plan.audio_credit) }}
-          audio seconds
-          {% endif %}
-        </li>
-
-        <li class="flex items-center gap-2 font-semibold">
-          {% if plan.price > 0  %}
-          <i class="text-2xl ti ti-square-rounded-check-filled"></i>
-          Priority support
-          {% else %}
-          <i class="text-2xl ti ti-square-rounded-check-filled"></i>
-          Basic support
-          {% endif %}
-        </li>
-      </ul>
     </div>
     {% endfor %}
   </div>
