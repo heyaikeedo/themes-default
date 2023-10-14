@@ -138,13 +138,10 @@
   <script>
     window.currency = JSON.parse('{{currency|json_encode|raw}}');
 
-    if (
-      localStorage.mode === 'dark'
-      || (!('mode' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
-    ) {
-      localStorage.mode = 'dark';
-    } else {
-      localStorage.mode = 'light';
+    if (!('mode' in localStorage) || ['dark', 'light'].indexOf(localStorage.mode) === -1) {
+      localStorage.mode = window.matchMedia('(prefers-color-scheme: dark)').matches
+        ? 'dark'
+        : document.documentElement.dataset.mode;
     }
 
     document.documentElement.dataset.mode = localStorage.mode;
