@@ -2,8 +2,17 @@
 
 const gulp = require(`gulp`);
 
+var knownOptions = {
+    string: ['path'],
+    default: {
+        // path: '../../aikeedo/public/themes/default/'
+        path: 'dist'
+    }
+};
+var options = require('minimist')(process.argv.slice(2), knownOptions);
+
 process.env.NODE_ENV = `production`;
-const root = '../../aikeedo/public/themes/default/';
+const root = options.path;
 
 let assets = [
     `./*/**/*`,

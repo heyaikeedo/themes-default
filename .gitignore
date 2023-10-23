@@ -26,3 +26,6 @@ coverage
 
 # Public assets (build files)
 /public/assets
+
+# Dist directory
+dist
