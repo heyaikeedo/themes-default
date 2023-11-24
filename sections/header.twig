@@ -152,6 +152,32 @@
       </div>
     </div>
     {% else %}
+    <div class="relative flex items-center group" x-ref="locale"
+      @click.outside="$el.removeAttribute('data-open')">
+
+      <button
+        class="flex items-center justify-center w-10 h-10 text-2xl rounded-full bg-line-tertiary hover:bg-contrast-accent hover:text-accent"
+        @click="$refs.locale.hasAttribute('data-open') ? $refs.locale.removeAttribute('data-open') : $refs.locale.setAttribute('data-open', '')">
+        <i class="ti ti-world"></i>
+      </button>
+
+      <div class="w-auto translate-x-1/2 context-menu max-h-max right-1/2"
+        @click="$refs.locale.removeAttribute('data-open')">
+
+        <ul>
+          {% for locale in locales %}
+          {% if locale.enabled %}
+          <li>
+            <button type="button"
+              class="block w-full px-4 py-2 text-left hover:bg-contrast-secondary hover:no-underline"
+              @click="document.cookie = `locale={{locale.name}}; expires=${new Date(new Date().getTime()+1000*60*60*24*365).toGMTString()}; path=/`; window.location.reload();">{{ locale.label }}</button>
+          </li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
     <div class="w-0 h-6 border-l border-l-line-tertiary"></div>
 
     <a href="/login"
