@@ -1,11 +1,8 @@
 <div class="grid grid-cols-1 p-3 md:grid-cols-2 wrapper enter">
   <div class="relative md:order-2">
-    <img src="assets/writer.png"
-      alt="Text Generator"
-      class="dark:hidden">
+    <img src="assets/writer.png" alt="Text Generator" class="dark:hidden">
 
-    <img src="assets/writer-dark.png"
-      alt="Text Generator"
+    <img src="assets/writer-dark.png" alt="Text Generator"
       class="hidden dark:block">
 
     <div class="float top-1/2 -left-6 rotate-[15deg]">
@@ -24,22 +21,20 @@
   <div class="flex items-center">
     <div class="w-full max-w-xl p-9">
       <div class="badge">
-        AI Writer
+        {{ d__('theme', 'AI Writer') }}
       </div>
 
       <h3 class="mt-8">
-        Write SEO optimized blogs, sales emails and more...
+        {{ dp__('theme', 'heading', 'Write SEO optimized blogs, sales emails and more...') }}
       </h3>
 
       <p class="mt-3 font-medium md:mt-6 md:text-xl">
-        Achieve superior outcomes in a fraction of the time. At last, a
-        writing tool that you'll genuinely utilize.
+        {{ d__('theme', 'Achieve superior outcomes in a fraction of the time. At last, a writing tool that you\'ll genuinely utilize.') }}
       </p>
 
       <div class="mt-8 md:mt-10">
-        <a href="/#features"
-          class="gap-4 button button-primary">
-          See all features
+        <a href="/#features" class="gap-4 button button-primary">
+          {{ dp__('theme', 'button', 'See all features') }}
 
           <i class="text-2xl ti ti-arrow-right"></i>
         </a>

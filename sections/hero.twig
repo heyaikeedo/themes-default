@@ -1,26 +1,22 @@
 <div class="text-center enter">
   <h1 class="max-w-4xl mx-auto">
-    Transforming ideas into
-    AI generated masterpieces
+    {{ dp__('theme', 'heading', 'Transforming ideas into AI generated masterpieces') }}
   </h1>
 
   <p class="max-w-3xl mx-auto mt-4 md:text-lg lg:text-xl text-secondary">
-    Effortlessly generate high-quality AI-driven content tailored to your needs.
-    Unlock limitless possibilities, save your time and start making money today!
+    {{ d__('theme', 'Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!') }}
   </p>
 
   <div class="mt-10">
     {% if auth_user is defined %}
-    <a href="/app"
-      class="gap-4 button button-primary">
-      Go to app
+    <a href="/app" class="gap-4 button button-primary">
+      {{ dp__('theme', 'button', 'Go to app') }}
 
       <i class="text-2xl ti ti-arrow-right"></i>
     </a>
     {% else %}
-    <a href="/signup"
-      class="gap-4 button button-primary">
-      Get started now
+    <a href="/signup" class="gap-4 button button-primary">
+      {{ dp__('theme', 'button', 'Get started now') }}
 
       <i class="text-2xl ti ti-arrow-right"></i>
     </a>

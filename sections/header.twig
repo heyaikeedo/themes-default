@@ -15,17 +15,23 @@
     <ul class="flex items-center gap-4">
       <li>
         <a href="/#product"
-          class="block px-2 py-1 bg-transparent rounded-lg hover:bg-line-tertiary hover:no-underline">Product</a>
+          class="block px-2 py-1 bg-transparent rounded-lg hover:bg-line-tertiary hover:no-underline">
+          {{ dp__('theme', 'button', 'Product')  }}
+        </a>
       </li>
 
       <li>
         <a href="/#features"
-          class="block px-2 py-1 bg-transparent rounded-lg hover:bg-line-tertiary hover:no-underline">Features</a>
+          class="block px-2 py-1 bg-transparent rounded-lg hover:bg-line-tertiary hover:no-underline">
+          {{ dp__('theme', 'button', 'Featured')  }}
+        </a>
       </li>
 
       <li>
         <a href="/#pricing"
-          class="block px-2 py-1 bg-transparent rounded-lg hover:bg-line-tertiary hover:no-underline">Pricing</a>
+          class="block px-2 py-1 bg-transparent rounded-lg hover:bg-line-tertiary hover:no-underline">
+          {{ dp__('theme', 'button', 'Pricing')  }}
+        </a>
       </li>
     </ul>
   </nav>
@@ -40,8 +46,7 @@
     </mode-switcher>
 
     {% if auth_user is defined %}
-    <div class="relative flex items-center group"
-      x-ref="usermenu"
+    <div class="relative flex items-center group" x-ref="usermenu"
       @click.outside="$el.removeAttribute('data-open')">
 
       <div
@@ -59,8 +64,7 @@
             x-text="`{{ full_name }}`.match(/(\b\S)?/g).join('').slice(0, 2)">{{ full_name[0:2]}}</span>
 
           {% if auth_user.avatar %}
-          <img src="{{ auth_user.avatar }}"
-            alt="{{ full_name }}"
+          <img src="{{ auth_user.avatar }}" alt="{{ full_name }}"
             class="absolute top-0 left-0 object-cover w-full h-full rounded-full">
           {% endif %}
         </div>
@@ -83,8 +87,7 @@
               x-text="`{{ full_name }}`.match(/(\b\S)?/g).join('').slice(0, 2)">{{ full_name[0:2]}}</span>
 
             {% if auth_user.avatar %}
-            <img src="{{ auth_user.avatar }}"
-              alt="{{ full_name }}"
+            <img src="{{ auth_user.avatar }}" alt="{{ full_name }}"
               class="absolute top-0 left-0 object-cover w-full h-full rounded-full">
             {% endif %}
           </div>
@@ -102,7 +105,7 @@
             <a href="/app"
               class="flex items-center gap-2 px-4 py-2 hover:bg-contrast-secondary hover:no-underline">
               <i class="text-2xl ti ti-sparkles"></i>
-              Go to app
+              {{ dp__('theme', 'button', 'Go to app')  }}
             </a>
           </li>
         </ul>
@@ -114,7 +117,7 @@
             <a href="/app/documents"
               class="flex items-center gap-2 px-4 py-2 hover:bg-contrast-secondary hover:no-underline">
               <i class="text-2xl ti ti-files"></i>
-              Documents
+              {{ dp__('theme', 'button', 'Documents')  }}
             </a>
           </li>
 
@@ -122,7 +125,7 @@
             <a href="/app/billing"
               class="flex items-center gap-2 px-4 py-2 hover:bg-contrast-secondary hover:no-underline">
               <i class="text-2xl ti ti-credit-card"></i>
-              Billing
+              {{ dp__('theme', 'button', 'Billing')  }}
             </a>
           </li>
         </ul>
@@ -134,7 +137,7 @@
             <a href="/app/account"
               class="flex items-center gap-2 px-4 py-2 hover:bg-contrast-secondary hover:no-underline">
               <i class="text-2xl ti ti-user-circle"></i>
-              Account
+              {{ dp__('theme', 'button', 'Account')  }}
             </a>
           </li>
 
@@ -142,7 +145,7 @@
             <a href="/logout"
               class="flex items-center gap-2 px-4 py-2 hover:bg-contrast-secondary hover:no-underline">
               <i class="text-2xl ti ti-logout"></i>
-              Logout
+              {{ dp__('theme', 'button', 'Logout')  }}
             </a>
           </li>
         </ul>
@@ -153,12 +156,12 @@
 
     <a href="/login"
       class="hidden button button-outline button-sm sm:inline-flex">
-      Login
+      {{ dp__('theme', 'button', 'Login')  }}
     </a>
 
     <a href="/signup"
       class="h-8 px-2 text-sm button button-sm whitespace-nowrap sm:text-base sm:h-10 sm:px-4">
-      Get Started
+      {{ dp__('theme', 'button', 'Get started')  }}
     </a>
     {% endif %}
   </div>

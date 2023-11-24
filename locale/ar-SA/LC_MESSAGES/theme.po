@@ -1,0 +1,465 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Domain: theme\n"
+
+#: /sections/chat.twig:13
+msgid "AI Chat Bot"
+msgstr ""
+
+#: /sections/chat.twig:17
+msgctxt "heading"
+msgid "That's remarkably human-like and engaging..."
+msgstr ""
+
+#: /sections/chat.twig:21
+msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
+msgstr ""
+
+#: /sections/chat.twig:25
+msgid "Coming soon..."
+msgstr ""
+
+#: /sections/code.twig:12
+msgid "AI Code"
+msgstr ""
+
+#: /sections/code.twig:16
+msgctxt "heading"
+msgid "Ready to write code at the speed of light?"
+msgstr ""
+
+#: /sections/code.twig:20
+msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
+msgstr ""
+
+#: /sections/code.twig:25
+msgctxt "button"
+msgid "Start Generate Code"
+msgstr ""
+
+#: /sections/cta.twig:4
+msgctxt "heading"
+msgid "Ready to level-up?"
+msgstr ""
+
+#: /sections/cta.twig:6
+msgid "See how easy it can be to write amazing content."
+msgstr ""
+
+#: /sections/cta.twig:11
+msgctxt "button"
+msgid "Get Started Now"
+msgstr ""
+
+#: /sections/features.twig:3
+msgctxt "heading"
+msgid "Coolest Features"
+msgstr ""
+
+#: /sections/features.twig:13
+msgctxt "heading"
+msgid "High Quality Code"
+msgstr ""
+
+#: /sections/features.twig:16
+msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
+msgstr ""
+
+#: /sections/features.twig:26
+msgctxt "heading"
+msgid "Modern Technologies"
+msgstr ""
+
+#: /sections/features.twig:29
+msgid "Built with modern technologies for best structure and get maximum performance."
+msgstr ""
+
+#: /sections/features.twig:39
+msgctxt "heading"
+msgid "Friendly UI and UX"
+msgstr ""
+
+#: /sections/features.twig:42
+msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
+msgstr ""
+
+#: /sections/features.twig:52
+msgctxt "heading"
+msgid "Dark Mode"
+msgstr ""
+
+#: /sections/features.twig:55
+msgid "Turn off the light and switch to dark mode your interface with one click."
+msgstr ""
+
+#: /sections/features.twig:65
+msgctxt "heading"
+msgid "Documentation"
+msgstr ""
+
+#: /sections/features.twig:68
+msgid "An all-inclusive learning package seamlessly integrated into our community."
+msgstr ""
+
+#: /sections/features.twig:78
+msgctxt "heading"
+msgid "Payment Gateways"
+msgstr ""
+
+#: /sections/features.twig:81
+msgid "Simplify transactions and boost security with payment gateway solutions."
+msgstr ""
+
+#: /sections/features.twig:91
+msgctxt "heading"
+msgid "AI Generator"
+msgstr ""
+
+#: /sections/features.twig:94
+msgid "Unlock limitless creativity with our AI-powered content generator."
+msgstr ""
+
+#: /sections/features.twig:104
+msgctxt "heading"
+msgid "SEO Friendly"
+msgstr ""
+
+#: /sections/features.twig:107
+msgid "Boost your visibility and reach your audience effectively with AI generated content."
+msgstr ""
+
+#: /sections/features.twig:117
+msgctxt "heading"
+msgid "Advanced Dashboard"
+msgstr ""
+
+#: /sections/features.twig:120
+msgid "Empower your insights and control with our cutting-edge dashboard."
+msgstr ""
+
+#: /sections/features.twig:130
+msgctxt "heading"
+msgid "Custom Templates"
+msgstr ""
+
+#: /sections/features.twig:133
+msgid "Transform your content creation with AI-driven custom templates."
+msgstr ""
+
+#: /sections/features.twig:144
+msgctxt "heading"
+msgid "Login via SM Accounts"
+msgstr ""
+
+#: /sections/features.twig:147
+msgid "Use Facebook or Google accounts as an alternatively access to platform."
+msgstr ""
+
+#: /sections/features.twig:157
+msgctxt "heading"
+msgid "High Quality Support"
+msgstr ""
+
+#: /sections/features.twig:160
+msgid "Our support team is available 24/7 to help you with any questions or concerns."
+msgstr ""
+
+#: /sections/footer.twig:17
+msgid "All rights reserved."
+msgstr ""
+
+#: /sections/footer.twig:28
+#: /sections/header.twig:19
+msgctxt "button"
+msgid "Product"
+msgstr ""
+
+#: /sections/footer.twig:32
+#: /sections/header.twig:33
+msgctxt "button"
+msgid "Pricing"
+msgstr ""
+
+#: /sections/footer.twig:36
+msgctxt "button"
+msgid "FAQ"
+msgstr ""
+
+#: /sections/footer.twig:43
+msgctxt "button"
+msgid "Terms of services"
+msgstr ""
+
+#: /sections/footer.twig:49
+msgctxt "button"
+msgid "Privacy policy"
+msgstr ""
+
+#: /sections/footer.twig:55
+msgctxt "button"
+msgid "Refund policy"
+msgstr ""
+
+#: /sections/generators.twig:3
+msgctxt "heading"
+msgid "Meet your ultimate"
+msgstr ""
+
+#: /sections/generators.twig:6
+msgctxt "heading"
+msgid "AI-Powered Content Platform"
+msgstr ""
+
+#: /sections/header.twig:26
+msgctxt "button"
+msgid "Featured"
+msgstr ""
+
+#: /sections/header.twig:108
+#: /sections/hero.twig:13
+msgctxt "button"
+msgid "Go to app"
+msgstr ""
+
+#: /sections/header.twig:120
+msgctxt "button"
+msgid "Documents"
+msgstr ""
+
+#: /sections/header.twig:128
+msgctxt "button"
+msgid "Billing"
+msgstr ""
+
+#: /sections/header.twig:140
+msgctxt "button"
+msgid "Account"
+msgstr ""
+
+#: /sections/header.twig:148
+msgctxt "button"
+msgid "Logout"
+msgstr ""
+
+#: /sections/header.twig:159
+msgctxt "button"
+msgid "Login"
+msgstr ""
+
+#: /sections/header.twig:164
+#: /sections/pricing.twig:92
+msgctxt "button"
+msgid "Get started"
+msgstr ""
+
+#: /sections/hero.twig:3
+msgctxt "heading"
+msgid "Transforming ideas into AI generated masterpieces"
+msgstr ""
+
+#: /sections/hero.twig:7
+msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
+msgstr ""
+
+#: /sections/hero.twig:19
+msgctxt "button"
+msgid "Get started now"
+msgstr ""
+
+#: /sections/how-it-works.twig:3
+msgctxt "heading"
+msgid "How it works"
+msgstr ""
+
+#: /sections/how-it-works.twig:13
+msgctxt "heading"
+msgid "Choose Template"
+msgstr ""
+
+#: /sections/how-it-works.twig:16
+msgid "Choose a our built in templates or create your own."
+msgstr ""
+
+#: /sections/how-it-works.twig:26
+msgctxt "heading"
+msgid "Describe"
+msgstr ""
+
+#: /sections/how-it-works.twig:29
+msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
+msgstr ""
+
+#: /sections/how-it-works.twig:39
+msgctxt "heading"
+msgid "Generate"
+msgstr ""
+
+#: /sections/how-it-works.twig:42
+msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
+msgstr ""
+
+#: /sections/image.twig:5
+msgid "AI Image"
+msgstr ""
+
+#: /sections/image.twig:9
+msgctxt "heading"
+msgid "Visualize what you dream of. Create images from text."
+msgstr ""
+
+#: /sections/image.twig:13
+msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
+msgstr ""
+
+#: /sections/image.twig:18
+msgctxt "button"
+msgid "Try for free"
+msgstr ""
+
+#: /sections/presets.twig:9
+msgid "100+ AI Writer Templates"
+msgstr ""
+
+#: /sections/presets.twig:14
+msgctxt "heading"
+msgid "What can aikeedo write for you?"
+msgstr ""
+
+#: /sections/presets.twig:18
+msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer's block forever."
+msgstr ""
+
+#: /sections/presets.twig:23
+msgctxt "button"
+msgid "Get Started for Free"
+msgstr ""
+
+#: /sections/pricing.twig:4
+msgctxt "heading"
+msgid "Pricing"
+msgstr ""
+
+#: /sections/pricing.twig:7
+msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
+msgstr ""
+
+#: /sections/pricing.twig:20
+msgctxt "button"
+msgid "Monthly"
+msgstr ""
+
+#: /sections/pricing.twig:29
+msgctxt "button"
+msgid "Yearly"
+msgstr ""
+
+#: /sections/pricing.twig:38
+msgctxt "button"
+msgid "Packs"
+msgstr ""
+
+#: /sections/pricing.twig:70
+msgid "Most Popular"
+msgstr ""
+
+#: /sections/pricing.twig:99
+msgid "Access to templates is disabled"
+msgstr ""
+
+#: /sections/pricing.twig:102
+msgid "Access to all templates"
+msgstr ""
+
+#: /sections/pricing.twig:109
+msgid "Unlimited tokens"
+msgstr ""
+
+#: /sections/pricing.twig:113
+msgid "No token credits"
+msgstr ""
+
+#: /sections/pricing.twig:118
+msgid "%s tokens"
+msgstr ""
+
+#: /sections/pricing.twig:125
+msgid "Unlimited images"
+msgstr ""
+
+#: /sections/pricing.twig:129
+msgid "No image credit"
+msgstr ""
+
+#: /sections/pricing.twig:134
+msgid "%s images"
+msgstr ""
+
+#: /sections/pricing.twig:141
+msgid "Unlimited audio seconds"
+msgstr ""
+
+#: /sections/pricing.twig:145
+msgid "No audio credit"
+msgstr ""
+
+#: /sections/pricing.twig:150
+msgid "%s audio seconds"
+msgstr ""
+
+#: /sections/pricing.twig:157
+msgid "Priority support"
+msgstr ""
+
+#: /sections/pricing.twig:160
+msgid "Basic support"
+msgstr ""
+
+#: /sections/speech-to-text.twig:4
+msgid "Speech to Text"
+msgstr ""
+
+#: /sections/speech-to-text.twig:8
+msgctxt "heading"
+msgid "Transforming Spoken <br> Words into Text."
+msgstr ""
+
+#: /sections/speech-to-text.twig:12
+msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
+msgstr ""
+
+#: /sections/speech-to-text.twig:17
+msgctxt "button"
+msgid "Convert now"
+msgstr ""
+
+#: /sections/text-to-voice.twig:4
+msgid "Text to Voice"
+msgstr ""
+
+#: /sections/text-to-voice.twig:8
+msgctxt "heading"
+msgid "Convert your texts into <br> Lifelike Speech"
+msgstr ""
+
+#: /sections/text-to-voice.twig:12
+msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
+msgstr ""
+
+#: /sections/writer.twig:24
+msgid "AI Writer"
+msgstr ""
+
+#: /sections/writer.twig:28
+msgctxt "heading"
+msgid "Write SEO optimized blogs, sales emails and more..."
+msgstr ""
+
+#: /sections/writer.twig:32
+msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
+msgstr ""
+
+#: /sections/writer.twig:37
+msgctxt "button"
+msgid "See all features"
+msgstr ""

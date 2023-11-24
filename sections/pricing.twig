@@ -1,11 +1,10 @@
 {% from '@theme/macros/human-readable.twig' import human_readable %}
 <div x-data="pricing" id="pricing">
   <div class="text-center">
-    <h2>Pricing</h2>
+    <h2>{{ dp__('theme', 'heading', 'Pricing') }}</h2>
 
     <p class="max-w-md mx-auto mt-6">
-      Discover the perfect plan to suit your needs and unlock a world of
-      possibilities.
+      {{ d__('theme', 'Discover the perfect plan to suit your needs and unlock a world of possibilities.')  }}
     </p>
   </div>
 
@@ -17,7 +16,8 @@
         data-cycle="monthly" :class="{
           'bg-contrast-primary': cycle=='monthly',
           'shadow': cycle=='monthly'
-        }" @click="cycle='monthly'">Monthly</button>
+        }"
+        @click="cycle='monthly'">{{ dp__('theme', 'button', 'Monthly') }}</button>
       {% endif %}
 
       {% if plans|filter(p => p.billing_cycle == 'yearly')|length > 0 %}
@@ -25,7 +25,8 @@
         data-cycle="yearly" :class="{
           'bg-contrast-primary': cycle=='yearly',
           'shadow': cycle=='yearly'
-        }" @click="cycle='yearly'">Yearly</button>
+        }"
+        @click="cycle='yearly'">{{ dp__('theme', 'button', 'Yearly') }}</button>
       {% endif %}
 
       {% if plans|filter(p => p.billing_cycle == 'one-time')|length > 0 %}
@@ -33,7 +34,8 @@
         data-cycle="one-time" :class="{
           'bg-contrast-primary': cycle=='one-time',
           'shadow': cycle=='one-time'
-        }" @click="cycle='one-time'">Packs</button>
+        }"
+        @click="cycle='one-time'">{{ dp__('theme', 'button', 'Packs') }}</button>
       {% endif %}
     </div>
   </div>
@@ -65,7 +67,7 @@
             <div
               class="p-0.5 rounded-lg bg-[#E7FF9B] flex bg-gradient-to-br from-[#E7FF9B] to-[#CFE6FF] font-bold relative text-accent">
               <span class="bg-[#E7FF9B] rounded-md py-1 px-2">
-                Most Popular
+                {{ d__('theme', 'Most Popular') }}
               </span>
             </div>
 
@@ -87,69 +89,75 @@
         </div>
 
         <a href="/app/billing/checkout/{{ plan.id }}" class="flex mt-8 button">
-          Get started
+          {{ dp__('theme', 'button', 'Get started') }}
         </a>
 
         <ul class="flex flex-col gap-4 mt-12">
           <li class="flex items-center gap-2 font-semibold">
             {% if plan.token_credit == 0 and plan.token_credit is not null %}
             <i class="text-2xl ti ti-square-rounded-x text-tertiary"></i>
-            Access to templates is disabled
+            {{ d__('theme', 'Access to templates is disabled') }}
             {% else %}
             <i class="text-2xl ti ti-square-rounded-check-filled"></i>
-            Access to all templates
+            {{ d__('theme', 'Access to all templates') }}
             {% endif %}
           </li>
 
           <li class="flex items-center gap-2 font-semibold">
             {% if plan.token_credit is null %}
             <i class="text-2xl ti ti-square-rounded-check-filled"></i>
-            Unlimited tokens
+            {{ d__('theme', 'Unlimited tokens') }}
             {% elseif plan.token_credit == 0 %}
             <i class="text-2xl ti ti-square-rounded-x text-tertiary"></i>
-            <span class="text-tertiary">No token credits</span>
+            <span class="text-tertiary">
+              {{ d__('theme', 'No token credits')  }}
+            </span>
             {% else %}
             <i class="text-2xl ti ti-square-rounded-check-filled"></i>
-            {{ human_readable(plan.token_credit) }}
-            tokens
+
+            {{ d__('theme', '%s tokens', human_readable(plan.token_credit))| raw }}
             {% endif %}
           </li>
 
           <li class="flex items-center gap-2 font-semibold">
             {% if plan.image_credit is null %}
             <i class="text-2xl ti ti-square-rounded-check-filled"></i>
-            Unlimited images
+            {{ d__('theme', 'Unlimited images') }}
             {% elseif plan.image_credit == 0 %}
             <i class="text-2xl ti ti-square-rounded-x text-tertiary"></i>
-            <span class="text-tertiary">No image credit</span>
+            <span class="text-tertiary">
+              {{ d__('theme', 'No image credit') }}
+            </span>
             {% else %}
             <i class="text-2xl ti ti-square-rounded-check-filled"></i>
-            {{ human_readable(plan.image_credit) }}
-            images
+
+            {{ d__('theme', '%s images', human_readable(plan.image_credit))| raw }}
             {% endif %}
           </li>
 
           <li class="flex items-center gap-2 font-semibold">
             {% if plan.audio_credit is null %}
             <i class="text-2xl ti ti-square-rounded-check-filled"></i>
-            Unlimited audio seconds
+            {{ d__('theme', 'Unlimited audio seconds') }}
             {% elseif plan.audio_credit == 0 %}
             <i class="text-2xl ti ti-square-rounded-x text-tertiary"></i>
-            <span class="text-tertiary">No audio credit</span>
+            <span class="text-tertiary">
+              {{ d__('theme', 'No audio credit') }}
+            </span>
             {% else %}
             <i class="text-2xl ti ti-square-rounded-check-filled"></i>
-            {{ human_readable(plan.audio_credit) }}
-            audio seconds
+
+            {{ d__('theme', '%s audio seconds', human_readable(plan.audio_credit))| raw }}
             {% endif %}
           </li>
 
           <li class="flex items-center gap-2 font-semibold">
             {% if plan.price > 0  %}
             <i class="text-2xl ti ti-square-rounded-check-filled"></i>
-            Priority support
+            {{ d__('theme', 'Priority support')  }}
             {% else %}
             <i class="text-2xl ti ti-square-rounded-check-filled"></i>
-            Basic support
+            {{ d__('theme', 'Basic support')  }}
             {% endif %}
           </li>
 
