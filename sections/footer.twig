@@ -1,3 +1,16 @@
+{% set copyright %}
+<div class="text-sm">
+  &copy; {{ 'now' | date('Y') }}
+  {{ d__('theme', 'All rights reserved.') }}
+
+  {% if option.business.name is defined and option.business.name is not empty %}
+  <strong>{{ option.business.name }}</strong>
+  {% elseif option.site.name is defined and option.site.name is not empty %}
+  <strong>{{ option.site.name }}</strong>
+  {% endif %}
+</div>
+{% endset %}
+
 <footer class="mb-10 xl:mb-28 wrapper enter">
   <div class="p-12 bg-contrast-secondary">
     <div class="items-start justify-between gap-20 md:flex">
@@ -5,7 +18,7 @@
         <img
           src="{{ option.brand.alternative_logo_dark ?? option.brand.logo_dark ?? '/assets/logo-light.svg' }}"
           alt="{{ option.site.name ?? 'Logo'  }}"
-          class="hidden group-data-[mode=dark]/html:block  max-w-[140px]">
+          class="hidden group-data-[mode=dark]/html:block max-w-[140px]">
 
         <img
           src="{{ option.brand.alternative_logo ?? option.brand.logo ?? '/assets/logo-dark.svg' }}"
@@ -13,11 +26,12 @@
           class="block group-data-[mode=dark]/html:hidden  max-w-[140px]">
 
         <div class="mt-6">
-          &copy; {{ 'now' | date('Y') }}
-          {{ d__('theme', 'All rights reserved.') }}
-
-          {% if option.site.name is defined %}
-          <strong>{{ option.site.name }}</strong>
+          {% if option.business is not defined and option.links is not defined %}
+          {{ copyright }}
+          {% elseif option.business.address is defined and option.business.address is not empty %}
+          <address class="not-italic">
+            {{ option.business.address|nl2br }}
+          </address>
           {% endif %}
         </div>
       </div>
@@ -58,5 +72,27 @@
         </ul>
       </nav>
     </div>
+
+    {% if option.business is defined or option.links is defined %}
+    <div
+      class="items-center justify-between gap-20 mt-12 md:flex text-secondary">
+      {{ copyright }}
+
+      <ul class="flex items-center gap-4 mt-6 md:mt-0">
+        {% set links = ['x', 'facebook', 'instagram', 'tiktok', 'discord', 'linkedin', 'youtube', 'github'] %}
+
+        {% for link in links %}
+        {% if option.links[link] is defined and option.links[link] is not empty  %}
+        <li>
+          <a href="{{ option.links[link]|e('html_attr') }}" target="_blank"
+            class="transition-all hover:no-underline hover:text-primary">
+            <i class="text-lg ti ti-brand-{{ link }}"></i>
+          </a>
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
   </div>
 </footer>
