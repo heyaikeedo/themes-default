@@ -1,34 +1,23 @@
 <!doctype html>
-<html
-  lang="{{ auth_user is defined and auth_user.language ? auth_user.language : 'en-US' }}"
-  data-mode="light"
-  class="group/html">
+<html lang="{{ theme_locale ?? 'en-US' }}" data-mode="light" class="group/html">
 
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible"
-    content="IE=edge">
-  <meta name="viewport"
-    content="width=device-width,initial-scale=1">
-  <meta name="theme-color"
-    content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="">
 
   <base href="themes/default/">
 
-  <link rel="icon"
-    type="image/x-icon"
+  <link rel="icon" type="image/x-icon"
     href="{{ option.brand.favicon ?? 'assets/favicon.ico' }}">
 
   <link rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.34.0/tabler-icons.min.css" />
-  <link rel="stylesheet"
-    href="assets/theme.css?v={{ version }}">
+  <link rel="stylesheet" href="assets/theme.css?v={{ version }}">
 
-  <link rel="preconnect"
-    href="https://fonts.googleapis.com">
-  <link rel="preconnect"
-    href="https://fonts.gstatic.com"
-    crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Serif:wght@100;300;400;500;600;700&display=swap"
     rel="stylesheet">

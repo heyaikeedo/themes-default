@@ -168,9 +168,11 @@
           {% for locale in locales %}
           {% if locale.enabled %}
           <li>
-            <button type="button"
+            <a href="/{{ locale.name }}"
               class="block w-full px-4 py-2 text-left hover:bg-contrast-secondary hover:no-underline"
-              @click="document.cookie = `locale={{locale.name}}; expires=${new Date(new Date().getTime()+1000*60*60*24*365).toGMTString()}; path=/`; window.location.reload();">{{ locale.label }}</button>
+              @click="document.cookie = `locale={{locale.name}}; expires=${new Date(new Date().getTime()+1000*60*60*24*365).toGMTString()}; path=/`;">
+              {{ locale.label }}
+            </a>
           </li>
           {% endif %}
           {% endfor %}
