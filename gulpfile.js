@@ -43,9 +43,9 @@ gulp.task('css', () => {
             require("tailwindcss")('./tailwind.config.js')
         ]));
 
-    if (process.env.NODE_ENV === `production`) {
-        x = x.pipe(require('gulp-clean-css')({ compatibility: 'ie8' }))
-    }
+    // if (process.env.NODE_ENV === `production`) {
+    //     x = x.pipe(require('gulp-clean-css')({ compatibility: '*' }))
+    // }
 
     return x.pipe(sourcemaps.write('.'))
         .pipe(gulp.dest(`${root}/assets/`));
