@@ -31,7 +31,7 @@ gulp.task('css', () => {
     const postcss = require('gulp-postcss')
     const sourcemaps = require('gulp-sourcemaps')
 
-    return gulp.src('./assets/css/index.css')
+    let x = gulp.src('./assets/css/index.css')
         .pipe(require('gulp-rename')('theme.css'))
         .pipe(sourcemaps.init())
         .pipe(postcss([
@@ -41,9 +41,14 @@ gulp.task('css', () => {
         ]))
         .pipe(postcss([
             require("tailwindcss")('./tailwind.config.js')
-        ]))
-        .pipe(sourcemaps.write('.'))
-        .pipe(gulp.dest(`${root}/assets/`))
+        ]));
+
+    if (process.env.NODE_ENV === `production`) {
+        x = x.pipe(require('gulp-clean-css')({ compatibility: 'ie8' }))
+    }
+
+    return x.pipe(sourcemaps.write('.'))
+        .pipe(gulp.dest(`${root}/assets/`));
 })
 
 gulp.task(`js`, () => {
