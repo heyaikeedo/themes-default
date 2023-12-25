@@ -43,19 +43,19 @@
     }
 
     &:nth-child(1) > div {
-      background-image: url('images1.png');
+      background-image: url('images1.webp');
     }
 
     &:nth-child(2) > div {
-      background-image: url('images2.png');
+      background-image: url('images2.webp');
     }
 
     &:nth-child(3) > div {
-      background-image: url('images3.png');
+      background-image: url('images3.webp');
     }
 
     &:nth-child(4) > div {
-      background-image: url('images4.png');
+      background-image: url('images4.webp');
     }
 
     &:last-child {

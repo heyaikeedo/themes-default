@@ -80,6 +80,8 @@ gulp.task(`build`, gulp.series(`assets`, `css`, `js`));
 gulp.task(`watch`, (done) => {
     process.env.NODE_ENV = `development`;
 
+    gulp.series(`assets`, `css`, `js`)
+
     gulp.watch(assets, gulp.series(`assets`));
     gulp.watch([`./tailwind.config.js`, `./**/*.twig`, `./assets/**/*`], gulp.series(`css`));
     gulp.watch([`./assets/js/**/*`], gulp.series(`js`));

@@ -85,7 +85,8 @@
         {% if option.links[link] is defined and option.links[link] is not empty  %}
         <li>
           <a href="{{ option.links[link]|e('html_attr') }}" target="_blank"
-            class="transition-all hover:no-underline hover:text-primary">
+            class="transition-all hover:no-underline hover:text-primary"
+            aria-label="{{ link|capitalize }}">
             <i class="text-lg ti ti-brand-{{ link }}"></i>
           </a>
         </li>
