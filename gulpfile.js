@@ -52,22 +52,28 @@ gulp.task('css', () => {
 })
 
 gulp.task(`js`, () => {
+    let plugins = [
+        require('@rollup/plugin-node-resolve')({
+            browser: true
+        }),
+        require('@rollup/plugin-commonjs')({
+            transformMixedEsModules: true
+        }),
+        require('@rollup/plugin-babel')({ babelHelpers: 'bundled' }),
+        require('@rollup/plugin-replace')({
+            "process.env.NODE_ENV": JSON.stringify(process.env.NODE_ENV),
+            preventAssignment: true
+        }),
+    ];
+
+    if (process.env.NODE_ENV === `production`) {
+        plugins.push(require('@rollup/plugin-terser')());
+    }
+
     return require('rollup')
         .rollup({
             input: `./assets/js/index.js`,
-            plugins: [
-                require('@rollup/plugin-node-resolve')({
-                    browser: true
-                }),
-                require('@rollup/plugin-commonjs')({
-                    transformMixedEsModules: true
-                }),
-                require('@rollup/plugin-babel')({ babelHelpers: 'bundled' }),
-                require('@rollup/plugin-replace')({
-                    "process.env.NODE_ENV": JSON.stringify(process.env.NODE_ENV),
-                    preventAssignment: true
-                }),
-            ],
+            plugins: plugins,
             context: 'window',
         })
         .then(bundle => {
