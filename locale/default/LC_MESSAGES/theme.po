@@ -19,20 +19,20 @@ msgstr ""
 msgid "Coming soon..."
 msgstr ""
 
-#: /sections/code.twig:12
+#: /sections/code.twig:13
 msgid "AI Code"
 msgstr ""
 
-#: /sections/code.twig:16
+#: /sections/code.twig:17
 msgctxt "heading"
 msgid "Ready to write code at the speed of light?"
 msgstr ""
 
-#: /sections/code.twig:20
+#: /sections/code.twig:21
 msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
 msgstr ""
 
-#: /sections/code.twig:25
+#: /sections/code.twig:26
 msgctxt "button"
 msgid "Start Generate Code"
 msgstr ""
@@ -164,38 +164,38 @@ msgstr ""
 msgid "Our support team is available 24/7 to help you with any questions or concerns."
 msgstr ""
 
-#: /sections/footer.twig:17
+#: /sections/footer.twig:4
 msgid "All rights reserved."
 msgstr ""
 
-#: /sections/footer.twig:28
+#: /sections/footer.twig:42
 #: /sections/header.twig:19
 msgctxt "button"
 msgid "Product"
 msgstr ""
 
-#: /sections/footer.twig:32
+#: /sections/footer.twig:46
 #: /sections/header.twig:33
 msgctxt "button"
 msgid "Pricing"
 msgstr ""
 
-#: /sections/footer.twig:36
+#: /sections/footer.twig:50
 msgctxt "button"
 msgid "FAQ"
 msgstr ""
 
-#: /sections/footer.twig:43
+#: /sections/footer.twig:57
 msgctxt "button"
 msgid "Terms of services"
 msgstr ""
 
-#: /sections/footer.twig:49
+#: /sections/footer.twig:63
 msgctxt "button"
 msgid "Privacy policy"
 msgstr ""
 
-#: /sections/footer.twig:55
+#: /sections/footer.twig:69
 msgctxt "button"
 msgid "Refund policy"
 msgstr ""
@@ -215,38 +215,38 @@ msgctxt "button"
 msgid "Featured"
 msgstr ""
 
-#: /sections/header.twig:108
+#: /sections/header.twig:109
 #: /sections/hero.twig:13
 msgctxt "button"
 msgid "Go to app"
 msgstr ""
 
-#: /sections/header.twig:120
+#: /sections/header.twig:121
 msgctxt "button"
 msgid "Documents"
 msgstr ""
 
-#: /sections/header.twig:128
+#: /sections/header.twig:129
 msgctxt "button"
 msgid "Billing"
 msgstr ""
 
-#: /sections/header.twig:140
+#: /sections/header.twig:141
 msgctxt "button"
 msgid "Account"
 msgstr ""
 
-#: /sections/header.twig:148
+#: /sections/header.twig:149
 msgctxt "button"
 msgid "Logout"
 msgstr ""
 
-#: /sections/header.twig:159
+#: /sections/header.twig:189
 msgctxt "button"
 msgid "Login"
 msgstr ""
 
-#: /sections/header.twig:164
+#: /sections/header.twig:194
 #: /sections/pricing.twig:92
 msgctxt "button"
 msgid "Get started"
@@ -322,7 +322,7 @@ msgstr ""
 
 #: /sections/presets.twig:14
 msgctxt "heading"
-msgid "What can aikeedo write for you?"
+msgid "What can Writing Assistant create for you?"
 msgstr ""
 
 #: /sections/presets.twig:18
@@ -445,20 +445,20 @@ msgstr ""
 msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
 msgstr ""
 
-#: /sections/writer.twig:24
+#: /sections/writer.twig:25
 msgid "AI Writer"
 msgstr ""
 
-#: /sections/writer.twig:28
+#: /sections/writer.twig:29
 msgctxt "heading"
 msgid "Write SEO optimized blogs, sales emails and more..."
 msgstr ""
 
-#: /sections/writer.twig:32
+#: /sections/writer.twig:33
 msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
 msgstr ""
 
-#: /sections/writer.twig:37
+#: /sections/writer.twig:38
 msgctxt "button"
 msgid "See all features"
 msgstr ""
