@@ -1,5 +1,7 @@
 <!doctype html>
-<html lang="{{ theme_locale ?? 'en-US' }}" data-mode="light" class="group/html">
+<html lang="{{ theme_locale ?? 'en-US' }}"
+  data-color-scheme="{{ (option.color_scheme ?? {})|json_encode|raw|e("html_attr") }}"
+  class="group/html">
 
 <head>
   <meta charset="utf-8">
@@ -129,11 +131,33 @@
 
   <script>
     window.currency = JSON.parse('{{currency|json_encode|raw}}');
+  </script>
 
-    if (!('mode' in localStorage) || ['dark', 'light'].indexOf(localStorage.mode) === -1) {
+  <script>
+    let scheme = {
+      ...{
+        modes: ['light', 'dark'],
+        default: 'system',
+      },
+      ...JSON.parse(document.documentElement.dataset.colorScheme),
+    };
+
+    if (scheme.modes.length > 1) {
+      if (!('mode' in localStorage) || scheme.modes.indexOf(localStorage.mode) === -1) {
+        if (scheme.default === 'system') {
+          localStorage.mode = window.matchMedia('(prefers-color-scheme: dark)').matches
+            ? 'dark'
+            : 'light';
+        } else {
+          localStorage.mode = scheme.default;
+        }
+      }
+    } else if (scheme.modes.length === 1) {
+      localStorage.mode = scheme.modes[0];
+    } else {
       localStorage.mode = window.matchMedia('(prefers-color-scheme: dark)').matches
         ? 'dark'
-        : document.documentElement.dataset.mode;
+        : 'light';
     }
 
     document.documentElement.dataset.mode = localStorage.mode;

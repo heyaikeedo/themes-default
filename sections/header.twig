@@ -37,6 +37,7 @@
   </nav>
 
   <div class="flex items-center gap-2 ml-auto sm:gap-4">
+    {% if option.color_scheme.modes is not defined or option.color_scheme.modes|length > 1 %}
     <mode-switcher>
       <button
         class="flex items-center justify-center w-10 h-10 text-2xl rounded-full bg-line-tertiary hover:bg-contrast-accent hover:text-accent"
@@ -45,6 +46,7 @@
         <i class="ti ti-sun hidden group-data-[mode=dark]/html:block"></i>
       </button>
     </mode-switcher>
+    {% endif %}
 
     {% if auth_user is defined %}
     <div class="relative flex items-center group" x-ref="usermenu"
