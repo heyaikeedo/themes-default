@@ -1,4 +1,3 @@
-{% from '@theme/macros/human-readable.twig' import human_readable %}
 <div x-data="pricing" id="pricing">
   <div class="text-center">
     <h2>{{ dp__('theme', 'heading', 'Pricing') }}</h2>
@@ -82,9 +81,11 @@
         {% endif %}
 
         <div class="mt-8">
-          {% set price = plan.price / 10 ** currency.fraction_digits %}
-          <span
-            class="text-4xl font-bold">{{ price | format_currency(currency.code, {max_fraction_digit:currency.fraction_digits, fraction_digit:0}) }}</span>
+          <data class="text-4xl money" is="x-money" value="{{ plan.price }}"
+            currency="{{ currency.code }}"
+            minor-units="{{ currency.fraction_digits }}" fraction="auto">
+          </data>
+
           <span class="text-tertiary">/{{ plan.billing_cycle }}</span>
         </div>
 
@@ -94,7 +95,7 @@
 
         <ul class="flex flex-col gap-4 mt-12">
           <li class="flex items-center gap-2 font-semibold">
-            {% if plan.token_credit == 0 and plan.token_credit is not null %}
+            {% if plan.credit_count == 0 and plan.credit_count is not null %}
             <i class="text-2xl ti ti-square-rounded-x text-tertiary"></i>
             {{ d__('theme', 'Access to templates is disabled') }}
             {% else %}
@@ -104,51 +105,10 @@
           </li>
 
           <li class="flex items-center gap-2 font-semibold">
-            {% if plan.token_credit is null %}
-            <i class="text-2xl ti ti-square-rounded-check-filled"></i>
-            {{ d__('theme', 'Unlimited tokens') }}
-            {% elseif plan.token_credit == 0 %}
-            <i class="text-2xl ti ti-square-rounded-x text-tertiary"></i>
-            <span class="text-tertiary">
-              {{ d__('theme', 'No token credits')  }}
-            </span>
-            {% else %}
             <i class="text-2xl ti ti-square-rounded-check-filled"></i>
 
-            {{ d__('theme', '%s tokens', human_readable(plan.token_credit))| raw }}
-            {% endif %}
-          </li>
-
-          <li class="flex items-center gap-2 font-semibold">
-            {% if plan.image_credit is null %}
-            <i class="text-2xl ti ti-square-rounded-check-filled"></i>
-            {{ d__('theme', 'Unlimited images') }}
-            {% elseif plan.image_credit == 0 %}
-            <i class="text-2xl ti ti-square-rounded-x text-tertiary"></i>
-            <span class="text-tertiary">
-              {{ d__('theme', 'No image credit') }}
-            </span>
-            {% else %}
-            <i class="text-2xl ti ti-square-rounded-check-filled"></i>
-
-            {{ d__('theme', '%s images', human_readable(plan.image_credit))| raw }}
-            {% endif %}
-          </li>
-
-          <li class="flex items-center gap-2 font-semibold">
-            {% if plan.audio_credit is null %}
-            <i class="text-2xl ti ti-square-rounded-check-filled"></i>
-            {{ d__('theme', 'Unlimited audio seconds') }}
-            {% elseif plan.audio_credit == 0 %}
-            <i class="text-2xl ti ti-square-rounded-x text-tertiary"></i>
-            <span class="text-tertiary">
-              {{ d__('theme', 'No audio credit') }}
-            </span>
-            {% else %}
-            <i class="text-2xl ti ti-square-rounded-check-filled"></i>
-
-            {{ d__('theme', '%s audio seconds', human_readable(plan.audio_credit))| raw }}
-            {% endif %}
+            <data is="x-credit" value="{{ plan.credit_count }}"
+              format="{{ __(":count credits") }}"></data>
           </li>
 
           <li class="flex items-center gap-2 font-semibold">

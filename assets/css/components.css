@@ -33,3 +33,9 @@ a {
   @apply font-bold py-1 px-2 rounded-lg border-2 border-current bg-contrast-secondary inline-flex text-sm md:text-base;
   box-shadow: 2px 2px 0px 1px currentcolor;
 }
+
+.money {
+  & [data-type='fraction'] {
+    @apply align-super text-base;
+  }
+}
