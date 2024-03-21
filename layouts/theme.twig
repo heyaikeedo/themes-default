@@ -9,14 +9,12 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="">
 
-  <base href="themes/default/">
-
   <link rel="icon" type="image/x-icon"
-    href="{{ option.brand.favicon ?? 'assets/favicon.ico' }}">
+    href="{{ option.brand.favicon ?? ('favicon.ico' | asset_url) }}">
 
   <link rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.34.0/tabler-icons.min.css" />
-  <link rel="stylesheet" href="assets/theme.css?v={{ version }}">
+  <link rel="stylesheet" href="{{ 'theme.css' | asset_url }}">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -175,7 +173,7 @@
     {% include "@theme/sections/footer.twig" %}
   </div>
 
-  <script src="assets/theme.js?v={{ version }}"></script>
+  <script src="{{ 'theme.js' | asset_url }}"></script>
 </body>
 
 </html>

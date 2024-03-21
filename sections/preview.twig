@@ -1,9 +1,9 @@
 <div class="wrapper enter">
-  <img src="assets/preview.webp" alt="Application preview" width="2400"
-    height="1480" class="rounded-3xl dark:hidden">
+  <img src="{{ 'preview.webp' | asset_url }}" alt="Application preview"
+    width="2400" height="1480" class="rounded-3xl dark:hidden">
 
-  <img src="assets/preview-dark.webp" alt="Application preview" width="2400"
-    height="1480" class="hidden rounded-3xl dark:block">
+  <img src="{{ 'preview-dark.webp' | asset_url }}" alt="Application preview"
+    width="2400" height="1480" class="hidden rounded-3xl dark:block">
 
   <div class="float -top-3 -left-6 -rotate-[15deg]">
     <span class="icon shadow-right text-[#30C862]">
