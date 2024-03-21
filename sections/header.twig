@@ -48,7 +48,7 @@
     </mode-switcher>
     {% endif %}
 
-    {% if auth_user is defined %}
+    {% if user is defined %}
     <div class="relative flex items-center group" x-ref="usermenu"
       @click.outside="$el.removeAttribute('data-open')">
 
@@ -60,14 +60,14 @@
         class="flex items-center gap-2 px-4 py-2 rounded-lg hover:bg-contrast-secondary group-data-[open]:bg-contrast-secondary"
         @click="$refs.usermenu.hasAttribute('data-open') ? $refs.usermenu.removeAttribute('data-open') : $refs.usermenu.setAttribute('data-open', '')">
 
-        {% set full_name = auth_user.first_name ~ " " ~ auth_user.last_name %}
+        {% set full_name = user.first_name ~ " " ~ user.last_name %}
         <div
           class="relative flex items-center justify-center w-10 h-10 text-xs font-bold uppercase rounded-full bg-contrast-accent text-accent shrink-0">
           <span
             x-text="`{{ full_name }}`.match(/(\b\S)?/g).join('').slice(0, 2)">{{ full_name[0:2]}}</span>
 
-          {% if auth_user.avatar %}
-          <img src="{{ auth_user.avatar }}" alt="{{ full_name }}"
+          {% if user.avatar %}
+          <img src="{{ user.avatar }}" alt="{{ full_name }}"
             class="absolute top-0 left-0 object-cover w-full h-full rounded-full">
           {% endif %}
         </div>
@@ -89,8 +89,8 @@
             <span
               x-text="`{{ full_name }}`.match(/(\b\S)?/g).join('').slice(0, 2)">{{ full_name[0:2]}}</span>
 
-            {% if auth_user.avatar %}
-            <img src="{{ auth_user.avatar }}" alt="{{ full_name }}"
+            {% if user.avatar %}
+            <img src="{{ user.avatar }}" alt="{{ full_name }}"
               class="absolute top-0 left-0 object-cover w-full h-full rounded-full">
             {% endif %}
           </div>
@@ -98,7 +98,7 @@
           <div class="max-w-[154px]">
             <div class="font-bold truncate">{{ full_name }}</div>
             <div class="mt-1 text-sm truncate text-tertiary">
-              {{ auth_user.email }}</div>
+              {{ user.email }}</div>
           </div>
         </a>
 
