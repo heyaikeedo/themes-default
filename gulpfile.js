@@ -15,6 +15,7 @@ process.env.NODE_ENV = `production`;
 const root = options.path;
 
 let assets = [
+    `./composer.json`,
     `./*/**/*`,
     `!./node_modules/**/*`,
     `!./assets/**/*.css`, // CSS files
