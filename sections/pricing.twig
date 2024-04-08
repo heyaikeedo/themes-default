@@ -94,6 +94,89 @@
         </a>
 
         <ul class="flex flex-col gap-4 mt-12">
+          {% if option.features.writer.is_enabled is defined and option.features.writer.is_enabled %}
+          <li
+            class="flex items-center gap-2 font-semibold {{ plan.config.writer.is_enabled ? '' : 'text-tertiary' }}">
+            {% if plan.config.writer.is_enabled %}
+            <i class="text-2xl ti ti-square-rounded-check-filled"></i>
+            {% else %}
+            <i class="text-2xl ti ti-square-rounded-x"></i>
+            {% endif %}
+
+            {{ d__('theme', 'Writer') }}
+
+            {% if plan.config.writer.is_enabled %}
+            <div
+              class="p-0.5 rounded-lg bg-[#E7FF9B] flex bg-gradient-to-br from-[#E7FF9B] to-[#CFE6FF] font-bold relative text-accent">
+              <span class="bg-[#E7FF9B] rounded-md py-1 px-2 text-xs">
+                {{ 'gpt-4' in plan.config.writer.model ? 'GPT 4' : 'GPT 3.5' }}
+              </span>
+            </div>
+            {% endif %}
+          </li>
+          {% endif %}
+
+          {% if option.features.coder.is_enabled is defined and option.features.coder.is_enabled %}
+          <li
+            class="flex items-center gap-2 font-semibold {{ plan.config.coder.is_enabled ? '' : 'text-tertiary' }}">
+            {% if plan.config.coder.is_enabled %}
+            <i class="text-2xl ti ti-square-rounded-check-filled"></i>
+            {% else %}
+            <i class="text-2xl ti ti-square-rounded-x"></i>
+            {% endif %}
+
+            {{ d__('theme', 'Coding Assistant') }}
+
+            {% if plan.config.coder.is_enabled %}
+            <div
+              class="p-0.5 rounded-lg bg-[#E7FF9B] flex bg-gradient-to-br from-[#E7FF9B] to-[#CFE6FF] font-bold relative text-accent">
+              <span class="bg-[#E7FF9B] rounded-md py-1 px-2 text-xs">
+                {{ 'gpt-4' in plan.config.coder.model ? 'GPT 4' : 'GPT 3.5' }}
+              </span>
+            </div>
+            {% endif %}
+          </li>
+          {% endif %}
+
+          {% if option.features.imagine.is_enabled is defined and option.features.imagine.is_enabled %}
+          <li
+            class="flex items-center gap-2 font-semibold {{ plan.config.imagine.is_enabled ? '' : 'text-tertiary' }}">
+            {% if plan.config.imagine.is_enabled %}
+            <i class="text-2xl ti ti-square-rounded-check-filled"></i>
+            {% else %}
+            <i class="text-2xl ti ti-square-rounded-x"></i>
+            {% endif %}
+
+            {{ d__('theme', 'Image generator') }}
+          </li>
+          {% endif %}
+
+          {% if option.features.transcriber.is_enabled is defined and option.features.transcriber.is_enabled %}
+          <li
+            class="flex items-center gap-2 font-semibold {{ plan.config.transcriber.is_enabled ? '' : 'text-tertiary' }}">
+            {% if plan.config.transcriber.is_enabled %}
+            <i class="text-2xl ti ti-square-rounded-check-filled"></i>
+            {% else %}
+            <i class="text-2xl ti ti-square-rounded-x"></i>
+            {% endif %}
+
+            {{ d__('theme', 'Transcriber') }}
+          </li>
+          {% endif %}
+
+          {% if option.features.voiceover.is_enabled is defined and option.features.voiceover.is_enabled %}
+          <li
+            class="flex items-center gap-2 font-semibold {{ plan.config.voiceover.is_enabled ? '' : 'text-tertiary' }}">
+            {% if plan.config.voiceover.is_enabled %}
+            <i class="text-2xl ti ti-square-rounded-check-filled"></i>
+            {% else %}
+            <i class="text-2xl ti ti-square-rounded-x"></i>
+            {% endif %}
+
+            {{ d__('theme', 'Voiceover') }}
+          </li>
+          {% endif %}
+
           <li class="flex items-center gap-2 font-semibold">
             {% if plan.credit_count == 0 and plan.credit_count is not null %}
             <i class="text-2xl ti ti-square-rounded-x text-tertiary"></i>
