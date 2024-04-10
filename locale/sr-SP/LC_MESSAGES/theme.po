@@ -216,39 +216,39 @@ msgctxt "button"
 msgid "Featured"
 msgstr ""
 
-#: /sections/header.twig:109
+#: /sections/header.twig:111
 #: /sections/hero.twig:13
 msgctxt "button"
 msgid "Go to app"
 msgstr ""
 
-#: /sections/header.twig:121
+#: /sections/header.twig:123
 msgctxt "button"
 msgid "Documents"
 msgstr ""
 
-#: /sections/header.twig:129
+#: /sections/header.twig:131
 msgctxt "button"
 msgid "Billing"
 msgstr ""
 
-#: /sections/header.twig:141
+#: /sections/header.twig:143
 msgctxt "button"
 msgid "Account"
 msgstr ""
 
-#: /sections/header.twig:149
+#: /sections/header.twig:151
 msgctxt "button"
 msgid "Logout"
 msgstr ""
 
-#: /sections/header.twig:189
+#: /sections/header.twig:191
 msgctxt "button"
 msgid "Login"
 msgstr ""
 
-#: /sections/header.twig:194
-#: /sections/pricing.twig:92
+#: /sections/header.twig:196
+#: /sections/pricing.twig:93
 msgctxt "button"
 msgid "Get started"
 msgstr ""
@@ -335,83 +335,71 @@ msgctxt "button"
 msgid "Get Started for Free"
 msgstr ""
 
-#: /sections/pricing.twig:4
+#: /sections/pricing.twig:3
 msgctxt "heading"
 msgid "Pricing"
 msgstr ""
 
-#: /sections/pricing.twig:7
+#: /sections/pricing.twig:6
 msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
 msgstr ""
 
-#: /sections/pricing.twig:20
+#: /sections/pricing.twig:19
 msgctxt "button"
 msgid "Monthly"
 msgstr ""
 
-#: /sections/pricing.twig:29
+#: /sections/pricing.twig:28
 msgctxt "button"
 msgid "Yearly"
 msgstr ""
 
-#: /sections/pricing.twig:38
+#: /sections/pricing.twig:37
 msgctxt "button"
 msgid "Packs"
 msgstr ""
 
-#: /sections/pricing.twig:70
+#: /sections/pricing.twig:69
 msgid "Most Popular"
 msgstr ""
 
-#: /sections/pricing.twig:99
-msgid "Access to templates is disabled"
+#: /sections/pricing.twig:106
+msgid "Writer"
 msgstr ""
 
-#: /sections/pricing.twig:102
-msgid "Access to all templates"
-msgstr ""
-
-#: /sections/pricing.twig:109
-msgid "Unlimited tokens"
-msgstr ""
-
-#: /sections/pricing.twig:113
-msgid "No token credits"
-msgstr ""
-
-#: /sections/pricing.twig:118
-msgid "%s tokens"
-msgstr ""
-
-#: /sections/pricing.twig:125
-msgid "Unlimited images"
-msgstr ""
-
-#: /sections/pricing.twig:129
-msgid "No image credit"
-msgstr ""
-
-#: /sections/pricing.twig:134
-msgid "%s images"
-msgstr ""
-
-#: /sections/pricing.twig:141
-msgid "Unlimited audio seconds"
-msgstr ""
-
-#: /sections/pricing.twig:145
-msgid "No audio credit"
+#: /sections/pricing.twig:128
+msgid "Coding Assistant"
 msgstr ""
 
 #: /sections/pricing.twig:150
-msgid "%s audio seconds"
+msgid "Image generator"
 msgstr ""
 
-#: /sections/pricing.twig:157
+#: /sections/pricing.twig:163
+msgid "Transcriber"
+msgstr ""
+
+#: /sections/pricing.twig:176
+msgid "Voiceover"
+msgstr ""
+
+#: /sections/pricing.twig:183
+msgid "Access to templates is disabled"
+msgstr ""
+
+#: /sections/pricing.twig:186
+msgid "Access to all templates"
+msgstr ""
+
+#: /sections/pricing.twig:194
+msgid ":count credits"
+msgstr ""
+
+#: /sections/pricing.twig:200
 msgid "Priority support"
 msgstr ""
 
-#: /sections/pricing.twig:160
+#: /sections/pricing.twig:203
 msgid "Basic support"
 msgstr ""
 
