@@ -224,7 +224,7 @@ msgstr ""
 
 #: /sections/header.twig:123
 msgctxt "button"
-msgid "Documents"
+msgid "Library"
 msgstr ""
 
 #: /sections/header.twig:131
