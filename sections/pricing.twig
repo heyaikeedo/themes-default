@@ -81,10 +81,10 @@
         {% endif %}
 
         <div class="mt-8">
-          <data class="text-4xl money" is="x-money" value="{{ plan.price }}"
+          <x-money class="text-4xl money" data-value="{{ plan.price }}"
             currency="{{ currency.code }}"
             minor-units="{{ currency.fraction_digits }}" fraction="auto">
-          </data>
+          </x-money>
 
           <span class="text-tertiary">/{{ plan.billing_cycle }}</span>
         </div>

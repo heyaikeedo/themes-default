@@ -1,11 +1,11 @@
 'use strict';
 
 /**
- * Usage: <data is="x-money" value="1000" currency="USD" minor="2" fraction="true" content-type="html"></data>
+ * Usage: <x-money data-value="1000" currency="USD" minor="2" fraction="true"></x-money>
  */
-export class MoneyElement extends HTMLDataElement {
+export class MoneyElement extends HTMLElement {
     static observedAttributes = [
-        'value',
+        'data-value',
         'lang',
 
         'data-currency',
@@ -35,7 +35,7 @@ export class MoneyElement extends HTMLDataElement {
         let lang = this.lang || document.documentElement.lang || 'en';
         let currency = this.getAttribute('currency') || this.dataset.currency || 'USD';
         let minorUnits = this.getAttribute('minor-units') || this.dataset.minorUnits || 2;
-        let value = this.value || this.textContent;
+        let value = this.dataset.value || this.textContent;
         let amount = parseInt(value, 10) / Math.pow(10, minorUnits);
 
         let showFraction = this.getAttribute('fraction') || this.dataset.fraction;
