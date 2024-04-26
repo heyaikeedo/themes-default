@@ -1,0 +1,12 @@
+{% if  option.script_tags.custom.body is defined and option.script_tags.custom.body %}
+{{ include(template(option.script_tags.custom.body))|raw }}
+{% endif %}
+
+{% if option.script_tags.gtm is defined and option.script_tags.gtm.is_enabled and option.script_tags.gtm.container_id is defined and option.script_tags.gtm.container_id %}
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe
+    src="https://www.googletagmanager.com/ns.html?id={{ option.script_tags.gtm.container_id }}"
+    height="0" width="0"
+    style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+{% endif %}

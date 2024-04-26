@@ -4,6 +4,8 @@
   class="group/html">
 
 <head>
+  {% include "@theme/snippets/script-tags/head.twig" %}
+
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -166,6 +168,7 @@
 <body
   class="bg-contrast-primary text-primary font-primary data-[overlay]:overflow-hidden data-[overlay]:pr-[var(--scrollbar-width)] group/body"
   x-data="">
+  {% include "@theme/snippets/script-tags/body.twig" %}
 
   <div class="container">
     {% include "@theme/sections/header.twig" %}
@@ -174,6 +177,8 @@
   </div>
 
   <script src="{{ 'theme.js' | asset_url }}"></script>
+
+  {% include "@theme/snippets/script-tags/end.twig" %}
 </body>
 
 </html>
