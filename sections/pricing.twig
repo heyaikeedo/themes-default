@@ -36,6 +36,15 @@
         }"
         @click="cycle='one-time'">{{ dp__('theme', 'button', 'Packs') }}</button>
       {% endif %}
+
+      {% if plans|filter(p => p.billing_cycle == 'lifetime')|length > 0 %}
+      <button type="button" class="px-6 py-3 text-sm font-medium rounded-full"
+        data-cycle="lifetime" :class="{
+          'bg-contrast-primary': cycle=='lifetime',
+          'shadow': cycle=='lifetime'
+        }"
+        @click="cycle='lifetime'">{{ dp__('theme', 'button', 'Lifetime Deals') }}</button>
+      {% endif %}
     </div>
   </div>
 
