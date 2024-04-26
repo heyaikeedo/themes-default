@@ -10,7 +10,7 @@ import { CreditElement } from './components/credit.js';
 // Define custom elements
 customElements.define('mode-switcher', ModeSwitcher);
 customElements.define('x-money', MoneyElement);
-customElements.define('x-credit', CreditElement, { extends: 'data' });
+customElements.define('x-credit', CreditElement);
 
 Alpine.data('pricing', () => ({
     cycle: null,

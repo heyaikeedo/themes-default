@@ -2,9 +2,9 @@
 
 import { __ } from '../translate';
 
-export class CreditElement extends HTMLDataElement {
+export class CreditElement extends HTMLElement {
     static observedAttributes = [
-        'value',
+        'data-value',
         'lang',
 
         'format',
@@ -23,7 +23,7 @@ export class CreditElement extends HTMLDataElement {
     }
 
     render() {
-        let value = this.value || this.textContent;
+        let value = this.dataset.value || this.textContent;
         let format = this.getAttribute('format') || this.dataset.format || ':count';
 
         if (value === '' || value === 'null' || isNaN(value)) {
