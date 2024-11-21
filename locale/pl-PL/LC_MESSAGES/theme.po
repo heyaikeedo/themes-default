@@ -16,8 +16,9 @@ msgstr ""
 msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
 msgstr ""
 
-#: /sections/chat.twig:25
-msgid "Coming soon..."
+#: /sections/chat.twig:26
+msgctxt "button"
+msgid "Try now"
 msgstr ""
 
 #: /sections/code.twig:13
@@ -248,7 +249,7 @@ msgid "Login"
 msgstr ""
 
 #: /sections/header.twig:196
-#: /sections/pricing.twig:93
+#: /sections/pricing.twig:102
 msgctxt "button"
 msgid "Get started"
 msgstr ""
@@ -359,47 +360,64 @@ msgctxt "button"
 msgid "Packs"
 msgstr ""
 
-#: /sections/pricing.twig:69
+#: /sections/pricing.twig:46
+msgctxt "button"
+msgid "Lifetime Deals"
+msgstr ""
+
+#: /sections/pricing.twig:78
 msgid "Most Popular"
 msgstr ""
 
-#: /sections/pricing.twig:106
+#: /sections/pricing.twig:115
+msgid "Chat"
+msgstr ""
+
+#: /sections/pricing.twig:134
 msgid "Writer"
 msgstr ""
 
-#: /sections/pricing.twig:128
+#: /sections/pricing.twig:153
 msgid "Coding Assistant"
 msgstr ""
 
-#: /sections/pricing.twig:150
+#: /sections/pricing.twig:172
 msgid "Image generator"
 msgstr ""
 
-#: /sections/pricing.twig:163
+#: /sections/pricing.twig:185
 msgid "Transcriber"
 msgstr ""
 
-#: /sections/pricing.twig:176
+#: /sections/pricing.twig:198
 msgid "Voiceover"
 msgstr ""
 
-#: /sections/pricing.twig:183
+#: /sections/pricing.twig:211
+msgid "Voice isolator"
+msgstr ""
+
+#: /sections/pricing.twig:224
+msgid "Classifier"
+msgstr ""
+
+#: /sections/pricing.twig:231
 msgid "Access to templates is disabled"
 msgstr ""
 
-#: /sections/pricing.twig:186
+#: /sections/pricing.twig:234
 msgid "Access to all templates"
 msgstr ""
 
-#: /sections/pricing.twig:194
+#: /sections/pricing.twig:242
 msgid ":count credits"
 msgstr ""
 
-#: /sections/pricing.twig:200
+#: /sections/pricing.twig:248
 msgid "Priority support"
 msgstr ""
 
-#: /sections/pricing.twig:203
+#: /sections/pricing.twig:251
 msgid "Basic support"
 msgstr ""
 
