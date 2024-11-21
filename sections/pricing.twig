@@ -103,6 +103,25 @@
         </a>
 
         <ul class="flex flex-col gap-4 mt-12">
+          {% if option.features.chat.is_enabled is defined and option.features.chat.is_enabled %}
+          <li
+            class="flex items-center gap-2 font-semibold {{ plan.config.chat.is_enabled ? '' : 'text-tertiary' }}">
+            {% if plan.config.chat.is_enabled %}
+            <i class="text-2xl ti ti-square-rounded-check-filled"></i>
+            {% else %}
+            <i class="text-2xl ti ti-square-rounded-x"></i>
+            {% endif %}
+
+            {{ d__('theme', 'Chat') }}
+
+            {% if plan.config.chat.is_enabled %}
+            <div
+              class="p-0.5 rounded-lg bg-[#E7FF9B] flex bg-gradient-to-br from-[#E7FF9B] to-[#CFE6FF] font-bold relative text-accent">
+            </div>
+            {% endif %}
+          </li>
+          {% endif %}
+
           {% if option.features.writer.is_enabled is defined and option.features.writer.is_enabled %}
           <li
             class="flex items-center gap-2 font-semibold {{ plan.config.writer.is_enabled ? '' : 'text-tertiary' }}">
@@ -177,6 +196,32 @@
             {% endif %}
 
             {{ d__('theme', 'Voiceover') }}
+          </li>
+          {% endif %}
+
+          {% if option.features.voice_isolator.is_enabled is defined and option.features.voice_isolator.is_enabled %}
+          <li
+            class="flex items-center gap-2 font-semibold {{ plan.config.voice_isolator.is_enabled ? '' : 'text-tertiary' }}">
+            {% if plan.config.voice_isolator.is_enabled %}
+            <i class="text-2xl ti ti-square-rounded-check-filled"></i>
+            {% else %}
+            <i class="text-2xl ti ti-square-rounded-x"></i>
+            {% endif %}
+
+            {{ d__('theme', 'Voice isolator') }}
+          </li>
+          {% endif %}
+
+          {% if option.features.classifier.is_enabled is defined and option.features.classifier.is_enabled %}
+          <li
+            class="flex items-center gap-2 font-semibold {{ plan.config.classifier.is_enabled ? '' : 'text-tertiary' }}">
+            {% if plan.config.classifier.is_enabled %}
+            <i class="text-2xl ti ti-square-rounded-check-filled"></i>
+            {% else %}
+            <i class="text-2xl ti ti-square-rounded-x"></i>
+            {% endif %}
+
+            {{ d__('theme', 'Classifier') }}
           </li>
           {% endif %}
 
