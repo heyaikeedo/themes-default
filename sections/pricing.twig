@@ -2,13 +2,13 @@
   <div class="text-center">
     <h2>{{ dp__('theme', 'heading', 'Pricing') }}</h2>
 
-    <p class="max-w-md mx-auto mt-6">
+    <p class="mx-auto mt-6 max-w-md">
       {{ d__('theme', 'Discover the perfect plan to suit your needs and unlock a world of possibilities.')  }}
     </p>
   </div>
 
   <div class="flex justify-center mt-8">
-    <div class="rounded-full bg-line-tertiary p-0.5 flex items-center gap-1"
+    <div class="flex gap-1 items-center p-0.5 rounded-full bg-line-tertiary"
       x-ref="cycles">
       {% if plans|filter(p => p.billing_cycle == 'monthly')|length > 0 %}
       <button type="button" class="px-6 py-3 text-sm font-medium rounded-full"
@@ -53,8 +53,8 @@
     <div
       class="enter p-[10px] rounded-4xl bg-contrast-secondary flex {% if plan.is_featured %}bg-gradient-to-br from-[#E7FF9B] to-[#CFE6FF]{% endif %}"
       x-show="`{{ plan.billing_cycle }}` == cycle">
-      <div class="w-full p-8 bg-contrast-primary rounded-3xl">
-        <div class="flex items-center justify-between">
+      <div class="p-8 w-full rounded-3xl bg-contrast-primary">
+        <div class="flex justify-between items-center">
           {% if plan.icon %}
           <div
             class="flex items-center justify-center w-12 h-12 rounded-full shadow-md [&_svg]:w-8 [&_svg]:h-8">
@@ -117,9 +117,6 @@
             {% if plan.config.writer.is_enabled %}
             <div
               class="p-0.5 rounded-lg bg-[#E7FF9B] flex bg-gradient-to-br from-[#E7FF9B] to-[#CFE6FF] font-bold relative text-accent">
-              <span class="bg-[#E7FF9B] rounded-md py-1 px-2 text-xs">
-                {{ 'gpt-4' in plan.config.writer.model ? 'GPT 4' : 'GPT 3.5' }}
-              </span>
             </div>
             {% endif %}
           </li>
@@ -139,9 +136,6 @@
             {% if plan.config.coder.is_enabled %}
             <div
               class="p-0.5 rounded-lg bg-[#E7FF9B] flex bg-gradient-to-br from-[#E7FF9B] to-[#CFE6FF] font-bold relative text-accent">
-              <span class="bg-[#E7FF9B] rounded-md py-1 px-2 text-xs">
-                {{ 'gpt-4' in plan.config.coder.model ? 'GPT 4' : 'GPT 3.5' }}
-              </span>
             </div>
             {% endif %}
           </li>
@@ -186,7 +180,7 @@
           </li>
           {% endif %}
 
-          <li class="flex items-center gap-2 font-semibold">
+          <li class="flex gap-2 items-center font-semibold">
             {% if plan.credit_count == 0 and plan.credit_count is not null %}
             <i class="text-2xl ti ti-square-rounded-x text-tertiary"></i>
             {{ d__('theme', 'Access to templates is disabled') }}
@@ -196,14 +190,14 @@
             {% endif %}
           </li>
 
-          <li class="flex items-center gap-2 font-semibold">
+          <li class="flex gap-2 items-center font-semibold">
             <i class="text-2xl ti ti-square-rounded-check-filled"></i>
 
             <x-credit data-value="{{ plan.credit_count }}"
               format="{{ __(":count credits") }}"></x-credit>
           </li>
 
-          <li class="flex items-center gap-2 font-semibold">
+          <li class="flex gap-2 items-center font-semibold">
             {% if plan.price > 0  %}
             <i class="text-2xl ti ti-square-rounded-check-filled"></i>
             {{ d__('theme', 'Priority support')  }}
@@ -214,7 +208,7 @@
           </li>
 
           {% for li in plan.feature_list %}
-          <li class="flex items-center gap-2 font-semibold">
+          <li class="flex gap-2 items-center font-semibold">
             {% if li.is_included %}
             <i class="text-2xl ti ti-square-rounded-check-filled"></i>
             {% else %}
