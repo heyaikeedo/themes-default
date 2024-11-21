@@ -24,6 +24,10 @@
     href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Serif:wght@100;300;400;500;600;700&display=swap"
     rel="stylesheet">
 
+  {% if option.pwa.is_enabled is defined and option.pwa.is_enabled %}
+  <link rel="manifest" href="app.webmanifest">
+  {% endif %}
+
   <meta name="description" content="{{ option.site.description ?? null }}">
   <meta name="keywords" content="{{ option.site.keywords ?? null }}">
 
