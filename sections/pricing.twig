@@ -103,7 +103,7 @@
         </a>
 
         <ul class="flex flex-col gap-4 mt-12">
-          {% if option.features.chat.is_enabled is defined and option.features.chat.is_enabled %}
+          {% if plan.billing_cycle != 'one-time' and option.features.chat.is_enabled is defined and option.features.chat.is_enabled %}
           <li
             class="flex items-center gap-2 font-semibold {{ plan.config.chat.is_enabled ? '' : 'text-tertiary' }}">
             {% if plan.config.chat.is_enabled %}
@@ -122,7 +122,7 @@
           </li>
           {% endif %}
 
-          {% if option.features.writer.is_enabled is defined and option.features.writer.is_enabled %}
+          {% if plan.billing_cycle != 'one-time' and option.features.writer.is_enabled is defined and option.features.writer.is_enabled %}
           <li
             class="flex items-center gap-2 font-semibold {{ plan.config.writer.is_enabled ? '' : 'text-tertiary' }}">
             {% if plan.config.writer.is_enabled %}
@@ -141,7 +141,7 @@
           </li>
           {% endif %}
 
-          {% if option.features.coder.is_enabled is defined and option.features.coder.is_enabled %}
+          {% if plan.billing_cycle != 'one-time' and option.features.coder.is_enabled is defined and option.features.coder.is_enabled %}
           <li
             class="flex items-center gap-2 font-semibold {{ plan.config.coder.is_enabled ? '' : 'text-tertiary' }}">
             {% if plan.config.coder.is_enabled %}
@@ -160,7 +160,7 @@
           </li>
           {% endif %}
 
-          {% if option.features.imagine.is_enabled is defined and option.features.imagine.is_enabled %}
+          {% if plan.billing_cycle != 'one-time' and option.features.imagine.is_enabled is defined and option.features.imagine.is_enabled %}
           <li
             class="flex items-center gap-2 font-semibold {{ plan.config.imagine.is_enabled ? '' : 'text-tertiary' }}">
             {% if plan.config.imagine.is_enabled %}
@@ -173,7 +173,7 @@
           </li>
           {% endif %}
 
-          {% if option.features.transcriber.is_enabled is defined and option.features.transcriber.is_enabled %}
+          {% if plan.billing_cycle != 'one-time' and option.features.transcriber.is_enabled is defined and option.features.transcriber.is_enabled %}
           <li
             class="flex items-center gap-2 font-semibold {{ plan.config.transcriber.is_enabled ? '' : 'text-tertiary' }}">
             {% if plan.config.transcriber.is_enabled %}
@@ -186,7 +186,7 @@
           </li>
           {% endif %}
 
-          {% if option.features.voiceover.is_enabled is defined and option.features.voiceover.is_enabled %}
+          {% if plan.billing_cycle != 'one-time' and option.features.voiceover.is_enabled is defined and option.features.voiceover.is_enabled %}
           <li
             class="flex items-center gap-2 font-semibold {{ plan.config.voiceover.is_enabled ? '' : 'text-tertiary' }}">
             {% if plan.config.voiceover.is_enabled %}
@@ -199,7 +199,7 @@
           </li>
           {% endif %}
 
-          {% if option.features.voice_isolator.is_enabled is defined and option.features.voice_isolator.is_enabled %}
+          {% if plan.billing_cycle != 'one-time' and option.features.voice_isolator.is_enabled is defined and option.features.voice_isolator.is_enabled %}
           <li
             class="flex items-center gap-2 font-semibold {{ plan.config.voice_isolator.is_enabled ? '' : 'text-tertiary' }}">
             {% if plan.config.voice_isolator.is_enabled %}
@@ -212,7 +212,7 @@
           </li>
           {% endif %}
 
-          {% if option.features.classifier.is_enabled is defined and option.features.classifier.is_enabled %}
+          {% if plan.billing_cycle != 'one-time' and option.features.classifier.is_enabled is defined and option.features.classifier.is_enabled %}
           <li
             class="flex items-center gap-2 font-semibold {{ plan.config.classifier.is_enabled ? '' : 'text-tertiary' }}">
             {% if plan.config.classifier.is_enabled %}
@@ -225,6 +225,7 @@
           </li>
           {% endif %}
 
+          {% if plan.billing_cycle != 'one-time' %}
           <li class="flex gap-2 items-center font-semibold">
             {% if plan.credit_count == 0 and plan.credit_count is not null %}
             <i class="text-2xl ti ti-square-rounded-x text-tertiary"></i>
@@ -234,6 +235,7 @@
             {{ d__('theme', 'Access to all templates') }}
             {% endif %}
           </li>
+          {% endif %}
 
           <li class="flex gap-2 items-center font-semibold">
             <i class="text-2xl ti ti-square-rounded-check-filled"></i>
@@ -242,6 +244,7 @@
               format="{{ __(":count credits") }}"></x-credit>
           </li>
 
+          {% if plan.billing_cycle != 'one-time' %}
           <li class="flex gap-2 items-center font-semibold">
             {% if plan.price > 0  %}
             <i class="text-2xl ti ti-square-rounded-check-filled"></i>
@@ -251,6 +254,7 @@
             {{ d__('theme', 'Basic support')  }}
             {% endif %}
           </li>
+          {% endif %}
 
           {% for li in plan.feature_list %}
           <li class="flex gap-2 items-center font-semibold">
