@@ -1,0 +1,42 @@
+<div class="grid grid-cols-1 p-3 md:grid-cols-2 wrapper enter">
+	<div class="relative md:order-2">
+		<img src="{{ '/assets/writer.webp' | asset_url }}" alt="Text Generator" class="dark:hidden" width="1272" height="1065">
+		<img src="{{ '/assets/writer-dark.webp' | asset_url }}" alt="Text Generator" class="hidden dark:block" width="1323" height="1095">
+
+		<div class="float top-1/2 -left-6 rotate-[15deg]">
+			<span class="icon shadow-left text-[#8B6BF3]">
+				<i class="ti ti-click"></i>
+			</span>
+		</div>
+
+		<div class="float -top-3 -right-6 rotate-[-15deg]">
+			<span class="icon shadow-right text-[#9FF37B]">
+				<i class="ti ti-bulb"></i>
+			</span>
+		</div>
+	</div>
+
+	<div class="flex items-center">
+		<div class="p-9 w-full max-w-xl">
+			<div class="badge">
+				{{ d__('theme', 'AI Writer') }}
+			</div>
+
+			<h3 class="mt-8">
+				{{ dp__('theme', 'heading', 'Write SEO optimized blogs, sales emails and more...') }}
+			</h3>
+
+			<p class="mt-3 font-medium md:mt-6 md:text-xl">
+				{{ d__('theme', "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize.") }}
+			</p>
+
+			<div class="mt-8 md:mt-10">
+				<a href="/#features" class="gap-4 button button-primary">
+					{{ dp__('theme', 'button', 'See all features') }}
+
+					<i class="text-2xl ti ti-arrow-right"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>

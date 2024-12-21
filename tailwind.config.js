@@ -1,8 +1,8 @@
-const defaultTheme = require('tailwindcss/defaultTheme')
+import theme from 'tailwindcss/defaultTheme'
 
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["!./node_modules/**/*", "./**/*.twig", "./assets/**/*"],
+export default {
+  content: ["!./node_modules/**/*", "./**/*.twig", "./src/**/*.{js,css}"],
   darkMode: ['class', '[data-mode="dark"]'],
   theme: {
     container: {
@@ -32,8 +32,6 @@ module.exports = {
       fontFamily: {
         primary: 'var(--font-family-primary)',
         secondary: 'var(--font-family-secondary)',
-        editor: ['var(--font-family-editor)', ...defaultTheme.fontFamily.sans],
-        "editor-heading": ['var(--font-family-editor-heading)', ...defaultTheme.fontFamily.serif],
       },
 
       typography: {
@@ -65,10 +63,6 @@ module.exports = {
     },
   },
   plugins: [
-    require("@tailwindcss/typography"),
-    require("@tailwindcss/forms"),
-    require("@tailwindcss/aspect-ratio"),
-    require("@tailwindcss/container-queries"),
   ],
 }
 

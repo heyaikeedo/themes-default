@@ -1,0 +1,73 @@
+@keyframes scrolling-images {
+  to {
+    background-position: center var(--scroll-to);
+  }
+}
+
+#image-generator {
+  .preview {
+    @apply absolute top-0 left-0 w-full h-full opacity-10 lg:static lg:opacity-100;
+  }
+
+  .preview > div {
+    @apply relative;
+  }
+
+  .preview .bg {
+    & > div {
+      @apply absolute w-full;
+      height: 110%;
+      height: calc(100% + 40px);
+      background-size: 100% auto;
+      background-repeat: repeat-y;
+
+      @apply after:absolute after:w-full after:h-40 after:from-contrast-primary after:to-transparent;
+    }
+
+    &:nth-child(odd) > div {
+      --scroll-to: -1408px;
+
+      @apply bottom-0;
+      @apply after:top-0 after:bg-gradient-to-b;
+      background-position: center bottom;
+      animation: scrolling-images 60s linear infinite;
+    }
+
+    &:nth-child(even) > div {
+      --scroll-to: 1408px;
+
+      @apply top-0;
+      @apply after:bottom-0 after:bg-gradient-to-t;
+      background-position: center top;
+      animation: scrolling-images 60s linear infinite;
+    }
+
+    &:nth-child(1) > div {
+      background-image: url('/src/images1.webp');
+    }
+
+    &:nth-child(2) > div {
+      background-image: url('/src/images2.webp');
+    }
+
+    &:nth-child(3) > div {
+      background-image: url('/src/images3.webp');
+    }
+
+    &:nth-child(4) > div {
+      background-image: url('/src/images4.webp');
+    }
+
+    &:last-child {
+      /*
+        @apply overflow-hidden rounded-tr-4xl rounded-br-4xl;
+      */
+      @apply overflow-hidden;
+
+      & > div {
+        height: 110%;
+        height: calc(100% + 10px);
+      }
+    }
+  }
+}

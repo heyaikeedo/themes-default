@@ -1,0 +1,19 @@
+<div class="rounded-4xl bg-contrast-accent bg-gradient-to-br from-[#E7FF9B] to-[#CFE6FF] p-[10px] relative enter">
+	<div class="p-14 text-center rounded-3xl bg-contrast-primary">
+		<h3>{{ dp__('theme', 'heading', 'Ready to level-up?') }}</h3>
+		<p class="mt-2 text-xl font-medium">
+			{{ d__('theme', 'See how easy it can be to write amazing content.') }}
+		</p>
+
+		<div class="mt-10">
+			<a href="/signup" class="gap-4 button button-primary">
+				{{ dp__('theme', 'button', 'Get Started Now') }}
+
+				<i class="text-2xl ti ti-arrow-right"></i>
+			</a>
+		</div>
+	</div>
+
+	<img src="{{ '/assets/cta1.webp' | asset_url }}" class="w-[115px] absolute bottom-0 left-14 hidden lg:block" alt="" width="231" height="648">
+	<img src="{{ '/assets/cta2.webp' | asset_url }}" class="w-[150px] absolute top-0 right-14 hidden lg:block" alt="" width="300" height="649">
+</div>

@@ -8,24 +8,18 @@
 **/.DS_Store
 
 # Vendors
-/vendor/
 /node_modules/
-
-# Var
-/var/*
-
-# Code coverage output files
-coverage
 
 # Keep empty directories
 !.gitkeep
 
-# .env files
-.env*
-!.env.example
-
-# Public assets (build files)
-/public/assets
-
 # Dist directory
 dist
+
+# Packing
+pack
+*.zip
+
+# .env files
+.env.*
+!.env

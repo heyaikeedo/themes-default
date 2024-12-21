@@ -1,0 +1,402 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Theme Translations\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language: en-US\n"
+"Language-Team: \n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: theme\n"
+
+msgid "AI Writer"
+msgstr ""
+
+msgid ""
+"Achieve superior outcomes in a fraction of the time. At last, a writing "
+"tool that you'll genuinely utilize."
+msgstr ""
+
+msgctxt "heading"
+msgid "Write SEO optimized blogs, sales emails and more..."
+msgstr ""
+
+msgctxt "button"
+msgid "See all features"
+msgstr ""
+
+msgid "Text to Voice"
+msgstr ""
+
+msgid ""
+"Elevate Your Content with Expressive Narration: Discover Text-to-Voice "
+"Excellence."
+msgstr ""
+
+msgctxt "heading"
+msgid "Convert your texts into <br> Lifelike Speech"
+msgstr ""
+
+msgid "Speech to Text"
+msgstr ""
+
+msgid ""
+"Instantly Transcribe Spoken Words into Text for Enhanced Productivity and "
+"Accessibility."
+msgstr ""
+
+msgctxt "heading"
+msgid "Transforming Spoken <br> Words into Text."
+msgstr ""
+
+msgctxt "button"
+msgid "Convert now"
+msgstr ""
+
+msgid ":count credits"
+msgstr ""
+
+msgid ""
+"Discover the perfect plan to suit your needs and unlock a world of "
+"possibilities."
+msgstr ""
+
+msgid "Most Popular"
+msgstr ""
+
+msgid "Chat"
+msgstr ""
+
+msgid "Writer"
+msgstr ""
+
+msgid "Coding Assistant"
+msgstr ""
+
+msgid "Image generator"
+msgstr ""
+
+msgid "Transcriber"
+msgstr ""
+
+msgid "Voiceover"
+msgstr ""
+
+msgid "Voice isolator"
+msgstr ""
+
+msgid "Classifier"
+msgstr ""
+
+msgid "Access to templates is disabled"
+msgstr ""
+
+msgid "Access to all templates"
+msgstr ""
+
+msgid "Priority support"
+msgstr ""
+
+msgid "Basic support"
+msgstr ""
+
+msgctxt "button"
+msgid "Pricing"
+msgstr ""
+
+msgctxt "button"
+msgid "Monthly"
+msgstr ""
+
+msgctxt "button"
+msgid "Yearly"
+msgstr ""
+
+msgctxt "button"
+msgid "Packs"
+msgstr ""
+
+msgctxt "button"
+msgid "Lifetime Deals"
+msgstr ""
+
+msgctxt "button"
+msgid "Get started"
+msgstr ""
+
+msgid "100+ AI Writer Templates"
+msgstr ""
+
+msgid ""
+"Write with remarkable speed, captivate your audience, and bid farewell to "
+"writer\\'s block forever."
+msgstr ""
+
+msgctxt "heading"
+msgid "What can Writing Assistant create for you?"
+msgstr ""
+
+msgctxt "button"
+msgid "Get Started for Free"
+msgstr ""
+
+msgid "AI Image"
+msgstr ""
+
+msgid ""
+"Instantly create stunning images using AI Image Generator – your tool for "
+"artistic innovation."
+msgstr ""
+
+msgctxt "heading"
+msgid "Visualize what you dream of. Create images from text."
+msgstr ""
+
+msgctxt "button"
+msgid "Try for free"
+msgstr ""
+
+msgid "Choose a our built in templates or create your own."
+msgstr ""
+
+msgid ""
+"Enter a few sentences to describe your topic. Add keywords to specify for "
+"your brand."
+msgstr ""
+
+msgid ""
+"Click the \"Generate\" button and get a variety of high-converting copy "
+"every time."
+msgstr ""
+
+msgctxt "heading"
+msgid "How it works"
+msgstr ""
+
+msgctxt "heading"
+msgid "Choose Template"
+msgstr ""
+
+msgctxt "heading"
+msgid "Describe"
+msgstr ""
+
+msgctxt "heading"
+msgid "Generate"
+msgstr ""
+
+msgid ""
+"Effortlessly generate high-quality AI-driven content tailored to your "
+"needs. Unlock limitless possibilities, save your time and start making "
+"money today!"
+msgstr ""
+
+msgctxt "heading"
+msgid "Transforming ideas into AI generated masterpieces"
+msgstr ""
+
+msgctxt "button"
+msgid "Go to app"
+msgstr ""
+
+msgctxt "button"
+msgid "Get started now"
+msgstr ""
+
+msgctxt "button"
+msgid "Product"
+msgstr ""
+
+msgctxt "button"
+msgid "Featured"
+msgstr ""
+
+msgctxt "button"
+msgid "Library"
+msgstr ""
+
+msgctxt "button"
+msgid "Billing"
+msgstr ""
+
+msgctxt "button"
+msgid "Account"
+msgstr ""
+
+msgctxt "button"
+msgid "Logout"
+msgstr ""
+
+msgctxt "button"
+msgid "Login"
+msgstr ""
+
+msgctxt "heading"
+msgid "Meet your ultimate"
+msgstr ""
+
+msgctxt "heading"
+msgid "AI-Powered Content Platform"
+msgstr ""
+
+msgid "All rights reserved."
+msgstr ""
+
+msgctxt "button"
+msgid "FAQ"
+msgstr ""
+
+msgctxt "button"
+msgid "Terms of services"
+msgstr ""
+
+msgctxt "button"
+msgid "Privacy policy"
+msgstr ""
+
+msgctxt "button"
+msgid "Refund policy"
+msgstr ""
+
+msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
+msgstr ""
+
+msgid ""
+"Built with modern technologies for best structure and get maximum "
+"performance."
+msgstr ""
+
+msgid ""
+"Enjoy a hassle-free and intuitive user interface that enhances your digital "
+"experience."
+msgstr ""
+
+msgid "Turn off the light and switch to dark mode your interface with one click."
+msgstr ""
+
+msgid "An all-inclusive learning package seamlessly integrated into our community."
+msgstr ""
+
+msgid "Simplify transactions and boost security with payment gateway solutions."
+msgstr ""
+
+msgid "Unlock limitless creativity with our AI-powered content generator."
+msgstr ""
+
+msgid ""
+"Boost your visibility and reach your audience effectively with AI generated "
+"content."
+msgstr ""
+
+msgid "Empower your insights and control with our cutting-edge dashboard."
+msgstr ""
+
+msgid "Transform your content creation with AI-driven custom templates."
+msgstr ""
+
+msgid "Use Facebook or Google accounts as an alternatively access to platform."
+msgstr ""
+
+msgid ""
+"Our support team is available 24/7 to help you with any questions or "
+"concerns."
+msgstr ""
+
+msgctxt "heading"
+msgid "Coolest Features"
+msgstr ""
+
+msgctxt "heading"
+msgid "High Quality Code"
+msgstr ""
+
+msgctxt "heading"
+msgid "Modern Technologies"
+msgstr ""
+
+msgctxt "heading"
+msgid "Friendly UI and UX"
+msgstr ""
+
+msgctxt "heading"
+msgid "Dark Mode"
+msgstr ""
+
+msgctxt "heading"
+msgid "Documentation"
+msgstr ""
+
+msgctxt "heading"
+msgid "Payment Gateways"
+msgstr ""
+
+msgctxt "heading"
+msgid "AI Generator"
+msgstr ""
+
+msgctxt "heading"
+msgid "SEO Friendly"
+msgstr ""
+
+msgctxt "heading"
+msgid "Advanced Dashboard"
+msgstr ""
+
+msgctxt "heading"
+msgid "Custom Templates"
+msgstr ""
+
+msgctxt "heading"
+msgid "Login via SM Accounts"
+msgstr ""
+
+msgctxt "heading"
+msgid "High Quality Support"
+msgstr ""
+
+msgid "See how easy it can be to write amazing content."
+msgstr ""
+
+msgctxt "heading"
+msgid "Ready to level-up?"
+msgstr ""
+
+msgctxt "button"
+msgid "Get Started Now"
+msgstr ""
+
+msgid "AI Code"
+msgstr ""
+
+msgid ""
+"Effortless coding with AI Code Generator: Instant solutions for your "
+"programming needs."
+msgstr ""
+
+msgctxt "heading"
+msgid "Ready to write code at the speed of light?"
+msgstr ""
+
+msgctxt "button"
+msgid "Start Generate Code"
+msgstr ""
+
+msgid "AI Chat Bot"
+msgstr ""
+
+msgid ""
+"Simply choose your asistant and engage with a friendly chatbot to generate "
+"ideas, enhance your content, or even bring a smile to your face."
+msgstr ""
+
+msgctxt "heading"
+msgid "That\\'s remarkably human-like and engaging..."
+msgstr ""
+
+msgctxt "button"
+msgid "Try now"
+msgstr ""
+
+msgid "Unlimited"
+msgstr ""

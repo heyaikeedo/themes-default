@@ -1,48 +1,40 @@
 {
-  "name": "aikeedo",
-  "version": "1.0.0",
-  "description": "AIKEEDO - AI Generator",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs",
-    "test": "tests"
-  },
+  "name": "default",
+  "version": "2.0.0",
+  "description": "Default theme for Aikeedo",
   "scripts": {
-    "build": "gulp build",
-    "watch": "gulp watch"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "locale": "node scripts/locale-extract.mjs",
+    "pack": "node scripts/pack.mjs",
+    "release": "npm run pack -- theme.zip && node scripts/release.mjs"
   },
   "repository": {
     "type": "git",
-    "url": "git"
+    "url": "https://github.com/heyaikeedo/themes-default.git"
   },
-  "author": "",
+  "author": "Aikeedo Team",
   "license": "SEE LICENSE IN <LICENSE>",
+  "bugs": {
+    "url": "https://github.com/heyaikeedo/themes-default/issues",
+    "email": "support@aikeedo.com"
+  },
+  "homepage": "https://github.com/heyaikeedo/themes-default#readme",
   "devDependencies": {
-    "@babel/core": "^7.22.8",
-    "@babel/preset-env": "^7.22.7",
-    "@rollup/plugin-babel": "^6.0.3",
-    "@rollup/plugin-commonjs": "^25.0.2",
-    "@rollup/plugin-node-resolve": "^15.1.0",
-    "@rollup/plugin-replace": "^5.0.2",
-    "@rollup/plugin-terser": "^0.4.4",
-    "@tailwindcss/aspect-ratio": "^0.4.2",
-    "@tailwindcss/container-queries": "^0.1.1",
-    "@tailwindcss/forms": "^0.5.3",
-    "@tailwindcss/typography": "^0.5.9",
-    "autoprefixer": "^10.4.14",
-    "gulp": "^4.0.2",
-    "gulp-clean-css": "^4.3.0",
-    "gulp-postcss": "^9.0.1",
-    "gulp-rename": "^2.0.0",
-    "gulp-sourcemaps": "^3.0.0",
-    "minimist": "^1.2.8",
-    "postcss-import": "^15.1.0",
-    "postcss-nested": "^6.0.1",
-    "rollup": "^3.26.2",
-    "tailwindcss": "^3.3.2"
+    "archiver": "^7.0.1",
+    "autoprefixer": "^10.4.20",
+    "cpx": "^1.5.0",
+    "gettext-parser": "^8.0.0",
+    "glob": "^10.4.5",
+    "postcss": "^8.4.47",
+    "postcss-import": "^16.1.0",
+    "tailwindcss": "^3.4.14",
+    "vite": "^5.4.10",
+    "vite-plugin-full-reload": "^1.2.0"
   },
   "dependencies": {
-    "alpinejs": "^3.12.3",
+    "alpinejs": "^3.14.3",
     "axios": "^1.4.0",
     "tippy.js": "^6.3.7"
   }
