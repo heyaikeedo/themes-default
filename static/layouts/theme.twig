@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="{{ theme_locale ?? 'en-US' }}" class="group/html">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="theme-color" content="">
+
+		<meta name="description" content="{{ option.site.description ?? null }}">
+		<meta name="keywords" content="{{ option.site.keywords ?? null }}">
+
+		<link rel="icon" type="image/x-icon" href="{{ option.brand.favicon ?? ('favicon.ico' | asset_url) }}">
+
+		{% if env.THEME_ASSETS_SERVER is defined and env.THEME_ASSETS_SERVER %}
+			<script type="module" src="{{ env.THEME_ASSETS_SERVER }}/@vite/client"></script>
+		{% endif %}
+
+		{% include "@theme/snippets/css.twig" %}
+		<link rel="stylesheet" href="{{ '/src/css/index.css' | asset_url }}">
+
+		{% if option.pwa.is_enabled is defined and option.pwa.is_enabled %}
+			<link rel="manifest" href="app.webmanifest">
+		{% endif %}
+
+		{%- include "@theme/snippets/script-tags/head.twig" -%}
+		{% include "@theme/snippets/js.twig" %}
+
+		<title>
+			{% block title %}{% endblock %}
+			{{- block('title') is empty ? '' : ' | ' -}}
+			{{- option.site.name ?? null -}}
+		</title>
+	</head>
+
+	<body class="bg-contrast-primary text-primary font-primary data-[overlay]:overflow-hidden data-[overlay]:pr-[var(--scrollbar-width)] group/body" x-data>
+		{%- include "@theme/snippets/script-tags/body.twig" -%}
+
+		<div class="container">
+			{% include "@theme/sections/header.twig" %}
+			{% block template %}{% endblock %}
+			{% include "@theme/sections/footer.twig" %}
+		</div>
+
+		<script type="module" src="{{ '/src/js/index.js' | asset_url }}"></script>
+		{%- include "@theme/snippets/script-tags/end.twig" -%}
+	</body>
+</html>

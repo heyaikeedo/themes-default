@@ -1,0 +1,20 @@
+<div class="flex flex-col justify-between wrapper">
+	<div class="p-12">
+		<span class="badge">
+			{{ d__('theme', 'Text to Voice')  }}
+		</span>
+
+		<h3 class="mt-8">
+			{{ dp__('theme', 'heading', 'Convert your texts into <br> Lifelike Speech')|raw  }}
+		</h3>
+
+		<p class="mt-3 font-medium md:mt-6 md:text-xl">
+			{{ d__('theme', 'Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence.') }}
+		</p>
+	</div>
+
+	<div class="mx-4 mb-2">
+		<img src="{{ '/assets/text-to-voice.webp' | asset_url }}" alt="AI text to voice transformer" class="dark:hidden" width="1099" height="999">
+		<img src="{{ '/assets/text-to-voice-dark.webp' | asset_url }}" alt="AI text to voice transformer" class="hidden dark:block" width="1099" height="999">
+	</div>
+</div>

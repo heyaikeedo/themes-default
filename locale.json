@@ -1,0 +1,122 @@
+[
+    {
+        "code": "af-ZA",
+        "pluralForms": "nplurals=2; plural=(n != 1);"
+    },
+    {
+        "code": "ar-SA",
+        "pluralForms": "nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);"
+    },
+    {
+        "code": "ca-ES",
+        "pluralForms": "nplurals=2; plural=(n != 1);"
+    },
+    {
+        "code": "cs-CZ",
+        "pluralForms": "nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;"
+    },
+    {
+        "code": "da-DK",
+        "pluralForms": "nplurals=2; plural=(n != 1);"
+    },
+    {
+        "code": "de-DE",
+        "pluralForms": "nplurals=2; plural=(n != 1);"
+    },
+    {
+        "code": "el-GR",
+        "pluralForms": "nplurals=2; plural=(n != 1);"
+    },
+    {
+        "code": "en-US",
+        "pluralForms": "nplurals=2; plural=(n != 1);"
+    },
+    {
+        "code": "es-ES",
+        "pluralForms": "nplurals=2; plural=(n != 1);"
+    },
+    {
+        "code": "fi-FI",
+        "pluralForms": "nplurals=2; plural=(n != 1);"
+    },
+    {
+        "code": "fr-FR",
+        "pluralForms": "nplurals=2; plural=(n > 1);"
+    },
+    {
+        "code": "he-IL",
+        "pluralForms": "nplurals=4; plural=(n==1 ? 0 : n==2 ? 1 : n>10 && n%10==0 ? 2 : 3);"
+    },
+    {
+        "code": "hu-HU",
+        "pluralForms": "nplurals=2; plural=(n != 1);"
+    },
+    {
+        "code": "it-IT",
+        "pluralForms": "nplurals=2; plural=(n != 1);"
+    },
+    {
+        "code": "ja-JP",
+        "pluralForms": "nplurals=1; plural=0;"
+    },
+    {
+        "code": "ko-KR",
+        "pluralForms": "nplurals=1; plural=0;"
+    },
+    {
+        "code": "nl-NL",
+        "pluralForms": "nplurals=2; plural=(n != 1);"
+    },
+    {
+        "code": "no-NO",
+        "pluralForms": "nplurals=2; plural=(n != 1);"
+    },
+    {
+        "code": "pl-PL",
+        "pluralForms": "nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);"
+    },
+    {
+        "code": "pt-BR",
+        "pluralForms": "nplurals=2; plural=(n > 1);"
+    },
+    {
+        "code": "pt-PT",
+        "pluralForms": "nplurals=2; plural=(n != 1);"
+    },
+    {
+        "code": "ro-RO",
+        "pluralForms": "nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);"
+    },
+    {
+        "code": "ru-RU",
+        "pluralForms": "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);"
+    },
+    {
+        "code": "sr-SP",
+        "pluralForms": "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);"
+    },
+    {
+        "code": "sv-SE",
+        "pluralForms": "nplurals=2; plural=(n != 1);"
+    },
+    {
+        "code": "tr-TR",
+        "pluralForms": "nplurals=2; plural=(n > 1);"
+    },
+    {
+        "code": "uk-UA",
+        "pluralForms": "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);"
+    },
+    {
+        "code": "vi-VN",
+        "pluralForms": "nplurals=1; plural=0;"
+    },
+    {
+        "code": "zh-CN",
+        "pluralForms": "nplurals=1; plural=0;"
+    },
+    {
+        "code": "zh-TW",
+        "pluralForms": "nplurals=1; plural=0;"
+    }
+]

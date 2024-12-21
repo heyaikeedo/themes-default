@@ -1,0 +1,30 @@
+<div class="grid md:grid-cols-2 wrapper enter">
+	<div class="py-3 md:order-2">
+		<img src="{{ '/assets/code.webp' | asset_url }}" alt="Code Generator" class="dark:hidden" width="1262" height="1161">
+		<img src="{{ '/assets/code-dark.webp' | asset_url }}" alt="Code Generator" class="hidden dark:block" width="1262" height="1161">
+	</div>
+
+	<div class="flex items-center">
+		<div class="p-12 w-full max-w-xl">
+			<div class="badge">
+				{{ d__('theme', 'AI Code') }}
+			</div>
+
+			<h3 class="mt-8">
+				{{ dp__('theme', 'heading', 'Ready to write code at the speed of light?') }}
+			</h3>
+
+			<p class="mt-3 font-medium md:mt-6 md:text-xl">
+				{{ d__('theme', 'Effortless coding with AI Code Generator: Instant solutions for your programming needs.') }}
+			</p>
+
+			<div class="mt-8 md:mt-10">
+				<a href="/signup" class="gap-4 button button-primary">
+					{{ dp__('theme', 'button', 'Start Generate Code') }}
+
+					<i class="text-2xl ti ti-arrow-right"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>

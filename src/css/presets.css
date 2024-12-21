@@ -1,0 +1,13 @@
+@keyframes scrolling-presets {
+  to {
+    background-position: 0px -2080px;
+  }
+}
+
+.scrolling-presets {
+  @apply absolute top-0 right-0 md:-right-10 w-full md:w-[48%] h-full rotate-[5deg] scale-110 opacity-5 md:opacity-100;
+  background-image: url('/src/presets.webp');
+  background-size: 100% auto;
+  background-repeat: repeat-y;
+  animation: scrolling-presets 60s linear infinite;
+}

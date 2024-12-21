@@ -1,0 +1,31 @@
+<div class="grid lg:mb-10 md:grid-cols-2 wrapper enter">
+	<div class="lg:py-6 md:order-2">
+		<img src="{{ '/assets/chat.webp' | asset_url }}" alt="AI Chat Bot" class="translate-y-10 dark:hidden" width="1458" height="1198">
+
+		<img src="{{ '/assets/chat-dark.webp' | asset_url }}" alt="AI Chat Bot" class="hidden translate-y-10 dark:block" width="1458" height="1198">
+	</div>
+
+	<div class="flex items-center">
+		<div class="p-12 w-full max-w-xl">
+			<span class="badge">
+				{{ d__('theme', 'AI Chat Bot') }}
+			</span>
+
+			<h3 class="mt-8">
+				{{ dp__('theme', 'heading', 'That\'s remarkably human-like and engaging...') }}
+      </h3>
+
+      <p class="mt-3 font-medium md:mt-6 md:text-xl">
+        {{ d__('theme', 'Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face.') }}
+      </p>
+
+      <div class="mt-8 md:mt-14">
+        <a href="app/chat" class="gap-4 button button-primary">
+          {{ dp__('theme', 'button', 'Try now') }}
+
+          <i class="text-2xl ti ti-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
