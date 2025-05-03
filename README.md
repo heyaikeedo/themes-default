@@ -303,11 +303,17 @@ Follow these steps:
 
 1. Duplicate the default theme located at `/extra/extensions/heyaikeedo/default` to a new location within `/extra/extensions/`, e.g., `/extra/extensions/yourorganization/themename`
 2. In the duplicated theme, update the `composer.json` file to reflect `yourorganization/themename` as the theme name to match its location
-3. Activate your new theme on the Themes page in the admin UI
-4. Enable debug mode in the app
-5. Make necessary changes to the new theme files
-6. Clear the app cache
-7. Disable debug mode
+
+3. **Copy Public Assets:**  
+   Locate the `extra.public` field in your theme's `composer.json`. Copy all files and folders listed there to the `/[PUBLIC_DIR]/e/yourorganization/themename` directory.  
+   - `{PUBLIC_DIR}` is usually `public` (e.g., `/public/e/yourorganization/themename`), but if it has been changed, you can find the correct value in your `.env` file.
+   - **Important:** Every time you make changes to these public files, you must manually copy them again to the public directory for the changes to take effect. Alternatively, you can edit these files directly in `{PUBLIC_DIR}` for immediate effect.
+
+4. Activate your new theme on the Themes page in the admin UI
+5. Enable debug mode in the app
+6. Make necessary changes to the new theme files
+7. Clear the app cache
+8. Disable debug mode
 
 ### Important Notes
 
