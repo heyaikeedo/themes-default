@@ -115,10 +115,10 @@ default/
 
    ```env
    # Windows path example:
-   BUILD_DIR=C:/xampp/htdocs/aikeedo/public/content/plugins/your-vendor/your-theme-name
+   BUILD_DIR=C:/xampp/htdocs/aikeedo/extra/extensions/your-vendor/your-theme-name
 
    # Linux/Mac path example:
-   BUILD_DIR=/var/www/aikeedo/public/content/plugins/your-vendor/your-theme-name
+   BUILD_DIR=/var/www/aikeedo/extra/extensions/your-vendor/your-theme-name
 
    # Aikeedo server URL (required for development)
    AIKEEDO_SERVER=http://localhost:8000
@@ -176,7 +176,7 @@ default/
 
    ```bash
    # Your theme should be here
-   ls /path/to/aikeedo/public/content/plugins/your-vendor/your-theme-name
+   ls /path/to/aikeedo/extra/extensions/your-vendor/your-theme-name
    ```
 
 8. **Activate Your Theme**
@@ -301,7 +301,7 @@ The app doesn't include a UI theme editor yet. To customize the built-in landing
 
 Follow these steps:
 
-1. Duplicate the default theme located at `/public/content/plugins/heyaikeedo/default` to a new location within `/public/content/plugins/`, e.g., `/public/content/plugins/yourorganization/themename`
+1. Duplicate the default theme located at `/extra/extensions/heyaikeedo/default` to a new location within `/extra/extensions/`, e.g., `/extra/extensions/yourorganization/themename`
 2. In the duplicated theme, update the `composer.json` file to reflect `yourorganization/themename` as the theme name to match its location
 3. Activate your new theme on the Themes page in the admin UI
 4. Enable debug mode in the app

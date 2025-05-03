@@ -1,10 +1,10 @@
 {
     "name": "heyaikeedo/default",
     "description": "Default theme for Aikeedo",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "type": "aikeedo-theme",
     "homepage": "https://aikeedo.com",
-    "time": "2024-12-21",
+    "time": "2025-05-03",
     "license": "AIKEEDO",
     "authors": [
         {
@@ -31,7 +31,11 @@
         "title": "Default",
         "description": "Default theme for Aikeedo",
         "logo": "https://aikeedo.com/",
-        "icon": "https://aikeedo.com/"
+        "icon": "https://aikeedo.com/",
+        "public": [
+            "assets",
+            ".vite"
+        ]
     },
     "autoload": {}
 }

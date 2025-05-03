@@ -172,10 +172,10 @@
           {% for locale in locales %}
           {% if locale.enabled %}
           <li>
-            <a href="/{{ locale.name }}"
+            <a href="/{{ locale.code ?? 'en-US' }}"
               class="block w-full px-4 py-2 text-left hover:bg-contrast-secondary hover:no-underline"
-              @click="document.cookie = `locale={{locale.name}}; expires=${new Date(new Date().getTime()+1000*60*60*24*365).toGMTString()}; path=/`;">
-              {{ locale.label }}
+              @click="document.cookie = `locale={{ locale.code ?? 'en-US' }}; expires=${new Date(new Date().getTime()+1000*60*60*24*365).toGMTString()}; path=/`;">
+              {{ locale.label ?? 'English' }}
             </a>
           </li>
           {% endif %}
