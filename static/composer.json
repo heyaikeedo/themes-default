@@ -31,7 +31,11 @@
         "title": "Default",
         "description": "Default theme for Aikeedo",
         "logo": "https://aikeedo.com/",
-        "icon": "https://aikeedo.com/"
+        "icon": "https://aikeedo.com/",
+        "public": [
+            "assets",
+            ".vite"
+        ]
     },
     "autoload": {}
 }
