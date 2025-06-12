@@ -11,392 +11,392 @@ msgstr ""
 "X-Domain: theme\n"
 
 msgid "AI Writer"
-msgstr ""
+msgstr "AI 작가"
 
 msgid ""
 "Achieve superior outcomes in a fraction of the time. At last, a writing "
 "tool that you'll genuinely utilize."
-msgstr ""
+msgstr "상위 결과를 단시간 내에 달성하세요. 마지막으로, 진정으로 사용할 수 있는 작성 도구."
 
 msgctxt "heading"
 msgid "Write SEO optimized blogs, sales emails and more..."
-msgstr ""
+msgstr "SEO 최적화 블로그, 판매 이메일 등 작성..."
 
 msgctxt "button"
 msgid "See all features"
-msgstr ""
+msgstr "모든 기능 보기"
 
 msgid "Text to Voice"
-msgstr ""
+msgstr "텍스트 음성 변환"
 
 msgid ""
 "Elevate Your Content with Expressive Narration: Discover Text-to-Voice "
 "Excellence."
-msgstr ""
+msgstr "표현적인 설명으로 콘텐츠를 향상시키세요: 텍스트에서 음성의 우수한 기능을 발견하세요."
 
 msgctxt "heading"
 msgid "Convert your texts into <br> Lifelike Speech"
-msgstr ""
+msgstr "텍스트를 <br> 생생한 음성으로 변환"
 
 msgid "Speech to Text"
-msgstr ""
+msgstr "음성 텍스트 변환"
 
 msgid ""
 "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and "
 "Accessibility."
-msgstr ""
+msgstr "생산성과 접근성을 향상시키기 위해 말한 단어를 즉시 텍스트로 전사하세요."
 
 msgctxt "heading"
 msgid "Transforming Spoken <br> Words into Text."
-msgstr ""
+msgstr "말한 단어를 <br> 텍스트로 변환합니다."
 
 msgctxt "button"
 msgid "Convert now"
-msgstr ""
+msgstr "지금 변환하기"
 
 msgid ":count credits"
-msgstr ""
+msgstr ":count 크레딧"
 
 msgid ""
 "Discover the perfect plan to suit your needs and unlock a world of "
 "possibilities."
-msgstr ""
+msgstr "필요에 맞는 완벽한 계획을 발견하고 무한한 가능성을 해제하세요."
 
 msgid "Most Popular"
-msgstr ""
+msgstr "가장 인기 있음"
 
 msgid "Chat"
-msgstr ""
+msgstr "채팅"
 
 msgid "Writer"
-msgstr ""
+msgstr "작가"
 
 msgid "Coding Assistant"
-msgstr ""
+msgstr "코딩 도우미"
 
 msgid "Image generator"
-msgstr ""
+msgstr "이미지 생성기"
 
 msgid "Transcriber"
-msgstr ""
+msgstr "전사기"
 
 msgid "Voiceover"
-msgstr ""
+msgstr "음성 녹음"
 
 msgid "Voice isolator"
-msgstr ""
+msgstr "음성 분리기"
 
 msgid "Classifier"
-msgstr ""
+msgstr "분류기"
 
 msgid "Access to templates is disabled"
-msgstr ""
+msgstr "템플릿 접근이 비활성화되었습니다"
 
 msgid "Access to all templates"
-msgstr ""
+msgstr "모든 템플릿 접근"
 
 msgid "Priority support"
-msgstr ""
+msgstr "우선 지원"
 
 msgid "Basic support"
-msgstr ""
+msgstr "기본 지원"
 
 msgctxt "button"
 msgid "Pricing"
-msgstr ""
+msgstr "가격"
 
 msgctxt "button"
 msgid "Monthly"
-msgstr ""
+msgstr "월간"
 
 msgctxt "button"
 msgid "Yearly"
-msgstr ""
+msgstr "연간"
 
 msgctxt "button"
 msgid "Packs"
-msgstr ""
+msgstr "팩"
 
 msgctxt "button"
 msgid "Lifetime Deals"
-msgstr ""
+msgstr "평생 거래"
 
 msgctxt "button"
 msgid "Get started"
-msgstr ""
+msgstr "시작하기"
 
 msgid "100+ AI Writer Templates"
-msgstr ""
+msgstr "100개 이상의 AI 작성 템플릿"
 
 msgid ""
 "Write with remarkable speed, captivate your audience, and bid farewell to "
 "writer\\'s block forever."
-msgstr ""
+msgstr "놀라운 속도로 작성하고, 청중을 사로잡고, 작가의 블로킹을 영원히 이별하세요."
 
 msgctxt "heading"
 msgid "What can Writing Assistant create for you?"
-msgstr ""
+msgstr "Writing Assistant가 당신을 위해 무엇을 만들어 드릴까요?"
 
 msgctxt "button"
 msgid "Get Started for Free"
-msgstr ""
+msgstr "무료로 시작하기"
 
 msgid "AI Image"
-msgstr ""
+msgstr "AI 이미지"
 
 msgid ""
 "Instantly create stunning images using AI Image Generator – your tool for "
 "artistic innovation."
-msgstr ""
+msgstr "AI 이미지 생성기를 사용하여 즉시 놀라운 이미지를 생성하세요."
 
 msgctxt "heading"
 msgid "Visualize what you dream of. Create images from text."
-msgstr ""
+msgstr "당신이 꿈꾸는 것을 시각화하세요. 텍스트로 이미지를 만드세요."
 
 msgctxt "button"
 msgid "Try for free"
-msgstr ""
+msgstr "무료로 체험하기"
 
 msgid "Choose a our built in templates or create your own."
-msgstr ""
+msgstr "내장된 템플릿을 선택하거나 직접 만드세요."
 
 msgid ""
 "Enter a few sentences to describe your topic. Add keywords to specify for "
 "your brand."
-msgstr ""
+msgstr "주제를 설명하는 몇 가지 문장을 입력하세요. 브랜드를 지정하기 위한 키워드를 추가하세요."
 
 msgid ""
 "Click the \"Generate\" button and get a variety of high-converting copy "
 "every time."
-msgstr ""
+msgstr "\"생성\" 버튼을 클릭하면 매번 다양한 높은 변환 복사본을 얻을 수 있습니다."
 
 msgctxt "heading"
 msgid "How it works"
-msgstr ""
+msgstr "작동 방식"
 
 msgctxt "heading"
 msgid "Choose Template"
-msgstr ""
+msgstr "템플릿 선택"
 
 msgctxt "heading"
 msgid "Describe"
-msgstr ""
+msgstr "설명하기"
 
 msgctxt "heading"
 msgid "Generate"
-msgstr ""
+msgstr "생성하기"
 
 msgid ""
 "Effortlessly generate high-quality AI-driven content tailored to your "
 "needs. Unlock limitless possibilities, save your time and start making "
 "money today!"
-msgstr ""
+msgstr "필요에 맞게 조정된 고품질 AI 콘텐츠를 쉽게 생성하세요. 무제한 가능성을 해제하고, 시간을 절약하고, 오늘 돈을 벌기 시작하세요!"
 
 msgctxt "heading"
 msgid "Transforming ideas into AI generated masterpieces"
-msgstr ""
+msgstr "아이디어를 AI가 생성한 걸작으로 변환하기"
 
 msgctxt "button"
 msgid "Go to app"
-msgstr ""
+msgstr "앱으로 이동"
 
 msgctxt "button"
 msgid "Get started now"
-msgstr ""
+msgstr "지금 시작하기"
 
 msgctxt "button"
 msgid "Product"
-msgstr ""
+msgstr "제품"
 
 msgctxt "button"
 msgid "Featured"
-msgstr ""
+msgstr "추천"
 
 msgctxt "button"
 msgid "Library"
-msgstr ""
+msgstr "라이브러리"
 
 msgctxt "button"
 msgid "Billing"
-msgstr ""
+msgstr "청구"
 
 msgctxt "button"
 msgid "Account"
-msgstr ""
+msgstr "계정"
 
 msgctxt "button"
 msgid "Logout"
-msgstr ""
+msgstr "로그아웃"
 
 msgctxt "button"
 msgid "Login"
-msgstr ""
+msgstr "로그인"
 
 msgctxt "heading"
 msgid "Meet your ultimate"
-msgstr ""
+msgstr "당신의 궁극적인 만남"
 
 msgctxt "heading"
 msgid "AI-Powered Content Platform"
-msgstr ""
+msgstr "AI 기반 콘텐츠 플랫폼"
 
 msgid "All rights reserved."
-msgstr ""
+msgstr "판권 소유."
 
 msgctxt "button"
 msgid "FAQ"
-msgstr ""
+msgstr "자주 묻는 질문"
 
 msgctxt "button"
 msgid "Terms of services"
-msgstr ""
+msgstr "서비스 약관"
 
 msgctxt "button"
 msgid "Privacy policy"
-msgstr ""
+msgstr "개인정보 처리방침"
 
 msgctxt "button"
 msgid "Refund policy"
-msgstr ""
+msgstr "환불 정책"
 
 msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
-msgstr ""
+msgstr "도메인 주도 설계와 어니언 아키텍처 원칙을 사용하여 개발되었습니다."
 
 msgid ""
 "Built with modern technologies for best structure and get maximum "
 "performance."
-msgstr ""
+msgstr "최신 기술을 사용하여 최상의 구조를 얻고 최대 성능을 발휘합니다."
 
 msgid ""
 "Enjoy a hassle-free and intuitive user interface that enhances your digital "
 "experience."
-msgstr ""
+msgstr "문제 없이 쉽고 직관적인 사용자 인터페이스를 즐기세요."
 
 msgid "Turn off the light and switch to dark mode your interface with one click."
-msgstr ""
+msgstr "불을 끄고 한 번의 클릭으로 인터페이스를 다크 모드로 전환하세요."
 
 msgid "An all-inclusive learning package seamlessly integrated into our community."
-msgstr ""
+msgstr "우리 커뮤니티에 원활하게 통합된 올인원 학습 패키지."
 
 msgid "Simplify transactions and boost security with payment gateway solutions."
-msgstr ""
+msgstr "결제 게이트웨이 솔루션으로 거래를 간소화하고 보안을 강화하세요."
 
 msgid "Unlock limitless creativity with our AI-powered content generator."
-msgstr ""
+msgstr "AI 기반 콘텐츠 생성기로 무한한 창의력을 발휘하세요."
 
 msgid ""
 "Boost your visibility and reach your audience effectively with AI generated "
 "content."
-msgstr ""
+msgstr "AI 생성 콘텐츠로 가시성을 높이고 효과적으로 청중에게 전달하세요."
 
 msgid "Empower your insights and control with our cutting-edge dashboard."
-msgstr ""
+msgstr "최첨단 대시보드로 인사이트와 제어력을 강화하세요."
 
 msgid "Transform your content creation with AI-driven custom templates."
-msgstr ""
+msgstr "AI 구동 맞춤 템플릿으로 콘텐츠 제작을 혁신하세요."
 
 msgid "Use Facebook or Google accounts as an alternatively access to platform."
-msgstr ""
+msgstr "Facebook 또는 Google 계정을 플랫폼 대체 접근 수단으로 사용하세요."
 
 msgid ""
 "Our support team is available 24/7 to help you with any questions or "
 "concerns."
-msgstr ""
+msgstr "우리의 지원 팀은 24/7 연중 연중 도움을 제공합니다."
 
 msgctxt "heading"
 msgid "Coolest Features"
-msgstr ""
+msgstr "최고의 기능"
 
 msgctxt "heading"
 msgid "High Quality Code"
-msgstr ""
+msgstr "고품질 코드"
 
 msgctxt "heading"
 msgid "Modern Technologies"
-msgstr ""
+msgstr "최신 기술"
 
 msgctxt "heading"
 msgid "Friendly UI and UX"
-msgstr ""
+msgstr "친숙한 UI 및 UX"
 
 msgctxt "heading"
 msgid "Dark Mode"
-msgstr ""
+msgstr "다크 모드"
 
 msgctxt "heading"
 msgid "Documentation"
-msgstr ""
+msgstr "문서"
 
 msgctxt "heading"
 msgid "Payment Gateways"
-msgstr ""
+msgstr "결제 게이트웨이"
 
 msgctxt "heading"
 msgid "AI Generator"
-msgstr ""
+msgstr "AI 생성기"
 
 msgctxt "heading"
 msgid "SEO Friendly"
-msgstr ""
+msgstr "SEO 친화적"
 
 msgctxt "heading"
 msgid "Advanced Dashboard"
-msgstr ""
+msgstr "고급 대시보드"
 
 msgctxt "heading"
 msgid "Custom Templates"
-msgstr ""
+msgstr "맞춤 템플릿"
 
 msgctxt "heading"
 msgid "Login via SM Accounts"
-msgstr ""
+msgstr "소셜 미디어 계정으로 로그인"
 
 msgctxt "heading"
 msgid "High Quality Support"
-msgstr ""
+msgstr "고품질 지원"
 
 msgid "See how easy it can be to write amazing content."
-msgstr ""
+msgstr "놀라운 콘텐츠를 작성하는 것이 얼마나 쉬운지 확인해 보세요."
 
 msgctxt "heading"
 msgid "Ready to level-up?"
-msgstr ""
+msgstr "레벨업할 준비가 되셨나요?"
 
 msgctxt "button"
 msgid "Get Started Now"
-msgstr ""
+msgstr "지금 시작하기"
 
 msgid "AI Code"
-msgstr ""
+msgstr "AI 코드"
 
 msgid ""
 "Effortless coding with AI Code Generator: Instant solutions for your "
 "programming needs."
-msgstr ""
+msgstr "AI 코드 생성기로 쉽게 코드를 작성하세요: 프로그래밍 필요에 따른 즉시 해결."
 
 msgctxt "heading"
 msgid "Ready to write code at the speed of light?"
-msgstr ""
+msgstr "빛의 속도로 코드를 작성할 준비가 되셨나요?"
 
 msgctxt "button"
 msgid "Start Generate Code"
-msgstr ""
+msgstr "코드 생성 시작"
 
 msgid "AI Chat Bot"
-msgstr ""
+msgstr "AI 채팅 봇"
 
 msgid ""
 "Simply choose your asistant and engage with a friendly chatbot to generate "
 "ideas, enhance your content, or even bring a smile to your face."
-msgstr ""
+msgstr "쉽게 자신의 도우미를 선택하고 친절한 채팅 봇과 소통하여 아이디어를 생성하고, 콘텐츠를 강화하고, 얼굴에 미소를 띄우세요."
 
 msgctxt "heading"
 msgid "That\\'s remarkably human-like and engaging..."
-msgstr ""
+msgstr "정말 인간 같고 매력적이네요..."
 
 msgctxt "button"
 msgid "Try now"
-msgstr ""
+msgstr "지금 시도하기"
 
 msgid "Unlimited"
-msgstr ""
+msgstr "무제한"

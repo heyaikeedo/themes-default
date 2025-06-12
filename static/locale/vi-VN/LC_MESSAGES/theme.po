@@ -11,392 +11,392 @@ msgstr ""
 "X-Domain: theme\n"
 
 msgid "AI Writer"
-msgstr ""
+msgstr "Trình Viết AI"
 
 msgid ""
 "Achieve superior outcomes in a fraction of the time. At last, a writing "
 "tool that you'll genuinely utilize."
-msgstr ""
+msgstr "Đạt được kết quả vượt trội trong một phần thời gian. Cuối cùng, một công cụ viết mà bạn sẽ thực sự sử dụng."
 
 msgctxt "heading"
 msgid "Write SEO optimized blogs, sales emails and more..."
-msgstr ""
+msgstr "Viết blog tối ưu SEO, email bán hàng và nhiều hơn nữa..."
 
 msgctxt "button"
 msgid "See all features"
-msgstr ""
+msgstr "Xem tất cả tính năng"
 
 msgid "Text to Voice"
-msgstr ""
+msgstr "Chuyển Văn Bản Thành Giọng Nói"
 
 msgid ""
 "Elevate Your Content with Expressive Narration: Discover Text-to-Voice "
 "Excellence."
-msgstr ""
+msgstr "Nâng cao nội dung của bạn với trình bày đặc sắc: Khám phá sự hoàn hảo của văn bản thành giọng nói."
 
 msgctxt "heading"
 msgid "Convert your texts into <br> Lifelike Speech"
-msgstr ""
+msgstr "Chuyển đổi văn bản của bạn thành <br> Giọng nói giống thật"
 
 msgid "Speech to Text"
-msgstr ""
+msgstr "Chuyển Giọng Nói Thành Văn Bản"
 
 msgid ""
 "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and "
 "Accessibility."
-msgstr ""
+msgstr "Chuyển đổi ngay lập tức từ lời nói thành văn bản để nâng cao năng suất và khả dụng."
 
 msgctxt "heading"
 msgid "Transforming Spoken <br> Words into Text."
-msgstr ""
+msgstr "Chuyển đổi lời nói <br> thành văn bản."
 
 msgctxt "button"
 msgid "Convert now"
-msgstr ""
+msgstr "Chuyển đổi ngay"
 
 msgid ":count credits"
-msgstr ""
+msgstr ":count tín chỉ"
 
 msgid ""
 "Discover the perfect plan to suit your needs and unlock a world of "
 "possibilities."
-msgstr ""
+msgstr "Khám phá kế hoạch hoàn hảo phù hợp với nhu cầu của bạn và mở khóa một thế giới các khả năng."
 
 msgid "Most Popular"
-msgstr ""
+msgstr "Phổ biến nhất"
 
 msgid "Chat"
-msgstr ""
+msgstr "Trò chuyện"
 
 msgid "Writer"
-msgstr ""
+msgstr "Người viết"
 
 msgid "Coding Assistant"
-msgstr ""
+msgstr "Trợ lý lập trình"
 
 msgid "Image generator"
-msgstr ""
+msgstr "Trình tạo hình ảnh"
 
 msgid "Transcriber"
-msgstr ""
+msgstr "Người phiên âm"
 
 msgid "Voiceover"
-msgstr ""
+msgstr "Lồng tiếng"
 
 msgid "Voice isolator"
-msgstr ""
+msgstr "Bộ tách giọng nói"
 
 msgid "Classifier"
-msgstr ""
+msgstr "Bộ phân loại"
 
 msgid "Access to templates is disabled"
-msgstr ""
+msgstr "Truy cập vào mẫu bị vô hiệu hóa"
 
 msgid "Access to all templates"
-msgstr ""
+msgstr "Truy cập vào tất cả các mẫu"
 
 msgid "Priority support"
-msgstr ""
+msgstr "Hỗ trợ ưu tiên"
 
 msgid "Basic support"
-msgstr ""
+msgstr "Hỗ trợ cơ bản"
 
 msgctxt "button"
 msgid "Pricing"
-msgstr ""
+msgstr "Bảng giá"
 
 msgctxt "button"
 msgid "Monthly"
-msgstr ""
+msgstr "Hàng tháng"
 
 msgctxt "button"
 msgid "Yearly"
-msgstr ""
+msgstr "Hàng năm"
 
 msgctxt "button"
 msgid "Packs"
-msgstr ""
+msgstr "Gói"
 
 msgctxt "button"
 msgid "Lifetime Deals"
-msgstr ""
+msgstr "Ưu đãi trọn đời"
 
 msgctxt "button"
 msgid "Get started"
-msgstr ""
+msgstr "Bắt đầu"
 
 msgid "100+ AI Writer Templates"
-msgstr ""
+msgstr "Hơn 100 Mẫu Viết AI"
 
 msgid ""
 "Write with remarkable speed, captivate your audience, and bid farewell to "
 "writer\\'s block forever."
-msgstr ""
+msgstr "Viết với tốc độ đáng kinh ngạc, thu hút độc giả của bạn và tạm biệt với trục trặc viết vĩnh viễn."
 
 msgctxt "heading"
 msgid "What can Writing Assistant create for you?"
-msgstr ""
+msgstr "Trợ lý Viết có thể tạo gì cho bạn?"
 
 msgctxt "button"
 msgid "Get Started for Free"
-msgstr ""
+msgstr "Bắt đầu miễn phí"
 
 msgid "AI Image"
-msgstr ""
+msgstr "Hình ảnh AI"
 
 msgid ""
 "Instantly create stunning images using AI Image Generator – your tool for "
 "artistic innovation."
-msgstr ""
+msgstr "Tạo hình ảnh tuyệt vời ngay lập tức bằng cách sử dụng trình tạo hình ảnh AI - công cụ của bạn để sáng tạo."
 
 msgctxt "heading"
 msgid "Visualize what you dream of. Create images from text."
-msgstr ""
+msgstr "Hình dung những gì bạn mơ ước. Tạo hình ảnh từ văn bản."
 
 msgctxt "button"
 msgid "Try for free"
-msgstr ""
+msgstr "Dùng thử miễn phí"
 
 msgid "Choose a our built in templates or create your own."
-msgstr ""
+msgstr "Chọn một trong các mẫu có sẵn hoặc tạo mẫu riêng của bạn."
 
 msgid ""
 "Enter a few sentences to describe your topic. Add keywords to specify for "
 "your brand."
-msgstr ""
+msgstr "Nhập vài câu để mô tả chủ đề của bạn. Thêm từ khóa để chỉ định cho thương hiệu của bạn."
 
 msgid ""
 "Click the \"Generate\" button and get a variety of high-converting copy "
 "every time."
-msgstr ""
+msgstr "Nhấn nút \"Tạo\" và nhận được nhiều bản sao chuyển đổi cao mỗi lần."
 
 msgctxt "heading"
 msgid "How it works"
-msgstr ""
+msgstr "Cách hoạt động"
 
 msgctxt "heading"
 msgid "Choose Template"
-msgstr ""
+msgstr "Chọn mẫu"
 
 msgctxt "heading"
 msgid "Describe"
-msgstr ""
+msgstr "Mô tả"
 
 msgctxt "heading"
 msgid "Generate"
-msgstr ""
+msgstr "Tạo"
 
 msgid ""
 "Effortlessly generate high-quality AI-driven content tailored to your "
 "needs. Unlock limitless possibilities, save your time and start making "
 "money today!"
-msgstr ""
+msgstr "Tạo nội dung AI được lái bởi AI phù hợp với nhu cầu của bạn. Mở khóa các khả năng vô hạn, tiết kiệm thời gian và bắt đầu kiếm tiền ngay hôm nay!"
 
 msgctxt "heading"
 msgid "Transforming ideas into AI generated masterpieces"
-msgstr ""
+msgstr "Biến ý tưởng thành kiệt tác do AI tạo ra"
 
 msgctxt "button"
 msgid "Go to app"
-msgstr ""
+msgstr "Đi đến ứng dụng"
 
 msgctxt "button"
 msgid "Get started now"
-msgstr ""
+msgstr "Bắt đầu ngay"
 
 msgctxt "button"
 msgid "Product"
-msgstr ""
+msgstr "Sản phẩm"
 
 msgctxt "button"
 msgid "Featured"
-msgstr ""
+msgstr "Nổi bật"
 
 msgctxt "button"
 msgid "Library"
-msgstr ""
+msgstr "Thư viện"
 
 msgctxt "button"
 msgid "Billing"
-msgstr ""
+msgstr "Thanh toán"
 
 msgctxt "button"
 msgid "Account"
-msgstr ""
+msgstr "Tài khoản"
 
 msgctxt "button"
 msgid "Logout"
-msgstr ""
+msgstr "Đăng xuất"
 
 msgctxt "button"
 msgid "Login"
-msgstr ""
+msgstr "Đăng nhập"
 
 msgctxt "heading"
 msgid "Meet your ultimate"
-msgstr ""
+msgstr "Gặp gỡ điều tuyệt vời nhất của bạn"
 
 msgctxt "heading"
 msgid "AI-Powered Content Platform"
-msgstr ""
+msgstr "Nền tảng nội dung được hỗ trợ bởi AI"
 
 msgid "All rights reserved."
-msgstr ""
+msgstr "Bảo lưu mọi quyền."
 
 msgctxt "button"
 msgid "FAQ"
-msgstr ""
+msgstr "Câu hỏi thường gặp"
 
 msgctxt "button"
 msgid "Terms of services"
-msgstr ""
+msgstr "Điều khoản dịch vụ"
 
 msgctxt "button"
 msgid "Privacy policy"
-msgstr ""
+msgstr "Chính sách bảo mật"
 
 msgctxt "button"
 msgid "Refund policy"
-msgstr ""
+msgstr "Chính sách hoàn tiền"
 
 msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
-msgstr ""
+msgstr "Phát triển bằng cách sử dụng Thiết kế theo miền và Nguyên tắc Kiến trúc Hành tây."
 
 msgid ""
 "Built with modern technologies for best structure and get maximum "
 "performance."
-msgstr ""
+msgstr "Xây dựng với công nghệ hiện đại để có cấu trúc tốt nhất và đạt hiệu suất tối đa."
 
 msgid ""
 "Enjoy a hassle-free and intuitive user interface that enhances your digital "
 "experience."
-msgstr ""
+msgstr "Thưởng thức giao diện người dùng dễ dàng và trực quan mà nâng cao trải nghiệm số của bạn."
 
 msgid "Turn off the light and switch to dark mode your interface with one click."
-msgstr ""
+msgstr "Tắt đèn và chuyển giao diện sang chế độ tối chỉ với một cú nhấp chuột."
 
 msgid "An all-inclusive learning package seamlessly integrated into our community."
-msgstr ""
+msgstr "Gói học tập toàn diện tích hợp liền mạch vào cộng đồng của chúng tôi."
 
 msgid "Simplify transactions and boost security with payment gateway solutions."
-msgstr ""
+msgstr "Đơn giản hóa giao dịch và tăng cường bảo mật với các giải pháp cổng thanh toán."
 
 msgid "Unlock limitless creativity with our AI-powered content generator."
-msgstr ""
+msgstr "Mở khóa sự sáng tạo vô hạn với trình tạo nội dung được hỗ trợ bởi AI của chúng tôi."
 
 msgid ""
 "Boost your visibility and reach your audience effectively with AI generated "
 "content."
-msgstr ""
+msgstr "Tăng cường tính nhận diện và đạt được độc giả của bạn một cách hiệu quả với nội dung được AI tạo ra."
 
 msgid "Empower your insights and control with our cutting-edge dashboard."
-msgstr ""
+msgstr "Tăng cường hiểu biết và kiểm soát của bạn với bảng điều khiển tiên tiến của chúng tôi."
 
 msgid "Transform your content creation with AI-driven custom templates."
-msgstr ""
+msgstr "Biến đổi việc tạo nội dung của bạn với các mẫu tùy chỉnh được điều khiển bởi AI."
 
 msgid "Use Facebook or Google accounts as an alternatively access to platform."
-msgstr ""
+msgstr "Sử dụng tài khoản Facebook hoặc Google như một cách truy cập thay thế vào nền tảng."
 
 msgid ""
 "Our support team is available 24/7 to help you with any questions or "
 "concerns."
-msgstr ""
+msgstr "Đội hỗ trợ của chúng tôi có sẵn 24/7 để giúp bạn với bất kỳ câu hỏi hoặc vấn đề nào."
 
 msgctxt "heading"
 msgid "Coolest Features"
-msgstr ""
+msgstr "Tính Năng Đỉnh Cao"
 
 msgctxt "heading"
 msgid "High Quality Code"
-msgstr ""
+msgstr "Mã Lập Trình Chất Lượng Cao"
 
 msgctxt "heading"
 msgid "Modern Technologies"
-msgstr ""
+msgstr "Công Nghệ Hiện Đại"
 
 msgctxt "heading"
 msgid "Friendly UI and UX"
-msgstr ""
+msgstr "Giao Diện và Trải Nghiệm Người Dùng Thân Thiện"
 
 msgctxt "heading"
 msgid "Dark Mode"
-msgstr ""
+msgstr "Chế Độ Tối"
 
 msgctxt "heading"
 msgid "Documentation"
-msgstr ""
+msgstr "Tài Liệu"
 
 msgctxt "heading"
 msgid "Payment Gateways"
-msgstr ""
+msgstr "Cổng Thanh Toán"
 
 msgctxt "heading"
 msgid "AI Generator"
-msgstr ""
+msgstr "Trình Tạo AI"
 
 msgctxt "heading"
 msgid "SEO Friendly"
-msgstr ""
+msgstr "Thân Thiện với SEO"
 
 msgctxt "heading"
 msgid "Advanced Dashboard"
-msgstr ""
+msgstr "Bảng Điều Khiển Nâng Cao"
 
 msgctxt "heading"
 msgid "Custom Templates"
-msgstr ""
+msgstr "Mẫu Tùy Chỉnh"
 
 msgctxt "heading"
 msgid "Login via SM Accounts"
-msgstr ""
+msgstr "Đăng Nhập qua Tài Khoản MXH"
 
 msgctxt "heading"
 msgid "High Quality Support"
-msgstr ""
+msgstr "Hỗ Trợ Chất Lượng Cao"
 
 msgid "See how easy it can be to write amazing content."
-msgstr ""
+msgstr "Xem cách viết nội dung tuyệt vời trở nên dễ dàng như thế nào."
 
 msgctxt "heading"
 msgid "Ready to level-up?"
-msgstr ""
+msgstr "Sẵn sàng nâng cấp chưa?"
 
 msgctxt "button"
 msgid "Get Started Now"
-msgstr ""
+msgstr "Bắt Đầu Ngay"
 
 msgid "AI Code"
-msgstr ""
+msgstr "Mã AI"
 
 msgid ""
 "Effortless coding with AI Code Generator: Instant solutions for your "
 "programming needs."
-msgstr ""
+msgstr "Viết mã một cách dễ dàng với trình tạo mã AI: Giải pháp ngay lập tức cho nhu cầu lập trình của bạn."
 
 msgctxt "heading"
 msgid "Ready to write code at the speed of light?"
-msgstr ""
+msgstr "Sẵn sàng viết mã với tốc độ ánh sáng?"
 
 msgctxt "button"
 msgid "Start Generate Code"
-msgstr ""
+msgstr "Bắt đầu tạo mã"
 
 msgid "AI Chat Bot"
-msgstr ""
+msgstr "Bot trò chuyện AI"
 
 msgid ""
 "Simply choose your asistant and engage with a friendly chatbot to generate "
 "ideas, enhance your content, or even bring a smile to your face."
-msgstr ""
+msgstr "Chỉ cần chọn trợ lý của bạn và tham gia vào cuộc trò chuyện với bot trò chuyện thân thiện để tạo ra ý tưởng, nâng cao nội dung của bạn hoặc thậm chí làm vui mặt cho bạn."
 
 msgctxt "heading"
 msgid "That\\'s remarkably human-like and engaging..."
-msgstr ""
+msgstr "Điều đó thật sự giống con người và hấp dẫn..."
 
 msgctxt "button"
 msgid "Try now"
-msgstr ""
+msgstr "Thử ngay"
 
 msgid "Unlimited"
-msgstr ""
+msgstr "Không giới hạn"

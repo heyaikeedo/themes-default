@@ -11,392 +11,392 @@ msgstr ""
 "X-Domain: theme\n"
 
 msgid "AI Writer"
-msgstr ""
+msgstr "AI Író"
 
 msgid ""
 "Achieve superior outcomes in a fraction of the time. At last, a writing "
 "tool that you'll genuinely utilize."
-msgstr ""
+msgstr "Érje el a legjobb eredményeket egy részében a időben. Végre, egy íróeszköz, amelyet igazán használni fog."
 
 msgctxt "heading"
 msgid "Write SEO optimized blogs, sales emails and more..."
-msgstr ""
+msgstr "Írj SEO-optimalizált blogokat, értékesítési e-maileket és még sok mást..."
 
 msgctxt "button"
 msgid "See all features"
-msgstr ""
+msgstr "Az összes funkció megtekintése"
 
 msgid "Text to Voice"
-msgstr ""
+msgstr "Szöveg hanggá"
 
 msgid ""
 "Elevate Your Content with Expressive Narration: Discover Text-to-Voice "
 "Excellence."
-msgstr ""
+msgstr "Emelje meg a tartalmait a kifejező elbeszéléssel: Fedezze fel a szöveg hanggá kiválóságot."
 
 msgctxt "heading"
 msgid "Convert your texts into <br> Lifelike Speech"
-msgstr ""
+msgstr "Alakítsd át szövegeidet <br> élethű beszéddé"
 
 msgid "Speech to Text"
-msgstr ""
+msgstr "Beszéd szöveggé"
 
 msgid ""
 "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and "
 "Accessibility."
-msgstr ""
+msgstr "Azonnali átírás a beszédből a szöveggé a termelékenység és a hozzáférhetőség növelése érdekében."
 
 msgctxt "heading"
 msgid "Transforming Spoken <br> Words into Text."
-msgstr ""
+msgstr "A kimondott szavak <br> szöveggé alakítása."
 
 msgctxt "button"
 msgid "Convert now"
-msgstr ""
+msgstr "Átalakítás most"
 
 msgid ":count credits"
-msgstr ""
+msgstr ":count kredit"
 
 msgid ""
 "Discover the perfect plan to suit your needs and unlock a world of "
 "possibilities."
-msgstr ""
+msgstr "Fedezze fel a tökéletes tervet, amely megfelel a szükségleteinek és feloldja a lehetőségek világát."
 
 msgid "Most Popular"
-msgstr ""
+msgstr "Legnépszerűbb"
 
 msgid "Chat"
-msgstr ""
+msgstr "Csevegés"
 
 msgid "Writer"
-msgstr ""
+msgstr "Író"
 
 msgid "Coding Assistant"
-msgstr ""
+msgstr "Kódolási asszisztens"
 
 msgid "Image generator"
-msgstr ""
+msgstr "Kép generátor"
 
 msgid "Transcriber"
-msgstr ""
+msgstr "Átirat készítő"
 
 msgid "Voiceover"
-msgstr ""
+msgstr "Hangalámondás"
 
 msgid "Voice isolator"
-msgstr ""
+msgstr "Hangszigetelő"
 
 msgid "Classifier"
-msgstr ""
+msgstr "Osztályozó"
 
 msgid "Access to templates is disabled"
-msgstr ""
+msgstr "A sablonokhoz való hozzáférés le van tiltva"
 
 msgid "Access to all templates"
-msgstr ""
+msgstr "Hozzáférés az összes sablonhoz"
 
 msgid "Priority support"
-msgstr ""
+msgstr "Elsőbbségi támogatás"
 
 msgid "Basic support"
-msgstr ""
+msgstr "Alap támogatás"
 
 msgctxt "button"
 msgid "Pricing"
-msgstr ""
+msgstr "Árazás"
 
 msgctxt "button"
 msgid "Monthly"
-msgstr ""
+msgstr "Havi"
 
 msgctxt "button"
 msgid "Yearly"
-msgstr ""
+msgstr "Éves"
 
 msgctxt "button"
 msgid "Packs"
-msgstr ""
+msgstr "Csomagok"
 
 msgctxt "button"
 msgid "Lifetime Deals"
-msgstr ""
+msgstr "Élettartam ajánlatok"
 
 msgctxt "button"
 msgid "Get started"
-msgstr ""
+msgstr "Kezdés"
 
 msgid "100+ AI Writer Templates"
-msgstr ""
+msgstr "100+ AI író sablon"
 
 msgid ""
 "Write with remarkable speed, captivate your audience, and bid farewell to "
 "writer\\'s block forever."
-msgstr ""
+msgstr "Írjon gyorsan, foglalkozzon a közönséggel, és búcsút mondjon a szerzői blokkhoz."
 
 msgctxt "heading"
 msgid "What can Writing Assistant create for you?"
-msgstr ""
+msgstr "Mit készíthet Önnek az Író Asszisztens?"
 
 msgctxt "button"
 msgid "Get Started for Free"
-msgstr ""
+msgstr "Kezdje el ingyen"
 
 msgid "AI Image"
-msgstr ""
+msgstr "AI Kép"
 
 msgid ""
 "Instantly create stunning images using AI Image Generator – your tool for "
 "artistic innovation."
-msgstr ""
+msgstr "Azonnali kép készítés a technológiai képgenerátorral - a művészeti innovációja."
 
 msgctxt "heading"
 msgid "Visualize what you dream of. Create images from text."
-msgstr ""
+msgstr "Lássa meg, amiről álmodik. Készítsen képeket szövegből."
 
 msgctxt "button"
 msgid "Try for free"
-msgstr ""
+msgstr "Próbálja ki ingyen"
 
 msgid "Choose a our built in templates or create your own."
-msgstr ""
+msgstr "Válasszon beépített sablonjaink közül, vagy készítsen sajátot."
 
 msgid ""
 "Enter a few sentences to describe your topic. Add keywords to specify for "
 "your brand."
-msgstr ""
+msgstr "Írjon néhány mondatot a témájának leírására. Adjon hozzá kulcsszavakat a márkájának megadásához."
 
 msgid ""
 "Click the \"Generate\" button and get a variety of high-converting copy "
 "every time."
-msgstr ""
+msgstr "Kattasson a \"Generálás\" gombra, és mindig kapjon különböző magas konverziós másolatokat."
 
 msgctxt "heading"
 msgid "How it works"
-msgstr ""
+msgstr "Hogyan működik"
 
 msgctxt "heading"
 msgid "Choose Template"
-msgstr ""
+msgstr "Sablon kiválasztása"
 
 msgctxt "heading"
 msgid "Describe"
-msgstr ""
+msgstr "Leírás"
 
 msgctxt "heading"
 msgid "Generate"
-msgstr ""
+msgstr "Generálás"
 
 msgid ""
 "Effortlessly generate high-quality AI-driven content tailored to your "
 "needs. Unlock limitless possibilities, save your time and start making "
 "money today!"
-msgstr ""
+msgstr "Generáljon kiváló minőségű tartalmat az AI-val, amely megfelel a szükségleteinek. Szabadítsa fel a lehetőségeket, mentse az időt, és kezdjen el pénzt keresni ma!"
 
 msgctxt "heading"
 msgid "Transforming ideas into AI generated masterpieces"
-msgstr ""
+msgstr "Ötletek átalakítása AI által generált mesterművekké"
 
 msgctxt "button"
 msgid "Go to app"
-msgstr ""
+msgstr "Ugrás az alkalmazáshoz"
 
 msgctxt "button"
 msgid "Get started now"
-msgstr ""
+msgstr "Kezdje el most"
 
 msgctxt "button"
 msgid "Product"
-msgstr ""
+msgstr "Termék"
 
 msgctxt "button"
 msgid "Featured"
-msgstr ""
+msgstr "Kiemelt"
 
 msgctxt "button"
 msgid "Library"
-msgstr ""
+msgstr "Könyvtár"
 
 msgctxt "button"
 msgid "Billing"
-msgstr ""
+msgstr "Számlázás"
 
 msgctxt "button"
 msgid "Account"
-msgstr ""
+msgstr "Fiók"
 
 msgctxt "button"
 msgid "Logout"
-msgstr ""
+msgstr "Kijelentkezés"
 
 msgctxt "button"
 msgid "Login"
-msgstr ""
+msgstr "Bejelentkezés"
 
 msgctxt "heading"
 msgid "Meet your ultimate"
-msgstr ""
+msgstr "Ismerje meg az Ön végső"
 
 msgctxt "heading"
 msgid "AI-Powered Content Platform"
-msgstr ""
+msgstr "Mesterséges intelligencia által vezérelt tartalomplatform"
 
 msgid "All rights reserved."
-msgstr ""
+msgstr "Minden jog fenntartva."
 
 msgctxt "button"
 msgid "FAQ"
-msgstr ""
+msgstr "GYIK"
 
 msgctxt "button"
 msgid "Terms of services"
-msgstr ""
+msgstr "Szolgáltatási feltételek"
 
 msgctxt "button"
 msgid "Privacy policy"
-msgstr ""
+msgstr "Adatvédelmi irányelvek"
 
 msgctxt "button"
 msgid "Refund policy"
-msgstr ""
+msgstr "Visszatérítési szabályzat"
 
 msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
-msgstr ""
+msgstr "A Domain-Driven Design és Onion Architecture elveinek felhasználásával fejlesztve."
 
 msgid ""
 "Built with modern technologies for best structure and get maximum "
 "performance."
-msgstr ""
+msgstr "A modern technológiák használatával a legjobb szerkezetet és a maximális teljesítményt."
 
 msgid ""
 "Enjoy a hassle-free and intuitive user interface that enhances your digital "
 "experience."
-msgstr ""
+msgstr "Élvezze a kényelmes és intuitív felhasználói felületet, amely növeli a digitális élményét."
 
 msgid "Turn off the light and switch to dark mode your interface with one click."
-msgstr ""
+msgstr "Kapcsold ki a fényt, és egy kattintással válts sötét módra az interfészen."
 
 msgid "An all-inclusive learning package seamlessly integrated into our community."
-msgstr ""
+msgstr "Egy mindenre kiterjedő tanulási csomag, amely zökkenőmentesen integrálódik közösségünkbe."
 
 msgid "Simplify transactions and boost security with payment gateway solutions."
-msgstr ""
+msgstr "Egyszerűsítsd a tranzakciókat és növeld a biztonságot fizetési átjáró megoldásokkal."
 
 msgid "Unlock limitless creativity with our AI-powered content generator."
-msgstr ""
+msgstr "Szabadítsa fel a végtelen kreativitást AI-alapú tartalomgenerátorunkkal."
 
 msgid ""
 "Boost your visibility and reach your audience effectively with AI generated "
 "content."
-msgstr ""
+msgstr "Növelje a láthatóságát és érje el a közönségét hatékonyan AI által generált tartalommal."
 
 msgid "Empower your insights and control with our cutting-edge dashboard."
-msgstr ""
+msgstr "Erősítse meg meglátásait és irányítását csúcstechnológiás irányítópultunkkal."
 
 msgid "Transform your content creation with AI-driven custom templates."
-msgstr ""
+msgstr "Alakítsa át tartalomkészítését AI-vezérelt egyedi sablonokkal."
 
 msgid "Use Facebook or Google accounts as an alternatively access to platform."
-msgstr ""
+msgstr "Használja a Facebook vagy Google fiókokat alternatív hozzáférésként a platformhoz."
 
 msgid ""
 "Our support team is available 24/7 to help you with any questions or "
 "concerns."
-msgstr ""
+msgstr "A támogató csapatunk 24/7-ig elérhető, hogy segítsen Önnek bármilyen kérdéssel vagy aggánnyal."
 
 msgctxt "heading"
 msgid "Coolest Features"
-msgstr ""
+msgstr "Legmenőbb funkciók"
 
 msgctxt "heading"
 msgid "High Quality Code"
-msgstr ""
+msgstr "Kiváló minőségű kód"
 
 msgctxt "heading"
 msgid "Modern Technologies"
-msgstr ""
+msgstr "Modern technológiák"
 
 msgctxt "heading"
 msgid "Friendly UI and UX"
-msgstr ""
+msgstr "Barátságos felhasználói felület és élmény"
 
 msgctxt "heading"
 msgid "Dark Mode"
-msgstr ""
+msgstr "Sötét mód"
 
 msgctxt "heading"
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentáció"
 
 msgctxt "heading"
 msgid "Payment Gateways"
-msgstr ""
+msgstr "Fizetési átjárók"
 
 msgctxt "heading"
 msgid "AI Generator"
-msgstr ""
+msgstr "AI Generátor"
 
 msgctxt "heading"
 msgid "SEO Friendly"
-msgstr ""
+msgstr "SEO Barát"
 
 msgctxt "heading"
 msgid "Advanced Dashboard"
-msgstr ""
+msgstr "Fejlett Irányítópult"
 
 msgctxt "heading"
 msgid "Custom Templates"
-msgstr ""
+msgstr "Egyedi Sablonok"
 
 msgctxt "heading"
 msgid "Login via SM Accounts"
-msgstr ""
+msgstr "Bejelentkezés SM Fiókokkal"
 
 msgctxt "heading"
 msgid "High Quality Support"
-msgstr ""
+msgstr "Kiváló Minőségű Támogatás"
 
 msgid "See how easy it can be to write amazing content."
-msgstr ""
+msgstr "Nézze meg, milyen könnyű csodálatos tartalmat írni."
 
 msgctxt "heading"
 msgid "Ready to level-up?"
-msgstr ""
+msgstr "Készen állsz a szintlépésre?"
 
 msgctxt "button"
 msgid "Get Started Now"
-msgstr ""
+msgstr "Kezdje el most"
 
 msgid "AI Code"
-msgstr ""
+msgstr "AI Kód"
 
 msgid ""
 "Effortless coding with AI Code Generator: Instant solutions for your "
 "programming needs."
-msgstr ""
+msgstr "Kódolás könnyedén AI kódgenerátorral: Azonnali megoldások a programozási igényeinek."
 
 msgctxt "heading"
 msgid "Ready to write code at the speed of light?"
-msgstr ""
+msgstr "Készen állsz kódot írni a fény sebességével?"
 
 msgctxt "button"
 msgid "Start Generate Code"
-msgstr ""
+msgstr "Kód generálás indítása"
 
 msgid "AI Chat Bot"
-msgstr ""
+msgstr "AI Chat Bot"
 
 msgid ""
 "Simply choose your asistant and engage with a friendly chatbot to generate "
 "ideas, enhance your content, or even bring a smile to your face."
-msgstr ""
+msgstr "Válasszon egyszerűen asztali és engedje meg egy barátságos csevegési robotot, hogy ötleteket hozzon létre, növelje a tartalmait, vagy akár egy mosolyt hozzon a szemébe."
 
 msgctxt "heading"
 msgid "That\\'s remarkably human-like and engaging..."
-msgstr ""
+msgstr "Ez rendkívül emberi és lebilincselő..."
 
 msgctxt "button"
 msgid "Try now"
-msgstr ""
+msgstr "Próbáld ki most"
 
 msgid "Unlimited"
-msgstr ""
+msgstr "Korlátlan"

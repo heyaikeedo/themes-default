@@ -11,392 +11,392 @@ msgstr ""
 "X-Domain: theme\n"
 
 msgid "AI Writer"
-msgstr ""
+msgstr "AI Skribent"
 
 msgid ""
 "Achieve superior outcomes in a fraction of the time. At last, a writing "
 "tool that you'll genuinely utilize."
-msgstr ""
+msgstr "Når du når de bedste resultater i en brøkdel af tiden. Til sidst, et skrivværktøj, du vil virkeligt bruge."
 
 msgctxt "heading"
 msgid "Write SEO optimized blogs, sales emails and more..."
-msgstr ""
+msgstr "Skriv SEO-optimerede blogs, salgsemails og mere..."
 
 msgctxt "button"
 msgid "See all features"
-msgstr ""
+msgstr "Se alle funktioner"
 
 msgid "Text to Voice"
-msgstr ""
+msgstr "Tekst til Tale"
 
 msgid ""
 "Elevate Your Content with Expressive Narration: Discover Text-to-Voice "
 "Excellence."
-msgstr ""
+msgstr "Elevér dit indhold med udtryksfuld fortælling: Oplev tekst til tale-ekscellens."
 
 msgctxt "heading"
 msgid "Convert your texts into <br> Lifelike Speech"
-msgstr ""
+msgstr "Konverter dine tekster til <br> Livagtig Tale"
 
 msgid "Speech to Text"
-msgstr ""
+msgstr "Tale til Tekst"
 
 msgid ""
 "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and "
 "Accessibility."
-msgstr ""
+msgstr "Omgående oversæt ord fra tale til tekst for forbedret produktivitet og tilgængelighed."
 
 msgctxt "heading"
 msgid "Transforming Spoken <br> Words into Text."
-msgstr ""
+msgstr "Omsætter Talte <br> Ord til Tekst."
 
 msgctxt "button"
 msgid "Convert now"
-msgstr ""
+msgstr "Konverter nu"
 
 msgid ":count credits"
-msgstr ""
+msgstr ":count kreditter"
 
 msgid ""
 "Discover the perfect plan to suit your needs and unlock a world of "
 "possibilities."
-msgstr ""
+msgstr "Opdag den perfekte plan, der passer til dine behov og lås op for en verden af muligheder."
 
 msgid "Most Popular"
-msgstr ""
+msgstr "Mest Populær"
 
 msgid "Chat"
-msgstr ""
+msgstr "Chat"
 
 msgid "Writer"
-msgstr ""
+msgstr "Forfatter"
 
 msgid "Coding Assistant"
-msgstr ""
+msgstr "Kodeassistent"
 
 msgid "Image generator"
-msgstr ""
+msgstr "Billedgenerator"
 
 msgid "Transcriber"
-msgstr ""
+msgstr "Transskriber"
 
 msgid "Voiceover"
-msgstr ""
+msgstr "Stemmeskuespiller"
 
 msgid "Voice isolator"
-msgstr ""
+msgstr "Stemmeisolator"
 
 msgid "Classifier"
-msgstr ""
+msgstr "Klassifikator"
 
 msgid "Access to templates is disabled"
-msgstr ""
+msgstr "Adgang til skabeloner er deaktiveret"
 
 msgid "Access to all templates"
-msgstr ""
+msgstr "Adgang til alle skabeloner"
 
 msgid "Priority support"
-msgstr ""
+msgstr "Prioriteret support"
 
 msgid "Basic support"
-msgstr ""
+msgstr "Grundlæggende support"
 
 msgctxt "button"
 msgid "Pricing"
-msgstr ""
+msgstr "Priser"
 
 msgctxt "button"
 msgid "Monthly"
-msgstr ""
+msgstr "Månedligt"
 
 msgctxt "button"
 msgid "Yearly"
-msgstr ""
+msgstr "Årligt"
 
 msgctxt "button"
 msgid "Packs"
-msgstr ""
+msgstr "Pakker"
 
 msgctxt "button"
 msgid "Lifetime Deals"
-msgstr ""
+msgstr "Livstidsaftaler"
 
 msgctxt "button"
 msgid "Get started"
-msgstr ""
+msgstr "Kom i gang"
 
 msgid "100+ AI Writer Templates"
-msgstr ""
+msgstr "100+ AI-skrive skabeloner"
 
 msgid ""
 "Write with remarkable speed, captivate your audience, and bid farewell to "
 "writer\\'s block forever."
-msgstr ""
+msgstr "Skriv med uforståelig hastighed, overbevis dit publikum og siger farvel til skriveblokken for evigt."
 
 msgctxt "heading"
 msgid "What can Writing Assistant create for you?"
-msgstr ""
+msgstr "Hvad kan Writing Assistant skabe for dig?"
 
 msgctxt "button"
 msgid "Get Started for Free"
-msgstr ""
+msgstr "Kom i gang gratis"
 
 msgid "AI Image"
-msgstr ""
+msgstr "AI-billede"
 
 msgid ""
 "Instantly create stunning images using AI Image Generator – your tool for "
 "artistic innovation."
-msgstr ""
+msgstr "Opret uforståelige billeder med AI-billedgenerator - dit værktøj til kunstnerisk innovation."
 
 msgctxt "heading"
 msgid "Visualize what you dream of. Create images from text."
-msgstr ""
+msgstr "Visualiser det, du drømmer om. Skab billeder ud fra tekst."
 
 msgctxt "button"
 msgid "Try for free"
-msgstr ""
+msgstr "Prøv gratis"
 
 msgid "Choose a our built in templates or create your own."
-msgstr ""
+msgstr "Vælg en af vores indbyggede skabeloner eller lav din egen."
 
 msgid ""
 "Enter a few sentences to describe your topic. Add keywords to specify for "
 "your brand."
-msgstr ""
+msgstr "Indtast et par sætninger for at beskrive dit emne. Tilføj nøgleord for at specificere for dit brand."
 
 msgid ""
 "Click the \"Generate\" button and get a variety of high-converting copy "
 "every time."
-msgstr ""
+msgstr "Klik på \"Generer\"-knappen og få en række højkonverterende kopier hver gang."
 
 msgctxt "heading"
 msgid "How it works"
-msgstr ""
+msgstr "Sådan fungerer det"
 
 msgctxt "heading"
 msgid "Choose Template"
-msgstr ""
+msgstr "Vælg skabelon"
 
 msgctxt "heading"
 msgid "Describe"
-msgstr ""
+msgstr "Beskriv"
 
 msgctxt "heading"
 msgid "Generate"
-msgstr ""
+msgstr "Generer"
 
 msgid ""
 "Effortlessly generate high-quality AI-driven content tailored to your "
 "needs. Unlock limitless possibilities, save your time and start making "
 "money today!"
-msgstr ""
+msgstr "Generer let højkvalitets AI-drevet indhold, der passer til dine behov. Lås op for ubegrænset muligheder, gem dit tid og start med at tjene penge i dag!"
 
 msgctxt "heading"
 msgid "Transforming ideas into AI generated masterpieces"
-msgstr ""
+msgstr "Omsætter idéer til AI-genererede mesterværker"
 
 msgctxt "button"
 msgid "Go to app"
-msgstr ""
+msgstr "Gå til app"
 
 msgctxt "button"
 msgid "Get started now"
-msgstr ""
+msgstr "Kom i gang nu"
 
 msgctxt "button"
 msgid "Product"
-msgstr ""
+msgstr "Produkt"
 
 msgctxt "button"
 msgid "Featured"
-msgstr ""
+msgstr "Fremhævet"
 
 msgctxt "button"
 msgid "Library"
-msgstr ""
+msgstr "Bibliotek"
 
 msgctxt "button"
 msgid "Billing"
-msgstr ""
+msgstr "Fakturering"
 
 msgctxt "button"
 msgid "Account"
-msgstr ""
+msgstr "Konto"
 
 msgctxt "button"
 msgid "Logout"
-msgstr ""
+msgstr "Log ud"
 
 msgctxt "button"
 msgid "Login"
-msgstr ""
+msgstr "Log ind"
 
 msgctxt "heading"
 msgid "Meet your ultimate"
-msgstr ""
+msgstr "Mød din ultimative"
 
 msgctxt "heading"
 msgid "AI-Powered Content Platform"
-msgstr ""
+msgstr "AI-drevet indholdsplatform"
 
 msgid "All rights reserved."
-msgstr ""
+msgstr "Alle rettigheder forbeholdes."
 
 msgctxt "button"
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 msgctxt "button"
 msgid "Terms of services"
-msgstr ""
+msgstr "Servicevilkår"
 
 msgctxt "button"
 msgid "Privacy policy"
-msgstr ""
+msgstr "Fortrolighedspolitik"
 
 msgctxt "button"
 msgid "Refund policy"
-msgstr ""
+msgstr "Refusionspolitik"
 
 msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
-msgstr ""
+msgstr "Udviklet ved brug af Domain-Driven Design og Onion Architecture-principper."
 
 msgid ""
 "Built with modern technologies for best structure and get maximum "
 "performance."
-msgstr ""
+msgstr "Bygget med moderne teknologier for bedste struktur og maksimal ydelse."
 
 msgid ""
 "Enjoy a hassle-free and intuitive user interface that enhances your digital "
 "experience."
-msgstr ""
+msgstr "Nyd et problemfrit og intuitivt brugerflade, der forbedrer din digitale oplevelse."
 
 msgid "Turn off the light and switch to dark mode your interface with one click."
-msgstr ""
+msgstr "Sluk lyset og skift til mørk tilstand på din grænseflade med et klik."
 
 msgid "An all-inclusive learning package seamlessly integrated into our community."
-msgstr ""
+msgstr "En altomfattende læringspakke sømløst integreret i vores fællesskab."
 
 msgid "Simplify transactions and boost security with payment gateway solutions."
-msgstr ""
+msgstr "Forenkle transaktioner og øg sikkerheden med betalingsgateway-løsninger."
 
 msgid "Unlock limitless creativity with our AI-powered content generator."
-msgstr ""
+msgstr "Lås op for ubegrænset kreativitet med vores AI-drevne indholdsgenerator."
 
 msgid ""
 "Boost your visibility and reach your audience effectively with AI generated "
 "content."
-msgstr ""
+msgstr "Forøg din synlighed og nå dit publikum effektivt med AI-genereret indhold."
 
 msgid "Empower your insights and control with our cutting-edge dashboard."
-msgstr ""
+msgstr "Styrk dine indsigter og kontrol med vores banebrydende dashboard."
 
 msgid "Transform your content creation with AI-driven custom templates."
-msgstr ""
+msgstr "Transformér din indholdsskabelse med AI-drevne tilpassede skabeloner."
 
 msgid "Use Facebook or Google accounts as an alternatively access to platform."
-msgstr ""
+msgstr "Brug Facebook- eller Google-konti som et alternativt adgang til platformen."
 
 msgid ""
 "Our support team is available 24/7 to help you with any questions or "
 "concerns."
-msgstr ""
+msgstr "Vores supportteam er tilgængeligt 24/7 for at hjælpe dig med alle dine spørgsmål eller bekymringer."
 
 msgctxt "heading"
 msgid "Coolest Features"
-msgstr ""
+msgstr "Fedeste Funktioner"
 
 msgctxt "heading"
 msgid "High Quality Code"
-msgstr ""
+msgstr "Kode af Høj Kvalitet"
 
 msgctxt "heading"
 msgid "Modern Technologies"
-msgstr ""
+msgstr "Moderne Teknologier"
 
 msgctxt "heading"
 msgid "Friendly UI and UX"
-msgstr ""
+msgstr "Venligt UI og UX"
 
 msgctxt "heading"
 msgid "Dark Mode"
-msgstr ""
+msgstr "Mørk Tilstand"
 
 msgctxt "heading"
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentation"
 
 msgctxt "heading"
 msgid "Payment Gateways"
-msgstr ""
+msgstr "Betalingsgateways"
 
 msgctxt "heading"
 msgid "AI Generator"
-msgstr ""
+msgstr "AI Generator"
 
 msgctxt "heading"
 msgid "SEO Friendly"
-msgstr ""
+msgstr "SEO Venlig"
 
 msgctxt "heading"
 msgid "Advanced Dashboard"
-msgstr ""
+msgstr "Avanceret Dashboard"
 
 msgctxt "heading"
 msgid "Custom Templates"
-msgstr ""
+msgstr "Brugerdefinerede Skabeloner"
 
 msgctxt "heading"
 msgid "Login via SM Accounts"
-msgstr ""
+msgstr "Log ind via SM-konti"
 
 msgctxt "heading"
 msgid "High Quality Support"
-msgstr ""
+msgstr "Support af Høj Kvalitet"
 
 msgid "See how easy it can be to write amazing content."
-msgstr ""
+msgstr "Se hvor nemt det kan være at skrive fantastisk indhold."
 
 msgctxt "heading"
 msgid "Ready to level-up?"
-msgstr ""
+msgstr "Klar til at tage det til næste niveau?"
 
 msgctxt "button"
 msgid "Get Started Now"
-msgstr ""
+msgstr "Kom i gang nu"
 
 msgid "AI Code"
-msgstr ""
+msgstr "AI-kode"
 
 msgid ""
 "Effortless coding with AI Code Generator: Instant solutions for your "
 "programming needs."
-msgstr ""
+msgstr "Generer let kode med AI-kodegenerator: Instantløsninger til dine programmeringsbehov."
 
 msgctxt "heading"
 msgid "Ready to write code at the speed of light?"
-msgstr ""
+msgstr "Klar til at skrive kode med lysets hastighed?"
 
 msgctxt "button"
 msgid "Start Generate Code"
-msgstr ""
+msgstr "Start generering af kode"
 
 msgid "AI Chat Bot"
-msgstr ""
+msgstr "AI Chat Bot"
 
 msgid ""
 "Simply choose your asistant and engage with a friendly chatbot to generate "
 "ideas, enhance your content, or even bring a smile to your face."
-msgstr ""
+msgstr "Vælg blot din assistent og engageres med en venlig chatbot for at generere idéer, forbedre dit indhold eller endda bringe et smil til dit ansigt."
 
 msgctxt "heading"
 msgid "That\\'s remarkably human-like and engaging..."
-msgstr ""
+msgstr "Det er bemærkelsesværdigt menneskeligt og engagerende..."
 
 msgctxt "button"
 msgid "Try now"
-msgstr ""
+msgstr "Prøv nu"
 
 msgid "Unlimited"
-msgstr ""
+msgstr "Ubegrænset"

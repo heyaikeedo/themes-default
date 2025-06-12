@@ -11,392 +11,392 @@ msgstr ""
 "X-Domain: theme\n"
 
 msgid "AI Writer"
-msgstr ""
+msgstr "AIライター"
 
 msgid ""
 "Achieve superior outcomes in a fraction of the time. At last, a writing "
 "tool that you'll genuinely utilize."
-msgstr ""
+msgstr "優れた結果を短い時間で達成しましょう。最後に、本当に使用する書き込みツール。"
 
 msgctxt "heading"
 msgid "Write SEO optimized blogs, sales emails and more..."
-msgstr ""
+msgstr "SEO最適化されたブログ、セールスメールなどを書きましょう..."
 
 msgctxt "button"
 msgid "See all features"
-msgstr ""
+msgstr "すべての機能を見る"
 
 msgid "Text to Voice"
-msgstr ""
+msgstr "テキストから音声へ"
 
 msgid ""
 "Elevate Your Content with Expressive Narration: Discover Text-to-Voice "
 "Excellence."
-msgstr ""
+msgstr "表現的な朗読でコンテンツを向上させましょう：テキストから音声の優れた機能を発見しましょう。"
 
 msgctxt "heading"
 msgid "Convert your texts into <br> Lifelike Speech"
-msgstr ""
+msgstr "テキストを<br>リアルな音声に変換"
 
 msgid "Speech to Text"
-msgstr ""
+msgstr "音声からテキストへ"
 
 msgid ""
 "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and "
 "Accessibility."
-msgstr ""
+msgstr "話された言葉をすぐにテキストに変換して、生産性とアクセシビリティを向上させましょう。"
 
 msgctxt "heading"
 msgid "Transforming Spoken <br> Words into Text."
-msgstr ""
+msgstr "話された言葉を<br>テキストに変換します。"
 
 msgctxt "button"
 msgid "Convert now"
-msgstr ""
+msgstr "今すぐ変換"
 
 msgid ":count credits"
-msgstr ""
+msgstr ":count クレジット"
 
 msgid ""
 "Discover the perfect plan to suit your needs and unlock a world of "
 "possibilities."
-msgstr ""
+msgstr "あなたのニーズに合わせた完璧なプランを発見し、無限の可能性を解き放ちましょう。"
 
 msgid "Most Popular"
-msgstr ""
+msgstr "最も人気"
 
 msgid "Chat"
-msgstr ""
+msgstr "チャット"
 
 msgid "Writer"
-msgstr ""
+msgstr "ライター"
 
 msgid "Coding Assistant"
-msgstr ""
+msgstr "コーディングアシスタント"
 
 msgid "Image generator"
-msgstr ""
+msgstr "画像生成器"
 
 msgid "Transcriber"
-msgstr ""
+msgstr "文字起こし"
 
 msgid "Voiceover"
-msgstr ""
+msgstr "ボイスオーバー"
 
 msgid "Voice isolator"
-msgstr ""
+msgstr "ボイスアイソレーター"
 
 msgid "Classifier"
-msgstr ""
+msgstr "分類器"
 
 msgid "Access to templates is disabled"
-msgstr ""
+msgstr "テンプレートへのアクセスは無効になっています"
 
 msgid "Access to all templates"
-msgstr ""
+msgstr "すべてのテンプレートへのアクセス"
 
 msgid "Priority support"
-msgstr ""
+msgstr "優先サポート"
 
 msgid "Basic support"
-msgstr ""
+msgstr "基本サポート"
 
 msgctxt "button"
 msgid "Pricing"
-msgstr ""
+msgstr "価格設定"
 
 msgctxt "button"
 msgid "Monthly"
-msgstr ""
+msgstr "月額"
 
 msgctxt "button"
 msgid "Yearly"
-msgstr ""
+msgstr "年額"
 
 msgctxt "button"
 msgid "Packs"
-msgstr ""
+msgstr "パック"
 
 msgctxt "button"
 msgid "Lifetime Deals"
-msgstr ""
+msgstr "生涯取引"
 
 msgctxt "button"
 msgid "Get started"
-msgstr ""
+msgstr "始める"
 
 msgid "100+ AI Writer Templates"
-msgstr ""
+msgstr "100以上のAIライターテンプレート"
 
 msgid ""
 "Write with remarkable speed, captivate your audience, and bid farewell to "
 "writer\\'s block forever."
-msgstr ""
+msgstr "驚くほど速く書き、聴衆を魅了し、書き手のブロックを永遠に告別しましょう。"
 
 msgctxt "heading"
 msgid "What can Writing Assistant create for you?"
-msgstr ""
+msgstr "Writing Assistantはあなたのために何を作成できますか？"
 
 msgctxt "button"
 msgid "Get Started for Free"
-msgstr ""
+msgstr "無料で始める"
 
 msgid "AI Image"
-msgstr ""
+msgstr "AI画像"
 
 msgid ""
 "Instantly create stunning images using AI Image Generator – your tool for "
 "artistic innovation."
-msgstr ""
+msgstr "AI画像ジェネレーターを使用して、すぐに驚くほど美しい画像を作成しましょう。"
 
 msgctxt "heading"
 msgid "Visualize what you dream of. Create images from text."
-msgstr ""
+msgstr "あなたの夢を視覚化しましょう。テキストから画像を作成します。"
 
 msgctxt "button"
 msgid "Try for free"
-msgstr ""
+msgstr "無料で試す"
 
 msgid "Choose a our built in templates or create your own."
-msgstr ""
+msgstr "組み込みのテンプレートを選ぶか、自分で作成してください。"
 
 msgid ""
 "Enter a few sentences to describe your topic. Add keywords to specify for "
 "your brand."
-msgstr ""
+msgstr "トピックを説明するいくつかの文を入力してください。ブランドを指定するキーワードを追加してください。"
 
 msgid ""
 "Click the \"Generate\" button and get a variety of high-converting copy "
 "every time."
-msgstr ""
+msgstr "「生成」ボタンをクリックすると、高い変換率のコピーを毎回取得できます。"
 
 msgctxt "heading"
 msgid "How it works"
-msgstr ""
+msgstr "使い方"
 
 msgctxt "heading"
 msgid "Choose Template"
-msgstr ""
+msgstr "テンプレートを選択"
 
 msgctxt "heading"
 msgid "Describe"
-msgstr ""
+msgstr "説明する"
 
 msgctxt "heading"
 msgid "Generate"
-msgstr ""
+msgstr "生成する"
 
 msgid ""
 "Effortlessly generate high-quality AI-driven content tailored to your "
 "needs. Unlock limitless possibilities, save your time and start making "
 "money today!"
-msgstr ""
+msgstr "必要に応じて調整された高品質なAI駆動コンテンツを簡単に生成しましょう。無限の可能性を解き放ち、時間を節約し、今日からお金を稼ぎ始めましょう！"
 
 msgctxt "heading"
 msgid "Transforming ideas into AI generated masterpieces"
-msgstr ""
+msgstr "アイデアをAI生成の傑作に変換する"
 
 msgctxt "button"
 msgid "Go to app"
-msgstr ""
+msgstr "アプリへ移動"
 
 msgctxt "button"
 msgid "Get started now"
-msgstr ""
+msgstr "今すぐ始める"
 
 msgctxt "button"
 msgid "Product"
-msgstr ""
+msgstr "製品"
 
 msgctxt "button"
 msgid "Featured"
-msgstr ""
+msgstr "注目"
 
 msgctxt "button"
 msgid "Library"
-msgstr ""
+msgstr "ライブラリ"
 
 msgctxt "button"
 msgid "Billing"
-msgstr ""
+msgstr "請求"
 
 msgctxt "button"
 msgid "Account"
-msgstr ""
+msgstr "アカウント"
 
 msgctxt "button"
 msgid "Logout"
-msgstr ""
+msgstr "ログアウト"
 
 msgctxt "button"
 msgid "Login"
-msgstr ""
+msgstr "ログイン"
 
 msgctxt "heading"
 msgid "Meet your ultimate"
-msgstr ""
+msgstr "あなたの究極の出会い"
 
 msgctxt "heading"
 msgid "AI-Powered Content Platform"
-msgstr ""
+msgstr "AI搭載コンテンツプラットフォーム"
 
 msgid "All rights reserved."
-msgstr ""
+msgstr "全著作権所有。"
 
 msgctxt "button"
 msgid "FAQ"
-msgstr ""
+msgstr "よくある質問"
 
 msgctxt "button"
 msgid "Terms of services"
-msgstr ""
+msgstr "利用規約"
 
 msgctxt "button"
 msgid "Privacy policy"
-msgstr ""
+msgstr "プライバシーポリシー"
 
 msgctxt "button"
 msgid "Refund policy"
-msgstr ""
+msgstr "返金ポリシー"
 
 msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
-msgstr ""
+msgstr "ドメイン駆動設計とオニオンアーキテクチャの原則を用いて開発されました。"
 
 msgid ""
 "Built with modern technologies for best structure and get maximum "
 "performance."
-msgstr ""
+msgstr "最新の技術を使用して、最高の構造を得て最大限のパフォーマンスを発揮します。"
 
 msgid ""
 "Enjoy a hassle-free and intuitive user interface that enhances your digital "
 "experience."
-msgstr ""
+msgstr "ハイフラッシュなく、直感的なユーザーインターフェースを楽しんでください。"
 
 msgid "Turn off the light and switch to dark mode your interface with one click."
-msgstr ""
+msgstr "ライトを消して、ワンクリックでインターフェースをダークモードに切り替えます。"
 
 msgid "An all-inclusive learning package seamlessly integrated into our community."
-msgstr ""
+msgstr "コミュニティにシームレスに統合された包括的な学習パッケージ。"
 
 msgid "Simplify transactions and boost security with payment gateway solutions."
-msgstr ""
+msgstr "決済ゲートウェイソリューションで取引を簡素化し、セキュリティを強化します。"
 
 msgid "Unlock limitless creativity with our AI-powered content generator."
-msgstr ""
+msgstr "AI搭載のコンテンツジェネレーターで無限の創造力を解き放ちましょう。"
 
 msgid ""
 "Boost your visibility and reach your audience effectively with AI generated "
 "content."
-msgstr ""
+msgstr "AI生成コンテンツで可視性を高め、効果的に聴衆に届けましょう。"
 
 msgid "Empower your insights and control with our cutting-edge dashboard."
-msgstr ""
+msgstr "最先端のダッシュボードで洞察力とコントロールを強化します。"
 
 msgid "Transform your content creation with AI-driven custom templates."
-msgstr ""
+msgstr "AI駆動のカスタムテンプレートでコンテンツ作成を変革しましょう。"
 
 msgid "Use Facebook or Google accounts as an alternatively access to platform."
-msgstr ""
+msgstr "FacebookまたはGoogleアカウントを代替アクセスとして使用できます。"
 
 msgid ""
 "Our support team is available 24/7 to help you with any questions or "
 "concerns."
-msgstr ""
+msgstr "サポートチームは24時間365日、あなたの質問や懸念に対してサポートします。"
 
 msgctxt "heading"
 msgid "Coolest Features"
-msgstr ""
+msgstr "最高の機能"
 
 msgctxt "heading"
 msgid "High Quality Code"
-msgstr ""
+msgstr "高品質なコード"
 
 msgctxt "heading"
 msgid "Modern Technologies"
-msgstr ""
+msgstr "最新技術"
 
 msgctxt "heading"
 msgid "Friendly UI and UX"
-msgstr ""
+msgstr "使いやすいUIとUX"
 
 msgctxt "heading"
 msgid "Dark Mode"
-msgstr ""
+msgstr "ダークモード"
 
 msgctxt "heading"
 msgid "Documentation"
-msgstr ""
+msgstr "ドキュメント"
 
 msgctxt "heading"
 msgid "Payment Gateways"
-msgstr ""
+msgstr "決済ゲートウェイ"
 
 msgctxt "heading"
 msgid "AI Generator"
-msgstr ""
+msgstr "AIジェネレーター"
 
 msgctxt "heading"
 msgid "SEO Friendly"
-msgstr ""
+msgstr "SEOフレンドリー"
 
 msgctxt "heading"
 msgid "Advanced Dashboard"
-msgstr ""
+msgstr "高度なダッシュボード"
 
 msgctxt "heading"
 msgid "Custom Templates"
-msgstr ""
+msgstr "カスタムテンプレート"
 
 msgctxt "heading"
 msgid "Login via SM Accounts"
-msgstr ""
+msgstr "SNSアカウントでログイン"
 
 msgctxt "heading"
 msgid "High Quality Support"
-msgstr ""
+msgstr "高品質なサポート"
 
 msgid "See how easy it can be to write amazing content."
-msgstr ""
+msgstr "素晴らしいコンテンツを書くのがどれほど簡単か見てみましょう。"
 
 msgctxt "heading"
 msgid "Ready to level-up?"
-msgstr ""
+msgstr "レベルアップの準備はできていますか？"
 
 msgctxt "button"
 msgid "Get Started Now"
-msgstr ""
+msgstr "今すぐ始める"
 
 msgid "AI Code"
-msgstr ""
+msgstr "AIコード"
 
 msgid ""
 "Effortless coding with AI Code Generator: Instant solutions for your "
 "programming needs."
-msgstr ""
+msgstr "AIコードジェネレーターで簡単にコードを書きましょう：プログラミングの必要に応じた即時解決。"
 
 msgctxt "heading"
 msgid "Ready to write code at the speed of light?"
-msgstr ""
+msgstr "光の速さでコードを書く準備はできていますか？"
 
 msgctxt "button"
 msgid "Start Generate Code"
-msgstr ""
+msgstr "コード生成を開始"
 
 msgid "AI Chat Bot"
-msgstr ""
+msgstr "AIチャットボット"
 
 msgid ""
 "Simply choose your asistant and engage with a friendly chatbot to generate "
 "ideas, enhance your content, or even bring a smile to your face."
-msgstr ""
+msgstr "シンプルにあなたのアシスタントを選び、友好的なチャットボットとやり取りして、アイデアを生成し、コンテンツを強化し、あなたの顔に笑顔をもたらしましょう。"
 
 msgctxt "heading"
 msgid "That\\'s remarkably human-like and engaging..."
-msgstr ""
+msgstr "それは驚くほど人間らしく魅力的です..."
 
 msgctxt "button"
 msgid "Try now"
-msgstr ""
+msgstr "今すぐ試す"
 
 msgid "Unlimited"
-msgstr ""
+msgstr "無制限"

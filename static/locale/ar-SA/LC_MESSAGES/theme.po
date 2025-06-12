@@ -12,392 +12,392 @@ msgstr ""
 "X-Domain: theme\n"
 
 msgid "AI Writer"
-msgstr ""
+msgstr "كاتب الذكاء الاصطناعي"
 
 msgid ""
 "Achieve superior outcomes in a fraction of the time. At last, a writing "
 "tool that you'll genuinely utilize."
-msgstr ""
+msgstr "تحقق نتائج أعلى في وقت أقل. في النهاية، أداة تكتبية تستخدمها في الواقع."
 
 msgctxt "heading"
 msgid "Write SEO optimized blogs, sales emails and more..."
-msgstr ""
+msgstr "اكتب مدونات محسّنة لتحسين محركات البحث، ورسائل مبيعات والمزيد..."
 
 msgctxt "button"
 msgid "See all features"
-msgstr ""
+msgstr "عرض جميع الميزات"
 
 msgid "Text to Voice"
-msgstr ""
+msgstr "تحويل النص إلى صوت"
 
 msgid ""
 "Elevate Your Content with Expressive Narration: Discover Text-to-Voice "
 "Excellence."
-msgstr ""
+msgstr "رفع محتواك باستخدام التقديم الموضوعي: اكتشف أفضلية التحويل من النص إلى الصوت."
 
 msgctxt "heading"
 msgid "Convert your texts into <br> Lifelike Speech"
-msgstr ""
+msgstr "حوّل نصوصك إلى <br> كلام واقعي"
 
 msgid "Speech to Text"
-msgstr ""
+msgstr "تحويل الصوت إلى نص"
 
 msgid ""
 "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and "
 "Accessibility."
-msgstr ""
+msgstr "تحويل الكلمات المنطوقة إلى نص في وقت لا يتأخر لتعزيز الإنتاجية والوصول."
 
 msgctxt "heading"
 msgid "Transforming Spoken <br> Words into Text."
-msgstr ""
+msgstr "تحويل الكلمات المنطوقة <br> إلى نص."
 
 msgctxt "button"
 msgid "Convert now"
-msgstr ""
+msgstr "حوّل الآن"
 
 msgid ":count credits"
-msgstr ""
+msgstr ":count رصيد"
 
 msgid ""
 "Discover the perfect plan to suit your needs and unlock a world of "
 "possibilities."
-msgstr ""
+msgstr "اكتشف الخطة المثالية لتناسب احتياجاتك وافتح عالمًا من الممكنات."
 
 msgid "Most Popular"
-msgstr ""
+msgstr "الأكثر شعبية"
 
 msgid "Chat"
-msgstr ""
+msgstr "دردشة"
 
 msgid "Writer"
-msgstr ""
+msgstr "كاتب"
 
 msgid "Coding Assistant"
-msgstr ""
+msgstr "مساعد الترميز"
 
 msgid "Image generator"
-msgstr ""
+msgstr "مولد الصور"
 
 msgid "Transcriber"
-msgstr ""
+msgstr "ناسخ"
 
 msgid "Voiceover"
-msgstr ""
+msgstr "التعليق الصوتي"
 
 msgid "Voice isolator"
-msgstr ""
+msgstr "عازل الصوت"
 
 msgid "Classifier"
-msgstr ""
+msgstr "المصنف"
 
 msgid "Access to templates is disabled"
-msgstr ""
+msgstr "تم تعطيل الوصول إلى القوالب"
 
 msgid "Access to all templates"
-msgstr ""
+msgstr "الوصول إلى جميع القوالب"
 
 msgid "Priority support"
-msgstr ""
+msgstr "الدعم الأولوي"
 
 msgid "Basic support"
-msgstr ""
+msgstr "الدعم الأساسي"
 
 msgctxt "button"
 msgid "Pricing"
-msgstr ""
+msgstr "التسعير"
 
 msgctxt "button"
 msgid "Monthly"
-msgstr ""
+msgstr "شهريًا"
 
 msgctxt "button"
 msgid "Yearly"
-msgstr ""
+msgstr "سنويًا"
 
 msgctxt "button"
 msgid "Packs"
-msgstr ""
+msgstr "الحزم"
 
 msgctxt "button"
 msgid "Lifetime Deals"
-msgstr ""
+msgstr "عروض مدى الحياة"
 
 msgctxt "button"
 msgid "Get started"
-msgstr ""
+msgstr "ابدأ الآن"
 
 msgid "100+ AI Writer Templates"
-msgstr ""
+msgstr "أكثر من 100 قالب كاتب ذكي"
 
 msgid ""
 "Write with remarkable speed, captivate your audience, and bid farewell to "
 "writer\\'s block forever."
-msgstr ""
+msgstr "اكتب بسرعة مذهلة، جذب جمهورك، وأطلق عليه السلام إلى الأبد."
 
 msgctxt "heading"
 msgid "What can Writing Assistant create for you?"
-msgstr ""
+msgstr "ماذا يمكن لمساعد الكتابة أن يخلق لك؟"
 
 msgctxt "button"
 msgid "Get Started for Free"
-msgstr ""
+msgstr "ابدأ مجانًا"
 
 msgid "AI Image"
-msgstr ""
+msgstr "صورة الذكاء الاصطناعي"
 
 msgid ""
 "Instantly create stunning images using AI Image Generator – your tool for "
 "artistic innovation."
-msgstr ""
+msgstr "أنشئ صورًا رائعة باستخدام مولد الصور الذكي - أداة الفن الخاص بك."
 
 msgctxt "heading"
 msgid "Visualize what you dream of. Create images from text."
-msgstr ""
+msgstr "تصور ما تحلم به. أنشئ صورًا من النص."
 
 msgctxt "button"
 msgid "Try for free"
-msgstr ""
+msgstr "جرب مجانًا"
 
 msgid "Choose a our built in templates or create your own."
-msgstr ""
+msgstr "اختر من قوالبنا المدمجة أو أنشئ قالبك الخاص."
 
 msgid ""
 "Enter a few sentences to describe your topic. Add keywords to specify for "
 "your brand."
-msgstr ""
+msgstr "أدخل بضع جمل لوصف موضوعك. أضف كلمات رئيسية لتحديدها لعلامتك."
 
 msgid ""
 "Click the \"Generate\" button and get a variety of high-converting copy "
 "every time."
-msgstr ""
+msgstr "اضغط على زر \"توليد\" واحصل على نسخ متنوعة من النص المحوّل على كل مرة."
 
 msgctxt "heading"
 msgid "How it works"
-msgstr ""
+msgstr "كيف يعمل"
 
 msgctxt "heading"
 msgid "Choose Template"
-msgstr ""
+msgstr "اختر قالبًا"
 
 msgctxt "heading"
 msgid "Describe"
-msgstr ""
+msgstr "وصف"
 
 msgctxt "heading"
 msgid "Generate"
-msgstr ""
+msgstr "توليد"
 
 msgid ""
 "Effortlessly generate high-quality AI-driven content tailored to your "
 "needs. Unlock limitless possibilities, save your time and start making "
 "money today!"
-msgstr ""
+msgstr "توليد محتوى عالي الجودة مدعوم بالذكاء الاصطناعي وفق احتياجاتك. افتح عالمًا من الممكنات، واحفظ وقتك، وابدأ كسب المال."
 
 msgctxt "heading"
 msgid "Transforming ideas into AI generated masterpieces"
-msgstr ""
+msgstr "تحويل الأفكار إلى روائع مولدة بواسطة الذكاء الاصطناعي"
 
 msgctxt "button"
 msgid "Go to app"
-msgstr ""
+msgstr "اذهب إلى التطبيق"
 
 msgctxt "button"
 msgid "Get started now"
-msgstr ""
+msgstr "ابدأ الآن"
 
 msgctxt "button"
 msgid "Product"
-msgstr ""
+msgstr "المنتج"
 
 msgctxt "button"
 msgid "Featured"
-msgstr ""
+msgstr "مميز"
 
 msgctxt "button"
 msgid "Library"
-msgstr ""
+msgstr "المكتبة"
 
 msgctxt "button"
 msgid "Billing"
-msgstr ""
+msgstr "الفوترة"
 
 msgctxt "button"
 msgid "Account"
-msgstr ""
+msgstr "الحساب"
 
 msgctxt "button"
 msgid "Logout"
-msgstr ""
+msgstr "تسجيل الخروج"
 
 msgctxt "button"
 msgid "Login"
-msgstr ""
+msgstr "تسجيل الدخول"
 
 msgctxt "heading"
 msgid "Meet your ultimate"
-msgstr ""
+msgstr "تعرف على الأفضل لديك"
 
 msgctxt "heading"
 msgid "AI-Powered Content Platform"
-msgstr ""
+msgstr "منصة محتوى مدعومة بالذكاء الاصطناعي"
 
 msgid "All rights reserved."
-msgstr ""
+msgstr "جميع الحقوق محفوظة."
 
 msgctxt "button"
 msgid "FAQ"
-msgstr ""
+msgstr "الأسئلة الشائعة"
 
 msgctxt "button"
 msgid "Terms of services"
-msgstr ""
+msgstr "شروط الخدمة"
 
 msgctxt "button"
 msgid "Privacy policy"
-msgstr ""
+msgstr "سياسة الخصوصية"
 
 msgctxt "button"
 msgid "Refund policy"
-msgstr ""
+msgstr "سياسة الاسترداد"
 
 msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
-msgstr ""
+msgstr "تم التطوير باستخدام تصميم موجه بالمجال ومبادئ هندسة البصل."
 
 msgid ""
 "Built with modern technologies for best structure and get maximum "
 "performance."
-msgstr ""
+msgstr "تم بناؤه باستخدام تقنيات حديثة للحصول على أفضل البنى التحتية والحصول على أقصى أداء."
 
 msgid ""
 "Enjoy a hassle-free and intuitive user interface that enhances your digital "
 "experience."
-msgstr ""
+msgstr "استمتع بواجهة مستخدم وتجربة مستخدم ودودة لتعزيز تجربتك الرقمية."
 
 msgid "Turn off the light and switch to dark mode your interface with one click."
-msgstr ""
+msgstr "أطفئ الضوء وانتقل إلى الوضع الداكن في واجهتك بنقرة واحدة."
 
 msgid "An all-inclusive learning package seamlessly integrated into our community."
-msgstr ""
+msgstr "حزمة تعلم شاملة مدمجة بسلاسة في مجتمعنا."
 
 msgid "Simplify transactions and boost security with payment gateway solutions."
-msgstr ""
+msgstr "بسّط المعاملات وعزز الأمان مع حلول بوابة الدفع."
 
 msgid "Unlock limitless creativity with our AI-powered content generator."
-msgstr ""
+msgstr "افتح إبداعًا لا محدودًا مع مولد المحتوى المدعوم بالذكاء الاصطناعي."
 
 msgid ""
 "Boost your visibility and reach your audience effectively with AI generated "
 "content."
-msgstr ""
+msgstr "زيادة الوضوح والوصول إلى جمهورك بشكل فعال باستخدام محتوى مولد بالذكاء الاصطناعي."
 
 msgid "Empower your insights and control with our cutting-edge dashboard."
-msgstr ""
+msgstr "عزز رؤاك وتحكمك من خلال لوحة التحكم المتطورة لدينا."
 
 msgid "Transform your content creation with AI-driven custom templates."
-msgstr ""
+msgstr "حوّل إنشاء المحتوى الخاص بك باستخدام قوالب مخصصة مدفوعة بالذكاء الاصطناعي."
 
 msgid "Use Facebook or Google accounts as an alternatively access to platform."
-msgstr ""
+msgstr "استخدم حسابات فيسبوك أو جوجل كطريقة بديلة للوصول إلى المنصة."
 
 msgid ""
 "Our support team is available 24/7 to help you with any questions or "
 "concerns."
-msgstr ""
+msgstr "فريق الدعم الخاص بنا متاح 24/7 لمساعدتك في أي سؤال أو مخاوف."
 
 msgctxt "heading"
 msgid "Coolest Features"
-msgstr ""
+msgstr "أروع الميزات"
 
 msgctxt "heading"
 msgid "High Quality Code"
-msgstr ""
+msgstr "كود عالي الجودة"
 
 msgctxt "heading"
 msgid "Modern Technologies"
-msgstr ""
+msgstr "تقنيات حديثة"
 
 msgctxt "heading"
 msgid "Friendly UI and UX"
-msgstr ""
+msgstr "واجهة مستخدم وتجربة مستخدم ودودة"
 
 msgctxt "heading"
 msgid "Dark Mode"
-msgstr ""
+msgstr "الوضع الداكن"
 
 msgctxt "heading"
 msgid "Documentation"
-msgstr ""
+msgstr "التوثيق"
 
 msgctxt "heading"
 msgid "Payment Gateways"
-msgstr ""
+msgstr "بوابات الدفع"
 
 msgctxt "heading"
 msgid "AI Generator"
-msgstr ""
+msgstr "مولد الذكاء الاصطناعي"
 
 msgctxt "heading"
 msgid "SEO Friendly"
-msgstr ""
+msgstr "صديق لمحركات البحث"
 
 msgctxt "heading"
 msgid "Advanced Dashboard"
-msgstr ""
+msgstr "لوحة تحكم متقدمة"
 
 msgctxt "heading"
 msgid "Custom Templates"
-msgstr ""
+msgstr "قوالب مخصصة"
 
 msgctxt "heading"
 msgid "Login via SM Accounts"
-msgstr ""
+msgstr "تسجيل الدخول عبر حسابات التواصل الاجتماعي"
 
 msgctxt "heading"
 msgid "High Quality Support"
-msgstr ""
+msgstr "دعم عالي الجودة"
 
 msgid "See how easy it can be to write amazing content."
-msgstr ""
+msgstr "شاهد مدى سهولة كتابة محتوى مذهل."
 
 msgctxt "heading"
 msgid "Ready to level-up?"
-msgstr ""
+msgstr "هل أنت مستعد للارتقاء؟"
 
 msgctxt "button"
 msgid "Get Started Now"
-msgstr ""
+msgstr "ابدأ الآن"
 
 msgid "AI Code"
-msgstr ""
+msgstr "كود الذكاء الاصطناعي"
 
 msgid ""
 "Effortless coding with AI Code Generator: Instant solutions for your "
 "programming needs."
-msgstr ""
+msgstr "توليد الكود بسهولة مع مولد الكود الذكي: حلول فورية لاحتياجات البرمجة."
 
 msgctxt "heading"
 msgid "Ready to write code at the speed of light?"
-msgstr ""
+msgstr "هل أنت مستعد لكتابة الكود بسرعة الضوء؟"
 
 msgctxt "button"
 msgid "Start Generate Code"
-msgstr ""
+msgstr "ابدأ في توليد الكود"
 
 msgid "AI Chat Bot"
-msgstr ""
+msgstr "روبوت الدردشة الذكي"
 
 msgid ""
 "Simply choose your asistant and engage with a friendly chatbot to generate "
 "ideas, enhance your content, or even bring a smile to your face."
-msgstr ""
+msgstr "اختر بسهولة مساعدك وتفاعل مع روبوت الدردشة الذكي لتوليد الأفكار، تعزيز محتواك، أو حتى إحضار وجهك إلى عينيك."
 
 msgctxt "heading"
 msgid "That\\'s remarkably human-like and engaging..."
-msgstr ""
+msgstr "هذا يشبه الإنسان بشكل ملحوظ وجذاب..."
 
 msgctxt "button"
 msgid "Try now"
-msgstr ""
+msgstr "جرب الآن"
 
 msgid "Unlimited"
-msgstr ""
+msgstr "غير محدود"

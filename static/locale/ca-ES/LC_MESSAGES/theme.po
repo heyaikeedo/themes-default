@@ -11,392 +11,392 @@ msgstr ""
 "X-Domain: theme\n"
 
 msgid "AI Writer"
-msgstr ""
+msgstr "Escriptor IA"
 
 msgid ""
 "Achieve superior outcomes in a fraction of the time. At last, a writing "
 "tool that you'll genuinely utilize."
-msgstr ""
+msgstr "Aconsegueix resultats superiors en una fracció de temps. Finalment, una eina de redacció que realment utilitzes."
 
 msgctxt "heading"
 msgid "Write SEO optimized blogs, sales emails and more..."
-msgstr ""
+msgstr "Escriu blogs optimitzats per SEO, correus de venda i més..."
 
 msgctxt "button"
 msgid "See all features"
-msgstr ""
+msgstr "Veure totes les funcions"
 
 msgid "Text to Voice"
-msgstr ""
+msgstr "Text a Veu"
 
 msgid ""
 "Elevate Your Content with Expressive Narration: Discover Text-to-Voice "
 "Excellence."
-msgstr ""
+msgstr "Eleva el teu contingut amb narració expressiva: Descobreix l'excel·lència del Text a Veu."
 
 msgctxt "heading"
 msgid "Convert your texts into <br> Lifelike Speech"
-msgstr ""
+msgstr "Converteix els teus textos en <br> Veu realista"
 
 msgid "Speech to Text"
-msgstr ""
+msgstr "Veu a Text"
 
 msgid ""
 "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and "
 "Accessibility."
-msgstr ""
+msgstr "Transcriu instantàniament paraules parlades en text per a una major productivitat i accesibilitat."
 
 msgctxt "heading"
 msgid "Transforming Spoken <br> Words into Text."
-msgstr ""
+msgstr "Transformant paraules <br> parlades en text."
 
 msgctxt "button"
 msgid "Convert now"
-msgstr ""
+msgstr "Converteix ara"
 
 msgid ":count credits"
-msgstr ""
+msgstr ":count crèdits"
 
 msgid ""
 "Discover the perfect plan to suit your needs and unlock a world of "
 "possibilities."
-msgstr ""
+msgstr "Descobreix el pla perfecte per a les teves necessitats i desbloqueja un món de possibilitats."
 
 msgid "Most Popular"
-msgstr ""
+msgstr "Més popular"
 
 msgid "Chat"
-msgstr ""
+msgstr "Xat"
 
 msgid "Writer"
-msgstr ""
+msgstr "Escriptor"
 
 msgid "Coding Assistant"
-msgstr ""
+msgstr "Assistent de programació"
 
 msgid "Image generator"
-msgstr ""
+msgstr "Generador d’imatges"
 
 msgid "Transcriber"
-msgstr ""
+msgstr "Transcriptor"
 
 msgid "Voiceover"
-msgstr ""
+msgstr "Locució"
 
 msgid "Voice isolator"
-msgstr ""
+msgstr "Aïllador de veu"
 
 msgid "Classifier"
-msgstr ""
+msgstr "Classificador"
 
 msgid "Access to templates is disabled"
-msgstr ""
+msgstr "L’accés a les plantilles està desactivat"
 
 msgid "Access to all templates"
-msgstr ""
+msgstr "Accés a totes les plantilles"
 
 msgid "Priority support"
-msgstr ""
+msgstr "Suport prioritari"
 
 msgid "Basic support"
-msgstr ""
+msgstr "Suport bàsic"
 
 msgctxt "button"
 msgid "Pricing"
-msgstr ""
+msgstr "Preus"
 
 msgctxt "button"
 msgid "Monthly"
-msgstr ""
+msgstr "Mensual"
 
 msgctxt "button"
 msgid "Yearly"
-msgstr ""
+msgstr "Anual"
 
 msgctxt "button"
 msgid "Packs"
-msgstr ""
+msgstr "Packs"
 
 msgctxt "button"
 msgid "Lifetime Deals"
-msgstr ""
+msgstr "Ofertes de per vida"
 
 msgctxt "button"
 msgid "Get started"
-msgstr ""
+msgstr "Comença"
 
 msgid "100+ AI Writer Templates"
-msgstr ""
+msgstr "Més de 100 plantilles d'escriptor d'IA"
 
 msgid ""
 "Write with remarkable speed, captivate your audience, and bid farewell to "
 "writer\\'s block forever."
-msgstr ""
+msgstr "Escriu amb una velocitat impressionant, captiva el teu públic i digues adéu per sempre al bloqueig d'escriptura."
 
 msgctxt "heading"
 msgid "What can Writing Assistant create for you?"
-msgstr ""
+msgstr "Què pot crear per a tu l'Assistent d'Escriptura?"
 
 msgctxt "button"
 msgid "Get Started for Free"
-msgstr ""
+msgstr "Comença gratis"
 
 msgid "AI Image"
-msgstr ""
+msgstr "Imatge AI"
 
 msgid ""
 "Instantly create stunning images using AI Image Generator – your tool for "
 "artistic innovation."
-msgstr ""
+msgstr "Crea imatges impressionants instantàniament utilitzant el Generador d'Imatges IA - la teva eina per a la innovació artística."
 
 msgctxt "heading"
 msgid "Visualize what you dream of. Create images from text."
-msgstr ""
+msgstr "Visualitza allò que somies. Crea imatges a partir de text."
 
 msgctxt "button"
 msgid "Try for free"
-msgstr ""
+msgstr "Prova-ho gratis"
 
 msgid "Choose a our built in templates or create your own."
-msgstr ""
+msgstr "Tria una de les nostres plantilles integrades o crea la teva pròpia."
 
 msgid ""
 "Enter a few sentences to describe your topic. Add keywords to specify for "
 "your brand."
-msgstr ""
+msgstr "Introdueix unes quantes frases per descriure el teu tema. Afegeix paraules clau per especificar-les per a la teva marca."
 
 msgid ""
 "Click the \"Generate\" button and get a variety of high-converting copy "
 "every time."
-msgstr ""
+msgstr "Clica el botó \"Generar\" i obté una varietat de còpies de conversió alt per cada vegada."
 
 msgctxt "heading"
 msgid "How it works"
-msgstr ""
+msgstr "Com funciona"
 
 msgctxt "heading"
 msgid "Choose Template"
-msgstr ""
+msgstr "Tria plantilla"
 
 msgctxt "heading"
 msgid "Describe"
-msgstr ""
+msgstr "Descriu"
 
 msgctxt "heading"
 msgid "Generate"
-msgstr ""
+msgstr "Genera"
 
 msgid ""
 "Effortlessly generate high-quality AI-driven content tailored to your "
 "needs. Unlock limitless possibilities, save your time and start making "
 "money today!"
-msgstr ""
+msgstr "Genera fàcilment contingut d'alta qualitat impulsat per IA a les teves necessitats. Desbloqueja possibilitats il·limitades, estalvia el teu temps i comença a guanyar diners avui mateix!"
 
 msgctxt "heading"
 msgid "Transforming ideas into AI generated masterpieces"
-msgstr ""
+msgstr "Transformant idees en obres mestres generades per IA"
 
 msgctxt "button"
 msgid "Go to app"
-msgstr ""
+msgstr "Vés a l'aplicació"
 
 msgctxt "button"
 msgid "Get started now"
-msgstr ""
+msgstr "Comença ara"
 
 msgctxt "button"
 msgid "Product"
-msgstr ""
+msgstr "Producte"
 
 msgctxt "button"
 msgid "Featured"
-msgstr ""
+msgstr "Destacats"
 
 msgctxt "button"
 msgid "Library"
-msgstr ""
+msgstr "Biblioteca"
 
 msgctxt "button"
 msgid "Billing"
-msgstr ""
+msgstr "Facturació"
 
 msgctxt "button"
 msgid "Account"
-msgstr ""
+msgstr "Compte"
 
 msgctxt "button"
 msgid "Logout"
-msgstr ""
+msgstr "Tancar sessió"
 
 msgctxt "button"
 msgid "Login"
-msgstr ""
+msgstr "Iniciar sessió"
 
 msgctxt "heading"
 msgid "Meet your ultimate"
-msgstr ""
+msgstr "Coneix el teu definitiu"
 
 msgctxt "heading"
 msgid "AI-Powered Content Platform"
-msgstr ""
+msgstr "Plataforma de contingut impulsada per IA"
 
 msgid "All rights reserved."
-msgstr ""
+msgstr "Tots els drets reservats."
 
 msgctxt "button"
 msgid "FAQ"
-msgstr ""
+msgstr "Preguntes freqüents"
 
 msgctxt "button"
 msgid "Terms of services"
-msgstr ""
+msgstr "Termes de servei"
 
 msgctxt "button"
 msgid "Privacy policy"
-msgstr ""
+msgstr "Política de privacitat"
 
 msgctxt "button"
 msgid "Refund policy"
-msgstr ""
+msgstr "Política de reemborsament"
 
 msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
-msgstr ""
+msgstr "Desenvolupat utilitzant Disseny Dirigit pel Domini i Principis d'Arquitectura Cebolla."
 
 msgid ""
 "Built with modern technologies for best structure and get maximum "
 "performance."
-msgstr ""
+msgstr "Construit amb tecnologies modernes per a la millor estructura i obté el màxim rendiment."
 
 msgid ""
 "Enjoy a hassle-free and intuitive user interface that enhances your digital "
 "experience."
-msgstr ""
+msgstr "Disfruta d'una interfície d'usuari sense complicacions i intuïtiva que enriqueix la teva experiència digital."
 
 msgid "Turn off the light and switch to dark mode your interface with one click."
-msgstr ""
+msgstr "Apaga la llum i canvia la teva interfície a mode fosc amb un clic."
 
 msgid "An all-inclusive learning package seamlessly integrated into our community."
-msgstr ""
+msgstr "Un paquet d'aprenentatge tot inclòs integrat perfectament a la nostra comunitat."
 
 msgid "Simplify transactions and boost security with payment gateway solutions."
-msgstr ""
+msgstr "Simplifica les transaccions i augmenta la seguretat amb solucions de passarel·la de pagament."
 
 msgid "Unlock limitless creativity with our AI-powered content generator."
-msgstr ""
+msgstr "Desbloqueja una creativitat il·limitada amb el nostre generador de contingut impulsat per IA."
 
 msgid ""
 "Boost your visibility and reach your audience effectively with AI generated "
 "content."
-msgstr ""
+msgstr "Augmenta la teva visibilitat i aconsegueix el teu públic de manera efectiva amb contingut generat per IA."
 
 msgid "Empower your insights and control with our cutting-edge dashboard."
-msgstr ""
+msgstr "Potencia les teves idees i control amb el nostre tauler d'avantguarda."
 
 msgid "Transform your content creation with AI-driven custom templates."
-msgstr ""
+msgstr "Transforma la creació de contingut amb plantilles personalitzades impulsades per IA."
 
 msgid "Use Facebook or Google accounts as an alternatively access to platform."
-msgstr ""
+msgstr "Utilitza comptes de Facebook o Google com a accés alternatiu a la plataforma."
 
 msgid ""
 "Our support team is available 24/7 to help you with any questions or "
 "concerns."
-msgstr ""
+msgstr "El nostre equip de suport està disponible 24/7 per ajudar-vos amb qualsevol pregunta o preocupació."
 
 msgctxt "heading"
 msgid "Coolest Features"
-msgstr ""
+msgstr "Característiques més genials"
 
 msgctxt "heading"
 msgid "High Quality Code"
-msgstr ""
+msgstr "Codi d'alta qualitat"
 
 msgctxt "heading"
 msgid "Modern Technologies"
-msgstr ""
+msgstr "Tecnologies modernes"
 
 msgctxt "heading"
 msgid "Friendly UI and UX"
-msgstr ""
+msgstr "UI i UX amigables"
 
 msgctxt "heading"
 msgid "Dark Mode"
-msgstr ""
+msgstr "Mode fosc"
 
 msgctxt "heading"
 msgid "Documentation"
-msgstr ""
+msgstr "Documentació"
 
 msgctxt "heading"
 msgid "Payment Gateways"
-msgstr ""
+msgstr "Passarel·les de Pagament"
 
 msgctxt "heading"
 msgid "AI Generator"
-msgstr ""
+msgstr "Generador d'IA"
 
 msgctxt "heading"
 msgid "SEO Friendly"
-msgstr ""
+msgstr "Optimitzat per SEO"
 
 msgctxt "heading"
 msgid "Advanced Dashboard"
-msgstr ""
+msgstr "Tauler Avançat"
 
 msgctxt "heading"
 msgid "Custom Templates"
-msgstr ""
+msgstr "Plantilles Personalitzades"
 
 msgctxt "heading"
 msgid "Login via SM Accounts"
-msgstr ""
+msgstr "Inicia sessió amb Comptes de Xarxes Socials"
 
 msgctxt "heading"
 msgid "High Quality Support"
-msgstr ""
+msgstr "Suport d'Alta Qualitat"
 
 msgid "See how easy it can be to write amazing content."
-msgstr ""
+msgstr "Ves com de fàcil pot ser escriure contingut increïble."
 
 msgctxt "heading"
 msgid "Ready to level-up?"
-msgstr ""
+msgstr "Preparat per pujar de nivell?"
 
 msgctxt "button"
 msgid "Get Started Now"
-msgstr ""
+msgstr "Comença Ara"
 
 msgid "AI Code"
-msgstr ""
+msgstr "Codi AI"
 
 msgid ""
 "Effortless coding with AI Code Generator: Instant solutions for your "
 "programming needs."
-msgstr ""
+msgstr "Escriu codi sense esforç amb el Generador de Codi IA: solucions instantànies per a les teves necessitats de programació."
 
 msgctxt "heading"
 msgid "Ready to write code at the speed of light?"
-msgstr ""
+msgstr "Preparat per escriure codi a la velocitat de la llum?"
 
 msgctxt "button"
 msgid "Start Generate Code"
-msgstr ""
+msgstr "Comença a generar codi"
 
 msgid "AI Chat Bot"
-msgstr ""
+msgstr "Bot de xat AI"
 
 msgid ""
 "Simply choose your asistant and engage with a friendly chatbot to generate "
 "ideas, enhance your content, or even bring a smile to your face."
-msgstr ""
+msgstr "Simplement tria el teu assistent i interactua amb un bot de xat amigable per generar idees, enriquir el teu contingut o fins i tot portar una sonrisa al teu rostre."
 
 msgctxt "heading"
 msgid "That\\'s remarkably human-like and engaging..."
-msgstr ""
+msgstr "Això és sorprenentment humà i atractiu..."
 
 msgctxt "button"
 msgid "Try now"
-msgstr ""
+msgstr "Prova-ho ara"
 
 msgid "Unlimited"
-msgstr ""
+msgstr "Il·limitat"

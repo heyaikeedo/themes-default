@@ -11,392 +11,392 @@ msgstr ""
 "X-Domain: theme\n"
 
 msgid "AI Writer"
-msgstr ""
+msgstr "Συγγραφέας AI"
 
 msgid ""
 "Achieve superior outcomes in a fraction of the time. At last, a writing "
 "tool that you'll genuinely utilize."
-msgstr ""
+msgstr "Αποκτήστε εξαιρετικά αποτελέσματα σε μια ποσότητα χρόνου. Τέλος, ένα εργαλείο γραφής που θα χρησιμοποιήσετε πραγματικά."
 
 msgctxt "heading"
 msgid "Write SEO optimized blogs, sales emails and more..."
-msgstr ""
+msgstr "Γράψτε SEO βελτιστοποιημένα blogs, πωλησιακά email και άλλα..."
 
 msgctxt "button"
 msgid "See all features"
-msgstr ""
+msgstr "Δείτε όλες τις λειτουργίες"
 
 msgid "Text to Voice"
-msgstr ""
+msgstr "Κείμενο σε Φωνή"
 
 msgid ""
 "Elevate Your Content with Expressive Narration: Discover Text-to-Voice "
 "Excellence."
-msgstr ""
+msgstr "Αυξήστε το περιεχόμενό σας με εκφραστική περιγραφή: Ανακαλύψτε την εξειδίκευση του κειμένου σε φωνή."
 
 msgctxt "heading"
 msgid "Convert your texts into <br> Lifelike Speech"
-msgstr ""
+msgstr "Μετατρέψτε τα κείμενά σας σε <br> Φωνή Ζωηρή"
 
 msgid "Speech to Text"
-msgstr ""
+msgstr "Φωνή σε Κείμενο"
 
 msgid ""
 "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and "
 "Accessibility."
-msgstr ""
+msgstr "Μεταγράψτε αμέσως τις λέξεις που μιλάτε σε κείμενο για βελτιωμένη παραγωγικότητα και πρόσβαση."
 
 msgctxt "heading"
 msgid "Transforming Spoken <br> Words into Text."
-msgstr ""
+msgstr "Μετατροπή Προφορικών <br> Λέξεων σε Κείμενο."
 
 msgctxt "button"
 msgid "Convert now"
-msgstr ""
+msgstr "Μετατρέψτε τώρα"
 
 msgid ":count credits"
-msgstr ""
+msgstr ":count πιστώσεις"
 
 msgid ""
 "Discover the perfect plan to suit your needs and unlock a world of "
 "possibilities."
-msgstr ""
+msgstr "Ανακαλύψτε το τέλειο σχέδιο που ταιριάζει στις ανάγκες σας και ανοίξτε έναν κόσμο δυνατοτήτων."
 
 msgid "Most Popular"
-msgstr ""
+msgstr "Πιο Δημοφιλές"
 
 msgid "Chat"
-msgstr ""
+msgstr "Συνομιλία"
 
 msgid "Writer"
-msgstr ""
+msgstr "Συγγραφέας"
 
 msgid "Coding Assistant"
-msgstr ""
+msgstr "Βοηθός Προγραμματισμού"
 
 msgid "Image generator"
-msgstr ""
+msgstr "Δημιουργός εικόνων"
 
 msgid "Transcriber"
-msgstr ""
+msgstr "Μεταγραφέας"
 
 msgid "Voiceover"
-msgstr ""
+msgstr "Αφηγητής"
 
 msgid "Voice isolator"
-msgstr ""
+msgstr "Απομονωτής φωνής"
 
 msgid "Classifier"
-msgstr ""
+msgstr "Κατηγοριοποιητής"
 
 msgid "Access to templates is disabled"
-msgstr ""
+msgstr "Η πρόσβαση στα πρότυπα είναι απενεργοποιημένη"
 
 msgid "Access to all templates"
-msgstr ""
+msgstr "Πρόσβαση σε όλα τα πρότυπα"
 
 msgid "Priority support"
-msgstr ""
+msgstr "Υποστήριξη προτεραιότητας"
 
 msgid "Basic support"
-msgstr ""
+msgstr "Βασική υποστήριξη"
 
 msgctxt "button"
 msgid "Pricing"
-msgstr ""
+msgstr "Τιμολόγηση"
 
 msgctxt "button"
 msgid "Monthly"
-msgstr ""
+msgstr "Μηνιαία"
 
 msgctxt "button"
 msgid "Yearly"
-msgstr ""
+msgstr "Ετήσια"
 
 msgctxt "button"
 msgid "Packs"
-msgstr ""
+msgstr "Πακέτα"
 
 msgctxt "button"
 msgid "Lifetime Deals"
-msgstr ""
+msgstr "Δια βίου προσφορές"
 
 msgctxt "button"
 msgid "Get started"
-msgstr ""
+msgstr "Ξεκινήστε"
 
 msgid "100+ AI Writer Templates"
-msgstr ""
+msgstr "100+ Πρότυπα Συγγραφέα AI"
 
 msgid ""
 "Write with remarkable speed, captivate your audience, and bid farewell to "
 "writer\\'s block forever."
-msgstr ""
+msgstr "Γράψτε με απίστευτη ταχύτητα, καταπατήστε την κοινότητά σας και αποχωρήστε για πάντα από το πρόβλημα της γραφής."
 
 msgctxt "heading"
 msgid "What can Writing Assistant create for you?"
-msgstr ""
+msgstr "Τι μπορεί να δημιουργήσει για εσάς ο Βοηθός Συγγραφής;"
 
 msgctxt "button"
 msgid "Get Started for Free"
-msgstr ""
+msgstr "Ξεκινήστε Δωρεάν"
 
 msgid "AI Image"
-msgstr ""
+msgstr "Εικόνα AI"
 
 msgid ""
 "Instantly create stunning images using AI Image Generator – your tool for "
 "artistic innovation."
-msgstr ""
+msgstr "Δημιουργήστε απίστευτα εικόνες με τη γεννήτρια εικόνων AI - το εργαλείο σας για την καλλιτεχνική επινόηση."
 
 msgctxt "heading"
 msgid "Visualize what you dream of. Create images from text."
-msgstr ""
+msgstr "Οπτικοποιήστε αυτό που ονειρεύεστε. Δημιουργήστε εικόνες από κείμενο."
 
 msgctxt "button"
 msgid "Try for free"
-msgstr ""
+msgstr "Δοκιμάστε δωρεάν"
 
 msgid "Choose a our built in templates or create your own."
-msgstr ""
+msgstr "Επιλέξτε ένα από τα ενσωματωμένα πρότυπά μας ή δημιουργήστε το δικό σας."
 
 msgid ""
 "Enter a few sentences to describe your topic. Add keywords to specify for "
 "your brand."
-msgstr ""
+msgstr "Εισάγετε μερικές προτάσεις για να περιγράψετε το θέμα σας. Προσθέστε λέξεις-κλειδιά για να προσδιορίσετε για την εταιρεία σας."
 
 msgid ""
 "Click the \"Generate\" button and get a variety of high-converting copy "
 "every time."
-msgstr ""
+msgstr "Κάντε κλικ στο κουμπί \"Δημιουργία\" και λάβετε μια ποικιλία υψηλών μετατροπών ανά φορά."
 
 msgctxt "heading"
 msgid "How it works"
-msgstr ""
+msgstr "Πώς λειτουργεί"
 
 msgctxt "heading"
 msgid "Choose Template"
-msgstr ""
+msgstr "Επιλέξτε Πρότυπο"
 
 msgctxt "heading"
 msgid "Describe"
-msgstr ""
+msgstr "Περιγράψτε"
 
 msgctxt "heading"
 msgid "Generate"
-msgstr ""
+msgstr "Δημιουργία"
 
 msgid ""
 "Effortlessly generate high-quality AI-driven content tailored to your "
 "needs. Unlock limitless possibilities, save your time and start making "
 "money today!"
-msgstr ""
+msgstr "Δημιουργήστε εύκολα υψηλής ποιότητας περιεχόμενο που διευθύνεται από AI σύμφωνα με τις ανάγκες σας. Ανοίξτε έναν κόσμο απεριόριστων δυνατοτήτων, αποθηκεύστε το χρόνο σας και ξεκινήστε να κερδίζετε χρήματα σήμερα!"
 
 msgctxt "heading"
 msgid "Transforming ideas into AI generated masterpieces"
-msgstr ""
+msgstr "Μετατρέποντας ιδέες σε αριστουργήματα που δημιουργούνται από AI"
 
 msgctxt "button"
 msgid "Go to app"
-msgstr ""
+msgstr "Μετάβαση στην εφαρμογή"
 
 msgctxt "button"
 msgid "Get started now"
-msgstr ""
+msgstr "Ξεκινήστε τώρα"
 
 msgctxt "button"
 msgid "Product"
-msgstr ""
+msgstr "Προϊόν"
 
 msgctxt "button"
 msgid "Featured"
-msgstr ""
+msgstr "Προτεινόμενο"
 
 msgctxt "button"
 msgid "Library"
-msgstr ""
+msgstr "Βιβλιοθήκη"
 
 msgctxt "button"
 msgid "Billing"
-msgstr ""
+msgstr "Χρέωση"
 
 msgctxt "button"
 msgid "Account"
-msgstr ""
+msgstr "Λογαριασμός"
 
 msgctxt "button"
 msgid "Logout"
-msgstr ""
+msgstr "Αποσύνδεση"
 
 msgctxt "button"
 msgid "Login"
-msgstr ""
+msgstr "Σύνδεση"
 
 msgctxt "heading"
 msgid "Meet your ultimate"
-msgstr ""
+msgstr "Γνωρίστε το απόλυτο σας"
 
 msgctxt "heading"
 msgid "AI-Powered Content Platform"
-msgstr ""
+msgstr "Πλατφόρμα Περιεχομένου με Τεχνητή Νοημοσύνη"
 
 msgid "All rights reserved."
-msgstr ""
+msgstr "Με επιφύλαξη παντός δικαιώματος."
 
 msgctxt "button"
 msgid "FAQ"
-msgstr ""
+msgstr "Συχνές Ερωτήσεις"
 
 msgctxt "button"
 msgid "Terms of services"
-msgstr ""
+msgstr "Όροι υπηρεσιών"
 
 msgctxt "button"
 msgid "Privacy policy"
-msgstr ""
+msgstr "Πολιτική απορρήτου"
 
 msgctxt "button"
 msgid "Refund policy"
-msgstr ""
+msgstr "Πολιτική επιστροφών"
 
 msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
-msgstr ""
+msgstr "Αναπτύχθηκε χρησιμοποιώντας τις αρχές Domain-Driven Design και Onion Architecture."
 
 msgid ""
 "Built with modern technologies for best structure and get maximum "
 "performance."
-msgstr ""
+msgstr "Χτίστηκε με σύγχρονες τεχνολογίες για την καλύτερη δομή και τη μέγιστη απόδοση."
 
 msgid ""
 "Enjoy a hassle-free and intuitive user interface that enhances your digital "
 "experience."
-msgstr ""
+msgstr "Απολαύστε μια εύκολη και ευδιάκριτη διεπαφή χρήστη που βελτιώνει την ψηφιακή σας εμπειρία."
 
 msgid "Turn off the light and switch to dark mode your interface with one click."
-msgstr ""
+msgstr "Σβήστε το φως και αλλάξτε τη διεπαφή σας σε σκοτεινή λειτουργία με ένα κλικ."
 
 msgid "An all-inclusive learning package seamlessly integrated into our community."
-msgstr ""
+msgstr "Ένα ολοκληρωμένο πακέτο μάθησης ενσωματωμένο άψογα στην κοινότητά μας."
 
 msgid "Simplify transactions and boost security with payment gateway solutions."
-msgstr ""
+msgstr "Απλοποιήστε τις συναλλαγές και ενισχύστε την ασφάλεια με λύσεις πύλης πληρωμών."
 
 msgid "Unlock limitless creativity with our AI-powered content generator."
-msgstr ""
+msgstr "Ξεκλειδώστε απεριόριστη δημιουργικότητα με τον δημιουργό περιεχομένου που τροφοδοτείται από AI."
 
 msgid ""
 "Boost your visibility and reach your audience effectively with AI generated "
 "content."
-msgstr ""
+msgstr "Αυξήστε την ορατότητά σας και επιτύχετε την κοινότητά σας με αποτελεσματικό τρόπο με περιεχόμενο που δημιουργείται από AI."
 
 msgid "Empower your insights and control with our cutting-edge dashboard."
-msgstr ""
+msgstr "Ενισχύστε τις γνώσεις και τον έλεγχό σας με τον προηγμένο πίνακα ελέγχου μας."
 
 msgid "Transform your content creation with AI-driven custom templates."
-msgstr ""
+msgstr "Μεταμορφώστε τη δημιουργία περιεχομένου σας με προσαρμοσμένα πρότυπα που βασίζονται σε AI."
 
 msgid "Use Facebook or Google accounts as an alternatively access to platform."
-msgstr ""
+msgstr "Χρησιμοποιήστε λογαριασμούς Facebook ή Google ως εναλλακτική πρόσβαση στην πλατφόρμα."
 
 msgid ""
 "Our support team is available 24/7 to help you with any questions or "
 "concerns."
-msgstr ""
+msgstr "Το ομάδα υποστήριξης μας είναι διαθέσιμη 24/7 για να σας βοηθήσει με οποιαδήποτε ερώτηση ή ανησυχία."
 
 msgctxt "heading"
 msgid "Coolest Features"
-msgstr ""
+msgstr "Κορυφαία Χαρακτηριστικά"
 
 msgctxt "heading"
 msgid "High Quality Code"
-msgstr ""
+msgstr "Κώδικας Υψηλής Ποιότητας"
 
 msgctxt "heading"
 msgid "Modern Technologies"
-msgstr ""
+msgstr "Μοντέρνες Τεχνολογίες"
 
 msgctxt "heading"
 msgid "Friendly UI and UX"
-msgstr ""
+msgstr "Φιλικό UI και UX"
 
 msgctxt "heading"
 msgid "Dark Mode"
-msgstr ""
+msgstr "Σκοτεινή Λειτουργία"
 
 msgctxt "heading"
 msgid "Documentation"
-msgstr ""
+msgstr "Τεκμηρίωση"
 
 msgctxt "heading"
 msgid "Payment Gateways"
-msgstr ""
+msgstr "Πύλες Πληρωμών"
 
 msgctxt "heading"
 msgid "AI Generator"
-msgstr ""
+msgstr "Γεννήτρια Τεχνητής Νοημοσύνης"
 
 msgctxt "heading"
 msgid "SEO Friendly"
-msgstr ""
+msgstr "Φιλικό προς SEO"
 
 msgctxt "heading"
 msgid "Advanced Dashboard"
-msgstr ""
+msgstr "Προηγμένος Πίνακας Ελέγχου"
 
 msgctxt "heading"
 msgid "Custom Templates"
-msgstr ""
+msgstr "Προσαρμοσμένα Πρότυπα"
 
 msgctxt "heading"
 msgid "Login via SM Accounts"
-msgstr ""
+msgstr "Σύνδεση μέσω Λογαριασμών Κοινωνικών Δικτύων"
 
 msgctxt "heading"
 msgid "High Quality Support"
-msgstr ""
+msgstr "Υποστήριξη Υψηλής Ποιότητας"
 
 msgid "See how easy it can be to write amazing content."
-msgstr ""
+msgstr "Δείτε πόσο εύκολο μπορεί να είναι να γράψετε εκπληκτικό περιεχόμενο."
 
 msgctxt "heading"
 msgid "Ready to level-up?"
-msgstr ""
+msgstr "Έτοιμοι να ανεβείτε επίπεδο;"
 
 msgctxt "button"
 msgid "Get Started Now"
-msgstr ""
+msgstr "Ξεκινήστε Τώρα"
 
 msgid "AI Code"
-msgstr ""
+msgstr "Κώδικας AI"
 
 msgid ""
 "Effortless coding with AI Code Generator: Instant solutions for your "
 "programming needs."
-msgstr ""
+msgstr "Γράψτε κώδικα χωρίς προσπάθεια με τον γεννήτρια κώδικα AI: Λύσεις αμέσως για τις ανάγκες προγραμματισμού σας."
 
 msgctxt "heading"
 msgid "Ready to write code at the speed of light?"
-msgstr ""
+msgstr "Έτοιμοι να γράψετε κώδικα με την ταχύτητα του φωτός;"
 
 msgctxt "button"
 msgid "Start Generate Code"
-msgstr ""
+msgstr "Ξεκινήστε τη Δημιουργία Κώδικα"
 
 msgid "AI Chat Bot"
-msgstr ""
+msgstr "Ρομπότ Συνομιλίας AI"
 
 msgid ""
 "Simply choose your asistant and engage with a friendly chatbot to generate "
 "ideas, enhance your content, or even bring a smile to your face."
-msgstr ""
+msgstr "Απλά επιλέξτε τον Βοηθό σας και αλληλεπιδράστε με έναν φιλικό ρομπότ συνομιλίας για να δημιουργήσετε ιδέες, βελτιώσετε το περιεχόμενό σας ή ακόμη και να φέρετε ένα χαμόγελο στην πρόσωπό σας."
 
 msgctxt "heading"
 msgid "That\\'s remarkably human-like and engaging..."
-msgstr ""
+msgstr "Αυτό είναι αξιοσημείωτα ανθρώπινο και ελκυστικό..."
 
 msgctxt "button"
 msgid "Try now"
-msgstr ""
+msgstr "Δοκιμάστε τώρα"
 
 msgid "Unlimited"
-msgstr ""
+msgstr "Απεριόριστο"

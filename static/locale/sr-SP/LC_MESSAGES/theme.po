@@ -12,392 +12,392 @@ msgstr ""
 "X-Domain: theme\n"
 
 msgid "AI Writer"
-msgstr ""
+msgstr "AI Pisac"
 
 msgid ""
 "Achieve superior outcomes in a fraction of the time. At last, a writing "
 "tool that you'll genuinely utilize."
-msgstr ""
+msgstr "Postižite superiorne rezultate u frakciji vremena. Na kraju, alat za pisanje koji ćete stvarno koristiti."
 
 msgctxt "heading"
 msgid "Write SEO optimized blogs, sales emails and more..."
-msgstr ""
+msgstr "Pišite SEO optimizovane blogove, prodajne mejlove i još mnogo toga..."
 
 msgctxt "button"
 msgid "See all features"
-msgstr ""
+msgstr "Pogledajte sve funkcije"
 
 msgid "Text to Voice"
-msgstr ""
+msgstr "Tekst u Glas"
 
 msgid ""
 "Elevate Your Content with Expressive Narration: Discover Text-to-Voice "
 "Excellence."
-msgstr ""
+msgstr "Podignite svoj sadržaj sa izraženom pričom: Otkrijte izvrsnost teksta u glasu."
 
 msgctxt "heading"
 msgid "Convert your texts into <br> Lifelike Speech"
-msgstr ""
+msgstr "Pretvorite svoje tekstove u <br> Prirodni Glas"
 
 msgid "Speech to Text"
-msgstr ""
+msgstr "Glas u Tekst"
 
 msgid ""
 "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and "
 "Accessibility."
-msgstr ""
+msgstr "Neposredno prevođenje govorenih reči u tekst za poboljšanu produktivnost i pristupačnost."
 
 msgctxt "heading"
 msgid "Transforming Spoken <br> Words into Text."
-msgstr ""
+msgstr "Pretvaranje Izgovorenih <br> Reči u Tekst."
 
 msgctxt "button"
 msgid "Convert now"
-msgstr ""
+msgstr "Pretvori sada"
 
 msgid ":count credits"
-msgstr ""
+msgstr ":count kredita"
 
 msgid ""
 "Discover the perfect plan to suit your needs and unlock a world of "
 "possibilities."
-msgstr ""
+msgstr "Otkrijte savršeni plan koji odgovara vašim potrebama i otklonite blokadu mogućnosti."
 
 msgid "Most Popular"
-msgstr ""
+msgstr "Najpopularnije"
 
 msgid "Chat"
-msgstr ""
+msgstr "Ћаскање"
 
 msgid "Writer"
-msgstr ""
+msgstr "Писац"
 
 msgid "Coding Assistant"
-msgstr ""
+msgstr "Помоћник за програмирање"
 
 msgid "Image generator"
-msgstr ""
+msgstr "Генератор слика"
 
 msgid "Transcriber"
-msgstr ""
+msgstr "Транскриптор"
 
 msgid "Voiceover"
-msgstr ""
+msgstr "Гласовни запис"
 
 msgid "Voice isolator"
-msgstr ""
+msgstr "Изолатор гласа"
 
 msgid "Classifier"
-msgstr ""
+msgstr "Класификатор"
 
 msgid "Access to templates is disabled"
-msgstr ""
+msgstr "Приступ шаблонима је онемогућен"
 
 msgid "Access to all templates"
-msgstr ""
+msgstr "Приступ свим шаблонима"
 
 msgid "Priority support"
-msgstr ""
+msgstr "Prioritetna podrška"
 
 msgid "Basic support"
-msgstr ""
+msgstr "Osnovna podrška"
 
 msgctxt "button"
 msgid "Pricing"
-msgstr ""
+msgstr "Cene"
 
 msgctxt "button"
 msgid "Monthly"
-msgstr ""
+msgstr "Mesečno"
 
 msgctxt "button"
 msgid "Yearly"
-msgstr ""
+msgstr "Godišnje"
 
 msgctxt "button"
 msgid "Packs"
-msgstr ""
+msgstr "Paketi"
 
 msgctxt "button"
 msgid "Lifetime Deals"
-msgstr ""
+msgstr "Doživotne ponude"
 
 msgctxt "button"
 msgid "Get started"
-msgstr ""
+msgstr "Započni"
 
 msgid "100+ AI Writer Templates"
-msgstr ""
+msgstr "100+ AI šablona za pisanje"
 
 msgid ""
 "Write with remarkable speed, captivate your audience, and bid farewell to "
 "writer\\'s block forever."
-msgstr ""
+msgstr "Pišite sa neverovatan brzinom, zadržite svoju publiku i zaboravite na blokadu pisanja za sve vreme."
 
 msgctxt "heading"
 msgid "What can Writing Assistant create for you?"
-msgstr ""
+msgstr "Šta vam Writing Assistant može kreirati?"
 
 msgctxt "button"
 msgid "Get Started for Free"
-msgstr ""
+msgstr "Započni besplatno"
 
 msgid "AI Image"
-msgstr ""
+msgstr "AI slika"
 
 msgid ""
 "Instantly create stunning images using AI Image Generator – your tool for "
 "artistic innovation."
-msgstr ""
+msgstr "Kreirajte neverovatanu sliku sa AI Image Generator - svojim alatom za umetničku inovaciju."
 
 msgctxt "heading"
 msgid "Visualize what you dream of. Create images from text."
-msgstr ""
+msgstr "Vizualizuj ono o čemu sanjaš. Kreiraj slike iz teksta."
 
 msgctxt "button"
 msgid "Try for free"
-msgstr ""
+msgstr "Probaj besplatno"
 
 msgid "Choose a our built in templates or create your own."
-msgstr ""
+msgstr "Izaberi jedan od naših ugrađenih šablona ili kreiraj svoj."
 
 msgid ""
 "Enter a few sentences to describe your topic. Add keywords to specify for "
 "your brand."
-msgstr ""
+msgstr "Unesite nekoliko rečenica da opišete svoju temu. Dodajte ključne reči da biste naveli za svoju marku."
 
 msgid ""
 "Click the \"Generate\" button and get a variety of high-converting copy "
 "every time."
-msgstr ""
+msgstr "Kliknite na gumb \"Generiši\" i dobijte različite visoko konverzije svaki put."
 
 msgctxt "heading"
 msgid "How it works"
-msgstr ""
+msgstr "Kako funkcioniše"
 
 msgctxt "heading"
 msgid "Choose Template"
-msgstr ""
+msgstr "Izaberi šablon"
 
 msgctxt "heading"
 msgid "Describe"
-msgstr ""
+msgstr "Opisi"
 
 msgctxt "heading"
 msgid "Generate"
-msgstr ""
+msgstr "Generiši"
 
 msgid ""
 "Effortlessly generate high-quality AI-driven content tailored to your "
 "needs. Unlock limitless possibilities, save your time and start making "
 "money today!"
-msgstr ""
+msgstr "Generišite lahko visokokvalitetan sadržaj pokretan AI, prilagođen vašim potrebama. Otključajte beskonačne mogućnosti, štedite vreme i započnite da zarađujete danas!"
 
 msgctxt "heading"
 msgid "Transforming ideas into AI generated masterpieces"
-msgstr ""
+msgstr "Pretvaranje ideja u AI generisana remek-dela"
 
 msgctxt "button"
 msgid "Go to app"
-msgstr ""
+msgstr "Idi na aplikaciju"
 
 msgctxt "button"
 msgid "Get started now"
-msgstr ""
+msgstr "Započni sada"
 
 msgctxt "button"
 msgid "Product"
-msgstr ""
+msgstr "Proizvod"
 
 msgctxt "button"
 msgid "Featured"
-msgstr ""
+msgstr "Istaknuto"
 
 msgctxt "button"
 msgid "Library"
-msgstr ""
+msgstr "Biblioteka"
 
 msgctxt "button"
 msgid "Billing"
-msgstr ""
+msgstr "Naplata"
 
 msgctxt "button"
 msgid "Account"
-msgstr ""
+msgstr "Nalog"
 
 msgctxt "button"
 msgid "Logout"
-msgstr ""
+msgstr "Odjavi se"
 
 msgctxt "button"
 msgid "Login"
-msgstr ""
+msgstr "Prijavi se"
 
 msgctxt "heading"
 msgid "Meet your ultimate"
-msgstr ""
+msgstr "Upoznajte svoj ultimativni"
 
 msgctxt "heading"
 msgid "AI-Powered Content Platform"
-msgstr ""
+msgstr "Platforma za sadržaj pokretana veštačkom inteligencijom"
 
 msgid "All rights reserved."
-msgstr ""
+msgstr "Sva prava zadržana."
 
 msgctxt "button"
 msgid "FAQ"
-msgstr ""
+msgstr "Česta pitanja"
 
 msgctxt "button"
 msgid "Terms of services"
-msgstr ""
+msgstr "Uslovi korišćenja"
 
 msgctxt "button"
 msgid "Privacy policy"
-msgstr ""
+msgstr "Politika privatnosti"
 
 msgctxt "button"
 msgid "Refund policy"
-msgstr ""
+msgstr "Politika povraćaja novca"
 
 msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
-msgstr ""
+msgstr "Razvijeno korišćenjem principa Domain-Driven Design i Onion Architecture."
 
 msgid ""
 "Built with modern technologies for best structure and get maximum "
 "performance."
-msgstr ""
+msgstr "Izgrađeno sa modernim tehnologijama za najbolju strukturu i maksimalnu performansu."
 
 msgid ""
 "Enjoy a hassle-free and intuitive user interface that enhances your digital "
 "experience."
-msgstr ""
+msgstr "Uživajte u lahkom i intuitivnom korisničkom interfejsu koji poboljšava vašu digitalnu iskustvu."
 
 msgid "Turn off the light and switch to dark mode your interface with one click."
-msgstr ""
+msgstr "Isključite svetlo i prebacite interfejs u tamni režim jednim klikom."
 
 msgid "An all-inclusive learning package seamlessly integrated into our community."
-msgstr ""
+msgstr "Sveobuhvatan paket za učenje besprekorno integrisan u našu zajednicu."
 
 msgid "Simplify transactions and boost security with payment gateway solutions."
-msgstr ""
+msgstr "Pojednostavite transakcije i povećajte sigurnost uz rešenja za platne kapije."
 
 msgid "Unlock limitless creativity with our AI-powered content generator."
-msgstr ""
+msgstr "Otključajte neograničenu kreativnost uz naš generator sadržaja pokretan veštačkom inteligencijom."
 
 msgid ""
 "Boost your visibility and reach your audience effectively with AI generated "
 "content."
-msgstr ""
+msgstr "Povećajte svoju vidljivost i efikasno dostavite svoju publiku sa AI generisanim sadržajem."
 
 msgid "Empower your insights and control with our cutting-edge dashboard."
-msgstr ""
+msgstr "Osnažite svoje uvide i kontrolu uz naš najsavremeniji kontrolni panel."
 
 msgid "Transform your content creation with AI-driven custom templates."
-msgstr ""
+msgstr "Transformišite kreiranje sadržaja uz AI-pokretane prilagođene šablone."
 
 msgid "Use Facebook or Google accounts as an alternatively access to platform."
-msgstr ""
+msgstr "Koristite Facebook ili Google naloge kao alternativni pristup platformi."
 
 msgid ""
 "Our support team is available 24/7 to help you with any questions or "
 "concerns."
-msgstr ""
+msgstr "Naš tim podrške je dostupan 24/7 da vam pomogne sa bilo kojim pitanjima ili brkama."
 
 msgctxt "heading"
 msgid "Coolest Features"
-msgstr ""
+msgstr "Najkul funkcije"
 
 msgctxt "heading"
 msgid "High Quality Code"
-msgstr ""
+msgstr "Kôd visokog kvaliteta"
 
 msgctxt "heading"
 msgid "Modern Technologies"
-msgstr ""
+msgstr "Moderne tehnologije"
 
 msgctxt "heading"
 msgid "Friendly UI and UX"
-msgstr ""
+msgstr "Prijateljski UI i UX"
 
 msgctxt "heading"
 msgid "Dark Mode"
-msgstr ""
+msgstr "Tamni režim"
 
 msgctxt "heading"
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentacija"
 
 msgctxt "heading"
 msgid "Payment Gateways"
-msgstr ""
+msgstr "Platne kapije"
 
 msgctxt "heading"
 msgid "AI Generator"
-msgstr ""
+msgstr "AI Generator"
 
 msgctxt "heading"
 msgid "SEO Friendly"
-msgstr ""
+msgstr "SEO Prijateljski"
 
 msgctxt "heading"
 msgid "Advanced Dashboard"
-msgstr ""
+msgstr "Napredna Kontrolna Tabla"
 
 msgctxt "heading"
 msgid "Custom Templates"
-msgstr ""
+msgstr "Prilagođeni Šabloni"
 
 msgctxt "heading"
 msgid "Login via SM Accounts"
-msgstr ""
+msgstr "Prijava putem SM Naloga"
 
 msgctxt "heading"
 msgid "High Quality Support"
-msgstr ""
+msgstr "Podrška Visokog Kvaliteta"
 
 msgid "See how easy it can be to write amazing content."
-msgstr ""
+msgstr "Pogledajte koliko je lako napisati neverovatan sadržaj."
 
 msgctxt "heading"
 msgid "Ready to level-up?"
-msgstr ""
+msgstr "Spremni za napredak?"
 
 msgctxt "button"
 msgid "Get Started Now"
-msgstr ""
+msgstr "Započni Sada"
 
 msgid "AI Code"
-msgstr ""
+msgstr "AI Код"
 
 msgid ""
 "Effortless coding with AI Code Generator: Instant solutions for your "
 "programming needs."
-msgstr ""
+msgstr "Generišite lahko kôd sa AI Code Generator: Instante rešenja za vaše potrebe za programiranjem."
 
 msgctxt "heading"
 msgid "Ready to write code at the speed of light?"
-msgstr ""
+msgstr "Спремни да пишеш код брзином светлости?"
 
 msgctxt "button"
 msgid "Start Generate Code"
-msgstr ""
+msgstr "Почни генерисање кода"
 
 msgid "AI Chat Bot"
-msgstr ""
+msgstr "AI Чат Бот"
 
 msgid ""
 "Simply choose your asistant and engage with a friendly chatbot to generate "
 "ideas, enhance your content, or even bring a smile to your face."
-msgstr ""
+msgstr "Jednostavno izaberite svoj asistenta i engagejte se sa prijateljskim chatbotom da generišete ideje, poboljšate svoj sadržaj ili čak donete usmijeh na svoju stranu."
 
 msgctxt "heading"
 msgid "That\\'s remarkably human-like and engaging..."
-msgstr ""
+msgstr "То је изузетно људски и занимљиво..."
 
 msgctxt "button"
 msgid "Try now"
-msgstr ""
+msgstr "Пробај сада"
 
 msgid "Unlimited"
-msgstr ""
+msgstr "Неограничено"

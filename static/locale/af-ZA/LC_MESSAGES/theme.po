@@ -11,392 +11,392 @@ msgstr ""
 "X-Domain: theme\n"
 
 msgid "AI Writer"
-msgstr ""
+msgstr "KI Skrywer"
 
 msgid ""
 "Achieve superior outcomes in a fraction of the time. At last, a writing "
 "tool that you'll genuinely utilize."
-msgstr ""
+msgstr "Beter uitkomste in 'n breuk van die tyd. Laasens, 'n skryfwerktool wat jy eerlik sal gebruik."
 
 msgctxt "heading"
 msgid "Write SEO optimized blogs, sales emails and more..."
-msgstr ""
+msgstr "Skryf SEO-geoptimaliseerde blogs, verkoops-e-posse en meer..."
 
 msgctxt "button"
 msgid "See all features"
-msgstr ""
+msgstr "Sien alle kenmerke"
 
 msgid "Text to Voice"
-msgstr ""
+msgstr "Tekst na Stem"
 
 msgid ""
 "Elevate Your Content with Expressive Narration: Discover Text-to-Voice "
 "Excellence."
-msgstr ""
+msgstr "Verhoog jou inhoud met uitdruklike vertelling: Ontdek teks-na-stem uitsonderlikheid."
 
 msgctxt "heading"
 msgid "Convert your texts into <br> Lifelike Speech"
-msgstr ""
+msgstr "Skakel jou tekste om in <br> Leweagtige Spraak"
 
 msgid "Speech to Text"
-msgstr ""
+msgstr "Spraak na Tekst"
 
 msgid ""
 "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and "
 "Accessibility."
-msgstr ""
+msgstr "Skryf onmiddellik gesprokke in teks vir verbeterde produktiviteit en toeganklikheid."
 
 msgctxt "heading"
 msgid "Transforming Spoken <br> Words into Text."
-msgstr ""
+msgstr "Verander Gesproke <br> Woorde in Tekst."
 
 msgctxt "button"
 msgid "Convert now"
-msgstr ""
+msgstr "Skakel nou om"
 
 msgid ":count credits"
-msgstr ""
+msgstr ":count krediete"
 
 msgid ""
 "Discover the perfect plan to suit your needs and unlock a world of "
 "possibilities."
-msgstr ""
+msgstr "Ontdek die perfekte plan om aan jou behoeftes te voldoen en ontgryp 'n wêreld van moontlikehede."
 
 msgid "Most Popular"
-msgstr ""
+msgstr "Mees Populêr"
 
 msgid "Chat"
-msgstr ""
+msgstr "Gesels"
 
 msgid "Writer"
-msgstr ""
+msgstr "Skrywer"
 
 msgid "Coding Assistant"
-msgstr ""
+msgstr "Kode-assistent"
 
 msgid "Image generator"
-msgstr ""
+msgstr "Beeldgenerator"
 
 msgid "Transcriber"
-msgstr ""
+msgstr "Transkribeerder"
 
 msgid "Voiceover"
-msgstr ""
+msgstr "Stemopname"
 
 msgid "Voice isolator"
-msgstr ""
+msgstr "Stemisolator"
 
 msgid "Classifier"
-msgstr ""
+msgstr "Klassifiseerder"
 
 msgid "Access to templates is disabled"
-msgstr ""
+msgstr "Toegang tot sjablone is gedeaktiveer"
 
 msgid "Access to all templates"
-msgstr ""
+msgstr "Toegang tot alle sjablone"
 
 msgid "Priority support"
-msgstr ""
+msgstr "Prioriteitsondersteuning"
 
 msgid "Basic support"
-msgstr ""
+msgstr "Basiese ondersteuning"
 
 msgctxt "button"
 msgid "Pricing"
-msgstr ""
+msgstr "Pryse"
 
 msgctxt "button"
 msgid "Monthly"
-msgstr ""
+msgstr "Maandeliks"
 
 msgctxt "button"
 msgid "Yearly"
-msgstr ""
+msgstr "Jaarliks"
 
 msgctxt "button"
 msgid "Packs"
-msgstr ""
+msgstr "Pakkette"
 
 msgctxt "button"
 msgid "Lifetime Deals"
-msgstr ""
+msgstr "Lewenslange aanbiedings"
 
 msgctxt "button"
 msgid "Get started"
-msgstr ""
+msgstr "Begin"
 
 msgid "100+ AI Writer Templates"
-msgstr ""
+msgstr "100+ KI Skrywer Sjablone"
 
 msgid ""
 "Write with remarkable speed, captivate your audience, and bid farewell to "
 "writer\\'s block forever."
-msgstr ""
+msgstr "Skryf met onverwachte spoed, verheer jou publiek en bid goodbye aan skryfwerkblokke ewig."
 
 msgctxt "heading"
 msgid "What can Writing Assistant create for you?"
-msgstr ""
+msgstr "Wat kan die Skryfassistent vir jou skep?"
 
 msgctxt "button"
 msgid "Get Started for Free"
-msgstr ""
+msgstr "Begin Gratis"
 
 msgid "AI Image"
-msgstr ""
+msgstr "KI Beeld"
 
 msgid ""
 "Instantly create stunning images using AI Image Generator – your tool for "
 "artistic innovation."
-msgstr ""
+msgstr "Skep wonderlike beelde met 'n AI-beeldgenerator - jou hulpmiddel vir kunstmatige innovatie."
 
 msgctxt "heading"
 msgid "Visualize what you dream of. Create images from text."
-msgstr ""
+msgstr "Visualiseer wat jy droom. Skep beelde uit teks."
 
 msgctxt "button"
 msgid "Try for free"
-msgstr ""
+msgstr "Probeer gratis"
 
 msgid "Choose a our built in templates or create your own."
-msgstr ""
+msgstr "Kies een van ons ingeboude sjablone of skep jou eie."
 
 msgid ""
 "Enter a few sentences to describe your topic. Add keywords to specify for "
 "your brand."
-msgstr ""
+msgstr "Voer 'n paar sinne in om jou onderwerp te beskryf. Voeg sleutelwoorde by om vir jou merk te spesifiseer."
 
 msgid ""
 "Click the \"Generate\" button and get a variety of high-converting copy "
 "every time."
-msgstr ""
+msgstr "Klik op die \"Genereer\" knop en kry 'n verskeidenheid hoë omvang kopieë elke keer."
 
 msgctxt "heading"
 msgid "How it works"
-msgstr ""
+msgstr "Hoe dit werk"
 
 msgctxt "heading"
 msgid "Choose Template"
-msgstr ""
+msgstr "Kies Sjabloon"
 
 msgctxt "heading"
 msgid "Describe"
-msgstr ""
+msgstr "Beskryf"
 
 msgctxt "heading"
 msgid "Generate"
-msgstr ""
+msgstr "Genereer"
 
 msgid ""
 "Effortlessly generate high-quality AI-driven content tailored to your "
 "needs. Unlock limitless possibilities, save your time and start making "
 "money today!"
-msgstr ""
+msgstr "Genereer eenvoudig hoë kwaliteit AI-gedrewe inhoud aanpasbaar aan jou behoeftes. Ontgryp onbeperkte moontlikhede, bespaar jou tyd en begin met verdien geld vandag!"
 
 msgctxt "heading"
 msgid "Transforming ideas into AI generated masterpieces"
-msgstr ""
+msgstr "Verander idees in KI-gegenereerde meesterwerke"
 
 msgctxt "button"
 msgid "Go to app"
-msgstr ""
+msgstr "Gaan na app"
 
 msgctxt "button"
 msgid "Get started now"
-msgstr ""
+msgstr "Begin nou"
 
 msgctxt "button"
 msgid "Product"
-msgstr ""
+msgstr "Produk"
 
 msgctxt "button"
 msgid "Featured"
-msgstr ""
+msgstr "Uitgelig"
 
 msgctxt "button"
 msgid "Library"
-msgstr ""
+msgstr "Biblioteek"
 
 msgctxt "button"
 msgid "Billing"
-msgstr ""
+msgstr "Faktuur"
 
 msgctxt "button"
 msgid "Account"
-msgstr ""
+msgstr "Rekening"
 
 msgctxt "button"
 msgid "Logout"
-msgstr ""
+msgstr "Teken uit"
 
 msgctxt "button"
 msgid "Login"
-msgstr ""
+msgstr "Teken in"
 
 msgctxt "heading"
 msgid "Meet your ultimate"
-msgstr ""
+msgstr "Ontmoet jou uiteindelike"
 
 msgctxt "heading"
 msgid "AI-Powered Content Platform"
-msgstr ""
+msgstr "KI-Aangedrewe Inhoudplatform"
 
 msgid "All rights reserved."
-msgstr ""
+msgstr "Alle regte voorbehou."
 
 msgctxt "button"
 msgid "FAQ"
-msgstr ""
+msgstr "Vrae en Antwoorde"
 
 msgctxt "button"
 msgid "Terms of services"
-msgstr ""
+msgstr "Diensvoorwaardes"
 
 msgctxt "button"
 msgid "Privacy policy"
-msgstr ""
+msgstr "Privaatheidsbeleid"
 
 msgctxt "button"
 msgid "Refund policy"
-msgstr ""
+msgstr "Terugbetalingsbeleid"
 
 msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
-msgstr ""
+msgstr "Ontwikkel deur gebruik te maak van Domein-Gedrewe Ontwerp en Uie-Argitektuurbeginsels."
 
 msgid ""
 "Built with modern technologies for best structure and get maximum "
 "performance."
-msgstr ""
+msgstr "Gebou met moderne tegnologieë vir die beste struktuur en kry maksimum prestasie."
 
 msgid ""
 "Enjoy a hassle-free and intuitive user interface that enhances your digital "
 "experience."
-msgstr ""
+msgstr "Geniet 'n probleemvrye en intuïtieve gebruikerskoppelvlak wat jou digitale ervaring verbeter."
 
 msgid "Turn off the light and switch to dark mode your interface with one click."
-msgstr ""
+msgstr "Skakel die lig af en skakel jou koppelvlak na donker modus met een klik."
 
 msgid "An all-inclusive learning package seamlessly integrated into our community."
-msgstr ""
+msgstr "’n Alles-omvattende leerpakket naatloos geïntegreer in ons gemeenskap."
 
 msgid "Simplify transactions and boost security with payment gateway solutions."
-msgstr ""
+msgstr "Vereenvoudig transaksies en verhoog sekuriteit met betaalpoortoplossings."
 
 msgid "Unlock limitless creativity with our AI-powered content generator."
-msgstr ""
+msgstr "Ontsluit grensoos kreatiwiteit met ons KI-aangedrewe inhoudgenerator."
 
 msgid ""
 "Boost your visibility and reach your audience effectively with AI generated "
 "content."
-msgstr ""
+msgstr "Verhoog jou sigbaarheid en bereik jou publiek effektief met AI-gedrewe inhoud."
 
 msgid "Empower your insights and control with our cutting-edge dashboard."
-msgstr ""
+msgstr "Bemagtig jou insigte en beheer met ons gevorderde paneelbord."
 
 msgid "Transform your content creation with AI-driven custom templates."
-msgstr ""
+msgstr "Transformeer jou inhoudskepping met KI-gedrewe pasgemaakte sjablone."
 
 msgid "Use Facebook or Google accounts as an alternatively access to platform."
-msgstr ""
+msgstr "Gebruik Facebook- of Google-rekeninge as 'n alternatiewe toegang tot die platform."
 
 msgid ""
 "Our support team is available 24/7 to help you with any questions or "
 "concerns."
-msgstr ""
+msgstr "Ons ondersteuningsteam is 24/7 beskikbaar om jou met enige vrae of bekommerdhede te help."
 
 msgctxt "heading"
 msgid "Coolest Features"
-msgstr ""
+msgstr "Coolste Kenmerke"
 
 msgctxt "heading"
 msgid "High Quality Code"
-msgstr ""
+msgstr "Hoë Kwaliteit Kode"
 
 msgctxt "heading"
 msgid "Modern Technologies"
-msgstr ""
+msgstr "Moderne Tegnologieë"
 
 msgctxt "heading"
 msgid "Friendly UI and UX"
-msgstr ""
+msgstr "Vriendelike UI en UX"
 
 msgctxt "heading"
 msgid "Dark Mode"
-msgstr ""
+msgstr "Donker Modus"
 
 msgctxt "heading"
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentasie"
 
 msgctxt "heading"
 msgid "Payment Gateways"
-msgstr ""
+msgstr "Betalingshekke"
 
 msgctxt "heading"
 msgid "AI Generator"
-msgstr ""
+msgstr "KI Generator"
 
 msgctxt "heading"
 msgid "SEO Friendly"
-msgstr ""
+msgstr "SEO Vriendelik"
 
 msgctxt "heading"
 msgid "Advanced Dashboard"
-msgstr ""
+msgstr "Gevorderde Dashbord"
 
 msgctxt "heading"
 msgid "Custom Templates"
-msgstr ""
+msgstr "Pasgemaakte Sjablone"
 
 msgctxt "heading"
 msgid "Login via SM Accounts"
-msgstr ""
+msgstr "Teken in via SM Rekeninge"
 
 msgctxt "heading"
 msgid "High Quality Support"
-msgstr ""
+msgstr "Hoë Kwaliteit Ondersteuning"
 
 msgid "See how easy it can be to write amazing content."
-msgstr ""
+msgstr "Sien hoe maklik dit kan wees om wonderlike inhoud te skryf."
 
 msgctxt "heading"
 msgid "Ready to level-up?"
-msgstr ""
+msgstr "Gereed om op te gradeer?"
 
 msgctxt "button"
 msgid "Get Started Now"
-msgstr ""
+msgstr "Begin Nou"
 
 msgid "AI Code"
-msgstr ""
+msgstr "KI-kode"
 
 msgid ""
 "Effortless coding with AI Code Generator: Instant solutions for your "
 "programming needs."
-msgstr ""
+msgstr "Genereer eenvoudig hoë kwaliteit AI-gedrewe inhoud aanpasbaar aan jou behoeftes. Ontgryp onbeperkte moontlikhede, bespaar jou tyd en begin met verdien geld vandag!"
 
 msgctxt "heading"
 msgid "Ready to write code at the speed of light?"
-msgstr ""
+msgstr "Gereed om kode te skryf teen die spoed van lig?"
 
 msgctxt "button"
 msgid "Start Generate Code"
-msgstr ""
+msgstr "Begin om kode te genereer"
 
 msgid "AI Chat Bot"
-msgstr ""
+msgstr "KI-kletsbot"
 
 msgid ""
 "Simply choose your asistant and engage with a friendly chatbot to generate "
 "ideas, enhance your content, or even bring a smile to your face."
-msgstr ""
+msgstr "Skep eenvoudig jou asistent en engageer met 'n vriendelike kletsbot om idees te genereer, jou inhoud te verbeter of selfs 'n glimlag na jou wenkmerk te bring."
 
 msgctxt "heading"
 msgid "That\\'s remarkably human-like and engaging..."
-msgstr ""
+msgstr "Dit is merkwaardig menslik en boeiend..."
 
 msgctxt "button"
 msgid "Try now"
-msgstr ""
+msgstr "Probeer nou"
 
 msgid "Unlimited"
-msgstr ""
+msgstr "Onbeperk"

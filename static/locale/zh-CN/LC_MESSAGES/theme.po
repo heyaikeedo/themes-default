@@ -11,392 +11,392 @@ msgstr ""
 "X-Domain: theme\n"
 
 msgid "AI Writer"
-msgstr ""
+msgstr "AI 写作助手"
 
 msgid ""
 "Achieve superior outcomes in a fraction of the time. At last, a writing "
 "tool that you'll genuinely utilize."
-msgstr ""
+msgstr "在短时间内实现卓越成果。终于，一个你真正会使用的写作工具。"
 
 msgctxt "heading"
 msgid "Write SEO optimized blogs, sales emails and more..."
-msgstr ""
+msgstr "撰写SEO优化博客、销售邮件等..."
 
 msgctxt "button"
 msgid "See all features"
-msgstr ""
+msgstr "查看所有功能"
 
 msgid "Text to Voice"
-msgstr ""
+msgstr "文字转语音"
 
 msgid ""
 "Elevate Your Content with Expressive Narration: Discover Text-to-Voice "
 "Excellence."
-msgstr ""
+msgstr "通过富有表现力的叙述提升您的内容：发现文本转语音的卓越之处。"
 
 msgctxt "heading"
 msgid "Convert your texts into <br> Lifelike Speech"
-msgstr ""
+msgstr "将您的文本转换为<br>逼真的语音"
 
 msgid "Speech to Text"
-msgstr ""
+msgstr "语音转文字"
 
 msgid ""
 "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and "
 "Accessibility."
-msgstr ""
+msgstr "即时转录口语为文本，以增强生产力和可访问性。"
 
 msgctxt "heading"
 msgid "Transforming Spoken <br> Words into Text."
-msgstr ""
+msgstr "将口语<br>转换为文字。"
 
 msgctxt "button"
 msgid "Convert now"
-msgstr ""
+msgstr "立即转换"
 
 msgid ":count credits"
-msgstr ""
+msgstr ":count 积分"
 
 msgid ""
 "Discover the perfect plan to suit your needs and unlock a world of "
 "possibilities."
-msgstr ""
+msgstr "发现适合您需求的完美计划，并解锁无限可能。"
 
 msgid "Most Popular"
-msgstr ""
+msgstr "最受欢迎"
 
 msgid "Chat"
-msgstr ""
+msgstr "聊天"
 
 msgid "Writer"
-msgstr ""
+msgstr "写作助手"
 
 msgid "Coding Assistant"
-msgstr ""
+msgstr "编码助手"
 
 msgid "Image generator"
-msgstr ""
+msgstr "图像生成器"
 
 msgid "Transcriber"
-msgstr ""
+msgstr "转录器"
 
 msgid "Voiceover"
-msgstr ""
+msgstr "配音"
 
 msgid "Voice isolator"
-msgstr ""
+msgstr "声音隔离器"
 
 msgid "Classifier"
-msgstr ""
+msgstr "分类器"
 
 msgid "Access to templates is disabled"
-msgstr ""
+msgstr "模板访问已禁用"
 
 msgid "Access to all templates"
-msgstr ""
+msgstr "访问所有模板"
 
 msgid "Priority support"
-msgstr ""
+msgstr "优先支持"
 
 msgid "Basic support"
-msgstr ""
+msgstr "基础支持"
 
 msgctxt "button"
 msgid "Pricing"
-msgstr ""
+msgstr "定价"
 
 msgctxt "button"
 msgid "Monthly"
-msgstr ""
+msgstr "每月"
 
 msgctxt "button"
 msgid "Yearly"
-msgstr ""
+msgstr "每年"
 
 msgctxt "button"
 msgid "Packs"
-msgstr ""
+msgstr "套餐"
 
 msgctxt "button"
 msgid "Lifetime Deals"
-msgstr ""
+msgstr "终身优惠"
 
 msgctxt "button"
 msgid "Get started"
-msgstr ""
+msgstr "开始使用"
 
 msgid "100+ AI Writer Templates"
-msgstr ""
+msgstr "100+ AI写作模板"
 
 msgid ""
 "Write with remarkable speed, captivate your audience, and bid farewell to "
 "writer\\'s block forever."
-msgstr ""
+msgstr "以惊人的速度写作，吸引您的受众，并永远告别写作障碍。"
 
 msgctxt "heading"
 msgid "What can Writing Assistant create for you?"
-msgstr ""
+msgstr "写作助手能为您创作什么？"
 
 msgctxt "button"
 msgid "Get Started for Free"
-msgstr ""
+msgstr "免费开始"
 
 msgid "AI Image"
-msgstr ""
+msgstr "AI 图像"
 
 msgid ""
 "Instantly create stunning images using AI Image Generator – your tool for "
 "artistic innovation."
-msgstr ""
+msgstr "立即使用 AI 图像生成器创建令人惊叹的图像 - 您的艺术创新工具。"
 
 msgctxt "heading"
 msgid "Visualize what you dream of. Create images from text."
-msgstr ""
+msgstr "将你的梦想可视化。从文本创建图像。"
 
 msgctxt "button"
 msgid "Try for free"
-msgstr ""
+msgstr "免费试用"
 
 msgid "Choose a our built in templates or create your own."
-msgstr ""
+msgstr "选择我们内置的模板或创建你自己的。"
 
 msgid ""
 "Enter a few sentences to describe your topic. Add keywords to specify for "
 "your brand."
-msgstr ""
+msgstr "输入几句话来描述您的主题。添加关键词以指定您的品牌。"
 
 msgid ""
 "Click the \"Generate\" button and get a variety of high-converting copy "
 "every time."
-msgstr ""
+msgstr "点击“生成”按钮，每次获得多种高转换率的副本。"
 
 msgctxt "heading"
 msgid "How it works"
-msgstr ""
+msgstr "工作原理"
 
 msgctxt "heading"
 msgid "Choose Template"
-msgstr ""
+msgstr "选择模板"
 
 msgctxt "heading"
 msgid "Describe"
-msgstr ""
+msgstr "描述"
 
 msgctxt "heading"
 msgid "Generate"
-msgstr ""
+msgstr "生成"
 
 msgid ""
 "Effortlessly generate high-quality AI-driven content tailored to your "
 "needs. Unlock limitless possibilities, save your time and start making "
 "money today!"
-msgstr ""
+msgstr "轻松生成高质量的 AI 驱动内容，满足您的需求。解锁无限可能，节省时间，今天就赚钱！"
 
 msgctxt "heading"
 msgid "Transforming ideas into AI generated masterpieces"
-msgstr ""
+msgstr "将创意转化为 AI 生成的杰作"
 
 msgctxt "button"
 msgid "Go to app"
-msgstr ""
+msgstr "前往应用"
 
 msgctxt "button"
 msgid "Get started now"
-msgstr ""
+msgstr "立即开始"
 
 msgctxt "button"
 msgid "Product"
-msgstr ""
+msgstr "产品"
 
 msgctxt "button"
 msgid "Featured"
-msgstr ""
+msgstr "精选"
 
 msgctxt "button"
 msgid "Library"
-msgstr ""
+msgstr "库"
 
 msgctxt "button"
 msgid "Billing"
-msgstr ""
+msgstr "账单"
 
 msgctxt "button"
 msgid "Account"
-msgstr ""
+msgstr "账户"
 
 msgctxt "button"
 msgid "Logout"
-msgstr ""
+msgstr "登出"
 
 msgctxt "button"
 msgid "Login"
-msgstr ""
+msgstr "登录"
 
 msgctxt "heading"
 msgid "Meet your ultimate"
-msgstr ""
+msgstr "遇见你的终极"
 
 msgctxt "heading"
 msgid "AI-Powered Content Platform"
-msgstr ""
+msgstr "AI驱动的内容平台"
 
 msgid "All rights reserved."
-msgstr ""
+msgstr "版权所有。"
 
 msgctxt "button"
 msgid "FAQ"
-msgstr ""
+msgstr "常见问题"
 
 msgctxt "button"
 msgid "Terms of services"
-msgstr ""
+msgstr "服务条款"
 
 msgctxt "button"
 msgid "Privacy policy"
-msgstr ""
+msgstr "隐私政策"
 
 msgctxt "button"
 msgid "Refund policy"
-msgstr ""
+msgstr "退款政策"
 
 msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
-msgstr ""
+msgstr "基于领域驱动设计和洋葱架构原则开发。"
 
 msgid ""
 "Built with modern technologies for best structure and get maximum "
 "performance."
-msgstr ""
+msgstr "使用现代技术构建最佳结构并获得最大性能。"
 
 msgid ""
 "Enjoy a hassle-free and intuitive user interface that enhances your digital "
 "experience."
-msgstr ""
+msgstr "享受无忧无虑且直观的用户界面，提升您的数字体验。"
 
 msgid "Turn off the light and switch to dark mode your interface with one click."
-msgstr ""
+msgstr "一键关闭灯光，切换到暗模式界面。"
 
 msgid "An all-inclusive learning package seamlessly integrated into our community."
-msgstr ""
+msgstr "无缝集成到我们社区的全方位学习套餐。"
 
 msgid "Simplify transactions and boost security with payment gateway solutions."
-msgstr ""
+msgstr "简化交易并通过支付网关解决方案提升安全性。"
 
 msgid "Unlock limitless creativity with our AI-powered content generator."
-msgstr ""
+msgstr "通过我们的 AI 驱动内容生成器释放无限创意。"
 
 msgid ""
 "Boost your visibility and reach your audience effectively with AI generated "
 "content."
-msgstr ""
+msgstr "通过 AI 生成的内容提高您的可见性和有效吸引您的受众。"
 
 msgid "Empower your insights and control with our cutting-edge dashboard."
-msgstr ""
+msgstr "通过我们先进的仪表板增强您的洞察力和控制力。"
 
 msgid "Transform your content creation with AI-driven custom templates."
-msgstr ""
+msgstr "使用 AI 驱动的自定义模板，改变您的内容创作方式。"
 
 msgid "Use Facebook or Google accounts as an alternatively access to platform."
-msgstr ""
+msgstr "使用 Facebook 或 Google 账户作为平台的替代访问方式。"
 
 msgid ""
 "Our support team is available 24/7 to help you with any questions or "
 "concerns."
-msgstr ""
+msgstr "我们的支持团队随时为您提供帮助，解答任何问题或疑虑。"
 
 msgctxt "heading"
 msgid "Coolest Features"
-msgstr ""
+msgstr "最酷的功能"
 
 msgctxt "heading"
 msgid "High Quality Code"
-msgstr ""
+msgstr "高质量代码"
 
 msgctxt "heading"
 msgid "Modern Technologies"
-msgstr ""
+msgstr "现代技术"
 
 msgctxt "heading"
 msgid "Friendly UI and UX"
-msgstr ""
+msgstr "友好的用户界面和用户体验"
 
 msgctxt "heading"
 msgid "Dark Mode"
-msgstr ""
+msgstr "暗黑模式"
 
 msgctxt "heading"
 msgid "Documentation"
-msgstr ""
+msgstr "文档"
 
 msgctxt "heading"
 msgid "Payment Gateways"
-msgstr ""
+msgstr "支付网关"
 
 msgctxt "heading"
 msgid "AI Generator"
-msgstr ""
+msgstr "人工智能生成器"
 
 msgctxt "heading"
 msgid "SEO Friendly"
-msgstr ""
+msgstr "SEO 友好"
 
 msgctxt "heading"
 msgid "Advanced Dashboard"
-msgstr ""
+msgstr "高级仪表盘"
 
 msgctxt "heading"
 msgid "Custom Templates"
-msgstr ""
+msgstr "自定义模板"
 
 msgctxt "heading"
 msgid "Login via SM Accounts"
-msgstr ""
+msgstr "通过社交媒体账户登录"
 
 msgctxt "heading"
 msgid "High Quality Support"
-msgstr ""
+msgstr "高质量支持"
 
 msgid "See how easy it can be to write amazing content."
-msgstr ""
+msgstr "看看写出惊人内容有多简单。"
 
 msgctxt "heading"
 msgid "Ready to level-up?"
-msgstr ""
+msgstr "准备好升级了吗？"
 
 msgctxt "button"
 msgid "Get Started Now"
-msgstr ""
+msgstr "立即开始"
 
 msgid "AI Code"
-msgstr ""
+msgstr "AI 代码"
 
 msgid ""
 "Effortless coding with AI Code Generator: Instant solutions for your "
 "programming needs."
-msgstr ""
+msgstr "轻松编码与 AI 代码生成器：即时解决您的编程需求。"
 
 msgctxt "heading"
 msgid "Ready to write code at the speed of light?"
-msgstr ""
+msgstr "准备以光速编写代码吗？"
 
 msgctxt "button"
 msgid "Start Generate Code"
-msgstr ""
+msgstr "开始生成代码"
 
 msgid "AI Chat Bot"
-msgstr ""
+msgstr "AI 聊天机器人"
 
 msgid ""
 "Simply choose your asistant and engage with a friendly chatbot to generate "
 "ideas, enhance your content, or even bring a smile to your face."
-msgstr ""
+msgstr "只需选择您的助手并与友好的聊天机器人互动，即可生成想法、增强您的内容或甚至带来微笑。"
 
 msgctxt "heading"
 msgid "That\\'s remarkably human-like and engaging..."
-msgstr ""
+msgstr "那真是非常像人类且引人入胜……"
 
 msgctxt "button"
 msgid "Try now"
-msgstr ""
+msgstr "立即尝试"
 
 msgid "Unlimited"
-msgstr ""
+msgstr "无限"
