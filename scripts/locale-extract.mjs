@@ -49,13 +49,64 @@ const GETTEXT_PATTERNS = [
     }
 ];
 
+// Function to create a unique key for translations (considering context)
+function getTranslationKey(msgid, msgctxt) {
+    return msgctxt ? `${msgctxt}\x04${msgid}` : msgid;
+}
+
+// Function to load existing translations from PO file
+function loadExistingTranslations(poFilePath) {
+    const existingTranslations = new Map();
+
+    if (fs.existsSync(poFilePath)) {
+        try {
+            const poContent = fs.readFileSync(poFilePath);
+            const parsed = gettextParser.po.parse(poContent);
+
+            // Extract translations from all contexts in the parsed PO file
+            for (const [contextKey, translations] of Object.entries(parsed.translations)) {
+                for (const [translationKey, translation] of Object.entries(translations)) {
+                    // Skip the empty key (headers)
+                    if (translationKey === '') continue;
+
+                    // For contextual translations, the contextKey is the context, 
+                    // and translationKey is the msgid
+                    let msgid, msgctxt;
+
+                    if (contextKey === '') {
+                        // Non-contextual translation
+                        msgid = translation.msgid || translationKey;
+                        msgctxt = translation.msgctxt;
+                    } else {
+                        // Contextual translation - context is in the contextKey
+                        msgid = translation.msgid || translationKey;
+                        msgctxt = contextKey;
+                    }
+
+                    const finalKey = getTranslationKey(msgid, msgctxt);
+                    existingTranslations.set(finalKey, {
+                        msgid: msgid,
+                        msgstr: translation.msgstr || [''],
+                        msgidPlural: translation.msgid_plural,
+                        msgctxt: msgctxt
+                    });
+                }
+            }
+        } catch (error) {
+            console.warn(`Warning: Could not parse existing PO file ${poFilePath}:`, error.message);
+        }
+    }
+
+    return existingTranslations;
+}
+
 async function main() {
     // Read from project root instead of scripts directory
     const locales = JSON.parse(fs.readFileSync(path.join(projectRoot, 'locale.json'), 'utf8'));
     const files = globSync('{static,src}/**/*.{js,ts,jsx,tsx,twig}');
 
-    // Extract translations
-    const translations = new Map();
+    // Extract translations from source code
+    const sourceTranslations = new Map();
 
     for (const file of files) {
         const content = fs.readFileSync(file, 'utf8');
@@ -64,11 +115,10 @@ async function main() {
             const matches = content.matchAll(pattern);
             for (const match of matches) {
                 const { msgid, msgidPlural, msgctxt } = handler(match);
+                const translationKey = getTranslationKey(msgid, msgctxt);
 
-                // Use msgid as key for uniqueness
-                translations.set(msgid, {
+                sourceTranslations.set(translationKey, {
                     msgid,
-                    msgstr: [''], // Will be adjusted based on nplurals
                     msgidPlural: msgidPlural || undefined,
                     msgctxt: msgctxt || undefined
                 });
@@ -82,16 +132,44 @@ async function main() {
         const npluralsMatch = locale.pluralForms.match(/nplurals=(\d+)/);
         const nplurals = npluralsMatch ? parseInt(npluralsMatch[1]) : 2;
 
-        // Create translations object with correct number of empty strings for plurals
-        const localeTranslations = new Map(
-            Array.from(translations).map(([key, value]) => {
-                const msgstrCount = value.msgidPlural ? nplurals : 1;
-                return [key, {
-                    ...value,
-                    msgstr: Array(msgstrCount).fill('')
-                }];
-            })
-        );
+        // Load existing translations for this locale
+        const poFilePath = path.join('static', 'locale', locale.code, 'LC_MESSAGES', 'theme.po');
+        const existingTranslations = loadExistingTranslations(poFilePath);
+
+        // Create final translations map
+        const finalTranslations = new Map();
+
+        // Process all source translations
+        for (const [translationKey, sourceTranslation] of sourceTranslations) {
+            const existing = existingTranslations.get(translationKey);
+
+            // Determine the correct number of msgstr entries
+            const msgstrCount = sourceTranslation.msgidPlural ? nplurals : 1;
+
+            let msgstr;
+            if (existing && existing.msgstr && existing.msgstr.length > 0 && existing.msgstr[0] !== '') {
+                // Preserve existing translation, but adjust array length if needed
+                msgstr = existing.msgstr.slice(); // Copy array
+
+                // Adjust length if needed (for plurals)
+                while (msgstr.length < msgstrCount) {
+                    msgstr.push('');
+                }
+                if (msgstr.length > msgstrCount) {
+                    msgstr = msgstr.slice(0, msgstrCount);
+                }
+            } else {
+                // New translation or empty existing - create empty msgstr array
+                msgstr = Array(msgstrCount).fill('');
+            }
+
+            finalTranslations.set(translationKey, {
+                msgid: sourceTranslation.msgid,
+                msgstr: msgstr,
+                msgidPlural: sourceTranslation.msgidPlural,
+                msgctxt: sourceTranslation.msgctxt
+            });
+        }
 
         const poData = {
             headers: {
@@ -108,7 +186,7 @@ async function main() {
                 'X-Domain': 'theme'
             },
             translations: {
-                '': Object.fromEntries(localeTranslations)
+                '': Object.fromEntries(finalTranslations)
             }
         };
 
@@ -116,9 +194,11 @@ async function main() {
         const outputDir = path.join('static', 'locale', locale.code, 'LC_MESSAGES');
         fs.mkdirSync(outputDir, { recursive: true });
 
-        // Write PO file
-        const output = gettextParser.po.compile(poData);
+        // Write PO file with no line wrapping
+        const output = gettextParser.po.compile(poData, { foldLength: 0 });
         fs.writeFileSync(path.join(outputDir, 'theme.po'), output);
+
+        console.log(`Updated ${locale.code}: ${finalTranslations.size} translations (${existingTranslations.size} existing preserved)`);
     }
 }
 
