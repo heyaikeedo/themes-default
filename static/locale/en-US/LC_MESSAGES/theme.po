@@ -13,9 +13,7 @@ msgstr ""
 msgid "AI Writer"
 msgstr ""
 
-msgid ""
-"Achieve superior outcomes in a fraction of the time. At last, a writing "
-"tool that you'll genuinely utilize."
+msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
 msgstr ""
 
 msgctxt "heading"
@@ -26,12 +24,24 @@ msgctxt "button"
 msgid "See all features"
 msgstr ""
 
+msgid "Video"
+msgstr ""
+
+msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
+msgstr ""
+
+msgctxt "heading"
+msgid "Generate high-quality videos using AI Video generation tool."
+msgstr ""
+
+msgctxt "button"
+msgid "Try now"
+msgstr ""
+
 msgid "Text to Voice"
 msgstr ""
 
-msgid ""
-"Elevate Your Content with Expressive Narration: Discover Text-to-Voice "
-"Excellence."
+msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
 msgstr ""
 
 msgctxt "heading"
@@ -41,9 +51,7 @@ msgstr ""
 msgid "Speech to Text"
 msgstr ""
 
-msgid ""
-"Instantly Transcribe Spoken Words into Text for Enhanced Productivity and "
-"Accessibility."
+msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
 msgstr ""
 
 msgctxt "heading"
@@ -57,9 +65,7 @@ msgstr ""
 msgid ":count credits"
 msgstr ""
 
-msgid ""
-"Discover the perfect plan to suit your needs and unlock a world of "
-"possibilities."
+msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
 msgstr ""
 
 msgid "Most Popular"
@@ -101,7 +107,7 @@ msgstr ""
 msgid "Basic support"
 msgstr ""
 
-msgctxt "button"
+msgctxt "heading"
 msgid "Pricing"
 msgstr ""
 
@@ -128,9 +134,7 @@ msgstr ""
 msgid "100+ AI Writer Templates"
 msgstr ""
 
-msgid ""
-"Write with remarkable speed, captivate your audience, and bid farewell to "
-"writer\\'s block forever."
+msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer\\'s block forever."
 msgstr ""
 
 msgctxt "heading"
@@ -144,9 +148,7 @@ msgstr ""
 msgid "AI Image"
 msgstr ""
 
-msgid ""
-"Instantly create stunning images using AI Image Generator – your tool for "
-"artistic innovation."
+msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
 msgstr ""
 
 msgctxt "heading"
@@ -160,14 +162,10 @@ msgstr ""
 msgid "Choose a our built in templates or create your own."
 msgstr ""
 
-msgid ""
-"Enter a few sentences to describe your topic. Add keywords to specify for "
-"your brand."
+msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
 msgstr ""
 
-msgid ""
-"Click the \"Generate\" button and get a variety of high-converting copy "
-"every time."
+msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
 msgstr ""
 
 msgctxt "heading"
@@ -186,10 +184,7 @@ msgctxt "heading"
 msgid "Generate"
 msgstr ""
 
-msgid ""
-"Effortlessly generate high-quality AI-driven content tailored to your "
-"needs. Unlock limitless possibilities, save your time and start making "
-"money today!"
+msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
 msgstr ""
 
 msgctxt "heading"
@@ -210,6 +205,10 @@ msgstr ""
 
 msgctxt "button"
 msgid "Featured"
+msgstr ""
+
+msgctxt "button"
+msgid "Pricing"
 msgstr ""
 
 msgctxt "button"
@@ -262,14 +261,10 @@ msgstr ""
 msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
 msgstr ""
 
-msgid ""
-"Built with modern technologies for best structure and get maximum "
-"performance."
+msgid "Built with modern technologies for best structure and get maximum performance."
 msgstr ""
 
-msgid ""
-"Enjoy a hassle-free and intuitive user interface that enhances your digital "
-"experience."
+msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
 msgstr ""
 
 msgid "Turn off the light and switch to dark mode your interface with one click."
@@ -284,9 +279,7 @@ msgstr ""
 msgid "Unlock limitless creativity with our AI-powered content generator."
 msgstr ""
 
-msgid ""
-"Boost your visibility and reach your audience effectively with AI generated "
-"content."
+msgid "Boost your visibility and reach your audience effectively with AI generated content."
 msgstr ""
 
 msgid "Empower your insights and control with our cutting-edge dashboard."
@@ -298,9 +291,7 @@ msgstr ""
 msgid "Use Facebook or Google accounts as an alternatively access to platform."
 msgstr ""
 
-msgid ""
-"Our support team is available 24/7 to help you with any questions or "
-"concerns."
+msgid "Our support team is available 24/7 to help you with any questions or concerns."
 msgstr ""
 
 msgctxt "heading"
@@ -369,9 +360,7 @@ msgstr ""
 msgid "AI Code"
 msgstr ""
 
-msgid ""
-"Effortless coding with AI Code Generator: Instant solutions for your "
-"programming needs."
+msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
 msgstr ""
 
 msgctxt "heading"
@@ -385,17 +374,11 @@ msgstr ""
 msgid "AI Chat Bot"
 msgstr ""
 
-msgid ""
-"Simply choose your asistant and engage with a friendly chatbot to generate "
-"ideas, enhance your content, or even bring a smile to your face."
+msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
 msgstr ""
 
 msgctxt "heading"
 msgid "That\\'s remarkably human-like and engaging..."
-msgstr ""
-
-msgctxt "button"
-msgid "Try now"
 msgstr ""
 
 msgid "Unlimited"

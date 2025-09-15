@@ -13,9 +13,7 @@ msgstr ""
 msgid "AI Writer"
 msgstr "Yapay Zeka Yazarı"
 
-msgid ""
-"Achieve superior outcomes in a fraction of the time. At last, a writing "
-"tool that you'll genuinely utilize."
+msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
 msgstr "Üstün sonuçları bir kısım zamanda elde edin. Sonunda, gerçekten kullanacağınız bir yazma aracı."
 
 msgctxt "heading"
@@ -26,12 +24,24 @@ msgctxt "button"
 msgid "See all features"
 msgstr "Tüm özellikleri gör"
 
+msgid "Video"
+msgstr ""
+
+msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
+msgstr ""
+
+msgctxt "heading"
+msgid "Generate high-quality videos using AI Video generation tool."
+msgstr ""
+
+msgctxt "button"
+msgid "Try now"
+msgstr "Şimdi dene"
+
 msgid "Text to Voice"
 msgstr "Metinden Sese"
 
-msgid ""
-"Elevate Your Content with Expressive Narration: Discover Text-to-Voice "
-"Excellence."
+msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
 msgstr "İçeriklerinizi ifade edici anlatımla yükseltin: Metinden Sese Mükemmeliğini Keşfedin."
 
 msgctxt "heading"
@@ -41,9 +51,7 @@ msgstr "Metinlerinizi <br> Gerçekçi Konuşmaya dönüştürün"
 msgid "Speech to Text"
 msgstr "Sesten Metne"
 
-msgid ""
-"Instantly Transcribe Spoken Words into Text for Enhanced Productivity and "
-"Accessibility."
+msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
 msgstr "Hemen Konuşulan Kelimeleri Metne Dönüştürün, Üretkenlik ve Erişilebilirlik Artırın."
 
 msgctxt "heading"
@@ -57,9 +65,7 @@ msgstr "Şimdi dönüştür"
 msgid ":count credits"
 msgstr ":count kredi"
 
-msgid ""
-"Discover the perfect plan to suit your needs and unlock a world of "
-"possibilities."
+msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
 msgstr "İhtiyaçlarınıza uygun mükemmel planı keşfedin ve mümkün olduğunca fazla fırsatı açın."
 
 msgid "Most Popular"
@@ -101,9 +107,9 @@ msgstr "Öncelikli destek"
 msgid "Basic support"
 msgstr "Temel destek"
 
-msgctxt "button"
+msgctxt "heading"
 msgid "Pricing"
-msgstr "Fiyatlandırma"
+msgstr ""
 
 msgctxt "button"
 msgid "Monthly"
@@ -128,9 +134,7 @@ msgstr "Başlayın"
 msgid "100+ AI Writer Templates"
 msgstr "100+ AI Yazı Şablonu"
 
-msgid ""
-"Write with remarkable speed, captivate your audience, and bid farewell to "
-"writer\\'s block forever."
+msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer\\'s block forever."
 msgstr "Harika hızda yazın, seyircinizi çekin ve yazıcı blokunu asla unutun."
 
 msgctxt "heading"
@@ -144,9 +148,7 @@ msgstr "Ücretsiz Başlayın"
 msgid "AI Image"
 msgstr "Yapay Zeka Görseli"
 
-msgid ""
-"Instantly create stunning images using AI Image Generator – your tool for "
-"artistic innovation."
+msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
 msgstr "Harika görseller oluşturmak için AI Görüntü Oluşturucu'yu hemen kullanın - sanatsal yenilik için araç."
 
 msgctxt "heading"
@@ -160,14 +162,10 @@ msgstr "Ücretsiz deneyin"
 msgid "Choose a our built in templates or create your own."
 msgstr "Hazır şablonlarımızdan birini seçin veya kendi şablonunuzu oluşturun."
 
-msgid ""
-"Enter a few sentences to describe your topic. Add keywords to specify for "
-"your brand."
+msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
 msgstr "Konuyu açıklayan birkaç cümle girin. Markanız için belirlemek için anahtar kelimeler ekleyin."
 
-msgid ""
-"Click the \"Generate\" button and get a variety of high-converting copy "
-"every time."
+msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
 msgstr "\"Oluştur\" düğmesine tıklayın ve her seferinde farklı yüksek dönüşüm oranına sahip kopyalar alın."
 
 msgctxt "heading"
@@ -186,10 +184,7 @@ msgctxt "heading"
 msgid "Generate"
 msgstr "Oluştur"
 
-msgid ""
-"Effortlessly generate high-quality AI-driven content tailored to your "
-"needs. Unlock limitless possibilities, save your time and start making "
-"money today!"
+msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
 msgstr "Gereksiz zorluktan kurtulun ve ihtiyaçlarınıza uygun yüksek kaliteli yapay zeka içeriği oluşturun. Sınırsız fırsatları açın, zamanınızı kazanın ve bugün para kazanmaya başlayın!"
 
 msgctxt "heading"
@@ -211,6 +206,10 @@ msgstr "Ürün"
 msgctxt "button"
 msgid "Featured"
 msgstr "Öne çıkanlar"
+
+msgctxt "button"
+msgid "Pricing"
+msgstr "Fiyatlandırma"
 
 msgctxt "button"
 msgid "Library"
@@ -262,14 +261,10 @@ msgstr "İade Politikası"
 msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
 msgstr "Alan Odaklı Tasarım ve Soğan Mimarisi İlkeleri Kullanılarak Geliştirilmiştir."
 
-msgid ""
-"Built with modern technologies for best structure and get maximum "
-"performance."
+msgid "Built with modern technologies for best structure and get maximum performance."
 msgstr "En iyi yapıyı ve maksimum performansı elde etmek için modern teknolojilerle oluşturulmuştur."
 
-msgid ""
-"Enjoy a hassle-free and intuitive user interface that enhances your digital "
-"experience."
+msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
 msgstr "Hassas bir kullanıcı arayüzüyle rahat ve sezgisel bir deneyim sunuyoruz."
 
 msgid "Turn off the light and switch to dark mode your interface with one click."
@@ -284,9 +279,7 @@ msgstr "Ödeme geçidi çözümleri ile işlemleri basitleştirin ve güvenliği
 msgid "Unlock limitless creativity with our AI-powered content generator."
 msgstr "Yapay zeka destekli içerik oluşturucumuzla sınırsız yaratıcılığın kilidini açın."
 
-msgid ""
-"Boost your visibility and reach your audience effectively with AI generated "
-"content."
+msgid "Boost your visibility and reach your audience effectively with AI generated content."
 msgstr "Yapay zeka destekli içeriklerle görünürlüğünüzü artırın ve sektörünüzdeki hedef kitlenize etkili bir şekilde ulaşın."
 
 msgid "Empower your insights and control with our cutting-edge dashboard."
@@ -298,9 +291,7 @@ msgstr "Yapay zeka destekli özel şablonlarla içerik oluşturmanızı dönüş
 msgid "Use Facebook or Google accounts as an alternatively access to platform."
 msgstr "Platforma alternatif erişim için Facebook veya Google hesaplarını kullanın."
 
-msgid ""
-"Our support team is available 24/7 to help you with any questions or "
-"concerns."
+msgid "Our support team is available 24/7 to help you with any questions or concerns."
 msgstr "Destek ekibimiz 24/7 mevcut olarak herhangi bir sorunuz veya endişeniz için size yardımcı olmak için burada."
 
 msgctxt "heading"
@@ -369,9 +360,7 @@ msgstr "Hemen Başlayın"
 msgid "AI Code"
 msgstr "Yapay Zeka Kodu"
 
-msgid ""
-"Effortless coding with AI Code Generator: Instant solutions for your "
-"programming needs."
+msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
 msgstr "Yapay zeka kod oluşturucu ile kolayca kod yazın: Programlama ihtiyaçlarınız için anında çözümler."
 
 msgctxt "heading"
@@ -385,18 +374,12 @@ msgstr "Kod Üretmeye Başla"
 msgid "AI Chat Bot"
 msgstr "Yapay Zeka Sohbet Botu"
 
-msgid ""
-"Simply choose your asistant and engage with a friendly chatbot to generate "
-"ideas, enhance your content, or even bring a smile to your face."
+msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
 msgstr "Sadece asistanınızı seçin ve dost bir sohbet botu ile birlikte etkileşime geçin, fikirler oluşturun, içeriklerinizi geliştirin ve hatta yüzünüze gülüş getirin."
 
 msgctxt "heading"
 msgid "That\\'s remarkably human-like and engaging..."
 msgstr "Bu inanılmaz derecede insana benziyor ve etkileyici..."
-
-msgctxt "button"
-msgid "Try now"
-msgstr "Şimdi dene"
 
 msgid "Unlimited"
 msgstr "Sınırsız"

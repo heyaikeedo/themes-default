@@ -7,16 +7,13 @@ msgstr ""
 "Language-Team: \n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n==2 ? 1 : n>10 && n%10==0 ? 2 "
-": 3);\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n==2 ? 1 : n>10 && n%10==0 ? 2 : 3);\n"
 "X-Domain: theme\n"
 
 msgid "AI Writer"
 msgstr "כותב בינה מלאכותית"
 
-msgid ""
-"Achieve superior outcomes in a fraction of the time. At last, a writing "
-"tool that you'll genuinely utilize."
+msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
 msgstr "הגיעו לתוצאות מעליות בזמן קצר. לבסוף, כלי כתיבה שאתם באמת תשתמשו בו."
 
 msgctxt "heading"
@@ -27,12 +24,24 @@ msgctxt "button"
 msgid "See all features"
 msgstr "ראה את כל התכונות"
 
+msgid "Video"
+msgstr ""
+
+msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
+msgstr ""
+
+msgctxt "heading"
+msgid "Generate high-quality videos using AI Video generation tool."
+msgstr ""
+
+msgctxt "button"
+msgid "Try now"
+msgstr "נסה עכשיו"
+
 msgid "Text to Voice"
 msgstr "טקסט לדיבור"
 
-msgid ""
-"Elevate Your Content with Expressive Narration: Discover Text-to-Voice "
-"Excellence."
+msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
 msgstr "העלו את תוכן הפרוייקט שלכם עם דיבור מעורר: גלו את הכישור של טקסט לדיבור."
 
 msgctxt "heading"
@@ -42,9 +51,7 @@ msgstr "המר את הטקסטים שלך ל-<br> דיבור טבעי"
 msgid "Speech to Text"
 msgstr "דיבור לטקסט"
 
-msgid ""
-"Instantly Transcribe Spoken Words into Text for Enhanced Productivity and "
-"Accessibility."
+msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
 msgstr "ממלא מילים מדוברות בטקסט במהירות ובצורה משתמשת בפרימיטיבים של המשתמש. מגביר יעילות וגמישות."
 
 msgctxt "heading"
@@ -58,9 +65,7 @@ msgstr "המר עכשיו"
 msgid ":count credits"
 msgstr ":count קרדיטים"
 
-msgid ""
-"Discover the perfect plan to suit your needs and unlock a world of "
-"possibilities."
+msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
 msgstr "גלו את התכנית המושלמת שתספק את הצרכים שלכם ופריעו לעולם של אפשרויות."
 
 msgid "Most Popular"
@@ -102,9 +107,9 @@ msgstr "תמיכה בעדיפות"
 msgid "Basic support"
 msgstr "תמיכה בסיסית"
 
-msgctxt "button"
+msgctxt "heading"
 msgid "Pricing"
-msgstr "תמחור"
+msgstr ""
 
 msgctxt "button"
 msgid "Monthly"
@@ -129,9 +134,7 @@ msgstr "התחל עכשיו"
 msgid "100+ AI Writer Templates"
 msgstr "100+ תבניות כותב בינה מלאכותית"
 
-msgid ""
-"Write with remarkable speed, captivate your audience, and bid farewell to "
-"writer\\'s block forever."
+msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer\\'s block forever."
 msgstr "כתבו במהירות מדהימת, תפרקו את הקהל שלכם והסירו את חסר הכתיבה לנצח."
 
 msgctxt "heading"
@@ -145,9 +148,7 @@ msgstr "התחל בחינם"
 msgid "AI Image"
 msgstr "תמונה מבוססת בינה מלאכותית"
 
-msgid ""
-"Instantly create stunning images using AI Image Generator – your tool for "
-"artistic innovation."
+msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
 msgstr "צור תמונות מדהימות במהירות באמצעות מחולל התמונות מונע AI - הכלי שלכם ליצירה מקוראית."
 
 msgctxt "heading"
@@ -161,14 +162,10 @@ msgstr "נסה בחינם"
 msgid "Choose a our built in templates or create your own."
 msgstr "בחר תבניות מובנות או צור משלך."
 
-msgid ""
-"Enter a few sentences to describe your topic. Add keywords to specify for "
-"your brand."
+msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
 msgstr "הזן כמה משפטים כדי לתאר את הנושא שלכם. הוסף מילות מפתח כדי לציין עבור המותג שלכם."
 
-msgid ""
-"Click the \"Generate\" button and get a variety of high-converting copy "
-"every time."
+msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
 msgstr "לחץ על כפתור \"צור\" וקבל מגוון מונחים מונעים בכל פעם."
 
 msgctxt "heading"
@@ -187,10 +184,7 @@ msgctxt "heading"
 msgid "Generate"
 msgstr "צור"
 
-msgid ""
-"Effortlessly generate high-quality AI-driven content tailored to your "
-"needs. Unlock limitless possibilities, save your time and start making "
-"money today!"
+msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
 msgstr "צור תוכן באיכות גבוהה מונע על ידי AI שמתאים לצרכים שלך. פריעו לעולם של אפשרויות, שמרו את הזמן שלכם והתחילו להרוויח כספים כעת!"
 
 msgctxt "heading"
@@ -212,6 +206,10 @@ msgstr "מוצר"
 msgctxt "button"
 msgid "Featured"
 msgstr "מומלץ"
+
+msgctxt "button"
+msgid "Pricing"
+msgstr "תמחור"
 
 msgctxt "button"
 msgid "Library"
@@ -263,14 +261,10 @@ msgstr "מדיניות החזרות"
 msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
 msgstr "פותח באמצעות עקרונות עיצוב מונחה תחום ואדריכלות בצל."
 
-msgid ""
-"Built with modern technologies for best structure and get maximum "
-"performance."
+msgid "Built with modern technologies for best structure and get maximum performance."
 msgstr "פותח בטכנולוגיות מודרניות לצורה הטובה ביותר ולהגביר את הביצועים."
 
-msgid ""
-"Enjoy a hassle-free and intuitive user interface that enhances your digital "
-"experience."
+msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
 msgstr "הנאו ממשק משתמש ללא מתישות ומשתמש ידידותי שמשפר את החווית המספרית שלכם."
 
 msgid "Turn off the light and switch to dark mode your interface with one click."
@@ -285,9 +279,7 @@ msgstr "פשט עסקאות והגבר את האבטחה עם פתרונות ש�
 msgid "Unlock limitless creativity with our AI-powered content generator."
 msgstr "שחרר יצירתיות בלתי מוגבלת עם מחולל התוכן המופעל על ידי AI שלנו."
 
-msgid ""
-"Boost your visibility and reach your audience effectively with AI generated "
-"content."
+msgid "Boost your visibility and reach your audience effectively with AI generated content."
 msgstr "הגברו את הזהירות שלכם והגיעו לקהל שלכם בצורה יעילה עם תוכן מונע על ידי AI."
 
 msgid "Empower your insights and control with our cutting-edge dashboard."
@@ -299,9 +291,7 @@ msgstr "הפוך את יצירת התוכן שלך עם תבניות מותאמ�
 msgid "Use Facebook or Google accounts as an alternatively access to platform."
 msgstr "השתמש בחשבונות Facebook או Google כגישה חלופית לפלטפורמה."
 
-msgid ""
-"Our support team is available 24/7 to help you with any questions or "
-"concerns."
+msgid "Our support team is available 24/7 to help you with any questions or concerns."
 msgstr "צוות התמיכה שלנו זמין 24/7 כדי לעזור לכם עם כל שאלה או דיווח."
 
 msgctxt "heading"
@@ -370,9 +360,7 @@ msgstr "התחל עכשיו"
 msgid "AI Code"
 msgstr "קוד בינה מלאכותית"
 
-msgid ""
-"Effortless coding with AI Code Generator: Instant solutions for your "
-"programming needs."
+msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
 msgstr "כתוב קוד בקלות עם מחולל קוד AI: פתרונות מיידיים לצרכי התכנות שלך."
 
 msgctxt "heading"
@@ -386,18 +374,12 @@ msgstr "התחל ליצור קוד"
 msgid "AI Chat Bot"
 msgstr "בוט שיחה בינה מלאכותית"
 
-msgid ""
-"Simply choose your asistant and engage with a friendly chatbot to generate "
-"ideas, enhance your content, or even bring a smile to your face."
+msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
 msgstr "בחרו בקלות את העוזר שלכם והתעסקו עם בוט שיחה ידידותי כדי ליצור רעיונות, לשפר את התוכן שלכם או אפילו להביא קיפוד לפניכם."
 
 msgctxt "heading"
 msgid "That\\'s remarkably human-like and engaging..."
 msgstr "זה מדהים כמה זה דומה לאדם ומרתק..."
-
-msgctxt "button"
-msgid "Try now"
-msgstr "נסה עכשיו"
 
 msgid "Unlimited"
 msgstr "ללא הגבלה"

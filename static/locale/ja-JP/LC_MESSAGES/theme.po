@@ -13,9 +13,7 @@ msgstr ""
 msgid "AI Writer"
 msgstr "AIライター"
 
-msgid ""
-"Achieve superior outcomes in a fraction of the time. At last, a writing "
-"tool that you'll genuinely utilize."
+msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
 msgstr "優れた結果を短い時間で達成しましょう。最後に、本当に使用する書き込みツール。"
 
 msgctxt "heading"
@@ -26,12 +24,24 @@ msgctxt "button"
 msgid "See all features"
 msgstr "すべての機能を見る"
 
+msgid "Video"
+msgstr ""
+
+msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
+msgstr ""
+
+msgctxt "heading"
+msgid "Generate high-quality videos using AI Video generation tool."
+msgstr ""
+
+msgctxt "button"
+msgid "Try now"
+msgstr "今すぐ試す"
+
 msgid "Text to Voice"
 msgstr "テキストから音声へ"
 
-msgid ""
-"Elevate Your Content with Expressive Narration: Discover Text-to-Voice "
-"Excellence."
+msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
 msgstr "表現的な朗読でコンテンツを向上させましょう：テキストから音声の優れた機能を発見しましょう。"
 
 msgctxt "heading"
@@ -41,9 +51,7 @@ msgstr "テキストを<br>リアルな音声に変換"
 msgid "Speech to Text"
 msgstr "音声からテキストへ"
 
-msgid ""
-"Instantly Transcribe Spoken Words into Text for Enhanced Productivity and "
-"Accessibility."
+msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
 msgstr "話された言葉をすぐにテキストに変換して、生産性とアクセシビリティを向上させましょう。"
 
 msgctxt "heading"
@@ -57,9 +65,7 @@ msgstr "今すぐ変換"
 msgid ":count credits"
 msgstr ":count クレジット"
 
-msgid ""
-"Discover the perfect plan to suit your needs and unlock a world of "
-"possibilities."
+msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
 msgstr "あなたのニーズに合わせた完璧なプランを発見し、無限の可能性を解き放ちましょう。"
 
 msgid "Most Popular"
@@ -101,9 +107,9 @@ msgstr "優先サポート"
 msgid "Basic support"
 msgstr "基本サポート"
 
-msgctxt "button"
+msgctxt "heading"
 msgid "Pricing"
-msgstr "価格設定"
+msgstr ""
 
 msgctxt "button"
 msgid "Monthly"
@@ -128,9 +134,7 @@ msgstr "始める"
 msgid "100+ AI Writer Templates"
 msgstr "100以上のAIライターテンプレート"
 
-msgid ""
-"Write with remarkable speed, captivate your audience, and bid farewell to "
-"writer\\'s block forever."
+msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer\\'s block forever."
 msgstr "驚くほど速く書き、聴衆を魅了し、書き手のブロックを永遠に告別しましょう。"
 
 msgctxt "heading"
@@ -144,9 +148,7 @@ msgstr "無料で始める"
 msgid "AI Image"
 msgstr "AI画像"
 
-msgid ""
-"Instantly create stunning images using AI Image Generator – your tool for "
-"artistic innovation."
+msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
 msgstr "AI画像ジェネレーターを使用して、すぐに驚くほど美しい画像を作成しましょう。"
 
 msgctxt "heading"
@@ -160,14 +162,10 @@ msgstr "無料で試す"
 msgid "Choose a our built in templates or create your own."
 msgstr "組み込みのテンプレートを選ぶか、自分で作成してください。"
 
-msgid ""
-"Enter a few sentences to describe your topic. Add keywords to specify for "
-"your brand."
+msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
 msgstr "トピックを説明するいくつかの文を入力してください。ブランドを指定するキーワードを追加してください。"
 
-msgid ""
-"Click the \"Generate\" button and get a variety of high-converting copy "
-"every time."
+msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
 msgstr "「生成」ボタンをクリックすると、高い変換率のコピーを毎回取得できます。"
 
 msgctxt "heading"
@@ -186,10 +184,7 @@ msgctxt "heading"
 msgid "Generate"
 msgstr "生成する"
 
-msgid ""
-"Effortlessly generate high-quality AI-driven content tailored to your "
-"needs. Unlock limitless possibilities, save your time and start making "
-"money today!"
+msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
 msgstr "必要に応じて調整された高品質なAI駆動コンテンツを簡単に生成しましょう。無限の可能性を解き放ち、時間を節約し、今日からお金を稼ぎ始めましょう！"
 
 msgctxt "heading"
@@ -211,6 +206,10 @@ msgstr "製品"
 msgctxt "button"
 msgid "Featured"
 msgstr "注目"
+
+msgctxt "button"
+msgid "Pricing"
+msgstr "価格設定"
 
 msgctxt "button"
 msgid "Library"
@@ -262,14 +261,10 @@ msgstr "返金ポリシー"
 msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
 msgstr "ドメイン駆動設計とオニオンアーキテクチャの原則を用いて開発されました。"
 
-msgid ""
-"Built with modern technologies for best structure and get maximum "
-"performance."
+msgid "Built with modern technologies for best structure and get maximum performance."
 msgstr "最新の技術を使用して、最高の構造を得て最大限のパフォーマンスを発揮します。"
 
-msgid ""
-"Enjoy a hassle-free and intuitive user interface that enhances your digital "
-"experience."
+msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
 msgstr "ハイフラッシュなく、直感的なユーザーインターフェースを楽しんでください。"
 
 msgid "Turn off the light and switch to dark mode your interface with one click."
@@ -284,9 +279,7 @@ msgstr "決済ゲートウェイソリューションで取引を簡素化し、
 msgid "Unlock limitless creativity with our AI-powered content generator."
 msgstr "AI搭載のコンテンツジェネレーターで無限の創造力を解き放ちましょう。"
 
-msgid ""
-"Boost your visibility and reach your audience effectively with AI generated "
-"content."
+msgid "Boost your visibility and reach your audience effectively with AI generated content."
 msgstr "AI生成コンテンツで可視性を高め、効果的に聴衆に届けましょう。"
 
 msgid "Empower your insights and control with our cutting-edge dashboard."
@@ -298,9 +291,7 @@ msgstr "AI駆動のカスタムテンプレートでコンテンツ作成を変�
 msgid "Use Facebook or Google accounts as an alternatively access to platform."
 msgstr "FacebookまたはGoogleアカウントを代替アクセスとして使用できます。"
 
-msgid ""
-"Our support team is available 24/7 to help you with any questions or "
-"concerns."
+msgid "Our support team is available 24/7 to help you with any questions or concerns."
 msgstr "サポートチームは24時間365日、あなたの質問や懸念に対してサポートします。"
 
 msgctxt "heading"
@@ -369,9 +360,7 @@ msgstr "今すぐ始める"
 msgid "AI Code"
 msgstr "AIコード"
 
-msgid ""
-"Effortless coding with AI Code Generator: Instant solutions for your "
-"programming needs."
+msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
 msgstr "AIコードジェネレーターで簡単にコードを書きましょう：プログラミングの必要に応じた即時解決。"
 
 msgctxt "heading"
@@ -385,18 +374,12 @@ msgstr "コード生成を開始"
 msgid "AI Chat Bot"
 msgstr "AIチャットボット"
 
-msgid ""
-"Simply choose your asistant and engage with a friendly chatbot to generate "
-"ideas, enhance your content, or even bring a smile to your face."
+msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
 msgstr "シンプルにあなたのアシスタントを選び、友好的なチャットボットとやり取りして、アイデアを生成し、コンテンツを強化し、あなたの顔に笑顔をもたらしましょう。"
 
 msgctxt "heading"
 msgid "That\\'s remarkably human-like and engaging..."
 msgstr "それは驚くほど人間らしく魅力的です..."
-
-msgctxt "button"
-msgid "Try now"
-msgstr "今すぐ試す"
 
 msgid "Unlimited"
 msgstr "無制限"
