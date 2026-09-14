@@ -141,25 +141,6 @@
           </li>
           {% endif %}
 
-          {% if plan.billing_cycle != 'one-time' and option.features.coder.is_enabled is defined and option.features.coder.is_enabled %}
-          <li
-            class="flex items-center gap-2 font-semibold {{ plan.config.coder.is_enabled ? '' : 'text-tertiary' }}">
-            {% if plan.config.coder.is_enabled %}
-            <i class="text-2xl ti ti-square-rounded-check-filled"></i>
-            {% else %}
-            <i class="text-2xl ti ti-square-rounded-x"></i>
-            {% endif %}
-
-            {{ d__('theme', 'Coding Assistant') }}
-
-            {% if plan.config.coder.is_enabled %}
-            <div
-              class="p-0.5 rounded-lg bg-[#E7FF9B] flex bg-gradient-to-br from-[#E7FF9B] to-[#CFE6FF] font-bold relative text-accent">
-            </div>
-            {% endif %}
-          </li>
-          {% endif %}
-
           {% if plan.billing_cycle != 'one-time' and option.features.imagine.is_enabled is defined and option.features.imagine.is_enabled %}
           <li
             class="flex items-center gap-2 font-semibold {{ plan.config.imagine.is_enabled ? '' : 'text-tertiary' }}">
