@@ -77,9 +77,6 @@ msgstr ""
 msgid "Writer"
 msgstr ""
 
-msgid "Coding Assistant"
-msgstr ""
-
 msgid "Image generator"
 msgstr ""
 

@@ -77,9 +77,6 @@ msgstr "Csevegés"
 msgid "Writer"
 msgstr "Író"
 
-msgid "Coding Assistant"
-msgstr "Kódolási asszisztens"
-
 msgid "Image generator"
 msgstr "Kép generátor"
 

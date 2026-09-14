@@ -77,9 +77,6 @@ msgstr "Conversa"
 msgid "Writer"
 msgstr "Escritor"
 
-msgid "Coding Assistant"
-msgstr "Assistente de Programação"
-
 msgid "Image generator"
 msgstr "Gerador de imagens"
 

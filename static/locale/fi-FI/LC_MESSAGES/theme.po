@@ -77,9 +77,6 @@ msgstr "Keskustelu"
 msgid "Writer"
 msgstr "Kirjoittaja"
 
-msgid "Coding Assistant"
-msgstr "Koodausavustaja"
-
 msgid "Image generator"
 msgstr "Kuvageneraattori"
 

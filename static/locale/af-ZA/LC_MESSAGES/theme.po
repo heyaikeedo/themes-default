@@ -77,9 +77,6 @@ msgstr "Gesels"
 msgid "Writer"
 msgstr "Skrywer"
 
-msgid "Coding Assistant"
-msgstr "Kode-assistent"
-
 msgid "Image generator"
 msgstr "Beeldgenerator"
 

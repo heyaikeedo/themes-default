@@ -77,9 +77,6 @@ msgstr "Chat"
 msgid "Writer"
 msgstr "Spisovatel"
 
-msgid "Coding Assistant"
-msgstr "Asistent pro kódování"
-
 msgid "Image generator"
 msgstr "Generátor obrázků"
 

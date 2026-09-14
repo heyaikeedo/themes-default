@@ -77,9 +77,6 @@ msgstr "צ'אט"
 msgid "Writer"
 msgstr "כותב"
 
-msgid "Coding Assistant"
-msgstr "עוזר קידוד"
-
 msgid "Image generator"
 msgstr "מחולל תמונות"
 

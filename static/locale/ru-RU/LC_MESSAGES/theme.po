@@ -77,9 +77,6 @@ msgstr "Чат"
 msgid "Writer"
 msgstr "Писатель"
 
-msgid "Coding Assistant"
-msgstr "Ассистент по программированию"
-
 msgid "Image generator"
 msgstr "Генератор изображений"
 

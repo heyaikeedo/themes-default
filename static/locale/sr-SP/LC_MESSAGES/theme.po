@@ -77,9 +77,6 @@ msgstr "Ћаскање"
 msgid "Writer"
 msgstr "Писац"
 
-msgid "Coding Assistant"
-msgstr "Помоћник за програмирање"
-
 msgid "Image generator"
 msgstr "Генератор слика"
 

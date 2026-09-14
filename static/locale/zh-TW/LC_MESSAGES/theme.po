@@ -77,9 +77,6 @@ msgstr "聊天"
 msgid "Writer"
 msgstr "寫作助手"
 
-msgid "Coding Assistant"
-msgstr "程式碼助理"
-
 msgid "Image generator"
 msgstr "圖像生成器"
 

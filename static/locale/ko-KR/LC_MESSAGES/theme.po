@@ -77,9 +77,6 @@ msgstr "채팅"
 msgid "Writer"
 msgstr "작가"
 
-msgid "Coding Assistant"
-msgstr "코딩 도우미"
-
 msgid "Image generator"
 msgstr "이미지 생성기"
 

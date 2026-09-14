@@ -77,9 +77,6 @@ msgstr "Συνομιλία"
 msgid "Writer"
 msgstr "Συγγραφέας"
 
-msgid "Coding Assistant"
-msgstr "Βοηθός Προγραμματισμού"
-
 msgid "Image generator"
 msgstr "Δημιουργός εικόνων"
 

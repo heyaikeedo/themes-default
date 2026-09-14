@@ -77,9 +77,6 @@ msgstr "دردشة"
 msgid "Writer"
 msgstr "كاتب"
 
-msgid "Coding Assistant"
-msgstr "مساعد الترميز"
-
 msgid "Image generator"
 msgstr "مولد الصور"
 

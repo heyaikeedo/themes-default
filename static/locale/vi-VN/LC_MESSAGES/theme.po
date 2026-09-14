@@ -77,9 +77,6 @@ msgstr "Trò chuyện"
 msgid "Writer"
 msgstr "Người viết"
 
-msgid "Coding Assistant"
-msgstr "Trợ lý lập trình"
-
 msgid "Image generator"
 msgstr "Trình tạo hình ảnh"
 
