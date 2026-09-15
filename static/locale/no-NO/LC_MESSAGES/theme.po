@@ -1,382 +1,484 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Theme Translations\n"
-"Report-Msgid-Bugs-To: \n"
-"Last-Translator: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Language: no-NO\n"
 "Language-Team: \n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Theme Translations\n"
+"Report-Msgid-Bugs-To: \n"
 "X-Domain: theme\n"
 
-msgid "AI Writer"
-msgstr "AI Skribent"
+#: sections/chat.twig:11
+msgid "AI Chat Bot"
+msgstr "AI Chatbot"
 
-msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
-msgstr "Når som helst, en skriveverktøy som du vil bruke."
-
+#: sections/chat.twig:15
 msgctxt "heading"
-msgid "Write SEO optimized blogs, sales emails and more..."
-msgstr "Skriv SEO-optimaliserte blogger, salgse-poster og mer..."
+msgid "That's remarkably human-like and engaging..."
+msgstr "Det er bemerkelsesverdig menneskelig og engasjerende..."
 
-msgctxt "button"
-msgid "See all features"
-msgstr "Se alle funksjoner"
+#: sections/chat.twig:19
+msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
+msgstr "Velg bare din assistent og engasjer deg med en vennlig chatbot for å generere ideer, forbedre innholdet ditt eller til og med bringe et smil til ansiktet ditt."
 
-msgid "Video"
-msgstr ""
-
-msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
-msgstr ""
-
-msgctxt "heading"
-msgid "Generate high-quality videos using AI Video generation tool."
-msgstr ""
-
+#: sections/chat.twig:24
+#: sections/video.twig:24
 msgctxt "button"
 msgid "Try now"
 msgstr "Prøv nå"
 
-msgid "Text to Voice"
-msgstr "Tekst til Tale"
-
-msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
-msgstr "Forbedre innholdet ditt med uttrykkelig fortelling: Oppdag tekst til tale-eksellens."
-
-msgctxt "heading"
-msgid "Convert your texts into <br> Lifelike Speech"
-msgstr "Konverter tekstene dine til <br> Naturlig tale"
-
-msgid "Speech to Text"
-msgstr "Tale til Tekst"
-
-msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
-msgstr "Oppnår enkelt å overføre talte ord til tekst for økt produktivitet og tilgjengelighet."
-
-msgctxt "heading"
-msgid "Transforming Spoken <br> Words into Text."
-msgstr "Forvandler talte <br> ord til tekst."
-
-msgctxt "button"
-msgid "Convert now"
-msgstr "Konverter nå"
-
-msgid ":count credits"
-msgstr ":count kreditter"
-
-msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
-msgstr "Oppdag det perfekte plan som passer til dine behov og lås opp en verden av muligheter."
-
-msgid "Most Popular"
-msgstr "Mest populær"
-
-msgid "Chat"
-msgstr "Chat"
-
-msgid "Writer"
-msgstr "Skribent"
-
-msgid "Image generator"
-msgstr "Bildegenerator"
-
-msgid "Transcriber"
-msgstr "Transkribent"
-
-msgid "Voiceover"
-msgstr "Stemmeskuespiller"
-
-msgid "Voice isolator"
-msgstr "Stemmeisolator"
-
-msgid "Classifier"
-msgstr "Klassifiserer"
-
-msgid "Access to templates is disabled"
-msgstr "Tilgang til maler er deaktivert"
-
-msgid "Access to all templates"
-msgstr "Tilgang til alle maler"
-
-msgid "Priority support"
-msgstr "Prioritert støtte"
-
-msgid "Basic support"
-msgstr "Grunnleggende støtte"
-
-msgctxt "heading"
-msgid "Pricing"
-msgstr ""
-
-msgctxt "button"
-msgid "Monthly"
-msgstr "Månedlig"
-
-msgctxt "button"
-msgid "Yearly"
-msgstr "Årlig"
-
-msgctxt "button"
-msgid "Packs"
-msgstr "Pakker"
-
-msgctxt "button"
-msgid "Lifetime Deals"
-msgstr "Livstidsavtaler"
-
-msgctxt "button"
-msgid "Get started"
-msgstr "Kom i gang"
-
-msgid "100+ AI Writer Templates"
-msgstr "100+ AI-skrive maler"
-
-msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer\\'s block forever."
-msgstr "Skriv med uforståelig hastighet, fang inn publikum og farvel til skriveblokk for alltid."
-
-msgctxt "heading"
-msgid "What can Writing Assistant create for you?"
-msgstr "Hva kan Skriveassistenten lage for deg?"
-
-msgctxt "button"
-msgid "Get Started for Free"
-msgstr "Kom i gang gratis"
-
-msgid "AI Image"
-msgstr "AI-bilde"
-
-msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
-msgstr "Opprett uforståelige bilder med AI Image Generator - din verktøy for kunstnerisk innovasjon."
-
-msgctxt "heading"
-msgid "Visualize what you dream of. Create images from text."
-msgstr "Visualiser det du drømmer om. Lag bilder fra tekst."
-
-msgctxt "button"
-msgid "Try for free"
-msgstr "Prøv gratis"
-
-msgid "Choose a our built in templates or create your own."
-msgstr "Velg en av våre innebygde maler eller lag din egen."
-
-msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
-msgstr "Skriv noen setninger for å beskrive emnet ditt. Legg til nøkkelord for å spesifisere for merke ditt."
-
-msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
-msgstr "Klikk på \"Generer\"-knappen og få en rekke høykonverteringskopier hver gang."
-
-msgctxt "heading"
-msgid "How it works"
-msgstr "Hvordan det fungerer"
-
-msgctxt "heading"
-msgid "Choose Template"
-msgstr "Velg mal"
-
-msgctxt "heading"
-msgid "Describe"
-msgstr "Beskriv"
-
-msgctxt "heading"
-msgid "Generate"
-msgstr "Generer"
-
-msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
-msgstr "Generer enkelt høy kvalitets AI-drevet innhold som passer til dine behov. Lås opp uendelige muligheter, sparer tid og begynn å tjene penger i dag!"
-
-msgctxt "heading"
-msgid "Transforming ideas into AI generated masterpieces"
-msgstr "Forvandler ideer til AI-genererte mesterverk"
-
-msgctxt "button"
-msgid "Go to app"
-msgstr "Gå til app"
-
-msgctxt "button"
-msgid "Get started now"
-msgstr "Kom i gang nå"
-
-msgctxt "button"
-msgid "Product"
-msgstr "Produkt"
-
-msgctxt "button"
-msgid "Featured"
-msgstr "Utvalgt"
-
-msgctxt "button"
-msgid "Pricing"
-msgstr "Priser"
-
-msgctxt "button"
-msgid "Library"
-msgstr "Bibliotek"
-
-msgctxt "button"
-msgid "Billing"
-msgstr "Fakturering"
-
-msgctxt "button"
-msgid "Account"
-msgstr "Konto"
-
-msgctxt "button"
-msgid "Logout"
-msgstr "Logg ut"
-
-msgctxt "button"
-msgid "Login"
-msgstr "Logg inn"
-
-msgctxt "heading"
-msgid "Meet your ultimate"
-msgstr "Møt din ultimate"
-
-msgctxt "heading"
-msgid "AI-Powered Content Platform"
-msgstr "AI-drevet innholdsplattform"
-
-msgid "All rights reserved."
-msgstr "Alle rettigheter reservert."
-
-msgctxt "button"
-msgid "FAQ"
-msgstr "FAQ"
-
-msgctxt "button"
-msgid "Terms of services"
-msgstr "Vilkår for bruk"
-
-msgctxt "button"
-msgid "Privacy policy"
-msgstr "Personvernregler"
-
-msgctxt "button"
-msgid "Refund policy"
-msgstr "Refusjonspolicy"
-
-msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
-msgstr "Utviklet ved bruk av domenedrevet design og Onion-arkitekturprinsipper."
-
-msgid "Built with modern technologies for best structure and get maximum performance."
-msgstr "Bygget med moderne teknologier for beste struktur og maksimal ytelse."
-
-msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
-msgstr "Nyt en problemfri og intuitiv brukergrensesnitt som forbedrer din digitale opplevelse."
-
-msgid "Turn off the light and switch to dark mode your interface with one click."
-msgstr "Slå av lyset og bytt til mørk modus på grensesnittet ditt med ett klikk."
-
-msgid "An all-inclusive learning package seamlessly integrated into our community."
-msgstr "En altomfattende læringspakke sømløst integrert i vårt fellesskap."
-
-msgid "Simplify transactions and boost security with payment gateway solutions."
-msgstr "Forenkle transaksjoner og øk sikkerheten med betalingsgateway-løsninger."
-
-msgid "Unlock limitless creativity with our AI-powered content generator."
-msgstr "Lås opp grenseløs kreativitet med vår AI-drevne innholdsgenerator."
-
-msgid "Boost your visibility and reach your audience effectively with AI generated content."
-msgstr "Forbedre synligheten og nå publikum effektivt med AI-drevet innhold."
-
-msgid "Empower your insights and control with our cutting-edge dashboard."
-msgstr "Styrk dine innsikter og kontroll med vårt banebrytende dashbord."
-
-msgid "Transform your content creation with AI-driven custom templates."
-msgstr "Forvandle innholdsproduksjonen din med AI-drevne tilpassede maler."
-
-msgid "Use Facebook or Google accounts as an alternatively access to platform."
-msgstr "Bruk Facebook- eller Google-kontoer som et alternativt tilgang til plattformen."
-
-msgid "Our support team is available 24/7 to help you with any questions or concerns."
-msgstr "Vårt støtte team er tilgjengelig 24/7 for å hjelpe deg med alle spørsmål eller bekymringer."
-
-msgctxt "heading"
-msgid "Coolest Features"
-msgstr "Kuleste funksjoner"
-
-msgctxt "heading"
-msgid "High Quality Code"
-msgstr "Kode av høy kvalitet"
-
-msgctxt "heading"
-msgid "Modern Technologies"
-msgstr "Moderne teknologier"
-
-msgctxt "heading"
-msgid "Friendly UI and UX"
-msgstr "Brukervennlig UI og UX"
-
-msgctxt "heading"
-msgid "Dark Mode"
-msgstr "Mørk modus"
-
-msgctxt "heading"
-msgid "Documentation"
-msgstr "Dokumentasjon"
-
-msgctxt "heading"
-msgid "Payment Gateways"
-msgstr "Betalingsløsninger"
-
-msgctxt "heading"
-msgid "AI Generator"
-msgstr "AI-generator"
-
-msgctxt "heading"
-msgid "SEO Friendly"
-msgstr "SEO-vennlig"
-
-msgctxt "heading"
-msgid "Advanced Dashboard"
-msgstr "Avansert dashbord"
-
-msgctxt "heading"
-msgid "Custom Templates"
-msgstr "Egendefinerte maler"
-
-msgctxt "heading"
-msgid "Login via SM Accounts"
-msgstr "Logg inn via SM-kontoer"
-
-msgctxt "heading"
-msgid "High Quality Support"
-msgstr "Høykvalitets støtte"
-
-msgid "See how easy it can be to write amazing content."
-msgstr "Se hvor enkelt det kan være å skrive fantastisk innhold."
-
-msgctxt "heading"
-msgid "Ready to level-up?"
-msgstr "Klar til å ta det til neste nivå?"
-
-msgctxt "button"
-msgid "Get Started Now"
-msgstr "Kom i gang nå"
-
+#: sections/code.twig:10
 msgid "AI Code"
 msgstr "AI-kode"
 
-msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
-msgstr "Generer enkelt kode med AI Code Generator: Instant solutions for your programming needs."
-
+#: sections/code.twig:14
 msgctxt "heading"
 msgid "Ready to write code at the speed of light?"
 msgstr "Klar til å skrive kode i lysets hastighet?"
 
+#: sections/code.twig:18
+msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
+msgstr "Generer enkelt kode med AI Code Generator: Instant solutions for your programming needs."
+
+#: sections/code.twig:23
 msgctxt "button"
 msgid "Start Generate Code"
 msgstr "Start generering av kode"
 
-msgid "AI Chat Bot"
-msgstr "AI Chatbot"
-
-msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
-msgstr "Velg bare din assistent og engasjer deg med en vennlig chatbot for å generere ideer, forbedre innholdet ditt eller til og med bringe et smil til ansiktet ditt."
-
+#: sections/cta.twig:3
 msgctxt "heading"
-msgid "That\\'s remarkably human-like and engaging..."
-msgstr "Det er bemerkelsesverdig menneskelig og engasjerende..."
+msgid "Ready to level-up?"
+msgstr "Klar til å ta det til neste nivå?"
 
-msgid "Unlimited"
-msgstr "Ubegrenset"
+#: sections/cta.twig:5
+msgid "See how easy it can be to write amazing content."
+msgstr "Se hvor enkelt det kan være å skrive fantastisk innhold."
+
+#: sections/cta.twig:10
+msgctxt "button"
+msgid "Get Started Now"
+msgstr "Kom i gang nå"
+
+#: sections/features.twig:3
+msgctxt "heading"
+msgid "Coolest Features"
+msgstr "Kuleste funksjoner"
+
+#: sections/features.twig:13
+msgctxt "heading"
+msgid "High Quality Code"
+msgstr "Kode av høy kvalitet"
+
+#: sections/features.twig:16
+msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
+msgstr "Utviklet ved bruk av domenedrevet design og Onion-arkitekturprinsipper."
+
+#: sections/features.twig:26
+msgctxt "heading"
+msgid "Modern Technologies"
+msgstr "Moderne teknologier"
+
+#: sections/features.twig:29
+msgid "Built with modern technologies for best structure and get maximum performance."
+msgstr "Bygget med moderne teknologier for beste struktur og maksimal ytelse."
+
+#: sections/features.twig:39
+msgctxt "heading"
+msgid "Friendly UI and UX"
+msgstr "Brukervennlig UI og UX"
+
+#: sections/features.twig:42
+msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
+msgstr "Nyt en problemfri og intuitiv brukergrensesnitt som forbedrer din digitale opplevelse."
+
+#: sections/features.twig:52
+msgctxt "heading"
+msgid "Dark Mode"
+msgstr "Mørk modus"
+
+#: sections/features.twig:55
+msgid "Turn off the light and switch to dark mode your interface with one click."
+msgstr "Slå av lyset og bytt til mørk modus på grensesnittet ditt med ett klikk."
+
+#: sections/features.twig:65
+msgctxt "heading"
+msgid "Documentation"
+msgstr "Dokumentasjon"
+
+#: sections/features.twig:68
+msgid "An all-inclusive learning package seamlessly integrated into our community."
+msgstr "En altomfattende læringspakke sømløst integrert i vårt fellesskap."
+
+#: sections/features.twig:78
+msgctxt "heading"
+msgid "Payment Gateways"
+msgstr "Betalingsløsninger"
+
+#: sections/features.twig:81
+msgid "Simplify transactions and boost security with payment gateway solutions."
+msgstr "Forenkle transaksjoner og øk sikkerheten med betalingsgateway-løsninger."
+
+#: sections/features.twig:91
+msgctxt "heading"
+msgid "AI Generator"
+msgstr "AI-generator"
+
+#: sections/features.twig:94
+msgid "Unlock limitless creativity with our AI-powered content generator."
+msgstr "Lås opp grenseløs kreativitet med vår AI-drevne innholdsgenerator."
+
+#: sections/features.twig:104
+msgctxt "heading"
+msgid "SEO Friendly"
+msgstr "SEO-vennlig"
+
+#: sections/features.twig:107
+msgid "Boost your visibility and reach your audience effectively with AI generated content."
+msgstr "Forbedre synligheten og nå publikum effektivt med AI-drevet innhold."
+
+#: sections/features.twig:117
+msgctxt "heading"
+msgid "Advanced Dashboard"
+msgstr "Avansert dashbord"
+
+#: sections/features.twig:120
+msgid "Empower your insights and control with our cutting-edge dashboard."
+msgstr "Styrk dine innsikter og kontroll med vårt banebrytende dashbord."
+
+#: sections/features.twig:130
+msgctxt "heading"
+msgid "Custom Templates"
+msgstr "Egendefinerte maler"
+
+#: sections/features.twig:133
+msgid "Transform your content creation with AI-driven custom templates."
+msgstr "Forvandle innholdsproduksjonen din med AI-drevne tilpassede maler."
+
+#: sections/features.twig:144
+msgctxt "heading"
+msgid "Login via SM Accounts"
+msgstr "Logg inn via SM-kontoer"
+
+#: sections/features.twig:147
+msgid "Use Facebook or Google accounts as an alternatively access to platform."
+msgstr "Bruk Facebook- eller Google-kontoer som et alternativt tilgang til plattformen."
+
+#: sections/features.twig:157
+msgctxt "heading"
+msgid "High Quality Support"
+msgstr "Høykvalitets støtte"
+
+#: sections/features.twig:160
+msgid "Our support team is available 24/7 to help you with any questions or concerns."
+msgstr "Vårt støtte team er tilgjengelig 24/7 for å hjelpe deg med alle spørsmål eller bekymringer."
+
+#: sections/footer.twig:4
+msgid "All rights reserved."
+msgstr "Alle rettigheter reservert."
+
+#: sections/footer.twig:42
+#: sections/header.twig:19
+msgctxt "button"
+msgid "Product"
+msgstr "Produkt"
+
+#: sections/footer.twig:46
+#: sections/header.twig:33
+msgctxt "button"
+msgid "Pricing"
+msgstr "Priser"
+
+#: sections/footer.twig:50
+msgctxt "button"
+msgid "FAQ"
+msgstr "FAQ"
+
+#: sections/footer.twig:57
+msgctxt "button"
+msgid "Terms of services"
+msgstr "Vilkår for bruk"
+
+#: sections/footer.twig:63
+msgctxt "button"
+msgid "Privacy policy"
+msgstr "Personvernregler"
+
+#: sections/footer.twig:69
+msgctxt "button"
+msgid "Refund policy"
+msgstr "Refusjonspolicy"
+
+#: sections/generators.twig:3
+msgctxt "heading"
+msgid "Meet your ultimate"
+msgstr "Møt din ultimate"
+
+#: sections/generators.twig:6
+msgctxt "heading"
+msgid "AI-Powered Content Platform"
+msgstr "AI-drevet innholdsplattform"
+
+#: sections/header.twig:26
+msgctxt "button"
+msgid "Featured"
+msgstr "Utvalgt"
+
+#: sections/header.twig:111
+#: sections/hero.twig:13
+msgctxt "button"
+msgid "Go to app"
+msgstr "Gå til app"
+
+#: sections/header.twig:123
+msgctxt "button"
+msgid "Library"
+msgstr "Bibliotek"
+
+#: sections/header.twig:131
+msgctxt "button"
+msgid "Billing"
+msgstr "Fakturering"
+
+#: sections/header.twig:143
+msgctxt "button"
+msgid "Account"
+msgstr "Konto"
+
+#: sections/header.twig:151
+msgctxt "button"
+msgid "Logout"
+msgstr "Logg ut"
+
+#: sections/header.twig:191
+msgctxt "button"
+msgid "Login"
+msgstr "Logg inn"
+
+#: sections/header.twig:196
+#: sections/pricing.twig:102
+msgctxt "button"
+msgid "Get started"
+msgstr "Kom i gang"
+
+#: sections/hero.twig:3
+msgctxt "heading"
+msgid "Transforming ideas into AI generated masterpieces"
+msgstr "Forvandler ideer til AI-genererte mesterverk"
+
+#: sections/hero.twig:7
+msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
+msgstr "Generer enkelt høy kvalitets AI-drevet innhold som passer til dine behov. Lås opp uendelige muligheter, sparer tid og begynn å tjene penger i dag!"
+
+#: sections/hero.twig:19
+msgctxt "button"
+msgid "Get started now"
+msgstr "Kom i gang nå"
+
+#: sections/how-it-works.twig:3
+msgctxt "heading"
+msgid "How it works"
+msgstr "Hvordan det fungerer"
+
+#: sections/how-it-works.twig:13
+msgctxt "heading"
+msgid "Choose Template"
+msgstr "Velg mal"
+
+#: sections/how-it-works.twig:16
+msgid "Choose a our built in templates or create your own."
+msgstr "Velg en av våre innebygde maler eller lag din egen."
+
+#: sections/how-it-works.twig:26
+msgctxt "heading"
+msgid "Describe"
+msgstr "Beskriv"
+
+#: sections/how-it-works.twig:29
+msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
+msgstr "Skriv noen setninger for å beskrive emnet ditt. Legg til nøkkelord for å spesifisere for merke ditt."
+
+#: sections/how-it-works.twig:39
+msgctxt "heading"
+msgid "Generate"
+msgstr "Generer"
+
+#: sections/how-it-works.twig:42
+msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
+msgstr "Klikk på \"Generer\"-knappen og få en rekke høykonverteringskopier hver gang."
+
+#: sections/image.twig:5
+msgid "AI Image"
+msgstr "AI-bilde"
+
+#: sections/image.twig:9
+msgctxt "heading"
+msgid "Visualize what you dream of. Create images from text."
+msgstr "Visualiser det du drømmer om. Lag bilder fra tekst."
+
+#: sections/image.twig:13
+msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
+msgstr "Opprett uforståelige bilder med AI Image Generator - din verktøy for kunstnerisk innovasjon."
+
+#: sections/image.twig:18
+msgctxt "button"
+msgid "Try for free"
+msgstr "Prøv gratis"
+
+#: sections/presets.twig:9
+msgid "100+ AI Writer Templates"
+msgstr "100+ AI-skrive maler"
+
+#: sections/presets.twig:14
+msgctxt "heading"
+msgid "What can Writing Assistant create for you?"
+msgstr "Hva kan Skriveassistenten lage for deg?"
+
+#: sections/presets.twig:18
+msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer's block forever."
+msgstr "Skriv med bemerkelsesverdig fart, fengsl publikum, og si farvel til skrivesperre for alltid."
+
+#: sections/presets.twig:23
+msgctxt "button"
+msgid "Get Started for Free"
+msgstr "Kom i gang gratis"
+
+#: sections/pricing.twig:3
+msgctxt "heading"
+msgid "Pricing"
+msgstr "Priser"
+
+#: sections/pricing.twig:6
+msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
+msgstr "Oppdag det perfekte plan som passer til dine behov og lås opp en verden av muligheter."
+
+#: sections/pricing.twig:19
+msgctxt "button"
+msgid "Monthly"
+msgstr "Månedlig"
+
+#: sections/pricing.twig:28
+msgctxt "button"
+msgid "Yearly"
+msgstr "Årlig"
+
+#: sections/pricing.twig:37
+msgctxt "button"
+msgid "Packs"
+msgstr "Pakker"
+
+#: sections/pricing.twig:46
+msgctxt "button"
+msgid "Lifetime Deals"
+msgstr "Livstidsavtaler"
+
+#: sections/pricing.twig:78
+msgid "Most Popular"
+msgstr "Mest populær"
+
+#: sections/pricing.twig:115
+msgid "Chat"
+msgstr "Chat"
+
+#: sections/pricing.twig:134
+msgid "Writer"
+msgstr "Skribent"
+
+#: sections/pricing.twig:153
+msgid "Image generator"
+msgstr "Bildegenerator"
+
+#: sections/pricing.twig:166
+msgid "Transcriber"
+msgstr "Transkribent"
+
+#: sections/pricing.twig:179
+msgid "Voiceover"
+msgstr "Stemmeskuespiller"
+
+#: sections/pricing.twig:192
+msgid "Voice isolator"
+msgstr "Stemmeisolator"
+
+#: sections/pricing.twig:205
+msgid "Classifier"
+msgstr "Klassifiserer"
+
+#: sections/pricing.twig:213
+msgid "Access to templates is disabled"
+msgstr "Tilgang til maler er deaktivert"
+
+#: sections/pricing.twig:216
+msgid "Access to all templates"
+msgstr "Tilgang til alle maler"
+
+#: sections/pricing.twig:232
+msgid "Priority support"
+msgstr "Prioritert støtte"
+
+#: sections/pricing.twig:235
+msgid "Basic support"
+msgstr "Grunnleggende støtte"
+
+#: sections/speech-to-text.twig:4
+msgid "Speech to Text"
+msgstr "Tale til Tekst"
+
+#: sections/speech-to-text.twig:8
+msgctxt "heading"
+msgid "Transforming Spoken <br> Words into Text."
+msgstr "Forvandler talte <br> ord til tekst."
+
+#: sections/speech-to-text.twig:12
+msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
+msgstr "Oppnår enkelt å overføre talte ord til tekst for økt produktivitet og tilgjengelighet."
+
+#: sections/speech-to-text.twig:17
+msgctxt "button"
+msgid "Convert now"
+msgstr "Konverter nå"
+
+#: sections/text-to-voice.twig:4
+msgid "Text to Voice"
+msgstr "Tekst til Tale"
+
+#: sections/text-to-voice.twig:8
+msgctxt "heading"
+msgid "Convert your texts into <br> Lifelike Speech"
+msgstr "Konverter tekstene dine til <br> Naturlig tale"
+
+#: sections/text-to-voice.twig:12
+msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
+msgstr "Forbedre innholdet ditt med uttrykkelig fortelling: Oppdag tekst til tale-eksellens."
+
+#: sections/video.twig:11
+msgid "Video"
+msgstr "Video"
+
+#: sections/video.twig:15
+msgctxt "heading"
+msgid "Generate high-quality videos using AI Video generation tool."
+msgstr "Generer videoer av høy kvalitet med AI Video-genereringsverktøy."
+
+#: sections/video.twig:19
+msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
+msgstr "Ingen videoredigeringsferdigheter kreves – bare last opp bildene dine og skriv inn noen få linjer med prompt, det er alt."
+
+#: sections/writer.twig:22
+msgid "AI Writer"
+msgstr "AI Skribent"
+
+#: sections/writer.twig:26
+msgctxt "heading"
+msgid "Write SEO optimized blogs, sales emails and more..."
+msgstr "Skriv SEO-optimaliserte blogger, salgse-poster og mer..."
+
+#: sections/writer.twig:30
+msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
+msgstr "Når som helst, en skriveverktøy som du vil bruke."
+
+#: sections/writer.twig:35
+msgctxt "button"
+msgid "See all features"
+msgstr "Se alle funksjoner"

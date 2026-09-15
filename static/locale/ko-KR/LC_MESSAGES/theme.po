@@ -1,382 +1,484 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Theme Translations\n"
-"Report-Msgid-Bugs-To: \n"
-"Last-Translator: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Language: ko-KR\n"
 "Language-Team: \n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: Theme Translations\n"
+"Report-Msgid-Bugs-To: \n"
 "X-Domain: theme\n"
 
-msgid "AI Writer"
-msgstr "AI 작가"
+#: sections/chat.twig:11
+msgid "AI Chat Bot"
+msgstr "AI 채팅 봇"
 
-msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
-msgstr "상위 결과를 단시간 내에 달성하세요. 마지막으로, 진정으로 사용할 수 있는 작성 도구."
-
+#: sections/chat.twig:15
 msgctxt "heading"
-msgid "Write SEO optimized blogs, sales emails and more..."
-msgstr "SEO 최적화 블로그, 판매 이메일 등 작성..."
+msgid "That's remarkably human-like and engaging..."
+msgstr "정말 인간적이고 매력적입니다..."
 
-msgctxt "button"
-msgid "See all features"
-msgstr "모든 기능 보기"
+#: sections/chat.twig:19
+msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
+msgstr "쉽게 자신의 도우미를 선택하고 친절한 채팅 봇과 소통하여 아이디어를 생성하고, 콘텐츠를 강화하고, 얼굴에 미소를 띄우세요."
 
-msgid "Video"
-msgstr ""
-
-msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
-msgstr ""
-
-msgctxt "heading"
-msgid "Generate high-quality videos using AI Video generation tool."
-msgstr ""
-
+#: sections/chat.twig:24
+#: sections/video.twig:24
 msgctxt "button"
 msgid "Try now"
 msgstr "지금 시도하기"
 
-msgid "Text to Voice"
-msgstr "텍스트 음성 변환"
-
-msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
-msgstr "표현적인 설명으로 콘텐츠를 향상시키세요: 텍스트에서 음성의 우수한 기능을 발견하세요."
-
-msgctxt "heading"
-msgid "Convert your texts into <br> Lifelike Speech"
-msgstr "텍스트를 <br> 생생한 음성으로 변환"
-
-msgid "Speech to Text"
-msgstr "음성 텍스트 변환"
-
-msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
-msgstr "생산성과 접근성을 향상시키기 위해 말한 단어를 즉시 텍스트로 전사하세요."
-
-msgctxt "heading"
-msgid "Transforming Spoken <br> Words into Text."
-msgstr "말한 단어를 <br> 텍스트로 변환합니다."
-
-msgctxt "button"
-msgid "Convert now"
-msgstr "지금 변환하기"
-
-msgid ":count credits"
-msgstr ":count 크레딧"
-
-msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
-msgstr "필요에 맞는 완벽한 계획을 발견하고 무한한 가능성을 해제하세요."
-
-msgid "Most Popular"
-msgstr "가장 인기 있음"
-
-msgid "Chat"
-msgstr "채팅"
-
-msgid "Writer"
-msgstr "작가"
-
-msgid "Image generator"
-msgstr "이미지 생성기"
-
-msgid "Transcriber"
-msgstr "전사기"
-
-msgid "Voiceover"
-msgstr "음성 녹음"
-
-msgid "Voice isolator"
-msgstr "음성 분리기"
-
-msgid "Classifier"
-msgstr "분류기"
-
-msgid "Access to templates is disabled"
-msgstr "템플릿 접근이 비활성화되었습니다"
-
-msgid "Access to all templates"
-msgstr "모든 템플릿 접근"
-
-msgid "Priority support"
-msgstr "우선 지원"
-
-msgid "Basic support"
-msgstr "기본 지원"
-
-msgctxt "heading"
-msgid "Pricing"
-msgstr ""
-
-msgctxt "button"
-msgid "Monthly"
-msgstr "월간"
-
-msgctxt "button"
-msgid "Yearly"
-msgstr "연간"
-
-msgctxt "button"
-msgid "Packs"
-msgstr "팩"
-
-msgctxt "button"
-msgid "Lifetime Deals"
-msgstr "평생 거래"
-
-msgctxt "button"
-msgid "Get started"
-msgstr "시작하기"
-
-msgid "100+ AI Writer Templates"
-msgstr "100개 이상의 AI 작성 템플릿"
-
-msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer\\'s block forever."
-msgstr "놀라운 속도로 작성하고, 청중을 사로잡고, 작가의 블로킹을 영원히 이별하세요."
-
-msgctxt "heading"
-msgid "What can Writing Assistant create for you?"
-msgstr "Writing Assistant가 당신을 위해 무엇을 만들어 드릴까요?"
-
-msgctxt "button"
-msgid "Get Started for Free"
-msgstr "무료로 시작하기"
-
-msgid "AI Image"
-msgstr "AI 이미지"
-
-msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
-msgstr "AI 이미지 생성기를 사용하여 즉시 놀라운 이미지를 생성하세요."
-
-msgctxt "heading"
-msgid "Visualize what you dream of. Create images from text."
-msgstr "당신이 꿈꾸는 것을 시각화하세요. 텍스트로 이미지를 만드세요."
-
-msgctxt "button"
-msgid "Try for free"
-msgstr "무료로 체험하기"
-
-msgid "Choose a our built in templates or create your own."
-msgstr "내장된 템플릿을 선택하거나 직접 만드세요."
-
-msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
-msgstr "주제를 설명하는 몇 가지 문장을 입력하세요. 브랜드를 지정하기 위한 키워드를 추가하세요."
-
-msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
-msgstr "\"생성\" 버튼을 클릭하면 매번 다양한 높은 변환 복사본을 얻을 수 있습니다."
-
-msgctxt "heading"
-msgid "How it works"
-msgstr "작동 방식"
-
-msgctxt "heading"
-msgid "Choose Template"
-msgstr "템플릿 선택"
-
-msgctxt "heading"
-msgid "Describe"
-msgstr "설명하기"
-
-msgctxt "heading"
-msgid "Generate"
-msgstr "생성하기"
-
-msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
-msgstr "필요에 맞게 조정된 고품질 AI 콘텐츠를 쉽게 생성하세요. 무제한 가능성을 해제하고, 시간을 절약하고, 오늘 돈을 벌기 시작하세요!"
-
-msgctxt "heading"
-msgid "Transforming ideas into AI generated masterpieces"
-msgstr "아이디어를 AI가 생성한 걸작으로 변환하기"
-
-msgctxt "button"
-msgid "Go to app"
-msgstr "앱으로 이동"
-
-msgctxt "button"
-msgid "Get started now"
-msgstr "지금 시작하기"
-
-msgctxt "button"
-msgid "Product"
-msgstr "제품"
-
-msgctxt "button"
-msgid "Featured"
-msgstr "추천"
-
-msgctxt "button"
-msgid "Pricing"
-msgstr "가격"
-
-msgctxt "button"
-msgid "Library"
-msgstr "라이브러리"
-
-msgctxt "button"
-msgid "Billing"
-msgstr "청구"
-
-msgctxt "button"
-msgid "Account"
-msgstr "계정"
-
-msgctxt "button"
-msgid "Logout"
-msgstr "로그아웃"
-
-msgctxt "button"
-msgid "Login"
-msgstr "로그인"
-
-msgctxt "heading"
-msgid "Meet your ultimate"
-msgstr "당신의 궁극적인 만남"
-
-msgctxt "heading"
-msgid "AI-Powered Content Platform"
-msgstr "AI 기반 콘텐츠 플랫폼"
-
-msgid "All rights reserved."
-msgstr "판권 소유."
-
-msgctxt "button"
-msgid "FAQ"
-msgstr "자주 묻는 질문"
-
-msgctxt "button"
-msgid "Terms of services"
-msgstr "서비스 약관"
-
-msgctxt "button"
-msgid "Privacy policy"
-msgstr "개인정보 처리방침"
-
-msgctxt "button"
-msgid "Refund policy"
-msgstr "환불 정책"
-
-msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
-msgstr "도메인 주도 설계와 어니언 아키텍처 원칙을 사용하여 개발되었습니다."
-
-msgid "Built with modern technologies for best structure and get maximum performance."
-msgstr "최신 기술을 사용하여 최상의 구조를 얻고 최대 성능을 발휘합니다."
-
-msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
-msgstr "문제 없이 쉽고 직관적인 사용자 인터페이스를 즐기세요."
-
-msgid "Turn off the light and switch to dark mode your interface with one click."
-msgstr "불을 끄고 한 번의 클릭으로 인터페이스를 다크 모드로 전환하세요."
-
-msgid "An all-inclusive learning package seamlessly integrated into our community."
-msgstr "우리 커뮤니티에 원활하게 통합된 올인원 학습 패키지."
-
-msgid "Simplify transactions and boost security with payment gateway solutions."
-msgstr "결제 게이트웨이 솔루션으로 거래를 간소화하고 보안을 강화하세요."
-
-msgid "Unlock limitless creativity with our AI-powered content generator."
-msgstr "AI 기반 콘텐츠 생성기로 무한한 창의력을 발휘하세요."
-
-msgid "Boost your visibility and reach your audience effectively with AI generated content."
-msgstr "AI 생성 콘텐츠로 가시성을 높이고 효과적으로 청중에게 전달하세요."
-
-msgid "Empower your insights and control with our cutting-edge dashboard."
-msgstr "최첨단 대시보드로 인사이트와 제어력을 강화하세요."
-
-msgid "Transform your content creation with AI-driven custom templates."
-msgstr "AI 구동 맞춤 템플릿으로 콘텐츠 제작을 혁신하세요."
-
-msgid "Use Facebook or Google accounts as an alternatively access to platform."
-msgstr "Facebook 또는 Google 계정을 플랫폼 대체 접근 수단으로 사용하세요."
-
-msgid "Our support team is available 24/7 to help you with any questions or concerns."
-msgstr "우리의 지원 팀은 24/7 연중 연중 도움을 제공합니다."
-
-msgctxt "heading"
-msgid "Coolest Features"
-msgstr "최고의 기능"
-
-msgctxt "heading"
-msgid "High Quality Code"
-msgstr "고품질 코드"
-
-msgctxt "heading"
-msgid "Modern Technologies"
-msgstr "최신 기술"
-
-msgctxt "heading"
-msgid "Friendly UI and UX"
-msgstr "친숙한 UI 및 UX"
-
-msgctxt "heading"
-msgid "Dark Mode"
-msgstr "다크 모드"
-
-msgctxt "heading"
-msgid "Documentation"
-msgstr "문서"
-
-msgctxt "heading"
-msgid "Payment Gateways"
-msgstr "결제 게이트웨이"
-
-msgctxt "heading"
-msgid "AI Generator"
-msgstr "AI 생성기"
-
-msgctxt "heading"
-msgid "SEO Friendly"
-msgstr "SEO 친화적"
-
-msgctxt "heading"
-msgid "Advanced Dashboard"
-msgstr "고급 대시보드"
-
-msgctxt "heading"
-msgid "Custom Templates"
-msgstr "맞춤 템플릿"
-
-msgctxt "heading"
-msgid "Login via SM Accounts"
-msgstr "소셜 미디어 계정으로 로그인"
-
-msgctxt "heading"
-msgid "High Quality Support"
-msgstr "고품질 지원"
-
-msgid "See how easy it can be to write amazing content."
-msgstr "놀라운 콘텐츠를 작성하는 것이 얼마나 쉬운지 확인해 보세요."
-
-msgctxt "heading"
-msgid "Ready to level-up?"
-msgstr "레벨업할 준비가 되셨나요?"
-
-msgctxt "button"
-msgid "Get Started Now"
-msgstr "지금 시작하기"
-
+#: sections/code.twig:10
 msgid "AI Code"
 msgstr "AI 코드"
 
-msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
-msgstr "AI 코드 생성기로 쉽게 코드를 작성하세요: 프로그래밍 필요에 따른 즉시 해결."
-
+#: sections/code.twig:14
 msgctxt "heading"
 msgid "Ready to write code at the speed of light?"
 msgstr "빛의 속도로 코드를 작성할 준비가 되셨나요?"
 
+#: sections/code.twig:18
+msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
+msgstr "AI 코드 생성기로 쉽게 코드를 작성하세요: 프로그래밍 필요에 따른 즉시 해결."
+
+#: sections/code.twig:23
 msgctxt "button"
 msgid "Start Generate Code"
 msgstr "코드 생성 시작"
 
-msgid "AI Chat Bot"
-msgstr "AI 채팅 봇"
-
-msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
-msgstr "쉽게 자신의 도우미를 선택하고 친절한 채팅 봇과 소통하여 아이디어를 생성하고, 콘텐츠를 강화하고, 얼굴에 미소를 띄우세요."
-
+#: sections/cta.twig:3
 msgctxt "heading"
-msgid "That\\'s remarkably human-like and engaging..."
-msgstr "정말 인간 같고 매력적이네요..."
+msgid "Ready to level-up?"
+msgstr "레벨업할 준비가 되셨나요?"
 
-msgid "Unlimited"
-msgstr "무제한"
+#: sections/cta.twig:5
+msgid "See how easy it can be to write amazing content."
+msgstr "놀라운 콘텐츠를 작성하는 것이 얼마나 쉬운지 확인해 보세요."
+
+#: sections/cta.twig:10
+msgctxt "button"
+msgid "Get Started Now"
+msgstr "지금 시작하기"
+
+#: sections/features.twig:3
+msgctxt "heading"
+msgid "Coolest Features"
+msgstr "최고의 기능"
+
+#: sections/features.twig:13
+msgctxt "heading"
+msgid "High Quality Code"
+msgstr "고품질 코드"
+
+#: sections/features.twig:16
+msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
+msgstr "도메인 주도 설계와 어니언 아키텍처 원칙을 사용하여 개발되었습니다."
+
+#: sections/features.twig:26
+msgctxt "heading"
+msgid "Modern Technologies"
+msgstr "최신 기술"
+
+#: sections/features.twig:29
+msgid "Built with modern technologies for best structure and get maximum performance."
+msgstr "최신 기술을 사용하여 최상의 구조를 얻고 최대 성능을 발휘합니다."
+
+#: sections/features.twig:39
+msgctxt "heading"
+msgid "Friendly UI and UX"
+msgstr "친숙한 UI 및 UX"
+
+#: sections/features.twig:42
+msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
+msgstr "문제 없이 쉽고 직관적인 사용자 인터페이스를 즐기세요."
+
+#: sections/features.twig:52
+msgctxt "heading"
+msgid "Dark Mode"
+msgstr "다크 모드"
+
+#: sections/features.twig:55
+msgid "Turn off the light and switch to dark mode your interface with one click."
+msgstr "불을 끄고 한 번의 클릭으로 인터페이스를 다크 모드로 전환하세요."
+
+#: sections/features.twig:65
+msgctxt "heading"
+msgid "Documentation"
+msgstr "문서"
+
+#: sections/features.twig:68
+msgid "An all-inclusive learning package seamlessly integrated into our community."
+msgstr "우리 커뮤니티에 원활하게 통합된 올인원 학습 패키지."
+
+#: sections/features.twig:78
+msgctxt "heading"
+msgid "Payment Gateways"
+msgstr "결제 게이트웨이"
+
+#: sections/features.twig:81
+msgid "Simplify transactions and boost security with payment gateway solutions."
+msgstr "결제 게이트웨이 솔루션으로 거래를 간소화하고 보안을 강화하세요."
+
+#: sections/features.twig:91
+msgctxt "heading"
+msgid "AI Generator"
+msgstr "AI 생성기"
+
+#: sections/features.twig:94
+msgid "Unlock limitless creativity with our AI-powered content generator."
+msgstr "AI 기반 콘텐츠 생성기로 무한한 창의력을 발휘하세요."
+
+#: sections/features.twig:104
+msgctxt "heading"
+msgid "SEO Friendly"
+msgstr "SEO 친화적"
+
+#: sections/features.twig:107
+msgid "Boost your visibility and reach your audience effectively with AI generated content."
+msgstr "AI 생성 콘텐츠로 가시성을 높이고 효과적으로 청중에게 전달하세요."
+
+#: sections/features.twig:117
+msgctxt "heading"
+msgid "Advanced Dashboard"
+msgstr "고급 대시보드"
+
+#: sections/features.twig:120
+msgid "Empower your insights and control with our cutting-edge dashboard."
+msgstr "최첨단 대시보드로 인사이트와 제어력을 강화하세요."
+
+#: sections/features.twig:130
+msgctxt "heading"
+msgid "Custom Templates"
+msgstr "맞춤 템플릿"
+
+#: sections/features.twig:133
+msgid "Transform your content creation with AI-driven custom templates."
+msgstr "AI 구동 맞춤 템플릿으로 콘텐츠 제작을 혁신하세요."
+
+#: sections/features.twig:144
+msgctxt "heading"
+msgid "Login via SM Accounts"
+msgstr "소셜 미디어 계정으로 로그인"
+
+#: sections/features.twig:147
+msgid "Use Facebook or Google accounts as an alternatively access to platform."
+msgstr "Facebook 또는 Google 계정을 플랫폼 대체 접근 수단으로 사용하세요."
+
+#: sections/features.twig:157
+msgctxt "heading"
+msgid "High Quality Support"
+msgstr "고품질 지원"
+
+#: sections/features.twig:160
+msgid "Our support team is available 24/7 to help you with any questions or concerns."
+msgstr "우리의 지원 팀은 24/7 연중 연중 도움을 제공합니다."
+
+#: sections/footer.twig:4
+msgid "All rights reserved."
+msgstr "판권 소유."
+
+#: sections/footer.twig:42
+#: sections/header.twig:19
+msgctxt "button"
+msgid "Product"
+msgstr "제품"
+
+#: sections/footer.twig:46
+#: sections/header.twig:33
+msgctxt "button"
+msgid "Pricing"
+msgstr "가격"
+
+#: sections/footer.twig:50
+msgctxt "button"
+msgid "FAQ"
+msgstr "자주 묻는 질문"
+
+#: sections/footer.twig:57
+msgctxt "button"
+msgid "Terms of services"
+msgstr "서비스 약관"
+
+#: sections/footer.twig:63
+msgctxt "button"
+msgid "Privacy policy"
+msgstr "개인정보 처리방침"
+
+#: sections/footer.twig:69
+msgctxt "button"
+msgid "Refund policy"
+msgstr "환불 정책"
+
+#: sections/generators.twig:3
+msgctxt "heading"
+msgid "Meet your ultimate"
+msgstr "당신의 궁극적인 만남"
+
+#: sections/generators.twig:6
+msgctxt "heading"
+msgid "AI-Powered Content Platform"
+msgstr "AI 기반 콘텐츠 플랫폼"
+
+#: sections/header.twig:26
+msgctxt "button"
+msgid "Featured"
+msgstr "추천"
+
+#: sections/header.twig:111
+#: sections/hero.twig:13
+msgctxt "button"
+msgid "Go to app"
+msgstr "앱으로 이동"
+
+#: sections/header.twig:123
+msgctxt "button"
+msgid "Library"
+msgstr "라이브러리"
+
+#: sections/header.twig:131
+msgctxt "button"
+msgid "Billing"
+msgstr "청구"
+
+#: sections/header.twig:143
+msgctxt "button"
+msgid "Account"
+msgstr "계정"
+
+#: sections/header.twig:151
+msgctxt "button"
+msgid "Logout"
+msgstr "로그아웃"
+
+#: sections/header.twig:191
+msgctxt "button"
+msgid "Login"
+msgstr "로그인"
+
+#: sections/header.twig:196
+#: sections/pricing.twig:102
+msgctxt "button"
+msgid "Get started"
+msgstr "시작하기"
+
+#: sections/hero.twig:3
+msgctxt "heading"
+msgid "Transforming ideas into AI generated masterpieces"
+msgstr "아이디어를 AI가 생성한 걸작으로 변환하기"
+
+#: sections/hero.twig:7
+msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
+msgstr "필요에 맞게 조정된 고품질 AI 콘텐츠를 쉽게 생성하세요. 무제한 가능성을 해제하고, 시간을 절약하고, 오늘 돈을 벌기 시작하세요!"
+
+#: sections/hero.twig:19
+msgctxt "button"
+msgid "Get started now"
+msgstr "지금 시작하기"
+
+#: sections/how-it-works.twig:3
+msgctxt "heading"
+msgid "How it works"
+msgstr "작동 방식"
+
+#: sections/how-it-works.twig:13
+msgctxt "heading"
+msgid "Choose Template"
+msgstr "템플릿 선택"
+
+#: sections/how-it-works.twig:16
+msgid "Choose a our built in templates or create your own."
+msgstr "내장된 템플릿을 선택하거나 직접 만드세요."
+
+#: sections/how-it-works.twig:26
+msgctxt "heading"
+msgid "Describe"
+msgstr "설명하기"
+
+#: sections/how-it-works.twig:29
+msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
+msgstr "주제를 설명하는 몇 가지 문장을 입력하세요. 브랜드를 지정하기 위한 키워드를 추가하세요."
+
+#: sections/how-it-works.twig:39
+msgctxt "heading"
+msgid "Generate"
+msgstr "생성하기"
+
+#: sections/how-it-works.twig:42
+msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
+msgstr "\"생성\" 버튼을 클릭하면 매번 다양한 높은 변환 복사본을 얻을 수 있습니다."
+
+#: sections/image.twig:5
+msgid "AI Image"
+msgstr "AI 이미지"
+
+#: sections/image.twig:9
+msgctxt "heading"
+msgid "Visualize what you dream of. Create images from text."
+msgstr "당신이 꿈꾸는 것을 시각화하세요. 텍스트로 이미지를 만드세요."
+
+#: sections/image.twig:13
+msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
+msgstr "AI 이미지 생성기를 사용하여 즉시 놀라운 이미지를 생성하세요."
+
+#: sections/image.twig:18
+msgctxt "button"
+msgid "Try for free"
+msgstr "무료로 체험하기"
+
+#: sections/presets.twig:9
+msgid "100+ AI Writer Templates"
+msgstr "100개 이상의 AI 작성 템플릿"
+
+#: sections/presets.twig:14
+msgctxt "heading"
+msgid "What can Writing Assistant create for you?"
+msgstr "Writing Assistant가 당신을 위해 무엇을 만들어 드릴까요?"
+
+#: sections/presets.twig:18
+msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer's block forever."
+msgstr "놀라운 속도로 글을 쓰고, 청중을 사로잡으며, 작가의 고통과 영원히 작별하세요."
+
+#: sections/presets.twig:23
+msgctxt "button"
+msgid "Get Started for Free"
+msgstr "무료로 시작하기"
+
+#: sections/pricing.twig:3
+msgctxt "heading"
+msgid "Pricing"
+msgstr "가격"
+
+#: sections/pricing.twig:6
+msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
+msgstr "필요에 맞는 완벽한 계획을 발견하고 무한한 가능성을 해제하세요."
+
+#: sections/pricing.twig:19
+msgctxt "button"
+msgid "Monthly"
+msgstr "월간"
+
+#: sections/pricing.twig:28
+msgctxt "button"
+msgid "Yearly"
+msgstr "연간"
+
+#: sections/pricing.twig:37
+msgctxt "button"
+msgid "Packs"
+msgstr "팩"
+
+#: sections/pricing.twig:46
+msgctxt "button"
+msgid "Lifetime Deals"
+msgstr "평생 거래"
+
+#: sections/pricing.twig:78
+msgid "Most Popular"
+msgstr "가장 인기 있음"
+
+#: sections/pricing.twig:115
+msgid "Chat"
+msgstr "채팅"
+
+#: sections/pricing.twig:134
+msgid "Writer"
+msgstr "작가"
+
+#: sections/pricing.twig:153
+msgid "Image generator"
+msgstr "이미지 생성기"
+
+#: sections/pricing.twig:166
+msgid "Transcriber"
+msgstr "전사기"
+
+#: sections/pricing.twig:179
+msgid "Voiceover"
+msgstr "음성 녹음"
+
+#: sections/pricing.twig:192
+msgid "Voice isolator"
+msgstr "음성 분리기"
+
+#: sections/pricing.twig:205
+msgid "Classifier"
+msgstr "분류기"
+
+#: sections/pricing.twig:213
+msgid "Access to templates is disabled"
+msgstr "템플릿 접근이 비활성화되었습니다"
+
+#: sections/pricing.twig:216
+msgid "Access to all templates"
+msgstr "모든 템플릿 접근"
+
+#: sections/pricing.twig:232
+msgid "Priority support"
+msgstr "우선 지원"
+
+#: sections/pricing.twig:235
+msgid "Basic support"
+msgstr "기본 지원"
+
+#: sections/speech-to-text.twig:4
+msgid "Speech to Text"
+msgstr "음성 텍스트 변환"
+
+#: sections/speech-to-text.twig:8
+msgctxt "heading"
+msgid "Transforming Spoken <br> Words into Text."
+msgstr "말한 단어를 <br> 텍스트로 변환합니다."
+
+#: sections/speech-to-text.twig:12
+msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
+msgstr "생산성과 접근성을 향상시키기 위해 말한 단어를 즉시 텍스트로 전사하세요."
+
+#: sections/speech-to-text.twig:17
+msgctxt "button"
+msgid "Convert now"
+msgstr "지금 변환하기"
+
+#: sections/text-to-voice.twig:4
+msgid "Text to Voice"
+msgstr "텍스트 음성 변환"
+
+#: sections/text-to-voice.twig:8
+msgctxt "heading"
+msgid "Convert your texts into <br> Lifelike Speech"
+msgstr "텍스트를 <br> 생생한 음성으로 변환"
+
+#: sections/text-to-voice.twig:12
+msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
+msgstr "표현적인 설명으로 콘텐츠를 향상시키세요: 텍스트에서 음성의 우수한 기능을 발견하세요."
+
+#: sections/video.twig:11
+msgid "Video"
+msgstr "비디오"
+
+#: sections/video.twig:15
+msgctxt "heading"
+msgid "Generate high-quality videos using AI Video generation tool."
+msgstr "AI 비디오 생성 도구로 고품질 비디오를 만드세요."
+
+#: sections/video.twig:19
+msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
+msgstr "비디오 편집 기술이 필요 없습니다 - 이미지 업로드 후 간단한 프롬프트 몇 줄만 입력하세요."
+
+#: sections/writer.twig:22
+msgid "AI Writer"
+msgstr "AI 작가"
+
+#: sections/writer.twig:26
+msgctxt "heading"
+msgid "Write SEO optimized blogs, sales emails and more..."
+msgstr "SEO 최적화 블로그, 판매 이메일 등 작성..."
+
+#: sections/writer.twig:30
+msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
+msgstr "상위 결과를 단시간 내에 달성하세요. 마지막으로, 진정으로 사용할 수 있는 작성 도구."
+
+#: sections/writer.twig:35
+msgctxt "button"
+msgid "See all features"
+msgstr "모든 기능 보기"

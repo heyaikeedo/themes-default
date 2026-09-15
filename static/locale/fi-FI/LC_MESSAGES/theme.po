@@ -1,382 +1,484 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Theme Translations\n"
-"Report-Msgid-Bugs-To: \n"
-"Last-Translator: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Language: fi-FI\n"
 "Language-Team: \n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Theme Translations\n"
+"Report-Msgid-Bugs-To: \n"
 "X-Domain: theme\n"
 
-msgid "AI Writer"
-msgstr "AI-kirjoittaja"
+#: sections/chat.twig:11
+msgid "AI Chat Bot"
+msgstr "AI-chatbotti"
 
-msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
-msgstr "Saavuta parhaat tulokset nopeammin. Viimein, kirjoitusväline, jota todella käytät."
-
+#: sections/chat.twig:15
 msgctxt "heading"
-msgid "Write SEO optimized blogs, sales emails and more..."
-msgstr "Kirjoita SEO-optimoituja blogeja, myyntisähköposteja ja muuta..."
+msgid "That's remarkably human-like and engaging..."
+msgstr "Se on hämmästyttävän ihmismäinen ja mukaansatempaava..."
 
-msgctxt "button"
-msgid "See all features"
-msgstr "Näytä kaikki ominaisuudet"
+#: sections/chat.twig:19
+msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
+msgstr "Valitse vain asiantuntijasi ja keskustele ystävällisen chatbottin kanssa, jotta voit luoda ideoita, parantaa sisältöä tai jopa tuoda hymyn kasvosi."
 
-msgid "Video"
-msgstr ""
-
-msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
-msgstr ""
-
-msgctxt "heading"
-msgid "Generate high-quality videos using AI Video generation tool."
-msgstr ""
-
+#: sections/chat.twig:24
+#: sections/video.twig:24
 msgctxt "button"
 msgid "Try now"
 msgstr "Kokeile nyt"
 
-msgid "Text to Voice"
-msgstr "Teksti puheeksi"
-
-msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
-msgstr "Nouse sisällön laatua ilmaisella kuvauksella: Löydä teksti puheeksi -parannus."
-
-msgctxt "heading"
-msgid "Convert your texts into <br> Lifelike Speech"
-msgstr "Muuta tekstisi <br> elävän kuuloiseksi puheeksi"
-
-msgid "Speech to Text"
-msgstr "Puhe tekstiksi"
-
-msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
-msgstr "Käännä puhuttu sana tekstiksi nopeammin tuotannon ja saavutettavuuden parantamiseksi."
-
-msgctxt "heading"
-msgid "Transforming Spoken <br> Words into Text."
-msgstr "Muuntaa puhuttu <br> sana tekstiksi."
-
-msgctxt "button"
-msgid "Convert now"
-msgstr "Muunna nyt"
-
-msgid ":count credits"
-msgstr ":count krediittiä"
-
-msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
-msgstr "Löydä täydellinen suunnitelma, joka sopii tarpeisiisi ja avaa maailman mahdollisuuksia."
-
-msgid "Most Popular"
-msgstr "Suosituin"
-
-msgid "Chat"
-msgstr "Keskustelu"
-
-msgid "Writer"
-msgstr "Kirjoittaja"
-
-msgid "Image generator"
-msgstr "Kuvageneraattori"
-
-msgid "Transcriber"
-msgstr "Puheen tekstitys"
-
-msgid "Voiceover"
-msgstr "Ääninäyttö"
-
-msgid "Voice isolator"
-msgstr "Äänen erottelija"
-
-msgid "Classifier"
-msgstr "Luokittelija"
-
-msgid "Access to templates is disabled"
-msgstr "Pääsy malleihin on poistettu käytöstä"
-
-msgid "Access to all templates"
-msgstr "Pääsy kaikkiin malleihin"
-
-msgid "Priority support"
-msgstr "Prioriteettituki"
-
-msgid "Basic support"
-msgstr "Perustuki"
-
-msgctxt "heading"
-msgid "Pricing"
-msgstr ""
-
-msgctxt "button"
-msgid "Monthly"
-msgstr "Kuukausittain"
-
-msgctxt "button"
-msgid "Yearly"
-msgstr "Vuosittain"
-
-msgctxt "button"
-msgid "Packs"
-msgstr "Paketit"
-
-msgctxt "button"
-msgid "Lifetime Deals"
-msgstr "Elinikäiset tarjoukset"
-
-msgctxt "button"
-msgid "Get started"
-msgstr "Aloita"
-
-msgid "100+ AI Writer Templates"
-msgstr "Yli 100 tekoälykirjoittajan mallipohjaa"
-
-msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer\\'s block forever."
-msgstr "Kirjoita nopeasti, houkuttele kuuntelijasi ja sano hyvästi kiitos kirjoituskatkaisuun."
-
-msgctxt "heading"
-msgid "What can Writing Assistant create for you?"
-msgstr "Mitä Kirjoitusavustaja voi luoda sinulle?"
-
-msgctxt "button"
-msgid "Get Started for Free"
-msgstr "Aloita ilmaiseksi"
-
-msgid "AI Image"
-msgstr "AI-kuva"
-
-msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
-msgstr "Luo hienot kuvat nopeasti AI-kuvageneraattorin avulla - työkalusi käsityön innovaatioon."
-
-msgctxt "heading"
-msgid "Visualize what you dream of. Create images from text."
-msgstr "Visualisoi unelmasi. Luo kuvia tekstistä."
-
-msgctxt "button"
-msgid "Try for free"
-msgstr "Kokeile ilmaiseksi"
-
-msgid "Choose a our built in templates or create your own."
-msgstr "Valitse sisäänrakennetuista malleistamme tai luo oma."
-
-msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
-msgstr "Kirjoita muutama lause kuvailemaan aiheesi. Lisää avainsanat määrittämään tuotemerkki."
-
-msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
-msgstr "Napsauta \"Generoi\"-painiketta ja saa erilaisia kopioita, jotka muuttavat."
-
-msgctxt "heading"
-msgid "How it works"
-msgstr "Kuinka se toimii"
-
-msgctxt "heading"
-msgid "Choose Template"
-msgstr "Valitse malli"
-
-msgctxt "heading"
-msgid "Describe"
-msgstr "Kuvaile"
-
-msgctxt "heading"
-msgid "Generate"
-msgstr "Luo"
-
-msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
-msgstr "Luo helposti korkealaatuinen tekoälyn tuottama sisältö, joka sopii tarpeisiisi. Avaa rajoittamattomat mahdollisuudet, säästä aikaa ja aloita ansaitsemaan rahaa tänään!"
-
-msgctxt "heading"
-msgid "Transforming ideas into AI generated masterpieces"
-msgstr "Muutamme ideat tekoälyn luomiksi mestariteoksiksi"
-
-msgctxt "button"
-msgid "Go to app"
-msgstr "Siirry sovellukseen"
-
-msgctxt "button"
-msgid "Get started now"
-msgstr "Aloita nyt"
-
-msgctxt "button"
-msgid "Product"
-msgstr "Tuote"
-
-msgctxt "button"
-msgid "Featured"
-msgstr "Suositellut"
-
-msgctxt "button"
-msgid "Pricing"
-msgstr "Hinnoittelu"
-
-msgctxt "button"
-msgid "Library"
-msgstr "Kirjasto"
-
-msgctxt "button"
-msgid "Billing"
-msgstr "Laskutus"
-
-msgctxt "button"
-msgid "Account"
-msgstr "Tili"
-
-msgctxt "button"
-msgid "Logout"
-msgstr "Kirjaudu ulos"
-
-msgctxt "button"
-msgid "Login"
-msgstr "Kirjaudu sisään"
-
-msgctxt "heading"
-msgid "Meet your ultimate"
-msgstr "Tapaa paras"
-
-msgctxt "heading"
-msgid "AI-Powered Content Platform"
-msgstr "Tekoälyllä toimiva sisältöalusta"
-
-msgid "All rights reserved."
-msgstr "Kaikki oikeudet pidätetään."
-
-msgctxt "button"
-msgid "FAQ"
-msgstr "UKK"
-
-msgctxt "button"
-msgid "Terms of services"
-msgstr "Palveluehdot"
-
-msgctxt "button"
-msgid "Privacy policy"
-msgstr "Tietosuojakäytäntö"
-
-msgctxt "button"
-msgid "Refund policy"
-msgstr "Hyvityskäytäntö"
-
-msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
-msgstr "Kehitetty käyttämällä Domain-Driven Design- ja Onion Architecture -periaatteita."
-
-msgid "Built with modern technologies for best structure and get maximum performance."
-msgstr "Rakennettu nykyaikaisilla teknologioilla parhaalle rakenteeseen ja saavutuksen maksimiin."
-
-msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
-msgstr "Nauti helposta ja intuitiivisesta käyttöliittymästä, joka parantaa digitaalista kokemusta."
-
-msgid "Turn off the light and switch to dark mode your interface with one click."
-msgstr "Sammuta valo ja vaihda käyttöliittymäsi pimeään tilaan yhdellä napsautuksella."
-
-msgid "An all-inclusive learning package seamlessly integrated into our community."
-msgstr "Kaikki kattava oppimispaketti, joka on saumattomasti integroitu yhteisöömme."
-
-msgid "Simplify transactions and boost security with payment gateway solutions."
-msgstr "Yksinkertaista maksutapahtumat ja paranna turvallisuutta maksuväyläratkaisuilla."
-
-msgid "Unlock limitless creativity with our AI-powered content generator."
-msgstr "Avaa rajaton luovuus tekoälyllä toimivan sisällöntuottajamme avulla."
-
-msgid "Boost your visibility and reach your audience effectively with AI generated content."
-msgstr "Paranna näkyvyyttäsi ja saavuta kuuntelijasi tehokkaasti tekoälyn tuottamalla sisällöllä."
-
-msgid "Empower your insights and control with our cutting-edge dashboard."
-msgstr "Vahvista näkemyksiäsi ja hallintaasi huipputason hallintapaneelillamme."
-
-msgid "Transform your content creation with AI-driven custom templates."
-msgstr "Muuta sisällöntuotantosi tekoälypohjaisilla mukautetuilla malleilla."
-
-msgid "Use Facebook or Google accounts as an alternatively access to platform."
-msgstr "Käytä Facebook- tai Google-tilejä vaihtoehtoisena pääsynä alustalle."
-
-msgid "Our support team is available 24/7 to help you with any questions or concerns."
-msgstr "Meidän tukiteamme on saatavilla 24/7, jotta voit saada apua kaikkiin kysymyksiin tai huolenaiheisiin."
-
-msgctxt "heading"
-msgid "Coolest Features"
-msgstr "Siisteimmät ominaisuudet"
-
-msgctxt "heading"
-msgid "High Quality Code"
-msgstr "Korkealaatuinen koodi"
-
-msgctxt "heading"
-msgid "Modern Technologies"
-msgstr "Nykyaikaiset teknologiat"
-
-msgctxt "heading"
-msgid "Friendly UI and UX"
-msgstr "Ystävällinen käyttöliittymä ja käyttökokemus"
-
-msgctxt "heading"
-msgid "Dark Mode"
-msgstr "Tumma tila"
-
-msgctxt "heading"
-msgid "Documentation"
-msgstr "Dokumentaatio"
-
-msgctxt "heading"
-msgid "Payment Gateways"
-msgstr "Maksutavat"
-
-msgctxt "heading"
-msgid "AI Generator"
-msgstr "AI Generaattori"
-
-msgctxt "heading"
-msgid "SEO Friendly"
-msgstr "SEO Ystävällinen"
-
-msgctxt "heading"
-msgid "Advanced Dashboard"
-msgstr "Edistynyt Hallintapaneeli"
-
-msgctxt "heading"
-msgid "Custom Templates"
-msgstr "Mukautetut Mallit"
-
-msgctxt "heading"
-msgid "Login via SM Accounts"
-msgstr "Kirjaudu sisään SM-tileillä"
-
-msgctxt "heading"
-msgid "High Quality Support"
-msgstr "Korkealaatuinen Tuki"
-
-msgid "See how easy it can be to write amazing content."
-msgstr "Katso, kuinka helppoa on kirjoittaa upeaa sisältöä."
-
-msgctxt "heading"
-msgid "Ready to level-up?"
-msgstr "Valmis nousemaan uudelle tasolle?"
-
-msgctxt "button"
-msgid "Get Started Now"
-msgstr "Aloita Nyt"
-
+#: sections/code.twig:10
 msgid "AI Code"
 msgstr "AI-koodi"
 
-msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
-msgstr "Kirjoita koodia helposti tekoälyn avulla: Instant-ratkaisut ohjelmointiin."
-
+#: sections/code.twig:14
 msgctxt "heading"
 msgid "Ready to write code at the speed of light?"
 msgstr "Valmis kirjoittamaan koodia valonnopeudella?"
 
+#: sections/code.twig:18
+msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
+msgstr "Kirjoita koodia helposti tekoälyn avulla: Instant-ratkaisut ohjelmointiin."
+
+#: sections/code.twig:23
 msgctxt "button"
 msgid "Start Generate Code"
 msgstr "Aloita koodin generointi"
 
-msgid "AI Chat Bot"
-msgstr "AI-chatbotti"
-
-msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
-msgstr "Valitse vain asiantuntijasi ja keskustele ystävällisen chatbottin kanssa, jotta voit luoda ideoita, parantaa sisältöä tai jopa tuoda hymyn kasvosi."
-
+#: sections/cta.twig:3
 msgctxt "heading"
-msgid "That\\'s remarkably human-like and engaging..."
-msgstr "Se on hämmästyttävän ihmismäinen ja mukaansatempaava..."
+msgid "Ready to level-up?"
+msgstr "Valmis nousemaan uudelle tasolle?"
 
-msgid "Unlimited"
-msgstr "Rajoittamaton"
+#: sections/cta.twig:5
+msgid "See how easy it can be to write amazing content."
+msgstr "Katso, kuinka helppoa on kirjoittaa upeaa sisältöä."
+
+#: sections/cta.twig:10
+msgctxt "button"
+msgid "Get Started Now"
+msgstr "Aloita Nyt"
+
+#: sections/features.twig:3
+msgctxt "heading"
+msgid "Coolest Features"
+msgstr "Siisteimmät ominaisuudet"
+
+#: sections/features.twig:13
+msgctxt "heading"
+msgid "High Quality Code"
+msgstr "Korkealaatuinen koodi"
+
+#: sections/features.twig:16
+msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
+msgstr "Kehitetty käyttämällä Domain-Driven Design- ja Onion Architecture -periaatteita."
+
+#: sections/features.twig:26
+msgctxt "heading"
+msgid "Modern Technologies"
+msgstr "Nykyaikaiset teknologiat"
+
+#: sections/features.twig:29
+msgid "Built with modern technologies for best structure and get maximum performance."
+msgstr "Rakennettu nykyaikaisilla teknologioilla parhaalle rakenteeseen ja saavutuksen maksimiin."
+
+#: sections/features.twig:39
+msgctxt "heading"
+msgid "Friendly UI and UX"
+msgstr "Ystävällinen käyttöliittymä ja käyttökokemus"
+
+#: sections/features.twig:42
+msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
+msgstr "Nauti helposta ja intuitiivisesta käyttöliittymästä, joka parantaa digitaalista kokemusta."
+
+#: sections/features.twig:52
+msgctxt "heading"
+msgid "Dark Mode"
+msgstr "Tumma tila"
+
+#: sections/features.twig:55
+msgid "Turn off the light and switch to dark mode your interface with one click."
+msgstr "Sammuta valo ja vaihda käyttöliittymäsi pimeään tilaan yhdellä napsautuksella."
+
+#: sections/features.twig:65
+msgctxt "heading"
+msgid "Documentation"
+msgstr "Dokumentaatio"
+
+#: sections/features.twig:68
+msgid "An all-inclusive learning package seamlessly integrated into our community."
+msgstr "Kaikki kattava oppimispaketti, joka on saumattomasti integroitu yhteisöömme."
+
+#: sections/features.twig:78
+msgctxt "heading"
+msgid "Payment Gateways"
+msgstr "Maksutavat"
+
+#: sections/features.twig:81
+msgid "Simplify transactions and boost security with payment gateway solutions."
+msgstr "Yksinkertaista maksutapahtumat ja paranna turvallisuutta maksuväyläratkaisuilla."
+
+#: sections/features.twig:91
+msgctxt "heading"
+msgid "AI Generator"
+msgstr "AI Generaattori"
+
+#: sections/features.twig:94
+msgid "Unlock limitless creativity with our AI-powered content generator."
+msgstr "Avaa rajaton luovuus tekoälyllä toimivan sisällöntuottajamme avulla."
+
+#: sections/features.twig:104
+msgctxt "heading"
+msgid "SEO Friendly"
+msgstr "SEO Ystävällinen"
+
+#: sections/features.twig:107
+msgid "Boost your visibility and reach your audience effectively with AI generated content."
+msgstr "Paranna näkyvyyttäsi ja saavuta kuuntelijasi tehokkaasti tekoälyn tuottamalla sisällöllä."
+
+#: sections/features.twig:117
+msgctxt "heading"
+msgid "Advanced Dashboard"
+msgstr "Edistynyt Hallintapaneeli"
+
+#: sections/features.twig:120
+msgid "Empower your insights and control with our cutting-edge dashboard."
+msgstr "Vahvista näkemyksiäsi ja hallintaasi huipputason hallintapaneelillamme."
+
+#: sections/features.twig:130
+msgctxt "heading"
+msgid "Custom Templates"
+msgstr "Mukautetut Mallit"
+
+#: sections/features.twig:133
+msgid "Transform your content creation with AI-driven custom templates."
+msgstr "Muuta sisällöntuotantosi tekoälypohjaisilla mukautetuilla malleilla."
+
+#: sections/features.twig:144
+msgctxt "heading"
+msgid "Login via SM Accounts"
+msgstr "Kirjaudu sisään SM-tileillä"
+
+#: sections/features.twig:147
+msgid "Use Facebook or Google accounts as an alternatively access to platform."
+msgstr "Käytä Facebook- tai Google-tilejä vaihtoehtoisena pääsynä alustalle."
+
+#: sections/features.twig:157
+msgctxt "heading"
+msgid "High Quality Support"
+msgstr "Korkealaatuinen Tuki"
+
+#: sections/features.twig:160
+msgid "Our support team is available 24/7 to help you with any questions or concerns."
+msgstr "Meidän tukiteamme on saatavilla 24/7, jotta voit saada apua kaikkiin kysymyksiin tai huolenaiheisiin."
+
+#: sections/footer.twig:4
+msgid "All rights reserved."
+msgstr "Kaikki oikeudet pidätetään."
+
+#: sections/footer.twig:42
+#: sections/header.twig:19
+msgctxt "button"
+msgid "Product"
+msgstr "Tuote"
+
+#: sections/footer.twig:46
+#: sections/header.twig:33
+msgctxt "button"
+msgid "Pricing"
+msgstr "Hinnoittelu"
+
+#: sections/footer.twig:50
+msgctxt "button"
+msgid "FAQ"
+msgstr "UKK"
+
+#: sections/footer.twig:57
+msgctxt "button"
+msgid "Terms of services"
+msgstr "Palveluehdot"
+
+#: sections/footer.twig:63
+msgctxt "button"
+msgid "Privacy policy"
+msgstr "Tietosuojakäytäntö"
+
+#: sections/footer.twig:69
+msgctxt "button"
+msgid "Refund policy"
+msgstr "Hyvityskäytäntö"
+
+#: sections/generators.twig:3
+msgctxt "heading"
+msgid "Meet your ultimate"
+msgstr "Tapaa paras"
+
+#: sections/generators.twig:6
+msgctxt "heading"
+msgid "AI-Powered Content Platform"
+msgstr "Tekoälyllä toimiva sisältöalusta"
+
+#: sections/header.twig:26
+msgctxt "button"
+msgid "Featured"
+msgstr "Suositellut"
+
+#: sections/header.twig:111
+#: sections/hero.twig:13
+msgctxt "button"
+msgid "Go to app"
+msgstr "Siirry sovellukseen"
+
+#: sections/header.twig:123
+msgctxt "button"
+msgid "Library"
+msgstr "Kirjasto"
+
+#: sections/header.twig:131
+msgctxt "button"
+msgid "Billing"
+msgstr "Laskutus"
+
+#: sections/header.twig:143
+msgctxt "button"
+msgid "Account"
+msgstr "Tili"
+
+#: sections/header.twig:151
+msgctxt "button"
+msgid "Logout"
+msgstr "Kirjaudu ulos"
+
+#: sections/header.twig:191
+msgctxt "button"
+msgid "Login"
+msgstr "Kirjaudu sisään"
+
+#: sections/header.twig:196
+#: sections/pricing.twig:102
+msgctxt "button"
+msgid "Get started"
+msgstr "Aloita"
+
+#: sections/hero.twig:3
+msgctxt "heading"
+msgid "Transforming ideas into AI generated masterpieces"
+msgstr "Muutamme ideat tekoälyn luomiksi mestariteoksiksi"
+
+#: sections/hero.twig:7
+msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
+msgstr "Luo helposti korkealaatuinen tekoälyn tuottama sisältö, joka sopii tarpeisiisi. Avaa rajoittamattomat mahdollisuudet, säästä aikaa ja aloita ansaitsemaan rahaa tänään!"
+
+#: sections/hero.twig:19
+msgctxt "button"
+msgid "Get started now"
+msgstr "Aloita nyt"
+
+#: sections/how-it-works.twig:3
+msgctxt "heading"
+msgid "How it works"
+msgstr "Kuinka se toimii"
+
+#: sections/how-it-works.twig:13
+msgctxt "heading"
+msgid "Choose Template"
+msgstr "Valitse malli"
+
+#: sections/how-it-works.twig:16
+msgid "Choose a our built in templates or create your own."
+msgstr "Valitse sisäänrakennetuista malleistamme tai luo oma."
+
+#: sections/how-it-works.twig:26
+msgctxt "heading"
+msgid "Describe"
+msgstr "Kuvaile"
+
+#: sections/how-it-works.twig:29
+msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
+msgstr "Kirjoita muutama lause kuvailemaan aiheesi. Lisää avainsanat määrittämään tuotemerkki."
+
+#: sections/how-it-works.twig:39
+msgctxt "heading"
+msgid "Generate"
+msgstr "Luo"
+
+#: sections/how-it-works.twig:42
+msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
+msgstr "Napsauta \"Generoi\"-painiketta ja saa erilaisia kopioita, jotka muuttavat."
+
+#: sections/image.twig:5
+msgid "AI Image"
+msgstr "AI-kuva"
+
+#: sections/image.twig:9
+msgctxt "heading"
+msgid "Visualize what you dream of. Create images from text."
+msgstr "Visualisoi unelmasi. Luo kuvia tekstistä."
+
+#: sections/image.twig:13
+msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
+msgstr "Luo hienot kuvat nopeasti AI-kuvageneraattorin avulla - työkalusi käsityön innovaatioon."
+
+#: sections/image.twig:18
+msgctxt "button"
+msgid "Try for free"
+msgstr "Kokeile ilmaiseksi"
+
+#: sections/presets.twig:9
+msgid "100+ AI Writer Templates"
+msgstr "Yli 100 tekoälykirjoittajan mallipohjaa"
+
+#: sections/presets.twig:14
+msgctxt "heading"
+msgid "What can Writing Assistant create for you?"
+msgstr "Mitä Kirjoitusavustaja voi luoda sinulle?"
+
+#: sections/presets.twig:18
+msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer's block forever."
+msgstr "Kirjoita uskomattomalla nopeudella, vangitse yleisösi ja jätä hyvästit kirjoittajan blokille ikuisesti."
+
+#: sections/presets.twig:23
+msgctxt "button"
+msgid "Get Started for Free"
+msgstr "Aloita ilmaiseksi"
+
+#: sections/pricing.twig:3
+msgctxt "heading"
+msgid "Pricing"
+msgstr "Hinnoittelu"
+
+#: sections/pricing.twig:6
+msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
+msgstr "Löydä täydellinen suunnitelma, joka sopii tarpeisiisi ja avaa maailman mahdollisuuksia."
+
+#: sections/pricing.twig:19
+msgctxt "button"
+msgid "Monthly"
+msgstr "Kuukausittain"
+
+#: sections/pricing.twig:28
+msgctxt "button"
+msgid "Yearly"
+msgstr "Vuosittain"
+
+#: sections/pricing.twig:37
+msgctxt "button"
+msgid "Packs"
+msgstr "Paketit"
+
+#: sections/pricing.twig:46
+msgctxt "button"
+msgid "Lifetime Deals"
+msgstr "Elinikäiset tarjoukset"
+
+#: sections/pricing.twig:78
+msgid "Most Popular"
+msgstr "Suosituin"
+
+#: sections/pricing.twig:115
+msgid "Chat"
+msgstr "Keskustelu"
+
+#: sections/pricing.twig:134
+msgid "Writer"
+msgstr "Kirjoittaja"
+
+#: sections/pricing.twig:153
+msgid "Image generator"
+msgstr "Kuvageneraattori"
+
+#: sections/pricing.twig:166
+msgid "Transcriber"
+msgstr "Puheen tekstitys"
+
+#: sections/pricing.twig:179
+msgid "Voiceover"
+msgstr "Ääninäyttö"
+
+#: sections/pricing.twig:192
+msgid "Voice isolator"
+msgstr "Äänen erottelija"
+
+#: sections/pricing.twig:205
+msgid "Classifier"
+msgstr "Luokittelija"
+
+#: sections/pricing.twig:213
+msgid "Access to templates is disabled"
+msgstr "Pääsy malleihin on poistettu käytöstä"
+
+#: sections/pricing.twig:216
+msgid "Access to all templates"
+msgstr "Pääsy kaikkiin malleihin"
+
+#: sections/pricing.twig:232
+msgid "Priority support"
+msgstr "Prioriteettituki"
+
+#: sections/pricing.twig:235
+msgid "Basic support"
+msgstr "Perustuki"
+
+#: sections/speech-to-text.twig:4
+msgid "Speech to Text"
+msgstr "Puhe tekstiksi"
+
+#: sections/speech-to-text.twig:8
+msgctxt "heading"
+msgid "Transforming Spoken <br> Words into Text."
+msgstr "Muuntaa puhuttu <br> sana tekstiksi."
+
+#: sections/speech-to-text.twig:12
+msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
+msgstr "Käännä puhuttu sana tekstiksi nopeammin tuotannon ja saavutettavuuden parantamiseksi."
+
+#: sections/speech-to-text.twig:17
+msgctxt "button"
+msgid "Convert now"
+msgstr "Muunna nyt"
+
+#: sections/text-to-voice.twig:4
+msgid "Text to Voice"
+msgstr "Teksti puheeksi"
+
+#: sections/text-to-voice.twig:8
+msgctxt "heading"
+msgid "Convert your texts into <br> Lifelike Speech"
+msgstr "Muuta tekstisi <br> elävän kuuloiseksi puheeksi"
+
+#: sections/text-to-voice.twig:12
+msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
+msgstr "Nouse sisällön laatua ilmaisella kuvauksella: Löydä teksti puheeksi -parannus."
+
+#: sections/video.twig:11
+msgid "Video"
+msgstr "Video"
+
+#: sections/video.twig:15
+msgctxt "heading"
+msgid "Generate high-quality videos using AI Video generation tool."
+msgstr "Luo korkealaatuisia videoita tekoälypohjaisella videotuotantotyökalulla."
+
+#: sections/video.twig:19
+msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
+msgstr "Ei vaadi videoeditointitaitoja – lataa vain kuvasi ja kirjoita muutama kehotteen rivi, siinä kaikki."
+
+#: sections/writer.twig:22
+msgid "AI Writer"
+msgstr "AI-kirjoittaja"
+
+#: sections/writer.twig:26
+msgctxt "heading"
+msgid "Write SEO optimized blogs, sales emails and more..."
+msgstr "Kirjoita SEO-optimoituja blogeja, myyntisähköposteja ja muuta..."
+
+#: sections/writer.twig:30
+msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
+msgstr "Saavuta parhaat tulokset nopeammin. Viimein, kirjoitusväline, jota todella käytät."
+
+#: sections/writer.twig:35
+msgctxt "button"
+msgid "See all features"
+msgstr "Näytä kaikki ominaisuudet"

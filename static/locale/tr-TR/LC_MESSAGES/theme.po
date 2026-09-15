@@ -1,382 +1,484 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Theme Translations\n"
-"Report-Msgid-Bugs-To: \n"
-"Last-Translator: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Language: tr-TR\n"
 "Language-Team: \n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Project-Id-Version: Theme Translations\n"
+"Report-Msgid-Bugs-To: \n"
 "X-Domain: theme\n"
 
-msgid "AI Writer"
-msgstr "Yapay Zeka Yazarı"
+#: sections/chat.twig:11
+msgid "AI Chat Bot"
+msgstr "Yapay Zeka Sohbet Botu"
 
-msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
-msgstr "Üstün sonuçları bir kısım zamanda elde edin. Sonunda, gerçekten kullanacağınız bir yazma aracı."
-
+#: sections/chat.twig:15
 msgctxt "heading"
-msgid "Write SEO optimized blogs, sales emails and more..."
-msgstr "SEO uyumlu bloglar, satış e-postaları ve daha fazlasını yazın..."
+msgid "That's remarkably human-like and engaging..."
+msgstr "Bu inanılmaz derecede insana benziyor ve etkileyici..."
 
-msgctxt "button"
-msgid "See all features"
-msgstr "Tüm özellikleri gör"
+#: sections/chat.twig:19
+msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
+msgstr "Sadece asistanınızı seçin ve dost bir sohbet botu ile birlikte etkileşime geçin, fikirler oluşturun, içeriklerinizi geliştirin ve hatta yüzünüze gülüş getirin."
 
-msgid "Video"
-msgstr ""
-
-msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
-msgstr ""
-
-msgctxt "heading"
-msgid "Generate high-quality videos using AI Video generation tool."
-msgstr ""
-
+#: sections/chat.twig:24
+#: sections/video.twig:24
 msgctxt "button"
 msgid "Try now"
 msgstr "Şimdi dene"
 
-msgid "Text to Voice"
-msgstr "Metinden Sese"
-
-msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
-msgstr "İçeriklerinizi ifade edici anlatımla yükseltin: Metinden Sese Mükemmeliğini Keşfedin."
-
-msgctxt "heading"
-msgid "Convert your texts into <br> Lifelike Speech"
-msgstr "Metinlerinizi <br> Gerçekçi Konuşmaya dönüştürün"
-
-msgid "Speech to Text"
-msgstr "Sesten Metne"
-
-msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
-msgstr "Hemen Konuşulan Kelimeleri Metne Dönüştürün, Üretkenlik ve Erişilebilirlik Artırın."
-
-msgctxt "heading"
-msgid "Transforming Spoken <br> Words into Text."
-msgstr "Konuşulan <br> Kelimeleri Metne Dönüştürme."
-
-msgctxt "button"
-msgid "Convert now"
-msgstr "Şimdi dönüştür"
-
-msgid ":count credits"
-msgstr ":count kredi"
-
-msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
-msgstr "İhtiyaçlarınıza uygun mükemmel planı keşfedin ve mümkün olduğunca fazla fırsatı açın."
-
-msgid "Most Popular"
-msgstr "En Popüler"
-
-msgid "Chat"
-msgstr "Sohbet"
-
-msgid "Writer"
-msgstr "Yazar"
-
-msgid "Image generator"
-msgstr "Görüntü oluşturucu"
-
-msgid "Transcriber"
-msgstr "Transkriptör"
-
-msgid "Voiceover"
-msgstr "Seslendirme"
-
-msgid "Voice isolator"
-msgstr "Ses izolatörü"
-
-msgid "Classifier"
-msgstr "Sınıflandırıcı"
-
-msgid "Access to templates is disabled"
-msgstr "Şablonlara erişim devre dışı bırakıldı"
-
-msgid "Access to all templates"
-msgstr "Tüm şablonlara erişim"
-
-msgid "Priority support"
-msgstr "Öncelikli destek"
-
-msgid "Basic support"
-msgstr "Temel destek"
-
-msgctxt "heading"
-msgid "Pricing"
-msgstr ""
-
-msgctxt "button"
-msgid "Monthly"
-msgstr "Aylık"
-
-msgctxt "button"
-msgid "Yearly"
-msgstr "Yıllık"
-
-msgctxt "button"
-msgid "Packs"
-msgstr "Paketler"
-
-msgctxt "button"
-msgid "Lifetime Deals"
-msgstr "Ömür Boyu Fırsatlar"
-
-msgctxt "button"
-msgid "Get started"
-msgstr "Başlayın"
-
-msgid "100+ AI Writer Templates"
-msgstr "100+ AI Yazı Şablonu"
-
-msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer\\'s block forever."
-msgstr "Harika hızda yazın, seyircinizi çekin ve yazıcı blokunu asla unutun."
-
-msgctxt "heading"
-msgid "What can Writing Assistant create for you?"
-msgstr "Yazma Asistanı sizin için ne oluşturabilir?"
-
-msgctxt "button"
-msgid "Get Started for Free"
-msgstr "Ücretsiz Başlayın"
-
-msgid "AI Image"
-msgstr "Yapay Zeka Görseli"
-
-msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
-msgstr "Harika görseller oluşturmak için AI Görüntü Oluşturucu'yu hemen kullanın - sanatsal yenilik için araç."
-
-msgctxt "heading"
-msgid "Visualize what you dream of. Create images from text."
-msgstr "Hayal ettiklerinizi görselleştirin. Metinden görseller oluşturun."
-
-msgctxt "button"
-msgid "Try for free"
-msgstr "Ücretsiz deneyin"
-
-msgid "Choose a our built in templates or create your own."
-msgstr "Hazır şablonlarımızdan birini seçin veya kendi şablonunuzu oluşturun."
-
-msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
-msgstr "Konuyu açıklayan birkaç cümle girin. Markanız için belirlemek için anahtar kelimeler ekleyin."
-
-msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
-msgstr "\"Oluştur\" düğmesine tıklayın ve her seferinde farklı yüksek dönüşüm oranına sahip kopyalar alın."
-
-msgctxt "heading"
-msgid "How it works"
-msgstr "Nasıl çalışır"
-
-msgctxt "heading"
-msgid "Choose Template"
-msgstr "Şablon Seç"
-
-msgctxt "heading"
-msgid "Describe"
-msgstr "Tanımla"
-
-msgctxt "heading"
-msgid "Generate"
-msgstr "Oluştur"
-
-msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
-msgstr "Gereksiz zorluktan kurtulun ve ihtiyaçlarınıza uygun yüksek kaliteli yapay zeka içeriği oluşturun. Sınırsız fırsatları açın, zamanınızı kazanın ve bugün para kazanmaya başlayın!"
-
-msgctxt "heading"
-msgid "Transforming ideas into AI generated masterpieces"
-msgstr "Fikirleri yapay zeka tarafından oluşturulan başyapıtlara dönüştürmek"
-
-msgctxt "button"
-msgid "Go to app"
-msgstr "Uygulamaya git"
-
-msgctxt "button"
-msgid "Get started now"
-msgstr "Hemen başlayın"
-
-msgctxt "button"
-msgid "Product"
-msgstr "Ürün"
-
-msgctxt "button"
-msgid "Featured"
-msgstr "Öne çıkanlar"
-
-msgctxt "button"
-msgid "Pricing"
-msgstr "Fiyatlandırma"
-
-msgctxt "button"
-msgid "Library"
-msgstr "Kütüphane"
-
-msgctxt "button"
-msgid "Billing"
-msgstr "Faturalandırma"
-
-msgctxt "button"
-msgid "Account"
-msgstr "Hesap"
-
-msgctxt "button"
-msgid "Logout"
-msgstr "Çıkış yap"
-
-msgctxt "button"
-msgid "Login"
-msgstr "Giriş yap"
-
-msgctxt "heading"
-msgid "Meet your ultimate"
-msgstr "Nihai tanışmanız"
-
-msgctxt "heading"
-msgid "AI-Powered Content Platform"
-msgstr "Yapay Zeka Destekli İçerik Platformu"
-
-msgid "All rights reserved."
-msgstr "Tüm hakları saklıdır."
-
-msgctxt "button"
-msgid "FAQ"
-msgstr "SSS"
-
-msgctxt "button"
-msgid "Terms of services"
-msgstr "Hizmet Şartları"
-
-msgctxt "button"
-msgid "Privacy policy"
-msgstr "Gizlilik Politikası"
-
-msgctxt "button"
-msgid "Refund policy"
-msgstr "İade Politikası"
-
-msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
-msgstr "Alan Odaklı Tasarım ve Soğan Mimarisi İlkeleri Kullanılarak Geliştirilmiştir."
-
-msgid "Built with modern technologies for best structure and get maximum performance."
-msgstr "En iyi yapıyı ve maksimum performansı elde etmek için modern teknolojilerle oluşturulmuştur."
-
-msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
-msgstr "Hassas bir kullanıcı arayüzüyle rahat ve sezgisel bir deneyim sunuyoruz."
-
-msgid "Turn off the light and switch to dark mode your interface with one click."
-msgstr "Işığı kapatın ve arayüzünüzü tek tıklamayla karanlık moda geçirin."
-
-msgid "An all-inclusive learning package seamlessly integrated into our community."
-msgstr "Topluluğumuza sorunsuz bir şekilde entegre edilmiş kapsamlı bir öğrenme paketi."
-
-msgid "Simplify transactions and boost security with payment gateway solutions."
-msgstr "Ödeme geçidi çözümleri ile işlemleri basitleştirin ve güvenliği artırın."
-
-msgid "Unlock limitless creativity with our AI-powered content generator."
-msgstr "Yapay zeka destekli içerik oluşturucumuzla sınırsız yaratıcılığın kilidini açın."
-
-msgid "Boost your visibility and reach your audience effectively with AI generated content."
-msgstr "Yapay zeka destekli içeriklerle görünürlüğünüzü artırın ve sektörünüzdeki hedef kitlenize etkili bir şekilde ulaşın."
-
-msgid "Empower your insights and control with our cutting-edge dashboard."
-msgstr "En son teknoloji kontrol panelimizle içgörülerinizi güçlendirin ve kontrolü elinize alın."
-
-msgid "Transform your content creation with AI-driven custom templates."
-msgstr "Yapay zeka destekli özel şablonlarla içerik oluşturmanızı dönüştürün."
-
-msgid "Use Facebook or Google accounts as an alternatively access to platform."
-msgstr "Platforma alternatif erişim için Facebook veya Google hesaplarını kullanın."
-
-msgid "Our support team is available 24/7 to help you with any questions or concerns."
-msgstr "Destek ekibimiz 24/7 mevcut olarak herhangi bir sorunuz veya endişeniz için size yardımcı olmak için burada."
-
-msgctxt "heading"
-msgid "Coolest Features"
-msgstr "En Harika Özellikler"
-
-msgctxt "heading"
-msgid "High Quality Code"
-msgstr "Yüksek Kaliteli Kod"
-
-msgctxt "heading"
-msgid "Modern Technologies"
-msgstr "Modern Teknolojiler"
-
-msgctxt "heading"
-msgid "Friendly UI and UX"
-msgstr "Kullanıcı Dostu Arayüz ve Deneyim"
-
-msgctxt "heading"
-msgid "Dark Mode"
-msgstr "Karanlık Mod"
-
-msgctxt "heading"
-msgid "Documentation"
-msgstr "Dokümantasyon"
-
-msgctxt "heading"
-msgid "Payment Gateways"
-msgstr "Ödeme Ağ Geçitleri"
-
-msgctxt "heading"
-msgid "AI Generator"
-msgstr "Yapay Zeka Üreticisi"
-
-msgctxt "heading"
-msgid "SEO Friendly"
-msgstr "SEO Dostu"
-
-msgctxt "heading"
-msgid "Advanced Dashboard"
-msgstr "Gelişmiş Kontrol Paneli"
-
-msgctxt "heading"
-msgid "Custom Templates"
-msgstr "Özel Şablonlar"
-
-msgctxt "heading"
-msgid "Login via SM Accounts"
-msgstr "Sosyal Medya Hesapları ile Giriş"
-
-msgctxt "heading"
-msgid "High Quality Support"
-msgstr "Yüksek Kaliteli Destek"
-
-msgid "See how easy it can be to write amazing content."
-msgstr "Harika içerikler yazmanın ne kadar kolay olabileceğini görün."
-
-msgctxt "heading"
-msgid "Ready to level-up?"
-msgstr "Seviyeyi yükseltmeye hazır mısınız?"
-
-msgctxt "button"
-msgid "Get Started Now"
-msgstr "Hemen Başlayın"
-
+#: sections/code.twig:10
 msgid "AI Code"
 msgstr "Yapay Zeka Kodu"
 
-msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
-msgstr "Yapay zeka kod oluşturucu ile kolayca kod yazın: Programlama ihtiyaçlarınız için anında çözümler."
-
+#: sections/code.twig:14
 msgctxt "heading"
 msgid "Ready to write code at the speed of light?"
 msgstr "Işık hızıyla kod yazmaya hazır mısınız?"
 
+#: sections/code.twig:18
+msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
+msgstr "Yapay zeka kod oluşturucu ile kolayca kod yazın: Programlama ihtiyaçlarınız için anında çözümler."
+
+#: sections/code.twig:23
 msgctxt "button"
 msgid "Start Generate Code"
 msgstr "Kod Üretmeye Başla"
 
-msgid "AI Chat Bot"
-msgstr "Yapay Zeka Sohbet Botu"
-
-msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
-msgstr "Sadece asistanınızı seçin ve dost bir sohbet botu ile birlikte etkileşime geçin, fikirler oluşturun, içeriklerinizi geliştirin ve hatta yüzünüze gülüş getirin."
-
+#: sections/cta.twig:3
 msgctxt "heading"
-msgid "That\\'s remarkably human-like and engaging..."
-msgstr "Bu inanılmaz derecede insana benziyor ve etkileyici..."
+msgid "Ready to level-up?"
+msgstr "Seviyeyi yükseltmeye hazır mısınız?"
 
-msgid "Unlimited"
-msgstr "Sınırsız"
+#: sections/cta.twig:5
+msgid "See how easy it can be to write amazing content."
+msgstr "Harika içerikler yazmanın ne kadar kolay olabileceğini görün."
+
+#: sections/cta.twig:10
+msgctxt "button"
+msgid "Get Started Now"
+msgstr "Hemen Başlayın"
+
+#: sections/features.twig:3
+msgctxt "heading"
+msgid "Coolest Features"
+msgstr "En Harika Özellikler"
+
+#: sections/features.twig:13
+msgctxt "heading"
+msgid "High Quality Code"
+msgstr "Yüksek Kaliteli Kod"
+
+#: sections/features.twig:16
+msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
+msgstr "Alan Odaklı Tasarım ve Soğan Mimarisi İlkeleri Kullanılarak Geliştirilmiştir."
+
+#: sections/features.twig:26
+msgctxt "heading"
+msgid "Modern Technologies"
+msgstr "Modern Teknolojiler"
+
+#: sections/features.twig:29
+msgid "Built with modern technologies for best structure and get maximum performance."
+msgstr "En iyi yapıyı ve maksimum performansı elde etmek için modern teknolojilerle oluşturulmuştur."
+
+#: sections/features.twig:39
+msgctxt "heading"
+msgid "Friendly UI and UX"
+msgstr "Kullanıcı Dostu Arayüz ve Deneyim"
+
+#: sections/features.twig:42
+msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
+msgstr "Hassas bir kullanıcı arayüzüyle rahat ve sezgisel bir deneyim sunuyoruz."
+
+#: sections/features.twig:52
+msgctxt "heading"
+msgid "Dark Mode"
+msgstr "Karanlık Mod"
+
+#: sections/features.twig:55
+msgid "Turn off the light and switch to dark mode your interface with one click."
+msgstr "Işığı kapatın ve arayüzünüzü tek tıklamayla karanlık moda geçirin."
+
+#: sections/features.twig:65
+msgctxt "heading"
+msgid "Documentation"
+msgstr "Dokümantasyon"
+
+#: sections/features.twig:68
+msgid "An all-inclusive learning package seamlessly integrated into our community."
+msgstr "Topluluğumuza sorunsuz bir şekilde entegre edilmiş kapsamlı bir öğrenme paketi."
+
+#: sections/features.twig:78
+msgctxt "heading"
+msgid "Payment Gateways"
+msgstr "Ödeme Ağ Geçitleri"
+
+#: sections/features.twig:81
+msgid "Simplify transactions and boost security with payment gateway solutions."
+msgstr "Ödeme geçidi çözümleri ile işlemleri basitleştirin ve güvenliği artırın."
+
+#: sections/features.twig:91
+msgctxt "heading"
+msgid "AI Generator"
+msgstr "Yapay Zeka Üreticisi"
+
+#: sections/features.twig:94
+msgid "Unlock limitless creativity with our AI-powered content generator."
+msgstr "Yapay zeka destekli içerik oluşturucumuzla sınırsız yaratıcılığın kilidini açın."
+
+#: sections/features.twig:104
+msgctxt "heading"
+msgid "SEO Friendly"
+msgstr "SEO Dostu"
+
+#: sections/features.twig:107
+msgid "Boost your visibility and reach your audience effectively with AI generated content."
+msgstr "Yapay zeka destekli içeriklerle görünürlüğünüzü artırın ve sektörünüzdeki hedef kitlenize etkili bir şekilde ulaşın."
+
+#: sections/features.twig:117
+msgctxt "heading"
+msgid "Advanced Dashboard"
+msgstr "Gelişmiş Kontrol Paneli"
+
+#: sections/features.twig:120
+msgid "Empower your insights and control with our cutting-edge dashboard."
+msgstr "En son teknoloji kontrol panelimizle içgörülerinizi güçlendirin ve kontrolü elinize alın."
+
+#: sections/features.twig:130
+msgctxt "heading"
+msgid "Custom Templates"
+msgstr "Özel Şablonlar"
+
+#: sections/features.twig:133
+msgid "Transform your content creation with AI-driven custom templates."
+msgstr "Yapay zeka destekli özel şablonlarla içerik oluşturmanızı dönüştürün."
+
+#: sections/features.twig:144
+msgctxt "heading"
+msgid "Login via SM Accounts"
+msgstr "Sosyal Medya Hesapları ile Giriş"
+
+#: sections/features.twig:147
+msgid "Use Facebook or Google accounts as an alternatively access to platform."
+msgstr "Platforma alternatif erişim için Facebook veya Google hesaplarını kullanın."
+
+#: sections/features.twig:157
+msgctxt "heading"
+msgid "High Quality Support"
+msgstr "Yüksek Kaliteli Destek"
+
+#: sections/features.twig:160
+msgid "Our support team is available 24/7 to help you with any questions or concerns."
+msgstr "Destek ekibimiz 24/7 mevcut olarak herhangi bir sorunuz veya endişeniz için size yardımcı olmak için burada."
+
+#: sections/footer.twig:4
+msgid "All rights reserved."
+msgstr "Tüm hakları saklıdır."
+
+#: sections/footer.twig:42
+#: sections/header.twig:19
+msgctxt "button"
+msgid "Product"
+msgstr "Ürün"
+
+#: sections/footer.twig:46
+#: sections/header.twig:33
+msgctxt "button"
+msgid "Pricing"
+msgstr "Fiyatlandırma"
+
+#: sections/footer.twig:50
+msgctxt "button"
+msgid "FAQ"
+msgstr "SSS"
+
+#: sections/footer.twig:57
+msgctxt "button"
+msgid "Terms of services"
+msgstr "Hizmet Şartları"
+
+#: sections/footer.twig:63
+msgctxt "button"
+msgid "Privacy policy"
+msgstr "Gizlilik Politikası"
+
+#: sections/footer.twig:69
+msgctxt "button"
+msgid "Refund policy"
+msgstr "İade Politikası"
+
+#: sections/generators.twig:3
+msgctxt "heading"
+msgid "Meet your ultimate"
+msgstr "Nihai tanışmanız"
+
+#: sections/generators.twig:6
+msgctxt "heading"
+msgid "AI-Powered Content Platform"
+msgstr "Yapay Zeka Destekli İçerik Platformu"
+
+#: sections/header.twig:26
+msgctxt "button"
+msgid "Featured"
+msgstr "Öne çıkanlar"
+
+#: sections/header.twig:111
+#: sections/hero.twig:13
+msgctxt "button"
+msgid "Go to app"
+msgstr "Uygulamaya git"
+
+#: sections/header.twig:123
+msgctxt "button"
+msgid "Library"
+msgstr "Kütüphane"
+
+#: sections/header.twig:131
+msgctxt "button"
+msgid "Billing"
+msgstr "Faturalandırma"
+
+#: sections/header.twig:143
+msgctxt "button"
+msgid "Account"
+msgstr "Hesap"
+
+#: sections/header.twig:151
+msgctxt "button"
+msgid "Logout"
+msgstr "Çıkış yap"
+
+#: sections/header.twig:191
+msgctxt "button"
+msgid "Login"
+msgstr "Giriş yap"
+
+#: sections/header.twig:196
+#: sections/pricing.twig:102
+msgctxt "button"
+msgid "Get started"
+msgstr "Başlayın"
+
+#: sections/hero.twig:3
+msgctxt "heading"
+msgid "Transforming ideas into AI generated masterpieces"
+msgstr "Fikirleri yapay zeka tarafından oluşturulan başyapıtlara dönüştürmek"
+
+#: sections/hero.twig:7
+msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
+msgstr "Gereksiz zorluktan kurtulun ve ihtiyaçlarınıza uygun yüksek kaliteli yapay zeka içeriği oluşturun. Sınırsız fırsatları açın, zamanınızı kazanın ve bugün para kazanmaya başlayın!"
+
+#: sections/hero.twig:19
+msgctxt "button"
+msgid "Get started now"
+msgstr "Hemen başlayın"
+
+#: sections/how-it-works.twig:3
+msgctxt "heading"
+msgid "How it works"
+msgstr "Nasıl çalışır"
+
+#: sections/how-it-works.twig:13
+msgctxt "heading"
+msgid "Choose Template"
+msgstr "Şablon Seç"
+
+#: sections/how-it-works.twig:16
+msgid "Choose a our built in templates or create your own."
+msgstr "Hazır şablonlarımızdan birini seçin veya kendi şablonunuzu oluşturun."
+
+#: sections/how-it-works.twig:26
+msgctxt "heading"
+msgid "Describe"
+msgstr "Tanımla"
+
+#: sections/how-it-works.twig:29
+msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
+msgstr "Konuyu açıklayan birkaç cümle girin. Markanız için belirlemek için anahtar kelimeler ekleyin."
+
+#: sections/how-it-works.twig:39
+msgctxt "heading"
+msgid "Generate"
+msgstr "Oluştur"
+
+#: sections/how-it-works.twig:42
+msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
+msgstr "\"Oluştur\" düğmesine tıklayın ve her seferinde farklı yüksek dönüşüm oranına sahip kopyalar alın."
+
+#: sections/image.twig:5
+msgid "AI Image"
+msgstr "Yapay Zeka Görseli"
+
+#: sections/image.twig:9
+msgctxt "heading"
+msgid "Visualize what you dream of. Create images from text."
+msgstr "Hayal ettiklerinizi görselleştirin. Metinden görseller oluşturun."
+
+#: sections/image.twig:13
+msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
+msgstr "Harika görseller oluşturmak için AI Görüntü Oluşturucu'yu hemen kullanın - sanatsal yenilik için araç."
+
+#: sections/image.twig:18
+msgctxt "button"
+msgid "Try for free"
+msgstr "Ücretsiz deneyin"
+
+#: sections/presets.twig:9
+msgid "100+ AI Writer Templates"
+msgstr "100+ AI Yazı Şablonu"
+
+#: sections/presets.twig:14
+msgctxt "heading"
+msgid "What can Writing Assistant create for you?"
+msgstr "Yazma Asistanı sizin için ne oluşturabilir?"
+
+#: sections/presets.twig:18
+msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer's block forever."
+msgstr "Olağanüstü hızda yazın, izleyicilerinizi büyüleyin ve yazar tıkanıklığına sonsuza dek veda edin."
+
+#: sections/presets.twig:23
+msgctxt "button"
+msgid "Get Started for Free"
+msgstr "Ücretsiz Başlayın"
+
+#: sections/pricing.twig:3
+msgctxt "heading"
+msgid "Pricing"
+msgstr "Fiyatlandırma"
+
+#: sections/pricing.twig:6
+msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
+msgstr "İhtiyaçlarınıza uygun mükemmel planı keşfedin ve mümkün olduğunca fazla fırsatı açın."
+
+#: sections/pricing.twig:19
+msgctxt "button"
+msgid "Monthly"
+msgstr "Aylık"
+
+#: sections/pricing.twig:28
+msgctxt "button"
+msgid "Yearly"
+msgstr "Yıllık"
+
+#: sections/pricing.twig:37
+msgctxt "button"
+msgid "Packs"
+msgstr "Paketler"
+
+#: sections/pricing.twig:46
+msgctxt "button"
+msgid "Lifetime Deals"
+msgstr "Ömür Boyu Fırsatlar"
+
+#: sections/pricing.twig:78
+msgid "Most Popular"
+msgstr "En Popüler"
+
+#: sections/pricing.twig:115
+msgid "Chat"
+msgstr "Sohbet"
+
+#: sections/pricing.twig:134
+msgid "Writer"
+msgstr "Yazar"
+
+#: sections/pricing.twig:153
+msgid "Image generator"
+msgstr "Görüntü oluşturucu"
+
+#: sections/pricing.twig:166
+msgid "Transcriber"
+msgstr "Transkriptör"
+
+#: sections/pricing.twig:179
+msgid "Voiceover"
+msgstr "Seslendirme"
+
+#: sections/pricing.twig:192
+msgid "Voice isolator"
+msgstr "Ses izolatörü"
+
+#: sections/pricing.twig:205
+msgid "Classifier"
+msgstr "Sınıflandırıcı"
+
+#: sections/pricing.twig:213
+msgid "Access to templates is disabled"
+msgstr "Şablonlara erişim devre dışı bırakıldı"
+
+#: sections/pricing.twig:216
+msgid "Access to all templates"
+msgstr "Tüm şablonlara erişim"
+
+#: sections/pricing.twig:232
+msgid "Priority support"
+msgstr "Öncelikli destek"
+
+#: sections/pricing.twig:235
+msgid "Basic support"
+msgstr "Temel destek"
+
+#: sections/speech-to-text.twig:4
+msgid "Speech to Text"
+msgstr "Sesten Metne"
+
+#: sections/speech-to-text.twig:8
+msgctxt "heading"
+msgid "Transforming Spoken <br> Words into Text."
+msgstr "Konuşulan <br> Kelimeleri Metne Dönüştürme."
+
+#: sections/speech-to-text.twig:12
+msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
+msgstr "Hemen Konuşulan Kelimeleri Metne Dönüştürün, Üretkenlik ve Erişilebilirlik Artırın."
+
+#: sections/speech-to-text.twig:17
+msgctxt "button"
+msgid "Convert now"
+msgstr "Şimdi dönüştür"
+
+#: sections/text-to-voice.twig:4
+msgid "Text to Voice"
+msgstr "Metinden Sese"
+
+#: sections/text-to-voice.twig:8
+msgctxt "heading"
+msgid "Convert your texts into <br> Lifelike Speech"
+msgstr "Metinlerinizi <br> Gerçekçi Konuşmaya dönüştürün"
+
+#: sections/text-to-voice.twig:12
+msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
+msgstr "İçeriklerinizi ifade edici anlatımla yükseltin: Metinden Sese Mükemmeliğini Keşfedin."
+
+#: sections/video.twig:11
+msgid "Video"
+msgstr "Video"
+
+#: sections/video.twig:15
+msgctxt "heading"
+msgid "Generate high-quality videos using AI Video generation tool."
+msgstr "Yapay Zeka Video oluşturma aracıyla yüksek kaliteli videolar oluşturun."
+
+#: sections/video.twig:19
+msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
+msgstr "Video düzenleme becerisi gerekmez - sadece resimlerinizi yükleyin ve birkaç satır komut girin, hepsi bu."
+
+#: sections/writer.twig:22
+msgid "AI Writer"
+msgstr "Yapay Zeka Yazarı"
+
+#: sections/writer.twig:26
+msgctxt "heading"
+msgid "Write SEO optimized blogs, sales emails and more..."
+msgstr "SEO uyumlu bloglar, satış e-postaları ve daha fazlasını yazın..."
+
+#: sections/writer.twig:30
+msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
+msgstr "Üstün sonuçları bir kısım zamanda elde edin. Sonunda, gerçekten kullanacağınız bir yazma aracı."
+
+#: sections/writer.twig:35
+msgctxt "button"
+msgid "See all features"
+msgstr "Tüm özellikleri gör"

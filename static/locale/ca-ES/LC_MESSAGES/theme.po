@@ -1,382 +1,484 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Theme Translations\n"
-"Report-Msgid-Bugs-To: \n"
-"Last-Translator: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Language: ca-ES\n"
 "Language-Team: \n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Theme Translations\n"
+"Report-Msgid-Bugs-To: \n"
 "X-Domain: theme\n"
 
-msgid "AI Writer"
-msgstr "Escriptor IA"
+#: sections/chat.twig:11
+msgid "AI Chat Bot"
+msgstr "Bot de xat AI"
 
-msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
-msgstr "Aconsegueix resultats superiors en una fracció de temps. Finalment, una eina de redacció que realment utilitzes."
-
+#: sections/chat.twig:15
 msgctxt "heading"
-msgid "Write SEO optimized blogs, sales emails and more..."
-msgstr "Escriu blogs optimitzats per SEO, correus de venda i més..."
+msgid "That's remarkably human-like and engaging..."
+msgstr "Això és sorprenentment humà i captivador..."
 
-msgctxt "button"
-msgid "See all features"
-msgstr "Veure totes les funcions"
+#: sections/chat.twig:19
+msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
+msgstr "Simplement tria el teu assistent i interactua amb un bot de xat amigable per generar idees, enriquir el teu contingut o fins i tot portar una sonrisa al teu rostre."
 
-msgid "Video"
-msgstr ""
-
-msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
-msgstr ""
-
-msgctxt "heading"
-msgid "Generate high-quality videos using AI Video generation tool."
-msgstr ""
-
+#: sections/chat.twig:24
+#: sections/video.twig:24
 msgctxt "button"
 msgid "Try now"
 msgstr "Prova-ho ara"
 
-msgid "Text to Voice"
-msgstr "Text a Veu"
-
-msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
-msgstr "Eleva el teu contingut amb narració expressiva: Descobreix l'excel·lència del Text a Veu."
-
-msgctxt "heading"
-msgid "Convert your texts into <br> Lifelike Speech"
-msgstr "Converteix els teus textos en <br> Veu realista"
-
-msgid "Speech to Text"
-msgstr "Veu a Text"
-
-msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
-msgstr "Transcriu instantàniament paraules parlades en text per a una major productivitat i accesibilitat."
-
-msgctxt "heading"
-msgid "Transforming Spoken <br> Words into Text."
-msgstr "Transformant paraules <br> parlades en text."
-
-msgctxt "button"
-msgid "Convert now"
-msgstr "Converteix ara"
-
-msgid ":count credits"
-msgstr ":count crèdits"
-
-msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
-msgstr "Descobreix el pla perfecte per a les teves necessitats i desbloqueja un món de possibilitats."
-
-msgid "Most Popular"
-msgstr "Més popular"
-
-msgid "Chat"
-msgstr "Xat"
-
-msgid "Writer"
-msgstr "Escriptor"
-
-msgid "Image generator"
-msgstr "Generador d’imatges"
-
-msgid "Transcriber"
-msgstr "Transcriptor"
-
-msgid "Voiceover"
-msgstr "Locució"
-
-msgid "Voice isolator"
-msgstr "Aïllador de veu"
-
-msgid "Classifier"
-msgstr "Classificador"
-
-msgid "Access to templates is disabled"
-msgstr "L’accés a les plantilles està desactivat"
-
-msgid "Access to all templates"
-msgstr "Accés a totes les plantilles"
-
-msgid "Priority support"
-msgstr "Suport prioritari"
-
-msgid "Basic support"
-msgstr "Suport bàsic"
-
-msgctxt "heading"
-msgid "Pricing"
-msgstr ""
-
-msgctxt "button"
-msgid "Monthly"
-msgstr "Mensual"
-
-msgctxt "button"
-msgid "Yearly"
-msgstr "Anual"
-
-msgctxt "button"
-msgid "Packs"
-msgstr "Packs"
-
-msgctxt "button"
-msgid "Lifetime Deals"
-msgstr "Ofertes de per vida"
-
-msgctxt "button"
-msgid "Get started"
-msgstr "Comença"
-
-msgid "100+ AI Writer Templates"
-msgstr "Més de 100 plantilles d'escriptor d'IA"
-
-msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer\\'s block forever."
-msgstr "Escriu amb una velocitat impressionant, captiva el teu públic i digues adéu per sempre al bloqueig d'escriptura."
-
-msgctxt "heading"
-msgid "What can Writing Assistant create for you?"
-msgstr "Què pot crear per a tu l'Assistent d'Escriptura?"
-
-msgctxt "button"
-msgid "Get Started for Free"
-msgstr "Comença gratis"
-
-msgid "AI Image"
-msgstr "Imatge AI"
-
-msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
-msgstr "Crea imatges impressionants instantàniament utilitzant el Generador d'Imatges IA - la teva eina per a la innovació artística."
-
-msgctxt "heading"
-msgid "Visualize what you dream of. Create images from text."
-msgstr "Visualitza allò que somies. Crea imatges a partir de text."
-
-msgctxt "button"
-msgid "Try for free"
-msgstr "Prova-ho gratis"
-
-msgid "Choose a our built in templates or create your own."
-msgstr "Tria una de les nostres plantilles integrades o crea la teva pròpia."
-
-msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
-msgstr "Introdueix unes quantes frases per descriure el teu tema. Afegeix paraules clau per especificar-les per a la teva marca."
-
-msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
-msgstr "Clica el botó \"Generar\" i obté una varietat de còpies de conversió alt per cada vegada."
-
-msgctxt "heading"
-msgid "How it works"
-msgstr "Com funciona"
-
-msgctxt "heading"
-msgid "Choose Template"
-msgstr "Tria plantilla"
-
-msgctxt "heading"
-msgid "Describe"
-msgstr "Descriu"
-
-msgctxt "heading"
-msgid "Generate"
-msgstr "Genera"
-
-msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
-msgstr "Genera fàcilment contingut d'alta qualitat impulsat per IA a les teves necessitats. Desbloqueja possibilitats il·limitades, estalvia el teu temps i comença a guanyar diners avui mateix!"
-
-msgctxt "heading"
-msgid "Transforming ideas into AI generated masterpieces"
-msgstr "Transformant idees en obres mestres generades per IA"
-
-msgctxt "button"
-msgid "Go to app"
-msgstr "Vés a l'aplicació"
-
-msgctxt "button"
-msgid "Get started now"
-msgstr "Comença ara"
-
-msgctxt "button"
-msgid "Product"
-msgstr "Producte"
-
-msgctxt "button"
-msgid "Featured"
-msgstr "Destacats"
-
-msgctxt "button"
-msgid "Pricing"
-msgstr "Preus"
-
-msgctxt "button"
-msgid "Library"
-msgstr "Biblioteca"
-
-msgctxt "button"
-msgid "Billing"
-msgstr "Facturació"
-
-msgctxt "button"
-msgid "Account"
-msgstr "Compte"
-
-msgctxt "button"
-msgid "Logout"
-msgstr "Tancar sessió"
-
-msgctxt "button"
-msgid "Login"
-msgstr "Iniciar sessió"
-
-msgctxt "heading"
-msgid "Meet your ultimate"
-msgstr "Coneix el teu definitiu"
-
-msgctxt "heading"
-msgid "AI-Powered Content Platform"
-msgstr "Plataforma de contingut impulsada per IA"
-
-msgid "All rights reserved."
-msgstr "Tots els drets reservats."
-
-msgctxt "button"
-msgid "FAQ"
-msgstr "Preguntes freqüents"
-
-msgctxt "button"
-msgid "Terms of services"
-msgstr "Termes de servei"
-
-msgctxt "button"
-msgid "Privacy policy"
-msgstr "Política de privacitat"
-
-msgctxt "button"
-msgid "Refund policy"
-msgstr "Política de reemborsament"
-
-msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
-msgstr "Desenvolupat utilitzant Disseny Dirigit pel Domini i Principis d'Arquitectura Cebolla."
-
-msgid "Built with modern technologies for best structure and get maximum performance."
-msgstr "Construit amb tecnologies modernes per a la millor estructura i obté el màxim rendiment."
-
-msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
-msgstr "Disfruta d'una interfície d'usuari sense complicacions i intuïtiva que enriqueix la teva experiència digital."
-
-msgid "Turn off the light and switch to dark mode your interface with one click."
-msgstr "Apaga la llum i canvia la teva interfície a mode fosc amb un clic."
-
-msgid "An all-inclusive learning package seamlessly integrated into our community."
-msgstr "Un paquet d'aprenentatge tot inclòs integrat perfectament a la nostra comunitat."
-
-msgid "Simplify transactions and boost security with payment gateway solutions."
-msgstr "Simplifica les transaccions i augmenta la seguretat amb solucions de passarel·la de pagament."
-
-msgid "Unlock limitless creativity with our AI-powered content generator."
-msgstr "Desbloqueja una creativitat il·limitada amb el nostre generador de contingut impulsat per IA."
-
-msgid "Boost your visibility and reach your audience effectively with AI generated content."
-msgstr "Augmenta la teva visibilitat i aconsegueix el teu públic de manera efectiva amb contingut generat per IA."
-
-msgid "Empower your insights and control with our cutting-edge dashboard."
-msgstr "Potencia les teves idees i control amb el nostre tauler d'avantguarda."
-
-msgid "Transform your content creation with AI-driven custom templates."
-msgstr "Transforma la creació de contingut amb plantilles personalitzades impulsades per IA."
-
-msgid "Use Facebook or Google accounts as an alternatively access to platform."
-msgstr "Utilitza comptes de Facebook o Google com a accés alternatiu a la plataforma."
-
-msgid "Our support team is available 24/7 to help you with any questions or concerns."
-msgstr "El nostre equip de suport està disponible 24/7 per ajudar-vos amb qualsevol pregunta o preocupació."
-
-msgctxt "heading"
-msgid "Coolest Features"
-msgstr "Característiques més genials"
-
-msgctxt "heading"
-msgid "High Quality Code"
-msgstr "Codi d'alta qualitat"
-
-msgctxt "heading"
-msgid "Modern Technologies"
-msgstr "Tecnologies modernes"
-
-msgctxt "heading"
-msgid "Friendly UI and UX"
-msgstr "UI i UX amigables"
-
-msgctxt "heading"
-msgid "Dark Mode"
-msgstr "Mode fosc"
-
-msgctxt "heading"
-msgid "Documentation"
-msgstr "Documentació"
-
-msgctxt "heading"
-msgid "Payment Gateways"
-msgstr "Passarel·les de Pagament"
-
-msgctxt "heading"
-msgid "AI Generator"
-msgstr "Generador d'IA"
-
-msgctxt "heading"
-msgid "SEO Friendly"
-msgstr "Optimitzat per SEO"
-
-msgctxt "heading"
-msgid "Advanced Dashboard"
-msgstr "Tauler Avançat"
-
-msgctxt "heading"
-msgid "Custom Templates"
-msgstr "Plantilles Personalitzades"
-
-msgctxt "heading"
-msgid "Login via SM Accounts"
-msgstr "Inicia sessió amb Comptes de Xarxes Socials"
-
-msgctxt "heading"
-msgid "High Quality Support"
-msgstr "Suport d'Alta Qualitat"
-
-msgid "See how easy it can be to write amazing content."
-msgstr "Ves com de fàcil pot ser escriure contingut increïble."
-
-msgctxt "heading"
-msgid "Ready to level-up?"
-msgstr "Preparat per pujar de nivell?"
-
-msgctxt "button"
-msgid "Get Started Now"
-msgstr "Comença Ara"
-
+#: sections/code.twig:10
 msgid "AI Code"
 msgstr "Codi AI"
 
-msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
-msgstr "Escriu codi sense esforç amb el Generador de Codi IA: solucions instantànies per a les teves necessitats de programació."
-
+#: sections/code.twig:14
 msgctxt "heading"
 msgid "Ready to write code at the speed of light?"
 msgstr "Preparat per escriure codi a la velocitat de la llum?"
 
+#: sections/code.twig:18
+msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
+msgstr "Escriu codi sense esforç amb el Generador de Codi IA: solucions instantànies per a les teves necessitats de programació."
+
+#: sections/code.twig:23
 msgctxt "button"
 msgid "Start Generate Code"
 msgstr "Comença a generar codi"
 
-msgid "AI Chat Bot"
-msgstr "Bot de xat AI"
-
-msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
-msgstr "Simplement tria el teu assistent i interactua amb un bot de xat amigable per generar idees, enriquir el teu contingut o fins i tot portar una sonrisa al teu rostre."
-
+#: sections/cta.twig:3
 msgctxt "heading"
-msgid "That\\'s remarkably human-like and engaging..."
-msgstr "Això és sorprenentment humà i atractiu..."
+msgid "Ready to level-up?"
+msgstr "Preparat per pujar de nivell?"
 
-msgid "Unlimited"
-msgstr "Il·limitat"
+#: sections/cta.twig:5
+msgid "See how easy it can be to write amazing content."
+msgstr "Ves com de fàcil pot ser escriure contingut increïble."
+
+#: sections/cta.twig:10
+msgctxt "button"
+msgid "Get Started Now"
+msgstr "Comença Ara"
+
+#: sections/features.twig:3
+msgctxt "heading"
+msgid "Coolest Features"
+msgstr "Característiques més genials"
+
+#: sections/features.twig:13
+msgctxt "heading"
+msgid "High Quality Code"
+msgstr "Codi d'alta qualitat"
+
+#: sections/features.twig:16
+msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
+msgstr "Desenvolupat utilitzant Disseny Dirigit pel Domini i Principis d'Arquitectura Cebolla."
+
+#: sections/features.twig:26
+msgctxt "heading"
+msgid "Modern Technologies"
+msgstr "Tecnologies modernes"
+
+#: sections/features.twig:29
+msgid "Built with modern technologies for best structure and get maximum performance."
+msgstr "Construit amb tecnologies modernes per a la millor estructura i obté el màxim rendiment."
+
+#: sections/features.twig:39
+msgctxt "heading"
+msgid "Friendly UI and UX"
+msgstr "UI i UX amigables"
+
+#: sections/features.twig:42
+msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
+msgstr "Disfruta d'una interfície d'usuari sense complicacions i intuïtiva que enriqueix la teva experiència digital."
+
+#: sections/features.twig:52
+msgctxt "heading"
+msgid "Dark Mode"
+msgstr "Mode fosc"
+
+#: sections/features.twig:55
+msgid "Turn off the light and switch to dark mode your interface with one click."
+msgstr "Apaga la llum i canvia la teva interfície a mode fosc amb un clic."
+
+#: sections/features.twig:65
+msgctxt "heading"
+msgid "Documentation"
+msgstr "Documentació"
+
+#: sections/features.twig:68
+msgid "An all-inclusive learning package seamlessly integrated into our community."
+msgstr "Un paquet d'aprenentatge tot inclòs integrat perfectament a la nostra comunitat."
+
+#: sections/features.twig:78
+msgctxt "heading"
+msgid "Payment Gateways"
+msgstr "Passarel·les de Pagament"
+
+#: sections/features.twig:81
+msgid "Simplify transactions and boost security with payment gateway solutions."
+msgstr "Simplifica les transaccions i augmenta la seguretat amb solucions de passarel·la de pagament."
+
+#: sections/features.twig:91
+msgctxt "heading"
+msgid "AI Generator"
+msgstr "Generador d'IA"
+
+#: sections/features.twig:94
+msgid "Unlock limitless creativity with our AI-powered content generator."
+msgstr "Desbloqueja una creativitat il·limitada amb el nostre generador de contingut impulsat per IA."
+
+#: sections/features.twig:104
+msgctxt "heading"
+msgid "SEO Friendly"
+msgstr "Optimitzat per SEO"
+
+#: sections/features.twig:107
+msgid "Boost your visibility and reach your audience effectively with AI generated content."
+msgstr "Augmenta la teva visibilitat i aconsegueix el teu públic de manera efectiva amb contingut generat per IA."
+
+#: sections/features.twig:117
+msgctxt "heading"
+msgid "Advanced Dashboard"
+msgstr "Tauler Avançat"
+
+#: sections/features.twig:120
+msgid "Empower your insights and control with our cutting-edge dashboard."
+msgstr "Potencia les teves idees i control amb el nostre tauler d'avantguarda."
+
+#: sections/features.twig:130
+msgctxt "heading"
+msgid "Custom Templates"
+msgstr "Plantilles Personalitzades"
+
+#: sections/features.twig:133
+msgid "Transform your content creation with AI-driven custom templates."
+msgstr "Transforma la creació de contingut amb plantilles personalitzades impulsades per IA."
+
+#: sections/features.twig:144
+msgctxt "heading"
+msgid "Login via SM Accounts"
+msgstr "Inicia sessió amb Comptes de Xarxes Socials"
+
+#: sections/features.twig:147
+msgid "Use Facebook or Google accounts as an alternatively access to platform."
+msgstr "Utilitza comptes de Facebook o Google com a accés alternatiu a la plataforma."
+
+#: sections/features.twig:157
+msgctxt "heading"
+msgid "High Quality Support"
+msgstr "Suport d'Alta Qualitat"
+
+#: sections/features.twig:160
+msgid "Our support team is available 24/7 to help you with any questions or concerns."
+msgstr "El nostre equip de suport està disponible 24/7 per ajudar-vos amb qualsevol pregunta o preocupació."
+
+#: sections/footer.twig:4
+msgid "All rights reserved."
+msgstr "Tots els drets reservats."
+
+#: sections/footer.twig:42
+#: sections/header.twig:19
+msgctxt "button"
+msgid "Product"
+msgstr "Producte"
+
+#: sections/footer.twig:46
+#: sections/header.twig:33
+msgctxt "button"
+msgid "Pricing"
+msgstr "Preus"
+
+#: sections/footer.twig:50
+msgctxt "button"
+msgid "FAQ"
+msgstr "Preguntes freqüents"
+
+#: sections/footer.twig:57
+msgctxt "button"
+msgid "Terms of services"
+msgstr "Termes de servei"
+
+#: sections/footer.twig:63
+msgctxt "button"
+msgid "Privacy policy"
+msgstr "Política de privacitat"
+
+#: sections/footer.twig:69
+msgctxt "button"
+msgid "Refund policy"
+msgstr "Política de reemborsament"
+
+#: sections/generators.twig:3
+msgctxt "heading"
+msgid "Meet your ultimate"
+msgstr "Coneix el teu definitiu"
+
+#: sections/generators.twig:6
+msgctxt "heading"
+msgid "AI-Powered Content Platform"
+msgstr "Plataforma de contingut impulsada per IA"
+
+#: sections/header.twig:26
+msgctxt "button"
+msgid "Featured"
+msgstr "Destacats"
+
+#: sections/header.twig:111
+#: sections/hero.twig:13
+msgctxt "button"
+msgid "Go to app"
+msgstr "Vés a l'aplicació"
+
+#: sections/header.twig:123
+msgctxt "button"
+msgid "Library"
+msgstr "Biblioteca"
+
+#: sections/header.twig:131
+msgctxt "button"
+msgid "Billing"
+msgstr "Facturació"
+
+#: sections/header.twig:143
+msgctxt "button"
+msgid "Account"
+msgstr "Compte"
+
+#: sections/header.twig:151
+msgctxt "button"
+msgid "Logout"
+msgstr "Tancar sessió"
+
+#: sections/header.twig:191
+msgctxt "button"
+msgid "Login"
+msgstr "Iniciar sessió"
+
+#: sections/header.twig:196
+#: sections/pricing.twig:102
+msgctxt "button"
+msgid "Get started"
+msgstr "Comença"
+
+#: sections/hero.twig:3
+msgctxt "heading"
+msgid "Transforming ideas into AI generated masterpieces"
+msgstr "Transformant idees en obres mestres generades per IA"
+
+#: sections/hero.twig:7
+msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
+msgstr "Genera fàcilment contingut d'alta qualitat impulsat per IA a les teves necessitats. Desbloqueja possibilitats il·limitades, estalvia el teu temps i comença a guanyar diners avui mateix!"
+
+#: sections/hero.twig:19
+msgctxt "button"
+msgid "Get started now"
+msgstr "Comença ara"
+
+#: sections/how-it-works.twig:3
+msgctxt "heading"
+msgid "How it works"
+msgstr "Com funciona"
+
+#: sections/how-it-works.twig:13
+msgctxt "heading"
+msgid "Choose Template"
+msgstr "Tria plantilla"
+
+#: sections/how-it-works.twig:16
+msgid "Choose a our built in templates or create your own."
+msgstr "Tria una de les nostres plantilles integrades o crea la teva pròpia."
+
+#: sections/how-it-works.twig:26
+msgctxt "heading"
+msgid "Describe"
+msgstr "Descriu"
+
+#: sections/how-it-works.twig:29
+msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
+msgstr "Introdueix unes quantes frases per descriure el teu tema. Afegeix paraules clau per especificar-les per a la teva marca."
+
+#: sections/how-it-works.twig:39
+msgctxt "heading"
+msgid "Generate"
+msgstr "Genera"
+
+#: sections/how-it-works.twig:42
+msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
+msgstr "Clica el botó \"Generar\" i obté una varietat de còpies de conversió alt per cada vegada."
+
+#: sections/image.twig:5
+msgid "AI Image"
+msgstr "Imatge AI"
+
+#: sections/image.twig:9
+msgctxt "heading"
+msgid "Visualize what you dream of. Create images from text."
+msgstr "Visualitza allò que somies. Crea imatges a partir de text."
+
+#: sections/image.twig:13
+msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
+msgstr "Crea imatges impressionants instantàniament utilitzant el Generador d'Imatges IA - la teva eina per a la innovació artística."
+
+#: sections/image.twig:18
+msgctxt "button"
+msgid "Try for free"
+msgstr "Prova-ho gratis"
+
+#: sections/presets.twig:9
+msgid "100+ AI Writer Templates"
+msgstr "Més de 100 plantilles d'escriptor d'IA"
+
+#: sections/presets.twig:14
+msgctxt "heading"
+msgid "What can Writing Assistant create for you?"
+msgstr "Què pot crear per a tu l'Assistent d'Escriptura?"
+
+#: sections/presets.twig:18
+msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer's block forever."
+msgstr "Escriu amb una velocitat sorprenent, captiva la teva audiència i digues adéu al bloqueig de l'escriptor per sempre."
+
+#: sections/presets.twig:23
+msgctxt "button"
+msgid "Get Started for Free"
+msgstr "Comença gratis"
+
+#: sections/pricing.twig:3
+msgctxt "heading"
+msgid "Pricing"
+msgstr "Preus"
+
+#: sections/pricing.twig:6
+msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
+msgstr "Descobreix el pla perfecte per a les teves necessitats i desbloqueja un món de possibilitats."
+
+#: sections/pricing.twig:19
+msgctxt "button"
+msgid "Monthly"
+msgstr "Mensual"
+
+#: sections/pricing.twig:28
+msgctxt "button"
+msgid "Yearly"
+msgstr "Anual"
+
+#: sections/pricing.twig:37
+msgctxt "button"
+msgid "Packs"
+msgstr "Packs"
+
+#: sections/pricing.twig:46
+msgctxt "button"
+msgid "Lifetime Deals"
+msgstr "Ofertes de per vida"
+
+#: sections/pricing.twig:78
+msgid "Most Popular"
+msgstr "Més popular"
+
+#: sections/pricing.twig:115
+msgid "Chat"
+msgstr "Xat"
+
+#: sections/pricing.twig:134
+msgid "Writer"
+msgstr "Escriptor"
+
+#: sections/pricing.twig:153
+msgid "Image generator"
+msgstr "Generador d’imatges"
+
+#: sections/pricing.twig:166
+msgid "Transcriber"
+msgstr "Transcriptor"
+
+#: sections/pricing.twig:179
+msgid "Voiceover"
+msgstr "Locució"
+
+#: sections/pricing.twig:192
+msgid "Voice isolator"
+msgstr "Aïllador de veu"
+
+#: sections/pricing.twig:205
+msgid "Classifier"
+msgstr "Classificador"
+
+#: sections/pricing.twig:213
+msgid "Access to templates is disabled"
+msgstr "L’accés a les plantilles està desactivat"
+
+#: sections/pricing.twig:216
+msgid "Access to all templates"
+msgstr "Accés a totes les plantilles"
+
+#: sections/pricing.twig:232
+msgid "Priority support"
+msgstr "Suport prioritari"
+
+#: sections/pricing.twig:235
+msgid "Basic support"
+msgstr "Suport bàsic"
+
+#: sections/speech-to-text.twig:4
+msgid "Speech to Text"
+msgstr "Veu a Text"
+
+#: sections/speech-to-text.twig:8
+msgctxt "heading"
+msgid "Transforming Spoken <br> Words into Text."
+msgstr "Transformant paraules <br> parlades en text."
+
+#: sections/speech-to-text.twig:12
+msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
+msgstr "Transcriu instantàniament paraules parlades en text per a una major productivitat i accesibilitat."
+
+#: sections/speech-to-text.twig:17
+msgctxt "button"
+msgid "Convert now"
+msgstr "Converteix ara"
+
+#: sections/text-to-voice.twig:4
+msgid "Text to Voice"
+msgstr "Text a Veu"
+
+#: sections/text-to-voice.twig:8
+msgctxt "heading"
+msgid "Convert your texts into <br> Lifelike Speech"
+msgstr "Converteix els teus textos en <br> Veu realista"
+
+#: sections/text-to-voice.twig:12
+msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
+msgstr "Eleva el teu contingut amb narració expressiva: Descobreix l'excel·lència del Text a Veu."
+
+#: sections/video.twig:11
+msgid "Video"
+msgstr "Vídeo"
+
+#: sections/video.twig:15
+msgctxt "heading"
+msgid "Generate high-quality videos using AI Video generation tool."
+msgstr "Genera vídeos d'alta qualitat amb l'eina de generació de vídeo AI."
+
+#: sections/video.twig:19
+msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
+msgstr "No es requereixen habilitats d'edició de vídeo: només puja les teves imatges i introdueix unes línies de prompt, això és tot."
+
+#: sections/writer.twig:22
+msgid "AI Writer"
+msgstr "Escriptor IA"
+
+#: sections/writer.twig:26
+msgctxt "heading"
+msgid "Write SEO optimized blogs, sales emails and more..."
+msgstr "Escriu blogs optimitzats per SEO, correus de venda i més..."
+
+#: sections/writer.twig:30
+msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
+msgstr "Aconsegueix resultats superiors en una fracció de temps. Finalment, una eina de redacció que realment utilitzes."
+
+#: sections/writer.twig:35
+msgctxt "button"
+msgid "See all features"
+msgstr "Veure totes les funcions"

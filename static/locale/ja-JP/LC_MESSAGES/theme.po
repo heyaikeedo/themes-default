@@ -1,382 +1,484 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Theme Translations\n"
-"Report-Msgid-Bugs-To: \n"
-"Last-Translator: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Language: ja-JP\n"
 "Language-Team: \n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: Theme Translations\n"
+"Report-Msgid-Bugs-To: \n"
 "X-Domain: theme\n"
 
-msgid "AI Writer"
-msgstr "AIライター"
+#: sections/chat.twig:11
+msgid "AI Chat Bot"
+msgstr "AIチャットボット"
 
-msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
-msgstr "優れた結果を短い時間で達成しましょう。最後に、本当に使用する書き込みツール。"
-
+#: sections/chat.twig:15
 msgctxt "heading"
-msgid "Write SEO optimized blogs, sales emails and more..."
-msgstr "SEO最適化されたブログ、セールスメールなどを書きましょう..."
+msgid "That's remarkably human-like and engaging..."
+msgstr "それは非常に人間らしく魅力的です…"
 
-msgctxt "button"
-msgid "See all features"
-msgstr "すべての機能を見る"
+#: sections/chat.twig:19
+msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
+msgstr "シンプルにあなたのアシスタントを選び、友好的なチャットボットとやり取りして、アイデアを生成し、コンテンツを強化し、あなたの顔に笑顔をもたらしましょう。"
 
-msgid "Video"
-msgstr ""
-
-msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
-msgstr ""
-
-msgctxt "heading"
-msgid "Generate high-quality videos using AI Video generation tool."
-msgstr ""
-
+#: sections/chat.twig:24
+#: sections/video.twig:24
 msgctxt "button"
 msgid "Try now"
 msgstr "今すぐ試す"
 
-msgid "Text to Voice"
-msgstr "テキストから音声へ"
-
-msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
-msgstr "表現的な朗読でコンテンツを向上させましょう：テキストから音声の優れた機能を発見しましょう。"
-
-msgctxt "heading"
-msgid "Convert your texts into <br> Lifelike Speech"
-msgstr "テキストを<br>リアルな音声に変換"
-
-msgid "Speech to Text"
-msgstr "音声からテキストへ"
-
-msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
-msgstr "話された言葉をすぐにテキストに変換して、生産性とアクセシビリティを向上させましょう。"
-
-msgctxt "heading"
-msgid "Transforming Spoken <br> Words into Text."
-msgstr "話された言葉を<br>テキストに変換します。"
-
-msgctxt "button"
-msgid "Convert now"
-msgstr "今すぐ変換"
-
-msgid ":count credits"
-msgstr ":count クレジット"
-
-msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
-msgstr "あなたのニーズに合わせた完璧なプランを発見し、無限の可能性を解き放ちましょう。"
-
-msgid "Most Popular"
-msgstr "最も人気"
-
-msgid "Chat"
-msgstr "チャット"
-
-msgid "Writer"
-msgstr "ライター"
-
-msgid "Image generator"
-msgstr "画像生成器"
-
-msgid "Transcriber"
-msgstr "文字起こし"
-
-msgid "Voiceover"
-msgstr "ボイスオーバー"
-
-msgid "Voice isolator"
-msgstr "ボイスアイソレーター"
-
-msgid "Classifier"
-msgstr "分類器"
-
-msgid "Access to templates is disabled"
-msgstr "テンプレートへのアクセスは無効になっています"
-
-msgid "Access to all templates"
-msgstr "すべてのテンプレートへのアクセス"
-
-msgid "Priority support"
-msgstr "優先サポート"
-
-msgid "Basic support"
-msgstr "基本サポート"
-
-msgctxt "heading"
-msgid "Pricing"
-msgstr ""
-
-msgctxt "button"
-msgid "Monthly"
-msgstr "月額"
-
-msgctxt "button"
-msgid "Yearly"
-msgstr "年額"
-
-msgctxt "button"
-msgid "Packs"
-msgstr "パック"
-
-msgctxt "button"
-msgid "Lifetime Deals"
-msgstr "生涯取引"
-
-msgctxt "button"
-msgid "Get started"
-msgstr "始める"
-
-msgid "100+ AI Writer Templates"
-msgstr "100以上のAIライターテンプレート"
-
-msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer\\'s block forever."
-msgstr "驚くほど速く書き、聴衆を魅了し、書き手のブロックを永遠に告別しましょう。"
-
-msgctxt "heading"
-msgid "What can Writing Assistant create for you?"
-msgstr "Writing Assistantはあなたのために何を作成できますか？"
-
-msgctxt "button"
-msgid "Get Started for Free"
-msgstr "無料で始める"
-
-msgid "AI Image"
-msgstr "AI画像"
-
-msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
-msgstr "AI画像ジェネレーターを使用して、すぐに驚くほど美しい画像を作成しましょう。"
-
-msgctxt "heading"
-msgid "Visualize what you dream of. Create images from text."
-msgstr "あなたの夢を視覚化しましょう。テキストから画像を作成します。"
-
-msgctxt "button"
-msgid "Try for free"
-msgstr "無料で試す"
-
-msgid "Choose a our built in templates or create your own."
-msgstr "組み込みのテンプレートを選ぶか、自分で作成してください。"
-
-msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
-msgstr "トピックを説明するいくつかの文を入力してください。ブランドを指定するキーワードを追加してください。"
-
-msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
-msgstr "「生成」ボタンをクリックすると、高い変換率のコピーを毎回取得できます。"
-
-msgctxt "heading"
-msgid "How it works"
-msgstr "使い方"
-
-msgctxt "heading"
-msgid "Choose Template"
-msgstr "テンプレートを選択"
-
-msgctxt "heading"
-msgid "Describe"
-msgstr "説明する"
-
-msgctxt "heading"
-msgid "Generate"
-msgstr "生成する"
-
-msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
-msgstr "必要に応じて調整された高品質なAI駆動コンテンツを簡単に生成しましょう。無限の可能性を解き放ち、時間を節約し、今日からお金を稼ぎ始めましょう！"
-
-msgctxt "heading"
-msgid "Transforming ideas into AI generated masterpieces"
-msgstr "アイデアをAI生成の傑作に変換する"
-
-msgctxt "button"
-msgid "Go to app"
-msgstr "アプリへ移動"
-
-msgctxt "button"
-msgid "Get started now"
-msgstr "今すぐ始める"
-
-msgctxt "button"
-msgid "Product"
-msgstr "製品"
-
-msgctxt "button"
-msgid "Featured"
-msgstr "注目"
-
-msgctxt "button"
-msgid "Pricing"
-msgstr "価格設定"
-
-msgctxt "button"
-msgid "Library"
-msgstr "ライブラリ"
-
-msgctxt "button"
-msgid "Billing"
-msgstr "請求"
-
-msgctxt "button"
-msgid "Account"
-msgstr "アカウント"
-
-msgctxt "button"
-msgid "Logout"
-msgstr "ログアウト"
-
-msgctxt "button"
-msgid "Login"
-msgstr "ログイン"
-
-msgctxt "heading"
-msgid "Meet your ultimate"
-msgstr "あなたの究極の出会い"
-
-msgctxt "heading"
-msgid "AI-Powered Content Platform"
-msgstr "AI搭載コンテンツプラットフォーム"
-
-msgid "All rights reserved."
-msgstr "全著作権所有。"
-
-msgctxt "button"
-msgid "FAQ"
-msgstr "よくある質問"
-
-msgctxt "button"
-msgid "Terms of services"
-msgstr "利用規約"
-
-msgctxt "button"
-msgid "Privacy policy"
-msgstr "プライバシーポリシー"
-
-msgctxt "button"
-msgid "Refund policy"
-msgstr "返金ポリシー"
-
-msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
-msgstr "ドメイン駆動設計とオニオンアーキテクチャの原則を用いて開発されました。"
-
-msgid "Built with modern technologies for best structure and get maximum performance."
-msgstr "最新の技術を使用して、最高の構造を得て最大限のパフォーマンスを発揮します。"
-
-msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
-msgstr "ハイフラッシュなく、直感的なユーザーインターフェースを楽しんでください。"
-
-msgid "Turn off the light and switch to dark mode your interface with one click."
-msgstr "ライトを消して、ワンクリックでインターフェースをダークモードに切り替えます。"
-
-msgid "An all-inclusive learning package seamlessly integrated into our community."
-msgstr "コミュニティにシームレスに統合された包括的な学習パッケージ。"
-
-msgid "Simplify transactions and boost security with payment gateway solutions."
-msgstr "決済ゲートウェイソリューションで取引を簡素化し、セキュリティを強化します。"
-
-msgid "Unlock limitless creativity with our AI-powered content generator."
-msgstr "AI搭載のコンテンツジェネレーターで無限の創造力を解き放ちましょう。"
-
-msgid "Boost your visibility and reach your audience effectively with AI generated content."
-msgstr "AI生成コンテンツで可視性を高め、効果的に聴衆に届けましょう。"
-
-msgid "Empower your insights and control with our cutting-edge dashboard."
-msgstr "最先端のダッシュボードで洞察力とコントロールを強化します。"
-
-msgid "Transform your content creation with AI-driven custom templates."
-msgstr "AI駆動のカスタムテンプレートでコンテンツ作成を変革しましょう。"
-
-msgid "Use Facebook or Google accounts as an alternatively access to platform."
-msgstr "FacebookまたはGoogleアカウントを代替アクセスとして使用できます。"
-
-msgid "Our support team is available 24/7 to help you with any questions or concerns."
-msgstr "サポートチームは24時間365日、あなたの質問や懸念に対してサポートします。"
-
-msgctxt "heading"
-msgid "Coolest Features"
-msgstr "最高の機能"
-
-msgctxt "heading"
-msgid "High Quality Code"
-msgstr "高品質なコード"
-
-msgctxt "heading"
-msgid "Modern Technologies"
-msgstr "最新技術"
-
-msgctxt "heading"
-msgid "Friendly UI and UX"
-msgstr "使いやすいUIとUX"
-
-msgctxt "heading"
-msgid "Dark Mode"
-msgstr "ダークモード"
-
-msgctxt "heading"
-msgid "Documentation"
-msgstr "ドキュメント"
-
-msgctxt "heading"
-msgid "Payment Gateways"
-msgstr "決済ゲートウェイ"
-
-msgctxt "heading"
-msgid "AI Generator"
-msgstr "AIジェネレーター"
-
-msgctxt "heading"
-msgid "SEO Friendly"
-msgstr "SEOフレンドリー"
-
-msgctxt "heading"
-msgid "Advanced Dashboard"
-msgstr "高度なダッシュボード"
-
-msgctxt "heading"
-msgid "Custom Templates"
-msgstr "カスタムテンプレート"
-
-msgctxt "heading"
-msgid "Login via SM Accounts"
-msgstr "SNSアカウントでログイン"
-
-msgctxt "heading"
-msgid "High Quality Support"
-msgstr "高品質なサポート"
-
-msgid "See how easy it can be to write amazing content."
-msgstr "素晴らしいコンテンツを書くのがどれほど簡単か見てみましょう。"
-
-msgctxt "heading"
-msgid "Ready to level-up?"
-msgstr "レベルアップの準備はできていますか？"
-
-msgctxt "button"
-msgid "Get Started Now"
-msgstr "今すぐ始める"
-
+#: sections/code.twig:10
 msgid "AI Code"
 msgstr "AIコード"
 
-msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
-msgstr "AIコードジェネレーターで簡単にコードを書きましょう：プログラミングの必要に応じた即時解決。"
-
+#: sections/code.twig:14
 msgctxt "heading"
 msgid "Ready to write code at the speed of light?"
 msgstr "光の速さでコードを書く準備はできていますか？"
 
+#: sections/code.twig:18
+msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
+msgstr "AIコードジェネレーターで簡単にコードを書きましょう：プログラミングの必要に応じた即時解決。"
+
+#: sections/code.twig:23
 msgctxt "button"
 msgid "Start Generate Code"
 msgstr "コード生成を開始"
 
-msgid "AI Chat Bot"
-msgstr "AIチャットボット"
-
-msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
-msgstr "シンプルにあなたのアシスタントを選び、友好的なチャットボットとやり取りして、アイデアを生成し、コンテンツを強化し、あなたの顔に笑顔をもたらしましょう。"
-
+#: sections/cta.twig:3
 msgctxt "heading"
-msgid "That\\'s remarkably human-like and engaging..."
-msgstr "それは驚くほど人間らしく魅力的です..."
+msgid "Ready to level-up?"
+msgstr "レベルアップの準備はできていますか？"
 
-msgid "Unlimited"
-msgstr "無制限"
+#: sections/cta.twig:5
+msgid "See how easy it can be to write amazing content."
+msgstr "素晴らしいコンテンツを書くのがどれほど簡単か見てみましょう。"
+
+#: sections/cta.twig:10
+msgctxt "button"
+msgid "Get Started Now"
+msgstr "今すぐ始める"
+
+#: sections/features.twig:3
+msgctxt "heading"
+msgid "Coolest Features"
+msgstr "最高の機能"
+
+#: sections/features.twig:13
+msgctxt "heading"
+msgid "High Quality Code"
+msgstr "高品質なコード"
+
+#: sections/features.twig:16
+msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
+msgstr "ドメイン駆動設計とオニオンアーキテクチャの原則を用いて開発されました。"
+
+#: sections/features.twig:26
+msgctxt "heading"
+msgid "Modern Technologies"
+msgstr "最新技術"
+
+#: sections/features.twig:29
+msgid "Built with modern technologies for best structure and get maximum performance."
+msgstr "最新の技術を使用して、最高の構造を得て最大限のパフォーマンスを発揮します。"
+
+#: sections/features.twig:39
+msgctxt "heading"
+msgid "Friendly UI and UX"
+msgstr "使いやすいUIとUX"
+
+#: sections/features.twig:42
+msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
+msgstr "ハイフラッシュなく、直感的なユーザーインターフェースを楽しんでください。"
+
+#: sections/features.twig:52
+msgctxt "heading"
+msgid "Dark Mode"
+msgstr "ダークモード"
+
+#: sections/features.twig:55
+msgid "Turn off the light and switch to dark mode your interface with one click."
+msgstr "ライトを消して、ワンクリックでインターフェースをダークモードに切り替えます。"
+
+#: sections/features.twig:65
+msgctxt "heading"
+msgid "Documentation"
+msgstr "ドキュメント"
+
+#: sections/features.twig:68
+msgid "An all-inclusive learning package seamlessly integrated into our community."
+msgstr "コミュニティにシームレスに統合された包括的な学習パッケージ。"
+
+#: sections/features.twig:78
+msgctxt "heading"
+msgid "Payment Gateways"
+msgstr "決済ゲートウェイ"
+
+#: sections/features.twig:81
+msgid "Simplify transactions and boost security with payment gateway solutions."
+msgstr "決済ゲートウェイソリューションで取引を簡素化し、セキュリティを強化します。"
+
+#: sections/features.twig:91
+msgctxt "heading"
+msgid "AI Generator"
+msgstr "AIジェネレーター"
+
+#: sections/features.twig:94
+msgid "Unlock limitless creativity with our AI-powered content generator."
+msgstr "AI搭載のコンテンツジェネレーターで無限の創造力を解き放ちましょう。"
+
+#: sections/features.twig:104
+msgctxt "heading"
+msgid "SEO Friendly"
+msgstr "SEOフレンドリー"
+
+#: sections/features.twig:107
+msgid "Boost your visibility and reach your audience effectively with AI generated content."
+msgstr "AI生成コンテンツで可視性を高め、効果的に聴衆に届けましょう。"
+
+#: sections/features.twig:117
+msgctxt "heading"
+msgid "Advanced Dashboard"
+msgstr "高度なダッシュボード"
+
+#: sections/features.twig:120
+msgid "Empower your insights and control with our cutting-edge dashboard."
+msgstr "最先端のダッシュボードで洞察力とコントロールを強化します。"
+
+#: sections/features.twig:130
+msgctxt "heading"
+msgid "Custom Templates"
+msgstr "カスタムテンプレート"
+
+#: sections/features.twig:133
+msgid "Transform your content creation with AI-driven custom templates."
+msgstr "AI駆動のカスタムテンプレートでコンテンツ作成を変革しましょう。"
+
+#: sections/features.twig:144
+msgctxt "heading"
+msgid "Login via SM Accounts"
+msgstr "SNSアカウントでログイン"
+
+#: sections/features.twig:147
+msgid "Use Facebook or Google accounts as an alternatively access to platform."
+msgstr "FacebookまたはGoogleアカウントを代替アクセスとして使用できます。"
+
+#: sections/features.twig:157
+msgctxt "heading"
+msgid "High Quality Support"
+msgstr "高品質なサポート"
+
+#: sections/features.twig:160
+msgid "Our support team is available 24/7 to help you with any questions or concerns."
+msgstr "サポートチームは24時間365日、あなたの質問や懸念に対してサポートします。"
+
+#: sections/footer.twig:4
+msgid "All rights reserved."
+msgstr "全著作権所有。"
+
+#: sections/footer.twig:42
+#: sections/header.twig:19
+msgctxt "button"
+msgid "Product"
+msgstr "製品"
+
+#: sections/footer.twig:46
+#: sections/header.twig:33
+msgctxt "button"
+msgid "Pricing"
+msgstr "価格設定"
+
+#: sections/footer.twig:50
+msgctxt "button"
+msgid "FAQ"
+msgstr "よくある質問"
+
+#: sections/footer.twig:57
+msgctxt "button"
+msgid "Terms of services"
+msgstr "利用規約"
+
+#: sections/footer.twig:63
+msgctxt "button"
+msgid "Privacy policy"
+msgstr "プライバシーポリシー"
+
+#: sections/footer.twig:69
+msgctxt "button"
+msgid "Refund policy"
+msgstr "返金ポリシー"
+
+#: sections/generators.twig:3
+msgctxt "heading"
+msgid "Meet your ultimate"
+msgstr "あなたの究極の出会い"
+
+#: sections/generators.twig:6
+msgctxt "heading"
+msgid "AI-Powered Content Platform"
+msgstr "AI搭載コンテンツプラットフォーム"
+
+#: sections/header.twig:26
+msgctxt "button"
+msgid "Featured"
+msgstr "注目"
+
+#: sections/header.twig:111
+#: sections/hero.twig:13
+msgctxt "button"
+msgid "Go to app"
+msgstr "アプリへ移動"
+
+#: sections/header.twig:123
+msgctxt "button"
+msgid "Library"
+msgstr "ライブラリ"
+
+#: sections/header.twig:131
+msgctxt "button"
+msgid "Billing"
+msgstr "請求"
+
+#: sections/header.twig:143
+msgctxt "button"
+msgid "Account"
+msgstr "アカウント"
+
+#: sections/header.twig:151
+msgctxt "button"
+msgid "Logout"
+msgstr "ログアウト"
+
+#: sections/header.twig:191
+msgctxt "button"
+msgid "Login"
+msgstr "ログイン"
+
+#: sections/header.twig:196
+#: sections/pricing.twig:102
+msgctxt "button"
+msgid "Get started"
+msgstr "始める"
+
+#: sections/hero.twig:3
+msgctxt "heading"
+msgid "Transforming ideas into AI generated masterpieces"
+msgstr "アイデアをAI生成の傑作に変換する"
+
+#: sections/hero.twig:7
+msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
+msgstr "必要に応じて調整された高品質なAI駆動コンテンツを簡単に生成しましょう。無限の可能性を解き放ち、時間を節約し、今日からお金を稼ぎ始めましょう！"
+
+#: sections/hero.twig:19
+msgctxt "button"
+msgid "Get started now"
+msgstr "今すぐ始める"
+
+#: sections/how-it-works.twig:3
+msgctxt "heading"
+msgid "How it works"
+msgstr "使い方"
+
+#: sections/how-it-works.twig:13
+msgctxt "heading"
+msgid "Choose Template"
+msgstr "テンプレートを選択"
+
+#: sections/how-it-works.twig:16
+msgid "Choose a our built in templates or create your own."
+msgstr "組み込みのテンプレートを選ぶか、自分で作成してください。"
+
+#: sections/how-it-works.twig:26
+msgctxt "heading"
+msgid "Describe"
+msgstr "説明する"
+
+#: sections/how-it-works.twig:29
+msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
+msgstr "トピックを説明するいくつかの文を入力してください。ブランドを指定するキーワードを追加してください。"
+
+#: sections/how-it-works.twig:39
+msgctxt "heading"
+msgid "Generate"
+msgstr "生成する"
+
+#: sections/how-it-works.twig:42
+msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
+msgstr "「生成」ボタンをクリックすると、高い変換率のコピーを毎回取得できます。"
+
+#: sections/image.twig:5
+msgid "AI Image"
+msgstr "AI画像"
+
+#: sections/image.twig:9
+msgctxt "heading"
+msgid "Visualize what you dream of. Create images from text."
+msgstr "あなたの夢を視覚化しましょう。テキストから画像を作成します。"
+
+#: sections/image.twig:13
+msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
+msgstr "AI画像ジェネレーターを使用して、すぐに驚くほど美しい画像を作成しましょう。"
+
+#: sections/image.twig:18
+msgctxt "button"
+msgid "Try for free"
+msgstr "無料で試す"
+
+#: sections/presets.twig:9
+msgid "100+ AI Writer Templates"
+msgstr "100以上のAIライターテンプレート"
+
+#: sections/presets.twig:14
+msgctxt "heading"
+msgid "What can Writing Assistant create for you?"
+msgstr "Writing Assistantはあなたのために何を作成できますか？"
+
+#: sections/presets.twig:18
+msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer's block forever."
+msgstr "驚くべき速さで書き、観客を魅了し、作家の壁に永遠にさようならを告げましょう。"
+
+#: sections/presets.twig:23
+msgctxt "button"
+msgid "Get Started for Free"
+msgstr "無料で始める"
+
+#: sections/pricing.twig:3
+msgctxt "heading"
+msgid "Pricing"
+msgstr "料金"
+
+#: sections/pricing.twig:6
+msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
+msgstr "あなたのニーズに合わせた完璧なプランを発見し、無限の可能性を解き放ちましょう。"
+
+#: sections/pricing.twig:19
+msgctxt "button"
+msgid "Monthly"
+msgstr "月額"
+
+#: sections/pricing.twig:28
+msgctxt "button"
+msgid "Yearly"
+msgstr "年額"
+
+#: sections/pricing.twig:37
+msgctxt "button"
+msgid "Packs"
+msgstr "パック"
+
+#: sections/pricing.twig:46
+msgctxt "button"
+msgid "Lifetime Deals"
+msgstr "生涯取引"
+
+#: sections/pricing.twig:78
+msgid "Most Popular"
+msgstr "最も人気"
+
+#: sections/pricing.twig:115
+msgid "Chat"
+msgstr "チャット"
+
+#: sections/pricing.twig:134
+msgid "Writer"
+msgstr "ライター"
+
+#: sections/pricing.twig:153
+msgid "Image generator"
+msgstr "画像生成器"
+
+#: sections/pricing.twig:166
+msgid "Transcriber"
+msgstr "文字起こし"
+
+#: sections/pricing.twig:179
+msgid "Voiceover"
+msgstr "ボイスオーバー"
+
+#: sections/pricing.twig:192
+msgid "Voice isolator"
+msgstr "ボイスアイソレーター"
+
+#: sections/pricing.twig:205
+msgid "Classifier"
+msgstr "分類器"
+
+#: sections/pricing.twig:213
+msgid "Access to templates is disabled"
+msgstr "テンプレートへのアクセスは無効になっています"
+
+#: sections/pricing.twig:216
+msgid "Access to all templates"
+msgstr "すべてのテンプレートへのアクセス"
+
+#: sections/pricing.twig:232
+msgid "Priority support"
+msgstr "優先サポート"
+
+#: sections/pricing.twig:235
+msgid "Basic support"
+msgstr "基本サポート"
+
+#: sections/speech-to-text.twig:4
+msgid "Speech to Text"
+msgstr "音声からテキストへ"
+
+#: sections/speech-to-text.twig:8
+msgctxt "heading"
+msgid "Transforming Spoken <br> Words into Text."
+msgstr "話された言葉を<br>テキストに変換します。"
+
+#: sections/speech-to-text.twig:12
+msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
+msgstr "話された言葉をすぐにテキストに変換して、生産性とアクセシビリティを向上させましょう。"
+
+#: sections/speech-to-text.twig:17
+msgctxt "button"
+msgid "Convert now"
+msgstr "今すぐ変換"
+
+#: sections/text-to-voice.twig:4
+msgid "Text to Voice"
+msgstr "テキストから音声へ"
+
+#: sections/text-to-voice.twig:8
+msgctxt "heading"
+msgid "Convert your texts into <br> Lifelike Speech"
+msgstr "テキストを<br>リアルな音声に変換"
+
+#: sections/text-to-voice.twig:12
+msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
+msgstr "表現的な朗読でコンテンツを向上させましょう：テキストから音声の優れた機能を発見しましょう。"
+
+#: sections/video.twig:11
+msgid "Video"
+msgstr "ビデオ"
+
+#: sections/video.twig:15
+msgctxt "heading"
+msgid "Generate high-quality videos using AI Video generation tool."
+msgstr "AIビデオ生成ツールを使って高品質なビデオを生成します。"
+
+#: sections/video.twig:19
+msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
+msgstr "ビデオ編集スキルは不要です。画像をアップロードし、数行のプロンプトを入力するだけです。"
+
+#: sections/writer.twig:22
+msgid "AI Writer"
+msgstr "AIライター"
+
+#: sections/writer.twig:26
+msgctxt "heading"
+msgid "Write SEO optimized blogs, sales emails and more..."
+msgstr "SEO最適化されたブログ、セールスメールなどを書きましょう..."
+
+#: sections/writer.twig:30
+msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
+msgstr "優れた結果を短い時間で達成しましょう。最後に、本当に使用する書き込みツール。"
+
+#: sections/writer.twig:35
+msgctxt "button"
+msgid "See all features"
+msgstr "すべての機能を見る"

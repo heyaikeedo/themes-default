@@ -1,382 +1,484 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Theme Translations\n"
-"Report-Msgid-Bugs-To: \n"
-"Last-Translator: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Language: vi-VN\n"
 "Language-Team: \n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: Theme Translations\n"
+"Report-Msgid-Bugs-To: \n"
 "X-Domain: theme\n"
 
-msgid "AI Writer"
-msgstr "Trình Viết AI"
+#: sections/chat.twig:11
+msgid "AI Chat Bot"
+msgstr "Bot trò chuyện AI"
 
-msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
-msgstr "Đạt được kết quả vượt trội trong một phần thời gian. Cuối cùng, một công cụ viết mà bạn sẽ thực sự sử dụng."
-
+#: sections/chat.twig:15
 msgctxt "heading"
-msgid "Write SEO optimized blogs, sales emails and more..."
-msgstr "Viết blog tối ưu SEO, email bán hàng và nhiều hơn nữa..."
+msgid "That's remarkably human-like and engaging..."
+msgstr "Điều đó thật sự giống con người và hấp dẫn..."
 
-msgctxt "button"
-msgid "See all features"
-msgstr "Xem tất cả tính năng"
+#: sections/chat.twig:19
+msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
+msgstr "Chỉ cần chọn trợ lý của bạn và tham gia vào cuộc trò chuyện với bot trò chuyện thân thiện để tạo ra ý tưởng, nâng cao nội dung của bạn hoặc thậm chí làm vui mặt cho bạn."
 
-msgid "Video"
-msgstr ""
-
-msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
-msgstr ""
-
-msgctxt "heading"
-msgid "Generate high-quality videos using AI Video generation tool."
-msgstr ""
-
+#: sections/chat.twig:24
+#: sections/video.twig:24
 msgctxt "button"
 msgid "Try now"
 msgstr "Thử ngay"
 
-msgid "Text to Voice"
-msgstr "Chuyển Văn Bản Thành Giọng Nói"
-
-msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
-msgstr "Nâng cao nội dung của bạn với trình bày đặc sắc: Khám phá sự hoàn hảo của văn bản thành giọng nói."
-
-msgctxt "heading"
-msgid "Convert your texts into <br> Lifelike Speech"
-msgstr "Chuyển đổi văn bản của bạn thành <br> Giọng nói giống thật"
-
-msgid "Speech to Text"
-msgstr "Chuyển Giọng Nói Thành Văn Bản"
-
-msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
-msgstr "Chuyển đổi ngay lập tức từ lời nói thành văn bản để nâng cao năng suất và khả dụng."
-
-msgctxt "heading"
-msgid "Transforming Spoken <br> Words into Text."
-msgstr "Chuyển đổi lời nói <br> thành văn bản."
-
-msgctxt "button"
-msgid "Convert now"
-msgstr "Chuyển đổi ngay"
-
-msgid ":count credits"
-msgstr ":count tín chỉ"
-
-msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
-msgstr "Khám phá kế hoạch hoàn hảo phù hợp với nhu cầu của bạn và mở khóa một thế giới các khả năng."
-
-msgid "Most Popular"
-msgstr "Phổ biến nhất"
-
-msgid "Chat"
-msgstr "Trò chuyện"
-
-msgid "Writer"
-msgstr "Người viết"
-
-msgid "Image generator"
-msgstr "Trình tạo hình ảnh"
-
-msgid "Transcriber"
-msgstr "Người phiên âm"
-
-msgid "Voiceover"
-msgstr "Lồng tiếng"
-
-msgid "Voice isolator"
-msgstr "Bộ tách giọng nói"
-
-msgid "Classifier"
-msgstr "Bộ phân loại"
-
-msgid "Access to templates is disabled"
-msgstr "Truy cập vào mẫu bị vô hiệu hóa"
-
-msgid "Access to all templates"
-msgstr "Truy cập vào tất cả các mẫu"
-
-msgid "Priority support"
-msgstr "Hỗ trợ ưu tiên"
-
-msgid "Basic support"
-msgstr "Hỗ trợ cơ bản"
-
-msgctxt "heading"
-msgid "Pricing"
-msgstr ""
-
-msgctxt "button"
-msgid "Monthly"
-msgstr "Hàng tháng"
-
-msgctxt "button"
-msgid "Yearly"
-msgstr "Hàng năm"
-
-msgctxt "button"
-msgid "Packs"
-msgstr "Gói"
-
-msgctxt "button"
-msgid "Lifetime Deals"
-msgstr "Ưu đãi trọn đời"
-
-msgctxt "button"
-msgid "Get started"
-msgstr "Bắt đầu"
-
-msgid "100+ AI Writer Templates"
-msgstr "Hơn 100 Mẫu Viết AI"
-
-msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer\\'s block forever."
-msgstr "Viết với tốc độ đáng kinh ngạc, thu hút độc giả của bạn và tạm biệt với trục trặc viết vĩnh viễn."
-
-msgctxt "heading"
-msgid "What can Writing Assistant create for you?"
-msgstr "Trợ lý Viết có thể tạo gì cho bạn?"
-
-msgctxt "button"
-msgid "Get Started for Free"
-msgstr "Bắt đầu miễn phí"
-
-msgid "AI Image"
-msgstr "Hình ảnh AI"
-
-msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
-msgstr "Tạo hình ảnh tuyệt vời ngay lập tức bằng cách sử dụng trình tạo hình ảnh AI - công cụ của bạn để sáng tạo."
-
-msgctxt "heading"
-msgid "Visualize what you dream of. Create images from text."
-msgstr "Hình dung những gì bạn mơ ước. Tạo hình ảnh từ văn bản."
-
-msgctxt "button"
-msgid "Try for free"
-msgstr "Dùng thử miễn phí"
-
-msgid "Choose a our built in templates or create your own."
-msgstr "Chọn một trong các mẫu có sẵn hoặc tạo mẫu riêng của bạn."
-
-msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
-msgstr "Nhập vài câu để mô tả chủ đề của bạn. Thêm từ khóa để chỉ định cho thương hiệu của bạn."
-
-msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
-msgstr "Nhấn nút \"Tạo\" và nhận được nhiều bản sao chuyển đổi cao mỗi lần."
-
-msgctxt "heading"
-msgid "How it works"
-msgstr "Cách hoạt động"
-
-msgctxt "heading"
-msgid "Choose Template"
-msgstr "Chọn mẫu"
-
-msgctxt "heading"
-msgid "Describe"
-msgstr "Mô tả"
-
-msgctxt "heading"
-msgid "Generate"
-msgstr "Tạo"
-
-msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
-msgstr "Tạo nội dung AI được lái bởi AI phù hợp với nhu cầu của bạn. Mở khóa các khả năng vô hạn, tiết kiệm thời gian và bắt đầu kiếm tiền ngay hôm nay!"
-
-msgctxt "heading"
-msgid "Transforming ideas into AI generated masterpieces"
-msgstr "Biến ý tưởng thành kiệt tác do AI tạo ra"
-
-msgctxt "button"
-msgid "Go to app"
-msgstr "Đi đến ứng dụng"
-
-msgctxt "button"
-msgid "Get started now"
-msgstr "Bắt đầu ngay"
-
-msgctxt "button"
-msgid "Product"
-msgstr "Sản phẩm"
-
-msgctxt "button"
-msgid "Featured"
-msgstr "Nổi bật"
-
-msgctxt "button"
-msgid "Pricing"
-msgstr "Bảng giá"
-
-msgctxt "button"
-msgid "Library"
-msgstr "Thư viện"
-
-msgctxt "button"
-msgid "Billing"
-msgstr "Thanh toán"
-
-msgctxt "button"
-msgid "Account"
-msgstr "Tài khoản"
-
-msgctxt "button"
-msgid "Logout"
-msgstr "Đăng xuất"
-
-msgctxt "button"
-msgid "Login"
-msgstr "Đăng nhập"
-
-msgctxt "heading"
-msgid "Meet your ultimate"
-msgstr "Gặp gỡ điều tuyệt vời nhất của bạn"
-
-msgctxt "heading"
-msgid "AI-Powered Content Platform"
-msgstr "Nền tảng nội dung được hỗ trợ bởi AI"
-
-msgid "All rights reserved."
-msgstr "Bảo lưu mọi quyền."
-
-msgctxt "button"
-msgid "FAQ"
-msgstr "Câu hỏi thường gặp"
-
-msgctxt "button"
-msgid "Terms of services"
-msgstr "Điều khoản dịch vụ"
-
-msgctxt "button"
-msgid "Privacy policy"
-msgstr "Chính sách bảo mật"
-
-msgctxt "button"
-msgid "Refund policy"
-msgstr "Chính sách hoàn tiền"
-
-msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
-msgstr "Phát triển bằng cách sử dụng Thiết kế theo miền và Nguyên tắc Kiến trúc Hành tây."
-
-msgid "Built with modern technologies for best structure and get maximum performance."
-msgstr "Xây dựng với công nghệ hiện đại để có cấu trúc tốt nhất và đạt hiệu suất tối đa."
-
-msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
-msgstr "Thưởng thức giao diện người dùng dễ dàng và trực quan mà nâng cao trải nghiệm số của bạn."
-
-msgid "Turn off the light and switch to dark mode your interface with one click."
-msgstr "Tắt đèn và chuyển giao diện sang chế độ tối chỉ với một cú nhấp chuột."
-
-msgid "An all-inclusive learning package seamlessly integrated into our community."
-msgstr "Gói học tập toàn diện tích hợp liền mạch vào cộng đồng của chúng tôi."
-
-msgid "Simplify transactions and boost security with payment gateway solutions."
-msgstr "Đơn giản hóa giao dịch và tăng cường bảo mật với các giải pháp cổng thanh toán."
-
-msgid "Unlock limitless creativity with our AI-powered content generator."
-msgstr "Mở khóa sự sáng tạo vô hạn với trình tạo nội dung được hỗ trợ bởi AI của chúng tôi."
-
-msgid "Boost your visibility and reach your audience effectively with AI generated content."
-msgstr "Tăng cường tính nhận diện và đạt được độc giả của bạn một cách hiệu quả với nội dung được AI tạo ra."
-
-msgid "Empower your insights and control with our cutting-edge dashboard."
-msgstr "Tăng cường hiểu biết và kiểm soát của bạn với bảng điều khiển tiên tiến của chúng tôi."
-
-msgid "Transform your content creation with AI-driven custom templates."
-msgstr "Biến đổi việc tạo nội dung của bạn với các mẫu tùy chỉnh được điều khiển bởi AI."
-
-msgid "Use Facebook or Google accounts as an alternatively access to platform."
-msgstr "Sử dụng tài khoản Facebook hoặc Google như một cách truy cập thay thế vào nền tảng."
-
-msgid "Our support team is available 24/7 to help you with any questions or concerns."
-msgstr "Đội hỗ trợ của chúng tôi có sẵn 24/7 để giúp bạn với bất kỳ câu hỏi hoặc vấn đề nào."
-
-msgctxt "heading"
-msgid "Coolest Features"
-msgstr "Tính Năng Đỉnh Cao"
-
-msgctxt "heading"
-msgid "High Quality Code"
-msgstr "Mã Lập Trình Chất Lượng Cao"
-
-msgctxt "heading"
-msgid "Modern Technologies"
-msgstr "Công Nghệ Hiện Đại"
-
-msgctxt "heading"
-msgid "Friendly UI and UX"
-msgstr "Giao Diện và Trải Nghiệm Người Dùng Thân Thiện"
-
-msgctxt "heading"
-msgid "Dark Mode"
-msgstr "Chế Độ Tối"
-
-msgctxt "heading"
-msgid "Documentation"
-msgstr "Tài Liệu"
-
-msgctxt "heading"
-msgid "Payment Gateways"
-msgstr "Cổng Thanh Toán"
-
-msgctxt "heading"
-msgid "AI Generator"
-msgstr "Trình Tạo AI"
-
-msgctxt "heading"
-msgid "SEO Friendly"
-msgstr "Thân Thiện với SEO"
-
-msgctxt "heading"
-msgid "Advanced Dashboard"
-msgstr "Bảng Điều Khiển Nâng Cao"
-
-msgctxt "heading"
-msgid "Custom Templates"
-msgstr "Mẫu Tùy Chỉnh"
-
-msgctxt "heading"
-msgid "Login via SM Accounts"
-msgstr "Đăng Nhập qua Tài Khoản MXH"
-
-msgctxt "heading"
-msgid "High Quality Support"
-msgstr "Hỗ Trợ Chất Lượng Cao"
-
-msgid "See how easy it can be to write amazing content."
-msgstr "Xem cách viết nội dung tuyệt vời trở nên dễ dàng như thế nào."
-
-msgctxt "heading"
-msgid "Ready to level-up?"
-msgstr "Sẵn sàng nâng cấp chưa?"
-
-msgctxt "button"
-msgid "Get Started Now"
-msgstr "Bắt Đầu Ngay"
-
+#: sections/code.twig:10
 msgid "AI Code"
 msgstr "Mã AI"
 
-msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
-msgstr "Viết mã một cách dễ dàng với trình tạo mã AI: Giải pháp ngay lập tức cho nhu cầu lập trình của bạn."
-
+#: sections/code.twig:14
 msgctxt "heading"
 msgid "Ready to write code at the speed of light?"
 msgstr "Sẵn sàng viết mã với tốc độ ánh sáng?"
 
+#: sections/code.twig:18
+msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
+msgstr "Viết mã một cách dễ dàng với trình tạo mã AI: Giải pháp ngay lập tức cho nhu cầu lập trình của bạn."
+
+#: sections/code.twig:23
 msgctxt "button"
 msgid "Start Generate Code"
 msgstr "Bắt đầu tạo mã"
 
-msgid "AI Chat Bot"
-msgstr "Bot trò chuyện AI"
-
-msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
-msgstr "Chỉ cần chọn trợ lý của bạn và tham gia vào cuộc trò chuyện với bot trò chuyện thân thiện để tạo ra ý tưởng, nâng cao nội dung của bạn hoặc thậm chí làm vui mặt cho bạn."
-
+#: sections/cta.twig:3
 msgctxt "heading"
-msgid "That\\'s remarkably human-like and engaging..."
-msgstr "Điều đó thật sự giống con người và hấp dẫn..."
+msgid "Ready to level-up?"
+msgstr "Sẵn sàng nâng cấp chưa?"
 
-msgid "Unlimited"
-msgstr "Không giới hạn"
+#: sections/cta.twig:5
+msgid "See how easy it can be to write amazing content."
+msgstr "Xem cách viết nội dung tuyệt vời trở nên dễ dàng như thế nào."
+
+#: sections/cta.twig:10
+msgctxt "button"
+msgid "Get Started Now"
+msgstr "Bắt Đầu Ngay"
+
+#: sections/features.twig:3
+msgctxt "heading"
+msgid "Coolest Features"
+msgstr "Tính Năng Đỉnh Cao"
+
+#: sections/features.twig:13
+msgctxt "heading"
+msgid "High Quality Code"
+msgstr "Mã Lập Trình Chất Lượng Cao"
+
+#: sections/features.twig:16
+msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
+msgstr "Phát triển bằng cách sử dụng Thiết kế theo miền và Nguyên tắc Kiến trúc Hành tây."
+
+#: sections/features.twig:26
+msgctxt "heading"
+msgid "Modern Technologies"
+msgstr "Công Nghệ Hiện Đại"
+
+#: sections/features.twig:29
+msgid "Built with modern technologies for best structure and get maximum performance."
+msgstr "Xây dựng với công nghệ hiện đại để có cấu trúc tốt nhất và đạt hiệu suất tối đa."
+
+#: sections/features.twig:39
+msgctxt "heading"
+msgid "Friendly UI and UX"
+msgstr "Giao Diện và Trải Nghiệm Người Dùng Thân Thiện"
+
+#: sections/features.twig:42
+msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
+msgstr "Thưởng thức giao diện người dùng dễ dàng và trực quan mà nâng cao trải nghiệm số của bạn."
+
+#: sections/features.twig:52
+msgctxt "heading"
+msgid "Dark Mode"
+msgstr "Chế Độ Tối"
+
+#: sections/features.twig:55
+msgid "Turn off the light and switch to dark mode your interface with one click."
+msgstr "Tắt đèn và chuyển giao diện sang chế độ tối chỉ với một cú nhấp chuột."
+
+#: sections/features.twig:65
+msgctxt "heading"
+msgid "Documentation"
+msgstr "Tài Liệu"
+
+#: sections/features.twig:68
+msgid "An all-inclusive learning package seamlessly integrated into our community."
+msgstr "Gói học tập toàn diện tích hợp liền mạch vào cộng đồng của chúng tôi."
+
+#: sections/features.twig:78
+msgctxt "heading"
+msgid "Payment Gateways"
+msgstr "Cổng Thanh Toán"
+
+#: sections/features.twig:81
+msgid "Simplify transactions and boost security with payment gateway solutions."
+msgstr "Đơn giản hóa giao dịch và tăng cường bảo mật với các giải pháp cổng thanh toán."
+
+#: sections/features.twig:91
+msgctxt "heading"
+msgid "AI Generator"
+msgstr "Trình Tạo AI"
+
+#: sections/features.twig:94
+msgid "Unlock limitless creativity with our AI-powered content generator."
+msgstr "Mở khóa sự sáng tạo vô hạn với trình tạo nội dung được hỗ trợ bởi AI của chúng tôi."
+
+#: sections/features.twig:104
+msgctxt "heading"
+msgid "SEO Friendly"
+msgstr "Thân Thiện với SEO"
+
+#: sections/features.twig:107
+msgid "Boost your visibility and reach your audience effectively with AI generated content."
+msgstr "Tăng cường tính nhận diện và đạt được độc giả của bạn một cách hiệu quả với nội dung được AI tạo ra."
+
+#: sections/features.twig:117
+msgctxt "heading"
+msgid "Advanced Dashboard"
+msgstr "Bảng Điều Khiển Nâng Cao"
+
+#: sections/features.twig:120
+msgid "Empower your insights and control with our cutting-edge dashboard."
+msgstr "Tăng cường hiểu biết và kiểm soát của bạn với bảng điều khiển tiên tiến của chúng tôi."
+
+#: sections/features.twig:130
+msgctxt "heading"
+msgid "Custom Templates"
+msgstr "Mẫu Tùy Chỉnh"
+
+#: sections/features.twig:133
+msgid "Transform your content creation with AI-driven custom templates."
+msgstr "Biến đổi việc tạo nội dung của bạn với các mẫu tùy chỉnh được điều khiển bởi AI."
+
+#: sections/features.twig:144
+msgctxt "heading"
+msgid "Login via SM Accounts"
+msgstr "Đăng Nhập qua Tài Khoản MXH"
+
+#: sections/features.twig:147
+msgid "Use Facebook or Google accounts as an alternatively access to platform."
+msgstr "Sử dụng tài khoản Facebook hoặc Google như một cách truy cập thay thế vào nền tảng."
+
+#: sections/features.twig:157
+msgctxt "heading"
+msgid "High Quality Support"
+msgstr "Hỗ Trợ Chất Lượng Cao"
+
+#: sections/features.twig:160
+msgid "Our support team is available 24/7 to help you with any questions or concerns."
+msgstr "Đội hỗ trợ của chúng tôi có sẵn 24/7 để giúp bạn với bất kỳ câu hỏi hoặc vấn đề nào."
+
+#: sections/footer.twig:4
+msgid "All rights reserved."
+msgstr "Bảo lưu mọi quyền."
+
+#: sections/footer.twig:42
+#: sections/header.twig:19
+msgctxt "button"
+msgid "Product"
+msgstr "Sản phẩm"
+
+#: sections/footer.twig:46
+#: sections/header.twig:33
+msgctxt "button"
+msgid "Pricing"
+msgstr "Bảng giá"
+
+#: sections/footer.twig:50
+msgctxt "button"
+msgid "FAQ"
+msgstr "Câu hỏi thường gặp"
+
+#: sections/footer.twig:57
+msgctxt "button"
+msgid "Terms of services"
+msgstr "Điều khoản dịch vụ"
+
+#: sections/footer.twig:63
+msgctxt "button"
+msgid "Privacy policy"
+msgstr "Chính sách bảo mật"
+
+#: sections/footer.twig:69
+msgctxt "button"
+msgid "Refund policy"
+msgstr "Chính sách hoàn tiền"
+
+#: sections/generators.twig:3
+msgctxt "heading"
+msgid "Meet your ultimate"
+msgstr "Gặp gỡ điều tuyệt vời nhất của bạn"
+
+#: sections/generators.twig:6
+msgctxt "heading"
+msgid "AI-Powered Content Platform"
+msgstr "Nền tảng nội dung được hỗ trợ bởi AI"
+
+#: sections/header.twig:26
+msgctxt "button"
+msgid "Featured"
+msgstr "Nổi bật"
+
+#: sections/header.twig:111
+#: sections/hero.twig:13
+msgctxt "button"
+msgid "Go to app"
+msgstr "Đi đến ứng dụng"
+
+#: sections/header.twig:123
+msgctxt "button"
+msgid "Library"
+msgstr "Thư viện"
+
+#: sections/header.twig:131
+msgctxt "button"
+msgid "Billing"
+msgstr "Thanh toán"
+
+#: sections/header.twig:143
+msgctxt "button"
+msgid "Account"
+msgstr "Tài khoản"
+
+#: sections/header.twig:151
+msgctxt "button"
+msgid "Logout"
+msgstr "Đăng xuất"
+
+#: sections/header.twig:191
+msgctxt "button"
+msgid "Login"
+msgstr "Đăng nhập"
+
+#: sections/header.twig:196
+#: sections/pricing.twig:102
+msgctxt "button"
+msgid "Get started"
+msgstr "Bắt đầu"
+
+#: sections/hero.twig:3
+msgctxt "heading"
+msgid "Transforming ideas into AI generated masterpieces"
+msgstr "Biến ý tưởng thành kiệt tác do AI tạo ra"
+
+#: sections/hero.twig:7
+msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
+msgstr "Tạo nội dung AI được lái bởi AI phù hợp với nhu cầu của bạn. Mở khóa các khả năng vô hạn, tiết kiệm thời gian và bắt đầu kiếm tiền ngay hôm nay!"
+
+#: sections/hero.twig:19
+msgctxt "button"
+msgid "Get started now"
+msgstr "Bắt đầu ngay"
+
+#: sections/how-it-works.twig:3
+msgctxt "heading"
+msgid "How it works"
+msgstr "Cách hoạt động"
+
+#: sections/how-it-works.twig:13
+msgctxt "heading"
+msgid "Choose Template"
+msgstr "Chọn mẫu"
+
+#: sections/how-it-works.twig:16
+msgid "Choose a our built in templates or create your own."
+msgstr "Chọn một trong các mẫu có sẵn hoặc tạo mẫu riêng của bạn."
+
+#: sections/how-it-works.twig:26
+msgctxt "heading"
+msgid "Describe"
+msgstr "Mô tả"
+
+#: sections/how-it-works.twig:29
+msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
+msgstr "Nhập vài câu để mô tả chủ đề của bạn. Thêm từ khóa để chỉ định cho thương hiệu của bạn."
+
+#: sections/how-it-works.twig:39
+msgctxt "heading"
+msgid "Generate"
+msgstr "Tạo"
+
+#: sections/how-it-works.twig:42
+msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
+msgstr "Nhấn nút \"Tạo\" và nhận được nhiều bản sao chuyển đổi cao mỗi lần."
+
+#: sections/image.twig:5
+msgid "AI Image"
+msgstr "Hình ảnh AI"
+
+#: sections/image.twig:9
+msgctxt "heading"
+msgid "Visualize what you dream of. Create images from text."
+msgstr "Hình dung những gì bạn mơ ước. Tạo hình ảnh từ văn bản."
+
+#: sections/image.twig:13
+msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
+msgstr "Tạo hình ảnh tuyệt vời ngay lập tức bằng cách sử dụng trình tạo hình ảnh AI - công cụ của bạn để sáng tạo."
+
+#: sections/image.twig:18
+msgctxt "button"
+msgid "Try for free"
+msgstr "Dùng thử miễn phí"
+
+#: sections/presets.twig:9
+msgid "100+ AI Writer Templates"
+msgstr "Hơn 100 Mẫu Viết AI"
+
+#: sections/presets.twig:14
+msgctxt "heading"
+msgid "What can Writing Assistant create for you?"
+msgstr "Trợ lý Viết có thể tạo gì cho bạn?"
+
+#: sections/presets.twig:18
+msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer's block forever."
+msgstr "Viết với tốc độ đáng kinh ngạc, thu hút khán giả của bạn và nói lời tạm biệt với tình trạng bí ý tưởng mãi mãi."
+
+#: sections/presets.twig:23
+msgctxt "button"
+msgid "Get Started for Free"
+msgstr "Bắt đầu miễn phí"
+
+#: sections/pricing.twig:3
+msgctxt "heading"
+msgid "Pricing"
+msgstr "Bảng giá"
+
+#: sections/pricing.twig:6
+msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
+msgstr "Khám phá kế hoạch hoàn hảo phù hợp với nhu cầu của bạn và mở khóa một thế giới các khả năng."
+
+#: sections/pricing.twig:19
+msgctxt "button"
+msgid "Monthly"
+msgstr "Hàng tháng"
+
+#: sections/pricing.twig:28
+msgctxt "button"
+msgid "Yearly"
+msgstr "Hàng năm"
+
+#: sections/pricing.twig:37
+msgctxt "button"
+msgid "Packs"
+msgstr "Gói"
+
+#: sections/pricing.twig:46
+msgctxt "button"
+msgid "Lifetime Deals"
+msgstr "Ưu đãi trọn đời"
+
+#: sections/pricing.twig:78
+msgid "Most Popular"
+msgstr "Phổ biến nhất"
+
+#: sections/pricing.twig:115
+msgid "Chat"
+msgstr "Trò chuyện"
+
+#: sections/pricing.twig:134
+msgid "Writer"
+msgstr "Người viết"
+
+#: sections/pricing.twig:153
+msgid "Image generator"
+msgstr "Trình tạo hình ảnh"
+
+#: sections/pricing.twig:166
+msgid "Transcriber"
+msgstr "Người phiên âm"
+
+#: sections/pricing.twig:179
+msgid "Voiceover"
+msgstr "Lồng tiếng"
+
+#: sections/pricing.twig:192
+msgid "Voice isolator"
+msgstr "Bộ tách giọng nói"
+
+#: sections/pricing.twig:205
+msgid "Classifier"
+msgstr "Bộ phân loại"
+
+#: sections/pricing.twig:213
+msgid "Access to templates is disabled"
+msgstr "Truy cập vào mẫu bị vô hiệu hóa"
+
+#: sections/pricing.twig:216
+msgid "Access to all templates"
+msgstr "Truy cập vào tất cả các mẫu"
+
+#: sections/pricing.twig:232
+msgid "Priority support"
+msgstr "Hỗ trợ ưu tiên"
+
+#: sections/pricing.twig:235
+msgid "Basic support"
+msgstr "Hỗ trợ cơ bản"
+
+#: sections/speech-to-text.twig:4
+msgid "Speech to Text"
+msgstr "Chuyển Giọng Nói Thành Văn Bản"
+
+#: sections/speech-to-text.twig:8
+msgctxt "heading"
+msgid "Transforming Spoken <br> Words into Text."
+msgstr "Chuyển đổi lời nói <br> thành văn bản."
+
+#: sections/speech-to-text.twig:12
+msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
+msgstr "Chuyển đổi ngay lập tức từ lời nói thành văn bản để nâng cao năng suất và khả dụng."
+
+#: sections/speech-to-text.twig:17
+msgctxt "button"
+msgid "Convert now"
+msgstr "Chuyển đổi ngay"
+
+#: sections/text-to-voice.twig:4
+msgid "Text to Voice"
+msgstr "Chuyển Văn Bản Thành Giọng Nói"
+
+#: sections/text-to-voice.twig:8
+msgctxt "heading"
+msgid "Convert your texts into <br> Lifelike Speech"
+msgstr "Chuyển đổi văn bản của bạn thành <br> Giọng nói giống thật"
+
+#: sections/text-to-voice.twig:12
+msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
+msgstr "Nâng cao nội dung của bạn với trình bày đặc sắc: Khám phá sự hoàn hảo của văn bản thành giọng nói."
+
+#: sections/video.twig:11
+msgid "Video"
+msgstr "Video"
+
+#: sections/video.twig:15
+msgctxt "heading"
+msgid "Generate high-quality videos using AI Video generation tool."
+msgstr "Tạo video chất lượng cao bằng công cụ tạo video AI."
+
+#: sections/video.twig:19
+msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
+msgstr "Không cần kỹ năng chỉnh sửa video - chỉ cần tải lên hình ảnh và nhập vài dòng lệnh, thế là xong."
+
+#: sections/writer.twig:22
+msgid "AI Writer"
+msgstr "Trình Viết AI"
+
+#: sections/writer.twig:26
+msgctxt "heading"
+msgid "Write SEO optimized blogs, sales emails and more..."
+msgstr "Viết blog tối ưu SEO, email bán hàng và nhiều hơn nữa..."
+
+#: sections/writer.twig:30
+msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
+msgstr "Đạt được kết quả vượt trội trong một phần thời gian. Cuối cùng, một công cụ viết mà bạn sẽ thực sự sử dụng."
+
+#: sections/writer.twig:35
+msgctxt "button"
+msgid "See all features"
+msgstr "Xem tất cả tính năng"

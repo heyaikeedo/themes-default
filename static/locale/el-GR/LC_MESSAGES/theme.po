@@ -1,382 +1,484 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Theme Translations\n"
-"Report-Msgid-Bugs-To: \n"
-"Last-Translator: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Language: el-GR\n"
 "Language-Team: \n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Theme Translations\n"
+"Report-Msgid-Bugs-To: \n"
 "X-Domain: theme\n"
 
-msgid "AI Writer"
-msgstr "Συγγραφέας AI"
+#: sections/chat.twig:11
+msgid "AI Chat Bot"
+msgstr "Ρομπότ Συνομιλίας AI"
 
-msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
-msgstr "Αποκτήστε εξαιρετικά αποτελέσματα σε μια ποσότητα χρόνου. Τέλος, ένα εργαλείο γραφής που θα χρησιμοποιήσετε πραγματικά."
-
+#: sections/chat.twig:15
 msgctxt "heading"
-msgid "Write SEO optimized blogs, sales emails and more..."
-msgstr "Γράψτε SEO βελτιστοποιημένα blogs, πωλησιακά email και άλλα..."
+msgid "That's remarkably human-like and engaging..."
+msgstr "Αυτό είναι αξιοσημείωτα ανθρώπινο και ελκυστικό..."
 
-msgctxt "button"
-msgid "See all features"
-msgstr "Δείτε όλες τις λειτουργίες"
+#: sections/chat.twig:19
+msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
+msgstr "Απλά επιλέξτε τον Βοηθό σας και αλληλεπιδράστε με έναν φιλικό ρομπότ συνομιλίας για να δημιουργήσετε ιδέες, βελτιώσετε το περιεχόμενό σας ή ακόμη και να φέρετε ένα χαμόγελο στην πρόσωπό σας."
 
-msgid "Video"
-msgstr ""
-
-msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
-msgstr ""
-
-msgctxt "heading"
-msgid "Generate high-quality videos using AI Video generation tool."
-msgstr ""
-
+#: sections/chat.twig:24
+#: sections/video.twig:24
 msgctxt "button"
 msgid "Try now"
 msgstr "Δοκιμάστε τώρα"
 
-msgid "Text to Voice"
-msgstr "Κείμενο σε Φωνή"
-
-msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
-msgstr "Αυξήστε το περιεχόμενό σας με εκφραστική περιγραφή: Ανακαλύψτε την εξειδίκευση του κειμένου σε φωνή."
-
-msgctxt "heading"
-msgid "Convert your texts into <br> Lifelike Speech"
-msgstr "Μετατρέψτε τα κείμενά σας σε <br> Φωνή Ζωηρή"
-
-msgid "Speech to Text"
-msgstr "Φωνή σε Κείμενο"
-
-msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
-msgstr "Μεταγράψτε αμέσως τις λέξεις που μιλάτε σε κείμενο για βελτιωμένη παραγωγικότητα και πρόσβαση."
-
-msgctxt "heading"
-msgid "Transforming Spoken <br> Words into Text."
-msgstr "Μετατροπή Προφορικών <br> Λέξεων σε Κείμενο."
-
-msgctxt "button"
-msgid "Convert now"
-msgstr "Μετατρέψτε τώρα"
-
-msgid ":count credits"
-msgstr ":count πιστώσεις"
-
-msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
-msgstr "Ανακαλύψτε το τέλειο σχέδιο που ταιριάζει στις ανάγκες σας και ανοίξτε έναν κόσμο δυνατοτήτων."
-
-msgid "Most Popular"
-msgstr "Πιο Δημοφιλές"
-
-msgid "Chat"
-msgstr "Συνομιλία"
-
-msgid "Writer"
-msgstr "Συγγραφέας"
-
-msgid "Image generator"
-msgstr "Δημιουργός εικόνων"
-
-msgid "Transcriber"
-msgstr "Μεταγραφέας"
-
-msgid "Voiceover"
-msgstr "Αφηγητής"
-
-msgid "Voice isolator"
-msgstr "Απομονωτής φωνής"
-
-msgid "Classifier"
-msgstr "Κατηγοριοποιητής"
-
-msgid "Access to templates is disabled"
-msgstr "Η πρόσβαση στα πρότυπα είναι απενεργοποιημένη"
-
-msgid "Access to all templates"
-msgstr "Πρόσβαση σε όλα τα πρότυπα"
-
-msgid "Priority support"
-msgstr "Υποστήριξη προτεραιότητας"
-
-msgid "Basic support"
-msgstr "Βασική υποστήριξη"
-
-msgctxt "heading"
-msgid "Pricing"
-msgstr ""
-
-msgctxt "button"
-msgid "Monthly"
-msgstr "Μηνιαία"
-
-msgctxt "button"
-msgid "Yearly"
-msgstr "Ετήσια"
-
-msgctxt "button"
-msgid "Packs"
-msgstr "Πακέτα"
-
-msgctxt "button"
-msgid "Lifetime Deals"
-msgstr "Δια βίου προσφορές"
-
-msgctxt "button"
-msgid "Get started"
-msgstr "Ξεκινήστε"
-
-msgid "100+ AI Writer Templates"
-msgstr "100+ Πρότυπα Συγγραφέα AI"
-
-msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer\\'s block forever."
-msgstr "Γράψτε με απίστευτη ταχύτητα, καταπατήστε την κοινότητά σας και αποχωρήστε για πάντα από το πρόβλημα της γραφής."
-
-msgctxt "heading"
-msgid "What can Writing Assistant create for you?"
-msgstr "Τι μπορεί να δημιουργήσει για εσάς ο Βοηθός Συγγραφής;"
-
-msgctxt "button"
-msgid "Get Started for Free"
-msgstr "Ξεκινήστε Δωρεάν"
-
-msgid "AI Image"
-msgstr "Εικόνα AI"
-
-msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
-msgstr "Δημιουργήστε απίστευτα εικόνες με τη γεννήτρια εικόνων AI - το εργαλείο σας για την καλλιτεχνική επινόηση."
-
-msgctxt "heading"
-msgid "Visualize what you dream of. Create images from text."
-msgstr "Οπτικοποιήστε αυτό που ονειρεύεστε. Δημιουργήστε εικόνες από κείμενο."
-
-msgctxt "button"
-msgid "Try for free"
-msgstr "Δοκιμάστε δωρεάν"
-
-msgid "Choose a our built in templates or create your own."
-msgstr "Επιλέξτε ένα από τα ενσωματωμένα πρότυπά μας ή δημιουργήστε το δικό σας."
-
-msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
-msgstr "Εισάγετε μερικές προτάσεις για να περιγράψετε το θέμα σας. Προσθέστε λέξεις-κλειδιά για να προσδιορίσετε για την εταιρεία σας."
-
-msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
-msgstr "Κάντε κλικ στο κουμπί \"Δημιουργία\" και λάβετε μια ποικιλία υψηλών μετατροπών ανά φορά."
-
-msgctxt "heading"
-msgid "How it works"
-msgstr "Πώς λειτουργεί"
-
-msgctxt "heading"
-msgid "Choose Template"
-msgstr "Επιλέξτε Πρότυπο"
-
-msgctxt "heading"
-msgid "Describe"
-msgstr "Περιγράψτε"
-
-msgctxt "heading"
-msgid "Generate"
-msgstr "Δημιουργία"
-
-msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
-msgstr "Δημιουργήστε εύκολα υψηλής ποιότητας περιεχόμενο που διευθύνεται από AI σύμφωνα με τις ανάγκες σας. Ανοίξτε έναν κόσμο απεριόριστων δυνατοτήτων, αποθηκεύστε το χρόνο σας και ξεκινήστε να κερδίζετε χρήματα σήμερα!"
-
-msgctxt "heading"
-msgid "Transforming ideas into AI generated masterpieces"
-msgstr "Μετατρέποντας ιδέες σε αριστουργήματα που δημιουργούνται από AI"
-
-msgctxt "button"
-msgid "Go to app"
-msgstr "Μετάβαση στην εφαρμογή"
-
-msgctxt "button"
-msgid "Get started now"
-msgstr "Ξεκινήστε τώρα"
-
-msgctxt "button"
-msgid "Product"
-msgstr "Προϊόν"
-
-msgctxt "button"
-msgid "Featured"
-msgstr "Προτεινόμενο"
-
-msgctxt "button"
-msgid "Pricing"
-msgstr "Τιμολόγηση"
-
-msgctxt "button"
-msgid "Library"
-msgstr "Βιβλιοθήκη"
-
-msgctxt "button"
-msgid "Billing"
-msgstr "Χρέωση"
-
-msgctxt "button"
-msgid "Account"
-msgstr "Λογαριασμός"
-
-msgctxt "button"
-msgid "Logout"
-msgstr "Αποσύνδεση"
-
-msgctxt "button"
-msgid "Login"
-msgstr "Σύνδεση"
-
-msgctxt "heading"
-msgid "Meet your ultimate"
-msgstr "Γνωρίστε το απόλυτο σας"
-
-msgctxt "heading"
-msgid "AI-Powered Content Platform"
-msgstr "Πλατφόρμα Περιεχομένου με Τεχνητή Νοημοσύνη"
-
-msgid "All rights reserved."
-msgstr "Με επιφύλαξη παντός δικαιώματος."
-
-msgctxt "button"
-msgid "FAQ"
-msgstr "Συχνές Ερωτήσεις"
-
-msgctxt "button"
-msgid "Terms of services"
-msgstr "Όροι υπηρεσιών"
-
-msgctxt "button"
-msgid "Privacy policy"
-msgstr "Πολιτική απορρήτου"
-
-msgctxt "button"
-msgid "Refund policy"
-msgstr "Πολιτική επιστροφών"
-
-msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
-msgstr "Αναπτύχθηκε χρησιμοποιώντας τις αρχές Domain-Driven Design και Onion Architecture."
-
-msgid "Built with modern technologies for best structure and get maximum performance."
-msgstr "Χτίστηκε με σύγχρονες τεχνολογίες για την καλύτερη δομή και τη μέγιστη απόδοση."
-
-msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
-msgstr "Απολαύστε μια εύκολη και ευδιάκριτη διεπαφή χρήστη που βελτιώνει την ψηφιακή σας εμπειρία."
-
-msgid "Turn off the light and switch to dark mode your interface with one click."
-msgstr "Σβήστε το φως και αλλάξτε τη διεπαφή σας σε σκοτεινή λειτουργία με ένα κλικ."
-
-msgid "An all-inclusive learning package seamlessly integrated into our community."
-msgstr "Ένα ολοκληρωμένο πακέτο μάθησης ενσωματωμένο άψογα στην κοινότητά μας."
-
-msgid "Simplify transactions and boost security with payment gateway solutions."
-msgstr "Απλοποιήστε τις συναλλαγές και ενισχύστε την ασφάλεια με λύσεις πύλης πληρωμών."
-
-msgid "Unlock limitless creativity with our AI-powered content generator."
-msgstr "Ξεκλειδώστε απεριόριστη δημιουργικότητα με τον δημιουργό περιεχομένου που τροφοδοτείται από AI."
-
-msgid "Boost your visibility and reach your audience effectively with AI generated content."
-msgstr "Αυξήστε την ορατότητά σας και επιτύχετε την κοινότητά σας με αποτελεσματικό τρόπο με περιεχόμενο που δημιουργείται από AI."
-
-msgid "Empower your insights and control with our cutting-edge dashboard."
-msgstr "Ενισχύστε τις γνώσεις και τον έλεγχό σας με τον προηγμένο πίνακα ελέγχου μας."
-
-msgid "Transform your content creation with AI-driven custom templates."
-msgstr "Μεταμορφώστε τη δημιουργία περιεχομένου σας με προσαρμοσμένα πρότυπα που βασίζονται σε AI."
-
-msgid "Use Facebook or Google accounts as an alternatively access to platform."
-msgstr "Χρησιμοποιήστε λογαριασμούς Facebook ή Google ως εναλλακτική πρόσβαση στην πλατφόρμα."
-
-msgid "Our support team is available 24/7 to help you with any questions or concerns."
-msgstr "Το ομάδα υποστήριξης μας είναι διαθέσιμη 24/7 για να σας βοηθήσει με οποιαδήποτε ερώτηση ή ανησυχία."
-
-msgctxt "heading"
-msgid "Coolest Features"
-msgstr "Κορυφαία Χαρακτηριστικά"
-
-msgctxt "heading"
-msgid "High Quality Code"
-msgstr "Κώδικας Υψηλής Ποιότητας"
-
-msgctxt "heading"
-msgid "Modern Technologies"
-msgstr "Μοντέρνες Τεχνολογίες"
-
-msgctxt "heading"
-msgid "Friendly UI and UX"
-msgstr "Φιλικό UI και UX"
-
-msgctxt "heading"
-msgid "Dark Mode"
-msgstr "Σκοτεινή Λειτουργία"
-
-msgctxt "heading"
-msgid "Documentation"
-msgstr "Τεκμηρίωση"
-
-msgctxt "heading"
-msgid "Payment Gateways"
-msgstr "Πύλες Πληρωμών"
-
-msgctxt "heading"
-msgid "AI Generator"
-msgstr "Γεννήτρια Τεχνητής Νοημοσύνης"
-
-msgctxt "heading"
-msgid "SEO Friendly"
-msgstr "Φιλικό προς SEO"
-
-msgctxt "heading"
-msgid "Advanced Dashboard"
-msgstr "Προηγμένος Πίνακας Ελέγχου"
-
-msgctxt "heading"
-msgid "Custom Templates"
-msgstr "Προσαρμοσμένα Πρότυπα"
-
-msgctxt "heading"
-msgid "Login via SM Accounts"
-msgstr "Σύνδεση μέσω Λογαριασμών Κοινωνικών Δικτύων"
-
-msgctxt "heading"
-msgid "High Quality Support"
-msgstr "Υποστήριξη Υψηλής Ποιότητας"
-
-msgid "See how easy it can be to write amazing content."
-msgstr "Δείτε πόσο εύκολο μπορεί να είναι να γράψετε εκπληκτικό περιεχόμενο."
-
-msgctxt "heading"
-msgid "Ready to level-up?"
-msgstr "Έτοιμοι να ανεβείτε επίπεδο;"
-
-msgctxt "button"
-msgid "Get Started Now"
-msgstr "Ξεκινήστε Τώρα"
-
+#: sections/code.twig:10
 msgid "AI Code"
 msgstr "Κώδικας AI"
 
-msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
-msgstr "Γράψτε κώδικα χωρίς προσπάθεια με τον γεννήτρια κώδικα AI: Λύσεις αμέσως για τις ανάγκες προγραμματισμού σας."
-
+#: sections/code.twig:14
 msgctxt "heading"
 msgid "Ready to write code at the speed of light?"
 msgstr "Έτοιμοι να γράψετε κώδικα με την ταχύτητα του φωτός;"
 
+#: sections/code.twig:18
+msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
+msgstr "Γράψτε κώδικα χωρίς προσπάθεια με τον γεννήτρια κώδικα AI: Λύσεις αμέσως για τις ανάγκες προγραμματισμού σας."
+
+#: sections/code.twig:23
 msgctxt "button"
 msgid "Start Generate Code"
 msgstr "Ξεκινήστε τη Δημιουργία Κώδικα"
 
-msgid "AI Chat Bot"
-msgstr "Ρομπότ Συνομιλίας AI"
-
-msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
-msgstr "Απλά επιλέξτε τον Βοηθό σας και αλληλεπιδράστε με έναν φιλικό ρομπότ συνομιλίας για να δημιουργήσετε ιδέες, βελτιώσετε το περιεχόμενό σας ή ακόμη και να φέρετε ένα χαμόγελο στην πρόσωπό σας."
-
+#: sections/cta.twig:3
 msgctxt "heading"
-msgid "That\\'s remarkably human-like and engaging..."
-msgstr "Αυτό είναι αξιοσημείωτα ανθρώπινο και ελκυστικό..."
+msgid "Ready to level-up?"
+msgstr "Έτοιμοι να ανεβείτε επίπεδο;"
 
-msgid "Unlimited"
-msgstr "Απεριόριστο"
+#: sections/cta.twig:5
+msgid "See how easy it can be to write amazing content."
+msgstr "Δείτε πόσο εύκολο μπορεί να είναι να γράψετε εκπληκτικό περιεχόμενο."
+
+#: sections/cta.twig:10
+msgctxt "button"
+msgid "Get Started Now"
+msgstr "Ξεκινήστε Τώρα"
+
+#: sections/features.twig:3
+msgctxt "heading"
+msgid "Coolest Features"
+msgstr "Κορυφαία Χαρακτηριστικά"
+
+#: sections/features.twig:13
+msgctxt "heading"
+msgid "High Quality Code"
+msgstr "Κώδικας Υψηλής Ποιότητας"
+
+#: sections/features.twig:16
+msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
+msgstr "Αναπτύχθηκε χρησιμοποιώντας τις αρχές Domain-Driven Design και Onion Architecture."
+
+#: sections/features.twig:26
+msgctxt "heading"
+msgid "Modern Technologies"
+msgstr "Μοντέρνες Τεχνολογίες"
+
+#: sections/features.twig:29
+msgid "Built with modern technologies for best structure and get maximum performance."
+msgstr "Χτίστηκε με σύγχρονες τεχνολογίες για την καλύτερη δομή και τη μέγιστη απόδοση."
+
+#: sections/features.twig:39
+msgctxt "heading"
+msgid "Friendly UI and UX"
+msgstr "Φιλικό UI και UX"
+
+#: sections/features.twig:42
+msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
+msgstr "Απολαύστε μια εύκολη και ευδιάκριτη διεπαφή χρήστη που βελτιώνει την ψηφιακή σας εμπειρία."
+
+#: sections/features.twig:52
+msgctxt "heading"
+msgid "Dark Mode"
+msgstr "Σκοτεινή Λειτουργία"
+
+#: sections/features.twig:55
+msgid "Turn off the light and switch to dark mode your interface with one click."
+msgstr "Σβήστε το φως και αλλάξτε τη διεπαφή σας σε σκοτεινή λειτουργία με ένα κλικ."
+
+#: sections/features.twig:65
+msgctxt "heading"
+msgid "Documentation"
+msgstr "Τεκμηρίωση"
+
+#: sections/features.twig:68
+msgid "An all-inclusive learning package seamlessly integrated into our community."
+msgstr "Ένα ολοκληρωμένο πακέτο μάθησης ενσωματωμένο άψογα στην κοινότητά μας."
+
+#: sections/features.twig:78
+msgctxt "heading"
+msgid "Payment Gateways"
+msgstr "Πύλες Πληρωμών"
+
+#: sections/features.twig:81
+msgid "Simplify transactions and boost security with payment gateway solutions."
+msgstr "Απλοποιήστε τις συναλλαγές και ενισχύστε την ασφάλεια με λύσεις πύλης πληρωμών."
+
+#: sections/features.twig:91
+msgctxt "heading"
+msgid "AI Generator"
+msgstr "Γεννήτρια Τεχνητής Νοημοσύνης"
+
+#: sections/features.twig:94
+msgid "Unlock limitless creativity with our AI-powered content generator."
+msgstr "Ξεκλειδώστε απεριόριστη δημιουργικότητα με τον δημιουργό περιεχομένου που τροφοδοτείται από AI."
+
+#: sections/features.twig:104
+msgctxt "heading"
+msgid "SEO Friendly"
+msgstr "Φιλικό προς SEO"
+
+#: sections/features.twig:107
+msgid "Boost your visibility and reach your audience effectively with AI generated content."
+msgstr "Αυξήστε την ορατότητά σας και επιτύχετε την κοινότητά σας με αποτελεσματικό τρόπο με περιεχόμενο που δημιουργείται από AI."
+
+#: sections/features.twig:117
+msgctxt "heading"
+msgid "Advanced Dashboard"
+msgstr "Προηγμένος Πίνακας Ελέγχου"
+
+#: sections/features.twig:120
+msgid "Empower your insights and control with our cutting-edge dashboard."
+msgstr "Ενισχύστε τις γνώσεις και τον έλεγχό σας με τον προηγμένο πίνακα ελέγχου μας."
+
+#: sections/features.twig:130
+msgctxt "heading"
+msgid "Custom Templates"
+msgstr "Προσαρμοσμένα Πρότυπα"
+
+#: sections/features.twig:133
+msgid "Transform your content creation with AI-driven custom templates."
+msgstr "Μεταμορφώστε τη δημιουργία περιεχομένου σας με προσαρμοσμένα πρότυπα που βασίζονται σε AI."
+
+#: sections/features.twig:144
+msgctxt "heading"
+msgid "Login via SM Accounts"
+msgstr "Σύνδεση μέσω Λογαριασμών Κοινωνικών Δικτύων"
+
+#: sections/features.twig:147
+msgid "Use Facebook or Google accounts as an alternatively access to platform."
+msgstr "Χρησιμοποιήστε λογαριασμούς Facebook ή Google ως εναλλακτική πρόσβαση στην πλατφόρμα."
+
+#: sections/features.twig:157
+msgctxt "heading"
+msgid "High Quality Support"
+msgstr "Υποστήριξη Υψηλής Ποιότητας"
+
+#: sections/features.twig:160
+msgid "Our support team is available 24/7 to help you with any questions or concerns."
+msgstr "Το ομάδα υποστήριξης μας είναι διαθέσιμη 24/7 για να σας βοηθήσει με οποιαδήποτε ερώτηση ή ανησυχία."
+
+#: sections/footer.twig:4
+msgid "All rights reserved."
+msgstr "Με επιφύλαξη παντός δικαιώματος."
+
+#: sections/footer.twig:42
+#: sections/header.twig:19
+msgctxt "button"
+msgid "Product"
+msgstr "Προϊόν"
+
+#: sections/footer.twig:46
+#: sections/header.twig:33
+msgctxt "button"
+msgid "Pricing"
+msgstr "Τιμολόγηση"
+
+#: sections/footer.twig:50
+msgctxt "button"
+msgid "FAQ"
+msgstr "Συχνές Ερωτήσεις"
+
+#: sections/footer.twig:57
+msgctxt "button"
+msgid "Terms of services"
+msgstr "Όροι υπηρεσιών"
+
+#: sections/footer.twig:63
+msgctxt "button"
+msgid "Privacy policy"
+msgstr "Πολιτική απορρήτου"
+
+#: sections/footer.twig:69
+msgctxt "button"
+msgid "Refund policy"
+msgstr "Πολιτική επιστροφών"
+
+#: sections/generators.twig:3
+msgctxt "heading"
+msgid "Meet your ultimate"
+msgstr "Γνωρίστε το απόλυτο σας"
+
+#: sections/generators.twig:6
+msgctxt "heading"
+msgid "AI-Powered Content Platform"
+msgstr "Πλατφόρμα Περιεχομένου με Τεχνητή Νοημοσύνη"
+
+#: sections/header.twig:26
+msgctxt "button"
+msgid "Featured"
+msgstr "Προτεινόμενο"
+
+#: sections/header.twig:111
+#: sections/hero.twig:13
+msgctxt "button"
+msgid "Go to app"
+msgstr "Μετάβαση στην εφαρμογή"
+
+#: sections/header.twig:123
+msgctxt "button"
+msgid "Library"
+msgstr "Βιβλιοθήκη"
+
+#: sections/header.twig:131
+msgctxt "button"
+msgid "Billing"
+msgstr "Χρέωση"
+
+#: sections/header.twig:143
+msgctxt "button"
+msgid "Account"
+msgstr "Λογαριασμός"
+
+#: sections/header.twig:151
+msgctxt "button"
+msgid "Logout"
+msgstr "Αποσύνδεση"
+
+#: sections/header.twig:191
+msgctxt "button"
+msgid "Login"
+msgstr "Σύνδεση"
+
+#: sections/header.twig:196
+#: sections/pricing.twig:102
+msgctxt "button"
+msgid "Get started"
+msgstr "Ξεκινήστε"
+
+#: sections/hero.twig:3
+msgctxt "heading"
+msgid "Transforming ideas into AI generated masterpieces"
+msgstr "Μετατρέποντας ιδέες σε αριστουργήματα που δημιουργούνται από AI"
+
+#: sections/hero.twig:7
+msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
+msgstr "Δημιουργήστε εύκολα υψηλής ποιότητας περιεχόμενο που διευθύνεται από AI σύμφωνα με τις ανάγκες σας. Ανοίξτε έναν κόσμο απεριόριστων δυνατοτήτων, αποθηκεύστε το χρόνο σας και ξεκινήστε να κερδίζετε χρήματα σήμερα!"
+
+#: sections/hero.twig:19
+msgctxt "button"
+msgid "Get started now"
+msgstr "Ξεκινήστε τώρα"
+
+#: sections/how-it-works.twig:3
+msgctxt "heading"
+msgid "How it works"
+msgstr "Πώς λειτουργεί"
+
+#: sections/how-it-works.twig:13
+msgctxt "heading"
+msgid "Choose Template"
+msgstr "Επιλέξτε Πρότυπο"
+
+#: sections/how-it-works.twig:16
+msgid "Choose a our built in templates or create your own."
+msgstr "Επιλέξτε ένα από τα ενσωματωμένα πρότυπά μας ή δημιουργήστε το δικό σας."
+
+#: sections/how-it-works.twig:26
+msgctxt "heading"
+msgid "Describe"
+msgstr "Περιγράψτε"
+
+#: sections/how-it-works.twig:29
+msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
+msgstr "Εισάγετε μερικές προτάσεις για να περιγράψετε το θέμα σας. Προσθέστε λέξεις-κλειδιά για να προσδιορίσετε για την εταιρεία σας."
+
+#: sections/how-it-works.twig:39
+msgctxt "heading"
+msgid "Generate"
+msgstr "Δημιουργία"
+
+#: sections/how-it-works.twig:42
+msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
+msgstr "Κάντε κλικ στο κουμπί \"Δημιουργία\" και λάβετε μια ποικιλία υψηλών μετατροπών ανά φορά."
+
+#: sections/image.twig:5
+msgid "AI Image"
+msgstr "Εικόνα AI"
+
+#: sections/image.twig:9
+msgctxt "heading"
+msgid "Visualize what you dream of. Create images from text."
+msgstr "Οπτικοποιήστε αυτό που ονειρεύεστε. Δημιουργήστε εικόνες από κείμενο."
+
+#: sections/image.twig:13
+msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
+msgstr "Δημιουργήστε απίστευτα εικόνες με τη γεννήτρια εικόνων AI - το εργαλείο σας για την καλλιτεχνική επινόηση."
+
+#: sections/image.twig:18
+msgctxt "button"
+msgid "Try for free"
+msgstr "Δοκιμάστε δωρεάν"
+
+#: sections/presets.twig:9
+msgid "100+ AI Writer Templates"
+msgstr "100+ Πρότυπα Συγγραφέα AI"
+
+#: sections/presets.twig:14
+msgctxt "heading"
+msgid "What can Writing Assistant create for you?"
+msgstr "Τι μπορεί να δημιουργήσει για εσάς ο Βοηθός Συγγραφής;"
+
+#: sections/presets.twig:18
+msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer's block forever."
+msgstr "Γράψτε με αξιοσημείωτη ταχύτητα, μαγνητίστε το κοινό σας και πείτε αντίο στο μπλοκάρισμα του συγγραφέα για πάντα."
+
+#: sections/presets.twig:23
+msgctxt "button"
+msgid "Get Started for Free"
+msgstr "Ξεκινήστε Δωρεάν"
+
+#: sections/pricing.twig:3
+msgctxt "heading"
+msgid "Pricing"
+msgstr "Τιμολόγηση"
+
+#: sections/pricing.twig:6
+msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
+msgstr "Ανακαλύψτε το τέλειο σχέδιο που ταιριάζει στις ανάγκες σας και ανοίξτε έναν κόσμο δυνατοτήτων."
+
+#: sections/pricing.twig:19
+msgctxt "button"
+msgid "Monthly"
+msgstr "Μηνιαία"
+
+#: sections/pricing.twig:28
+msgctxt "button"
+msgid "Yearly"
+msgstr "Ετήσια"
+
+#: sections/pricing.twig:37
+msgctxt "button"
+msgid "Packs"
+msgstr "Πακέτα"
+
+#: sections/pricing.twig:46
+msgctxt "button"
+msgid "Lifetime Deals"
+msgstr "Δια βίου προσφορές"
+
+#: sections/pricing.twig:78
+msgid "Most Popular"
+msgstr "Πιο Δημοφιλές"
+
+#: sections/pricing.twig:115
+msgid "Chat"
+msgstr "Συνομιλία"
+
+#: sections/pricing.twig:134
+msgid "Writer"
+msgstr "Συγγραφέας"
+
+#: sections/pricing.twig:153
+msgid "Image generator"
+msgstr "Δημιουργός εικόνων"
+
+#: sections/pricing.twig:166
+msgid "Transcriber"
+msgstr "Μεταγραφέας"
+
+#: sections/pricing.twig:179
+msgid "Voiceover"
+msgstr "Αφηγητής"
+
+#: sections/pricing.twig:192
+msgid "Voice isolator"
+msgstr "Απομονωτής φωνής"
+
+#: sections/pricing.twig:205
+msgid "Classifier"
+msgstr "Κατηγοριοποιητής"
+
+#: sections/pricing.twig:213
+msgid "Access to templates is disabled"
+msgstr "Η πρόσβαση στα πρότυπα είναι απενεργοποιημένη"
+
+#: sections/pricing.twig:216
+msgid "Access to all templates"
+msgstr "Πρόσβαση σε όλα τα πρότυπα"
+
+#: sections/pricing.twig:232
+msgid "Priority support"
+msgstr "Υποστήριξη προτεραιότητας"
+
+#: sections/pricing.twig:235
+msgid "Basic support"
+msgstr "Βασική υποστήριξη"
+
+#: sections/speech-to-text.twig:4
+msgid "Speech to Text"
+msgstr "Φωνή σε Κείμενο"
+
+#: sections/speech-to-text.twig:8
+msgctxt "heading"
+msgid "Transforming Spoken <br> Words into Text."
+msgstr "Μετατροπή Προφορικών <br> Λέξεων σε Κείμενο."
+
+#: sections/speech-to-text.twig:12
+msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
+msgstr "Μεταγράψτε αμέσως τις λέξεις που μιλάτε σε κείμενο για βελτιωμένη παραγωγικότητα και πρόσβαση."
+
+#: sections/speech-to-text.twig:17
+msgctxt "button"
+msgid "Convert now"
+msgstr "Μετατρέψτε τώρα"
+
+#: sections/text-to-voice.twig:4
+msgid "Text to Voice"
+msgstr "Κείμενο σε Φωνή"
+
+#: sections/text-to-voice.twig:8
+msgctxt "heading"
+msgid "Convert your texts into <br> Lifelike Speech"
+msgstr "Μετατρέψτε τα κείμενά σας σε <br> Φωνή Ζωηρή"
+
+#: sections/text-to-voice.twig:12
+msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
+msgstr "Αυξήστε το περιεχόμενό σας με εκφραστική περιγραφή: Ανακαλύψτε την εξειδίκευση του κειμένου σε φωνή."
+
+#: sections/video.twig:11
+msgid "Video"
+msgstr "Βίντεο"
+
+#: sections/video.twig:15
+msgctxt "heading"
+msgid "Generate high-quality videos using AI Video generation tool."
+msgstr "Δημιουργήστε βίντεο υψηλής ποιότητας χρησιμοποιώντας το εργαλείο δημιουργίας βίντεο με AI."
+
+#: sections/video.twig:19
+msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
+msgstr "Δεν απαιτούνται δεξιότητες επεξεργασίας βίντεο - απλώς ανεβάστε τις εικόνες σας και εισάγετε μερικές γραμμές προτροπής, αυτό είναι όλο."
+
+#: sections/writer.twig:22
+msgid "AI Writer"
+msgstr "Συγγραφέας AI"
+
+#: sections/writer.twig:26
+msgctxt "heading"
+msgid "Write SEO optimized blogs, sales emails and more..."
+msgstr "Γράψτε SEO βελτιστοποιημένα blogs, πωλησιακά email και άλλα..."
+
+#: sections/writer.twig:30
+msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
+msgstr "Αποκτήστε εξαιρετικά αποτελέσματα σε μια ποσότητα χρόνου. Τέλος, ένα εργαλείο γραφής που θα χρησιμοποιήσετε πραγματικά."
+
+#: sections/writer.twig:35
+msgctxt "button"
+msgid "See all features"
+msgstr "Δείτε όλες τις λειτουργίες"

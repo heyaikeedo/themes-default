@@ -1,382 +1,484 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Theme Translations\n"
-"Report-Msgid-Bugs-To: \n"
-"Last-Translator: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Language: pl-PL\n"
 "Language-Team: \n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Project-Id-Version: Theme Translations\n"
+"Report-Msgid-Bugs-To: \n"
 "X-Domain: theme\n"
 
-msgid "AI Writer"
-msgstr "AI Writer"
+#: sections/chat.twig:11
+msgid "AI Chat Bot"
+msgstr "Bot czatu AI"
 
-msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
-msgstr "Osiągnij wyższe wyniki w ułamku czasu. Na koniec, narzędzie do pisania, którego naprawdę użyjesz."
-
+#: sections/chat.twig:15
 msgctxt "heading"
-msgid "Write SEO optimized blogs, sales emails and more..."
-msgstr "Twórz zoptymalizowane pod SEO blogi, maile sprzedażowe i więcej..."
+msgid "That's remarkably human-like and engaging..."
+msgstr "To niezwykle ludzkie i angażujące..."
 
-msgctxt "button"
-msgid "See all features"
-msgstr "Zobacz wszystkie funkcje"
+#: sections/chat.twig:19
+msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
+msgstr "Wybierz swojego asystenta i zacznij rozmowę z przyjaznym botem czatu, aby generować pomysły, poprawiać swoją treść lub nawet zapewniać uśmiech na swojej twarzy."
 
-msgid "Video"
-msgstr ""
-
-msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
-msgstr ""
-
-msgctxt "heading"
-msgid "Generate high-quality videos using AI Video generation tool."
-msgstr ""
-
+#: sections/chat.twig:24
+#: sections/video.twig:24
 msgctxt "button"
 msgid "Try now"
 msgstr "Wypróbuj teraz"
 
-msgid "Text to Voice"
-msgstr "Tekst na głos"
-
-msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
-msgstr "Podnieś swoją treść dzięki wyraźnemu opowiadaniu: Odkryj doskonałość tekstu na głos."
-
-msgctxt "heading"
-msgid "Convert your texts into <br> Lifelike Speech"
-msgstr "Konwertuj swoje teksty na <br> realistyczną mowę"
-
-msgid "Speech to Text"
-msgstr "Mowa na tekst"
-
-msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
-msgstr "Natychmiastowe przekazywanie wypowiedzianych słów na tekst w celu zwiększenia produktywności i dostępności."
-
-msgctxt "heading"
-msgid "Transforming Spoken <br> Words into Text."
-msgstr "Przekształcanie wypowiedzianych <br> słów w tekst."
-
-msgctxt "button"
-msgid "Convert now"
-msgstr "Konwertuj teraz"
-
-msgid ":count credits"
-msgstr ":count kredytów"
-
-msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
-msgstr "Odkryj idealny plan dopasowany do swoich potrzeb i otwórz świat możliwości."
-
-msgid "Most Popular"
-msgstr "Najpopularniejsze"
-
-msgid "Chat"
-msgstr "Czat"
-
-msgid "Writer"
-msgstr "Pisarz"
-
-msgid "Image generator"
-msgstr "Generator obrazów"
-
-msgid "Transcriber"
-msgstr "Transkrybent"
-
-msgid "Voiceover"
-msgstr "Lektor"
-
-msgid "Voice isolator"
-msgstr "Izolator głosu"
-
-msgid "Classifier"
-msgstr "Klasyfikator"
-
-msgid "Access to templates is disabled"
-msgstr "Dostęp do szablonów jest wyłączony"
-
-msgid "Access to all templates"
-msgstr "Dostęp do wszystkich szablonów"
-
-msgid "Priority support"
-msgstr "Wsparcie priorytetowe"
-
-msgid "Basic support"
-msgstr "Podstawowe wsparcie"
-
-msgctxt "heading"
-msgid "Pricing"
-msgstr ""
-
-msgctxt "button"
-msgid "Monthly"
-msgstr "Miesięcznie"
-
-msgctxt "button"
-msgid "Yearly"
-msgstr "Rocznie"
-
-msgctxt "button"
-msgid "Packs"
-msgstr "Pakiety"
-
-msgctxt "button"
-msgid "Lifetime Deals"
-msgstr "Oferty na całe życie"
-
-msgctxt "button"
-msgid "Get started"
-msgstr "Rozpocznij"
-
-msgid "100+ AI Writer Templates"
-msgstr "Ponad 100 szablonów AI Writer"
-
-msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer\\'s block forever."
-msgstr "Pisz z niezwykłą prędkością, zdobywaj uwagę swojego odbiorcy i pożegnaj się z blokadą pisania na zawsze."
-
-msgctxt "heading"
-msgid "What can Writing Assistant create for you?"
-msgstr "Co może dla Ciebie stworzyć Asystent Pisania?"
-
-msgctxt "button"
-msgid "Get Started for Free"
-msgstr "Zacznij za darmo"
-
-msgid "AI Image"
-msgstr "Obraz AI"
-
-msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
-msgstr "Natychmiast twórz niesamowite obrazy za pomocą generatora obrazów AI - swojego narzędzia do artystycznej innowacji."
-
-msgctxt "heading"
-msgid "Visualize what you dream of. Create images from text."
-msgstr "Zobrazuj to, o czym marzysz. Twórz obrazy z tekstu."
-
-msgctxt "button"
-msgid "Try for free"
-msgstr "Wypróbuj za darmo"
-
-msgid "Choose a our built in templates or create your own."
-msgstr "Wybierz jeden z naszych wbudowanych szablonów lub stwórz własny."
-
-msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
-msgstr "Wprowadź kilka zdań, aby opisać swoją tematykę. Dodaj słowa kluczowe, aby określić dla swojej marki."
-
-msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
-msgstr "Kliknij przycisk \"Generuj\" i otrzymuj różnorodne wysoko konwertujące kopie za każdym razem."
-
-msgctxt "heading"
-msgid "How it works"
-msgstr "Jak to działa"
-
-msgctxt "heading"
-msgid "Choose Template"
-msgstr "Wybierz szablon"
-
-msgctxt "heading"
-msgid "Describe"
-msgstr "Opisz"
-
-msgctxt "heading"
-msgid "Generate"
-msgstr "Generuj"
-
-msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
-msgstr "Łatwo generuj wysokiej jakości treści zasilane sztuczną inteligencją, dopasowane do Twoich potrzeb. Otwórz nieograniczoną liczbę możliwości, oszczędź czas i zacznij zarabiać pieniądze już dziś!"
-
-msgctxt "heading"
-msgid "Transforming ideas into AI generated masterpieces"
-msgstr "Przekształcanie pomysłów w arcydzieła generowane przez AI"
-
-msgctxt "button"
-msgid "Go to app"
-msgstr "Przejdź do aplikacji"
-
-msgctxt "button"
-msgid "Get started now"
-msgstr "Rozpocznij teraz"
-
-msgctxt "button"
-msgid "Product"
-msgstr "Produkt"
-
-msgctxt "button"
-msgid "Featured"
-msgstr "Polecane"
-
-msgctxt "button"
-msgid "Pricing"
-msgstr "Cennik"
-
-msgctxt "button"
-msgid "Library"
-msgstr "Biblioteka"
-
-msgctxt "button"
-msgid "Billing"
-msgstr "Rozliczenia"
-
-msgctxt "button"
-msgid "Account"
-msgstr "Konto"
-
-msgctxt "button"
-msgid "Logout"
-msgstr "Wyloguj się"
-
-msgctxt "button"
-msgid "Login"
-msgstr "Zaloguj się"
-
-msgctxt "heading"
-msgid "Meet your ultimate"
-msgstr "Poznaj swojego ostatecznego"
-
-msgctxt "heading"
-msgid "AI-Powered Content Platform"
-msgstr "Platforma treści zasilana sztuczną inteligencją"
-
-msgid "All rights reserved."
-msgstr "Wszelkie prawa zastrzeżone."
-
-msgctxt "button"
-msgid "FAQ"
-msgstr "FAQ"
-
-msgctxt "button"
-msgid "Terms of services"
-msgstr "Warunki korzystania z usług"
-
-msgctxt "button"
-msgid "Privacy policy"
-msgstr "Polityka prywatności"
-
-msgctxt "button"
-msgid "Refund policy"
-msgstr "Polityka zwrotów"
-
-msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
-msgstr "Opracowano z wykorzystaniem zasad Domain-Driven Design i Onion Architecture."
-
-msgid "Built with modern technologies for best structure and get maximum performance."
-msgstr "Zbudowane z nowoczesnych technologii dla najlepszej struktury i osiągnięcia maksymalnej wydajności."
-
-msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
-msgstr "Ciesz się bezproblemowym i intuicyjnym interfejsem użytkownika, który wzmacnia Twoją cyfrową doświadczenie."
-
-msgid "Turn off the light and switch to dark mode your interface with one click."
-msgstr "Wyłącz światło i przełącz interfejs na tryb ciemny jednym kliknięciem."
-
-msgid "An all-inclusive learning package seamlessly integrated into our community."
-msgstr "Kompletny pakiet edukacyjny płynnie zintegrowany z naszą społecznością."
-
-msgid "Simplify transactions and boost security with payment gateway solutions."
-msgstr "Uprość transakcje i zwiększ bezpieczeństwo dzięki rozwiązaniom bramki płatności."
-
-msgid "Unlock limitless creativity with our AI-powered content generator."
-msgstr "Odblokuj nieograniczoną kreatywność dzięki naszemu generatorowi treści zasilanemu sztuczną inteligencją."
-
-msgid "Boost your visibility and reach your audience effectively with AI generated content."
-msgstr "Zwiększ swoją widoczność i skutecznie dotykaj swojego odbiorcy dzięki treściom generowanym przez AI."
-
-msgid "Empower your insights and control with our cutting-edge dashboard."
-msgstr "Wzmocnij swoje spostrzeżenia i kontrolę dzięki naszemu nowoczesnemu panelowi sterowania."
-
-msgid "Transform your content creation with AI-driven custom templates."
-msgstr "Przekształć tworzenie treści za pomocą szablonów dostosowanych przez AI."
-
-msgid "Use Facebook or Google accounts as an alternatively access to platform."
-msgstr "Używaj kont Facebook lub Google jako alternatywnego dostępu do platformy."
-
-msgid "Our support team is available 24/7 to help you with any questions or concerns."
-msgstr "Nasz zespół wsparcia jest dostępny 24/7, aby pomóc Ci z każdym pytaniem lub zmartwieniem."
-
-msgctxt "heading"
-msgid "Coolest Features"
-msgstr "Najfajniejsze funkcje"
-
-msgctxt "heading"
-msgid "High Quality Code"
-msgstr "Wysokiej jakości kod"
-
-msgctxt "heading"
-msgid "Modern Technologies"
-msgstr "Nowoczesne technologie"
-
-msgctxt "heading"
-msgid "Friendly UI and UX"
-msgstr "Przyjazny interfejs UI i UX"
-
-msgctxt "heading"
-msgid "Dark Mode"
-msgstr "Tryb ciemny"
-
-msgctxt "heading"
-msgid "Documentation"
-msgstr "Dokumentacja"
-
-msgctxt "heading"
-msgid "Payment Gateways"
-msgstr "Bramki Płatności"
-
-msgctxt "heading"
-msgid "AI Generator"
-msgstr "Generator AI"
-
-msgctxt "heading"
-msgid "SEO Friendly"
-msgstr "Przyjazny SEO"
-
-msgctxt "heading"
-msgid "Advanced Dashboard"
-msgstr "Zaawansowany Panel"
-
-msgctxt "heading"
-msgid "Custom Templates"
-msgstr "Własne Szablony"
-
-msgctxt "heading"
-msgid "Login via SM Accounts"
-msgstr "Logowanie przez Konta SM"
-
-msgctxt "heading"
-msgid "High Quality Support"
-msgstr "Wysokiej Jakości Wsparcie"
-
-msgid "See how easy it can be to write amazing content."
-msgstr "Zobacz, jak łatwo można pisać niesamowite treści."
-
-msgctxt "heading"
-msgid "Ready to level-up?"
-msgstr "Gotowy na awans?"
-
-msgctxt "button"
-msgid "Get Started Now"
-msgstr "Rozpocznij Teraz"
-
+#: sections/code.twig:10
 msgid "AI Code"
 msgstr "Kod AI"
 
-msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
-msgstr "Łatwo generuj kod za pomocą generatora kodu AI: Natychmiastowe rozwiązania dla Twoich potrzeb programowania."
-
+#: sections/code.twig:14
 msgctxt "heading"
 msgid "Ready to write code at the speed of light?"
 msgstr "Gotowy do pisania kodu z prędkością światła?"
 
+#: sections/code.twig:18
+msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
+msgstr "Łatwo generuj kod za pomocą generatora kodu AI: Natychmiastowe rozwiązania dla Twoich potrzeb programowania."
+
+#: sections/code.twig:23
 msgctxt "button"
 msgid "Start Generate Code"
 msgstr "Rozpocznij generowanie kodu"
 
-msgid "AI Chat Bot"
-msgstr "Bot czatu AI"
-
-msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
-msgstr "Wybierz swojego asystenta i zacznij rozmowę z przyjaznym botem czatu, aby generować pomysły, poprawiać swoją treść lub nawet zapewniać uśmiech na swojej twarzy."
-
+#: sections/cta.twig:3
 msgctxt "heading"
-msgid "That\\'s remarkably human-like and engaging..."
-msgstr "To jest niezwykle ludzkie i angażujące..."
+msgid "Ready to level-up?"
+msgstr "Gotowy na awans?"
 
-msgid "Unlimited"
-msgstr "Nieograniczony"
+#: sections/cta.twig:5
+msgid "See how easy it can be to write amazing content."
+msgstr "Zobacz, jak łatwo można pisać niesamowite treści."
+
+#: sections/cta.twig:10
+msgctxt "button"
+msgid "Get Started Now"
+msgstr "Rozpocznij Teraz"
+
+#: sections/features.twig:3
+msgctxt "heading"
+msgid "Coolest Features"
+msgstr "Najfajniejsze funkcje"
+
+#: sections/features.twig:13
+msgctxt "heading"
+msgid "High Quality Code"
+msgstr "Wysokiej jakości kod"
+
+#: sections/features.twig:16
+msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
+msgstr "Opracowano z wykorzystaniem zasad Domain-Driven Design i Onion Architecture."
+
+#: sections/features.twig:26
+msgctxt "heading"
+msgid "Modern Technologies"
+msgstr "Nowoczesne technologie"
+
+#: sections/features.twig:29
+msgid "Built with modern technologies for best structure and get maximum performance."
+msgstr "Zbudowane z nowoczesnych technologii dla najlepszej struktury i osiągnięcia maksymalnej wydajności."
+
+#: sections/features.twig:39
+msgctxt "heading"
+msgid "Friendly UI and UX"
+msgstr "Przyjazny interfejs UI i UX"
+
+#: sections/features.twig:42
+msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
+msgstr "Ciesz się bezproblemowym i intuicyjnym interfejsem użytkownika, który wzmacnia Twoją cyfrową doświadczenie."
+
+#: sections/features.twig:52
+msgctxt "heading"
+msgid "Dark Mode"
+msgstr "Tryb ciemny"
+
+#: sections/features.twig:55
+msgid "Turn off the light and switch to dark mode your interface with one click."
+msgstr "Wyłącz światło i przełącz interfejs na tryb ciemny jednym kliknięciem."
+
+#: sections/features.twig:65
+msgctxt "heading"
+msgid "Documentation"
+msgstr "Dokumentacja"
+
+#: sections/features.twig:68
+msgid "An all-inclusive learning package seamlessly integrated into our community."
+msgstr "Kompletny pakiet edukacyjny płynnie zintegrowany z naszą społecznością."
+
+#: sections/features.twig:78
+msgctxt "heading"
+msgid "Payment Gateways"
+msgstr "Bramki Płatności"
+
+#: sections/features.twig:81
+msgid "Simplify transactions and boost security with payment gateway solutions."
+msgstr "Uprość transakcje i zwiększ bezpieczeństwo dzięki rozwiązaniom bramki płatności."
+
+#: sections/features.twig:91
+msgctxt "heading"
+msgid "AI Generator"
+msgstr "Generator AI"
+
+#: sections/features.twig:94
+msgid "Unlock limitless creativity with our AI-powered content generator."
+msgstr "Odblokuj nieograniczoną kreatywność dzięki naszemu generatorowi treści zasilanemu sztuczną inteligencją."
+
+#: sections/features.twig:104
+msgctxt "heading"
+msgid "SEO Friendly"
+msgstr "Przyjazny SEO"
+
+#: sections/features.twig:107
+msgid "Boost your visibility and reach your audience effectively with AI generated content."
+msgstr "Zwiększ swoją widoczność i skutecznie dotykaj swojego odbiorcy dzięki treściom generowanym przez AI."
+
+#: sections/features.twig:117
+msgctxt "heading"
+msgid "Advanced Dashboard"
+msgstr "Zaawansowany Panel"
+
+#: sections/features.twig:120
+msgid "Empower your insights and control with our cutting-edge dashboard."
+msgstr "Wzmocnij swoje spostrzeżenia i kontrolę dzięki naszemu nowoczesnemu panelowi sterowania."
+
+#: sections/features.twig:130
+msgctxt "heading"
+msgid "Custom Templates"
+msgstr "Własne Szablony"
+
+#: sections/features.twig:133
+msgid "Transform your content creation with AI-driven custom templates."
+msgstr "Przekształć tworzenie treści za pomocą szablonów dostosowanych przez AI."
+
+#: sections/features.twig:144
+msgctxt "heading"
+msgid "Login via SM Accounts"
+msgstr "Logowanie przez Konta SM"
+
+#: sections/features.twig:147
+msgid "Use Facebook or Google accounts as an alternatively access to platform."
+msgstr "Używaj kont Facebook lub Google jako alternatywnego dostępu do platformy."
+
+#: sections/features.twig:157
+msgctxt "heading"
+msgid "High Quality Support"
+msgstr "Wysokiej Jakości Wsparcie"
+
+#: sections/features.twig:160
+msgid "Our support team is available 24/7 to help you with any questions or concerns."
+msgstr "Nasz zespół wsparcia jest dostępny 24/7, aby pomóc Ci z każdym pytaniem lub zmartwieniem."
+
+#: sections/footer.twig:4
+msgid "All rights reserved."
+msgstr "Wszelkie prawa zastrzeżone."
+
+#: sections/footer.twig:42
+#: sections/header.twig:19
+msgctxt "button"
+msgid "Product"
+msgstr "Produkt"
+
+#: sections/footer.twig:46
+#: sections/header.twig:33
+msgctxt "button"
+msgid "Pricing"
+msgstr "Cennik"
+
+#: sections/footer.twig:50
+msgctxt "button"
+msgid "FAQ"
+msgstr "FAQ"
+
+#: sections/footer.twig:57
+msgctxt "button"
+msgid "Terms of services"
+msgstr "Warunki korzystania z usług"
+
+#: sections/footer.twig:63
+msgctxt "button"
+msgid "Privacy policy"
+msgstr "Polityka prywatności"
+
+#: sections/footer.twig:69
+msgctxt "button"
+msgid "Refund policy"
+msgstr "Polityka zwrotów"
+
+#: sections/generators.twig:3
+msgctxt "heading"
+msgid "Meet your ultimate"
+msgstr "Poznaj swojego ostatecznego"
+
+#: sections/generators.twig:6
+msgctxt "heading"
+msgid "AI-Powered Content Platform"
+msgstr "Platforma treści zasilana sztuczną inteligencją"
+
+#: sections/header.twig:26
+msgctxt "button"
+msgid "Featured"
+msgstr "Polecane"
+
+#: sections/header.twig:111
+#: sections/hero.twig:13
+msgctxt "button"
+msgid "Go to app"
+msgstr "Przejdź do aplikacji"
+
+#: sections/header.twig:123
+msgctxt "button"
+msgid "Library"
+msgstr "Biblioteka"
+
+#: sections/header.twig:131
+msgctxt "button"
+msgid "Billing"
+msgstr "Rozliczenia"
+
+#: sections/header.twig:143
+msgctxt "button"
+msgid "Account"
+msgstr "Konto"
+
+#: sections/header.twig:151
+msgctxt "button"
+msgid "Logout"
+msgstr "Wyloguj się"
+
+#: sections/header.twig:191
+msgctxt "button"
+msgid "Login"
+msgstr "Zaloguj się"
+
+#: sections/header.twig:196
+#: sections/pricing.twig:102
+msgctxt "button"
+msgid "Get started"
+msgstr "Rozpocznij"
+
+#: sections/hero.twig:3
+msgctxt "heading"
+msgid "Transforming ideas into AI generated masterpieces"
+msgstr "Przekształcanie pomysłów w arcydzieła generowane przez AI"
+
+#: sections/hero.twig:7
+msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
+msgstr "Łatwo generuj wysokiej jakości treści zasilane sztuczną inteligencją, dopasowane do Twoich potrzeb. Otwórz nieograniczoną liczbę możliwości, oszczędź czas i zacznij zarabiać pieniądze już dziś!"
+
+#: sections/hero.twig:19
+msgctxt "button"
+msgid "Get started now"
+msgstr "Rozpocznij teraz"
+
+#: sections/how-it-works.twig:3
+msgctxt "heading"
+msgid "How it works"
+msgstr "Jak to działa"
+
+#: sections/how-it-works.twig:13
+msgctxt "heading"
+msgid "Choose Template"
+msgstr "Wybierz szablon"
+
+#: sections/how-it-works.twig:16
+msgid "Choose a our built in templates or create your own."
+msgstr "Wybierz jeden z naszych wbudowanych szablonów lub stwórz własny."
+
+#: sections/how-it-works.twig:26
+msgctxt "heading"
+msgid "Describe"
+msgstr "Opisz"
+
+#: sections/how-it-works.twig:29
+msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
+msgstr "Wprowadź kilka zdań, aby opisać swoją tematykę. Dodaj słowa kluczowe, aby określić dla swojej marki."
+
+#: sections/how-it-works.twig:39
+msgctxt "heading"
+msgid "Generate"
+msgstr "Generuj"
+
+#: sections/how-it-works.twig:42
+msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
+msgstr "Kliknij przycisk \"Generuj\" i otrzymuj różnorodne wysoko konwertujące kopie za każdym razem."
+
+#: sections/image.twig:5
+msgid "AI Image"
+msgstr "Obraz AI"
+
+#: sections/image.twig:9
+msgctxt "heading"
+msgid "Visualize what you dream of. Create images from text."
+msgstr "Zobrazuj to, o czym marzysz. Twórz obrazy z tekstu."
+
+#: sections/image.twig:13
+msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
+msgstr "Natychmiast twórz niesamowite obrazy za pomocą generatora obrazów AI - swojego narzędzia do artystycznej innowacji."
+
+#: sections/image.twig:18
+msgctxt "button"
+msgid "Try for free"
+msgstr "Wypróbuj za darmo"
+
+#: sections/presets.twig:9
+msgid "100+ AI Writer Templates"
+msgstr "Ponad 100 szablonów AI Writer"
+
+#: sections/presets.twig:14
+msgctxt "heading"
+msgid "What can Writing Assistant create for you?"
+msgstr "Co może dla Ciebie stworzyć Asystent Pisania?"
+
+#: sections/presets.twig:18
+msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer's block forever."
+msgstr "Pisz z niezwykłą szybkością, zachwyć swoją publiczność i pożegnaj się z blokadą twórczą na zawsze."
+
+#: sections/presets.twig:23
+msgctxt "button"
+msgid "Get Started for Free"
+msgstr "Zacznij za darmo"
+
+#: sections/pricing.twig:3
+msgctxt "heading"
+msgid "Pricing"
+msgstr "Cennik"
+
+#: sections/pricing.twig:6
+msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
+msgstr "Odkryj idealny plan dopasowany do swoich potrzeb i otwórz świat możliwości."
+
+#: sections/pricing.twig:19
+msgctxt "button"
+msgid "Monthly"
+msgstr "Miesięcznie"
+
+#: sections/pricing.twig:28
+msgctxt "button"
+msgid "Yearly"
+msgstr "Rocznie"
+
+#: sections/pricing.twig:37
+msgctxt "button"
+msgid "Packs"
+msgstr "Pakiety"
+
+#: sections/pricing.twig:46
+msgctxt "button"
+msgid "Lifetime Deals"
+msgstr "Oferty na całe życie"
+
+#: sections/pricing.twig:78
+msgid "Most Popular"
+msgstr "Najpopularniejsze"
+
+#: sections/pricing.twig:115
+msgid "Chat"
+msgstr "Czat"
+
+#: sections/pricing.twig:134
+msgid "Writer"
+msgstr "Pisarz"
+
+#: sections/pricing.twig:153
+msgid "Image generator"
+msgstr "Generator obrazów"
+
+#: sections/pricing.twig:166
+msgid "Transcriber"
+msgstr "Transkrybent"
+
+#: sections/pricing.twig:179
+msgid "Voiceover"
+msgstr "Lektor"
+
+#: sections/pricing.twig:192
+msgid "Voice isolator"
+msgstr "Izolator głosu"
+
+#: sections/pricing.twig:205
+msgid "Classifier"
+msgstr "Klasyfikator"
+
+#: sections/pricing.twig:213
+msgid "Access to templates is disabled"
+msgstr "Dostęp do szablonów jest wyłączony"
+
+#: sections/pricing.twig:216
+msgid "Access to all templates"
+msgstr "Dostęp do wszystkich szablonów"
+
+#: sections/pricing.twig:232
+msgid "Priority support"
+msgstr "Wsparcie priorytetowe"
+
+#: sections/pricing.twig:235
+msgid "Basic support"
+msgstr "Podstawowe wsparcie"
+
+#: sections/speech-to-text.twig:4
+msgid "Speech to Text"
+msgstr "Mowa na tekst"
+
+#: sections/speech-to-text.twig:8
+msgctxt "heading"
+msgid "Transforming Spoken <br> Words into Text."
+msgstr "Przekształcanie wypowiedzianych <br> słów w tekst."
+
+#: sections/speech-to-text.twig:12
+msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
+msgstr "Natychmiastowe przekazywanie wypowiedzianych słów na tekst w celu zwiększenia produktywności i dostępności."
+
+#: sections/speech-to-text.twig:17
+msgctxt "button"
+msgid "Convert now"
+msgstr "Konwertuj teraz"
+
+#: sections/text-to-voice.twig:4
+msgid "Text to Voice"
+msgstr "Tekst na głos"
+
+#: sections/text-to-voice.twig:8
+msgctxt "heading"
+msgid "Convert your texts into <br> Lifelike Speech"
+msgstr "Konwertuj swoje teksty na <br> realistyczną mowę"
+
+#: sections/text-to-voice.twig:12
+msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
+msgstr "Podnieś swoją treść dzięki wyraźnemu opowiadaniu: Odkryj doskonałość tekstu na głos."
+
+#: sections/video.twig:11
+msgid "Video"
+msgstr "Wideo"
+
+#: sections/video.twig:15
+msgctxt "heading"
+msgid "Generate high-quality videos using AI Video generation tool."
+msgstr "Twórz wysokiej jakości filmy za pomocą narzędzia AI do generowania wideo."
+
+#: sections/video.twig:19
+msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
+msgstr "Nie są potrzebne umiejętności montażu wideo – wystarczy przesłać obrazy i wpisać kilka linijek promptu, to wszystko."
+
+#: sections/writer.twig:22
+msgid "AI Writer"
+msgstr "AI Writer"
+
+#: sections/writer.twig:26
+msgctxt "heading"
+msgid "Write SEO optimized blogs, sales emails and more..."
+msgstr "Twórz zoptymalizowane pod SEO blogi, maile sprzedażowe i więcej..."
+
+#: sections/writer.twig:30
+msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
+msgstr "Osiągnij wyższe wyniki w ułamku czasu. Na koniec, narzędzie do pisania, którego naprawdę użyjesz."
+
+#: sections/writer.twig:35
+msgctxt "button"
+msgid "See all features"
+msgstr "Zobacz wszystkie funkcje"

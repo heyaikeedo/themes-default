@@ -1,382 +1,484 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Theme Translations\n"
-"Report-Msgid-Bugs-To: \n"
-"Last-Translator: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Language: ro-RO\n"
 "Language-Team: \n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
+"Project-Id-Version: Theme Translations\n"
+"Report-Msgid-Bugs-To: \n"
 "X-Domain: theme\n"
 
-msgid "AI Writer"
-msgstr "Scriitor AI"
+#: sections/chat.twig:11
+msgid "AI Chat Bot"
+msgstr "Bot de chat AI"
 
-msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
-msgstr "Obține rezultate superioare într-o fracțiune de timp. În sfârșit, un instrument de scriere care vei utiliza cu adevărat."
-
+#: sections/chat.twig:15
 msgctxt "heading"
-msgid "Write SEO optimized blogs, sales emails and more..."
-msgstr "Scrie bloguri optimizate SEO, emailuri de vânzări și altele..."
+msgid "That's remarkably human-like and engaging..."
+msgstr "Este remarcabil de uman și captivant..."
 
-msgctxt "button"
-msgid "See all features"
-msgstr "Vezi toate funcțiile"
+#: sections/chat.twig:19
+msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
+msgstr "Alege simplu asistentul tău și interacționează cu un bot de chat prietenos pentru a genera idei, îmbunătăți conținutul tău sau chiar să-ți aducă o bucurie pe chip."
 
-msgid "Video"
-msgstr ""
-
-msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
-msgstr ""
-
-msgctxt "heading"
-msgid "Generate high-quality videos using AI Video generation tool."
-msgstr ""
-
+#: sections/chat.twig:24
+#: sections/video.twig:24
 msgctxt "button"
 msgid "Try now"
 msgstr "Încearcă acum"
 
-msgid "Text to Voice"
-msgstr "Text în Voce"
-
-msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
-msgstr "Îmbunătățește-ți conținutul cu o prezentare expresivă: Descoperă excelența textului în vorbire."
-
-msgctxt "heading"
-msgid "Convert your texts into <br> Lifelike Speech"
-msgstr "Transformă textele tale în <br> Vorbire Realistă"
-
-msgid "Speech to Text"
-msgstr "Vorbire în Text"
-
-msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
-msgstr "Transcrie instantaneu cuvintele rostite în text pentru o productivitate și accesibilitate îmbunătățite."
-
-msgctxt "heading"
-msgid "Transforming Spoken <br> Words into Text."
-msgstr "Transformă Cuvintele <br> Rostite în Text."
-
-msgctxt "button"
-msgid "Convert now"
-msgstr "Convertește acum"
-
-msgid ":count credits"
-msgstr ":count credite"
-
-msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
-msgstr "Descoperă planul perfect care să se potrivească nevoilor tale și deblochează un univers de posibilități."
-
-msgid "Most Popular"
-msgstr "Cel Mai Popular"
-
-msgid "Chat"
-msgstr "Chat"
-
-msgid "Writer"
-msgstr "Scriitor"
-
-msgid "Image generator"
-msgstr "Generator de imagini"
-
-msgid "Transcriber"
-msgstr "Transcriptor"
-
-msgid "Voiceover"
-msgstr "Voiceover"
-
-msgid "Voice isolator"
-msgstr "Izolator de voce"
-
-msgid "Classifier"
-msgstr "Clasificator"
-
-msgid "Access to templates is disabled"
-msgstr "Accesul la șabloane este dezactivat"
-
-msgid "Access to all templates"
-msgstr "Acces la toate șabloanele"
-
-msgid "Priority support"
-msgstr "Suport prioritar"
-
-msgid "Basic support"
-msgstr "Suport de bază"
-
-msgctxt "heading"
-msgid "Pricing"
-msgstr ""
-
-msgctxt "button"
-msgid "Monthly"
-msgstr "Lunar"
-
-msgctxt "button"
-msgid "Yearly"
-msgstr "Anual"
-
-msgctxt "button"
-msgid "Packs"
-msgstr "Pachete"
-
-msgctxt "button"
-msgid "Lifetime Deals"
-msgstr "Oferte pe viață"
-
-msgctxt "button"
-msgid "Get started"
-msgstr "Începe acum"
-
-msgid "100+ AI Writer Templates"
-msgstr "Peste 100 de șabloane AI pentru scriitori"
-
-msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer\\'s block forever."
-msgstr "Scrie cu viteză remarcabilă, captivă-ți publicul și spune adio blocajului de scriere pentru totdeauna."
-
-msgctxt "heading"
-msgid "What can Writing Assistant create for you?"
-msgstr "Ce poate crea Asistentul de Scriere pentru tine?"
-
-msgctxt "button"
-msgid "Get Started for Free"
-msgstr "Începe gratuit"
-
-msgid "AI Image"
-msgstr "Imagine AI"
-
-msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
-msgstr "Creează instantaneu imagini uimitoare folosind Generatorul de Imagini AI - instrumentul tău pentru inovație artistică."
-
-msgctxt "heading"
-msgid "Visualize what you dream of. Create images from text."
-msgstr "Vizualizează ceea ce visezi. Creează imagini din text."
-
-msgctxt "button"
-msgid "Try for free"
-msgstr "Încearcă gratuit"
-
-msgid "Choose a our built in templates or create your own."
-msgstr "Alege unul dintre șabloanele noastre încorporate sau creează-ți propriul șablon."
-
-msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
-msgstr "Introduce câteva fraze pentru a descrie subiectul tău. Adaugă cuvinte cheie pentru a specifica pentru marca ta."
-
-msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
-msgstr "Apasă butonul \"Generare\" și obține o varietate de copii de conversie ridicată de fiecare dată."
-
-msgctxt "heading"
-msgid "How it works"
-msgstr "Cum funcționează"
-
-msgctxt "heading"
-msgid "Choose Template"
-msgstr "Alege șablonul"
-
-msgctxt "heading"
-msgid "Describe"
-msgstr "Descrie"
-
-msgctxt "heading"
-msgid "Generate"
-msgstr "Generează"
-
-msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
-msgstr "Generează ușor conținut de calitate ridicat alimentat de AI, potrivit nevoilor tale. Deblochează posibilități nelimitate, economisește timpul și începe să câștigi bani astăzi!"
-
-msgctxt "heading"
-msgid "Transforming ideas into AI generated masterpieces"
-msgstr "Transformăm ideile în capodopere generate de AI"
-
-msgctxt "button"
-msgid "Go to app"
-msgstr "Mergi la aplicație"
-
-msgctxt "button"
-msgid "Get started now"
-msgstr "Începe acum"
-
-msgctxt "button"
-msgid "Product"
-msgstr "Produs"
-
-msgctxt "button"
-msgid "Featured"
-msgstr "Recomandat"
-
-msgctxt "button"
-msgid "Pricing"
-msgstr "Prețuri"
-
-msgctxt "button"
-msgid "Library"
-msgstr "Bibliotecă"
-
-msgctxt "button"
-msgid "Billing"
-msgstr "Facturare"
-
-msgctxt "button"
-msgid "Account"
-msgstr "Cont"
-
-msgctxt "button"
-msgid "Logout"
-msgstr "Deconectare"
-
-msgctxt "button"
-msgid "Login"
-msgstr "Autentificare"
-
-msgctxt "heading"
-msgid "Meet your ultimate"
-msgstr "Întâlnește-ți ultimul"
-
-msgctxt "heading"
-msgid "AI-Powered Content Platform"
-msgstr "Platformă de conținut alimentată de AI"
-
-msgid "All rights reserved."
-msgstr "Toate drepturile rezervate."
-
-msgctxt "button"
-msgid "FAQ"
-msgstr "Întrebări frecvente"
-
-msgctxt "button"
-msgid "Terms of services"
-msgstr "Termeni de serviciu"
-
-msgctxt "button"
-msgid "Privacy policy"
-msgstr "Politica de confidențialitate"
-
-msgctxt "button"
-msgid "Refund policy"
-msgstr "Politica de rambursare"
-
-msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
-msgstr "Dezvoltat folosind principiile Domain-Driven Design și Onion Architecture."
-
-msgid "Built with modern technologies for best structure and get maximum performance."
-msgstr "Construit cu tehnologii moderne pentru cea mai bună structură și obține performanța maximă."
-
-msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
-msgstr "Bucură-te de o interfață de utilizator fără probleme și intuitivă care îmbunătățește experiența ta digitală."
-
-msgid "Turn off the light and switch to dark mode your interface with one click."
-msgstr "Stinge lumina și comută interfața în modul întunecat cu un singur clic."
-
-msgid "An all-inclusive learning package seamlessly integrated into our community."
-msgstr "Un pachet de învățare complet integrat perfect în comunitatea noastră."
-
-msgid "Simplify transactions and boost security with payment gateway solutions."
-msgstr "Simplifică tranzacțiile și crește securitatea cu soluții de gateway de plată."
-
-msgid "Unlock limitless creativity with our AI-powered content generator."
-msgstr "Deblochează creativitatea nelimitată cu generatorul nostru de conținut alimentat de AI."
-
-msgid "Boost your visibility and reach your audience effectively with AI generated content."
-msgstr "Augmente-ți vizibilitatea și atinge-ți publicul efectiv cu conținut generat de AI."
-
-msgid "Empower your insights and control with our cutting-edge dashboard."
-msgstr "Împuternicește-ți perspectivele și controlul cu panoul nostru de bord de ultimă generație."
-
-msgid "Transform your content creation with AI-driven custom templates."
-msgstr "Transformă-ți crearea de conținut cu șabloane personalizate bazate pe AI."
-
-msgid "Use Facebook or Google accounts as an alternatively access to platform."
-msgstr "Folosește conturile Facebook sau Google ca acces alternativ la platformă."
-
-msgid "Our support team is available 24/7 to help you with any questions or concerns."
-msgstr "Echipa noastră de suport este disponibilă 24/7 pentru a vă ajuta cu orice întrebări sau nelămuriri."
-
-msgctxt "heading"
-msgid "Coolest Features"
-msgstr "Cele mai tari funcții"
-
-msgctxt "heading"
-msgid "High Quality Code"
-msgstr "Cod de înaltă calitate"
-
-msgctxt "heading"
-msgid "Modern Technologies"
-msgstr "Tehnologii moderne"
-
-msgctxt "heading"
-msgid "Friendly UI and UX"
-msgstr "Interfață și experiență prietenoasă"
-
-msgctxt "heading"
-msgid "Dark Mode"
-msgstr "Mod întunecat"
-
-msgctxt "heading"
-msgid "Documentation"
-msgstr "Documentație"
-
-msgctxt "heading"
-msgid "Payment Gateways"
-msgstr "Gateway-uri de plată"
-
-msgctxt "heading"
-msgid "AI Generator"
-msgstr "Generator AI"
-
-msgctxt "heading"
-msgid "SEO Friendly"
-msgstr "Prietenos cu SEO"
-
-msgctxt "heading"
-msgid "Advanced Dashboard"
-msgstr "Tablou de bord avansat"
-
-msgctxt "heading"
-msgid "Custom Templates"
-msgstr "Șabloane personalizate"
-
-msgctxt "heading"
-msgid "Login via SM Accounts"
-msgstr "Autentificare prin conturi SM"
-
-msgctxt "heading"
-msgid "High Quality Support"
-msgstr "Suport de înaltă calitate"
-
-msgid "See how easy it can be to write amazing content."
-msgstr "Vezi cât de ușor poate fi să scrii conținut uimitor."
-
-msgctxt "heading"
-msgid "Ready to level-up?"
-msgstr "Gata să faci un salt înainte?"
-
-msgctxt "button"
-msgid "Get Started Now"
-msgstr "Începe acum"
-
+#: sections/code.twig:10
 msgid "AI Code"
 msgstr "Cod AI"
 
-msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
-msgstr "Generează ușor cod cu Generatorul de Cod AI: Soluții instantanee pentru nevoile tale de programare."
-
+#: sections/code.twig:14
 msgctxt "heading"
 msgid "Ready to write code at the speed of light?"
 msgstr "Gata să scrii cod cu viteza luminii?"
 
+#: sections/code.twig:18
+msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
+msgstr "Generează ușor cod cu Generatorul de Cod AI: Soluții instantanee pentru nevoile tale de programare."
+
+#: sections/code.twig:23
 msgctxt "button"
 msgid "Start Generate Code"
 msgstr "Începe generarea codului"
 
-msgid "AI Chat Bot"
-msgstr "Bot de chat AI"
-
-msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
-msgstr "Alege simplu asistentul tău și interacționează cu un bot de chat prietenos pentru a genera idei, îmbunătăți conținutul tău sau chiar să-ți aducă o bucurie pe chip."
-
+#: sections/cta.twig:3
 msgctxt "heading"
-msgid "That\\'s remarkably human-like and engaging..."
-msgstr "Este remarcabil de uman și captivant..."
+msgid "Ready to level-up?"
+msgstr "Gata să faci un salt înainte?"
 
-msgid "Unlimited"
-msgstr "Nelimitat"
+#: sections/cta.twig:5
+msgid "See how easy it can be to write amazing content."
+msgstr "Vezi cât de ușor poate fi să scrii conținut uimitor."
+
+#: sections/cta.twig:10
+msgctxt "button"
+msgid "Get Started Now"
+msgstr "Începe acum"
+
+#: sections/features.twig:3
+msgctxt "heading"
+msgid "Coolest Features"
+msgstr "Cele mai tari funcții"
+
+#: sections/features.twig:13
+msgctxt "heading"
+msgid "High Quality Code"
+msgstr "Cod de înaltă calitate"
+
+#: sections/features.twig:16
+msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
+msgstr "Dezvoltat folosind principiile Domain-Driven Design și Onion Architecture."
+
+#: sections/features.twig:26
+msgctxt "heading"
+msgid "Modern Technologies"
+msgstr "Tehnologii moderne"
+
+#: sections/features.twig:29
+msgid "Built with modern technologies for best structure and get maximum performance."
+msgstr "Construit cu tehnologii moderne pentru cea mai bună structură și obține performanța maximă."
+
+#: sections/features.twig:39
+msgctxt "heading"
+msgid "Friendly UI and UX"
+msgstr "Interfață și experiență prietenoasă"
+
+#: sections/features.twig:42
+msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
+msgstr "Bucură-te de o interfață de utilizator fără probleme și intuitivă care îmbunătățește experiența ta digitală."
+
+#: sections/features.twig:52
+msgctxt "heading"
+msgid "Dark Mode"
+msgstr "Mod întunecat"
+
+#: sections/features.twig:55
+msgid "Turn off the light and switch to dark mode your interface with one click."
+msgstr "Stinge lumina și comută interfața în modul întunecat cu un singur clic."
+
+#: sections/features.twig:65
+msgctxt "heading"
+msgid "Documentation"
+msgstr "Documentație"
+
+#: sections/features.twig:68
+msgid "An all-inclusive learning package seamlessly integrated into our community."
+msgstr "Un pachet de învățare complet integrat perfect în comunitatea noastră."
+
+#: sections/features.twig:78
+msgctxt "heading"
+msgid "Payment Gateways"
+msgstr "Gateway-uri de plată"
+
+#: sections/features.twig:81
+msgid "Simplify transactions and boost security with payment gateway solutions."
+msgstr "Simplifică tranzacțiile și crește securitatea cu soluții de gateway de plată."
+
+#: sections/features.twig:91
+msgctxt "heading"
+msgid "AI Generator"
+msgstr "Generator AI"
+
+#: sections/features.twig:94
+msgid "Unlock limitless creativity with our AI-powered content generator."
+msgstr "Deblochează creativitatea nelimitată cu generatorul nostru de conținut alimentat de AI."
+
+#: sections/features.twig:104
+msgctxt "heading"
+msgid "SEO Friendly"
+msgstr "Prietenos cu SEO"
+
+#: sections/features.twig:107
+msgid "Boost your visibility and reach your audience effectively with AI generated content."
+msgstr "Augmente-ți vizibilitatea și atinge-ți publicul efectiv cu conținut generat de AI."
+
+#: sections/features.twig:117
+msgctxt "heading"
+msgid "Advanced Dashboard"
+msgstr "Tablou de bord avansat"
+
+#: sections/features.twig:120
+msgid "Empower your insights and control with our cutting-edge dashboard."
+msgstr "Împuternicește-ți perspectivele și controlul cu panoul nostru de bord de ultimă generație."
+
+#: sections/features.twig:130
+msgctxt "heading"
+msgid "Custom Templates"
+msgstr "Șabloane personalizate"
+
+#: sections/features.twig:133
+msgid "Transform your content creation with AI-driven custom templates."
+msgstr "Transformă-ți crearea de conținut cu șabloane personalizate bazate pe AI."
+
+#: sections/features.twig:144
+msgctxt "heading"
+msgid "Login via SM Accounts"
+msgstr "Autentificare prin conturi SM"
+
+#: sections/features.twig:147
+msgid "Use Facebook or Google accounts as an alternatively access to platform."
+msgstr "Folosește conturile Facebook sau Google ca acces alternativ la platformă."
+
+#: sections/features.twig:157
+msgctxt "heading"
+msgid "High Quality Support"
+msgstr "Suport de înaltă calitate"
+
+#: sections/features.twig:160
+msgid "Our support team is available 24/7 to help you with any questions or concerns."
+msgstr "Echipa noastră de suport este disponibilă 24/7 pentru a vă ajuta cu orice întrebări sau nelămuriri."
+
+#: sections/footer.twig:4
+msgid "All rights reserved."
+msgstr "Toate drepturile rezervate."
+
+#: sections/footer.twig:42
+#: sections/header.twig:19
+msgctxt "button"
+msgid "Product"
+msgstr "Produs"
+
+#: sections/footer.twig:46
+#: sections/header.twig:33
+msgctxt "button"
+msgid "Pricing"
+msgstr "Prețuri"
+
+#: sections/footer.twig:50
+msgctxt "button"
+msgid "FAQ"
+msgstr "Întrebări frecvente"
+
+#: sections/footer.twig:57
+msgctxt "button"
+msgid "Terms of services"
+msgstr "Termeni de serviciu"
+
+#: sections/footer.twig:63
+msgctxt "button"
+msgid "Privacy policy"
+msgstr "Politica de confidențialitate"
+
+#: sections/footer.twig:69
+msgctxt "button"
+msgid "Refund policy"
+msgstr "Politica de rambursare"
+
+#: sections/generators.twig:3
+msgctxt "heading"
+msgid "Meet your ultimate"
+msgstr "Întâlnește-ți ultimul"
+
+#: sections/generators.twig:6
+msgctxt "heading"
+msgid "AI-Powered Content Platform"
+msgstr "Platformă de conținut alimentată de AI"
+
+#: sections/header.twig:26
+msgctxt "button"
+msgid "Featured"
+msgstr "Recomandat"
+
+#: sections/header.twig:111
+#: sections/hero.twig:13
+msgctxt "button"
+msgid "Go to app"
+msgstr "Mergi la aplicație"
+
+#: sections/header.twig:123
+msgctxt "button"
+msgid "Library"
+msgstr "Bibliotecă"
+
+#: sections/header.twig:131
+msgctxt "button"
+msgid "Billing"
+msgstr "Facturare"
+
+#: sections/header.twig:143
+msgctxt "button"
+msgid "Account"
+msgstr "Cont"
+
+#: sections/header.twig:151
+msgctxt "button"
+msgid "Logout"
+msgstr "Deconectare"
+
+#: sections/header.twig:191
+msgctxt "button"
+msgid "Login"
+msgstr "Autentificare"
+
+#: sections/header.twig:196
+#: sections/pricing.twig:102
+msgctxt "button"
+msgid "Get started"
+msgstr "Începe acum"
+
+#: sections/hero.twig:3
+msgctxt "heading"
+msgid "Transforming ideas into AI generated masterpieces"
+msgstr "Transformăm ideile în capodopere generate de AI"
+
+#: sections/hero.twig:7
+msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
+msgstr "Generează ușor conținut de calitate ridicat alimentat de AI, potrivit nevoilor tale. Deblochează posibilități nelimitate, economisește timpul și începe să câștigi bani astăzi!"
+
+#: sections/hero.twig:19
+msgctxt "button"
+msgid "Get started now"
+msgstr "Începe acum"
+
+#: sections/how-it-works.twig:3
+msgctxt "heading"
+msgid "How it works"
+msgstr "Cum funcționează"
+
+#: sections/how-it-works.twig:13
+msgctxt "heading"
+msgid "Choose Template"
+msgstr "Alege șablonul"
+
+#: sections/how-it-works.twig:16
+msgid "Choose a our built in templates or create your own."
+msgstr "Alege unul dintre șabloanele noastre încorporate sau creează-ți propriul șablon."
+
+#: sections/how-it-works.twig:26
+msgctxt "heading"
+msgid "Describe"
+msgstr "Descrie"
+
+#: sections/how-it-works.twig:29
+msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
+msgstr "Introduce câteva fraze pentru a descrie subiectul tău. Adaugă cuvinte cheie pentru a specifica pentru marca ta."
+
+#: sections/how-it-works.twig:39
+msgctxt "heading"
+msgid "Generate"
+msgstr "Generează"
+
+#: sections/how-it-works.twig:42
+msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
+msgstr "Apasă butonul \"Generare\" și obține o varietate de copii de conversie ridicată de fiecare dată."
+
+#: sections/image.twig:5
+msgid "AI Image"
+msgstr "Imagine AI"
+
+#: sections/image.twig:9
+msgctxt "heading"
+msgid "Visualize what you dream of. Create images from text."
+msgstr "Vizualizează ceea ce visezi. Creează imagini din text."
+
+#: sections/image.twig:13
+msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
+msgstr "Creează instantaneu imagini uimitoare folosind Generatorul de Imagini AI - instrumentul tău pentru inovație artistică."
+
+#: sections/image.twig:18
+msgctxt "button"
+msgid "Try for free"
+msgstr "Încearcă gratuit"
+
+#: sections/presets.twig:9
+msgid "100+ AI Writer Templates"
+msgstr "Peste 100 de șabloane AI pentru scriitori"
+
+#: sections/presets.twig:14
+msgctxt "heading"
+msgid "What can Writing Assistant create for you?"
+msgstr "Ce poate crea Asistentul de Scriere pentru tine?"
+
+#: sections/presets.twig:18
+msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer's block forever."
+msgstr "Scrie cu o viteză remarcabilă, captivează-ți audiența și spune adio blocajului scriitoricesc pentru totdeauna."
+
+#: sections/presets.twig:23
+msgctxt "button"
+msgid "Get Started for Free"
+msgstr "Începe gratuit"
+
+#: sections/pricing.twig:3
+msgctxt "heading"
+msgid "Pricing"
+msgstr "Prețuri"
+
+#: sections/pricing.twig:6
+msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
+msgstr "Descoperă planul perfect care să se potrivească nevoilor tale și deblochează un univers de posibilități."
+
+#: sections/pricing.twig:19
+msgctxt "button"
+msgid "Monthly"
+msgstr "Lunar"
+
+#: sections/pricing.twig:28
+msgctxt "button"
+msgid "Yearly"
+msgstr "Anual"
+
+#: sections/pricing.twig:37
+msgctxt "button"
+msgid "Packs"
+msgstr "Pachete"
+
+#: sections/pricing.twig:46
+msgctxt "button"
+msgid "Lifetime Deals"
+msgstr "Oferte pe viață"
+
+#: sections/pricing.twig:78
+msgid "Most Popular"
+msgstr "Cel Mai Popular"
+
+#: sections/pricing.twig:115
+msgid "Chat"
+msgstr "Chat"
+
+#: sections/pricing.twig:134
+msgid "Writer"
+msgstr "Scriitor"
+
+#: sections/pricing.twig:153
+msgid "Image generator"
+msgstr "Generator de imagini"
+
+#: sections/pricing.twig:166
+msgid "Transcriber"
+msgstr "Transcriptor"
+
+#: sections/pricing.twig:179
+msgid "Voiceover"
+msgstr "Voiceover"
+
+#: sections/pricing.twig:192
+msgid "Voice isolator"
+msgstr "Izolator de voce"
+
+#: sections/pricing.twig:205
+msgid "Classifier"
+msgstr "Clasificator"
+
+#: sections/pricing.twig:213
+msgid "Access to templates is disabled"
+msgstr "Accesul la șabloane este dezactivat"
+
+#: sections/pricing.twig:216
+msgid "Access to all templates"
+msgstr "Acces la toate șabloanele"
+
+#: sections/pricing.twig:232
+msgid "Priority support"
+msgstr "Suport prioritar"
+
+#: sections/pricing.twig:235
+msgid "Basic support"
+msgstr "Suport de bază"
+
+#: sections/speech-to-text.twig:4
+msgid "Speech to Text"
+msgstr "Vorbire în Text"
+
+#: sections/speech-to-text.twig:8
+msgctxt "heading"
+msgid "Transforming Spoken <br> Words into Text."
+msgstr "Transformă Cuvintele <br> Rostite în Text."
+
+#: sections/speech-to-text.twig:12
+msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
+msgstr "Transcrie instantaneu cuvintele rostite în text pentru o productivitate și accesibilitate îmbunătățite."
+
+#: sections/speech-to-text.twig:17
+msgctxt "button"
+msgid "Convert now"
+msgstr "Convertește acum"
+
+#: sections/text-to-voice.twig:4
+msgid "Text to Voice"
+msgstr "Text în Voce"
+
+#: sections/text-to-voice.twig:8
+msgctxt "heading"
+msgid "Convert your texts into <br> Lifelike Speech"
+msgstr "Transformă textele tale în <br> Vorbire Realistă"
+
+#: sections/text-to-voice.twig:12
+msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
+msgstr "Îmbunătățește-ți conținutul cu o prezentare expresivă: Descoperă excelența textului în vorbire."
+
+#: sections/video.twig:11
+msgid "Video"
+msgstr "Video"
+
+#: sections/video.twig:15
+msgctxt "heading"
+msgid "Generate high-quality videos using AI Video generation tool."
+msgstr "Generează videoclipuri de înaltă calitate folosind instrumentul AI Video generation."
+
+#: sections/video.twig:19
+msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
+msgstr "Nu sunt necesare abilități de editare video - doar încarcă imaginile și introdu câteva linii de prompt, atât."
+
+#: sections/writer.twig:22
+msgid "AI Writer"
+msgstr "Scriitor AI"
+
+#: sections/writer.twig:26
+msgctxt "heading"
+msgid "Write SEO optimized blogs, sales emails and more..."
+msgstr "Scrie bloguri optimizate SEO, emailuri de vânzări și altele..."
+
+#: sections/writer.twig:30
+msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
+msgstr "Obține rezultate superioare într-o fracțiune de timp. În sfârșit, un instrument de scriere care vei utiliza cu adevărat."
+
+#: sections/writer.twig:35
+msgctxt "button"
+msgid "See all features"
+msgstr "Vezi toate funcțiile"

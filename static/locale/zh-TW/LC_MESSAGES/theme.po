@@ -1,382 +1,484 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Theme Translations\n"
-"Report-Msgid-Bugs-To: \n"
-"Last-Translator: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Language: zh-TW\n"
 "Language-Team: \n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: Theme Translations\n"
+"Report-Msgid-Bugs-To: \n"
 "X-Domain: theme\n"
 
-msgid "AI Writer"
-msgstr "AI 寫手"
+#: sections/chat.twig:11
+msgid "AI Chat Bot"
+msgstr "AI 聊天機器人"
 
-msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
-msgstr "在短時間內實現卓越成果。終於，一個你真正會使用的寫作工具。"
-
+#: sections/chat.twig:15
 msgctxt "heading"
-msgid "Write SEO optimized blogs, sales emails and more..."
-msgstr "撰寫 SEO 優化的部落格、銷售電子郵件等..."
+msgid "That's remarkably human-like and engaging..."
+msgstr "這真是非常擬人且引人入勝…"
 
-msgctxt "button"
-msgid "See all features"
-msgstr "查看所有功能"
+#: sections/chat.twig:19
+msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
+msgstr "只需選擇您的助手並與友好的聊天機器人互動，即可生成想法、增強您的內容或甚至帶來微笑。"
 
-msgid "Video"
-msgstr ""
-
-msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
-msgstr ""
-
-msgctxt "heading"
-msgid "Generate high-quality videos using AI Video generation tool."
-msgstr ""
-
+#: sections/chat.twig:24
+#: sections/video.twig:24
 msgctxt "button"
 msgid "Try now"
 msgstr "立即嘗試"
 
-msgid "Text to Voice"
-msgstr "文字轉語音"
-
-msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
-msgstr "透過富有表現力的敘述提升您的內容：發現文字轉語音的卓越之處。"
-
-msgctxt "heading"
-msgid "Convert your texts into <br> Lifelike Speech"
-msgstr "將您的文字轉換成<br>逼真的語音"
-
-msgid "Speech to Text"
-msgstr "語音轉文字"
-
-msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
-msgstr "即時轉錄口語為文字，以增強生產力和可存取性。"
-
-msgctxt "heading"
-msgid "Transforming Spoken <br> Words into Text."
-msgstr "將口語<br>轉換成文字。"
-
-msgctxt "button"
-msgid "Convert now"
-msgstr "立即轉換"
-
-msgid ":count credits"
-msgstr ":count 點數"
-
-msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
-msgstr "發現適合您需求的完美計劃，並解鎖無限可能。"
-
-msgid "Most Popular"
-msgstr "最受歡迎"
-
-msgid "Chat"
-msgstr "聊天"
-
-msgid "Writer"
-msgstr "寫作助手"
-
-msgid "Image generator"
-msgstr "圖像生成器"
-
-msgid "Transcriber"
-msgstr "轉錄器"
-
-msgid "Voiceover"
-msgstr "配音"
-
-msgid "Voice isolator"
-msgstr "聲音隔離器"
-
-msgid "Classifier"
-msgstr "分類器"
-
-msgid "Access to templates is disabled"
-msgstr "模板訪問已被禁用"
-
-msgid "Access to all templates"
-msgstr "訪問所有模板"
-
-msgid "Priority support"
-msgstr "優先支援"
-
-msgid "Basic support"
-msgstr "基本支援"
-
-msgctxt "heading"
-msgid "Pricing"
-msgstr ""
-
-msgctxt "button"
-msgid "Monthly"
-msgstr "每月"
-
-msgctxt "button"
-msgid "Yearly"
-msgstr "每年"
-
-msgctxt "button"
-msgid "Packs"
-msgstr "套裝"
-
-msgctxt "button"
-msgid "Lifetime Deals"
-msgstr "終身優惠"
-
-msgctxt "button"
-msgid "Get started"
-msgstr "開始使用"
-
-msgid "100+ AI Writer Templates"
-msgstr "100+ AI 寫作範本"
-
-msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer\\'s block forever."
-msgstr "以驚人的速度寫作，吸引您的受眾，並永遠告別寫作障礙。"
-
-msgctxt "heading"
-msgid "What can Writing Assistant create for you?"
-msgstr "寫作助手能為您創造什麼？"
-
-msgctxt "button"
-msgid "Get Started for Free"
-msgstr "免費開始"
-
-msgid "AI Image"
-msgstr "AI 影像"
-
-msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
-msgstr "立即使用 AI 影像生成器創建令人驚嘆的影像 - 您的藝術創新工具。"
-
-msgctxt "heading"
-msgid "Visualize what you dream of. Create images from text."
-msgstr "將你的夢想視覺化。從文字創建影像。"
-
-msgctxt "button"
-msgid "Try for free"
-msgstr "免費試用"
-
-msgid "Choose a our built in templates or create your own."
-msgstr "選擇我們內建的範本或創建你自己的。"
-
-msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
-msgstr "輸入幾句話來描述您的主題。添加關鍵詞以指定您的品牌。"
-
-msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
-msgstr "點擊「生成」按鈕，每次獲得多種高轉換率的副本。"
-
-msgctxt "heading"
-msgid "How it works"
-msgstr "運作方式"
-
-msgctxt "heading"
-msgid "Choose Template"
-msgstr "選擇範本"
-
-msgctxt "heading"
-msgid "Describe"
-msgstr "描述"
-
-msgctxt "heading"
-msgid "Generate"
-msgstr "生成"
-
-msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
-msgstr "輕鬆生成高品質的 AI 驅動內容，滿足您的需求。解鎖無限可能，節省時間，今天就賺錢！"
-
-msgctxt "heading"
-msgid "Transforming ideas into AI generated masterpieces"
-msgstr "將想法轉化為 AI 生成的傑作"
-
-msgctxt "button"
-msgid "Go to app"
-msgstr "前往應用程式"
-
-msgctxt "button"
-msgid "Get started now"
-msgstr "立即開始"
-
-msgctxt "button"
-msgid "Product"
-msgstr "產品"
-
-msgctxt "button"
-msgid "Featured"
-msgstr "精選"
-
-msgctxt "button"
-msgid "Pricing"
-msgstr "價格"
-
-msgctxt "button"
-msgid "Library"
-msgstr "資料庫"
-
-msgctxt "button"
-msgid "Billing"
-msgstr "帳單"
-
-msgctxt "button"
-msgid "Account"
-msgstr "帳戶"
-
-msgctxt "button"
-msgid "Logout"
-msgstr "登出"
-
-msgctxt "button"
-msgid "Login"
-msgstr "登入"
-
-msgctxt "heading"
-msgid "Meet your ultimate"
-msgstr "認識你的終極"
-
-msgctxt "heading"
-msgid "AI-Powered Content Platform"
-msgstr "AI 驅動的內容平台"
-
-msgid "All rights reserved."
-msgstr "版權所有。"
-
-msgctxt "button"
-msgid "FAQ"
-msgstr "常見問題"
-
-msgctxt "button"
-msgid "Terms of services"
-msgstr "服務條款"
-
-msgctxt "button"
-msgid "Privacy policy"
-msgstr "隱私政策"
-
-msgctxt "button"
-msgid "Refund policy"
-msgstr "退款政策"
-
-msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
-msgstr "使用領域驅動設計和洋蔥架構原則開發。"
-
-msgid "Built with modern technologies for best structure and get maximum performance."
-msgstr "使用現代技術構建最佳結構並獲得最大性能。"
-
-msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
-msgstr "享受無憂無慮且直觀的使用者介面，提升您的數位體驗。"
-
-msgid "Turn off the light and switch to dark mode your interface with one click."
-msgstr "一鍵關燈並切換至深色模式介面。"
-
-msgid "An all-inclusive learning package seamlessly integrated into our community."
-msgstr "無縫整合於我們社群的全方位學習套件。"
-
-msgid "Simplify transactions and boost security with payment gateway solutions."
-msgstr "簡化交易並提升安全性的支付閘道解決方案。"
-
-msgid "Unlock limitless creativity with our AI-powered content generator."
-msgstr "使用我們的 AI 驅動內容生成器，釋放無限創意。"
-
-msgid "Boost your visibility and reach your audience effectively with AI generated content."
-msgstr "透過 AI 生成的內容，有效提升您的可見度並吸引您的受眾。"
-
-msgid "Empower your insights and control with our cutting-edge dashboard."
-msgstr "透過我們先進的儀表板，強化您的洞察力與控制力。"
-
-msgid "Transform your content creation with AI-driven custom templates."
-msgstr "利用 AI 驅動的自訂範本，轉變您的內容創作。"
-
-msgid "Use Facebook or Google accounts as an alternatively access to platform."
-msgstr "使用 Facebook 或 Google 帳戶作為替代平台存取方式。"
-
-msgid "Our support team is available 24/7 to help you with any questions or concerns."
-msgstr "我們的支援團隊隨時為您提供幫助，解答任何問題或疑慮。"
-
-msgctxt "heading"
-msgid "Coolest Features"
-msgstr "最酷功能"
-
-msgctxt "heading"
-msgid "High Quality Code"
-msgstr "高品質程式碼"
-
-msgctxt "heading"
-msgid "Modern Technologies"
-msgstr "現代技術"
-
-msgctxt "heading"
-msgid "Friendly UI and UX"
-msgstr "友善的使用者介面與使用者體驗"
-
-msgctxt "heading"
-msgid "Dark Mode"
-msgstr "深色模式"
-
-msgctxt "heading"
-msgid "Documentation"
-msgstr "文件說明"
-
-msgctxt "heading"
-msgid "Payment Gateways"
-msgstr "支付閘道"
-
-msgctxt "heading"
-msgid "AI Generator"
-msgstr "AI 生成器"
-
-msgctxt "heading"
-msgid "SEO Friendly"
-msgstr "SEO 友好"
-
-msgctxt "heading"
-msgid "Advanced Dashboard"
-msgstr "進階儀表板"
-
-msgctxt "heading"
-msgid "Custom Templates"
-msgstr "自訂範本"
-
-msgctxt "heading"
-msgid "Login via SM Accounts"
-msgstr "透過社群媒體帳號登入"
-
-msgctxt "heading"
-msgid "High Quality Support"
-msgstr "高品質支援"
-
-msgid "See how easy it can be to write amazing content."
-msgstr "看看寫出驚人內容有多簡單。"
-
-msgctxt "heading"
-msgid "Ready to level-up?"
-msgstr "準備好升級了嗎？"
-
-msgctxt "button"
-msgid "Get Started Now"
-msgstr "立即開始"
-
+#: sections/code.twig:10
 msgid "AI Code"
 msgstr "AI 程式碼"
 
-msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
-msgstr "輕鬆編碼與 AI 程式碼生成器：即時解決您的編程需求。"
-
+#: sections/code.twig:14
 msgctxt "heading"
 msgid "Ready to write code at the speed of light?"
 msgstr "準備好以光速編寫程式碼了嗎？"
 
+#: sections/code.twig:18
+msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
+msgstr "輕鬆編碼與 AI 程式碼生成器：即時解決您的編程需求。"
+
+#: sections/code.twig:23
 msgctxt "button"
 msgid "Start Generate Code"
 msgstr "開始生成程式碼"
 
-msgid "AI Chat Bot"
-msgstr "AI 聊天機器人"
-
-msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
-msgstr "只需選擇您的助手並與友好的聊天機器人互動，即可生成想法、增強您的內容或甚至帶來微笑。"
-
+#: sections/cta.twig:3
 msgctxt "heading"
-msgid "That\\'s remarkably human-like and engaging..."
-msgstr "那真是非常像人類且引人入勝..."
+msgid "Ready to level-up?"
+msgstr "準備好升級了嗎？"
 
-msgid "Unlimited"
-msgstr "無限制"
+#: sections/cta.twig:5
+msgid "See how easy it can be to write amazing content."
+msgstr "看看寫出驚人內容有多簡單。"
+
+#: sections/cta.twig:10
+msgctxt "button"
+msgid "Get Started Now"
+msgstr "立即開始"
+
+#: sections/features.twig:3
+msgctxt "heading"
+msgid "Coolest Features"
+msgstr "最酷功能"
+
+#: sections/features.twig:13
+msgctxt "heading"
+msgid "High Quality Code"
+msgstr "高品質程式碼"
+
+#: sections/features.twig:16
+msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
+msgstr "使用領域驅動設計和洋蔥架構原則開發。"
+
+#: sections/features.twig:26
+msgctxt "heading"
+msgid "Modern Technologies"
+msgstr "現代技術"
+
+#: sections/features.twig:29
+msgid "Built with modern technologies for best structure and get maximum performance."
+msgstr "使用現代技術構建最佳結構並獲得最大性能。"
+
+#: sections/features.twig:39
+msgctxt "heading"
+msgid "Friendly UI and UX"
+msgstr "友善的使用者介面與使用者體驗"
+
+#: sections/features.twig:42
+msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
+msgstr "享受無憂無慮且直觀的使用者介面，提升您的數位體驗。"
+
+#: sections/features.twig:52
+msgctxt "heading"
+msgid "Dark Mode"
+msgstr "深色模式"
+
+#: sections/features.twig:55
+msgid "Turn off the light and switch to dark mode your interface with one click."
+msgstr "一鍵關燈並切換至深色模式介面。"
+
+#: sections/features.twig:65
+msgctxt "heading"
+msgid "Documentation"
+msgstr "文件說明"
+
+#: sections/features.twig:68
+msgid "An all-inclusive learning package seamlessly integrated into our community."
+msgstr "無縫整合於我們社群的全方位學習套件。"
+
+#: sections/features.twig:78
+msgctxt "heading"
+msgid "Payment Gateways"
+msgstr "支付閘道"
+
+#: sections/features.twig:81
+msgid "Simplify transactions and boost security with payment gateway solutions."
+msgstr "簡化交易並提升安全性的支付閘道解決方案。"
+
+#: sections/features.twig:91
+msgctxt "heading"
+msgid "AI Generator"
+msgstr "AI 生成器"
+
+#: sections/features.twig:94
+msgid "Unlock limitless creativity with our AI-powered content generator."
+msgstr "使用我們的 AI 驅動內容生成器，釋放無限創意。"
+
+#: sections/features.twig:104
+msgctxt "heading"
+msgid "SEO Friendly"
+msgstr "SEO 友好"
+
+#: sections/features.twig:107
+msgid "Boost your visibility and reach your audience effectively with AI generated content."
+msgstr "透過 AI 生成的內容，有效提升您的可見度並吸引您的受眾。"
+
+#: sections/features.twig:117
+msgctxt "heading"
+msgid "Advanced Dashboard"
+msgstr "進階儀表板"
+
+#: sections/features.twig:120
+msgid "Empower your insights and control with our cutting-edge dashboard."
+msgstr "透過我們先進的儀表板，強化您的洞察力與控制力。"
+
+#: sections/features.twig:130
+msgctxt "heading"
+msgid "Custom Templates"
+msgstr "自訂範本"
+
+#: sections/features.twig:133
+msgid "Transform your content creation with AI-driven custom templates."
+msgstr "利用 AI 驅動的自訂範本，轉變您的內容創作。"
+
+#: sections/features.twig:144
+msgctxt "heading"
+msgid "Login via SM Accounts"
+msgstr "透過社群媒體帳號登入"
+
+#: sections/features.twig:147
+msgid "Use Facebook or Google accounts as an alternatively access to platform."
+msgstr "使用 Facebook 或 Google 帳戶作為替代平台存取方式。"
+
+#: sections/features.twig:157
+msgctxt "heading"
+msgid "High Quality Support"
+msgstr "高品質支援"
+
+#: sections/features.twig:160
+msgid "Our support team is available 24/7 to help you with any questions or concerns."
+msgstr "我們的支援團隊隨時為您提供幫助，解答任何問題或疑慮。"
+
+#: sections/footer.twig:4
+msgid "All rights reserved."
+msgstr "版權所有。"
+
+#: sections/footer.twig:42
+#: sections/header.twig:19
+msgctxt "button"
+msgid "Product"
+msgstr "產品"
+
+#: sections/footer.twig:46
+#: sections/header.twig:33
+msgctxt "button"
+msgid "Pricing"
+msgstr "價格"
+
+#: sections/footer.twig:50
+msgctxt "button"
+msgid "FAQ"
+msgstr "常見問題"
+
+#: sections/footer.twig:57
+msgctxt "button"
+msgid "Terms of services"
+msgstr "服務條款"
+
+#: sections/footer.twig:63
+msgctxt "button"
+msgid "Privacy policy"
+msgstr "隱私政策"
+
+#: sections/footer.twig:69
+msgctxt "button"
+msgid "Refund policy"
+msgstr "退款政策"
+
+#: sections/generators.twig:3
+msgctxt "heading"
+msgid "Meet your ultimate"
+msgstr "認識你的終極"
+
+#: sections/generators.twig:6
+msgctxt "heading"
+msgid "AI-Powered Content Platform"
+msgstr "AI 驅動的內容平台"
+
+#: sections/header.twig:26
+msgctxt "button"
+msgid "Featured"
+msgstr "精選"
+
+#: sections/header.twig:111
+#: sections/hero.twig:13
+msgctxt "button"
+msgid "Go to app"
+msgstr "前往應用程式"
+
+#: sections/header.twig:123
+msgctxt "button"
+msgid "Library"
+msgstr "資料庫"
+
+#: sections/header.twig:131
+msgctxt "button"
+msgid "Billing"
+msgstr "帳單"
+
+#: sections/header.twig:143
+msgctxt "button"
+msgid "Account"
+msgstr "帳戶"
+
+#: sections/header.twig:151
+msgctxt "button"
+msgid "Logout"
+msgstr "登出"
+
+#: sections/header.twig:191
+msgctxt "button"
+msgid "Login"
+msgstr "登入"
+
+#: sections/header.twig:196
+#: sections/pricing.twig:102
+msgctxt "button"
+msgid "Get started"
+msgstr "開始使用"
+
+#: sections/hero.twig:3
+msgctxt "heading"
+msgid "Transforming ideas into AI generated masterpieces"
+msgstr "將想法轉化為 AI 生成的傑作"
+
+#: sections/hero.twig:7
+msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
+msgstr "輕鬆生成高品質的 AI 驅動內容，滿足您的需求。解鎖無限可能，節省時間，今天就賺錢！"
+
+#: sections/hero.twig:19
+msgctxt "button"
+msgid "Get started now"
+msgstr "立即開始"
+
+#: sections/how-it-works.twig:3
+msgctxt "heading"
+msgid "How it works"
+msgstr "運作方式"
+
+#: sections/how-it-works.twig:13
+msgctxt "heading"
+msgid "Choose Template"
+msgstr "選擇範本"
+
+#: sections/how-it-works.twig:16
+msgid "Choose a our built in templates or create your own."
+msgstr "選擇我們內建的範本或創建你自己的。"
+
+#: sections/how-it-works.twig:26
+msgctxt "heading"
+msgid "Describe"
+msgstr "描述"
+
+#: sections/how-it-works.twig:29
+msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
+msgstr "輸入幾句話來描述您的主題。添加關鍵詞以指定您的品牌。"
+
+#: sections/how-it-works.twig:39
+msgctxt "heading"
+msgid "Generate"
+msgstr "生成"
+
+#: sections/how-it-works.twig:42
+msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
+msgstr "點擊「生成」按鈕，每次獲得多種高轉換率的副本。"
+
+#: sections/image.twig:5
+msgid "AI Image"
+msgstr "AI 影像"
+
+#: sections/image.twig:9
+msgctxt "heading"
+msgid "Visualize what you dream of. Create images from text."
+msgstr "將你的夢想視覺化。從文字創建影像。"
+
+#: sections/image.twig:13
+msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
+msgstr "立即使用 AI 影像生成器創建令人驚嘆的影像 - 您的藝術創新工具。"
+
+#: sections/image.twig:18
+msgctxt "button"
+msgid "Try for free"
+msgstr "免費試用"
+
+#: sections/presets.twig:9
+msgid "100+ AI Writer Templates"
+msgstr "100+ AI 寫作範本"
+
+#: sections/presets.twig:14
+msgctxt "heading"
+msgid "What can Writing Assistant create for you?"
+msgstr "寫作助手能為您創造什麼？"
+
+#: sections/presets.twig:18
+msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer's block forever."
+msgstr "以驚人的速度寫作，吸引你的觀眾，並永遠告別寫作障礙。"
+
+#: sections/presets.twig:23
+msgctxt "button"
+msgid "Get Started for Free"
+msgstr "免費開始"
+
+#: sections/pricing.twig:3
+msgctxt "heading"
+msgid "Pricing"
+msgstr "價格"
+
+#: sections/pricing.twig:6
+msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
+msgstr "發現適合您需求的完美計劃，並解鎖無限可能。"
+
+#: sections/pricing.twig:19
+msgctxt "button"
+msgid "Monthly"
+msgstr "每月"
+
+#: sections/pricing.twig:28
+msgctxt "button"
+msgid "Yearly"
+msgstr "每年"
+
+#: sections/pricing.twig:37
+msgctxt "button"
+msgid "Packs"
+msgstr "套裝"
+
+#: sections/pricing.twig:46
+msgctxt "button"
+msgid "Lifetime Deals"
+msgstr "終身優惠"
+
+#: sections/pricing.twig:78
+msgid "Most Popular"
+msgstr "最受歡迎"
+
+#: sections/pricing.twig:115
+msgid "Chat"
+msgstr "聊天"
+
+#: sections/pricing.twig:134
+msgid "Writer"
+msgstr "寫作助手"
+
+#: sections/pricing.twig:153
+msgid "Image generator"
+msgstr "圖像生成器"
+
+#: sections/pricing.twig:166
+msgid "Transcriber"
+msgstr "轉錄器"
+
+#: sections/pricing.twig:179
+msgid "Voiceover"
+msgstr "配音"
+
+#: sections/pricing.twig:192
+msgid "Voice isolator"
+msgstr "聲音隔離器"
+
+#: sections/pricing.twig:205
+msgid "Classifier"
+msgstr "分類器"
+
+#: sections/pricing.twig:213
+msgid "Access to templates is disabled"
+msgstr "模板訪問已被禁用"
+
+#: sections/pricing.twig:216
+msgid "Access to all templates"
+msgstr "訪問所有模板"
+
+#: sections/pricing.twig:232
+msgid "Priority support"
+msgstr "優先支援"
+
+#: sections/pricing.twig:235
+msgid "Basic support"
+msgstr "基本支援"
+
+#: sections/speech-to-text.twig:4
+msgid "Speech to Text"
+msgstr "語音轉文字"
+
+#: sections/speech-to-text.twig:8
+msgctxt "heading"
+msgid "Transforming Spoken <br> Words into Text."
+msgstr "將口語<br>轉換成文字。"
+
+#: sections/speech-to-text.twig:12
+msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
+msgstr "即時轉錄口語為文字，以增強生產力和可存取性。"
+
+#: sections/speech-to-text.twig:17
+msgctxt "button"
+msgid "Convert now"
+msgstr "立即轉換"
+
+#: sections/text-to-voice.twig:4
+msgid "Text to Voice"
+msgstr "文字轉語音"
+
+#: sections/text-to-voice.twig:8
+msgctxt "heading"
+msgid "Convert your texts into <br> Lifelike Speech"
+msgstr "將您的文字轉換成<br>逼真的語音"
+
+#: sections/text-to-voice.twig:12
+msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
+msgstr "透過富有表現力的敘述提升您的內容：發現文字轉語音的卓越之處。"
+
+#: sections/video.twig:11
+msgid "Video"
+msgstr "影片"
+
+#: sections/video.twig:15
+msgctxt "heading"
+msgid "Generate high-quality videos using AI Video generation tool."
+msgstr "使用 AI 影片生成工具產生高品質影片。"
+
+#: sections/video.twig:19
+msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
+msgstr "不需要影片剪輯技巧，只要上傳你的圖片並輸入幾行提示，就完成了。"
+
+#: sections/writer.twig:22
+msgid "AI Writer"
+msgstr "AI 寫手"
+
+#: sections/writer.twig:26
+msgctxt "heading"
+msgid "Write SEO optimized blogs, sales emails and more..."
+msgstr "撰寫 SEO 優化的部落格、銷售電子郵件等..."
+
+#: sections/writer.twig:30
+msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
+msgstr "在短時間內實現卓越成果。終於，一個你真正會使用的寫作工具。"
+
+#: sections/writer.twig:35
+msgctxt "button"
+msgid "See all features"
+msgstr "查看所有功能"

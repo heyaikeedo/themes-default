@@ -1,382 +1,484 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Theme Translations\n"
-"Report-Msgid-Bugs-To: \n"
-"Last-Translator: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Language: he-IL\n"
 "Language-Team: \n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n==2 ? 1 : n>10 && n%10==0 ? 2 : 3);\n"
+"Project-Id-Version: Theme Translations\n"
+"Report-Msgid-Bugs-To: \n"
 "X-Domain: theme\n"
 
-msgid "AI Writer"
-msgstr "כותב בינה מלאכותית"
+#: sections/chat.twig:11
+msgid "AI Chat Bot"
+msgstr "בוט שיחה בינה מלאכותית"
 
-msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
-msgstr "הגיעו לתוצאות מעליות בזמן קצר. לבסוף, כלי כתיבה שאתם באמת תשתמשו בו."
-
+#: sections/chat.twig:15
 msgctxt "heading"
-msgid "Write SEO optimized blogs, sales emails and more..."
-msgstr "כתוב בלוגים מותאמים ל-SEO, מיילי מכירה ועוד..."
+msgid "That's remarkably human-like and engaging..."
+msgstr "זה מדהים כמה זה אנושי ומרתק..."
 
-msgctxt "button"
-msgid "See all features"
-msgstr "ראה את כל התכונות"
+#: sections/chat.twig:19
+msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
+msgstr "בחרו בקלות את העוזר שלכם והתעסקו עם בוט שיחה ידידותי כדי ליצור רעיונות, לשפר את התוכן שלכם או אפילו להביא קיפוד לפניכם."
 
-msgid "Video"
-msgstr ""
-
-msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
-msgstr ""
-
-msgctxt "heading"
-msgid "Generate high-quality videos using AI Video generation tool."
-msgstr ""
-
+#: sections/chat.twig:24
+#: sections/video.twig:24
 msgctxt "button"
 msgid "Try now"
 msgstr "נסה עכשיו"
 
-msgid "Text to Voice"
-msgstr "טקסט לדיבור"
-
-msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
-msgstr "העלו את תוכן הפרוייקט שלכם עם דיבור מעורר: גלו את הכישור של טקסט לדיבור."
-
-msgctxt "heading"
-msgid "Convert your texts into <br> Lifelike Speech"
-msgstr "המר את הטקסטים שלך ל-<br> דיבור טבעי"
-
-msgid "Speech to Text"
-msgstr "דיבור לטקסט"
-
-msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
-msgstr "ממלא מילים מדוברות בטקסט במהירות ובצורה משתמשת בפרימיטיבים של המשתמש. מגביר יעילות וגמישות."
-
-msgctxt "heading"
-msgid "Transforming Spoken <br> Words into Text."
-msgstr "הפיכת מילים <br> מדוברות לטקסט."
-
-msgctxt "button"
-msgid "Convert now"
-msgstr "המר עכשיו"
-
-msgid ":count credits"
-msgstr ":count קרדיטים"
-
-msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
-msgstr "גלו את התכנית המושלמת שתספק את הצרכים שלכם ופריעו לעולם של אפשרויות."
-
-msgid "Most Popular"
-msgstr "הכי פופולרי"
-
-msgid "Chat"
-msgstr "צ'אט"
-
-msgid "Writer"
-msgstr "כותב"
-
-msgid "Image generator"
-msgstr "מחולל תמונות"
-
-msgid "Transcriber"
-msgstr "מתמלל"
-
-msgid "Voiceover"
-msgstr "קריין"
-
-msgid "Voice isolator"
-msgstr "בודד קול"
-
-msgid "Classifier"
-msgstr "מסווג"
-
-msgid "Access to templates is disabled"
-msgstr "הגישה לתבניות מושבתת"
-
-msgid "Access to all templates"
-msgstr "גישה לכל התבניות"
-
-msgid "Priority support"
-msgstr "תמיכה בעדיפות"
-
-msgid "Basic support"
-msgstr "תמיכה בסיסית"
-
-msgctxt "heading"
-msgid "Pricing"
-msgstr ""
-
-msgctxt "button"
-msgid "Monthly"
-msgstr "חודשי"
-
-msgctxt "button"
-msgid "Yearly"
-msgstr "שנתי"
-
-msgctxt "button"
-msgid "Packs"
-msgstr "חבילות"
-
-msgctxt "button"
-msgid "Lifetime Deals"
-msgstr "עסקאות לכל החיים"
-
-msgctxt "button"
-msgid "Get started"
-msgstr "התחל עכשיו"
-
-msgid "100+ AI Writer Templates"
-msgstr "100+ תבניות כותב בינה מלאכותית"
-
-msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer\\'s block forever."
-msgstr "כתבו במהירות מדהימת, תפרקו את הקהל שלכם והסירו את חסר הכתיבה לנצח."
-
-msgctxt "heading"
-msgid "What can Writing Assistant create for you?"
-msgstr "מה יכול Writing Assistant ליצור עבורך?"
-
-msgctxt "button"
-msgid "Get Started for Free"
-msgstr "התחל בחינם"
-
-msgid "AI Image"
-msgstr "תמונה מבוססת בינה מלאכותית"
-
-msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
-msgstr "צור תמונות מדהימות במהירות באמצעות מחולל התמונות מונע AI - הכלי שלכם ליצירה מקוראית."
-
-msgctxt "heading"
-msgid "Visualize what you dream of. Create images from text."
-msgstr "המחש את מה שאתה חולם עליו. צור תמונות מטקסט."
-
-msgctxt "button"
-msgid "Try for free"
-msgstr "נסה בחינם"
-
-msgid "Choose a our built in templates or create your own."
-msgstr "בחר תבניות מובנות או צור משלך."
-
-msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
-msgstr "הזן כמה משפטים כדי לתאר את הנושא שלכם. הוסף מילות מפתח כדי לציין עבור המותג שלכם."
-
-msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
-msgstr "לחץ על כפתור \"צור\" וקבל מגוון מונחים מונעים בכל פעם."
-
-msgctxt "heading"
-msgid "How it works"
-msgstr "איך זה עובד"
-
-msgctxt "heading"
-msgid "Choose Template"
-msgstr "בחר תבנית"
-
-msgctxt "heading"
-msgid "Describe"
-msgstr "תאר"
-
-msgctxt "heading"
-msgid "Generate"
-msgstr "צור"
-
-msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
-msgstr "צור תוכן באיכות גבוהה מונע על ידי AI שמתאים לצרכים שלך. פריעו לעולם של אפשרויות, שמרו את הזמן שלכם והתחילו להרוויח כספים כעת!"
-
-msgctxt "heading"
-msgid "Transforming ideas into AI generated masterpieces"
-msgstr "הפיכת רעיונות ליצירות מופת שנוצרו על ידי בינה מלאכותית"
-
-msgctxt "button"
-msgid "Go to app"
-msgstr "עבור לאפליקציה"
-
-msgctxt "button"
-msgid "Get started now"
-msgstr "התחל עכשיו"
-
-msgctxt "button"
-msgid "Product"
-msgstr "מוצר"
-
-msgctxt "button"
-msgid "Featured"
-msgstr "מומלץ"
-
-msgctxt "button"
-msgid "Pricing"
-msgstr "תמחור"
-
-msgctxt "button"
-msgid "Library"
-msgstr "ספרייה"
-
-msgctxt "button"
-msgid "Billing"
-msgstr "חיוב"
-
-msgctxt "button"
-msgid "Account"
-msgstr "חשבון"
-
-msgctxt "button"
-msgid "Logout"
-msgstr "התנתק"
-
-msgctxt "button"
-msgid "Login"
-msgstr "התחבר"
-
-msgctxt "heading"
-msgid "Meet your ultimate"
-msgstr "הכר את ה-ultimate שלך"
-
-msgctxt "heading"
-msgid "AI-Powered Content Platform"
-msgstr "פלטפורמת תוכן מונעת בינה מלאכותית"
-
-msgid "All rights reserved."
-msgstr "כל הזכויות שמורות."
-
-msgctxt "button"
-msgid "FAQ"
-msgstr "שאלות נפוצות"
-
-msgctxt "button"
-msgid "Terms of services"
-msgstr "תנאי השירות"
-
-msgctxt "button"
-msgid "Privacy policy"
-msgstr "מדיניות פרטיות"
-
-msgctxt "button"
-msgid "Refund policy"
-msgstr "מדיניות החזרות"
-
-msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
-msgstr "פותח באמצעות עקרונות עיצוב מונחה תחום ואדריכלות בצל."
-
-msgid "Built with modern technologies for best structure and get maximum performance."
-msgstr "פותח בטכנולוגיות מודרניות לצורה הטובה ביותר ולהגביר את הביצועים."
-
-msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
-msgstr "הנאו ממשק משתמש ללא מתישות ומשתמש ידידותי שמשפר את החווית המספרית שלכם."
-
-msgid "Turn off the light and switch to dark mode your interface with one click."
-msgstr "כבה את האור והחלף למצב כהה בממשק שלך בלחיצה אחת."
-
-msgid "An all-inclusive learning package seamlessly integrated into our community."
-msgstr "חבילת למידה כוללת המשולבת בצורה חלקה בקהילה שלנו."
-
-msgid "Simplify transactions and boost security with payment gateway solutions."
-msgstr "פשט עסקאות והגבר את האבטחה עם פתרונות שער תשלום."
-
-msgid "Unlock limitless creativity with our AI-powered content generator."
-msgstr "שחרר יצירתיות בלתי מוגבלת עם מחולל התוכן המופעל על ידי AI שלנו."
-
-msgid "Boost your visibility and reach your audience effectively with AI generated content."
-msgstr "הגברו את הזהירות שלכם והגיעו לקהל שלכם בצורה יעילה עם תוכן מונע על ידי AI."
-
-msgid "Empower your insights and control with our cutting-edge dashboard."
-msgstr "העצם את התובנות והשליטה שלך עם לוח המחוונים המתקדם שלנו."
-
-msgid "Transform your content creation with AI-driven custom templates."
-msgstr "הפוך את יצירת התוכן שלך עם תבניות מותאמות אישית מונעות AI."
-
-msgid "Use Facebook or Google accounts as an alternatively access to platform."
-msgstr "השתמש בחשבונות Facebook או Google כגישה חלופית לפלטפורמה."
-
-msgid "Our support team is available 24/7 to help you with any questions or concerns."
-msgstr "צוות התמיכה שלנו זמין 24/7 כדי לעזור לכם עם כל שאלה או דיווח."
-
-msgctxt "heading"
-msgid "Coolest Features"
-msgstr "התכונות הכי שוות"
-
-msgctxt "heading"
-msgid "High Quality Code"
-msgstr "קוד באיכות גבוהה"
-
-msgctxt "heading"
-msgid "Modern Technologies"
-msgstr "טכנולוגיות מודרניות"
-
-msgctxt "heading"
-msgid "Friendly UI and UX"
-msgstr "ממשק משתמש וחוויית משתמש ידידותיים"
-
-msgctxt "heading"
-msgid "Dark Mode"
-msgstr "מצב כהה"
-
-msgctxt "heading"
-msgid "Documentation"
-msgstr "תיעוד"
-
-msgctxt "heading"
-msgid "Payment Gateways"
-msgstr "שערי תשלום"
-
-msgctxt "heading"
-msgid "AI Generator"
-msgstr "מחולל בינה מלאכותית"
-
-msgctxt "heading"
-msgid "SEO Friendly"
-msgstr "ידידותי ל-SEO"
-
-msgctxt "heading"
-msgid "Advanced Dashboard"
-msgstr "לוח מחוונים מתקדם"
-
-msgctxt "heading"
-msgid "Custom Templates"
-msgstr "תבניות מותאמות אישית"
-
-msgctxt "heading"
-msgid "Login via SM Accounts"
-msgstr "התחבר דרך חשבונות רשתות חברתיות"
-
-msgctxt "heading"
-msgid "High Quality Support"
-msgstr "תמיכה באיכות גבוהה"
-
-msgid "See how easy it can be to write amazing content."
-msgstr "ראה כמה קל זה יכול להיות לכתוב תוכן מדהים."
-
-msgctxt "heading"
-msgid "Ready to level-up?"
-msgstr "מוכן לשדרג?"
-
-msgctxt "button"
-msgid "Get Started Now"
-msgstr "התחל עכשיו"
-
+#: sections/code.twig:10
 msgid "AI Code"
 msgstr "קוד בינה מלאכותית"
 
-msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
-msgstr "כתוב קוד בקלות עם מחולל קוד AI: פתרונות מיידיים לצרכי התכנות שלך."
-
+#: sections/code.twig:14
 msgctxt "heading"
 msgid "Ready to write code at the speed of light?"
 msgstr "מוכן לכתוב קוד במהירות האור?"
 
+#: sections/code.twig:18
+msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
+msgstr "כתוב קוד בקלות עם מחולל קוד AI: פתרונות מיידיים לצרכי התכנות שלך."
+
+#: sections/code.twig:23
 msgctxt "button"
 msgid "Start Generate Code"
 msgstr "התחל ליצור קוד"
 
-msgid "AI Chat Bot"
-msgstr "בוט שיחה בינה מלאכותית"
-
-msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
-msgstr "בחרו בקלות את העוזר שלכם והתעסקו עם בוט שיחה ידידותי כדי ליצור רעיונות, לשפר את התוכן שלכם או אפילו להביא קיפוד לפניכם."
-
+#: sections/cta.twig:3
 msgctxt "heading"
-msgid "That\\'s remarkably human-like and engaging..."
-msgstr "זה מדהים כמה זה דומה לאדם ומרתק..."
+msgid "Ready to level-up?"
+msgstr "מוכן לשדרג?"
 
-msgid "Unlimited"
-msgstr "ללא הגבלה"
+#: sections/cta.twig:5
+msgid "See how easy it can be to write amazing content."
+msgstr "ראה כמה קל זה יכול להיות לכתוב תוכן מדהים."
+
+#: sections/cta.twig:10
+msgctxt "button"
+msgid "Get Started Now"
+msgstr "התחל עכשיו"
+
+#: sections/features.twig:3
+msgctxt "heading"
+msgid "Coolest Features"
+msgstr "התכונות הכי שוות"
+
+#: sections/features.twig:13
+msgctxt "heading"
+msgid "High Quality Code"
+msgstr "קוד באיכות גבוהה"
+
+#: sections/features.twig:16
+msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
+msgstr "פותח באמצעות עקרונות עיצוב מונחה תחום ואדריכלות בצל."
+
+#: sections/features.twig:26
+msgctxt "heading"
+msgid "Modern Technologies"
+msgstr "טכנולוגיות מודרניות"
+
+#: sections/features.twig:29
+msgid "Built with modern technologies for best structure and get maximum performance."
+msgstr "פותח בטכנולוגיות מודרניות לצורה הטובה ביותר ולהגביר את הביצועים."
+
+#: sections/features.twig:39
+msgctxt "heading"
+msgid "Friendly UI and UX"
+msgstr "ממשק משתמש וחוויית משתמש ידידותיים"
+
+#: sections/features.twig:42
+msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
+msgstr "הנאו ממשק משתמש ללא מתישות ומשתמש ידידותי שמשפר את החווית המספרית שלכם."
+
+#: sections/features.twig:52
+msgctxt "heading"
+msgid "Dark Mode"
+msgstr "מצב כהה"
+
+#: sections/features.twig:55
+msgid "Turn off the light and switch to dark mode your interface with one click."
+msgstr "כבה את האור והחלף למצב כהה בממשק שלך בלחיצה אחת."
+
+#: sections/features.twig:65
+msgctxt "heading"
+msgid "Documentation"
+msgstr "תיעוד"
+
+#: sections/features.twig:68
+msgid "An all-inclusive learning package seamlessly integrated into our community."
+msgstr "חבילת למידה כוללת המשולבת בצורה חלקה בקהילה שלנו."
+
+#: sections/features.twig:78
+msgctxt "heading"
+msgid "Payment Gateways"
+msgstr "שערי תשלום"
+
+#: sections/features.twig:81
+msgid "Simplify transactions and boost security with payment gateway solutions."
+msgstr "פשט עסקאות והגבר את האבטחה עם פתרונות שער תשלום."
+
+#: sections/features.twig:91
+msgctxt "heading"
+msgid "AI Generator"
+msgstr "מחולל בינה מלאכותית"
+
+#: sections/features.twig:94
+msgid "Unlock limitless creativity with our AI-powered content generator."
+msgstr "שחרר יצירתיות בלתי מוגבלת עם מחולל התוכן המופעל על ידי AI שלנו."
+
+#: sections/features.twig:104
+msgctxt "heading"
+msgid "SEO Friendly"
+msgstr "ידידותי ל-SEO"
+
+#: sections/features.twig:107
+msgid "Boost your visibility and reach your audience effectively with AI generated content."
+msgstr "הגברו את הזהירות שלכם והגיעו לקהל שלכם בצורה יעילה עם תוכן מונע על ידי AI."
+
+#: sections/features.twig:117
+msgctxt "heading"
+msgid "Advanced Dashboard"
+msgstr "לוח מחוונים מתקדם"
+
+#: sections/features.twig:120
+msgid "Empower your insights and control with our cutting-edge dashboard."
+msgstr "העצם את התובנות והשליטה שלך עם לוח המחוונים המתקדם שלנו."
+
+#: sections/features.twig:130
+msgctxt "heading"
+msgid "Custom Templates"
+msgstr "תבניות מותאמות אישית"
+
+#: sections/features.twig:133
+msgid "Transform your content creation with AI-driven custom templates."
+msgstr "הפוך את יצירת התוכן שלך עם תבניות מותאמות אישית מונעות AI."
+
+#: sections/features.twig:144
+msgctxt "heading"
+msgid "Login via SM Accounts"
+msgstr "התחבר דרך חשבונות רשתות חברתיות"
+
+#: sections/features.twig:147
+msgid "Use Facebook or Google accounts as an alternatively access to platform."
+msgstr "השתמש בחשבונות Facebook או Google כגישה חלופית לפלטפורמה."
+
+#: sections/features.twig:157
+msgctxt "heading"
+msgid "High Quality Support"
+msgstr "תמיכה באיכות גבוהה"
+
+#: sections/features.twig:160
+msgid "Our support team is available 24/7 to help you with any questions or concerns."
+msgstr "צוות התמיכה שלנו זמין 24/7 כדי לעזור לכם עם כל שאלה או דיווח."
+
+#: sections/footer.twig:4
+msgid "All rights reserved."
+msgstr "כל הזכויות שמורות."
+
+#: sections/footer.twig:42
+#: sections/header.twig:19
+msgctxt "button"
+msgid "Product"
+msgstr "מוצר"
+
+#: sections/footer.twig:46
+#: sections/header.twig:33
+msgctxt "button"
+msgid "Pricing"
+msgstr "תמחור"
+
+#: sections/footer.twig:50
+msgctxt "button"
+msgid "FAQ"
+msgstr "שאלות נפוצות"
+
+#: sections/footer.twig:57
+msgctxt "button"
+msgid "Terms of services"
+msgstr "תנאי השירות"
+
+#: sections/footer.twig:63
+msgctxt "button"
+msgid "Privacy policy"
+msgstr "מדיניות פרטיות"
+
+#: sections/footer.twig:69
+msgctxt "button"
+msgid "Refund policy"
+msgstr "מדיניות החזרות"
+
+#: sections/generators.twig:3
+msgctxt "heading"
+msgid "Meet your ultimate"
+msgstr "הכר את ה-ultimate שלך"
+
+#: sections/generators.twig:6
+msgctxt "heading"
+msgid "AI-Powered Content Platform"
+msgstr "פלטפורמת תוכן מונעת בינה מלאכותית"
+
+#: sections/header.twig:26
+msgctxt "button"
+msgid "Featured"
+msgstr "מומלץ"
+
+#: sections/header.twig:111
+#: sections/hero.twig:13
+msgctxt "button"
+msgid "Go to app"
+msgstr "עבור לאפליקציה"
+
+#: sections/header.twig:123
+msgctxt "button"
+msgid "Library"
+msgstr "ספרייה"
+
+#: sections/header.twig:131
+msgctxt "button"
+msgid "Billing"
+msgstr "חיוב"
+
+#: sections/header.twig:143
+msgctxt "button"
+msgid "Account"
+msgstr "חשבון"
+
+#: sections/header.twig:151
+msgctxt "button"
+msgid "Logout"
+msgstr "התנתק"
+
+#: sections/header.twig:191
+msgctxt "button"
+msgid "Login"
+msgstr "התחבר"
+
+#: sections/header.twig:196
+#: sections/pricing.twig:102
+msgctxt "button"
+msgid "Get started"
+msgstr "התחל עכשיו"
+
+#: sections/hero.twig:3
+msgctxt "heading"
+msgid "Transforming ideas into AI generated masterpieces"
+msgstr "הפיכת רעיונות ליצירות מופת שנוצרו על ידי בינה מלאכותית"
+
+#: sections/hero.twig:7
+msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
+msgstr "צור תוכן באיכות גבוהה מונע על ידי AI שמתאים לצרכים שלך. פריעו לעולם של אפשרויות, שמרו את הזמן שלכם והתחילו להרוויח כספים כעת!"
+
+#: sections/hero.twig:19
+msgctxt "button"
+msgid "Get started now"
+msgstr "התחל עכשיו"
+
+#: sections/how-it-works.twig:3
+msgctxt "heading"
+msgid "How it works"
+msgstr "איך זה עובד"
+
+#: sections/how-it-works.twig:13
+msgctxt "heading"
+msgid "Choose Template"
+msgstr "בחר תבנית"
+
+#: sections/how-it-works.twig:16
+msgid "Choose a our built in templates or create your own."
+msgstr "בחר תבניות מובנות או צור משלך."
+
+#: sections/how-it-works.twig:26
+msgctxt "heading"
+msgid "Describe"
+msgstr "תאר"
+
+#: sections/how-it-works.twig:29
+msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
+msgstr "הזן כמה משפטים כדי לתאר את הנושא שלכם. הוסף מילות מפתח כדי לציין עבור המותג שלכם."
+
+#: sections/how-it-works.twig:39
+msgctxt "heading"
+msgid "Generate"
+msgstr "צור"
+
+#: sections/how-it-works.twig:42
+msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
+msgstr "לחץ על כפתור \"צור\" וקבל מגוון מונחים מונעים בכל פעם."
+
+#: sections/image.twig:5
+msgid "AI Image"
+msgstr "תמונה מבוססת בינה מלאכותית"
+
+#: sections/image.twig:9
+msgctxt "heading"
+msgid "Visualize what you dream of. Create images from text."
+msgstr "המחש את מה שאתה חולם עליו. צור תמונות מטקסט."
+
+#: sections/image.twig:13
+msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
+msgstr "צור תמונות מדהימות במהירות באמצעות מחולל התמונות מונע AI - הכלי שלכם ליצירה מקוראית."
+
+#: sections/image.twig:18
+msgctxt "button"
+msgid "Try for free"
+msgstr "נסה בחינם"
+
+#: sections/presets.twig:9
+msgid "100+ AI Writer Templates"
+msgstr "100+ תבניות כותב בינה מלאכותית"
+
+#: sections/presets.twig:14
+msgctxt "heading"
+msgid "What can Writing Assistant create for you?"
+msgstr "מה יכול Writing Assistant ליצור עבורך?"
+
+#: sections/presets.twig:18
+msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer's block forever."
+msgstr "כתוב במהירות מדהימה, שובה את הקהל שלך, ואמר שלום לנקודת כתיבה לנצח."
+
+#: sections/presets.twig:23
+msgctxt "button"
+msgid "Get Started for Free"
+msgstr "התחל בחינם"
+
+#: sections/pricing.twig:3
+msgctxt "heading"
+msgid "Pricing"
+msgstr "תמחור"
+
+#: sections/pricing.twig:6
+msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
+msgstr "גלו את התכנית המושלמת שתספק את הצרכים שלכם ופריעו לעולם של אפשרויות."
+
+#: sections/pricing.twig:19
+msgctxt "button"
+msgid "Monthly"
+msgstr "חודשי"
+
+#: sections/pricing.twig:28
+msgctxt "button"
+msgid "Yearly"
+msgstr "שנתי"
+
+#: sections/pricing.twig:37
+msgctxt "button"
+msgid "Packs"
+msgstr "חבילות"
+
+#: sections/pricing.twig:46
+msgctxt "button"
+msgid "Lifetime Deals"
+msgstr "עסקאות לכל החיים"
+
+#: sections/pricing.twig:78
+msgid "Most Popular"
+msgstr "הכי פופולרי"
+
+#: sections/pricing.twig:115
+msgid "Chat"
+msgstr "צ'אט"
+
+#: sections/pricing.twig:134
+msgid "Writer"
+msgstr "כותב"
+
+#: sections/pricing.twig:153
+msgid "Image generator"
+msgstr "מחולל תמונות"
+
+#: sections/pricing.twig:166
+msgid "Transcriber"
+msgstr "מתמלל"
+
+#: sections/pricing.twig:179
+msgid "Voiceover"
+msgstr "קריין"
+
+#: sections/pricing.twig:192
+msgid "Voice isolator"
+msgstr "בודד קול"
+
+#: sections/pricing.twig:205
+msgid "Classifier"
+msgstr "מסווג"
+
+#: sections/pricing.twig:213
+msgid "Access to templates is disabled"
+msgstr "הגישה לתבניות מושבתת"
+
+#: sections/pricing.twig:216
+msgid "Access to all templates"
+msgstr "גישה לכל התבניות"
+
+#: sections/pricing.twig:232
+msgid "Priority support"
+msgstr "תמיכה בעדיפות"
+
+#: sections/pricing.twig:235
+msgid "Basic support"
+msgstr "תמיכה בסיסית"
+
+#: sections/speech-to-text.twig:4
+msgid "Speech to Text"
+msgstr "דיבור לטקסט"
+
+#: sections/speech-to-text.twig:8
+msgctxt "heading"
+msgid "Transforming Spoken <br> Words into Text."
+msgstr "הפיכת מילים <br> מדוברות לטקסט."
+
+#: sections/speech-to-text.twig:12
+msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
+msgstr "ממלא מילים מדוברות בטקסט במהירות ובצורה משתמשת בפרימיטיבים של המשתמש. מגביר יעילות וגמישות."
+
+#: sections/speech-to-text.twig:17
+msgctxt "button"
+msgid "Convert now"
+msgstr "המר עכשיו"
+
+#: sections/text-to-voice.twig:4
+msgid "Text to Voice"
+msgstr "טקסט לדיבור"
+
+#: sections/text-to-voice.twig:8
+msgctxt "heading"
+msgid "Convert your texts into <br> Lifelike Speech"
+msgstr "המר את הטקסטים שלך ל-<br> דיבור טבעי"
+
+#: sections/text-to-voice.twig:12
+msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
+msgstr "העלו את תוכן הפרוייקט שלכם עם דיבור מעורר: גלו את הכישור של טקסט לדיבור."
+
+#: sections/video.twig:11
+msgid "Video"
+msgstr "וידאו"
+
+#: sections/video.twig:15
+msgctxt "heading"
+msgid "Generate high-quality videos using AI Video generation tool."
+msgstr "צור סרטונים באיכות גבוהה באמצעות כלי יצירת וידאו מבוסס בינה מלאכותית."
+
+#: sections/video.twig:19
+msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
+msgstr "אין צורך בכישורי עריכת וידאו - פשוט העלה את התמונות שלך והקלד כמה שורות של פקודה, זהו."
+
+#: sections/writer.twig:22
+msgid "AI Writer"
+msgstr "כותב בינה מלאכותית"
+
+#: sections/writer.twig:26
+msgctxt "heading"
+msgid "Write SEO optimized blogs, sales emails and more..."
+msgstr "כתוב בלוגים מותאמים ל-SEO, מיילי מכירה ועוד..."
+
+#: sections/writer.twig:30
+msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
+msgstr "הגיעו לתוצאות מעליות בזמן קצר. לבסוף, כלי כתיבה שאתם באמת תשתמשו בו."
+
+#: sections/writer.twig:35
+msgctxt "button"
+msgid "See all features"
+msgstr "ראה את כל התכונות"
