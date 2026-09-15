@@ -42,8 +42,7 @@ default/
 │
 └── scripts/              # Build and utility scripts
     ├── pack.mjs        # Theme packaging
-    ├── release.mjs    # Release creation
-    └── locale-extract.mjs # Translation extraction
+    └── release.mjs    # Release creation
 ```
 
 ## Prerequisites
@@ -152,7 +151,6 @@ default/
    - Start Vite dev server on port 5174
    - Watch for file changes
    - Copy static files to `BUILD_DIR`
-   - Extract translations automatically
 
 6. **Configure Aikeedo**
 
@@ -195,7 +193,6 @@ default/
    - [ ] Theme visible in Aikeedo admin
    - [ ] CSS/JS changes reflect immediately
    - [ ] Twig template changes trigger reload
-   - [ ] Translations being extracted
 
 ## Common Setup Issues
 
@@ -223,10 +220,27 @@ If theme assets aren't loading:
 
 ### Internationalization
 
-- Automatic string extraction to PO files
-- Multiple language support
-- Translation file watching
-- Uses PHP's Gettext
+Theme strings belong to the `theme` gettext domain, so wrap them with the
+domain-aware functions:
+
+```twig
+{{ d__('theme', 'Get started') }}
+{{ dp__('theme', 'heading', 'Pricing') }}
+```
+
+A plain `__()` is looked up in Aikeedo's own catalog, not the theme's.
+
+Catalogs live in `static/locale/<language>/LC_MESSAGES/theme.po`, and the page
+reloads when one changes. They are extracted and translated with Aikeedo's
+locale commands, run from your Aikeedo installation:
+
+```bash
+php bin/console app:locale:extract --path=/path/to/this/repo
+php bin/console app:locale:translate --path=/path/to/this/repo --all
+```
+
+See [Localization](https://docs.aikeedo.com/advanced/localization) for every
+option.
 
 ### Custom Elements
 
@@ -263,7 +277,6 @@ If theme assets aren't loading:
 | `npm run dev`     | Start Vite development server    |
 | `npm run build`   | Build production assets          |
 | `npm run serve`   | Preview production build         |
-| `npm run locale`  | Extract translatable strings     |
 | `npm run pack`    | Create installable theme package |
 | `npm run release` | Create distribution package      |
 
