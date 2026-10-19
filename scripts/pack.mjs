@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import archiver from 'archiver';
+import { ZipArchive } from 'archiver';
 import { build } from 'vite';
 import { fileURLToPath } from 'url';
 
@@ -25,7 +25,7 @@ async function buildTheme() {
     });
 
     const output = fs.createWriteStream(outputFile);
-    const archive = archiver('zip', {
+    const archive = new ZipArchive({
         zlib: { level: 9 }
     });
 

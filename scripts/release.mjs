@@ -1,5 +1,5 @@
 import fs from 'fs';
-import archiver from 'archiver';
+import { ZipArchive } from 'archiver';
 import { execSync } from 'child_process';
 
 const RELEASE_DIR = 'release';
@@ -62,7 +62,7 @@ async function createReleasePackage() {
     console.log(`📦 Creating release package: ${RELEASE_ZIP}`);
 
     const output = fs.createWriteStream(RELEASE_ZIP);
-    const archive = archiver('zip', {
+    const archive = new ZipArchive({
         zlib: { level: 9 }
     });
 
