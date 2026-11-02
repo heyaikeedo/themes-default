@@ -1,0 +1,478 @@
+msgid ""
+msgstr ""
+"Language: uz-UZ\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Domain: theme\n"
+
+#: sections/chat.twig:11
+msgid "AI Chat Bot"
+msgstr "AI chat-bot"
+
+#: sections/chat.twig:15
+msgctxt "heading"
+msgid "That's remarkably human-like and engaging..."
+msgstr "Bu hayratlanarli darajada insonga o‘xshaydi va suhbatga chorlaydi..."
+
+#: sections/chat.twig:19
+msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
+msgstr "Shunchaki yordamchingizni tanlang va g‘oyalar yaratish, kontentingizni yaxshilash yoki hatto kayfiyatingizni ko‘tarish uchun samimiy chatbot bilan suhbatlashing."
+
+#: sections/chat.twig:24
+#: sections/video.twig:24
+msgctxt "button"
+msgid "Try now"
+msgstr "Hozir sinab ko‘ring"
+
+#: sections/code.twig:10
+msgid "AI Code"
+msgstr "AI Code"
+
+#: sections/code.twig:14
+msgctxt "heading"
+msgid "Ready to write code at the speed of light?"
+msgstr "Yorug‘lik tezligida kod yozishga tayyormisiz?"
+
+#: sections/code.twig:18
+msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
+msgstr "AI Code Generator yordamida oson kod yozing: dasturlash ehtiyojlaringiz uchun tezkor yechimlar."
+
+#: sections/code.twig:23
+msgctxt "button"
+msgid "Start Generate Code"
+msgstr "Kod yaratishni boshlash"
+
+#: sections/cta.twig:3
+msgctxt "heading"
+msgid "Ready to level-up?"
+msgstr "Yangi bosqichga ko‘tarilishga tayyormisiz?"
+
+#: sections/cta.twig:5
+msgid "See how easy it can be to write amazing content."
+msgstr "Ajoyib kontent yozish qanchalik osonligini ko‘ring."
+
+#: sections/cta.twig:10
+msgctxt "button"
+msgid "Get Started Now"
+msgstr "Hozir boshlang"
+
+#: sections/features.twig:3
+msgctxt "heading"
+msgid "Coolest Features"
+msgstr "Eng zo‘r imkoniyatlar"
+
+#: sections/features.twig:13
+msgctxt "heading"
+msgid "High Quality Code"
+msgstr "Yuqori sifatli kod"
+
+#: sections/features.twig:16
+msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
+msgstr "Domenaga yo‘naltirilgan dizayn va Onion Architecture tamoyillari asosida ishlab chiqilgan."
+
+#: sections/features.twig:26
+msgctxt "heading"
+msgid "Modern Technologies"
+msgstr "Zamonaviy texnologiyalar"
+
+#: sections/features.twig:29
+msgid "Built with modern technologies for best structure and get maximum performance."
+msgstr "Eng yaxshi tuzilma va maksimal unumdorlik uchun zamonaviy texnologiyalar asosida yaratilgan."
+
+#: sections/features.twig:39
+msgctxt "heading"
+msgid "Friendly UI and UX"
+msgstr "Qulay UI va UX"
+
+#: sections/features.twig:42
+msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
+msgstr "Raqamli tajribangizni yaxshilaydigan qulay va intuitiv interfeysdan foydalaning."
+
+#: sections/features.twig:52
+msgctxt "heading"
+msgid "Dark Mode"
+msgstr "Qorong‘i rejim"
+
+#: sections/features.twig:55
+msgid "Turn off the light and switch to dark mode your interface with one click."
+msgstr "Chiroqni o‘chirib, bir marta bosish orqali interfeysni qorong‘i rejimga o‘tkazing."
+
+#: sections/features.twig:65
+msgctxt "heading"
+msgid "Documentation"
+msgstr "Hujjatlar"
+
+#: sections/features.twig:68
+msgid "An all-inclusive learning package seamlessly integrated into our community."
+msgstr "Hamjamiyatimizga uzluksiz integratsiyalangan, barcha jihatlarni qamrab oluvchi ta’lim to‘plami."
+
+#: sections/features.twig:78
+msgctxt "heading"
+msgid "Payment Gateways"
+msgstr "To‘lov shlyuzlari"
+
+#: sections/features.twig:81
+msgid "Simplify transactions and boost security with payment gateway solutions."
+msgstr "To‘lov shlyuzi yechimlari yordamida tranzaksiyalarni soddalashtiring va xavfsizlikni oshiring."
+
+#: sections/features.twig:91
+msgctxt "heading"
+msgid "AI Generator"
+msgstr "AI generatori"
+
+#: sections/features.twig:94
+msgid "Unlock limitless creativity with our AI-powered content generator."
+msgstr "AI yordamida ishlaydigan kontent generatorimiz bilan cheksiz ijodkorlik imkoniyatlarini kashf eting."
+
+#: sections/features.twig:104
+msgctxt "heading"
+msgid "SEO Friendly"
+msgstr "SEO uchun mos"
+
+#: sections/features.twig:107
+msgid "Boost your visibility and reach your audience effectively with AI generated content."
+msgstr "AI yordamida yaratilgan kontent bilan ko‘rinishingizni oshiring va auditoriyangizga samarali yetib boring."
+
+#: sections/features.twig:117
+msgctxt "heading"
+msgid "Advanced Dashboard"
+msgstr "Kengaytirilgan boshqaruv paneli"
+
+#: sections/features.twig:120
+msgid "Empower your insights and control with our cutting-edge dashboard."
+msgstr "Ilg‘or boshqaruv panelimiz yordamida ma’lumotlaringizni chuqurroq tahlil qiling va boshqaruvni o‘z qo‘lingizga oling."
+
+#: sections/features.twig:130
+msgctxt "heading"
+msgid "Custom Templates"
+msgstr "Maxsus shablonlar"
+
+#: sections/features.twig:133
+msgid "Transform your content creation with AI-driven custom templates."
+msgstr "AI asosidagi maxsus shablonlar bilan kontent yaratish jarayonini o‘zgartiring."
+
+#: sections/features.twig:144
+msgctxt "heading"
+msgid "Login via SM Accounts"
+msgstr "Ijtimoiy tarmoq hisoblari orqali kirish"
+
+#: sections/features.twig:147
+msgid "Use Facebook or Google accounts as an alternatively access to platform."
+msgstr "Platformaga muqobil kirish usuli sifatida Facebook yoki Google hisoblaridan foydalaning."
+
+#: sections/features.twig:157
+msgctxt "heading"
+msgid "High Quality Support"
+msgstr "Yuqori sifatli yordam"
+
+#: sections/features.twig:160
+msgid "Our support team is available 24/7 to help you with any questions or concerns."
+msgstr "Qo‘llab-quvvatlash jamoamiz savollaringiz yoki muammolaringiz bo‘yicha yordam berish uchun 24/7 ishlaydi."
+
+#: sections/footer.twig:4
+msgid "All rights reserved."
+msgstr "Barcha huquqlar himoyalangan."
+
+#: sections/footer.twig:42
+#: sections/header.twig:19
+msgctxt "button"
+msgid "Product"
+msgstr "Mahsulot"
+
+#: sections/footer.twig:46
+#: sections/header.twig:33
+msgctxt "button"
+msgid "Pricing"
+msgstr "Narxlar"
+
+#: sections/footer.twig:50
+msgctxt "button"
+msgid "FAQ"
+msgstr "Ko‘p so‘raladigan savollar"
+
+#: sections/footer.twig:57
+msgctxt "button"
+msgid "Terms of services"
+msgstr "Xizmat ko‘rsatish shartlari"
+
+#: sections/footer.twig:63
+msgctxt "button"
+msgid "Privacy policy"
+msgstr "Maxfiylik siyosati"
+
+#: sections/footer.twig:69
+msgctxt "button"
+msgid "Refund policy"
+msgstr "Pulni qaytarish siyosati"
+
+#: sections/generators.twig:3
+msgctxt "heading"
+msgid "Meet your ultimate"
+msgstr "Eng zo‘r"
+
+#: sections/generators.twig:6
+msgctxt "heading"
+msgid "AI-Powered Content Platform"
+msgstr "Sun’iy intellekt asosidagi kontent platformasi"
+
+#: sections/header.twig:26
+msgctxt "button"
+msgid "Featured"
+msgstr "Tavsiya etilgan"
+
+#: sections/header.twig:111
+#: sections/hero.twig:13
+msgctxt "button"
+msgid "Go to app"
+msgstr "Ilovaga o‘tish"
+
+#: sections/header.twig:123
+msgctxt "button"
+msgid "Library"
+msgstr "Kutubxona"
+
+#: sections/header.twig:131
+msgctxt "button"
+msgid "Billing"
+msgstr "To‘lovlar"
+
+#: sections/header.twig:143
+msgctxt "button"
+msgid "Account"
+msgstr "Hisob"
+
+#: sections/header.twig:151
+msgctxt "button"
+msgid "Logout"
+msgstr "Chiqish"
+
+#: sections/header.twig:191
+msgctxt "button"
+msgid "Login"
+msgstr "Kirish"
+
+#: sections/header.twig:196
+#: sections/pricing.twig:102
+msgctxt "button"
+msgid "Get started"
+msgstr "Boshlash"
+
+#: sections/hero.twig:3
+msgctxt "heading"
+msgid "Transforming ideas into AI generated masterpieces"
+msgstr "G‘oyalarni sun’iy intellekt yordamida yaratilgan durdonalarga aylantiring"
+
+#: sections/hero.twig:7
+msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
+msgstr "Ehtiyojlaringizga mos, yuqori sifatli kontentni sun’iy intellekt yordamida osonlik bilan yarating. Cheksiz imkoniyatlardan foydalaning, vaqtingizni tejang va bugunoq daromad topishni boshlang!"
+
+#: sections/hero.twig:19
+msgctxt "button"
+msgid "Get started now"
+msgstr "Hozir boshlang"
+
+#: sections/how-it-works.twig:3
+msgctxt "heading"
+msgid "How it works"
+msgstr "Bu qanday ishlaydi"
+
+#: sections/how-it-works.twig:13
+msgctxt "heading"
+msgid "Choose Template"
+msgstr "Shablonni tanlang"
+
+#: sections/how-it-works.twig:16
+msgid "Choose a our built in templates or create your own."
+msgstr "O‘zimiz yaratgan shablonlardan birini tanlang yoki o‘zingiznikini yarating."
+
+#: sections/how-it-works.twig:26
+msgctxt "heading"
+msgid "Describe"
+msgstr "Ta’riflang"
+
+#: sections/how-it-works.twig:29
+msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
+msgstr "Mavzuingizni tasvirlash uchun bir nechta jumla kiriting. Brendingizni aniqlashtirish uchun kalit so‘zlarni qo‘shing."
+
+#: sections/how-it-works.twig:39
+msgctxt "heading"
+msgid "Generate"
+msgstr "Yaratish"
+
+#: sections/how-it-works.twig:42
+msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
+msgstr "\"Yaratish\" tugmasini bosing va har safar konversiyani oshiradigan turli matnlarga ega bo‘ling."
+
+#: sections/image.twig:5
+msgid "AI Image"
+msgstr "AI tasvir"
+
+#: sections/image.twig:9
+msgctxt "heading"
+msgid "Visualize what you dream of. Create images from text."
+msgstr "Orzularingizni ko‘z oldingizga keltiring. Matndan tasvirlar yarating."
+
+#: sections/image.twig:13
+msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
+msgstr "AI tasvir generatori yordamida ajoyib tasvirlarni bir zumda yarating — badiiy yangiliklar uchun vositangiz."
+
+#: sections/image.twig:18
+msgctxt "button"
+msgid "Try for free"
+msgstr "Bepul sinab ko‘ring"
+
+#: sections/presets.twig:9
+msgid "100+ AI Writer Templates"
+msgstr "100 dan ortiq AI yozish shablonlari"
+
+#: sections/presets.twig:14
+msgctxt "heading"
+msgid "What can Writing Assistant create for you?"
+msgstr "Yozish yordamchisi siz uchun nimalar yarata oladi?"
+
+#: sections/presets.twig:18
+msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer's block forever."
+msgstr "Ajoyib tezlikda yozing, auditoriyangizni maftun eting va ijodiy to‘siq bilan abadiy xayrlashing."
+
+#: sections/presets.twig:23
+msgctxt "button"
+msgid "Get Started for Free"
+msgstr "Bepul boshlash"
+
+#: sections/pricing.twig:3
+msgctxt "heading"
+msgid "Pricing"
+msgstr "Narxlar"
+
+#: sections/pricing.twig:6
+msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
+msgstr "Ehtiyojlaringizga mos mukammal tarifni toping va imkoniyatlar olamini kashf eting."
+
+#: sections/pricing.twig:19
+msgctxt "button"
+msgid "Monthly"
+msgstr "Oylik"
+
+#: sections/pricing.twig:28
+msgctxt "button"
+msgid "Yearly"
+msgstr "Yillik"
+
+#: sections/pricing.twig:37
+msgctxt "button"
+msgid "Packs"
+msgstr "Paketlar"
+
+#: sections/pricing.twig:46
+msgctxt "button"
+msgid "Lifetime Deals"
+msgstr "Umrbod tariflar"
+
+#: sections/pricing.twig:78
+msgid "Most Popular"
+msgstr "Eng ommabop"
+
+#: sections/pricing.twig:115
+msgid "Chat"
+msgstr "Suhbat"
+
+#: sections/pricing.twig:134
+msgid "Writer"
+msgstr "Yozuvchi"
+
+#: sections/pricing.twig:153
+msgid "Image generator"
+msgstr "Tasvir generatori"
+
+#: sections/pricing.twig:166
+msgid "Transcriber"
+msgstr "Transkripsiya qiluvchi"
+
+#: sections/pricing.twig:179
+msgid "Voiceover"
+msgstr "Ovozli sharh"
+
+#: sections/pricing.twig:192
+msgid "Voice isolator"
+msgstr "Ovoz ajratgich"
+
+#: sections/pricing.twig:205
+msgid "Classifier"
+msgstr "Tasniflagich"
+
+#: sections/pricing.twig:213
+msgid "Access to templates is disabled"
+msgstr "Shablonlardan foydalanish o‘chirilgan"
+
+#: sections/pricing.twig:216
+msgid "Access to all templates"
+msgstr "Barcha shablonlardan foydalanish"
+
+#: sections/pricing.twig:232
+msgid "Priority support"
+msgstr "Ustuvor yordam"
+
+#: sections/pricing.twig:235
+msgid "Basic support"
+msgstr "Asosiy yordam"
+
+#: sections/speech-to-text.twig:4
+msgid "Speech to Text"
+msgstr "Nutqdan matnga"
+
+#: sections/speech-to-text.twig:8
+msgctxt "heading"
+msgid "Transforming Spoken <br> Words into Text."
+msgstr "Og‘zaki <br> so‘zlarni matnga aylantirish."
+
+#: sections/speech-to-text.twig:12
+msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
+msgstr "Samaradorlik va foydalanish imkoniyatini oshirish uchun og‘zaki so‘zlarni darhol matnga aylantiring."
+
+#: sections/speech-to-text.twig:17
+msgctxt "button"
+msgid "Convert now"
+msgstr "Hozir aylantirish"
+
+#: sections/text-to-voice.twig:4
+msgid "Text to Voice"
+msgstr "Matndan ovozga"
+
+#: sections/text-to-voice.twig:8
+msgctxt "heading"
+msgid "Convert your texts into <br> Lifelike Speech"
+msgstr "Matnlaringizni <br> tabiiy ovozga aylantiring"
+
+#: sections/text-to-voice.twig:12
+msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
+msgstr "Ifodali ovozli bayon bilan kontentingizni yuksaltiring: matndan ovozga aylantirishning mukammalligini kashf eting."
+
+#: sections/video.twig:11
+msgid "Video"
+msgstr "Video"
+
+#: sections/video.twig:15
+msgctxt "heading"
+msgid "Generate high-quality videos using AI Video generation tool."
+msgstr "AI video yaratish vositasi yordamida yuqori sifatli videolar yarating."
+
+#: sections/video.twig:19
+msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
+msgstr "Videoni tahrirlash ko‘nikmalari kerak emas — shunchaki rasmlaringizni yuklang va bir necha qator prompt kiriting, bo‘ldi."
+
+#: sections/writer.twig:22
+msgid "AI Writer"
+msgstr "AI yozuvchisi"
+
+#: sections/writer.twig:26
+msgctxt "heading"
+msgid "Write SEO optimized blogs, sales emails and more..."
+msgstr "SEO uchun optimallashtirilgan bloglar, savdo xatlari va boshqalarni yozing..."
+
+#: sections/writer.twig:30
+msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
+msgstr "Vaqtning bir qismidagina yuqori natijalarga erishing. Nihoyat, chin dildan foydalanadigan yozish vositasi."
+
+#: sections/writer.twig:35
+msgctxt "button"
+msgid "See all features"
+msgstr "Barcha funksiyalarni ko‘rish"

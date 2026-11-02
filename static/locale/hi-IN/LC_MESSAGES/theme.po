@@ -1,0 +1,478 @@
+msgid ""
+msgstr ""
+"Language: hi-IN\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Domain: theme\n"
+
+#: sections/chat.twig:11
+msgid "AI Chat Bot"
+msgstr "AI चैटबॉट"
+
+#: sections/chat.twig:15
+msgctxt "heading"
+msgid "That's remarkably human-like and engaging..."
+msgstr "यह आश्चर्यजनक रूप से इंसानों जैसा और आकर्षक है..."
+
+#: sections/chat.twig:19
+msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
+msgstr "बस अपना सहायक चुनें और एक दोस्ताना चैटबॉट से बातचीत करके विचार पाएँ, अपनी सामग्री को बेहतर बनाएँ या अपने चेहरे पर मुस्कान लाएँ।"
+
+#: sections/chat.twig:24
+#: sections/video.twig:24
+msgctxt "button"
+msgid "Try now"
+msgstr "अभी आज़माएँ"
+
+#: sections/code.twig:10
+msgid "AI Code"
+msgstr "AI Code"
+
+#: sections/code.twig:14
+msgctxt "heading"
+msgid "Ready to write code at the speed of light?"
+msgstr "क्या आप प्रकाश की गति से कोड लिखने के लिए तैयार हैं?"
+
+#: sections/code.twig:18
+msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
+msgstr "AI Code Generator के साथ बिना किसी मेहनत के कोडिंग करें: आपकी प्रोग्रामिंग ज़रूरतों के लिए तुरंत समाधान।"
+
+#: sections/code.twig:23
+msgctxt "button"
+msgid "Start Generate Code"
+msgstr "कोड जनरेट करना शुरू करें"
+
+#: sections/cta.twig:3
+msgctxt "heading"
+msgid "Ready to level-up?"
+msgstr "क्या आप अपना स्तर बढ़ाने के लिए तैयार हैं?"
+
+#: sections/cta.twig:5
+msgid "See how easy it can be to write amazing content."
+msgstr "देखें कि शानदार सामग्री लिखना कितना आसान हो सकता है।"
+
+#: sections/cta.twig:10
+msgctxt "button"
+msgid "Get Started Now"
+msgstr "अभी शुरू करें"
+
+#: sections/features.twig:3
+msgctxt "heading"
+msgid "Coolest Features"
+msgstr "शानदार सुविधाएँ"
+
+#: sections/features.twig:13
+msgctxt "heading"
+msgid "High Quality Code"
+msgstr "उच्च गुणवत्ता वाला कोड"
+
+#: sections/features.twig:16
+msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
+msgstr "डोमेन-ड्रिवन डिज़ाइन और ओनियन आर्किटेक्चर के सिद्धांतों का उपयोग करके विकसित।"
+
+#: sections/features.twig:26
+msgctxt "heading"
+msgid "Modern Technologies"
+msgstr "आधुनिक तकनीकें"
+
+#: sections/features.twig:29
+msgid "Built with modern technologies for best structure and get maximum performance."
+msgstr "बेहतरीन संरचना और अधिकतम प्रदर्शन पाने के लिए आधुनिक तकनीकों से बनाया गया।"
+
+#: sections/features.twig:39
+msgctxt "heading"
+msgid "Friendly UI and UX"
+msgstr "उपयोगकर्ता-अनुकूल UI और UX"
+
+#: sections/features.twig:42
+msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
+msgstr "एक सहज और परेशानी-मुक्त यूज़र इंटरफ़ेस का आनंद लें, जो आपके डिजिटल अनुभव को बेहतर बनाता है।"
+
+#: sections/features.twig:52
+msgctxt "heading"
+msgid "Dark Mode"
+msgstr "डार्क मोड"
+
+#: sections/features.twig:55
+msgid "Turn off the light and switch to dark mode your interface with one click."
+msgstr "एक क्लिक में लाइट बंद करें और अपने इंटरफ़ेस को डार्क मोड में बदलें।"
+
+#: sections/features.twig:65
+msgctxt "heading"
+msgid "Documentation"
+msgstr "दस्तावेज़ीकरण"
+
+#: sections/features.twig:68
+msgid "An all-inclusive learning package seamlessly integrated into our community."
+msgstr "हमारे समुदाय में सहज रूप से एकीकृत, सीखने का एक संपूर्ण पैकेज।"
+
+#: sections/features.twig:78
+msgctxt "heading"
+msgid "Payment Gateways"
+msgstr "भुगतान गेटवे"
+
+#: sections/features.twig:81
+msgid "Simplify transactions and boost security with payment gateway solutions."
+msgstr "भुगतान गेटवे समाधानों के साथ लेन-देन को आसान बनाएँ और सुरक्षा बढ़ाएँ।"
+
+#: sections/features.twig:91
+msgctxt "heading"
+msgid "AI Generator"
+msgstr "AI जनरेटर"
+
+#: sections/features.twig:94
+msgid "Unlock limitless creativity with our AI-powered content generator."
+msgstr "हमारे AI-संचालित कंटेंट जनरेटर के साथ असीमित रचनात्मकता को साकार करें।"
+
+#: sections/features.twig:104
+msgctxt "heading"
+msgid "SEO Friendly"
+msgstr "SEO-अनुकूल"
+
+#: sections/features.twig:107
+msgid "Boost your visibility and reach your audience effectively with AI generated content."
+msgstr "AI से तैयार किए गए कंटेंट के साथ अपनी दृश्यता बढ़ाएँ और अपने दर्शकों तक प्रभावी ढंग से पहुँचें।"
+
+#: sections/features.twig:117
+msgctxt "heading"
+msgid "Advanced Dashboard"
+msgstr "उन्नत डैशबोर्ड"
+
+#: sections/features.twig:120
+msgid "Empower your insights and control with our cutting-edge dashboard."
+msgstr "हमारे अत्याधुनिक डैशबोर्ड से अपनी जानकारी और नियंत्रण को बेहतर बनाएँ।"
+
+#: sections/features.twig:130
+msgctxt "heading"
+msgid "Custom Templates"
+msgstr "कस्टम टेम्पलेट"
+
+#: sections/features.twig:133
+msgid "Transform your content creation with AI-driven custom templates."
+msgstr "AI-संचालित कस्टम टेम्पलेट के साथ अपना कंटेंट बनाने का तरीका बदलें।"
+
+#: sections/features.twig:144
+msgctxt "heading"
+msgid "Login via SM Accounts"
+msgstr "SM खातों से लॉगिन करें"
+
+#: sections/features.twig:147
+msgid "Use Facebook or Google accounts as an alternatively access to platform."
+msgstr "प्लेटफ़ॉर्म पर वैकल्पिक रूप से पहुँचने के लिए Facebook या Google खातों का उपयोग करें।"
+
+#: sections/features.twig:157
+msgctxt "heading"
+msgid "High Quality Support"
+msgstr "उच्च गुणवत्ता वाली सहायता"
+
+#: sections/features.twig:160
+msgid "Our support team is available 24/7 to help you with any questions or concerns."
+msgstr "आपके किसी भी सवाल या चिंता में मदद के लिए हमारी सहायता टीम 24/7 उपलब्ध है।"
+
+#: sections/footer.twig:4
+msgid "All rights reserved."
+msgstr "सर्वाधिकार सुरक्षित।"
+
+#: sections/footer.twig:42
+#: sections/header.twig:19
+msgctxt "button"
+msgid "Product"
+msgstr "उत्पाद"
+
+#: sections/footer.twig:46
+#: sections/header.twig:33
+msgctxt "button"
+msgid "Pricing"
+msgstr "मूल्य निर्धारण"
+
+#: sections/footer.twig:50
+msgctxt "button"
+msgid "FAQ"
+msgstr "अक्सर पूछे जाने वाले प्रश्न"
+
+#: sections/footer.twig:57
+msgctxt "button"
+msgid "Terms of services"
+msgstr "सेवा की शर्तें"
+
+#: sections/footer.twig:63
+msgctxt "button"
+msgid "Privacy policy"
+msgstr "गोपनीयता नीति"
+
+#: sections/footer.twig:69
+msgctxt "button"
+msgid "Refund policy"
+msgstr "रिफ़ंड नीति"
+
+#: sections/generators.twig:3
+msgctxt "heading"
+msgid "Meet your ultimate"
+msgstr "पेश है आपका बेहतरीन"
+
+#: sections/generators.twig:6
+msgctxt "heading"
+msgid "AI-Powered Content Platform"
+msgstr "AI-संचालित कंटेंट प्लेटफ़ॉर्म"
+
+#: sections/header.twig:26
+msgctxt "button"
+msgid "Featured"
+msgstr "फ़ीचर्ड"
+
+#: sections/header.twig:111
+#: sections/hero.twig:13
+msgctxt "button"
+msgid "Go to app"
+msgstr "ऐप पर जाएँ"
+
+#: sections/header.twig:123
+msgctxt "button"
+msgid "Library"
+msgstr "लाइब्रेरी"
+
+#: sections/header.twig:131
+msgctxt "button"
+msgid "Billing"
+msgstr "बिलिंग"
+
+#: sections/header.twig:143
+msgctxt "button"
+msgid "Account"
+msgstr "खाता"
+
+#: sections/header.twig:151
+msgctxt "button"
+msgid "Logout"
+msgstr "लॉग आउट"
+
+#: sections/header.twig:191
+msgctxt "button"
+msgid "Login"
+msgstr "लॉग इन"
+
+#: sections/header.twig:196
+#: sections/pricing.twig:102
+msgctxt "button"
+msgid "Get started"
+msgstr "शुरू करें"
+
+#: sections/hero.twig:3
+msgctxt "heading"
+msgid "Transforming ideas into AI generated masterpieces"
+msgstr "विचारों को AI-जनित उत्कृष्ट रचनाओं में बदलें"
+
+#: sections/hero.twig:7
+msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
+msgstr "अपनी ज़रूरतों के अनुसार उच्च-गुणवत्ता वाली AI-संचालित सामग्री आसानी से बनाएँ। असीम संभावनाओं के द्वार खोलें, अपना समय बचाएँ और आज ही कमाई शुरू करें!"
+
+#: sections/hero.twig:19
+msgctxt "button"
+msgid "Get started now"
+msgstr "अभी शुरू करें"
+
+#: sections/how-it-works.twig:3
+msgctxt "heading"
+msgid "How it works"
+msgstr "यह कैसे काम करता है"
+
+#: sections/how-it-works.twig:13
+msgctxt "heading"
+msgid "Choose Template"
+msgstr "टेम्पलेट चुनें"
+
+#: sections/how-it-works.twig:16
+msgid "Choose a our built in templates or create your own."
+msgstr "हमारे बिल्ट-इन टेम्पलेट्स में से चुनें या अपना खुद का बनाएँ।"
+
+#: sections/how-it-works.twig:26
+msgctxt "heading"
+msgid "Describe"
+msgstr "वर्णन करें"
+
+#: sections/how-it-works.twig:29
+msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
+msgstr "अपने विषय के बारे में कुछ वाक्य लिखें। अपने ब्रांड के लिए खास बातें बताने वाले कीवर्ड जोड़ें।"
+
+#: sections/how-it-works.twig:39
+msgctxt "heading"
+msgid "Generate"
+msgstr "जनरेट करें"
+
+#: sections/how-it-works.twig:42
+msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
+msgstr "\"Generate\" बटन पर क्लिक करें और हर बार ज़्यादा कन्वर्ज़न देने वाली कई तरह की कॉपी पाएँ।"
+
+#: sections/image.twig:5
+msgid "AI Image"
+msgstr "AI इमेज"
+
+#: sections/image.twig:9
+msgctxt "heading"
+msgid "Visualize what you dream of. Create images from text."
+msgstr "अपने सपनों को साकार होते देखें। टेक्स्ट से इमेज बनाएँ।"
+
+#: sections/image.twig:13
+msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
+msgstr "AI Image Generator का उपयोग करके तुरंत शानदार इमेज बनाएँ—कलात्मक नवाचार के लिए आपका टूल।"
+
+#: sections/image.twig:18
+msgctxt "button"
+msgid "Try for free"
+msgstr "मुफ़्त में आज़माएँ"
+
+#: sections/presets.twig:9
+msgid "100+ AI Writer Templates"
+msgstr "100+ AI राइटर टेम्पलेट"
+
+#: sections/presets.twig:14
+msgctxt "heading"
+msgid "What can Writing Assistant create for you?"
+msgstr "लेखन सहायक आपके लिए क्या बना सकता है?"
+
+#: sections/presets.twig:18
+msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer's block forever."
+msgstr "तेज़ी से लिखें, अपने पाठकों को बाँधे रखें और हमेशा के लिए राइटर्स ब्लॉक को अलविदा कहें।"
+
+#: sections/presets.twig:23
+msgctxt "button"
+msgid "Get Started for Free"
+msgstr "मुफ़्त में शुरू करें"
+
+#: sections/pricing.twig:3
+msgctxt "heading"
+msgid "Pricing"
+msgstr "कीमतें"
+
+#: sections/pricing.twig:6
+msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
+msgstr "अपनी ज़रूरतों के हिसाब से सही प्लान चुनें और अनगिनत संभावनाओं का लाभ उठाएँ।"
+
+#: sections/pricing.twig:19
+msgctxt "button"
+msgid "Monthly"
+msgstr "मासिक"
+
+#: sections/pricing.twig:28
+msgctxt "button"
+msgid "Yearly"
+msgstr "वार्षिक"
+
+#: sections/pricing.twig:37
+msgctxt "button"
+msgid "Packs"
+msgstr "पैक"
+
+#: sections/pricing.twig:46
+msgctxt "button"
+msgid "Lifetime Deals"
+msgstr "आजीवन ऑफ़र"
+
+#: sections/pricing.twig:78
+msgid "Most Popular"
+msgstr "सबसे लोकप्रिय"
+
+#: sections/pricing.twig:115
+msgid "Chat"
+msgstr "चैट"
+
+#: sections/pricing.twig:134
+msgid "Writer"
+msgstr "लेखक"
+
+#: sections/pricing.twig:153
+msgid "Image generator"
+msgstr "इमेज जनरेटर"
+
+#: sections/pricing.twig:166
+msgid "Transcriber"
+msgstr "ट्रांसक्राइबर"
+
+#: sections/pricing.twig:179
+msgid "Voiceover"
+msgstr "वॉइसओवर"
+
+#: sections/pricing.twig:192
+msgid "Voice isolator"
+msgstr "वॉइस आइसोलेटर"
+
+#: sections/pricing.twig:205
+msgid "Classifier"
+msgstr "क्लासिफ़ायर"
+
+#: sections/pricing.twig:213
+msgid "Access to templates is disabled"
+msgstr "टेम्पलेट्स का ऐक्सेस बंद है"
+
+#: sections/pricing.twig:216
+msgid "Access to all templates"
+msgstr "सभी टेम्पलेट्स का ऐक्सेस"
+
+#: sections/pricing.twig:232
+msgid "Priority support"
+msgstr "प्राथमिकता वाला सपोर्ट"
+
+#: sections/pricing.twig:235
+msgid "Basic support"
+msgstr "बेसिक सपोर्ट"
+
+#: sections/speech-to-text.twig:4
+msgid "Speech to Text"
+msgstr "स्पीच टू टेक्स्ट"
+
+#: sections/speech-to-text.twig:8
+msgctxt "heading"
+msgid "Transforming Spoken <br> Words into Text."
+msgstr "बोले गए <br> शब्दों को टेक्स्ट में बदलना"
+
+#: sections/speech-to-text.twig:12
+msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
+msgstr "बेहतर उत्पादकता और ऐक्सेसिबिलिटी के लिए बोले गए शब्दों को तुरंत टेक्स्ट में बदलें।"
+
+#: sections/speech-to-text.twig:17
+msgctxt "button"
+msgid "Convert now"
+msgstr "अभी बदलें"
+
+#: sections/text-to-voice.twig:4
+msgid "Text to Voice"
+msgstr "टेक्स्ट टू वॉइस"
+
+#: sections/text-to-voice.twig:8
+msgctxt "heading"
+msgid "Convert your texts into <br> Lifelike Speech"
+msgstr "अपने टेक्स्ट को <br> जीवंत आवाज़ में बदलें"
+
+#: sections/text-to-voice.twig:12
+msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
+msgstr "अभिव्यंजक वर्णन के साथ अपने कंटेंट को बेहतर बनाएँ: टेक्स्ट-टू-वॉइस की उत्कृष्टता जानें।"
+
+#: sections/video.twig:11
+msgid "Video"
+msgstr "वीडियो"
+
+#: sections/video.twig:15
+msgctxt "heading"
+msgid "Generate high-quality videos using AI Video generation tool."
+msgstr "AI वीडियो जनरेशन टूल से उच्च-गुणवत्ता वाले वीडियो बनाएँ।"
+
+#: sections/video.twig:19
+msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
+msgstr "वीडियो एडिटिंग के कौशल की ज़रूरत नहीं - बस अपनी इमेज अपलोड करें और प्रॉम्प्ट की कुछ पंक्तियाँ लिखें, बस इतना ही।"
+
+#: sections/writer.twig:22
+msgid "AI Writer"
+msgstr "AI राइटर"
+
+#: sections/writer.twig:26
+msgctxt "heading"
+msgid "Write SEO optimized blogs, sales emails and more..."
+msgstr "SEO-अनुकूलित ब्लॉग, बिक्री ईमेल और बहुत कुछ लिखें..."
+
+#: sections/writer.twig:30
+msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
+msgstr "बहुत कम समय में बेहतरीन नतीजे पाएँ। आखिरकार, एक ऐसा लेखन टूल जिसका आप सचमुच इस्तेमाल करेंगे।"
+
+#: sections/writer.twig:35
+msgctxt "button"
+msgid "See all features"
+msgstr "सभी सुविधाएँ देखें"

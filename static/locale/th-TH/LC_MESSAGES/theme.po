@@ -1,0 +1,478 @@
+msgid ""
+msgstr ""
+"Language: th-TH\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Domain: theme\n"
+
+#: sections/chat.twig:11
+msgid "AI Chat Bot"
+msgstr "แชตบอต AI"
+
+#: sections/chat.twig:15
+msgctxt "heading"
+msgid "That's remarkably human-like and engaging..."
+msgstr "เป็นธรรมชาติและชวนคุยอย่างน่าทึ่ง..."
+
+#: sections/chat.twig:19
+msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
+msgstr "เพียงเลือกผู้ช่วยที่ต้องการ แล้วพูดคุยกับแชตบอตที่เป็นมิตรเพื่อสร้างไอเดีย ปรับปรุงเนื้อหา หรือแม้แต่สร้างรอยยิ้มให้คุณ"
+
+#: sections/chat.twig:24
+#: sections/video.twig:24
+msgctxt "button"
+msgid "Try now"
+msgstr "ลองเลย"
+
+#: sections/code.twig:10
+msgid "AI Code"
+msgstr "โค้ด AI"
+
+#: sections/code.twig:14
+msgctxt "heading"
+msgid "Ready to write code at the speed of light?"
+msgstr "พร้อมเขียนโค้ดด้วยความเร็วแสงหรือยัง?"
+
+#: sections/code.twig:18
+msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
+msgstr "เขียนโค้ดได้อย่างง่ายดายด้วย AI Code Generator: รับโซลูชันทันทีสำหรับความต้องการด้านการเขียนโปรแกรมของคุณ"
+
+#: sections/code.twig:23
+msgctxt "button"
+msgid "Start Generate Code"
+msgstr "เริ่มสร้างโค้ด"
+
+#: sections/cta.twig:3
+msgctxt "heading"
+msgid "Ready to level-up?"
+msgstr "พร้อมยกระดับแล้วหรือยัง?"
+
+#: sections/cta.twig:5
+msgid "See how easy it can be to write amazing content."
+msgstr "มาดูกันว่าการเขียนเนื้อหาสุดเจ๋งนั้นง่ายแค่ไหน"
+
+#: sections/cta.twig:10
+msgctxt "button"
+msgid "Get Started Now"
+msgstr "เริ่มต้นเลย"
+
+#: sections/features.twig:3
+msgctxt "heading"
+msgid "Coolest Features"
+msgstr "ฟีเจอร์เด็ด"
+
+#: sections/features.twig:13
+msgctxt "heading"
+msgid "High Quality Code"
+msgstr "โค้ดคุณภาพสูง"
+
+#: sections/features.twig:16
+msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
+msgstr "พัฒนาโดยใช้หลักการออกแบบที่ขับเคลื่อนด้วยโดเมน (Domain-Driven Design) และสถาปัตยกรรม Onion"
+
+#: sections/features.twig:26
+msgctxt "heading"
+msgid "Modern Technologies"
+msgstr "เทคโนโลยีสมัยใหม่"
+
+#: sections/features.twig:29
+msgid "Built with modern technologies for best structure and get maximum performance."
+msgstr "สร้างด้วยเทคโนโลยีสมัยใหม่ เพื่อโครงสร้างที่ดีที่สุดและประสิทธิภาพสูงสุด"
+
+#: sections/features.twig:39
+msgctxt "heading"
+msgid "Friendly UI and UX"
+msgstr "UI และ UX ที่ใช้งานง่าย"
+
+#: sections/features.twig:42
+msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
+msgstr "เพลิดเพลินกับอินเทอร์เฟซผู้ใช้ที่ใช้งานง่ายและไม่ยุ่งยาก ซึ่งช่วยยกระดับประสบการณ์ดิจิทัลของคุณ"
+
+#: sections/features.twig:52
+msgctxt "heading"
+msgid "Dark Mode"
+msgstr "โหมดมืด"
+
+#: sections/features.twig:55
+msgid "Turn off the light and switch to dark mode your interface with one click."
+msgstr "ปิดไฟแล้วเปลี่ยนอินเทอร์เฟซเป็นโหมดมืดได้ในคลิกเดียว"
+
+#: sections/features.twig:65
+msgctxt "heading"
+msgid "Documentation"
+msgstr "เอกสาร"
+
+#: sections/features.twig:68
+msgid "An all-inclusive learning package seamlessly integrated into our community."
+msgstr "แพ็กเกจการเรียนรู้ครบวงจรที่ผสานเข้ากับชุมชนของเราได้อย่างราบรื่น"
+
+#: sections/features.twig:78
+msgctxt "heading"
+msgid "Payment Gateways"
+msgstr "ช่องทางรับชำระเงิน"
+
+#: sections/features.twig:81
+msgid "Simplify transactions and boost security with payment gateway solutions."
+msgstr "ทำธุรกรรมให้ง่ายขึ้นและเพิ่มความปลอดภัยด้วยโซลูชันช่องทางรับชำระเงิน"
+
+#: sections/features.twig:91
+msgctxt "heading"
+msgid "AI Generator"
+msgstr "เครื่องมือสร้างด้วย AI"
+
+#: sections/features.twig:94
+msgid "Unlock limitless creativity with our AI-powered content generator."
+msgstr "ปลดปล่อยความคิดสร้างสรรค์ได้อย่างไร้ขีดจำกัดด้วยเครื่องมือสร้างเนื้อหาที่ขับเคลื่อนด้วย AI ของเรา"
+
+#: sections/features.twig:104
+msgctxt "heading"
+msgid "SEO Friendly"
+msgstr "รองรับ SEO"
+
+#: sections/features.twig:107
+msgid "Boost your visibility and reach your audience effectively with AI generated content."
+msgstr "เพิ่มการมองเห็นและเข้าถึงกลุ่มเป้าหมายได้อย่างมีประสิทธิภาพด้วยเนื้อหาที่สร้างโดย AI"
+
+#: sections/features.twig:117
+msgctxt "heading"
+msgid "Advanced Dashboard"
+msgstr "แดชบอร์ดขั้นสูง"
+
+#: sections/features.twig:120
+msgid "Empower your insights and control with our cutting-edge dashboard."
+msgstr "เพิ่มศักยภาพในการวิเคราะห์ข้อมูลและควบคุมการทำงานด้วยแดชบอร์ดล้ำสมัยของเรา"
+
+#: sections/features.twig:130
+msgctxt "heading"
+msgid "Custom Templates"
+msgstr "เทมเพลตปรับแต่งได้"
+
+#: sections/features.twig:133
+msgid "Transform your content creation with AI-driven custom templates."
+msgstr "ยกระดับการสร้างเนื้อหาด้วยเทมเพลตปรับแต่งได้ที่ขับเคลื่อนด้วย AI"
+
+#: sections/features.twig:144
+msgctxt "heading"
+msgid "Login via SM Accounts"
+msgstr "เข้าสู่ระบบด้วยบัญชีโซเชียลมีเดีย"
+
+#: sections/features.twig:147
+msgid "Use Facebook or Google accounts as an alternatively access to platform."
+msgstr "ใช้บัญชี Facebook หรือ Google เพื่อเข้าสู่แพลตฟอร์มเป็นอีกทางเลือกหนึ่ง"
+
+#: sections/features.twig:157
+msgctxt "heading"
+msgid "High Quality Support"
+msgstr "บริการช่วยเหลือคุณภาพสูง"
+
+#: sections/features.twig:160
+msgid "Our support team is available 24/7 to help you with any questions or concerns."
+msgstr "ทีมช่วยเหลือของเราพร้อมให้บริการตลอด 24 ชั่วโมงทุกวัน เพื่อช่วยตอบคำถามหรือแก้ไขข้อกังวลของคุณ"
+
+#: sections/footer.twig:4
+msgid "All rights reserved."
+msgstr "สงวนลิขสิทธิ์ทั้งหมด"
+
+#: sections/footer.twig:42
+#: sections/header.twig:19
+msgctxt "button"
+msgid "Product"
+msgstr "ผลิตภัณฑ์"
+
+#: sections/footer.twig:46
+#: sections/header.twig:33
+msgctxt "button"
+msgid "Pricing"
+msgstr "ราคา"
+
+#: sections/footer.twig:50
+msgctxt "button"
+msgid "FAQ"
+msgstr "คำถามที่พบบ่อย"
+
+#: sections/footer.twig:57
+msgctxt "button"
+msgid "Terms of services"
+msgstr "ข้อกำหนดการให้บริการ"
+
+#: sections/footer.twig:63
+msgctxt "button"
+msgid "Privacy policy"
+msgstr "นโยบายความเป็นส่วนตัว"
+
+#: sections/footer.twig:69
+msgctxt "button"
+msgid "Refund policy"
+msgstr "นโยบายการคืนเงิน"
+
+#: sections/generators.twig:3
+msgctxt "heading"
+msgid "Meet your ultimate"
+msgstr "พบกับสุดยอด"
+
+#: sections/generators.twig:6
+msgctxt "heading"
+msgid "AI-Powered Content Platform"
+msgstr "แพลตฟอร์มคอนเทนต์ที่ขับเคลื่อนด้วย AI"
+
+#: sections/header.twig:26
+msgctxt "button"
+msgid "Featured"
+msgstr "แนะนำ"
+
+#: sections/header.twig:111
+#: sections/hero.twig:13
+msgctxt "button"
+msgid "Go to app"
+msgstr "ไปที่แอป"
+
+#: sections/header.twig:123
+msgctxt "button"
+msgid "Library"
+msgstr "คลัง"
+
+#: sections/header.twig:131
+msgctxt "button"
+msgid "Billing"
+msgstr "การเรียกเก็บเงิน"
+
+#: sections/header.twig:143
+msgctxt "button"
+msgid "Account"
+msgstr "บัญชี"
+
+#: sections/header.twig:151
+msgctxt "button"
+msgid "Logout"
+msgstr "ออกจากระบบ"
+
+#: sections/header.twig:191
+msgctxt "button"
+msgid "Login"
+msgstr "เข้าสู่ระบบ"
+
+#: sections/header.twig:196
+#: sections/pricing.twig:102
+msgctxt "button"
+msgid "Get started"
+msgstr "เริ่มต้นใช้งาน"
+
+#: sections/hero.twig:3
+msgctxt "heading"
+msgid "Transforming ideas into AI generated masterpieces"
+msgstr "เปลี่ยนไอเดียให้เป็นผลงานชิ้นเอกที่สร้างด้วย AI"
+
+#: sections/hero.twig:7
+msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
+msgstr "สร้างคอนเทนต์คุณภาพสูงที่ขับเคลื่อนด้วย AI และปรับให้เหมาะกับความต้องการของคุณได้อย่างง่ายดาย ปลดล็อกความเป็นไปได้ไร้ขีดจำกัด ประหยัดเวลา และเริ่มสร้างรายได้วันนี้!"
+
+#: sections/hero.twig:19
+msgctxt "button"
+msgid "Get started now"
+msgstr "เริ่มต้นใช้งานเลย"
+
+#: sections/how-it-works.twig:3
+msgctxt "heading"
+msgid "How it works"
+msgstr "วิธีการทำงาน"
+
+#: sections/how-it-works.twig:13
+msgctxt "heading"
+msgid "Choose Template"
+msgstr "เลือกเทมเพลต"
+
+#: sections/how-it-works.twig:16
+msgid "Choose a our built in templates or create your own."
+msgstr "เลือกเทมเพลตที่เรามีให้ หรือสร้างเทมเพลตของคุณเอง"
+
+#: sections/how-it-works.twig:26
+msgctxt "heading"
+msgid "Describe"
+msgstr "อธิบาย"
+
+#: sections/how-it-works.twig:29
+msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
+msgstr "ป้อนประโยคสักสองสามประโยคเพื่ออธิบายหัวข้อของคุณ เพิ่มคีย์เวิร์ดเพื่อระบุแบรนด์ของคุณ"
+
+#: sections/how-it-works.twig:39
+msgctxt "heading"
+msgid "Generate"
+msgstr "สร้าง"
+
+#: sections/how-it-works.twig:42
+msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
+msgstr "คลิกปุ่ม \"สร้าง\" แล้วรับข้อความโฆษณาที่มีประสิทธิภาพในการเปลี่ยนผู้ชมให้เป็นลูกค้าได้หลากหลายทุกครั้ง"
+
+#: sections/image.twig:5
+msgid "AI Image"
+msgstr "ภาพ AI"
+
+#: sections/image.twig:9
+msgctxt "heading"
+msgid "Visualize what you dream of. Create images from text."
+msgstr "จินตนาการให้เป็นภาพ สร้างภาพจากข้อความ"
+
+#: sections/image.twig:13
+msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
+msgstr "สร้างภาพสุดตื่นตาได้ทันทีด้วยเครื่องมือสร้างภาพ AI เครื่องมือสำหรับการสร้างสรรค์งานศิลปะ"
+
+#: sections/image.twig:18
+msgctxt "button"
+msgid "Try for free"
+msgstr "ทดลองใช้ฟรี"
+
+#: sections/presets.twig:9
+msgid "100+ AI Writer Templates"
+msgstr "เทมเพลต AI Writer กว่า 100 แบบ"
+
+#: sections/presets.twig:14
+msgctxt "heading"
+msgid "What can Writing Assistant create for you?"
+msgstr "Writing Assistant สร้างอะไรให้คุณได้บ้าง?"
+
+#: sections/presets.twig:18
+msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer's block forever."
+msgstr "เขียนได้อย่างรวดเร็ว ดึงดูดใจผู้อ่าน และบอกลาภาวะคิดงานเขียนไม่ออกไปตลอดกาล"
+
+#: sections/presets.twig:23
+msgctxt "button"
+msgid "Get Started for Free"
+msgstr "เริ่มต้นใช้งานฟรี"
+
+#: sections/pricing.twig:3
+msgctxt "heading"
+msgid "Pricing"
+msgstr "ราคา"
+
+#: sections/pricing.twig:6
+msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
+msgstr "ค้นหาแพ็กเกจที่เหมาะกับความต้องการของคุณและปลดล็อกความเป็นไปได้อีกมากมาย"
+
+#: sections/pricing.twig:19
+msgctxt "button"
+msgid "Monthly"
+msgstr "รายเดือน"
+
+#: sections/pricing.twig:28
+msgctxt "button"
+msgid "Yearly"
+msgstr "รายปี"
+
+#: sections/pricing.twig:37
+msgctxt "button"
+msgid "Packs"
+msgstr "แพ็กเกจ"
+
+#: sections/pricing.twig:46
+msgctxt "button"
+msgid "Lifetime Deals"
+msgstr "ดีลใช้งานตลอดชีพ"
+
+#: sections/pricing.twig:78
+msgid "Most Popular"
+msgstr "ยอดนิยมที่สุด"
+
+#: sections/pricing.twig:115
+msgid "Chat"
+msgstr "แชต"
+
+#: sections/pricing.twig:134
+msgid "Writer"
+msgstr "นักเขียน"
+
+#: sections/pricing.twig:153
+msgid "Image generator"
+msgstr "เครื่องมือสร้างภาพ"
+
+#: sections/pricing.twig:166
+msgid "Transcriber"
+msgstr "เครื่องมือถอดเสียง"
+
+#: sections/pricing.twig:179
+msgid "Voiceover"
+msgstr "เสียงพากย์"
+
+#: sections/pricing.twig:192
+msgid "Voice isolator"
+msgstr "เครื่องมือแยกเสียง"
+
+#: sections/pricing.twig:205
+msgid "Classifier"
+msgstr "ตัวจัดประเภท"
+
+#: sections/pricing.twig:213
+msgid "Access to templates is disabled"
+msgstr "ปิดใช้งานการเข้าถึงเทมเพลต"
+
+#: sections/pricing.twig:216
+msgid "Access to all templates"
+msgstr "เข้าถึงเทมเพลตทั้งหมด"
+
+#: sections/pricing.twig:232
+msgid "Priority support"
+msgstr "การสนับสนุนแบบเร่งด่วน"
+
+#: sections/pricing.twig:235
+msgid "Basic support"
+msgstr "การสนับสนุนพื้นฐาน"
+
+#: sections/speech-to-text.twig:4
+msgid "Speech to Text"
+msgstr "แปลงเสียงเป็นข้อความ"
+
+#: sections/speech-to-text.twig:8
+msgctxt "heading"
+msgid "Transforming Spoken <br> Words into Text."
+msgstr "เปลี่ยนคำพูด<br>ให้เป็นข้อความ"
+
+#: sections/speech-to-text.twig:12
+msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
+msgstr "ถอดเสียงพูดเป็นข้อความได้ทันที เพื่อเพิ่มประสิทธิภาพการทำงานและการเข้าถึง"
+
+#: sections/speech-to-text.twig:17
+msgctxt "button"
+msgid "Convert now"
+msgstr "แปลงตอนนี้"
+
+#: sections/text-to-voice.twig:4
+msgid "Text to Voice"
+msgstr "แปลงข้อความเป็นเสียง"
+
+#: sections/text-to-voice.twig:8
+msgctxt "heading"
+msgid "Convert your texts into <br> Lifelike Speech"
+msgstr "เปลี่ยนข้อความของคุณให้เป็น<br>เสียงพูดที่สมจริง"
+
+#: sections/text-to-voice.twig:12
+msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
+msgstr "ยกระดับเนื้อหาของคุณด้วยเสียงบรรยายที่เปี่ยมอารมณ์: สัมผัสประสบการณ์การแปลงข้อความเป็นเสียงอันยอดเยี่ยม"
+
+#: sections/video.twig:11
+msgid "Video"
+msgstr "วิดีโอ"
+
+#: sections/video.twig:15
+msgctxt "heading"
+msgid "Generate high-quality videos using AI Video generation tool."
+msgstr "สร้างวิดีโอคุณภาพสูงด้วยเครื่องมือสร้างวิดีโอ AI"
+
+#: sections/video.twig:19
+msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
+msgstr "ไม่จำเป็นต้องมีทักษะตัดต่อวิดีโอ เพียงอัปโหลดรูปภาพและป้อนพรอมต์ไม่กี่บรรทัด เท่านี้ก็เรียบร้อย"
+
+#: sections/writer.twig:22
+msgid "AI Writer"
+msgstr "นักเขียน AI"
+
+#: sections/writer.twig:26
+msgctxt "heading"
+msgid "Write SEO optimized blogs, sales emails and more..."
+msgstr "เขียนบล็อกที่ปรับแต่ง SEO อีเมลขาย และอื่นๆ..."
+
+#: sections/writer.twig:30
+msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
+msgstr "สร้างผลลัพธ์ที่เหนือกว่าได้ในเวลาเพียงเสี้ยวเดียว ในที่สุดก็มีเครื่องมือเขียนที่คุณจะได้ใช้งานจริง"
+
+#: sections/writer.twig:35
+msgctxt "button"
+msgid "See all features"
+msgstr "ดูฟีเจอร์ทั้งหมด"

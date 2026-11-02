@@ -1,0 +1,478 @@
+msgid ""
+msgstr ""
+"Language: bg-BG\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Domain: theme\n"
+
+#: sections/chat.twig:11
+msgid "AI Chat Bot"
+msgstr "AI чатбот"
+
+#: sections/chat.twig:15
+msgctxt "heading"
+msgid "That's remarkably human-like and engaging..."
+msgstr "Забележително прилича на човек и увлича..."
+
+#: sections/chat.twig:19
+msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
+msgstr "Просто изберете своя асистент и общувайте с приятелски настроен чатбот, за да генерирате идеи, да подобрите съдържанието си или просто да се усмихнете."
+
+#: sections/chat.twig:24
+#: sections/video.twig:24
+msgctxt "button"
+msgid "Try now"
+msgstr "Опитайте сега"
+
+#: sections/code.twig:10
+msgid "AI Code"
+msgstr "AI код"
+
+#: sections/code.twig:14
+msgctxt "heading"
+msgid "Ready to write code at the speed of light?"
+msgstr "Готови ли сте да пишете код със скоростта на светлината?"
+
+#: sections/code.twig:18
+msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
+msgstr "Програмирайте без усилия с генератора на код с AI: мигновени решения за вашите програмни нужди."
+
+#: sections/code.twig:23
+msgctxt "button"
+msgid "Start Generate Code"
+msgstr "Започнете да генерирате код"
+
+#: sections/cta.twig:3
+msgctxt "heading"
+msgid "Ready to level-up?"
+msgstr "Готови ли сте за следващото ниво?"
+
+#: sections/cta.twig:5
+msgid "See how easy it can be to write amazing content."
+msgstr "Вижте колко лесно е да създавате страхотно съдържание."
+
+#: sections/cta.twig:10
+msgctxt "button"
+msgid "Get Started Now"
+msgstr "Започнете сега"
+
+#: sections/features.twig:3
+msgctxt "heading"
+msgid "Coolest Features"
+msgstr "Най-яките функции"
+
+#: sections/features.twig:13
+msgctxt "heading"
+msgid "High Quality Code"
+msgstr "Висококачествен код"
+
+#: sections/features.twig:16
+msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
+msgstr "Разработено с помощта на принципите на Domain-Driven Design и Onion Architecture."
+
+#: sections/features.twig:26
+msgctxt "heading"
+msgid "Modern Technologies"
+msgstr "Съвременни технологии"
+
+#: sections/features.twig:29
+msgid "Built with modern technologies for best structure and get maximum performance."
+msgstr "Създадено със съвременни технологии за оптимална структура и максимална производителност."
+
+#: sections/features.twig:39
+msgctxt "heading"
+msgid "Friendly UI and UX"
+msgstr "Удобен потребителски интерфейс и изживяване"
+
+#: sections/features.twig:42
+msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
+msgstr "Насладете се на безпроблемен и интуитивен потребителски интерфейс, който подобрява дигиталното ви изживяване."
+
+#: sections/features.twig:52
+msgctxt "heading"
+msgid "Dark Mode"
+msgstr "Тъмен режим"
+
+#: sections/features.twig:55
+msgid "Turn off the light and switch to dark mode your interface with one click."
+msgstr "Изгасете светлините и превключете интерфейса си на тъмен режим с едно щракване."
+
+#: sections/features.twig:65
+msgctxt "heading"
+msgid "Documentation"
+msgstr "Документация"
+
+#: sections/features.twig:68
+msgid "An all-inclusive learning package seamlessly integrated into our community."
+msgstr "Цялостен обучителен пакет, безпроблемно интегриран в нашата общност."
+
+#: sections/features.twig:78
+msgctxt "heading"
+msgid "Payment Gateways"
+msgstr "Платежни системи"
+
+#: sections/features.twig:81
+msgid "Simplify transactions and boost security with payment gateway solutions."
+msgstr "Опростете транзакциите и повишете сигурността с решения за платежни системи."
+
+#: sections/features.twig:91
+msgctxt "heading"
+msgid "AI Generator"
+msgstr "AI генератор"
+
+#: sections/features.twig:94
+msgid "Unlock limitless creativity with our AI-powered content generator."
+msgstr "Разгърнете безграничната си креативност с нашия генератор на съдържание с изкуствен интелект."
+
+#: sections/features.twig:104
+msgctxt "heading"
+msgid "SEO Friendly"
+msgstr "Подходящо за SEO"
+
+#: sections/features.twig:107
+msgid "Boost your visibility and reach your audience effectively with AI generated content."
+msgstr "Повишете видимостта си и достигнете ефективно до аудиторията си с генерирано от AI съдържание."
+
+#: sections/features.twig:117
+msgctxt "heading"
+msgid "Advanced Dashboard"
+msgstr "Разширено табло"
+
+#: sections/features.twig:120
+msgid "Empower your insights and control with our cutting-edge dashboard."
+msgstr "Получете по-задълбочени данни и повече контрол с нашето модерно табло."
+
+#: sections/features.twig:130
+msgctxt "heading"
+msgid "Custom Templates"
+msgstr "Персонализирани шаблони"
+
+#: sections/features.twig:133
+msgid "Transform your content creation with AI-driven custom templates."
+msgstr "Преобразете създаването на съдържание с персонализирани шаблони, задвижвани от AI."
+
+#: sections/features.twig:144
+msgctxt "heading"
+msgid "Login via SM Accounts"
+msgstr "Вход чрез акаунти в социалните мрежи"
+
+#: sections/features.twig:147
+msgid "Use Facebook or Google accounts as an alternatively access to platform."
+msgstr "Използвайте акаунтите си във Facebook или Google за алтернативен достъп до платформата."
+
+#: sections/features.twig:157
+msgctxt "heading"
+msgid "High Quality Support"
+msgstr "Висококачествена поддръжка"
+
+#: sections/features.twig:160
+msgid "Our support team is available 24/7 to help you with any questions or concerns."
+msgstr "Екипът ни за поддръжка е на разположение 24/7, за да ви помогне с всякакви въпроси или проблеми."
+
+#: sections/footer.twig:4
+msgid "All rights reserved."
+msgstr "Всички права запазени."
+
+#: sections/footer.twig:42
+#: sections/header.twig:19
+msgctxt "button"
+msgid "Product"
+msgstr "Продукт"
+
+#: sections/footer.twig:46
+#: sections/header.twig:33
+msgctxt "button"
+msgid "Pricing"
+msgstr "Цени"
+
+#: sections/footer.twig:50
+msgctxt "button"
+msgid "FAQ"
+msgstr "ЧЗВ"
+
+#: sections/footer.twig:57
+msgctxt "button"
+msgid "Terms of services"
+msgstr "Общи условия"
+
+#: sections/footer.twig:63
+msgctxt "button"
+msgid "Privacy policy"
+msgstr "Политика за поверителност"
+
+#: sections/footer.twig:69
+msgctxt "button"
+msgid "Refund policy"
+msgstr "Политика за възстановяване на средства"
+
+#: sections/generators.twig:3
+msgctxt "heading"
+msgid "Meet your ultimate"
+msgstr "Запознайте се с най-добрата си"
+
+#: sections/generators.twig:6
+msgctxt "heading"
+msgid "AI-Powered Content Platform"
+msgstr "Платформа за съдържание с изкуствен интелект"
+
+#: sections/header.twig:26
+msgctxt "button"
+msgid "Featured"
+msgstr "Избрани"
+
+#: sections/header.twig:111
+#: sections/hero.twig:13
+msgctxt "button"
+msgid "Go to app"
+msgstr "Към приложението"
+
+#: sections/header.twig:123
+msgctxt "button"
+msgid "Library"
+msgstr "Библиотека"
+
+#: sections/header.twig:131
+msgctxt "button"
+msgid "Billing"
+msgstr "Плащания"
+
+#: sections/header.twig:143
+msgctxt "button"
+msgid "Account"
+msgstr "Акаунт"
+
+#: sections/header.twig:151
+msgctxt "button"
+msgid "Logout"
+msgstr "Изход"
+
+#: sections/header.twig:191
+msgctxt "button"
+msgid "Login"
+msgstr "Вход"
+
+#: sections/header.twig:196
+#: sections/pricing.twig:102
+msgctxt "button"
+msgid "Get started"
+msgstr "Започнете"
+
+#: sections/hero.twig:3
+msgctxt "heading"
+msgid "Transforming ideas into AI generated masterpieces"
+msgstr "Превръщаме идеи в шедьоври, създадени с ИИ"
+
+#: sections/hero.twig:7
+msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
+msgstr "Създавайте без усилие висококачествено съдържание с ИИ, съобразено с нуждите ви. Отключете неограничени възможности, спестете време и започнете да печелите още днес!"
+
+#: sections/hero.twig:19
+msgctxt "button"
+msgid "Get started now"
+msgstr "Започнете сега"
+
+#: sections/how-it-works.twig:3
+msgctxt "heading"
+msgid "How it works"
+msgstr "Как работи"
+
+#: sections/how-it-works.twig:13
+msgctxt "heading"
+msgid "Choose Template"
+msgstr "Изберете шаблон"
+
+#: sections/how-it-works.twig:16
+msgid "Choose a our built in templates or create your own."
+msgstr "Изберете един от вградените ни шаблони или създайте свой собствен."
+
+#: sections/how-it-works.twig:26
+msgctxt "heading"
+msgid "Describe"
+msgstr "Опишете"
+
+#: sections/how-it-works.twig:29
+msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
+msgstr "Въведете няколко изречения, за да опишете темата си. Добавете ключови думи, за да уточните бранда си."
+
+#: sections/how-it-works.twig:39
+msgctxt "heading"
+msgid "Generate"
+msgstr "Генериране"
+
+#: sections/how-it-works.twig:42
+msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
+msgstr "Щракнете върху бутона „Генериране“ и всеки път получавайте разнообразни текстове с висока конверсия."
+
+#: sections/image.twig:5
+msgid "AI Image"
+msgstr "AI изображение"
+
+#: sections/image.twig:9
+msgctxt "heading"
+msgid "Visualize what you dream of. Create images from text."
+msgstr "Визуализирайте мечтите си. Създавайте изображения от текст."
+
+#: sections/image.twig:13
+msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
+msgstr "Създавайте впечатляващи изображения мигновено с AI Image Generator – вашият инструмент за артистични иновации."
+
+#: sections/image.twig:18
+msgctxt "button"
+msgid "Try for free"
+msgstr "Опитайте безплатно"
+
+#: sections/presets.twig:9
+msgid "100+ AI Writer Templates"
+msgstr "Над 100 шаблона за AI Writer"
+
+#: sections/presets.twig:14
+msgctxt "heading"
+msgid "What can Writing Assistant create for you?"
+msgstr "Какво може да създаде Помощникът за писане за вас?"
+
+#: sections/presets.twig:18
+msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer's block forever."
+msgstr "Пишете с впечатляваща скорост, завладявайте аудиторията си и се сбогувайте с творческия блок завинаги."
+
+#: sections/presets.twig:23
+msgctxt "button"
+msgid "Get Started for Free"
+msgstr "Започнете безплатно"
+
+#: sections/pricing.twig:3
+msgctxt "heading"
+msgid "Pricing"
+msgstr "Цени"
+
+#: sections/pricing.twig:6
+msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
+msgstr "Открийте идеалния план за вашите нужди и отключете свят от възможности."
+
+#: sections/pricing.twig:19
+msgctxt "button"
+msgid "Monthly"
+msgstr "Месечно"
+
+#: sections/pricing.twig:28
+msgctxt "button"
+msgid "Yearly"
+msgstr "Годишно"
+
+#: sections/pricing.twig:37
+msgctxt "button"
+msgid "Packs"
+msgstr "Пакети"
+
+#: sections/pricing.twig:46
+msgctxt "button"
+msgid "Lifetime Deals"
+msgstr "Оферти за доживотен достъп"
+
+#: sections/pricing.twig:78
+msgid "Most Popular"
+msgstr "Най-популярен"
+
+#: sections/pricing.twig:115
+msgid "Chat"
+msgstr "Чат"
+
+#: sections/pricing.twig:134
+msgid "Writer"
+msgstr "Писател"
+
+#: sections/pricing.twig:153
+msgid "Image generator"
+msgstr "Генератор на изображения"
+
+#: sections/pricing.twig:166
+msgid "Transcriber"
+msgstr "Транскрибатор"
+
+#: sections/pricing.twig:179
+msgid "Voiceover"
+msgstr "Озвучаване"
+
+#: sections/pricing.twig:192
+msgid "Voice isolator"
+msgstr "Изолатор на глас"
+
+#: sections/pricing.twig:205
+msgid "Classifier"
+msgstr "Класификатор"
+
+#: sections/pricing.twig:213
+msgid "Access to templates is disabled"
+msgstr "Достъпът до шаблоните е деактивиран"
+
+#: sections/pricing.twig:216
+msgid "Access to all templates"
+msgstr "Достъп до всички шаблони"
+
+#: sections/pricing.twig:232
+msgid "Priority support"
+msgstr "Приоритетна поддръжка"
+
+#: sections/pricing.twig:235
+msgid "Basic support"
+msgstr "Основна поддръжка"
+
+#: sections/speech-to-text.twig:4
+msgid "Speech to Text"
+msgstr "Реч към текст"
+
+#: sections/speech-to-text.twig:8
+msgctxt "heading"
+msgid "Transforming Spoken <br> Words into Text."
+msgstr "Преобразуване на изговорените <br> думи в текст."
+
+#: sections/speech-to-text.twig:12
+msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
+msgstr "Транскрибирайте изговорените думи в текст мигновено за по-висока продуктивност и достъпност."
+
+#: sections/speech-to-text.twig:17
+msgctxt "button"
+msgid "Convert now"
+msgstr "Преобразувайте сега"
+
+#: sections/text-to-voice.twig:4
+msgid "Text to Voice"
+msgstr "Текст към глас"
+
+#: sections/text-to-voice.twig:8
+msgctxt "heading"
+msgid "Convert your texts into <br> Lifelike Speech"
+msgstr "Превърнете текстовете си в <br> реалистична реч"
+
+#: sections/text-to-voice.twig:12
+msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
+msgstr "Обогатете съдържанието си с изразително повествование: открийте отличните възможности на преобразуването на текст в глас."
+
+#: sections/video.twig:11
+msgid "Video"
+msgstr "Видео"
+
+#: sections/video.twig:15
+msgctxt "heading"
+msgid "Generate high-quality videos using AI Video generation tool."
+msgstr "Създавайте висококачествени видеоклипове с инструмент за генериране на видео с изкуствен интелект."
+
+#: sections/video.twig:19
+msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
+msgstr "Не са нужни умения за видеообработка — просто качете изображенията си и въведете няколко реда с описание, това е всичко."
+
+#: sections/writer.twig:22
+msgid "AI Writer"
+msgstr "AI Writer"
+
+#: sections/writer.twig:26
+msgctxt "heading"
+msgid "Write SEO optimized blogs, sales emails and more..."
+msgstr "Пишете SEO оптимизирани блогове, имейли за продажби и още..."
+
+#: sections/writer.twig:30
+msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
+msgstr "Постигайте отлични резултати за много по-кратко време. Най-накрая инструмент за писане, който наистина ще използвате."
+
+#: sections/writer.twig:35
+msgctxt "button"
+msgid "See all features"
+msgstr "Вижте всички функции"
