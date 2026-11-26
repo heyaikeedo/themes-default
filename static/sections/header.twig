@@ -1,6 +1,6 @@
 {# One bar, as wide as the "Powered by" strip (max-w-5xl) and centred over
    the content. It stays at the top while scrolling. #}
-<header class="sticky z-30 flex max-w-5xl mx-auto items-center h-16 gap-5 pl-5 {{ user is defined ? 'pr-2' : 'pr-3' }} mt-4 border rounded-full top-3 border-line-secondary dark:border-line-tertiary bg-contrast-primary/80 backdrop-blur-md lg:grid lg:grid-cols-[1fr_auto_1fr]">
+<header class="sticky z-30 flex max-w-5xl mx-auto items-center h-16 gap-5 pl-5 {{ user is defined ? 'pr-2' : 'pr-3' }} mt-4 border rounded-full top-3 border-line-secondary dark:border-line-tertiary bg-contrast-primary/80 backdrop-blur-md">
   <div>
     <a href="/">
       <img src="{{ option.brand.logo_dark ?? '/assets/logo-light.svg' }}"
@@ -45,7 +45,7 @@
     </ul>
   </nav>
 
-  <div class="flex items-center gap-2 ml-auto sm:gap-3 lg:justify-self-end">
+  <div class="flex items-center gap-2 ml-auto sm:gap-3">
     {% if option.color_scheme.modes is not defined or option.color_scheme.modes|length > 1 %}
     <mode-switcher>
       <button
