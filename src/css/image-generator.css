@@ -15,8 +15,16 @@
   .preview {
     @apply absolute top-0 left-0 w-full h-full opacity-10 lg:static lg:opacity-100;
 
-    /* Fades the columns in and out at the top and bottom. */
-    mask-image: linear-gradient(to bottom, transparent, black 15%, black 85%, transparent);
+    /* Fades the gallery out at the top, bottom and right: the gradients are
+       intersected, so a corner fades in both directions. */
+    -webkit-mask-image:
+      linear-gradient(to bottom, transparent, black 15%, black 85%, transparent),
+      linear-gradient(to right, black 88%, transparent);
+    -webkit-mask-composite: source-in;
+    mask-image:
+      linear-gradient(to bottom, transparent, black 15%, black 85%, transparent),
+      linear-gradient(to right, black 88%, transparent);
+    mask-composite: intersect;
   }
 
   .gallery-col {
@@ -41,7 +49,7 @@
   }
 
   .gallery-set img {
-    @apply block w-full h-auto rounded-2xl bg-contrast-secondary;
+    @apply block w-full h-auto rounded-xl bg-contrast-secondary;
   }
 
   @media (prefers-reduced-motion: reduce) {

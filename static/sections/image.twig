@@ -23,7 +23,8 @@
 	   lists its images twice and moves by exactly one list, so the loop has
 	   no seam; the gap between images matches the gap between columns. #}
 	<div class="absolute top-0 right-0 w-full h-full overflow-hidden rounded-3xl lg:rounded-l-none lg:w-1/2" aria-hidden="true">
-		<div class="grid grid-cols-4 gap-4 px-4 lg:pl-0 preview">
+		<div class="p-4 lg:pl-0 preview">
+			<div class="grid h-full grid-cols-4 gap-4 overflow-hidden rounded-2xl">
 			{% for col in 1..4 %}
 			<div class="gallery-col">
 				<div class="gallery-track">
@@ -38,6 +39,7 @@
 				</div>
 			</div>
 			{% endfor %}
+			</div>
 		</div>
 	</div>
 </div>
