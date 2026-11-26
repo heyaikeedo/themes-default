@@ -1,16 +1,169 @@
-<div class="wrapper enter">
-	<img src="{{ '/assets/preview.webp' | asset_url }}" alt="Application preview" width="2400" height="1480" class="rounded-3xl dark:hidden">
-	<img src="{{ '/assets/preview-dark.webp' | asset_url }}" alt="Application preview" width="2400" height="1480" class="hidden rounded-3xl dark:block">
+{#
+  A picture of the app's dashboard, drawn from this installation's own
+  settings: its logo, and the sidebar's own nav sections (nav.app: Library,
+  Models, Scheduled, Build, Apps, plugin tools included). Nothing to rebuild
+  when the brand or the tools change. Decorative only: hidden from assistive
+  tech and not clickable.
+#}
+{% set features = option.features ?? {} %}
+{% set sections = (nav.app ?? {})|filter((section, key) => key not in ['secondary', 'account', 'workspace', 'settings_nav'] and section.items is defined) %}
+{% set first_name = user.first_name ?? d__('theme', 'Alex') %}
+{% set full_name = user is defined ? (user.first_name ~ ' ' ~ user.last_name)|trim : d__('theme', 'Alex Morgan') %}
+{% set email = user.email ?? 'alex@example.com' %}
 
-	<div class="float -top-3 -left-6 -rotate-[15deg]">
-		<span class="hidden md:inline-flex icon shadow-right text-[#30C862]">
-			<i class="ti ti-topology-star"></i>
-		</span>
-	</div>
+{% macro nav_icon(item) %}
+  {% if item.from or item.to %}
+    <span class="flex items-center justify-center shrink-0 size-6 rounded-[40%] text-white [&_svg]:w-7/12 [&_img]:w-7/12"
+      style="background: linear-gradient(135deg, {{ item.from ?? item.to }}, {{ item.to ?? item.from ?? '#006ABF' }})">
+  {% else %}
+    <span class="flex items-center justify-center shrink-0 size-6 [&_svg]:w-5 [&_img]:w-5">
+  {% endif %}
+    {% if item.iconType.value == 'ti' %}
+      <i class="text-lg ti ti-{{ item.icon }}"></i>
+    {% elseif item.iconType.value == 'svg' %}
+      {{ item.icon|raw }}
+    {% elseif item.iconType.value == 'src' %}
+      <img src="{{ item.icon }}" alt="">
+    {% elseif item.iconType.value == 'include' %}
+      {% include item.icon ignore missing %}
+    {% endif %}
+  </span>
+{% endmacro %}
 
-	<div class="-mt-6 -ml-6 float top-full left-1/2 -rotate-[10deg]">
-		<span class="hidden md:inline-flex icon shadow-right text-[#00A6FB]">
-			<i class="ti ti-carousel-horizontal"></i>
-		</span>
-	</div>
+<div class="relative enter">
+  <div class="flex overflow-hidden text-left border select-none pointer-events-none rounded-3xl bg-contrast-primary border-line-secondary dark:border-line-tertiary text-[13px] h-[440px] md:h-auto md:aspect-video"
+    aria-hidden="true" inert>
+
+    {# Sidebar #}
+    <div class="flex-col hidden w-60 gap-4 py-4 border-r md:flex shrink-0 border-line-tertiary bg-contrast-secondary/70">
+      <div class="flex items-center justify-between px-4">
+        <img src="{{ option.brand.logo_dark ?? '/assets/logo-light.svg' }}" alt=""
+          class="hidden group-data-[mode=dark]/html:block h-6 max-w-[140px] object-contain object-left">
+        <img src="{{ option.brand.logo ?? '/assets/logo-dark.svg' }}" alt=""
+          class="block group-data-[mode=dark]/html:hidden h-6 max-w-[140px] object-contain object-left">
+
+        <span class="flex items-center justify-center border rounded-lg size-7 border-line-secondary bg-contrast-primary dark:border-line-tertiary">
+          <i class="text-base ti ti-plus"></i>
+        </span>
+      </div>
+
+      <div class="flex flex-col flex-1 min-h-0 gap-4 px-2 overflow-hidden [mask-image:linear-gradient(to_bottom,black_80%,transparent)]">
+        {% for key, section in sections %}
+          {% if (section.items ?? [])|length > 0 %}
+          <div>
+            {% if section.label %}
+            <div class="flex items-center gap-0.5 p-1 text-xs font-medium text-tertiary">
+              {{ p__('nav', section.label) }}
+              <i class="ti ti-chevron-down"></i>
+            </div>
+            {% endif %}
+
+            <ul class="flex flex-col gap-0.5 {{ section.label ? 'mt-1' : '' }}">
+              {% for item in section.items|slice(0, 12) %}
+              <li class="flex items-center gap-1.5 rounded-lg text-secondary text-sm {{ item.from or item.to ? 'p-1.5' : 'p-1' }}">
+                {{ _self.nav_icon(item) }}
+                <span class="truncate">{{ p__('nav', item.label) }}</span>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      <div class="flex items-center gap-2 px-4">
+        {% if user.avatar ?? null %}
+        <img src="{{ user.avatar }}" alt="" class="object-cover rounded-full size-8 shrink-0">
+        {% else %}
+        <span class="flex items-center justify-center text-xs font-bold rounded-full size-8 shrink-0 bg-contrast-accent text-accent">
+          {{ first_name|first|upper }}
+        </span>
+        {% endif %}
+
+        <div class="flex-1 min-w-0 leading-tight">
+          <div class="text-xs font-semibold truncate">{{ full_name }}</div>
+          <div class="text-xs truncate text-tertiary">{{ email }}</div>
+        </div>
+
+        <i class="text-base ti ti-selector text-tertiary"></i>
+      </div>
+    </div>
+
+    {# Main #}
+    <div class="relative flex flex-col flex-1 min-w-0 p-5 md:p-8">
+      <div class="flex items-center justify-between gap-4 md:hidden">
+        <img src="{{ option.brand.logo_dark ?? '/assets/logo-light.svg' }}" alt=""
+          class="hidden group-data-[mode=dark]/html:block h-6 max-w-[120px] object-contain object-left">
+        <img src="{{ option.brand.logo ?? '/assets/logo-dark.svg' }}" alt=""
+          class="block group-data-[mode=dark]/html:hidden h-6 max-w-[120px] object-contain object-left">
+        <i class="text-xl ti ti-menu-2"></i>
+      </div>
+
+      <div class="flex flex-col items-center justify-center flex-1 w-full max-w-2xl gap-6 mx-auto">
+        <div class="flex flex-col items-center text-center">
+          <div class="flex items-center gap-2 text-sm text-secondary">
+            <span>👋</span>
+            {{ d__('theme', 'Hello, :name!')|replace({':name': first_name}) }}
+          </div>
+
+          <div class="text-xl font-bold md:text-2xl">
+            {{ d__('theme', 'How can I assist you?') }}
+          </div>
+        </div>
+
+        <div class="flex items-center w-full gap-2 p-2 pl-4 border rounded-3xl border-line-secondary dark:border-line-tertiary bg-contrast-primary">
+          <span class="py-2 text-sm grow text-tertiary">{{ d__('theme', 'Ask anything…') }}</span>
+          <kbd class="items-center hidden h-10 px-4 font-sans text-xs font-medium rounded-lg md:flex bg-contrast-secondary text-secondary">⌘K</kbd>
+        </div>
+
+        {% set pills = [] %}
+        {% for key, pill in {
+          transcriber: ['transcriber.twig', d__('theme', 'Transcribe audio')],
+          voice_isolator: ['voice-isolator.twig', d__('theme', 'Isolate sounds')],
+          video: ['video.twig', d__('theme', 'Create videos')],
+          imagine: ['imagine.twig', d__('theme', 'Create images')]
+        } %}
+          {% if features[key].is_enabled ?? false %}
+            {% set pills = pills|merge([pill]) %}
+          {% endif %}
+        {% endfor %}
+
+        {% if pills|length > 0 %}
+        <div class="flex-wrap justify-center hidden gap-2 sm:flex">
+          {% for pill in pills %}
+          <span class="flex items-center gap-1.5 h-9 px-3 text-sm font-semibold border rounded-full border-line-secondary dark:border-line-tertiary">
+            <span class="flex items-center justify-center size-5 [&_svg]:w-full [&_svg]:h-full [&_svg]:drop-shadow-none">
+              {% include "snippets/icons/" ~ pill[0] ignore missing %}
+            </span>
+            {{ pill[1] }}
+          </span>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+
+      <div class="flex items-center gap-1 text-xs text-tertiary">
+        <i class="ti ti-arrow-down"></i>
+        {{ d__('theme', 'Scroll to explore') }}
+      </div>
+    </div>
+  </div>
+
+  {# Fades the bottom of the picture into the page. #}
+  <div class="absolute inset-x-0 bottom-0 pointer-events-none h-1/3 bg-gradient-to-b from-transparent to-contrast-primary"></div>
+
+  {# A hairline where the picture ends, fading out at both ends; the floating icon sits on it. #}
+  <div class="absolute bottom-0 h-px pointer-events-none inset-x-0 md:-inset-x-8 bg-gradient-to-r from-transparent via-line-secondary to-transparent dark:via-line-tertiary"></div>
+
+  <div class="float -top-6 -right-6 rotate-[15deg]">
+    <span class="hidden md:inline-flex icon text-[#30C862]">
+      <i class="ti ti-topology-star"></i>
+    </span>
+  </div>
+
+  <div class="-mt-6 -ml-6 float top-full left-1/2 -rotate-[10deg]">
+    <span class="hidden md:inline-flex icon text-[#00A6FB]">
+      <i class="ti ti-carousel-horizontal"></i>
+    </span>
+  </div>
 </div>

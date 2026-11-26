@@ -1,46 +1,55 @@
-<header class="flex items-center gap-5 mt-4 sm:py-3 lg:gap-20">
+{# One bar, as wide as the "Powered by" strip (max-w-5xl) and centred over
+   the content. It stays at the top while scrolling. #}
+<header class="sticky z-30 flex max-w-5xl mx-auto items-center h-16 gap-5 pl-5 {{ user is defined ? 'pr-2' : 'pr-3' }} mt-4 border rounded-full top-3 border-line-secondary dark:border-line-tertiary bg-contrast-primary/80 backdrop-blur-md lg:grid lg:grid-cols-[1fr_auto_1fr]">
   <div>
     <a href="/">
       <img src="{{ option.brand.logo_dark ?? '/assets/logo-light.svg' }}"
         alt="{{ option.site.name ?? 'Logo'  }}"
-        class="hidden group-data-[mode=dark]/html:block max-w-[140px]">
+        class="hidden group-data-[mode=dark]/html:block max-w-[140px] max-h-7">
 
       <img src="{{ option.brand.logo ?? '/assets/logo-dark.svg' }}"
         alt="{{ option.site.name ?? 'Logo'  }}"
-        class="block group-data-[mode=dark]/html:hidden  max-w-[140px]">
+        class="block group-data-[mode=dark]/html:hidden max-w-[140px] max-h-7">
     </a>
   </div>
 
-  <nav class="hidden font-medium lg:block">
-    <ul class="flex items-center gap-4">
+  <nav class="hidden text-sm font-medium lg:block">
+    <ul class="flex items-center gap-1">
       <li>
         <a href="/#product"
-          class="block px-2 py-1 bg-transparent rounded-lg hover:bg-line-tertiary hover:no-underline">
+          class="block px-4 py-2 transition-colors rounded-full text-secondary hover:text-primary hover:bg-contrast-secondary hover:no-underline">
           {{ dp__('theme', 'button', 'Product')  }}
         </a>
       </li>
 
       <li>
         <a href="/#features"
-          class="block px-2 py-1 bg-transparent rounded-lg hover:bg-line-tertiary hover:no-underline">
-          {{ dp__('theme', 'button', 'Featured')  }}
+          class="block px-4 py-2 transition-colors rounded-full text-secondary hover:text-primary hover:bg-contrast-secondary hover:no-underline">
+          {{ dp__('theme', 'button', 'Features')  }}
         </a>
       </li>
 
       <li>
         <a href="/#pricing"
-          class="block px-2 py-1 bg-transparent rounded-lg hover:bg-line-tertiary hover:no-underline">
+          class="block px-4 py-2 transition-colors rounded-full text-secondary hover:text-primary hover:bg-contrast-secondary hover:no-underline">
           {{ dp__('theme', 'button', 'Pricing')  }}
+        </a>
+      </li>
+
+      <li>
+        <a href="/#faq"
+          class="block px-4 py-2 transition-colors rounded-full text-secondary hover:text-primary hover:bg-contrast-secondary hover:no-underline">
+          {{ dp__('theme', 'button', 'FAQ')  }}
         </a>
       </li>
     </ul>
   </nav>
 
-  <div class="flex items-center gap-2 ml-auto sm:gap-4">
+  <div class="flex items-center gap-2 ml-auto sm:gap-3 lg:justify-self-end">
     {% if option.color_scheme.modes is not defined or option.color_scheme.modes|length > 1 %}
     <mode-switcher>
       <button
-        class="flex items-center justify-center w-10 h-10 text-2xl rounded-full bg-line-tertiary hover:bg-contrast-accent hover:text-accent"
+        class="flex items-center justify-center w-10 h-10 text-xl transition-colors rounded-full text-secondary hover:text-primary hover:bg-contrast-secondary"
         aria-label="Dark/Light mode toggle">
         <i class="ti ti-moon group-data-[mode=dark]/html:hidden"></i>
         <i class="ti ti-sun hidden group-data-[mode=dark]/html:block"></i>
@@ -57,12 +66,12 @@
       </div>
 
       <button
-        class="flex items-center gap-2 px-4 py-2 rounded-lg hover:bg-contrast-secondary group-data-[open]:bg-contrast-secondary"
+        class="flex items-center h-12 gap-2 pl-1.5 pr-3 rounded-full hover:bg-contrast-secondary group-data-[open]:bg-contrast-secondary"
         @click="$refs.usermenu.hasAttribute('data-open') ? $refs.usermenu.removeAttribute('data-open') : $refs.usermenu.setAttribute('data-open', '')">
 
         {% set full_name = user.first_name ~ " " ~ user.last_name %}
         <div
-          class="relative flex items-center justify-center w-10 h-10 text-xs font-bold uppercase rounded-full bg-contrast-accent text-accent shrink-0">
+          class="relative flex items-center justify-center text-xs font-bold uppercase rounded-full w-9 h-9 bg-contrast-accent text-accent shrink-0">
           <span
             x-text="`{{ full_name }}`.match(/(\b\S)?/g).join('').slice(0, 2)">{{ full_name[0:2]}}</span>
 
@@ -72,86 +81,81 @@
           {% endif %}
         </div>
 
-        <span class="hidden text-sm sm:inline">
+        <span class="hidden text-sm truncate sm:inline max-w-[120px]">
           {{ full_name }}
         </span>
 
-        <i class="text-xl ti ti-chevron-down"></i>
+        <i class="text-base ti ti-chevron-down text-tertiary"></i>
       </button>
 
-      <div class="context-menu w-60 max-h-max"
+      <div class="mt-3 context-menu max-h-max max-w-72"
         @click="$refs.usermenu.removeAttribute('data-open')">
+        <div class="flex flex-col gap-1">
+          <a href="/app/settings/account" class="context-menu-item">
+            <div
+              class="relative flex items-center justify-center text-[10px] font-bold uppercase rounded-full size-7 bg-contrast-accent text-accent shrink-0">
+              <span
+                x-text="`{{ full_name }}`.match(/(\b\S)?/g).join('').slice(0, 2)">{{ full_name[0:2]}}</span>
 
-        <a href="/app/account"
-          class="flex items-center w-full gap-3 p-4 text-left hover:bg-contrast-secondary hover:no-underline">
-          <div
-            class="relative flex items-center justify-center w-10 h-10 text-xs font-bold uppercase rounded-full bg-contrast-accent text-accent shrink-0">
-            <span
-              x-text="`{{ full_name }}`.match(/(\b\S)?/g).join('').slice(0, 2)">{{ full_name[0:2]}}</span>
+              {% if user.avatar %}
+              <img src="{{ user.avatar }}" alt="{{ full_name }}"
+                class="absolute top-0 left-0 object-cover w-full h-full rounded-full">
+              {% endif %}
+            </div>
 
-            {% if user.avatar %}
-            <img src="{{ user.avatar }}" alt="{{ full_name }}"
-              class="absolute top-0 left-0 object-cover w-full h-full rounded-full">
-            {% endif %}
-          </div>
+            <div class="min-w-0">
+              <div class="text-xs font-semibold truncate">{{ full_name }}</div>
+              <div class="text-xs truncate text-tertiary">{{ user.email }}</div>
+            </div>
+          </a>
 
-          <div class="max-w-[154px]">
-            <div class="font-bold truncate">{{ full_name }}</div>
-            <div class="mt-1 text-sm truncate text-tertiary">
-              {{ user.email }}</div>
-          </div>
-        </a>
+          <hr class="border-t border-line-tertiary">
 
-        <hr class="border-t border-line-tertiary">
-        <ul>
-          <li>
-            <a href="/app"
-              class="flex items-center gap-2 px-4 py-2 hover:bg-contrast-secondary hover:no-underline">
-              <i class="text-2xl ti ti-sparkles"></i>
-              {{ dp__('theme', 'button', 'Go to app')  }}
-            </a>
-          </li>
-        </ul>
+          <ul>
+            <li>
+              <a href="/app" class="context-menu-item">
+                <i class="text-lg ti ti-sparkles"></i>
+                {{ dp__('theme', 'button', 'Go to app')  }}
+              </a>
+            </li>
+          </ul>
 
-        <hr class="border-t border-line-tertiary">
+          <hr class="border-t border-line-tertiary">
 
-        <ul>
-          <li>
-            <a href="/app/library"
-              class="flex items-center gap-2 px-4 py-2 hover:bg-contrast-secondary hover:no-underline">
-              <i class="text-2xl ti ti-files"></i>
-              {{ dp__('theme', 'button', 'Library')  }}
-            </a>
-          </li>
+          <ul>
+            <li>
+              <a href="/app/library" class="context-menu-item">
+                <i class="text-lg ti ti-files"></i>
+                {{ dp__('theme', 'button', 'Library')  }}
+              </a>
+            </li>
 
-          <li>
-            <a href="/app/billing"
-              class="flex items-center gap-2 px-4 py-2 hover:bg-contrast-secondary hover:no-underline">
-              <i class="text-2xl ti ti-credit-card"></i>
-              {{ dp__('theme', 'button', 'Billing')  }}
-            </a>
-          </li>
-        </ul>
+            <li>
+              <a href="/app/billing" class="context-menu-item">
+                <i class="text-lg ti ti-credit-card"></i>
+                {{ dp__('theme', 'button', 'Billing')  }}
+              </a>
+            </li>
 
-        <hr class="border-t border-line-tertiary">
+            <li>
+              <a href="/app/settings/account" class="context-menu-item">
+                <i class="text-lg ti ti-user-circle"></i>
+                {{ dp__('theme', 'button', 'Account')  }}
+              </a>
+            </li>
+          </ul>
 
-        <ul>
-          <li>
-            <a href="/app/account"
-              class="flex items-center gap-2 px-4 py-2 hover:bg-contrast-secondary hover:no-underline">
-              <i class="text-2xl ti ti-user-circle"></i>
-              {{ dp__('theme', 'button', 'Account')  }}
-            </a>
-          </li>
+          <hr class="border-t border-line-tertiary">
 
-          <li>
-            <a href="/logout"
-              class="flex items-center gap-2 px-4 py-2 hover:bg-contrast-secondary hover:no-underline">
-              <i class="text-2xl ti ti-logout"></i>
-              {{ dp__('theme', 'button', 'Logout')  }}
-            </a>
-          </li>
-        </ul>
+          <ul>
+            <li>
+              <a href="/logout" class="context-menu-item">
+                <i class="text-lg ti ti-logout"></i>
+                {{ dp__('theme', 'button', 'Logout')  }}
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
     {% else %}
@@ -159,13 +163,13 @@
       @click.outside="$el.removeAttribute('data-open')">
 
       <button
-        class="flex items-center justify-center w-10 h-10 text-2xl rounded-full bg-line-tertiary hover:bg-contrast-accent hover:text-accent"
+        class="flex items-center justify-center w-10 h-10 text-xl transition-colors rounded-full text-secondary hover:text-primary hover:bg-contrast-secondary"
         @click="$refs.locale.hasAttribute('data-open') ? $refs.locale.removeAttribute('data-open') : $refs.locale.setAttribute('data-open', '')"
         aria-label="Language selector">
         <i class="ti ti-world"></i>
       </button>
 
-      <div class="w-auto translate-x-1/2 context-menu max-h-max right-1/2"
+      <div class="w-auto mt-4 translate-x-1/2 context-menu max-h-max right-1/2"
         @click="$refs.locale.removeAttribute('data-open')">
 
         <ul>
@@ -173,7 +177,7 @@
           {% if locale.enabled %}
           <li>
             <a href="/{{ locale.code ?? 'en-US' }}"
-              class="block w-full px-4 py-2 text-left hover:bg-contrast-secondary hover:no-underline"
+              class="context-menu-item"
               @click="document.cookie = `locale={{ locale.code ?? 'en-US' }}; expires=${new Date(new Date().getTime()+1000*60*60*24*365).toGMTString()}; path=/`;">
               {{ locale.label ?? 'English' }}
             </a>
@@ -187,12 +191,12 @@
     <div class="w-0 h-6 border-l border-l-line-tertiary"></div>
 
     <a href="/login"
-      class="hidden button button-outline button-sm sm:inline-flex">
+      class="hidden rounded-full button button-outline button-sm sm:inline-flex">
       {{ dp__('theme', 'button', 'Login')  }}
     </a>
 
     <a href="/signup"
-      class="h-8 px-2 text-sm button button-sm whitespace-nowrap sm:text-base sm:h-10 sm:px-4">
+      class="h-8 px-3 text-sm rounded-full button button-sm whitespace-nowrap sm:h-10 sm:px-4">
       {{ dp__('theme', 'button', 'Get started')  }}
     </a>
     {% endif %}

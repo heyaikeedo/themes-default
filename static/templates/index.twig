@@ -1,14 +1,18 @@
 {% extends "@theme/layouts/theme.twig" %}
 
 {% block template %}
-<div class="flex flex-col gap-6 my-10 md:my-20 md:gap-12 lg:gap-24">
-  {% include "@theme/sections/hero.twig" %}
-  {% include "@theme/sections/preview.twig" %}
-  {% include "@theme/sections/generators.twig" %}
+<div class="flex flex-col gap-12 mt-24 mb-6 md:mt-40 md:mb-10 md:gap-16 lg:gap-24">
+  <div class="flex flex-col gap-10 md:gap-16">
+    {% include "@theme/sections/hero.twig" %}
+    {% include "@theme/sections/preview.twig" %}
+  </div>
 
+  {% include "@theme/sections/models.twig" %}
+  {% include "@theme/sections/generators.twig" %}
   {% include "@theme/sections/how-it-works.twig" %}
   {% include "@theme/sections/features.twig" %}
   {% include "@theme/sections/pricing.twig" %}
+  {% include "@theme/sections/faq.twig" %}
   {% include "@theme/sections/cta.twig" %}
 </div>
 {% endblock %}

@@ -1,73 +1,60 @@
-@keyframes scrolling-images {
-  to {
-    background-position: center var(--scroll-to);
-  }
+/* The image showcase: four columns of examples scrolling in turn up and
+   down. A track holds the column's images twice; moving it by half its
+   height brings the second copy exactly where the first began. */
+@keyframes gallery-up {
+  from { transform: translateY(0); }
+  to { transform: translateY(-50%); }
+}
+
+@keyframes gallery-down {
+  from { transform: translateY(-50%); }
+  to { transform: translateY(0); }
 }
 
 #image-generator {
   .preview {
     @apply absolute top-0 left-0 w-full h-full opacity-10 lg:static lg:opacity-100;
+
+    /* Fades the gallery out at the top, bottom and right: the gradients are
+       intersected, so a corner fades in both directions. */
+    -webkit-mask-image:
+      linear-gradient(to bottom, transparent, black 15%, black 85%, transparent),
+      linear-gradient(to right, black 88%, transparent);
+    -webkit-mask-composite: source-in;
+    mask-image:
+      linear-gradient(to bottom, transparent, black 15%, black 85%, transparent),
+      linear-gradient(to right, black 88%, transparent);
+    mask-composite: intersect;
   }
 
-  .preview > div {
-    @apply relative;
+  .gallery-col {
+    @apply relative h-full overflow-hidden;
   }
 
-  .preview .bg {
-    & > div {
-      @apply absolute w-full;
-      height: 110%;
-      height: calc(100% + 40px);
-      background-size: 100% auto;
-      background-repeat: repeat-y;
+  .gallery-track {
+    @apply flex flex-col;
+    animation: gallery-up 50s linear infinite;
+    will-change: transform;
+  }
 
-      @apply after:absolute after:w-full after:h-40 after:from-contrast-primary after:to-transparent;
-    }
+  .gallery-col:nth-child(even) .gallery-track {
+    animation-name: gallery-down;
+    animation-duration: 60s;
+  }
 
-    &:nth-child(odd) > div {
-      --scroll-to: -1408px;
+  /* The bottom padding equals the gap, so the join between the two
+     copies is spaced like every other pair of images. */
+  .gallery-set {
+    @apply flex flex-col gap-4 pb-4;
+  }
 
-      @apply bottom-0;
-      @apply after:top-0 after:bg-gradient-to-b;
-      background-position: center bottom;
-      animation: scrolling-images 60s linear infinite;
-    }
+  .gallery-set img {
+    @apply block w-full h-auto rounded-xl bg-contrast-secondary;
+  }
 
-    &:nth-child(even) > div {
-      --scroll-to: 1408px;
-
-      @apply top-0;
-      @apply after:bottom-0 after:bg-gradient-to-t;
-      background-position: center top;
-      animation: scrolling-images 60s linear infinite;
-    }
-
-    &:nth-child(1) > div {
-      background-image: url('/src/images1.webp');
-    }
-
-    &:nth-child(2) > div {
-      background-image: url('/src/images2.webp');
-    }
-
-    &:nth-child(3) > div {
-      background-image: url('/src/images3.webp');
-    }
-
-    &:nth-child(4) > div {
-      background-image: url('/src/images4.webp');
-    }
-
-    &:last-child {
-      /*
-        @apply overflow-hidden rounded-tr-4xl rounded-br-4xl;
-      */
-      @apply overflow-hidden;
-
-      & > div {
-        height: 110%;
-        height: calc(100% + 10px);
-      }
+  @media (prefers-reduced-motion: reduce) {
+    .gallery-track {
+      animation: none;
     }
   }
 }

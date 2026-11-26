@@ -1,44 +1,44 @@
-<div class="relative lg:my-10 wrapper enter" id="image-generator">
+<div class="relative wrapper enter" id="image-generator">
 	<div class="flex relative z-10 items-center lg:w-1/2">
 		<div class="px-12 py-12 w-full max-w-xl md:py-40">
 			<div class="badge">
-				{{ d__('theme', 'AI Image') }}
+				{{ d__('theme', 'AI images') }}
 			</div>
 
 			<h3 class="mt-8">
-				{{ dp__('theme', 'heading', 'Visualize what you dream of. Create images from text.') }}
+				{{ dp__('theme', 'heading', 'Turn a sentence into an image.') }}
 			</h3>
 
 			<p class="mt-3 font-medium md:mt-6 md:text-xl">
-				{{ d__('theme', 'Instantly create stunning images using AI Image Generator – your tool for artistic innovation.')  }}
+				{{ d__('theme', 'Describe what you want to see, pick a model, and get images you can download and reuse.') }}
 			</p>
 
 			<div class="mt-8 md:mt-10">
-				<a href="/signup" class="gap-4 button button-primary">
-					{{ dp__('theme', 'button', 'Try for free')  }}
-
-					<i class="text-2xl ti ti-arrow-right"></i>
-				</a>
+				{% include "@theme/snippets/cta-link.twig" with {path: '/app/imagine', label: dp__('theme', 'button', 'Create an image')} %}
 			</div>
 		</div>
 	</div>
 
-	<div class="absolute top-0 right-0 w-full h-full lg:w-1/2">
-		<div class="grid grid-cols-4 gap-4 pr-4 pl-4 lg:pl-0 preview">
-			<div class="bg">
-				<div></div>
+	{# Four columns of example images scrolling up and down. Each column
+	   lists its images twice and moves by exactly one list, so the loop has
+	   no seam; the gap between images matches the gap between columns. #}
+	<div class="absolute top-0 right-0 w-full h-full overflow-hidden rounded-3xl lg:rounded-l-none lg:w-1/2" aria-hidden="true">
+		<div class="p-4 lg:pl-0 preview">
+			<div class="grid h-full grid-cols-4 gap-4 overflow-hidden rounded-2xl">
+			{% for col in 1..4 %}
+			<div class="gallery-col">
+				<div class="gallery-track">
+					{% for copy in 1..2 %}
+					<div class="gallery-set">
+						{% for i in 1..4 %}
+						<img src="{{ ('/assets/gallery/' ~ col ~ '-' ~ i ~ '.webp') | asset_url }}" alt="" decoding="async"
+							width="320" height="{{ col is even ? 427 : 320 }}">
+						{% endfor %}
+					</div>
+					{% endfor %}
+				</div>
 			</div>
-
-			<div class="bg">
-				<div></div>
-			</div>
-
-			<div class="bg">
-				<div></div>
-			</div>
-
-			<div class="bg">
-				<div></div>
+			{% endfor %}
 			</div>
 		</div>
 	</div>

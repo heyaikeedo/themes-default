@@ -1,164 +1,101 @@
-<div id="features">
+{#
+  What the app offers beyond the showcased tools. Each card shows only when
+  the admin has switched its feature on.
+#}
+{% set f = option.features ?? {} %}
+{% set chat = f.chat.is_enabled ?? false %}
+{% set enabled_locales = (locales ?? [])|filter(l => l.enabled ?? false) %}
+
+{% set cards = [
+  {
+    show: models is defined and models|length > 0,
+    icon: 'brain',
+    title: dp__('theme', 'heading', 'Leading AI models'),
+    text: d__('theme', 'Use models from several AI providers in one app, without separate accounts.')
+  },
+  {
+    show: chat and (f.chat.custom_assistants.is_enabled ?? false),
+    icon: 'robot',
+    title: dp__('theme', 'heading', 'Custom assistants'),
+    text: d__('theme', 'Build assistants with their own instructions and knowledge, and reuse them any time.')
+  },
+  {
+    show: chat and (f.tools.embedding_search.is_enabled ?? false),
+    icon: 'file-text-ai',
+    title: dp__('theme', 'heading', 'Chat with your documents'),
+    text: d__('theme', 'Upload files and ask questions about them. Answers come from your own content.')
+  },
+  {
+    show: chat and (f.tools.web_search.is_enabled ?? false),
+    icon: 'world-search',
+    title: dp__('theme', 'heading', 'Live web search'),
+    text: d__('theme', 'Get answers that draw on up-to-date information from the web.')
+  },
+  {
+    show: chat and (f.tools.connectors.is_enabled ?? false),
+    icon: 'plug-connected',
+    title: dp__('theme', 'heading', 'Connect your apps'),
+    text: d__('theme', 'Bring the tools you already use into the conversation.')
+  },
+  {
+    show: chat and (f.routines.is_enabled ?? false),
+    icon: 'clock-play',
+    title: dp__('theme', 'heading', 'Scheduled tasks'),
+    text: d__('theme', 'Let the AI handle reminders, recurring reports and ongoing updates on a schedule.')
+  },
+  {
+    show: f.private_mode.is_enabled ?? false,
+    icon: 'eye-off',
+    title: dp__('theme', 'heading', 'Private mode'),
+    text: d__('theme', 'What you create in private mode stays out of your history and library, and is deleted automatically.')
+  },
+  {
+    show: true,
+    icon: 'users',
+    title: dp__('theme', 'heading', 'Built for teams'),
+    text: d__('theme', 'Invite your teammates to a shared workspace and work from the same plan.')
+  },
+  {
+    show: true,
+    icon: 'books',
+    title: dp__('theme', 'heading', 'Your library'),
+    text: d__('theme', 'Everything you create is saved in one place, ready to find, reuse and download.')
+  },
+  {
+    show: enabled_locales|length > 1,
+    icon: 'language',
+    title: dp__('theme', 'heading', 'Speaks your language'),
+    text: d__('theme', 'Use the app in the language you are most comfortable with.')
+  },
+  {
+    show: option.color_scheme.modes is not defined or option.color_scheme.modes|length > 1,
+    icon: 'moon',
+    title: dp__('theme', 'heading', 'Light and dark mode'),
+    text: d__('theme', 'Work the way your eyes prefer, day or night.')
+  },
+  {
+    show: plans is defined and plans|length > 0,
+    icon: 'lock',
+    title: dp__('theme', 'heading', 'Secure checkout'),
+    text: d__('theme', 'Pay safely through trusted payment providers and manage your plan any time.')
+  }
+]|filter(card => card.show) %}
+
+<section id="features" class="scroll-mt-10">
   <h2 class="text-center enter">
-    {{ dp__('theme', 'heading', 'Coolest Features') }}
+    {{ dp__('theme', 'heading', 'Everything in one workspace') }}
   </h2>
 
-  <div class="grid gap-6 mt-6 sm:grid-cols-2 md:gap-12 lg:grid-cols-3 lg:mt-10">
+  <div class="grid gap-6 mt-6 sm:grid-cols-2 md:gap-10 md:mt-10 lg:grid-cols-3">
+    {% for card in cards %}
     <div class="p-8 wrapper enter3">
       <span class="icon shadow-right">
-        <i class="ti ti-code"></i>
+        <i class="ti ti-{{ card.icon }}"></i>
       </span>
 
-      <h3 class="mt-10 lg:text-2xl">
-        {{ dp__('theme', 'heading', 'High Quality Code') }}
-      </h3>
-      <p class="mt-4 font-medium md:text-lg">
-        {{ d__('theme', 'Developed by Using Domain-Driven Design and Onion Architecture Principles.') }}
-      </p>
+      <h3 class="mt-10 lg:text-2xl">{{ card.title }}</h3>
+      <p class="mt-4 font-medium md:text-lg text-secondary">{{ card.text }}</p>
     </div>
-
-    <div class="p-8 wrapper enter3">
-      <span class="icon shadow-right">
-        <i class="ti ti-sparkles"></i>
-      </span>
-
-      <h3 class="mt-10 lg:text-2xl">
-        {{ dp__('theme', 'heading', 'Modern Technologies') }}
-      </h3>
-      <p class="mt-4 font-medium md:text-lg">
-        {{ d__('theme', 'Built with modern technologies for best structure and get maximum performance.') }}
-      </p>
-    </div>
-
-    <div class="p-8 wrapper enter3">
-      <span class="icon shadow-right">
-        <i class="ti ti-click"></i>
-      </span>
-
-      <h3 class="mt-10 lg:text-2xl">
-        {{ dp__('theme', 'heading', 'Friendly UI and UX') }}
-      </h3>
-      <p class="mt-4 font-medium md:text-lg">
-        {{ d__('theme', 'Enjoy a hassle-free and intuitive user interface that enhances your digital experience.') }}
-      </p>
-    </div>
-
-    <div class="p-8 wrapper enter3">
-      <span class="icon shadow-right">
-        <i class="ti ti-moon"></i>
-      </span>
-
-      <h3 class="mt-10 lg:text-2xl">
-        {{ dp__('theme', 'heading', 'Dark Mode') }}
-      </h3>
-      <p class="mt-4 font-medium md:text-lg">
-        {{ d__('theme', 'Turn off the light and switch to dark mode your interface with one click.') }}
-      </p>
-    </div>
-
-    <div class="p-8 wrapper enter3">
-      <span class="icon shadow-right">
-        <i class="ti ti-file-description"></i>
-      </span>
-
-      <h3 class="mt-10 lg:text-2xl">
-        {{ dp__('theme', 'heading', 'Documentation') }}
-      </h3>
-      <p class="mt-4 font-medium md:text-lg">
-        {{ d__('theme', 'An all-inclusive learning package seamlessly integrated into our community.') }}
-      </p>
-    </div>
-
-    <div class="p-8 wrapper enter3">
-      <span class="icon shadow-right">
-        <i class="ti ti-credit-card"></i>
-      </span>
-
-      <h3 class="mt-10 lg:text-2xl">
-        {{ dp__('theme', 'heading', 'Payment Gateways') }}
-      </h3>
-      <p class="mt-4 font-medium md:text-lg">
-        {{ d__('theme', 'Simplify transactions and boost security with payment gateway solutions.') }}
-      </p>
-    </div>
-
-    <div class="p-8 wrapper enter3">
-      <span class="icon shadow-right">
-        <i class="ti ti-cpu-2"></i>
-      </span>
-
-      <h3 class="mt-10 lg:text-2xl">
-        {{ dp__('theme', 'heading', 'AI Generator') }}
-      </h3>
-      <p class="mt-4 font-medium md:text-lg">
-        {{ d__('theme', 'Unlock limitless creativity with our AI-powered content generator.') }}
-      </p>
-    </div>
-
-    <div class="p-8 wrapper enter3">
-      <span class="icon shadow-right">
-        <i class="ti ti-database-search"></i>
-      </span>
-
-      <h3 class="mt-10 lg:text-2xl">
-        {{ dp__('theme', 'heading', 'SEO Friendly') }}
-      </h3>
-      <p class="mt-4 font-medium md:text-lg">
-        {{ d__('theme', 'Boost your visibility and reach your audience effectively with AI generated content.') }}
-      </p>
-    </div>
-
-    <div class="p-8 wrapper enter3">
-      <span class="icon shadow-right">
-        <i class="ti ti-layout-grid"></i>
-      </span>
-
-      <h3 class="mt-10 lg:text-2xl">
-        {{ dp__('theme', 'heading', 'Advanced Dashboard') }}
-      </h3>
-      <p class="mt-4 font-medium md:text-lg">
-        {{ d__('theme', 'Empower your insights and control with our cutting-edge dashboard.') }}
-      </p>
-    </div>
-
-    <div class="p-8 wrapper enter3">
-      <span class="icon shadow-right">
-        <i class="ti ti-layout-dashboard"></i>
-      </span>
-
-      <h3 class="mt-10 lg:text-2xl">
-        {{ dp__('theme', 'heading', 'Custom Templates') }}
-      </h3>
-      <p class="mt-4 font-medium md:text-lg">
-        {{ d__('theme', 'Transform your content creation with AI-driven custom templates.') }}
-      </p>
-    </div>
-
-    <div class="p-8 wrapper enter3">
-      <span class="icon shadow-right">
-        <i class="ti ti-brand-facebook"></i>
-      </span>
-
-
-      <h3 class="mt-10 lg:text-2xl">
-        {{ dp__('theme', 'heading', 'Login via SM Accounts') }}
-      </h3>
-      <p class="mt-4 font-medium md:text-lg">
-        {{ d__('theme', 'Use Facebook or Google accounts as an alternatively access to platform.') }}
-      </p>
-    </div>
-
-    <div class="p-8 wrapper enter3">
-      <span class="icon shadow-right">
-        <i class="ti ti-headset"></i>
-      </span>
-
-      <h3 class="mt-10 lg:text-2xl">
-        {{ dp__('theme', 'heading', 'High Quality Support')  }}
-      </h3>
-      <p class="mt-4 font-medium md:text-lg">
-        {{ d__('theme', 'Our support team is available 24/7 to help you with any questions or concerns.') }}
-      </p>
-    </div>
+    {% endfor %}
   </div>
-</div>
+</section>

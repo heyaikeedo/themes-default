@@ -7,6 +7,13 @@ export default {
   theme: {
     container: {
       center: true,
+      // No 2xl step: the page stops at 1280px on wide screens.
+      screens: {
+        sm: '640px',
+        md: '768px',
+        lg: '1024px',
+        xl: '1280px',
+      },
       padding: {
         DEFAULT: '1rem',
         md: "1.5rem"

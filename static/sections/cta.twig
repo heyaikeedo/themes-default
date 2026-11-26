@@ -1,19 +1,33 @@
-<div class="rounded-4xl bg-contrast-accent bg-gradient-to-br from-[#E7FF9B] to-[#CFE6FF] p-[10px] relative enter">
-	<div class="p-14 text-center rounded-3xl bg-contrast-primary">
-		<h3>{{ dp__('theme', 'heading', 'Ready to level-up?') }}</h3>
-		<p class="mt-2 text-xl font-medium">
-			{{ d__('theme', 'See how easy it can be to write amazing content.') }}
-		</p>
+{# The closing call to action: the same hairline card as the rest of the page,
+   with the admin's accent colour only as a soft glow from the bottom edge. #}
+<section class="relative overflow-hidden text-center border rounded-3xl bg-contrast-primary border-line-secondary dark:border-line-tertiary enter">
+  <div class="absolute left-1/2 -bottom-[120%] w-[180%] h-[200%] -translate-x-1/2 pointer-events-none"
+    style="background: radial-gradient(closest-side, rgb(var(--color-contrast-accent) / 0.7), transparent)"></div>
 
-		<div class="mt-10">
-			<a href="/signup" class="gap-4 button button-primary">
-				{{ dp__('theme', 'button', 'Get Started Now') }}
+  <div class="relative px-6 py-12 md:p-16">
+    {% if user is defined %}
+    <h2>{{ dp__('theme', 'heading', 'Pick up where you left off') }}</h2>
+    <p class="max-w-xl mx-auto mt-3 md:text-lg text-secondary">
+      {{ d__('theme', 'Your chats, documents and media are waiting in your workspace.') }}
+    </p>
+    {% else %}
+    <h2>{{ dp__('theme', 'heading', 'Ready to get started?') }}</h2>
+    <p class="max-w-xl mx-auto mt-3 md:text-lg text-secondary">
+      {{ d__('theme', 'Create your account and put AI to work in minutes.') }}
+    </p>
+    {% endif %}
 
-				<i class="text-2xl ti ti-arrow-right"></i>
-			</a>
-		</div>
-	</div>
+    <div class="flex flex-wrap items-center justify-center gap-3 mt-8">
+      <a href="{{ user is defined ? '/app' : '/signup' }}" class="gap-2 rounded-full button button-primary">
+        {{ user is defined ? dp__('theme', 'button', 'Go to app') : dp__('theme', 'button', 'Get started') }}
+        <i class="text-lg ti ti-arrow-right"></i>
+      </a>
 
-	<img src="{{ '/assets/cta1.webp' | asset_url }}" class="w-[115px] absolute bottom-0 left-14 hidden lg:block" alt="" width="231" height="648">
-	<img src="{{ '/assets/cta2.webp' | asset_url }}" class="w-[150px] absolute top-0 right-14 hidden lg:block" alt="" width="300" height="649">
-</div>
+      {% if (plans ?? [])|length > 0 %}
+      <a href="/#pricing" class="rounded-full button button-outline">
+        {{ dp__('theme', 'button', 'See pricing') }}
+      </a>
+      {% endif %}
+    </div>
+  </div>
+</section>
