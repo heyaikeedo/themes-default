@@ -11,232 +11,304 @@ msgstr ""
 "X-Domain: theme\n"
 
 #: sections/chat.twig:11
-msgid "AI Chat Bot"
-msgstr "AI 聊天机器人"
+#: snippets/plan-rows.twig:73
+msgid "AI chat"
+msgstr "AI 聊天"
 
 #: sections/chat.twig:15
 msgctxt "heading"
-msgid "That's remarkably human-like and engaging..."
-msgstr "这真是非常像人类且引人入胜……"
+msgid "Ask anything. Get clear, useful answers."
+msgstr "随心提问，获取清晰实用的答案。"
 
 #: sections/chat.twig:19
-msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
-msgstr "只需选择您的助手并与友好的聊天机器人互动，即可生成想法、增强您的内容或甚至带来微笑。"
+msgid "Chat with leading AI models to brainstorm, research, write and solve problems faster."
+msgstr "与领先的 AI 模型聊天，助你更快地构思、研究、写作和解决问题。"
 
-#: sections/chat.twig:24
-#: sections/video.twig:24
+#: sections/chat.twig:23
 msgctxt "button"
-msgid "Try now"
-msgstr "立即尝试"
+msgid "Start chatting"
+msgstr "开始聊天"
 
-#: sections/code.twig:10
-msgid "AI Code"
-msgstr "AI 代码"
-
-#: sections/code.twig:14
+#: sections/cta.twig:9
 msgctxt "heading"
-msgid "Ready to write code at the speed of light?"
-msgstr "准备以光速编写代码吗？"
+msgid "Pick up where you left off"
+msgstr "继续上次的内容"
 
-#: sections/code.twig:18
-msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
-msgstr "轻松编码与 AI 代码生成器：即时解决您的编程需求。"
+#: sections/cta.twig:11
+msgid "Your chats, documents and media are waiting in your workspace."
+msgstr "你的聊天记录、文档和媒体文件都在工作区等你。"
 
-#: sections/code.twig:23
+#: sections/cta.twig:14
+msgctxt "heading"
+msgid "Ready to get started?"
+msgstr "准备好开始了吗？"
+
+#: sections/cta.twig:16
+msgid "Create your account and put AI to work in minutes."
+msgstr "创建账户，几分钟内即可开始使用 AI。"
+
+#: sections/cta.twig:22
+#: sections/header.twig:118
+#: sections/hero.twig:13
 msgctxt "button"
-msgid "Start Generate Code"
-msgstr "开始生成代码"
+msgid "Go to app"
+msgstr "前往应用"
 
-#: sections/cta.twig:3
-msgctxt "heading"
-msgid "Ready to level-up?"
-msgstr "准备好升级了吗？"
-
-#: sections/cta.twig:5
-msgid "See how easy it can be to write amazing content."
-msgstr "看看写出惊人内容有多简单。"
-
-#: sections/cta.twig:10
+#: sections/cta.twig:22
+#: sections/header.twig:200
+#: sections/hero.twig:18
+#: sections/pricing.twig:139
 msgctxt "button"
-msgid "Get Started Now"
-msgstr "立即开始"
+msgid "Get started"
+msgstr "开始使用"
 
-#: sections/features.twig:3
+#: sections/cta.twig:28
+#: sections/hero.twig:25
+msgctxt "button"
+msgid "See pricing"
+msgstr "查看价格"
+
+#: sections/faq.twig:10
+msgid "What are credits?"
+msgstr "什么是点数？"
+
+#: sections/faq.twig:11
+msgid "Credits are what you spend when you use the AI. Each request costs credits based on the model and how much it produces, and your plan includes a set amount."
+msgstr "使用 AI 时会消耗点数。每次请求消耗的点数取决于所用模型和生成内容的多少，你的套餐包含一定数量的点数。"
+
+#: sections/faq.twig:11
+msgid "Need more? Top up with a credit pack at any time."
+msgstr "点数不够？随时购买点数包进行充值。"
+
+#: sections/faq.twig:15
+msgid "How is usage measured?"
+msgstr "用量如何计算？"
+
+#: sections/faq.twig:16
+msgid "Each plan includes an amount of usage. What a request uses depends on the model and how much it produces, and your account always shows what you have left."
+msgstr "每个套餐都包含一定的用量。每次请求的用量取决于所用模型和生成内容的多少，你的账户会始终显示剩余用量。"
+
+#: sections/faq.twig:20
+msgid "Which AI models can I use?"
+msgstr "我可以使用哪些 AI 模型？"
+
+#: sections/faq.twig:21
+msgid "Each plan lists the models it includes. Hover over the models line on a plan to see them, and pick the one you want while you work."
+msgstr "每个套餐都会列出包含的模型。将鼠标悬停在套餐的模型一栏即可查看，并可在使用时选择所需模型。"
+
+#: sections/faq.twig:25
+msgid "Can I change or cancel my plan?"
+msgstr "我可以更改或取消套餐吗？"
+
+#: sections/faq.twig:26
+msgid "Yes. You can upgrade, downgrade or cancel from the billing page in your account at any time."
+msgstr "可以。你可以随时在账户的账单页面升级、降级或取消套餐。"
+
+#: sections/faq.twig:30
+msgid "Is there a free trial?"
+msgstr "有免费试用吗？"
+
+#: sections/faq.twig:31
+msgid "Yes. Paid subscriptions start with a :days-day free trial. Cancel before it ends and you will not be charged."
+msgstr "有。付费订阅可享受 :days 天免费试用。请在试用结束前取消，否则将会扣费。"
+
+#: sections/faq.twig:35
+msgid "Can I use it with my team?"
+msgstr "我可以和团队一起使用吗？"
+
+#: sections/faq.twig:36
+msgid "Yes. Invite teammates to your workspace and they share its plan. How many members you can add depends on your plan."
+msgstr "可以。邀请团队成员加入你的工作区，他们即可共享工作区的套餐。你可以添加的成员数量取决于你的套餐。"
+
+#: sections/faq.twig:40
+msgid "What happens to what I create?"
+msgstr "我创建的内容会怎样？"
+
+#: sections/faq.twig:41
+msgid "It is saved to your library so you can find it later. Switch on private mode and nothing you create is kept: it stays out of your history and is deleted automatically."
+msgstr "内容会保存到你的资料库中，方便你日后查找。开启隐私模式后，你创建的内容不会被保留：它不会出现在历史记录中，并会自动删除。"
+
+#: sections/faq.twig:49
 msgctxt "heading"
-msgid "Coolest Features"
-msgstr "最酷的功能"
+msgid "Frequently asked questions"
+msgstr "常见问题"
+
+#: sections/faq.twig:52
+msgid "Answers to what people ask most before they sign up."
+msgstr "解答人们注册前最常提出的问题。"
 
 #: sections/features.twig:13
 msgctxt "heading"
-msgid "High Quality Code"
-msgstr "高质量代码"
+msgid "Leading AI models"
+msgstr "领先的 AI 模型"
 
-#: sections/features.twig:16
-msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
-msgstr "基于领域驱动设计和洋葱架构原则开发。"
+#: sections/features.twig:14
+msgid "Use models from several AI providers in one app, without separate accounts."
+msgstr "无需单独注册账号，即可在一个应用中使用多家 AI 服务提供商的模型。"
+
+#: sections/features.twig:19
+msgctxt "heading"
+msgid "Custom assistants"
+msgstr "自定义助手"
+
+#: sections/features.twig:20
+msgid "Build assistants with their own instructions and knowledge, and reuse them any time."
+msgstr "创建拥有专属指令和知识的助手，随时重复使用。"
+
+#: sections/features.twig:25
+msgctxt "heading"
+msgid "Chat with your documents"
+msgstr "与文档对话"
 
 #: sections/features.twig:26
+msgid "Upload files and ask questions about them. Answers come from your own content."
+msgstr "上传文件并针对文件提问。回答将基于你自己的内容。"
+
+#: sections/features.twig:31
 msgctxt "heading"
-msgid "Modern Technologies"
-msgstr "现代技术"
+msgid "Live web search"
+msgstr "实时网页搜索"
 
-#: sections/features.twig:29
-msgid "Built with modern technologies for best structure and get maximum performance."
-msgstr "使用现代技术构建最佳结构并获得最大性能。"
+#: sections/features.twig:32
+msgid "Get answers that draw on up-to-date information from the web."
+msgstr "获取基于网络最新信息的答案。"
 
-#: sections/features.twig:39
+#: sections/features.twig:37
 msgctxt "heading"
-msgid "Friendly UI and UX"
-msgstr "友好的用户界面和用户体验"
+msgid "Connect your apps"
+msgstr "连接你的应用"
 
-#: sections/features.twig:42
-msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
-msgstr "享受无忧无虑且直观的用户界面，提升您的数字体验。"
+#: sections/features.twig:38
+msgid "Bring the tools you already use into the conversation."
+msgstr "在对话中使用你已经在用的工具。"
 
-#: sections/features.twig:52
+#: sections/features.twig:43
 msgctxt "heading"
-msgid "Dark Mode"
-msgstr "暗黑模式"
+msgid "Scheduled tasks"
+msgstr "定时任务"
+
+#: sections/features.twig:44
+msgid "Let the AI handle reminders, recurring reports and ongoing updates on a schedule."
+msgstr "让 AI 按计划处理提醒、定期报告和持续更新。"
+
+#: sections/features.twig:49
+msgctxt "heading"
+msgid "Private mode"
+msgstr "隐私模式"
+
+#: sections/features.twig:50
+msgid "What you create in private mode stays out of your history and library, and is deleted automatically."
+msgstr "在隐私模式下创建的内容不会出现在你的历史记录和资料库中，并会自动删除。"
 
 #: sections/features.twig:55
-msgid "Turn off the light and switch to dark mode your interface with one click."
-msgstr "一键关闭灯光，切换到暗模式界面。"
-
-#: sections/features.twig:65
 msgctxt "heading"
-msgid "Documentation"
-msgstr "文档"
+msgid "Built for teams"
+msgstr "为团队打造"
+
+#: sections/features.twig:56
+msgid "Invite your teammates to a shared workspace and work from the same plan."
+msgstr "邀请队友加入共享工作区，使用同一方案协同工作。"
+
+#: sections/features.twig:61
+msgctxt "heading"
+msgid "Your library"
+msgstr "你的资料库"
+
+#: sections/features.twig:62
+msgid "Everything you create is saved in one place, ready to find, reuse and download."
+msgstr "你创建的所有内容都会保存在同一处，方便查找、重复使用和下载。"
+
+#: sections/features.twig:67
+msgctxt "heading"
+msgid "Speaks your language"
+msgstr "支持你的语言"
 
 #: sections/features.twig:68
-msgid "An all-inclusive learning package seamlessly integrated into our community."
-msgstr "无缝集成到我们社区的全方位学习套餐。"
+msgid "Use the app in the language you are most comfortable with."
+msgstr "使用你最熟悉的语言体验应用。"
 
-#: sections/features.twig:78
+#: sections/features.twig:73
 msgctxt "heading"
-msgid "Payment Gateways"
-msgstr "支付网关"
+msgid "Light and dark mode"
+msgstr "浅色和深色模式"
 
-#: sections/features.twig:81
-msgid "Simplify transactions and boost security with payment gateway solutions."
-msgstr "简化交易并通过支付网关解决方案提升安全性。"
+#: sections/features.twig:74
+msgid "Work the way your eyes prefer, day or night."
+msgstr "无论白天还是夜晚，都能选择让眼睛舒适的模式。"
 
-#: sections/features.twig:91
+#: sections/features.twig:79
 msgctxt "heading"
-msgid "AI Generator"
-msgstr "人工智能生成器"
+msgid "Secure checkout"
+msgstr "安全结账"
 
-#: sections/features.twig:94
-msgid "Unlock limitless creativity with our AI-powered content generator."
-msgstr "通过我们的 AI 驱动内容生成器释放无限创意。"
+#: sections/features.twig:80
+msgid "Pay safely through trusted payment providers and manage your plan any time."
+msgstr "通过可信的支付服务商安全付款，并随时管理你的方案。"
 
-#: sections/features.twig:104
+#: sections/features.twig:86
 msgctxt "heading"
-msgid "SEO Friendly"
-msgstr "SEO 友好"
-
-#: sections/features.twig:107
-msgid "Boost your visibility and reach your audience effectively with AI generated content."
-msgstr "通过 AI 生成的内容提高您的可见性和有效吸引您的受众。"
-
-#: sections/features.twig:117
-msgctxt "heading"
-msgid "Advanced Dashboard"
-msgstr "高级仪表盘"
-
-#: sections/features.twig:120
-msgid "Empower your insights and control with our cutting-edge dashboard."
-msgstr "通过我们先进的仪表板增强您的洞察力和控制力。"
-
-#: sections/features.twig:130
-msgctxt "heading"
-msgid "Custom Templates"
-msgstr "自定义模板"
-
-#: sections/features.twig:133
-msgid "Transform your content creation with AI-driven custom templates."
-msgstr "使用 AI 驱动的自定义模板，改变您的内容创作方式。"
-
-#: sections/features.twig:144
-msgctxt "heading"
-msgid "Login via SM Accounts"
-msgstr "通过社交媒体账户登录"
-
-#: sections/features.twig:147
-msgid "Use Facebook or Google accounts as an alternatively access to platform."
-msgstr "使用 Facebook 或 Google 账户作为平台的替代访问方式。"
-
-#: sections/features.twig:157
-msgctxt "heading"
-msgid "High Quality Support"
-msgstr "高质量支持"
-
-#: sections/features.twig:160
-msgid "Our support team is available 24/7 to help you with any questions or concerns."
-msgstr "我们的支持团队随时为您提供帮助，解答任何问题或疑虑。"
+msgid "Everything in one workspace"
+msgstr "尽在一个工作区"
 
 #: sections/footer.twig:4
 msgid "All rights reserved."
 msgstr "版权所有。"
 
 #: sections/footer.twig:42
-#: sections/header.twig:19
+#: sections/header.twig:21
 msgctxt "button"
 msgid "Product"
 msgstr "产品"
 
 #: sections/footer.twig:46
-#: sections/header.twig:33
+#: sections/header.twig:28
+msgctxt "button"
+msgid "Features"
+msgstr "功能"
+
+#: sections/footer.twig:50
+#: sections/header.twig:35
 msgctxt "button"
 msgid "Pricing"
 msgstr "定价"
 
-#: sections/footer.twig:50
+#: sections/footer.twig:54
+#: sections/header.twig:42
 msgctxt "button"
 msgid "FAQ"
 msgstr "常见问题"
 
-#: sections/footer.twig:57
+#: sections/footer.twig:61
 msgctxt "button"
 msgid "Terms of services"
 msgstr "服务条款"
 
-#: sections/footer.twig:63
+#: sections/footer.twig:67
 msgctxt "button"
 msgid "Privacy policy"
 msgstr "隐私政策"
 
-#: sections/footer.twig:69
+#: sections/footer.twig:73
 msgctxt "button"
 msgid "Refund policy"
 msgstr "退款政策"
 
-#: sections/generators.twig:3
+#: sections/generators.twig:16
 msgctxt "heading"
-msgid "Meet your ultimate"
-msgstr "遇见你的终极"
+msgid "Every AI tool you need,"
+msgstr "你需要的每种 AI 工具，"
 
-#: sections/generators.twig:6
+#: sections/generators.twig:17
 msgctxt "heading"
-msgid "AI-Powered Content Platform"
-msgstr "AI驱动的内容平台"
+msgid "in one place"
+msgstr "尽在一处"
 
-#: sections/header.twig:26
-msgctxt "button"
-msgid "Featured"
-msgstr "精选"
-
-#: sections/header.twig:111
-#: sections/hero.twig:13
-msgctxt "button"
-msgid "Go to app"
-msgstr "前往应用"
-
-#: sections/header.twig:123
+#: sections/header.twig:129
 msgctxt "button"
 msgid "Library"
 msgstr "库"
 
-#: sections/header.twig:131
+#: sections/header.twig:136
 msgctxt "button"
 msgid "Billing"
 msgstr "账单"
@@ -246,239 +318,428 @@ msgctxt "button"
 msgid "Account"
 msgstr "账户"
 
-#: sections/header.twig:151
+#: sections/header.twig:154
 msgctxt "button"
 msgid "Logout"
 msgstr "登出"
 
-#: sections/header.twig:191
+#: sections/header.twig:195
 msgctxt "button"
 msgid "Login"
 msgstr "登录"
 
-#: sections/header.twig:196
-#: sections/pricing.twig:102
-msgctxt "button"
-msgid "Get started"
-msgstr "开始使用"
-
 #: sections/hero.twig:3
 msgctxt "heading"
-msgid "Transforming ideas into AI generated masterpieces"
-msgstr "将创意转化为 AI 生成的杰作"
+msgid "Your all-in-one AI workspace"
+msgstr "一站式 AI 工作区"
 
 #: sections/hero.twig:7
-msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
-msgstr "轻松生成高质量的 AI 驱动内容，满足您的需求。解锁无限可能，节省时间，今天就赚钱！"
+msgid "Chat, write and create with the leading AI models, all in one place. No juggling apps or subscriptions."
+msgstr "在同一处使用领先的 AI 模型聊天、写作和创作。无需在多个应用或订阅之间来回切换。"
 
-#: sections/hero.twig:19
-msgctxt "button"
-msgid "Get started now"
-msgstr "立即开始"
+#: sections/how-it-works.twig:2
+msgctxt "heading"
+msgid "Create your account"
+msgstr "创建你的账户"
+
+#: sections/how-it-works.twig:2
+msgid "Sign up in seconds and land on your own dashboard."
+msgstr "几秒钟即可注册，随后进入专属控制面板。"
 
 #: sections/how-it-works.twig:3
+msgctxt "heading"
+msgid "Pick a tool and a model"
+msgstr "选择工具和模型"
+
+#: sections/how-it-works.twig:3
+msgid "Chat, write, create images and more. Choose the AI model that suits the job."
+msgstr "聊天、写作、创作图像等。选择最适合当前任务的 AI 模型。"
+
+#: sections/how-it-works.twig:4
+msgctxt "heading"
+msgid "Describe it, get results"
+msgstr "描述需求，获取结果"
+
+#: sections/how-it-works.twig:4
+msgid "Say what you need in plain words, refine the result, and find it later in your library."
+msgstr "用简单的语言说出你的需求，优化结果，并在之后从资料库中找到它。"
+
+#: sections/how-it-works.twig:9
 msgctxt "heading"
 msgid "How it works"
 msgstr "工作原理"
 
-#: sections/how-it-works.twig:13
-msgctxt "heading"
-msgid "Choose Template"
-msgstr "选择模板"
-
-#: sections/how-it-works.twig:16
-msgid "Choose a our built in templates or create your own."
-msgstr "选择我们内置的模板或创建你自己的。"
-
-#: sections/how-it-works.twig:26
-msgctxt "heading"
-msgid "Describe"
-msgstr "描述"
-
-#: sections/how-it-works.twig:29
-msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
-msgstr "输入几句话来描述您的主题。添加关键词以指定您的品牌。"
-
-#: sections/how-it-works.twig:39
-msgctxt "heading"
-msgid "Generate"
-msgstr "生成"
-
-#: sections/how-it-works.twig:42
-msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
-msgstr "点击“生成”按钮，每次获得多种高转换率的副本。"
-
 #: sections/image.twig:5
-msgid "AI Image"
+msgid "AI images"
 msgstr "AI 图像"
 
 #: sections/image.twig:9
 msgctxt "heading"
-msgid "Visualize what you dream of. Create images from text."
-msgstr "将你的梦想可视化。从文本创建图像。"
+msgid "Turn a sentence into an image."
+msgstr "将一句话变成图像。"
 
 #: sections/image.twig:13
-msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
-msgstr "立即使用 AI 图像生成器创建令人惊叹的图像 - 您的艺术创新工具。"
+msgid "Describe what you want to see, pick a model, and get images you can download and reuse."
+msgstr "描述你想看到的内容，选择模型，然后生成可下载和重复使用的图像。"
 
-#: sections/image.twig:18
+#: sections/image.twig:17
 msgctxt "button"
-msgid "Try for free"
-msgstr "免费试用"
+msgid "Create an image"
+msgstr "创建图像"
+
+#: sections/models.twig:53
+msgid "Powered by the leading AI models"
+msgstr "由领先的 AI 模型提供支持"
 
 #: sections/presets.twig:9
-msgid "100+ AI Writer Templates"
-msgstr "100+ AI写作模板"
+msgid "Writing templates"
+msgstr "写作模板"
 
 #: sections/presets.twig:14
 msgctxt "heading"
-msgid "What can Writing Assistant create for you?"
-msgstr "写作助手能为您创作什么？"
+msgid "What will you write today?"
+msgstr "今天想写点什么？"
 
 #: sections/presets.twig:18
-msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer's block forever."
-msgstr "以惊人的速度写作，吸引你的观众，永远告别写作障碍。"
+msgid "Product descriptions, social posts, cover letters and more. Pick a template and skip the blank page."
+msgstr "产品描述、社交媒体帖子、求职信等。选择一个模板，告别空白页面。"
 
 #: sections/presets.twig:23
 msgctxt "button"
-msgid "Get Started for Free"
-msgstr "免费开始"
+msgid "Browse templates"
+msgstr "浏览模板"
 
-#: sections/pricing.twig:3
-msgctxt "heading"
-msgid "Pricing"
-msgstr "定价"
+#: sections/preview.twig:10
+msgid "Alex"
+msgstr "Alex"
 
-#: sections/pricing.twig:6
-msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
-msgstr "发现适合您需求的完美计划，并解锁无限可能。"
+#: sections/preview.twig:11
+msgid "Alex Morgan"
+msgstr "Alex Morgan"
 
-#: sections/pricing.twig:19
+#: sections/preview.twig:106
+msgid "Hello, :name!"
+msgstr "你好，:name！"
+
+#: sections/preview.twig:110
+msgid "How can I assist you?"
+msgstr "我能为你做些什么？"
+
+#: sections/preview.twig:115
+msgid "Ask anything…"
+msgstr "随便问……"
+
+#: sections/preview.twig:121
+msgid "Transcribe audio"
+msgstr "转录音频"
+
+#: sections/preview.twig:122
+msgid "Isolate sounds"
+msgstr "分离声音"
+
+#: sections/preview.twig:123
+msgid "Create videos"
+msgstr "创建视频"
+
+#: sections/preview.twig:124
+msgid "Create images"
+msgstr "创建图像"
+
+#: sections/preview.twig:147
+msgid "Scroll to explore"
+msgstr "滚动以探索"
+
+#: sections/pricing.twig:10
 msgctxt "button"
 msgid "Monthly"
 msgstr "每月"
 
-#: sections/pricing.twig:28
+#: sections/pricing.twig:11
 msgctxt "button"
 msgid "Yearly"
 msgstr "每年"
 
-#: sections/pricing.twig:37
+#: sections/pricing.twig:17
 msgctxt "button"
-msgid "Packs"
-msgstr "套餐"
+msgid "Lifetime"
+msgstr "终身"
 
-#: sections/pricing.twig:46
-msgctxt "button"
-msgid "Lifetime Deals"
-msgstr "终身优惠"
+#: sections/pricing.twig:42
+msgctxt "heading"
+msgid "Simple, transparent pricing"
+msgstr "简单透明的定价"
 
-#: sections/pricing.twig:78
-msgid "Most Popular"
+#: sections/pricing.twig:45
+msgid "Pick a plan that fits how you work. Upgrade, downgrade or cancel at any time."
+msgstr "选择适合您工作方式的方案。随时升级、降级或取消。"
+
+#: sections/pricing.twig:74
+msgid "Most popular"
 msgstr "最受欢迎"
 
-#: sections/pricing.twig:115
-msgid "Chat"
-msgstr "聊天"
+#: sections/pricing.twig:105
+msgid "Free"
+msgstr "免费"
 
-#: sections/pricing.twig:134
-msgid "Writer"
-msgstr "写作助手"
+#: sections/pricing.twig:112
+msgid "/ month"
+msgstr "/ 月"
+
+#: sections/pricing.twig:113
+msgid "/ year"
+msgstr "/ 年"
+
+#: sections/pricing.twig:114
+msgid "lifetime"
+msgstr "终身"
+
+#: sections/pricing.twig:115
+msgid "one-time"
+msgstr "一次性"
+
+#: sections/pricing.twig:123
+msgid "per month, billed yearly"
+msgstr "每月，按年计费"
+
+#: sections/pricing.twig:125
+msgid "Pay once. Allowance refreshes every month."
+msgstr "一次付费。额度每月刷新。"
+
+#: sections/pricing.twig:127
+msgid "Extra credits on top of your plan."
+msgstr "在您的方案额度之外额外赠送积分。"
+
+#: sections/pricing.twig:135
+msgctxt "button"
+msgid "Start :days-day free trial"
+msgstr "开始 :days 天免费试用"
+
+#: sections/pricing.twig:137
+msgctxt "button"
+msgid "Start for free"
+msgstr "免费开始"
 
 #: sections/pricing.twig:153
-msgid "Image generator"
-msgstr "图像生成器"
+msgctxt "button"
+msgid "See all plans"
+msgstr "查看所有方案"
 
-#: sections/pricing.twig:166
-msgid "Transcriber"
-msgstr "转录器"
-
-#: sections/pricing.twig:179
-msgid "Voiceover"
-msgstr "配音"
-
-#: sections/pricing.twig:192
-msgid "Voice isolator"
-msgstr "声音隔离器"
-
-#: sections/pricing.twig:205
-msgid "Classifier"
-msgstr "分类器"
-
-#: sections/pricing.twig:213
-msgid "Access to templates is disabled"
-msgstr "模板访问已禁用"
-
-#: sections/pricing.twig:216
-msgid "Access to all templates"
-msgstr "访问所有模板"
-
-#: sections/pricing.twig:232
-msgid "Priority support"
-msgstr "优先支持"
-
-#: sections/pricing.twig:235
-msgid "Basic support"
-msgstr "基础支持"
+#: sections/pricing.twig:161
+msgid "Not ready to pay? Try the free plan"
+msgstr "还没准备好付费？试试免费方案"
 
 #: sections/speech-to-text.twig:4
-msgid "Speech to Text"
+msgid "Speech to text"
 msgstr "语音转文字"
 
 #: sections/speech-to-text.twig:8
 msgctxt "heading"
-msgid "Transforming Spoken <br> Words into Text."
-msgstr "将口语<br>转换为文字。"
+msgid "Turn recordings into text."
+msgstr "将录音转换为文字。"
 
 #: sections/speech-to-text.twig:12
-msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
-msgstr "即时转录口语为文本，以增强生产力和可访问性。"
+msgid "Upload a meeting, interview or voice note and get a transcript you can copy and download."
+msgstr "上传会议录音、采访录音或语音备忘，即可获取可复制和下载的文字稿。"
 
-#: sections/speech-to-text.twig:17
+#: sections/speech-to-text.twig:16
 msgctxt "button"
-msgid "Convert now"
-msgstr "立即转换"
+msgid "Transcribe audio"
+msgstr "转录音频"
 
 #: sections/text-to-voice.twig:4
-msgid "Text to Voice"
-msgstr "文字转语音"
+msgid "Text to speech"
+msgstr "文本转语音"
 
 #: sections/text-to-voice.twig:8
 msgctxt "heading"
-msgid "Convert your texts into <br> Lifelike Speech"
-msgstr "将您的文本转换为<br>逼真的语音"
+msgid "Give your words a natural voice."
+msgstr "让你的文字拥有自然的声音。"
 
 #: sections/text-to-voice.twig:12
-msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
-msgstr "通过富有表现力的叙述提升您的内容：发现文本转语音的卓越之处。"
+msgid "Pick a lifelike voice for narration, videos and podcasts."
+msgstr "为旁白、视频和播客挑选一个逼真的声音。"
 
 #: sections/video.twig:11
-msgid "Video"
-msgstr "视频"
+msgid "AI video"
+msgstr "AI 视频"
 
 #: sections/video.twig:15
 msgctxt "heading"
-msgid "Generate high-quality videos using AI Video generation tool."
-msgstr "使用 AI 视频生成工具生成高质量视频。"
+msgid "Make short videos from a prompt or a photo."
+msgstr "根据提示词或照片制作短视频。"
 
 #: sections/video.twig:19
-msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
-msgstr "无需视频编辑技能——只需上传你的图片并输入几行提示，就完成了。"
+msgid "No editing skills needed. Write a few lines, add an image if you like, and the AI does the rest."
+msgstr "无需剪辑技能。写几句话，喜欢的话再添加图片，剩下的交给 AI。"
+
+#: sections/video.twig:23
+msgctxt "button"
+msgid "Make a video"
+msgstr "制作视频"
 
 #: sections/writer.twig:22
-msgid "AI Writer"
-msgstr "AI 写作助手"
+#: snippets/plan-rows.twig:103
+msgid "AI writer"
+msgstr "AI 写作"
 
 #: sections/writer.twig:26
 msgctxt "heading"
-msgid "Write SEO optimized blogs, sales emails and more..."
-msgstr "撰写SEO优化博客、销售邮件等..."
+msgid "Blog posts, emails and ads, written in minutes."
+msgstr "几分钟内写好博客文章、邮件和广告。"
 
 #: sections/writer.twig:30
-msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
-msgstr "在短时间内实现卓越成果。终于，一个你真正会使用的写作工具。"
+msgid "Start from a ready-made template, answer a few questions, and refine the draft in chat until it sounds like you."
+msgstr "从现成模板开始，回答几个问题，然后在聊天中完善草稿，直到它听起来像你的风格。"
 
-#: sections/writer.twig:35
+#: sections/writer.twig:34
 msgctxt "button"
-msgid "See all features"
-msgstr "查看所有功能"
+msgid "Start writing"
+msgstr "开始写作"
+
+#: snippets/plan-rows.twig:17
+msgid "Unlimited usage"
+msgstr "无限使用"
+
+#: snippets/plan-rows.twig:17
+msgid "Unlimited credits"
+msgstr "无限积分"
+
+#: snippets/plan-rows.twig:23
+msgid ":amount of usage"
+msgstr ":amount 用量"
+
+#: snippets/plan-rows.twig:24
+msgid ":amount of usage / month"
+msgstr ":amount 用量 / 月"
+
+#: snippets/plan-rows.twig:27
+msgid ":count credit"
+msgstr ":count 积分"
+
+#: snippets/plan-rows.twig:28
+msgid ":count credits"
+msgstr ":count 积分"
+
+#: snippets/plan-rows.twig:31
+msgid ":amount / month"
+msgstr ":amount / 月"
+
+#: snippets/plan-rows.twig:41
+msgid "Unlimited members"
+msgstr "成员数量不限"
+
+#: snippets/plan-rows.twig:43
+msgid "Just you"
+msgstr "仅限你自己"
+
+#: snippets/plan-rows.twig:45
+msgid "Up to :count members"
+msgstr "最多 :count 位成员"
+
+#: snippets/plan-rows.twig:63
+msgid "Every AI model"
+msgstr "所有 AI 模型"
+
+#: snippets/plan-rows.twig:64
+msgid "1 AI model"
+msgstr "1 个 AI 模型"
+
+#: snippets/plan-rows.twig:64
+msgid ":count AI models"
+msgstr ":count 个 AI 模型"
+
+#: snippets/plan-rows.twig:79
+msgid "Unlimited custom assistants"
+msgstr "无限量自定义助手"
+
+#: snippets/plan-rows.twig:79
+msgid ":count custom assistants"
+msgstr ":count 个自定义助手"
+
+#: snippets/plan-rows.twig:85
+msgid "Live web search"
+msgstr "实时网页搜索"
+
+#: snippets/plan-rows.twig:86
+msgid "Chat with your documents"
+msgstr "与文档对话"
+
+#: snippets/plan-rows.twig:87
+msgid "Read any web page"
+msgstr "阅读任意网页"
+
+#: snippets/plan-rows.twig:88
+msgid "YouTube insights"
+msgstr "YouTube 洞察"
+
+#: snippets/plan-rows.twig:89
+msgid "Create media in chat"
+msgstr "在聊天中创建媒体"
+
+#: snippets/plan-rows.twig:90
+msgid "Conversation memory"
+msgstr "对话记忆"
+
+#: snippets/plan-rows.twig:91
+msgid "Canvas"
+msgstr "画布"
+
+#: snippets/plan-rows.twig:92
+msgid "Clarifying questions"
+msgstr "澄清问题"
+
+#: snippets/plan-rows.twig:93
+msgid "Connectors to your apps"
+msgstr "连接到你的应用"
+
+#: snippets/plan-rows.twig:104
+msgid "Image generation"
+msgstr "图像生成"
+
+#: snippets/plan-rows.twig:105
+msgid "Video generation"
+msgstr "视频生成"
+
+#: snippets/plan-rows.twig:106
+msgid "Voiceover"
+msgstr "配音"
+
+#: snippets/plan-rows.twig:107
+msgid "Transcription"
+msgstr "转录"
+
+#: snippets/plan-rows.twig:108
+msgid "Voice isolation"
+msgstr "人声隔离"
+
+#: snippets/plan-rows.twig:109
+msgid "Content moderation"
+msgstr "内容审核"
+
+#: snippets/plan-rows.twig:122
+msgid "Unlimited voice clones"
+msgstr "无限语音克隆"
+
+#: snippets/plan-rows.twig:122
+msgid ":count voice clones"
+msgstr ":count 个语音克隆"
+
+#: snippets/plan-rows.twig:133
+msgid "Unlimited scheduled tasks"
+msgstr "无限计划任务"
+
+#: snippets/plan-rows.twig:133
+msgid ":count scheduled tasks"
+msgstr ":count 个计划任务"
+
+#: snippets/plan-rows.twig:140
+msgid "Private mode"
+msgstr "私密模式"
+
+#: snippets/plan-rows.twig:166
+msgid "Show less"
+msgstr "收起"
+
+#: snippets/plan-rows.twig:166
+msgid "Show all features"
+msgstr "显示全部功能"

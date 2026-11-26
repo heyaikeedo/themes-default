@@ -5,232 +5,304 @@ msgstr ""
 "X-Domain: theme\n"
 
 #: sections/chat.twig:11
-msgid "AI Chat Bot"
-msgstr "AI chatbot"
+#: snippets/plan-rows.twig:73
+msgid "AI chat"
+msgstr "AI chat"
 
 #: sections/chat.twig:15
 msgctxt "heading"
-msgid "That's remarkably human-like and engaging..."
-msgstr "Nevjerojatno nalik čovjeku i zanimljiv..."
+msgid "Ask anything. Get clear, useful answers."
+msgstr "Pitajte što god želite. Dobijte jasne, korisne odgovore."
 
 #: sections/chat.twig:19
-msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
-msgstr "Jednostavno odaberite svog asistenta i razgovarajte s prijateljskim chatbotom kako biste generirali ideje, unaprijedili svoj sadržaj ili si čak izmamili osmijeh."
+msgid "Chat with leading AI models to brainstorm, research, write and solve problems faster."
+msgstr "Razgovarajte s vodećim AI modelima kako biste brže razmjenjivali ideje, istraživali, pisali i rješavali probleme."
 
-#: sections/chat.twig:24
-#: sections/video.twig:24
+#: sections/chat.twig:23
 msgctxt "button"
-msgid "Try now"
-msgstr "Isprobaj sada"
+msgid "Start chatting"
+msgstr "Započnite razgovor"
 
-#: sections/code.twig:10
-msgid "AI Code"
-msgstr "AI kod"
-
-#: sections/code.twig:14
+#: sections/cta.twig:9
 msgctxt "heading"
-msgid "Ready to write code at the speed of light?"
-msgstr "Spremni pisati kod brzinom svjetlosti?"
+msgid "Pick up where you left off"
+msgstr "Nastavite gdje ste stali"
 
-#: sections/code.twig:18
-msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
-msgstr "Jednostavno programiranje uz AI generator koda: trenutačna rješenja za vaše programske potrebe."
+#: sections/cta.twig:11
+msgid "Your chats, documents and media are waiting in your workspace."
+msgstr "Vaši razgovori, dokumenti i mediji čekaju vas u radnom prostoru."
 
-#: sections/code.twig:23
+#: sections/cta.twig:14
+msgctxt "heading"
+msgid "Ready to get started?"
+msgstr "Spremni za početak?"
+
+#: sections/cta.twig:16
+msgid "Create your account and put AI to work in minutes."
+msgstr "Izradite račun i počnite koristiti AI za nekoliko minuta."
+
+#: sections/cta.twig:22
+#: sections/header.twig:118
+#: sections/hero.twig:13
 msgctxt "button"
-msgid "Start Generate Code"
-msgstr "Započni generirati kod"
+msgid "Go to app"
+msgstr "Idi u aplikaciju"
 
-#: sections/cta.twig:3
-msgctxt "heading"
-msgid "Ready to level-up?"
-msgstr "Spremni za napredak?"
-
-#: sections/cta.twig:5
-msgid "See how easy it can be to write amazing content."
-msgstr "Pogledajte kako jednostavno može biti pisati sjajan sadržaj."
-
-#: sections/cta.twig:10
+#: sections/cta.twig:22
+#: sections/header.twig:200
+#: sections/hero.twig:18
+#: sections/pricing.twig:139
 msgctxt "button"
-msgid "Get Started Now"
-msgstr "Započni odmah"
+msgid "Get started"
+msgstr "Započnite"
 
-#: sections/features.twig:3
+#: sections/cta.twig:28
+#: sections/hero.twig:25
+msgctxt "button"
+msgid "See pricing"
+msgstr "Pogledajte cijene"
+
+#: sections/faq.twig:10
+msgid "What are credits?"
+msgstr "Što su krediti?"
+
+#: sections/faq.twig:11
+msgid "Credits are what you spend when you use the AI. Each request costs credits based on the model and how much it produces, and your plan includes a set amount."
+msgstr "Krediti su ono što trošite kada koristite AI. Svaki zahtjev troši određeni broj kredita, ovisno o modelu i količini sadržaja koji generira, a vaš plan uključuje određeni broj kredita."
+
+#: sections/faq.twig:11
+msgid "Need more? Top up with a credit pack at any time."
+msgstr "Trebate još? U bilo kojem trenutku kupite paket kredita i nadopunite stanje."
+
+#: sections/faq.twig:15
+msgid "How is usage measured?"
+msgstr "Kako se mjeri potrošnja?"
+
+#: sections/faq.twig:16
+msgid "Each plan includes an amount of usage. What a request uses depends on the model and how much it produces, and your account always shows what you have left."
+msgstr "Svaki plan uključuje određenu količinu korištenja. Potrošnja pojedinog zahtjeva ovisi o modelu i količini sadržaja koji generira, a na računu uvijek možete vidjeti koliko vam je preostalo."
+
+#: sections/faq.twig:20
+msgid "Which AI models can I use?"
+msgstr "Koje AI modele mogu koristiti?"
+
+#: sections/faq.twig:21
+msgid "Each plan lists the models it includes. Hover over the models line on a plan to see them, and pick the one you want while you work."
+msgstr "Na svakom su planu navedeni modeli koje uključuje. Zadržite pokazivač iznad retka s modelima na planu da biste ih vidjeli, a zatim odaberite željeni model dok radite."
+
+#: sections/faq.twig:25
+msgid "Can I change or cancel my plan?"
+msgstr "Mogu li promijeniti ili otkazati svoj plan?"
+
+#: sections/faq.twig:26
+msgid "Yes. You can upgrade, downgrade or cancel from the billing page in your account at any time."
+msgstr "Da. U bilo kojem trenutku možete nadograditi, promijeniti na niži plan ili otkazati pretplatu na stranici za naplatu na svojem računu."
+
+#: sections/faq.twig:30
+msgid "Is there a free trial?"
+msgstr "Postoji li besplatno probno razdoblje?"
+
+#: sections/faq.twig:31
+msgid "Yes. Paid subscriptions start with a :days-day free trial. Cancel before it ends and you will not be charged."
+msgstr "Da. Plaćene pretplate počinju besplatnim probnim razdobljem od :days-day. Otkažite prije isteka i neće vam biti naplaćeno."
+
+#: sections/faq.twig:35
+msgid "Can I use it with my team?"
+msgstr "Mogu li ga koristiti sa svojim timom?"
+
+#: sections/faq.twig:36
+msgid "Yes. Invite teammates to your workspace and they share its plan. How many members you can add depends on your plan."
+msgstr "Da. Pozovite članove tima u svoj radni prostor i oni će dijeliti njegov paket. Broj članova koje možete dodati ovisi o vašem paketu."
+
+#: sections/faq.twig:40
+msgid "What happens to what I create?"
+msgstr "Što se događa s onim što izradim?"
+
+#: sections/faq.twig:41
+msgid "It is saved to your library so you can find it later. Switch on private mode and nothing you create is kept: it stays out of your history and is deleted automatically."
+msgstr "Sprema se u vašu biblioteku kako biste ga kasnije mogli pronaći. Uključite privatni način rada i ništa što izradite neće se čuvati: neće se pojaviti u vašoj povijesti i automatski će se izbrisati."
+
+#: sections/faq.twig:49
 msgctxt "heading"
-msgid "Coolest Features"
-msgstr "Najbolje značajke"
+msgid "Frequently asked questions"
+msgstr "Često postavljana pitanja"
+
+#: sections/faq.twig:52
+msgid "Answers to what people ask most before they sign up."
+msgstr "Odgovori na pitanja koja ljudi najčešće postavljaju prije registracije."
 
 #: sections/features.twig:13
 msgctxt "heading"
-msgid "High Quality Code"
-msgstr "Kvalitetan kod"
+msgid "Leading AI models"
+msgstr "Vodeći modeli umjetne inteligencije"
 
-#: sections/features.twig:16
-msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
-msgstr "Razvijen primjenom načela dizajna vođenog domenom i arhitekture Onion."
+#: sections/features.twig:14
+msgid "Use models from several AI providers in one app, without separate accounts."
+msgstr "Koristite modele nekoliko pružatelja usluga umjetne inteligencije u jednoj aplikaciji, bez zasebnih računa."
+
+#: sections/features.twig:19
+msgctxt "heading"
+msgid "Custom assistants"
+msgstr "Prilagođeni asistenti"
+
+#: sections/features.twig:20
+msgid "Build assistants with their own instructions and knowledge, and reuse them any time."
+msgstr "Izradite asistente s vlastitim uputama i znanjem te ih ponovno upotrijebite kad god želite."
+
+#: sections/features.twig:25
+msgctxt "heading"
+msgid "Chat with your documents"
+msgstr "Razgovarajte sa svojim dokumentima"
 
 #: sections/features.twig:26
+msgid "Upload files and ask questions about them. Answers come from your own content."
+msgstr "Prenesite datoteke i postavljajte pitanja o njima. Odgovori se temelje na vašem sadržaju."
+
+#: sections/features.twig:31
 msgctxt "heading"
-msgid "Modern Technologies"
-msgstr "Moderne tehnologije"
+msgid "Live web search"
+msgstr "Pretraživanje weba uživo"
 
-#: sections/features.twig:29
-msgid "Built with modern technologies for best structure and get maximum performance."
-msgstr "Izrađeno uz moderne tehnologije za najbolju strukturu i maksimalne performanse."
+#: sections/features.twig:32
+msgid "Get answers that draw on up-to-date information from the web."
+msgstr "Dobijte odgovore koji se temelje na ažuriranim informacijama s weba."
 
-#: sections/features.twig:39
+#: sections/features.twig:37
 msgctxt "heading"
-msgid "Friendly UI and UX"
-msgstr "Prijateljsko korisničko sučelje i iskustvo"
+msgid "Connect your apps"
+msgstr "Povežite svoje aplikacije"
 
-#: sections/features.twig:42
-msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
-msgstr "Uživajte u jednostavnom i intuitivnom korisničkom sučelju koje obogaćuje vaše digitalno iskustvo."
+#: sections/features.twig:38
+msgid "Bring the tools you already use into the conversation."
+msgstr "Uključite alate koje već koristite u razgovor."
 
-#: sections/features.twig:52
+#: sections/features.twig:43
 msgctxt "heading"
-msgid "Dark Mode"
-msgstr "Tamni način rada"
+msgid "Scheduled tasks"
+msgstr "Zakazani zadaci"
+
+#: sections/features.twig:44
+msgid "Let the AI handle reminders, recurring reports and ongoing updates on a schedule."
+msgstr "Prepustite umjetnoj inteligenciji podsjetnike, redovita izvješća i stalna ažuriranja prema rasporedu."
+
+#: sections/features.twig:49
+msgctxt "heading"
+msgid "Private mode"
+msgstr "Privatni način rada"
+
+#: sections/features.twig:50
+msgid "What you create in private mode stays out of your history and library, and is deleted automatically."
+msgstr "Ono što izradite u privatnom načinu rada neće se pojaviti u vašoj povijesti ni biblioteci te će se automatski izbrisati."
 
 #: sections/features.twig:55
-msgid "Turn off the light and switch to dark mode your interface with one click."
-msgstr "Isključite svjetlo i jednim klikom prebacite sučelje u tamni način rada."
-
-#: sections/features.twig:65
 msgctxt "heading"
-msgid "Documentation"
-msgstr "Dokumentacija"
+msgid "Built for teams"
+msgstr "Stvoreno za timove"
+
+#: sections/features.twig:56
+msgid "Invite your teammates to a shared workspace and work from the same plan."
+msgstr "Pozovite članove tima u zajednički radni prostor i radite prema istom planu."
+
+#: sections/features.twig:61
+msgctxt "heading"
+msgid "Your library"
+msgstr "Vaša biblioteka"
+
+#: sections/features.twig:62
+msgid "Everything you create is saved in one place, ready to find, reuse and download."
+msgstr "Sve što izradite sprema se na jednom mjestu, gdje to možete pronaći, ponovno upotrijebiti i preuzeti."
+
+#: sections/features.twig:67
+msgctxt "heading"
+msgid "Speaks your language"
+msgstr "Govori vašim jezikom"
 
 #: sections/features.twig:68
-msgid "An all-inclusive learning package seamlessly integrated into our community."
-msgstr "Potpun paket za učenje, besprijekorno integriran u našu zajednicu."
+msgid "Use the app in the language you are most comfortable with."
+msgstr "Koristite aplikaciju na jeziku koji vam najviše odgovara."
 
-#: sections/features.twig:78
+#: sections/features.twig:73
 msgctxt "heading"
-msgid "Payment Gateways"
-msgstr "Platni pristupnici"
+msgid "Light and dark mode"
+msgstr "Svijetli i tamni način rada"
 
-#: sections/features.twig:81
-msgid "Simplify transactions and boost security with payment gateway solutions."
-msgstr "Pojednostavnite transakcije i povećajte sigurnost pomoću rješenja za platne pristupnike."
+#: sections/features.twig:74
+msgid "Work the way your eyes prefer, day or night."
+msgstr "Radite na način koji odgovara vašim očima, danju ili noću."
 
-#: sections/features.twig:91
+#: sections/features.twig:79
 msgctxt "heading"
-msgid "AI Generator"
-msgstr "AI generator"
+msgid "Secure checkout"
+msgstr "Sigurno plaćanje"
 
-#: sections/features.twig:94
-msgid "Unlock limitless creativity with our AI-powered content generator."
-msgstr "Oslobodite neograničenu kreativnost uz naš generator sadržaja temeljen na umjetnoj inteligenciji."
+#: sections/features.twig:80
+msgid "Pay safely through trusted payment providers and manage your plan any time."
+msgstr "Plaćajte sigurno putem pouzdanih pružatelja usluga plaćanja i upravljajte svojim planom u bilo kojem trenutku."
 
-#: sections/features.twig:104
+#: sections/features.twig:86
 msgctxt "heading"
-msgid "SEO Friendly"
-msgstr "Prilagođeno SEO-u"
-
-#: sections/features.twig:107
-msgid "Boost your visibility and reach your audience effectively with AI generated content."
-msgstr "Povećajte svoju vidljivost i učinkovito doprite do svoje publike pomoću sadržaja generiranog umjetnom inteligencijom."
-
-#: sections/features.twig:117
-msgctxt "heading"
-msgid "Advanced Dashboard"
-msgstr "Napredna nadzorna ploča"
-
-#: sections/features.twig:120
-msgid "Empower your insights and control with our cutting-edge dashboard."
-msgstr "Unaprijedite svoje uvide i kontrolu uz našu najsuvremeniju nadzornu ploču."
-
-#: sections/features.twig:130
-msgctxt "heading"
-msgid "Custom Templates"
-msgstr "Prilagođeni predlošci"
-
-#: sections/features.twig:133
-msgid "Transform your content creation with AI-driven custom templates."
-msgstr "Unaprijedite stvaranje sadržaja prilagođenim predlošcima temeljenima na umjetnoj inteligenciji."
-
-#: sections/features.twig:144
-msgctxt "heading"
-msgid "Login via SM Accounts"
-msgstr "Prijava putem SM računa"
-
-#: sections/features.twig:147
-msgid "Use Facebook or Google accounts as an alternatively access to platform."
-msgstr "Upotrijebite Facebook ili Google račun za alternativni pristup platformi."
-
-#: sections/features.twig:157
-msgctxt "heading"
-msgid "High Quality Support"
-msgstr "Kvalitetna korisnička podrška"
-
-#: sections/features.twig:160
-msgid "Our support team is available 24/7 to help you with any questions or concerns."
-msgstr "Naš tim za podršku dostupan je 24/7 i rado će vam pomoći s bilo kakvim pitanjima ili nedoumicama."
+msgid "Everything in one workspace"
+msgstr "Sve na jednom radnom prostoru"
 
 #: sections/footer.twig:4
 msgid "All rights reserved."
 msgstr "Sva prava pridržana."
 
 #: sections/footer.twig:42
-#: sections/header.twig:19
+#: sections/header.twig:21
 msgctxt "button"
 msgid "Product"
 msgstr "Proizvod"
 
 #: sections/footer.twig:46
-#: sections/header.twig:33
+#: sections/header.twig:28
+msgctxt "button"
+msgid "Features"
+msgstr "Značajke"
+
+#: sections/footer.twig:50
+#: sections/header.twig:35
 msgctxt "button"
 msgid "Pricing"
 msgstr "Cijene"
 
-#: sections/footer.twig:50
+#: sections/footer.twig:54
+#: sections/header.twig:42
 msgctxt "button"
 msgid "FAQ"
 msgstr "Česta pitanja"
 
-#: sections/footer.twig:57
+#: sections/footer.twig:61
 msgctxt "button"
 msgid "Terms of services"
 msgstr "Uvjeti pružanja usluge"
 
-#: sections/footer.twig:63
+#: sections/footer.twig:67
 msgctxt "button"
 msgid "Privacy policy"
 msgstr "Pravila privatnosti"
 
-#: sections/footer.twig:69
+#: sections/footer.twig:73
 msgctxt "button"
 msgid "Refund policy"
 msgstr "Pravila povrata novca"
 
-#: sections/generators.twig:3
+#: sections/generators.twig:16
 msgctxt "heading"
-msgid "Meet your ultimate"
-msgstr "Upoznajte svoju vrhunsku"
+msgid "Every AI tool you need,"
+msgstr "Svaki AI alat koji vam treba,"
 
-#: sections/generators.twig:6
+#: sections/generators.twig:17
 msgctxt "heading"
-msgid "AI-Powered Content Platform"
-msgstr "Platformu za sadržaj pokretanu umjetnom inteligencijom"
+msgid "in one place"
+msgstr "na jednom mjestu"
 
-#: sections/header.twig:26
-msgctxt "button"
-msgid "Featured"
-msgstr "Istaknuto"
-
-#: sections/header.twig:111
-#: sections/hero.twig:13
-msgctxt "button"
-msgid "Go to app"
-msgstr "Idi u aplikaciju"
-
-#: sections/header.twig:123
+#: sections/header.twig:129
 msgctxt "button"
 msgid "Library"
 msgstr "Biblioteka"
 
-#: sections/header.twig:131
+#: sections/header.twig:136
 msgctxt "button"
 msgid "Billing"
 msgstr "Naplata"
@@ -240,239 +312,428 @@ msgctxt "button"
 msgid "Account"
 msgstr "Račun"
 
-#: sections/header.twig:151
+#: sections/header.twig:154
 msgctxt "button"
 msgid "Logout"
 msgstr "Odjava"
 
-#: sections/header.twig:191
+#: sections/header.twig:195
 msgctxt "button"
 msgid "Login"
 msgstr "Prijava"
 
-#: sections/header.twig:196
-#: sections/pricing.twig:102
-msgctxt "button"
-msgid "Get started"
-msgstr "Započnite"
-
 #: sections/hero.twig:3
 msgctxt "heading"
-msgid "Transforming ideas into AI generated masterpieces"
-msgstr "Pretvaramo ideje u remek-djela generirana umjetnom inteligencijom"
+msgid "Your all-in-one AI workspace"
+msgstr "Vaš sveobuhvatni AI radni prostor"
 
 #: sections/hero.twig:7
-msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
-msgstr "Jednostavno generirajte visokokvalitetan sadržaj pokretan umjetnom inteligencijom, prilagođen vašim potrebama. Otkrijte neograničene mogućnosti, uštedite vrijeme i počnite zarađivati već danas!"
+msgid "Chat, write and create with the leading AI models, all in one place. No juggling apps or subscriptions."
+msgstr "Razgovarajte, pišite i stvarajte pomoću vodećih AI modela, sve na jednom mjestu. Bez prebacivanja između aplikacija ili pretplata."
 
-#: sections/hero.twig:19
-msgctxt "button"
-msgid "Get started now"
-msgstr "Započnite odmah"
+#: sections/how-it-works.twig:2
+msgctxt "heading"
+msgid "Create your account"
+msgstr "Izradite račun"
+
+#: sections/how-it-works.twig:2
+msgid "Sign up in seconds and land on your own dashboard."
+msgstr "Registrirajte se za nekoliko sekundi i otvorit će vam se vlastita nadzorna ploča."
 
 #: sections/how-it-works.twig:3
+msgctxt "heading"
+msgid "Pick a tool and a model"
+msgstr "Odaberite alat i model"
+
+#: sections/how-it-works.twig:3
+msgid "Chat, write, create images and more. Choose the AI model that suits the job."
+msgstr "Razgovarajte, pišite, stvarajte slike i još mnogo toga. Odaberite AI model koji odgovara zadatku."
+
+#: sections/how-it-works.twig:4
+msgctxt "heading"
+msgid "Describe it, get results"
+msgstr "Opišite što želite i dobijte rezultate"
+
+#: sections/how-it-works.twig:4
+msgid "Say what you need in plain words, refine the result, and find it later in your library."
+msgstr "Recite jednostavnim riječima što vam treba, doradite rezultat i poslije ga pronađite u svojoj biblioteci."
+
+#: sections/how-it-works.twig:9
 msgctxt "heading"
 msgid "How it works"
 msgstr "Kako funkcionira"
 
-#: sections/how-it-works.twig:13
-msgctxt "heading"
-msgid "Choose Template"
-msgstr "Odaberite predložak"
-
-#: sections/how-it-works.twig:16
-msgid "Choose a our built in templates or create your own."
-msgstr "Odaberite jedan od naših ugrađenih predložaka ili izradite vlastiti."
-
-#: sections/how-it-works.twig:26
-msgctxt "heading"
-msgid "Describe"
-msgstr "Opišite"
-
-#: sections/how-it-works.twig:29
-msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
-msgstr "Unesite nekoliko rečenica kojima ćete opisati svoju temu. Dodajte ključne riječi kako biste odredili što odgovara vašem brendu."
-
-#: sections/how-it-works.twig:39
-msgctxt "heading"
-msgid "Generate"
-msgstr "Generiraj"
-
-#: sections/how-it-works.twig:42
-msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
-msgstr "Kliknite gumb „Generiraj” i svaki put dobijte raznovrstan tekst koji potiče konverzije."
-
 #: sections/image.twig:5
-msgid "AI Image"
-msgstr "AI slika"
+msgid "AI images"
+msgstr "AI slike"
 
 #: sections/image.twig:9
 msgctxt "heading"
-msgid "Visualize what you dream of. Create images from text."
-msgstr "Vizualizirajte svoje snove. Stvarajte slike iz teksta."
+msgid "Turn a sentence into an image."
+msgstr "Pretvorite rečenicu u sliku."
 
 #: sections/image.twig:13
-msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
-msgstr "Trenutačno stvarajte zadivljujuće slike pomoću AI generatora slika – alata za umjetničke inovacije."
+msgid "Describe what you want to see, pick a model, and get images you can download and reuse."
+msgstr "Opišite što želite vidjeti, odaberite model i izradite slike koje možete preuzeti i ponovno upotrijebiti."
 
-#: sections/image.twig:18
+#: sections/image.twig:17
 msgctxt "button"
-msgid "Try for free"
-msgstr "Isprobajte besplatno"
+msgid "Create an image"
+msgstr "Izradite sliku"
+
+#: sections/models.twig:53
+msgid "Powered by the leading AI models"
+msgstr "Pokreću ih vodeći AI modeli"
 
 #: sections/presets.twig:9
-msgid "100+ AI Writer Templates"
-msgstr "Više od 100 predložaka za AI pisanje"
+msgid "Writing templates"
+msgstr "Predlošci za pisanje"
 
 #: sections/presets.twig:14
 msgctxt "heading"
-msgid "What can Writing Assistant create for you?"
-msgstr "Što Pomoćnik za pisanje može stvoriti za vas?"
+msgid "What will you write today?"
+msgstr "Što ćete danas napisati?"
 
 #: sections/presets.twig:18
-msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer's block forever."
-msgstr "Pišite nevjerojatnom brzinom, osvojite svoju publiku i zauvijek se oprostite od spisateljske blokade."
+msgid "Product descriptions, social posts, cover letters and more. Pick a template and skip the blank page."
+msgstr "Opisi proizvoda, objave na društvenim mrežama, motivacijska pisma i još mnogo toga. Odaberite predložak i preskočite prazan list."
 
 #: sections/presets.twig:23
 msgctxt "button"
-msgid "Get Started for Free"
-msgstr "Započnite besplatno"
+msgid "Browse templates"
+msgstr "Pregledajte predloške"
 
-#: sections/pricing.twig:3
-msgctxt "heading"
-msgid "Pricing"
-msgstr "Cijene"
+#: sections/preview.twig:10
+msgid "Alex"
+msgstr "Alex"
 
-#: sections/pricing.twig:6
-msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
-msgstr "Otkrijte savršen plan za svoje potrebe i otvorite vrata svijetu mogućnosti."
+#: sections/preview.twig:11
+msgid "Alex Morgan"
+msgstr "Alex Morgan"
 
-#: sections/pricing.twig:19
+#: sections/preview.twig:106
+msgid "Hello, :name!"
+msgstr "Pozdrav, :name!"
+
+#: sections/preview.twig:110
+msgid "How can I assist you?"
+msgstr "Kako vam mogu pomoći?"
+
+#: sections/preview.twig:115
+msgid "Ask anything…"
+msgstr "Pitajte bilo što…"
+
+#: sections/preview.twig:121
+msgid "Transcribe audio"
+msgstr "Transkribirajte zvuk"
+
+#: sections/preview.twig:122
+msgid "Isolate sounds"
+msgstr "Izdvojite zvukove"
+
+#: sections/preview.twig:123
+msgid "Create videos"
+msgstr "Izradite videozapise"
+
+#: sections/preview.twig:124
+msgid "Create images"
+msgstr "Izradite slike"
+
+#: sections/preview.twig:147
+msgid "Scroll to explore"
+msgstr "Pomičite se za istraživanje"
+
+#: sections/pricing.twig:10
 msgctxt "button"
 msgid "Monthly"
 msgstr "Mjesečno"
 
-#: sections/pricing.twig:28
+#: sections/pricing.twig:11
 msgctxt "button"
 msgid "Yearly"
 msgstr "Godišnje"
 
-#: sections/pricing.twig:37
+#: sections/pricing.twig:17
 msgctxt "button"
-msgid "Packs"
-msgstr "Paketi"
+msgid "Lifetime"
+msgstr "Doživotno"
 
-#: sections/pricing.twig:46
-msgctxt "button"
-msgid "Lifetime Deals"
-msgstr "Doživotne ponude"
+#: sections/pricing.twig:42
+msgctxt "heading"
+msgid "Simple, transparent pricing"
+msgstr "Jednostavne i transparentne cijene"
 
-#: sections/pricing.twig:78
-msgid "Most Popular"
+#: sections/pricing.twig:45
+msgid "Pick a plan that fits how you work. Upgrade, downgrade or cancel at any time."
+msgstr "Odaberite plan koji odgovara vašem načinu rada. U bilo kojem trenutku možete prijeći na viši ili niži plan ili otkazati pretplatu."
+
+#: sections/pricing.twig:74
+msgid "Most popular"
 msgstr "Najpopularnije"
 
-#: sections/pricing.twig:115
-msgid "Chat"
-msgstr "Razgovor"
+#: sections/pricing.twig:105
+msgid "Free"
+msgstr "Besplatno"
 
-#: sections/pricing.twig:134
-msgid "Writer"
-msgstr "Pisac"
+#: sections/pricing.twig:112
+msgid "/ month"
+msgstr "/ mjesečno"
+
+#: sections/pricing.twig:113
+msgid "/ year"
+msgstr "/ godišnje"
+
+#: sections/pricing.twig:114
+msgid "lifetime"
+msgstr "doživotno"
+
+#: sections/pricing.twig:115
+msgid "one-time"
+msgstr "jednokratno"
+
+#: sections/pricing.twig:123
+msgid "per month, billed yearly"
+msgstr "mjesečno, uz godišnju naplatu"
+
+#: sections/pricing.twig:125
+msgid "Pay once. Allowance refreshes every month."
+msgstr "Platite jednom. Količina se obnavlja svakog mjeseca."
+
+#: sections/pricing.twig:127
+msgid "Extra credits on top of your plan."
+msgstr "Dodatni krediti povrh vašeg plana."
+
+#: sections/pricing.twig:135
+msgctxt "button"
+msgid "Start :days-day free trial"
+msgstr "Započnite :days-dnevno besplatno probno razdoblje"
+
+#: sections/pricing.twig:137
+msgctxt "button"
+msgid "Start for free"
+msgstr "Započnite besplatno"
 
 #: sections/pricing.twig:153
-msgid "Image generator"
-msgstr "Generator slika"
+msgctxt "button"
+msgid "See all plans"
+msgstr "Pogledajte sve planove"
 
-#: sections/pricing.twig:166
-msgid "Transcriber"
-msgstr "Transkripcija"
-
-#: sections/pricing.twig:179
-msgid "Voiceover"
-msgstr "Glasovna naracija"
-
-#: sections/pricing.twig:192
-msgid "Voice isolator"
-msgstr "Izdvajanje glasa"
-
-#: sections/pricing.twig:205
-msgid "Classifier"
-msgstr "Klasifikator"
-
-#: sections/pricing.twig:213
-msgid "Access to templates is disabled"
-msgstr "Pristup predlošcima je onemogućen"
-
-#: sections/pricing.twig:216
-msgid "Access to all templates"
-msgstr "Pristup svim predlošcima"
-
-#: sections/pricing.twig:232
-msgid "Priority support"
-msgstr "Prioritetna podrška"
-
-#: sections/pricing.twig:235
-msgid "Basic support"
-msgstr "Osnovna podrška"
+#: sections/pricing.twig:161
+msgid "Not ready to pay? Try the free plan"
+msgstr "Niste spremni platiti? Isprobajte besplatni plan"
 
 #: sections/speech-to-text.twig:4
-msgid "Speech to Text"
-msgstr "Govor u tekst"
+msgid "Speech to text"
+msgstr "Pretvorba govora u tekst"
 
 #: sections/speech-to-text.twig:8
 msgctxt "heading"
-msgid "Transforming Spoken <br> Words into Text."
-msgstr "Pretvaranje izgovorenih <br> riječi u tekst."
+msgid "Turn recordings into text."
+msgstr "Pretvorite snimke u tekst."
 
 #: sections/speech-to-text.twig:12
-msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
-msgstr "Odmah pretvorite govor u tekst za veću produktivnost i pristupačnost."
+msgid "Upload a meeting, interview or voice note and get a transcript you can copy and download."
+msgstr "Prenesite snimku sastanka, intervjua ili glasovnu bilješku i dobit ćete transkript koji možete kopirati i preuzeti."
 
-#: sections/speech-to-text.twig:17
+#: sections/speech-to-text.twig:16
 msgctxt "button"
-msgid "Convert now"
-msgstr "Pretvori sada"
+msgid "Transcribe audio"
+msgstr "Transkribiraj zvuk"
 
 #: sections/text-to-voice.twig:4
-msgid "Text to Voice"
+msgid "Text to speech"
 msgstr "Tekst u govor"
 
 #: sections/text-to-voice.twig:8
 msgctxt "heading"
-msgid "Convert your texts into <br> Lifelike Speech"
-msgstr "Pretvorite svoje tekstove u <br> prirodan govor"
+msgid "Give your words a natural voice."
+msgstr "Dajte svojim riječima prirodan glas."
 
 #: sections/text-to-voice.twig:12
-msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
-msgstr "Unaprijedite svoj sadržaj izražajnom naracijom: otkrijte izvrsnost pretvorbe teksta u govor."
+msgid "Pick a lifelike voice for narration, videos and podcasts."
+msgstr "Odaberite realističan glas za naraciju, videozapise i podcaste."
 
 #: sections/video.twig:11
-msgid "Video"
-msgstr "Video"
+msgid "AI video"
+msgstr "AI video"
 
 #: sections/video.twig:15
 msgctxt "heading"
-msgid "Generate high-quality videos using AI Video generation tool."
-msgstr "Generirajte visokokvalitetne videozapise pomoću alata za generiranje videozapisa umjetnom inteligencijom."
+msgid "Make short videos from a prompt or a photo."
+msgstr "Izradite kratke videozapise na temelju upita ili fotografije."
 
 #: sections/video.twig:19
-msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
-msgstr "Nisu potrebne vještine uređivanja videozapisa - samo prenesite svoje slike i unesite nekoliko redaka opisa i to je sve."
+msgid "No editing skills needed. Write a few lines, add an image if you like, and the AI does the rest."
+msgstr "Ne trebate znati uređivati videozapise. Napišite nekoliko redaka, dodajte sliku ako želite, a AI će se pobrinuti za ostalo."
+
+#: sections/video.twig:23
+msgctxt "button"
+msgid "Make a video"
+msgstr "Izradi videozapis"
 
 #: sections/writer.twig:22
-msgid "AI Writer"
+#: snippets/plan-rows.twig:103
+msgid "AI writer"
 msgstr "AI pisac"
 
 #: sections/writer.twig:26
 msgctxt "heading"
-msgid "Write SEO optimized blogs, sales emails and more..."
-msgstr "Pišite SEO-optimizirane blogove, prodajne e-poruke i još mnogo toga..."
+msgid "Blog posts, emails and ads, written in minutes."
+msgstr "Objave na blogu, e-poruke i oglasi napisani u nekoliko minuta."
 
 #: sections/writer.twig:30
-msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
-msgstr "Postignite vrhunske rezultate u djeliću vremena. Napokon, alat za pisanje koji ćete uistinu koristiti."
+msgid "Start from a ready-made template, answer a few questions, and refine the draft in chat until it sounds like you."
+msgstr "Započnite s gotovim predloškom, odgovorite na nekoliko pitanja i doradite nacrt u chatu dok ne zvuči kao vi."
 
-#: sections/writer.twig:35
+#: sections/writer.twig:34
 msgctxt "button"
-msgid "See all features"
-msgstr "Pogledajte sve značajke"
+msgid "Start writing"
+msgstr "Započni pisati"
+
+#: snippets/plan-rows.twig:17
+msgid "Unlimited usage"
+msgstr "Neograničeno korištenje"
+
+#: snippets/plan-rows.twig:17
+msgid "Unlimited credits"
+msgstr "Neograničen broj kredita"
+
+#: snippets/plan-rows.twig:23
+msgid ":amount of usage"
+msgstr ":amount korištenja"
+
+#: snippets/plan-rows.twig:24
+msgid ":amount of usage / month"
+msgstr ":amount korištenja / mjesec"
+
+#: snippets/plan-rows.twig:27
+msgid ":count credit"
+msgstr ":count kredit"
+
+#: snippets/plan-rows.twig:28
+msgid ":count credits"
+msgstr ":count kredita"
+
+#: snippets/plan-rows.twig:31
+msgid ":amount / month"
+msgstr ":amount / mjesec"
+
+#: snippets/plan-rows.twig:41
+msgid "Unlimited members"
+msgstr "Neograničen broj članova"
+
+#: snippets/plan-rows.twig:43
+msgid "Just you"
+msgstr "Samo vi"
+
+#: snippets/plan-rows.twig:45
+msgid "Up to :count members"
+msgstr "Do :count članova"
+
+#: snippets/plan-rows.twig:63
+msgid "Every AI model"
+msgstr "Svaki AI model"
+
+#: snippets/plan-rows.twig:64
+msgid "1 AI model"
+msgstr "1 AI model"
+
+#: snippets/plan-rows.twig:64
+msgid ":count AI models"
+msgstr ":count AI modela"
+
+#: snippets/plan-rows.twig:79
+msgid "Unlimited custom assistants"
+msgstr "Neograničen broj prilagođenih asistenata"
+
+#: snippets/plan-rows.twig:79
+msgid ":count custom assistants"
+msgstr ":count prilagođenih asistenata"
+
+#: snippets/plan-rows.twig:85
+msgid "Live web search"
+msgstr "Pretraživanje weba uživo"
+
+#: snippets/plan-rows.twig:86
+msgid "Chat with your documents"
+msgstr "Razgovarajte sa svojim dokumentima"
+
+#: snippets/plan-rows.twig:87
+msgid "Read any web page"
+msgstr "Čitanje bilo koje web-stranice"
+
+#: snippets/plan-rows.twig:88
+msgid "YouTube insights"
+msgstr "Uvidi s YouTubea"
+
+#: snippets/plan-rows.twig:89
+msgid "Create media in chat"
+msgstr "Izrada medija u chatu"
+
+#: snippets/plan-rows.twig:90
+msgid "Conversation memory"
+msgstr "Pamćenje razgovora"
+
+#: snippets/plan-rows.twig:91
+msgid "Canvas"
+msgstr "Canvas"
+
+#: snippets/plan-rows.twig:92
+msgid "Clarifying questions"
+msgstr "Pitanja za pojašnjenje"
+
+#: snippets/plan-rows.twig:93
+msgid "Connectors to your apps"
+msgstr "Povezivanje s vašim aplikacijama"
+
+#: snippets/plan-rows.twig:104
+msgid "Image generation"
+msgstr "Generiranje slika"
+
+#: snippets/plan-rows.twig:105
+msgid "Video generation"
+msgstr "Generiranje videozapisa"
+
+#: snippets/plan-rows.twig:106
+msgid "Voiceover"
+msgstr "Glasovna naracija"
+
+#: snippets/plan-rows.twig:107
+msgid "Transcription"
+msgstr "Transkripcija"
+
+#: snippets/plan-rows.twig:108
+msgid "Voice isolation"
+msgstr "Izolacija glasa"
+
+#: snippets/plan-rows.twig:109
+msgid "Content moderation"
+msgstr "Moderiranje sadržaja"
+
+#: snippets/plan-rows.twig:122
+msgid "Unlimited voice clones"
+msgstr "Neograničen broj glasovnih klonova"
+
+#: snippets/plan-rows.twig:122
+msgid ":count voice clones"
+msgstr ":count glasovnih klonova"
+
+#: snippets/plan-rows.twig:133
+msgid "Unlimited scheduled tasks"
+msgstr "Neograničen broj zakazanih zadataka"
+
+#: snippets/plan-rows.twig:133
+msgid ":count scheduled tasks"
+msgstr ":count zakazanih zadataka"
+
+#: snippets/plan-rows.twig:140
+msgid "Private mode"
+msgstr "Privatni način"
+
+#: snippets/plan-rows.twig:166
+msgid "Show less"
+msgstr "Prikaži manje"
+
+#: snippets/plan-rows.twig:166
+msgid "Show all features"
+msgstr "Prikaži sve značajke"

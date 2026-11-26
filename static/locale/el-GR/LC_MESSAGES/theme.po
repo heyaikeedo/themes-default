@@ -11,232 +11,304 @@ msgstr ""
 "X-Domain: theme\n"
 
 #: sections/chat.twig:11
-msgid "AI Chat Bot"
-msgstr "Ρομπότ Συνομιλίας AI"
+#: snippets/plan-rows.twig:73
+msgid "AI chat"
+msgstr "Συνομιλία με AI"
 
 #: sections/chat.twig:15
 msgctxt "heading"
-msgid "That's remarkably human-like and engaging..."
-msgstr "Αυτό είναι αξιοσημείωτα ανθρώπινο και ελκυστικό..."
+msgid "Ask anything. Get clear, useful answers."
+msgstr "Ρωτήστε ό,τι θέλετε. Λάβετε σαφείς, χρήσιμες απαντήσεις."
 
 #: sections/chat.twig:19
-msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
-msgstr "Απλά επιλέξτε τον Βοηθό σας και αλληλεπιδράστε με έναν φιλικό ρομπότ συνομιλίας για να δημιουργήσετε ιδέες, βελτιώσετε το περιεχόμενό σας ή ακόμη και να φέρετε ένα χαμόγελο στην πρόσωπό σας."
+msgid "Chat with leading AI models to brainstorm, research, write and solve problems faster."
+msgstr "Συνομιλήστε με κορυφαία μοντέλα AI για να κάνετε καταιγισμό ιδεών, να κάνετε έρευνα, να γράφετε και να λύνετε προβλήματα πιο γρήγορα."
 
-#: sections/chat.twig:24
-#: sections/video.twig:24
+#: sections/chat.twig:23
 msgctxt "button"
-msgid "Try now"
-msgstr "Δοκιμάστε τώρα"
+msgid "Start chatting"
+msgstr "Ξεκινήστε τη συνομιλία"
 
-#: sections/code.twig:10
-msgid "AI Code"
-msgstr "Κώδικας AI"
-
-#: sections/code.twig:14
+#: sections/cta.twig:9
 msgctxt "heading"
-msgid "Ready to write code at the speed of light?"
-msgstr "Έτοιμοι να γράψετε κώδικα με την ταχύτητα του φωτός;"
+msgid "Pick up where you left off"
+msgstr "Συνεχίστε από εκεί που σταματήσατε"
 
-#: sections/code.twig:18
-msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
-msgstr "Γράψτε κώδικα χωρίς προσπάθεια με τον γεννήτρια κώδικα AI: Λύσεις αμέσως για τις ανάγκες προγραμματισμού σας."
+#: sections/cta.twig:11
+msgid "Your chats, documents and media are waiting in your workspace."
+msgstr "Οι συνομιλίες, τα έγγραφα και τα πολυμέσα σας περιμένουν στον χώρο εργασίας σας."
 
-#: sections/code.twig:23
+#: sections/cta.twig:14
+msgctxt "heading"
+msgid "Ready to get started?"
+msgstr "Είστε έτοιμοι να ξεκινήσετε;"
+
+#: sections/cta.twig:16
+msgid "Create your account and put AI to work in minutes."
+msgstr "Δημιουργήστε τον λογαριασμό σας και αξιοποιήστε την AI μέσα σε λίγα λεπτά."
+
+#: sections/cta.twig:22
+#: sections/header.twig:118
+#: sections/hero.twig:13
 msgctxt "button"
-msgid "Start Generate Code"
-msgstr "Ξεκινήστε τη Δημιουργία Κώδικα"
+msgid "Go to app"
+msgstr "Μετάβαση στην εφαρμογή"
 
-#: sections/cta.twig:3
-msgctxt "heading"
-msgid "Ready to level-up?"
-msgstr "Έτοιμοι να ανεβείτε επίπεδο;"
-
-#: sections/cta.twig:5
-msgid "See how easy it can be to write amazing content."
-msgstr "Δείτε πόσο εύκολο μπορεί να είναι να γράψετε εκπληκτικό περιεχόμενο."
-
-#: sections/cta.twig:10
+#: sections/cta.twig:22
+#: sections/header.twig:200
+#: sections/hero.twig:18
+#: sections/pricing.twig:139
 msgctxt "button"
-msgid "Get Started Now"
-msgstr "Ξεκινήστε Τώρα"
+msgid "Get started"
+msgstr "Ξεκινήστε"
 
-#: sections/features.twig:3
+#: sections/cta.twig:28
+#: sections/hero.twig:25
+msgctxt "button"
+msgid "See pricing"
+msgstr "Δείτε τις τιμές"
+
+#: sections/faq.twig:10
+msgid "What are credits?"
+msgstr "Τι είναι οι μονάδες;"
+
+#: sections/faq.twig:11
+msgid "Credits are what you spend when you use the AI. Each request costs credits based on the model and how much it produces, and your plan includes a set amount."
+msgstr "Οι μονάδες είναι αυτό που καταναλώνετε όταν χρησιμοποιείτε την AI. Κάθε αίτημα κοστίζει μονάδες ανάλογα με το μοντέλο και το πόσο περιεχόμενο παράγει, ενώ το πρόγραμμά σας περιλαμβάνει συγκεκριμένο αριθμό μονάδων."
+
+#: sections/faq.twig:11
+msgid "Need more? Top up with a credit pack at any time."
+msgstr "Χρειάζεστε περισσότερες; Προσθέστε μονάδες με ένα πακέτο ανά πάσα στιγμή."
+
+#: sections/faq.twig:15
+msgid "How is usage measured?"
+msgstr "Πώς μετράται η χρήση;"
+
+#: sections/faq.twig:16
+msgid "Each plan includes an amount of usage. What a request uses depends on the model and how much it produces, and your account always shows what you have left."
+msgstr "Κάθε πρόγραμμα περιλαμβάνει συγκεκριμένο όριο χρήσης. Η κατανάλωση ενός αιτήματος εξαρτάται από το μοντέλο και το πόσο περιεχόμενο παράγει, ενώ ο λογαριασμός σας δείχνει πάντα τι σας απομένει."
+
+#: sections/faq.twig:20
+msgid "Which AI models can I use?"
+msgstr "Ποια μοντέλα AI μπορώ να χρησιμοποιήσω;"
+
+#: sections/faq.twig:21
+msgid "Each plan lists the models it includes. Hover over the models line on a plan to see them, and pick the one you want while you work."
+msgstr "Κάθε πρόγραμμα αναφέρει τα μοντέλα που περιλαμβάνει. Περάστε τον δείκτη πάνω από τη γραμμή μοντέλων ενός προγράμματος για να τα δείτε και επιλέξτε αυτό που θέλετε όσο εργάζεστε."
+
+#: sections/faq.twig:25
+msgid "Can I change or cancel my plan?"
+msgstr "Μπορώ να αλλάξω ή να ακυρώσω το πρόγραμμά μου;"
+
+#: sections/faq.twig:26
+msgid "Yes. You can upgrade, downgrade or cancel from the billing page in your account at any time."
+msgstr "Ναι. Μπορείτε ανά πάσα στιγμή να αναβαθμίσετε, να υποβαθμίσετε ή να ακυρώσετε το πρόγραμμά σας από τη σελίδα χρέωσης του λογαριασμού σας."
+
+#: sections/faq.twig:30
+msgid "Is there a free trial?"
+msgstr "Υπάρχει δωρεάν δοκιμή;"
+
+#: sections/faq.twig:31
+msgid "Yes. Paid subscriptions start with a :days-day free trial. Cancel before it ends and you will not be charged."
+msgstr "Ναι. Οι συνδρομές επί πληρωμή ξεκινούν με δωρεάν δοκιμή διάρκειας :days-day. Ακυρώστε πριν λήξει και δεν θα χρεωθείτε."
+
+#: sections/faq.twig:35
+msgid "Can I use it with my team?"
+msgstr "Μπορώ να το χρησιμοποιήσω με την ομάδα μου;"
+
+#: sections/faq.twig:36
+msgid "Yes. Invite teammates to your workspace and they share its plan. How many members you can add depends on your plan."
+msgstr "Ναι. Προσκαλέστε τα μέλη της ομάδας σας στον χώρο εργασίας σας και θα χρησιμοποιούν το ίδιο πρόγραμμα. Ο αριθμός των μελών που μπορείτε να προσθέσετε εξαρτάται από το πρόγραμμά σας."
+
+#: sections/faq.twig:40
+msgid "What happens to what I create?"
+msgstr "Τι συμβαίνει με όσα δημιουργώ;"
+
+#: sections/faq.twig:41
+msgid "It is saved to your library so you can find it later. Switch on private mode and nothing you create is kept: it stays out of your history and is deleted automatically."
+msgstr "Αποθηκεύονται στη βιβλιοθήκη σας, ώστε να μπορείτε να τα βρείτε αργότερα. Ενεργοποιήστε την ιδιωτική λειτουργία και τίποτα από όσα δημιουργείτε δεν διατηρείται: δεν εμφανίζεται στο ιστορικό σας και διαγράφεται αυτόματα."
+
+#: sections/faq.twig:49
 msgctxt "heading"
-msgid "Coolest Features"
-msgstr "Κορυφαία Χαρακτηριστικά"
+msgid "Frequently asked questions"
+msgstr "Συχνές ερωτήσεις"
+
+#: sections/faq.twig:52
+msgid "Answers to what people ask most before they sign up."
+msgstr "Απαντήσεις στις ερωτήσεις που κάνουν πιο συχνά οι χρήστες πριν εγγραφούν."
 
 #: sections/features.twig:13
 msgctxt "heading"
-msgid "High Quality Code"
-msgstr "Κώδικας Υψηλής Ποιότητας"
+msgid "Leading AI models"
+msgstr "Κορυφαία μοντέλα AI"
 
-#: sections/features.twig:16
-msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
-msgstr "Αναπτύχθηκε χρησιμοποιώντας τις αρχές Domain-Driven Design και Onion Architecture."
+#: sections/features.twig:14
+msgid "Use models from several AI providers in one app, without separate accounts."
+msgstr "Χρησιμοποιήστε μοντέλα από πολλούς παρόχους AI σε μία εφαρμογή, χωρίς ξεχωριστούς λογαριασμούς."
+
+#: sections/features.twig:19
+msgctxt "heading"
+msgid "Custom assistants"
+msgstr "Προσαρμοσμένοι βοηθοί"
+
+#: sections/features.twig:20
+msgid "Build assistants with their own instructions and knowledge, and reuse them any time."
+msgstr "Δημιουργήστε βοηθούς με δικές τους οδηγίες και γνώσεις και χρησιμοποιήστε τους ξανά όποτε θέλετε."
+
+#: sections/features.twig:25
+msgctxt "heading"
+msgid "Chat with your documents"
+msgstr "Συνομιλία με τα έγγραφά σας"
 
 #: sections/features.twig:26
+msgid "Upload files and ask questions about them. Answers come from your own content."
+msgstr "Ανεβάστε αρχεία και κάντε ερωτήσεις σχετικά με αυτά. Οι απαντήσεις βασίζονται στο δικό σας περιεχόμενο."
+
+#: sections/features.twig:31
 msgctxt "heading"
-msgid "Modern Technologies"
-msgstr "Μοντέρνες Τεχνολογίες"
+msgid "Live web search"
+msgstr "Ζωντανή αναζήτηση στον ιστό"
 
-#: sections/features.twig:29
-msgid "Built with modern technologies for best structure and get maximum performance."
-msgstr "Χτίστηκε με σύγχρονες τεχνολογίες για την καλύτερη δομή και τη μέγιστη απόδοση."
+#: sections/features.twig:32
+msgid "Get answers that draw on up-to-date information from the web."
+msgstr "Λάβετε απαντήσεις που βασίζονται σε ενημερωμένες πληροφορίες από τον ιστό."
 
-#: sections/features.twig:39
+#: sections/features.twig:37
 msgctxt "heading"
-msgid "Friendly UI and UX"
-msgstr "Φιλικό UI και UX"
+msgid "Connect your apps"
+msgstr "Συνδέστε τις εφαρμογές σας"
 
-#: sections/features.twig:42
-msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
-msgstr "Απολαύστε μια εύκολη και ευδιάκριτη διεπαφή χρήστη που βελτιώνει την ψηφιακή σας εμπειρία."
+#: sections/features.twig:38
+msgid "Bring the tools you already use into the conversation."
+msgstr "Ενσωματώστε στη συνομιλία τα εργαλεία που ήδη χρησιμοποιείτε."
 
-#: sections/features.twig:52
+#: sections/features.twig:43
 msgctxt "heading"
-msgid "Dark Mode"
-msgstr "Σκοτεινή Λειτουργία"
+msgid "Scheduled tasks"
+msgstr "Προγραμματισμένες εργασίες"
+
+#: sections/features.twig:44
+msgid "Let the AI handle reminders, recurring reports and ongoing updates on a schedule."
+msgstr "Αφήστε την AI να διαχειρίζεται υπενθυμίσεις, επαναλαμβανόμενες αναφορές και συνεχείς ενημερώσεις βάσει προγράμματος."
+
+#: sections/features.twig:49
+msgctxt "heading"
+msgid "Private mode"
+msgstr "Ιδιωτική λειτουργία"
+
+#: sections/features.twig:50
+msgid "What you create in private mode stays out of your history and library, and is deleted automatically."
+msgstr "Όσα δημιουργείτε στην ιδιωτική λειτουργία δεν εμφανίζονται στο ιστορικό και τη βιβλιοθήκη σας και διαγράφονται αυτόματα."
 
 #: sections/features.twig:55
-msgid "Turn off the light and switch to dark mode your interface with one click."
-msgstr "Σβήστε το φως και αλλάξτε τη διεπαφή σας σε σκοτεινή λειτουργία με ένα κλικ."
-
-#: sections/features.twig:65
 msgctxt "heading"
-msgid "Documentation"
-msgstr "Τεκμηρίωση"
+msgid "Built for teams"
+msgstr "Σχεδιασμένο για ομάδες"
+
+#: sections/features.twig:56
+msgid "Invite your teammates to a shared workspace and work from the same plan."
+msgstr "Προσκαλέστε τους συνεργάτες σας σε έναν κοινόχρηστο χώρο εργασίας και δουλέψτε με το ίδιο πλάνο."
+
+#: sections/features.twig:61
+msgctxt "heading"
+msgid "Your library"
+msgstr "Η βιβλιοθήκη σας"
+
+#: sections/features.twig:62
+msgid "Everything you create is saved in one place, ready to find, reuse and download."
+msgstr "Ό,τι δημιουργείτε αποθηκεύεται σε ένα μέρος, έτοιμο για εύρεση, επαναχρησιμοποίηση και λήψη."
+
+#: sections/features.twig:67
+msgctxt "heading"
+msgid "Speaks your language"
+msgstr "Μιλά τη γλώσσα σας"
 
 #: sections/features.twig:68
-msgid "An all-inclusive learning package seamlessly integrated into our community."
-msgstr "Ένα ολοκληρωμένο πακέτο μάθησης ενσωματωμένο άψογα στην κοινότητά μας."
+msgid "Use the app in the language you are most comfortable with."
+msgstr "Χρησιμοποιήστε την εφαρμογή στη γλώσσα με την οποία αισθάνεστε πιο άνετα."
 
-#: sections/features.twig:78
+#: sections/features.twig:73
 msgctxt "heading"
-msgid "Payment Gateways"
-msgstr "Πύλες Πληρωμών"
+msgid "Light and dark mode"
+msgstr "Ανοιχτόχρωμη και σκοτεινή λειτουργία"
 
-#: sections/features.twig:81
-msgid "Simplify transactions and boost security with payment gateway solutions."
-msgstr "Απλοποιήστε τις συναλλαγές και ενισχύστε την ασφάλεια με λύσεις πύλης πληρωμών."
+#: sections/features.twig:74
+msgid "Work the way your eyes prefer, day or night."
+msgstr "Δουλέψτε όπως προτιμούν τα μάτια σας, μέρα ή νύχτα."
 
-#: sections/features.twig:91
+#: sections/features.twig:79
 msgctxt "heading"
-msgid "AI Generator"
-msgstr "Γεννήτρια Τεχνητής Νοημοσύνης"
+msgid "Secure checkout"
+msgstr "Ασφαλής ολοκλήρωση αγοράς"
 
-#: sections/features.twig:94
-msgid "Unlock limitless creativity with our AI-powered content generator."
-msgstr "Ξεκλειδώστε απεριόριστη δημιουργικότητα με τον δημιουργό περιεχομένου που τροφοδοτείται από AI."
+#: sections/features.twig:80
+msgid "Pay safely through trusted payment providers and manage your plan any time."
+msgstr "Πληρώστε με ασφάλεια μέσω αξιόπιστων παρόχων πληρωμών και διαχειριστείτε το πλάνο σας ανά πάσα στιγμή."
 
-#: sections/features.twig:104
+#: sections/features.twig:86
 msgctxt "heading"
-msgid "SEO Friendly"
-msgstr "Φιλικό προς SEO"
-
-#: sections/features.twig:107
-msgid "Boost your visibility and reach your audience effectively with AI generated content."
-msgstr "Αυξήστε την ορατότητά σας και επιτύχετε την κοινότητά σας με αποτελεσματικό τρόπο με περιεχόμενο που δημιουργείται από AI."
-
-#: sections/features.twig:117
-msgctxt "heading"
-msgid "Advanced Dashboard"
-msgstr "Προηγμένος Πίνακας Ελέγχου"
-
-#: sections/features.twig:120
-msgid "Empower your insights and control with our cutting-edge dashboard."
-msgstr "Ενισχύστε τις γνώσεις και τον έλεγχό σας με τον προηγμένο πίνακα ελέγχου μας."
-
-#: sections/features.twig:130
-msgctxt "heading"
-msgid "Custom Templates"
-msgstr "Προσαρμοσμένα Πρότυπα"
-
-#: sections/features.twig:133
-msgid "Transform your content creation with AI-driven custom templates."
-msgstr "Μεταμορφώστε τη δημιουργία περιεχομένου σας με προσαρμοσμένα πρότυπα που βασίζονται σε AI."
-
-#: sections/features.twig:144
-msgctxt "heading"
-msgid "Login via SM Accounts"
-msgstr "Σύνδεση μέσω Λογαριασμών Κοινωνικών Δικτύων"
-
-#: sections/features.twig:147
-msgid "Use Facebook or Google accounts as an alternatively access to platform."
-msgstr "Χρησιμοποιήστε λογαριασμούς Facebook ή Google ως εναλλακτική πρόσβαση στην πλατφόρμα."
-
-#: sections/features.twig:157
-msgctxt "heading"
-msgid "High Quality Support"
-msgstr "Υποστήριξη Υψηλής Ποιότητας"
-
-#: sections/features.twig:160
-msgid "Our support team is available 24/7 to help you with any questions or concerns."
-msgstr "Το ομάδα υποστήριξης μας είναι διαθέσιμη 24/7 για να σας βοηθήσει με οποιαδήποτε ερώτηση ή ανησυχία."
+msgid "Everything in one workspace"
+msgstr "Όλα σε έναν χώρο εργασίας"
 
 #: sections/footer.twig:4
 msgid "All rights reserved."
 msgstr "Με επιφύλαξη παντός δικαιώματος."
 
 #: sections/footer.twig:42
-#: sections/header.twig:19
+#: sections/header.twig:21
 msgctxt "button"
 msgid "Product"
 msgstr "Προϊόν"
 
 #: sections/footer.twig:46
-#: sections/header.twig:33
+#: sections/header.twig:28
+msgctxt "button"
+msgid "Features"
+msgstr "Λειτουργίες"
+
+#: sections/footer.twig:50
+#: sections/header.twig:35
 msgctxt "button"
 msgid "Pricing"
 msgstr "Τιμολόγηση"
 
-#: sections/footer.twig:50
+#: sections/footer.twig:54
+#: sections/header.twig:42
 msgctxt "button"
 msgid "FAQ"
 msgstr "Συχνές Ερωτήσεις"
 
-#: sections/footer.twig:57
+#: sections/footer.twig:61
 msgctxt "button"
 msgid "Terms of services"
 msgstr "Όροι υπηρεσιών"
 
-#: sections/footer.twig:63
+#: sections/footer.twig:67
 msgctxt "button"
 msgid "Privacy policy"
 msgstr "Πολιτική απορρήτου"
 
-#: sections/footer.twig:69
+#: sections/footer.twig:73
 msgctxt "button"
 msgid "Refund policy"
 msgstr "Πολιτική επιστροφών"
 
-#: sections/generators.twig:3
+#: sections/generators.twig:16
 msgctxt "heading"
-msgid "Meet your ultimate"
-msgstr "Γνωρίστε το απόλυτο σας"
+msgid "Every AI tool you need,"
+msgstr "Κάθε εργαλείο AI που χρειάζεστε,"
 
-#: sections/generators.twig:6
+#: sections/generators.twig:17
 msgctxt "heading"
-msgid "AI-Powered Content Platform"
-msgstr "Πλατφόρμα Περιεχομένου με Τεχνητή Νοημοσύνη"
+msgid "in one place"
+msgstr "σε ένα μέρος"
 
-#: sections/header.twig:26
-msgctxt "button"
-msgid "Featured"
-msgstr "Προτεινόμενο"
-
-#: sections/header.twig:111
-#: sections/hero.twig:13
-msgctxt "button"
-msgid "Go to app"
-msgstr "Μετάβαση στην εφαρμογή"
-
-#: sections/header.twig:123
+#: sections/header.twig:129
 msgctxt "button"
 msgid "Library"
 msgstr "Βιβλιοθήκη"
 
-#: sections/header.twig:131
+#: sections/header.twig:136
 msgctxt "button"
 msgid "Billing"
 msgstr "Χρέωση"
@@ -246,239 +318,428 @@ msgctxt "button"
 msgid "Account"
 msgstr "Λογαριασμός"
 
-#: sections/header.twig:151
+#: sections/header.twig:154
 msgctxt "button"
 msgid "Logout"
 msgstr "Αποσύνδεση"
 
-#: sections/header.twig:191
+#: sections/header.twig:195
 msgctxt "button"
 msgid "Login"
 msgstr "Σύνδεση"
 
-#: sections/header.twig:196
-#: sections/pricing.twig:102
-msgctxt "button"
-msgid "Get started"
-msgstr "Ξεκινήστε"
-
 #: sections/hero.twig:3
 msgctxt "heading"
-msgid "Transforming ideas into AI generated masterpieces"
-msgstr "Μετατρέποντας ιδέες σε αριστουργήματα που δημιουργούνται από AI"
+msgid "Your all-in-one AI workspace"
+msgstr "Ο ολοκληρωμένος χώρος εργασίας σας με AI"
 
 #: sections/hero.twig:7
-msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
-msgstr "Δημιουργήστε εύκολα υψηλής ποιότητας περιεχόμενο που διευθύνεται από AI σύμφωνα με τις ανάγκες σας. Ανοίξτε έναν κόσμο απεριόριστων δυνατοτήτων, αποθηκεύστε το χρόνο σας και ξεκινήστε να κερδίζετε χρήματα σήμερα!"
+msgid "Chat, write and create with the leading AI models, all in one place. No juggling apps or subscriptions."
+msgstr "Συνομιλήστε, γράψτε και δημιουργήστε με τα κορυφαία μοντέλα AI, όλα σε ένα μέρος. Χωρίς εναλλαγές μεταξύ εφαρμογών ή συνδρομών."
 
-#: sections/hero.twig:19
-msgctxt "button"
-msgid "Get started now"
-msgstr "Ξεκινήστε τώρα"
+#: sections/how-it-works.twig:2
+msgctxt "heading"
+msgid "Create your account"
+msgstr "Δημιουργήστε τον λογαριασμό σας"
+
+#: sections/how-it-works.twig:2
+msgid "Sign up in seconds and land on your own dashboard."
+msgstr "Εγγραφείτε σε δευτερόλεπτα και μεταβείτε στον προσωπικό σας πίνακα ελέγχου."
 
 #: sections/how-it-works.twig:3
+msgctxt "heading"
+msgid "Pick a tool and a model"
+msgstr "Επιλέξτε ένα εργαλείο και ένα μοντέλο"
+
+#: sections/how-it-works.twig:3
+msgid "Chat, write, create images and more. Choose the AI model that suits the job."
+msgstr "Συνομιλήστε, γράψτε, δημιουργήστε εικόνες και πολλά άλλα. Επιλέξτε το μοντέλο AI που ταιριάζει στην εργασία."
+
+#: sections/how-it-works.twig:4
+msgctxt "heading"
+msgid "Describe it, get results"
+msgstr "Περιγράψτε το, λάβετε αποτελέσματα"
+
+#: sections/how-it-works.twig:4
+msgid "Say what you need in plain words, refine the result, and find it later in your library."
+msgstr "Πείτε με απλά λόγια τι χρειάζεστε, βελτιώστε το αποτέλεσμα και βρείτε το αργότερα στη βιβλιοθήκη σας."
+
+#: sections/how-it-works.twig:9
 msgctxt "heading"
 msgid "How it works"
 msgstr "Πώς λειτουργεί"
 
-#: sections/how-it-works.twig:13
-msgctxt "heading"
-msgid "Choose Template"
-msgstr "Επιλέξτε Πρότυπο"
-
-#: sections/how-it-works.twig:16
-msgid "Choose a our built in templates or create your own."
-msgstr "Επιλέξτε ένα από τα ενσωματωμένα πρότυπά μας ή δημιουργήστε το δικό σας."
-
-#: sections/how-it-works.twig:26
-msgctxt "heading"
-msgid "Describe"
-msgstr "Περιγράψτε"
-
-#: sections/how-it-works.twig:29
-msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
-msgstr "Εισάγετε μερικές προτάσεις για να περιγράψετε το θέμα σας. Προσθέστε λέξεις-κλειδιά για να προσδιορίσετε για την εταιρεία σας."
-
-#: sections/how-it-works.twig:39
-msgctxt "heading"
-msgid "Generate"
-msgstr "Δημιουργία"
-
-#: sections/how-it-works.twig:42
-msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
-msgstr "Κάντε κλικ στο κουμπί \"Δημιουργία\" και λάβετε μια ποικιλία υψηλών μετατροπών ανά φορά."
-
 #: sections/image.twig:5
-msgid "AI Image"
-msgstr "Εικόνα AI"
+msgid "AI images"
+msgstr "Εικόνες AI"
 
 #: sections/image.twig:9
 msgctxt "heading"
-msgid "Visualize what you dream of. Create images from text."
-msgstr "Οπτικοποιήστε αυτό που ονειρεύεστε. Δημιουργήστε εικόνες από κείμενο."
+msgid "Turn a sentence into an image."
+msgstr "Μετατρέψτε μια πρόταση σε εικόνα."
 
 #: sections/image.twig:13
-msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
-msgstr "Δημιουργήστε απίστευτα εικόνες με τη γεννήτρια εικόνων AI - το εργαλείο σας για την καλλιτεχνική επινόηση."
+msgid "Describe what you want to see, pick a model, and get images you can download and reuse."
+msgstr "Περιγράψτε τι θέλετε να δείτε, επιλέξτε ένα μοντέλο και δημιουργήστε εικόνες που μπορείτε να κατεβάσετε και να χρησιμοποιήσετε ξανά."
 
-#: sections/image.twig:18
+#: sections/image.twig:17
 msgctxt "button"
-msgid "Try for free"
-msgstr "Δοκιμάστε δωρεάν"
+msgid "Create an image"
+msgstr "Δημιουργήστε μια εικόνα"
+
+#: sections/models.twig:53
+msgid "Powered by the leading AI models"
+msgstr "Με την υποστήριξη κορυφαίων μοντέλων AI"
 
 #: sections/presets.twig:9
-msgid "100+ AI Writer Templates"
-msgstr "100+ Πρότυπα Συγγραφέα AI"
+msgid "Writing templates"
+msgstr "Πρότυπα γραφής"
 
 #: sections/presets.twig:14
 msgctxt "heading"
-msgid "What can Writing Assistant create for you?"
-msgstr "Τι μπορεί να δημιουργήσει για εσάς ο Βοηθός Συγγραφής;"
+msgid "What will you write today?"
+msgstr "Τι θα γράψετε σήμερα;"
 
 #: sections/presets.twig:18
-msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer's block forever."
-msgstr "Γράψτε με αξιοσημείωτη ταχύτητα, μαγνητίστε το κοινό σας και πείτε αντίο στο μπλοκάρισμα του συγγραφέα για πάντα."
+msgid "Product descriptions, social posts, cover letters and more. Pick a template and skip the blank page."
+msgstr "Περιγραφές προϊόντων, αναρτήσεις στα μέσα κοινωνικής δικτύωσης, συνοδευτικές επιστολές και πολλά άλλα. Επιλέξτε ένα πρότυπο και ξεκινήστε χωρίς να κοιτάτε μια κενή σελίδα."
 
 #: sections/presets.twig:23
 msgctxt "button"
-msgid "Get Started for Free"
-msgstr "Ξεκινήστε Δωρεάν"
+msgid "Browse templates"
+msgstr "Περιηγηθείτε στα πρότυπα"
 
-#: sections/pricing.twig:3
-msgctxt "heading"
-msgid "Pricing"
-msgstr "Τιμολόγηση"
+#: sections/preview.twig:10
+msgid "Alex"
+msgstr "Alex"
 
-#: sections/pricing.twig:6
-msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
-msgstr "Ανακαλύψτε το τέλειο σχέδιο που ταιριάζει στις ανάγκες σας και ανοίξτε έναν κόσμο δυνατοτήτων."
+#: sections/preview.twig:11
+msgid "Alex Morgan"
+msgstr "Alex Morgan"
 
-#: sections/pricing.twig:19
+#: sections/preview.twig:106
+msgid "Hello, :name!"
+msgstr "Γεια σου, :name!"
+
+#: sections/preview.twig:110
+msgid "How can I assist you?"
+msgstr "Πώς μπορώ να σας βοηθήσω;"
+
+#: sections/preview.twig:115
+msgid "Ask anything…"
+msgstr "Ρωτήστε ό,τι θέλετε…"
+
+#: sections/preview.twig:121
+msgid "Transcribe audio"
+msgstr "Μεταγράψτε ήχο"
+
+#: sections/preview.twig:122
+msgid "Isolate sounds"
+msgstr "Απομονώστε ήχους"
+
+#: sections/preview.twig:123
+msgid "Create videos"
+msgstr "Δημιουργήστε βίντεο"
+
+#: sections/preview.twig:124
+msgid "Create images"
+msgstr "Δημιουργήστε εικόνες"
+
+#: sections/preview.twig:147
+msgid "Scroll to explore"
+msgstr "Κάντε κύλιση για εξερεύνηση"
+
+#: sections/pricing.twig:10
 msgctxt "button"
 msgid "Monthly"
 msgstr "Μηνιαία"
 
-#: sections/pricing.twig:28
+#: sections/pricing.twig:11
 msgctxt "button"
 msgid "Yearly"
 msgstr "Ετήσια"
 
-#: sections/pricing.twig:37
+#: sections/pricing.twig:17
 msgctxt "button"
-msgid "Packs"
-msgstr "Πακέτα"
+msgid "Lifetime"
+msgstr "Διά βίου"
 
-#: sections/pricing.twig:46
-msgctxt "button"
-msgid "Lifetime Deals"
-msgstr "Δια βίου προσφορές"
+#: sections/pricing.twig:42
+msgctxt "heading"
+msgid "Simple, transparent pricing"
+msgstr "Απλή, διαφανής τιμολόγηση"
 
-#: sections/pricing.twig:78
-msgid "Most Popular"
-msgstr "Πιο Δημοφιλές"
+#: sections/pricing.twig:45
+msgid "Pick a plan that fits how you work. Upgrade, downgrade or cancel at any time."
+msgstr "Επιλέξτε ένα πρόγραμμα που ταιριάζει στον τρόπο που εργάζεστε. Αναβαθμίστε, υποβαθμίστε ή ακυρώστε ανά πάσα στιγμή."
+
+#: sections/pricing.twig:74
+msgid "Most popular"
+msgstr "Δημοφιλέστερο"
+
+#: sections/pricing.twig:105
+msgid "Free"
+msgstr "Δωρεάν"
+
+#: sections/pricing.twig:112
+msgid "/ month"
+msgstr "/ μήνα"
+
+#: sections/pricing.twig:113
+msgid "/ year"
+msgstr "/ έτος"
+
+#: sections/pricing.twig:114
+msgid "lifetime"
+msgstr "διά βίου"
 
 #: sections/pricing.twig:115
-msgid "Chat"
-msgstr "Συνομιλία"
+msgid "one-time"
+msgstr "εφάπαξ"
 
-#: sections/pricing.twig:134
-msgid "Writer"
-msgstr "Συγγραφέας"
+#: sections/pricing.twig:123
+msgid "per month, billed yearly"
+msgstr "ανά μήνα, με ετήσια χρέωση"
+
+#: sections/pricing.twig:125
+msgid "Pay once. Allowance refreshes every month."
+msgstr "Πληρώστε μία φορά. Το διαθέσιμο υπόλοιπο ανανεώνεται κάθε μήνα."
+
+#: sections/pricing.twig:127
+msgid "Extra credits on top of your plan."
+msgstr "Επιπλέον μονάδες πέρα από το πρόγραμμά σας."
+
+#: sections/pricing.twig:135
+msgctxt "button"
+msgid "Start :days-day free trial"
+msgstr "Ξεκινήστε δωρεάν δοκιμή :days ημερών"
+
+#: sections/pricing.twig:137
+msgctxt "button"
+msgid "Start for free"
+msgstr "Ξεκινήστε δωρεάν"
 
 #: sections/pricing.twig:153
-msgid "Image generator"
-msgstr "Δημιουργός εικόνων"
+msgctxt "button"
+msgid "See all plans"
+msgstr "Δείτε όλα τα προγράμματα"
 
-#: sections/pricing.twig:166
-msgid "Transcriber"
-msgstr "Μεταγραφέας"
-
-#: sections/pricing.twig:179
-msgid "Voiceover"
-msgstr "Αφηγητής"
-
-#: sections/pricing.twig:192
-msgid "Voice isolator"
-msgstr "Απομονωτής φωνής"
-
-#: sections/pricing.twig:205
-msgid "Classifier"
-msgstr "Κατηγοριοποιητής"
-
-#: sections/pricing.twig:213
-msgid "Access to templates is disabled"
-msgstr "Η πρόσβαση στα πρότυπα είναι απενεργοποιημένη"
-
-#: sections/pricing.twig:216
-msgid "Access to all templates"
-msgstr "Πρόσβαση σε όλα τα πρότυπα"
-
-#: sections/pricing.twig:232
-msgid "Priority support"
-msgstr "Υποστήριξη προτεραιότητας"
-
-#: sections/pricing.twig:235
-msgid "Basic support"
-msgstr "Βασική υποστήριξη"
+#: sections/pricing.twig:161
+msgid "Not ready to pay? Try the free plan"
+msgstr "Δεν είστε έτοιμοι να πληρώσετε; Δοκιμάστε το δωρεάν πρόγραμμα"
 
 #: sections/speech-to-text.twig:4
-msgid "Speech to Text"
-msgstr "Φωνή σε Κείμενο"
+msgid "Speech to text"
+msgstr "Ομιλία σε κείμενο"
 
 #: sections/speech-to-text.twig:8
 msgctxt "heading"
-msgid "Transforming Spoken <br> Words into Text."
-msgstr "Μετατροπή Προφορικών <br> Λέξεων σε Κείμενο."
+msgid "Turn recordings into text."
+msgstr "Μετατρέψτε τις ηχογραφήσεις σε κείμενο."
 
 #: sections/speech-to-text.twig:12
-msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
-msgstr "Μεταγράψτε αμέσως τις λέξεις που μιλάτε σε κείμενο για βελτιωμένη παραγωγικότητα και πρόσβαση."
+msgid "Upload a meeting, interview or voice note and get a transcript you can copy and download."
+msgstr "Ανεβάστε μια σύσκεψη, μια συνέντευξη ή μια φωνητική σημείωση και λάβετε μια απομαγνητοφώνηση που μπορείτε να αντιγράψετε και να κατεβάσετε."
 
-#: sections/speech-to-text.twig:17
+#: sections/speech-to-text.twig:16
 msgctxt "button"
-msgid "Convert now"
-msgstr "Μετατρέψτε τώρα"
+msgid "Transcribe audio"
+msgstr "Απομαγνητοφώνηση ήχου"
 
 #: sections/text-to-voice.twig:4
-msgid "Text to Voice"
-msgstr "Κείμενο σε Φωνή"
+msgid "Text to speech"
+msgstr "Μετατροπή κειμένου σε ομιλία"
 
 #: sections/text-to-voice.twig:8
 msgctxt "heading"
-msgid "Convert your texts into <br> Lifelike Speech"
-msgstr "Μετατρέψτε τα κείμενά σας σε <br> Φωνή Ζωηρή"
+msgid "Give your words a natural voice."
+msgstr "Δώστε στις λέξεις σας φυσική φωνή."
 
 #: sections/text-to-voice.twig:12
-msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
-msgstr "Αυξήστε το περιεχόμενό σας με εκφραστική περιγραφή: Ανακαλύψτε την εξειδίκευση του κειμένου σε φωνή."
+msgid "Pick a lifelike voice for narration, videos and podcasts."
+msgstr "Επιλέξτε μια ρεαλιστική φωνή για αφήγηση, βίντεο και podcast."
 
 #: sections/video.twig:11
-msgid "Video"
-msgstr "Βίντεο"
+msgid "AI video"
+msgstr "Βίντεο AI"
 
 #: sections/video.twig:15
 msgctxt "heading"
-msgid "Generate high-quality videos using AI Video generation tool."
-msgstr "Δημιουργήστε βίντεο υψηλής ποιότητας χρησιμοποιώντας το εργαλείο δημιουργίας βίντεο με AI."
+msgid "Make short videos from a prompt or a photo."
+msgstr "Δημιουργήστε σύντομα βίντεο από μια προτροπή ή μια φωτογραφία."
 
 #: sections/video.twig:19
-msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
-msgstr "Δεν απαιτούνται δεξιότητες επεξεργασίας βίντεο - απλώς ανεβάστε τις εικόνες σας και εισάγετε μερικές γραμμές προτροπής, αυτό είναι όλο."
+msgid "No editing skills needed. Write a few lines, add an image if you like, and the AI does the rest."
+msgstr "Δεν χρειάζονται δεξιότητες επεξεργασίας. Γράψτε λίγες γραμμές, προσθέστε μια εικόνα αν θέλετε και η AI αναλαμβάνει τα υπόλοιπα."
+
+#: sections/video.twig:23
+msgctxt "button"
+msgid "Make a video"
+msgstr "Δημιουργία βίντεο"
 
 #: sections/writer.twig:22
-msgid "AI Writer"
-msgstr "Συγγραφέας AI"
+#: snippets/plan-rows.twig:103
+msgid "AI writer"
+msgstr "Συγγραφή με AI"
 
 #: sections/writer.twig:26
 msgctxt "heading"
-msgid "Write SEO optimized blogs, sales emails and more..."
-msgstr "Γράψτε SEO βελτιστοποιημένα blogs, πωλησιακά email και άλλα..."
+msgid "Blog posts, emails and ads, written in minutes."
+msgstr "Άρθρα ιστολογίου, email και διαφημίσεις σε λίγα λεπτά."
 
 #: sections/writer.twig:30
-msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
-msgstr "Αποκτήστε εξαιρετικά αποτελέσματα σε μια ποσότητα χρόνου. Τέλος, ένα εργαλείο γραφής που θα χρησιμοποιήσετε πραγματικά."
+msgid "Start from a ready-made template, answer a few questions, and refine the draft in chat until it sounds like you."
+msgstr "Ξεκινήστε με ένα έτοιμο πρότυπο, απαντήστε σε μερικές ερωτήσεις και βελτιώστε το προσχέδιο στη συνομιλία μέχρι να ακούγεται σαν να το γράψατε εσείς."
 
-#: sections/writer.twig:35
+#: sections/writer.twig:34
 msgctxt "button"
-msgid "See all features"
-msgstr "Δείτε όλες τις λειτουργίες"
+msgid "Start writing"
+msgstr "Ξεκινήστε να γράφετε"
+
+#: snippets/plan-rows.twig:17
+msgid "Unlimited usage"
+msgstr "Απεριόριστη χρήση"
+
+#: snippets/plan-rows.twig:17
+msgid "Unlimited credits"
+msgstr "Απεριόριστες μονάδες πίστωσης"
+
+#: snippets/plan-rows.twig:23
+msgid ":amount of usage"
+msgstr ":amount χρήσης"
+
+#: snippets/plan-rows.twig:24
+msgid ":amount of usage / month"
+msgstr ":amount χρήσης / μήνα"
+
+#: snippets/plan-rows.twig:27
+msgid ":count credit"
+msgstr ":count μονάδα πίστωσης"
+
+#: snippets/plan-rows.twig:28
+msgid ":count credits"
+msgstr ":count μονάδες πίστωσης"
+
+#: snippets/plan-rows.twig:31
+msgid ":amount / month"
+msgstr ":amount / μήνα"
+
+#: snippets/plan-rows.twig:41
+msgid "Unlimited members"
+msgstr "Απεριόριστα μέλη"
+
+#: snippets/plan-rows.twig:43
+msgid "Just you"
+msgstr "Μόνο εσύ"
+
+#: snippets/plan-rows.twig:45
+msgid "Up to :count members"
+msgstr "Έως :count μέλη"
+
+#: snippets/plan-rows.twig:63
+msgid "Every AI model"
+msgstr "Κάθε μοντέλο AI"
+
+#: snippets/plan-rows.twig:64
+msgid "1 AI model"
+msgstr "1 μοντέλο AI"
+
+#: snippets/plan-rows.twig:64
+msgid ":count AI models"
+msgstr ":count μοντέλα AI"
+
+#: snippets/plan-rows.twig:79
+msgid "Unlimited custom assistants"
+msgstr "Απεριόριστοι προσαρμοσμένοι βοηθοί"
+
+#: snippets/plan-rows.twig:79
+msgid ":count custom assistants"
+msgstr ":count προσαρμοσμένοι βοηθοί"
+
+#: snippets/plan-rows.twig:85
+msgid "Live web search"
+msgstr "Ζωντανή αναζήτηση στον ιστό"
+
+#: snippets/plan-rows.twig:86
+msgid "Chat with your documents"
+msgstr "Συνομιλία με τα έγγραφά σας"
+
+#: snippets/plan-rows.twig:87
+msgid "Read any web page"
+msgstr "Ανάγνωση οποιασδήποτε ιστοσελίδας"
+
+#: snippets/plan-rows.twig:88
+msgid "YouTube insights"
+msgstr "Πληροφορίες από το YouTube"
+
+#: snippets/plan-rows.twig:89
+msgid "Create media in chat"
+msgstr "Δημιουργία πολυμέσων στη συνομιλία"
+
+#: snippets/plan-rows.twig:90
+msgid "Conversation memory"
+msgstr "Μνήμη συνομιλίας"
+
+#: snippets/plan-rows.twig:91
+msgid "Canvas"
+msgstr "Canvas"
+
+#: snippets/plan-rows.twig:92
+msgid "Clarifying questions"
+msgstr "Διευκρινιστικές ερωτήσεις"
+
+#: snippets/plan-rows.twig:93
+msgid "Connectors to your apps"
+msgstr "Συνδέσεις με τις εφαρμογές σας"
+
+#: snippets/plan-rows.twig:104
+msgid "Image generation"
+msgstr "Δημιουργία εικόνων"
+
+#: snippets/plan-rows.twig:105
+msgid "Video generation"
+msgstr "Δημιουργία βίντεο"
+
+#: snippets/plan-rows.twig:106
+msgid "Voiceover"
+msgstr "Αφηγητής"
+
+#: snippets/plan-rows.twig:107
+msgid "Transcription"
+msgstr "Μεταγραφή"
+
+#: snippets/plan-rows.twig:108
+msgid "Voice isolation"
+msgstr "Απομόνωση φωνής"
+
+#: snippets/plan-rows.twig:109
+msgid "Content moderation"
+msgstr "Εποπτεία περιεχομένου"
+
+#: snippets/plan-rows.twig:122
+msgid "Unlimited voice clones"
+msgstr "Απεριόριστες κλωνοποιήσεις φωνής"
+
+#: snippets/plan-rows.twig:122
+msgid ":count voice clones"
+msgstr ":count κλώνοι φωνής"
+
+#: snippets/plan-rows.twig:133
+msgid "Unlimited scheduled tasks"
+msgstr "Απεριόριστες προγραμματισμένες εργασίες"
+
+#: snippets/plan-rows.twig:133
+msgid ":count scheduled tasks"
+msgstr ":count προγραμματισμένες εργασίες"
+
+#: snippets/plan-rows.twig:140
+msgid "Private mode"
+msgstr "Ιδιωτική λειτουργία"
+
+#: snippets/plan-rows.twig:166
+msgid "Show less"
+msgstr "Εμφάνιση λιγότερων"
+
+#: snippets/plan-rows.twig:166
+msgid "Show all features"
+msgstr "Εμφάνιση όλων των δυνατοτήτων"

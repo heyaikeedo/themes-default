@@ -11,232 +11,304 @@ msgstr ""
 "X-Domain: theme\n"
 
 #: sections/chat.twig:11
-msgid "AI Chat Bot"
-msgstr "AI-chattbot"
+#: snippets/plan-rows.twig:73
+msgid "AI chat"
+msgstr "AI-chatt"
 
 #: sections/chat.twig:15
 msgctxt "heading"
-msgid "That's remarkably human-like and engaging..."
-msgstr "Det är anmärkningsvärt människolikt och engagerande..."
+msgid "Ask anything. Get clear, useful answers."
+msgstr "Fråga vad som helst. Få tydliga och användbara svar."
 
 #: sections/chat.twig:19
-msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
-msgstr "Välj bara din assistent och engagera dig med en vänlig chattbot för att generera idéer, förbättra ditt innehåll eller till och med föra ett leende till ditt ansikte."
+msgid "Chat with leading AI models to brainstorm, research, write and solve problems faster."
+msgstr "Chatta med ledande AI-modeller för att brainstorma, göra research, skriva och lösa problem snabbare."
 
-#: sections/chat.twig:24
-#: sections/video.twig:24
+#: sections/chat.twig:23
 msgctxt "button"
-msgid "Try now"
-msgstr "Prova nu"
+msgid "Start chatting"
+msgstr "Börja chatta"
 
-#: sections/code.twig:10
-msgid "AI Code"
-msgstr "AI-kod"
-
-#: sections/code.twig:14
+#: sections/cta.twig:9
 msgctxt "heading"
-msgid "Ready to write code at the speed of light?"
-msgstr "Redo att skriva kod i ljusets hastighet?"
+msgid "Pick up where you left off"
+msgstr "Fortsätt där du slutade"
 
-#: sections/code.twig:18
-msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
-msgstr "Generera enkelt kod med AI Code Generator: Instantlösningar för dina programmeringsbehov."
+#: sections/cta.twig:11
+msgid "Your chats, documents and media are waiting in your workspace."
+msgstr "Dina chattar, dokument och medier väntar i din arbetsyta."
 
-#: sections/code.twig:23
+#: sections/cta.twig:14
+msgctxt "heading"
+msgid "Ready to get started?"
+msgstr "Redo att komma igång?"
+
+#: sections/cta.twig:16
+msgid "Create your account and put AI to work in minutes."
+msgstr "Skapa ett konto och börja använda AI på bara några minuter."
+
+#: sections/cta.twig:22
+#: sections/header.twig:118
+#: sections/hero.twig:13
 msgctxt "button"
-msgid "Start Generate Code"
-msgstr "Börja generera kod"
+msgid "Go to app"
+msgstr "Gå till appen"
 
-#: sections/cta.twig:3
-msgctxt "heading"
-msgid "Ready to level-up?"
-msgstr "Redo att ta nästa steg?"
-
-#: sections/cta.twig:5
-msgid "See how easy it can be to write amazing content."
-msgstr "Se hur enkelt det kan vara att skriva fantastiskt innehåll."
-
-#: sections/cta.twig:10
+#: sections/cta.twig:22
+#: sections/header.twig:200
+#: sections/hero.twig:18
+#: sections/pricing.twig:139
 msgctxt "button"
-msgid "Get Started Now"
-msgstr "Kom igång nu"
+msgid "Get started"
+msgstr "Kom igång"
 
-#: sections/features.twig:3
+#: sections/cta.twig:28
+#: sections/hero.twig:25
+msgctxt "button"
+msgid "See pricing"
+msgstr "Se priser"
+
+#: sections/faq.twig:10
+msgid "What are credits?"
+msgstr "Vad är krediter?"
+
+#: sections/faq.twig:11
+msgid "Credits are what you spend when you use the AI. Each request costs credits based on the model and how much it produces, and your plan includes a set amount."
+msgstr "Krediter är det du betalar med när du använder AI. Varje förfrågan kostar krediter beroende på modellen och hur mycket den genererar, och ditt abonnemang innehåller ett visst antal."
+
+#: sections/faq.twig:11
+msgid "Need more? Top up with a credit pack at any time."
+msgstr "Behöver du fler? Fyll på med ett kreditpaket när som helst."
+
+#: sections/faq.twig:15
+msgid "How is usage measured?"
+msgstr "Hur mäts användningen?"
+
+#: sections/faq.twig:16
+msgid "Each plan includes an amount of usage. What a request uses depends on the model and how much it produces, and your account always shows what you have left."
+msgstr "Varje abonnemang innehåller en viss användningsmängd. Hur mycket en förfrågan använder beror på modellen och hur mycket den genererar, och på ditt konto ser du alltid hur mycket du har kvar."
+
+#: sections/faq.twig:20
+msgid "Which AI models can I use?"
+msgstr "Vilka AI-modeller kan jag använda?"
+
+#: sections/faq.twig:21
+msgid "Each plan lists the models it includes. Hover over the models line on a plan to see them, and pick the one you want while you work."
+msgstr "Varje abonnemang listar vilka modeller som ingår. Håll muspekaren över modellraden för att se dem och välj den du vill använda medan du arbetar."
+
+#: sections/faq.twig:25
+msgid "Can I change or cancel my plan?"
+msgstr "Kan jag ändra eller säga upp mitt abonnemang?"
+
+#: sections/faq.twig:26
+msgid "Yes. You can upgrade, downgrade or cancel from the billing page in your account at any time."
+msgstr "Ja. Du kan uppgradera, nedgradera eller säga upp abonnemanget när som helst på faktureringssidan i ditt konto."
+
+#: sections/faq.twig:30
+msgid "Is there a free trial?"
+msgstr "Finns det en kostnadsfri provperiod?"
+
+#: sections/faq.twig:31
+msgid "Yes. Paid subscriptions start with a :days-day free trial. Cancel before it ends and you will not be charged."
+msgstr "Ja. Betalabonnemang börjar med en kostnadsfri provperiod på :days dagar. Säger du upp abonnemanget innan perioden är slut debiteras du inte."
+
+#: sections/faq.twig:35
+msgid "Can I use it with my team?"
+msgstr "Kan jag använda det med mitt team?"
+
+#: sections/faq.twig:36
+msgid "Yes. Invite teammates to your workspace and they share its plan. How many members you can add depends on your plan."
+msgstr "Ja. Bjud in teammedlemmar till din arbetsyta så delar de på samma abonnemang. Hur många medlemmar du kan lägga till beror på ditt abonnemang."
+
+#: sections/faq.twig:40
+msgid "What happens to what I create?"
+msgstr "Vad händer med det jag skapar?"
+
+#: sections/faq.twig:41
+msgid "It is saved to your library so you can find it later. Switch on private mode and nothing you create is kept: it stays out of your history and is deleted automatically."
+msgstr "Det sparas i ditt bibliotek så att du kan hitta det senare. Aktivera privat läge så sparas inget av det du skapar: det visas inte i din historik och raderas automatiskt."
+
+#: sections/faq.twig:49
 msgctxt "heading"
-msgid "Coolest Features"
-msgstr "Coolaste funktionerna"
+msgid "Frequently asked questions"
+msgstr "Vanliga frågor"
+
+#: sections/faq.twig:52
+msgid "Answers to what people ask most before they sign up."
+msgstr "Svar på de vanligaste frågorna innan du registrerar dig."
 
 #: sections/features.twig:13
 msgctxt "heading"
-msgid "High Quality Code"
-msgstr "Kod av hög kvalitet"
+msgid "Leading AI models"
+msgstr "Ledande AI-modeller"
 
-#: sections/features.twig:16
-msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
-msgstr "Utvecklad med hjälp av domändriven design och principer för Onion-arkitektur."
+#: sections/features.twig:14
+msgid "Use models from several AI providers in one app, without separate accounts."
+msgstr "Använd modeller från flera AI-leverantörer i en och samma app, utan separata konton."
+
+#: sections/features.twig:19
+msgctxt "heading"
+msgid "Custom assistants"
+msgstr "Anpassade assistenter"
+
+#: sections/features.twig:20
+msgid "Build assistants with their own instructions and knowledge, and reuse them any time."
+msgstr "Skapa assistenter med egna instruktioner och egen kunskap och återanvänd dem när du vill."
+
+#: sections/features.twig:25
+msgctxt "heading"
+msgid "Chat with your documents"
+msgstr "Chatta med dina dokument"
 
 #: sections/features.twig:26
+msgid "Upload files and ask questions about them. Answers come from your own content."
+msgstr "Ladda upp filer och ställ frågor om dem. Svaren hämtas från ditt eget innehåll."
+
+#: sections/features.twig:31
 msgctxt "heading"
-msgid "Modern Technologies"
-msgstr "Moderna teknologier"
+msgid "Live web search"
+msgstr "Sök på webben i realtid"
 
-#: sections/features.twig:29
-msgid "Built with modern technologies for best structure and get maximum performance."
-msgstr "Byggt med moderna teknologier för bästa struktur och maximal prestanda."
+#: sections/features.twig:32
+msgid "Get answers that draw on up-to-date information from the web."
+msgstr "Få svar som bygger på aktuell information från webben."
 
-#: sections/features.twig:39
+#: sections/features.twig:37
 msgctxt "heading"
-msgid "Friendly UI and UX"
-msgstr "Vänligt UI och UX"
+msgid "Connect your apps"
+msgstr "Anslut dina appar"
 
-#: sections/features.twig:42
-msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
-msgstr "Njut av ett smärtfritt och intuitivt användargränssnitt som förbättrar din digitala upplevelse."
+#: sections/features.twig:38
+msgid "Bring the tools you already use into the conversation."
+msgstr "Ta in verktygen du redan använder i konversationen."
 
-#: sections/features.twig:52
+#: sections/features.twig:43
 msgctxt "heading"
-msgid "Dark Mode"
-msgstr "Mörkt läge"
+msgid "Scheduled tasks"
+msgstr "Schemalagda uppgifter"
+
+#: sections/features.twig:44
+msgid "Let the AI handle reminders, recurring reports and ongoing updates on a schedule."
+msgstr "Låt AI:n hantera påminnelser, återkommande rapporter och löpande uppdateringar enligt ett schema."
+
+#: sections/features.twig:49
+msgctxt "heading"
+msgid "Private mode"
+msgstr "Privat läge"
+
+#: sections/features.twig:50
+msgid "What you create in private mode stays out of your history and library, and is deleted automatically."
+msgstr "Det du skapar i privat läge visas inte i din historik eller ditt bibliotek och raderas automatiskt."
 
 #: sections/features.twig:55
-msgid "Turn off the light and switch to dark mode your interface with one click."
-msgstr "Släck ljuset och växla till mörkt läge i ditt gränssnitt med ett klick."
-
-#: sections/features.twig:65
 msgctxt "heading"
-msgid "Documentation"
-msgstr "Dokumentation"
+msgid "Built for teams"
+msgstr "Skapat för team"
+
+#: sections/features.twig:56
+msgid "Invite your teammates to a shared workspace and work from the same plan."
+msgstr "Bjud in dina teammedlemmar till en delad arbetsyta och arbeta utifrån samma plan."
+
+#: sections/features.twig:61
+msgctxt "heading"
+msgid "Your library"
+msgstr "Ditt bibliotek"
+
+#: sections/features.twig:62
+msgid "Everything you create is saved in one place, ready to find, reuse and download."
+msgstr "Allt du skapar sparas på ett och samma ställe, redo att hittas, återanvändas och laddas ned."
+
+#: sections/features.twig:67
+msgctxt "heading"
+msgid "Speaks your language"
+msgstr "Talar ditt språk"
 
 #: sections/features.twig:68
-msgid "An all-inclusive learning package seamlessly integrated into our community."
-msgstr "Ett heltäckande lärandepaket sömlöst integrerat i vår gemenskap."
+msgid "Use the app in the language you are most comfortable with."
+msgstr "Använd appen på det språk du känner dig mest bekväm med."
 
-#: sections/features.twig:78
+#: sections/features.twig:73
 msgctxt "heading"
-msgid "Payment Gateways"
-msgstr "Betalningsportaler"
+msgid "Light and dark mode"
+msgstr "Ljust och mörkt läge"
 
-#: sections/features.twig:81
-msgid "Simplify transactions and boost security with payment gateway solutions."
-msgstr "Förenkla transaktioner och öka säkerheten med betalningsgateway-lösningar."
+#: sections/features.twig:74
+msgid "Work the way your eyes prefer, day or night."
+msgstr "Arbeta på det sätt som passar dina ögon bäst, dag som natt."
 
-#: sections/features.twig:91
+#: sections/features.twig:79
 msgctxt "heading"
-msgid "AI Generator"
-msgstr "AI-generator"
+msgid "Secure checkout"
+msgstr "Säker betalning"
 
-#: sections/features.twig:94
-msgid "Unlock limitless creativity with our AI-powered content generator."
-msgstr "Lås upp obegränsad kreativitet med vår AI-drivna innehållsgenerator."
+#: sections/features.twig:80
+msgid "Pay safely through trusted payment providers and manage your plan any time."
+msgstr "Betala tryggt via betrodda betaltjänster och hantera din plan när som helst."
 
-#: sections/features.twig:104
+#: sections/features.twig:86
 msgctxt "heading"
-msgid "SEO Friendly"
-msgstr "SEO-vänlig"
-
-#: sections/features.twig:107
-msgid "Boost your visibility and reach your audience effectively with AI generated content."
-msgstr "Öka din synlighet och nå din publik effektivt med AI-genererat innehåll."
-
-#: sections/features.twig:117
-msgctxt "heading"
-msgid "Advanced Dashboard"
-msgstr "Avancerad instrumentpanel"
-
-#: sections/features.twig:120
-msgid "Empower your insights and control with our cutting-edge dashboard."
-msgstr "Stärk dina insikter och kontroll med vår toppmoderna instrumentpanel."
-
-#: sections/features.twig:130
-msgctxt "heading"
-msgid "Custom Templates"
-msgstr "Anpassade mallar"
-
-#: sections/features.twig:133
-msgid "Transform your content creation with AI-driven custom templates."
-msgstr "Förvandla ditt innehållsskapande med AI-drivna anpassade mallar."
-
-#: sections/features.twig:144
-msgctxt "heading"
-msgid "Login via SM Accounts"
-msgstr "Logga in via SM-konton"
-
-#: sections/features.twig:147
-msgid "Use Facebook or Google accounts as an alternatively access to platform."
-msgstr "Använd Facebook- eller Google-konton som ett alternativt sätt att få tillgång till plattformen."
-
-#: sections/features.twig:157
-msgctxt "heading"
-msgid "High Quality Support"
-msgstr "Support av hög kvalitet"
-
-#: sections/features.twig:160
-msgid "Our support team is available 24/7 to help you with any questions or concerns."
-msgstr "Vår supportteam är tillgängligt 24/7 för att hjälpa dig med alla frågor eller bekymmer."
+msgid "Everything in one workspace"
+msgstr "Allt i en arbetsyta"
 
 #: sections/footer.twig:4
 msgid "All rights reserved."
 msgstr "Alla rättigheter förbehållna."
 
 #: sections/footer.twig:42
-#: sections/header.twig:19
+#: sections/header.twig:21
 msgctxt "button"
 msgid "Product"
 msgstr "Produkt"
 
 #: sections/footer.twig:46
-#: sections/header.twig:33
+#: sections/header.twig:28
+msgctxt "button"
+msgid "Features"
+msgstr "Funktioner"
+
+#: sections/footer.twig:50
+#: sections/header.twig:35
 msgctxt "button"
 msgid "Pricing"
 msgstr "Prissättning"
 
-#: sections/footer.twig:50
+#: sections/footer.twig:54
+#: sections/header.twig:42
 msgctxt "button"
 msgid "FAQ"
 msgstr "Vanliga frågor"
 
-#: sections/footer.twig:57
+#: sections/footer.twig:61
 msgctxt "button"
 msgid "Terms of services"
 msgstr "Användarvillkor"
 
-#: sections/footer.twig:63
+#: sections/footer.twig:67
 msgctxt "button"
 msgid "Privacy policy"
 msgstr "Integritetspolicy"
 
-#: sections/footer.twig:69
+#: sections/footer.twig:73
 msgctxt "button"
 msgid "Refund policy"
 msgstr "Återbetalningspolicy"
 
-#: sections/generators.twig:3
+#: sections/generators.twig:16
 msgctxt "heading"
-msgid "Meet your ultimate"
-msgstr "Möt din ultimata"
+msgid "Every AI tool you need,"
+msgstr "Alla AI-verktyg du behöver,"
 
-#: sections/generators.twig:6
+#: sections/generators.twig:17
 msgctxt "heading"
-msgid "AI-Powered Content Platform"
-msgstr "AI-driven innehållsplattform"
+msgid "in one place"
+msgstr "på ett och samma ställe"
 
-#: sections/header.twig:26
-msgctxt "button"
-msgid "Featured"
-msgstr "Utvald"
-
-#: sections/header.twig:111
-#: sections/hero.twig:13
-msgctxt "button"
-msgid "Go to app"
-msgstr "Gå till appen"
-
-#: sections/header.twig:123
+#: sections/header.twig:129
 msgctxt "button"
 msgid "Library"
 msgstr "Bibliotek"
 
-#: sections/header.twig:131
+#: sections/header.twig:136
 msgctxt "button"
 msgid "Billing"
 msgstr "Fakturering"
@@ -246,239 +318,428 @@ msgctxt "button"
 msgid "Account"
 msgstr "Konto"
 
-#: sections/header.twig:151
+#: sections/header.twig:154
 msgctxt "button"
 msgid "Logout"
 msgstr "Logga ut"
 
-#: sections/header.twig:191
+#: sections/header.twig:195
 msgctxt "button"
 msgid "Login"
 msgstr "Logga in"
 
-#: sections/header.twig:196
-#: sections/pricing.twig:102
-msgctxt "button"
-msgid "Get started"
-msgstr "Kom igång"
-
 #: sections/hero.twig:3
 msgctxt "heading"
-msgid "Transforming ideas into AI generated masterpieces"
-msgstr "Förvandlar idéer till AI-genererade mästerverk"
+msgid "Your all-in-one AI workspace"
+msgstr "Din allt-i-ett-arbetsyta för AI"
 
 #: sections/hero.twig:7
-msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
-msgstr "Generera enkelt högkvalitativt innehåll drivet av AI, anpassat efter dina behov. Lås upp obegränsade möjligheter, spara tid och börja tjäna pengar idag!"
+msgid "Chat, write and create with the leading AI models, all in one place. No juggling apps or subscriptions."
+msgstr "Chatta, skriv och skapa med de ledande AI-modellerna, allt på ett och samma ställe. Slipp växla mellan appar och abonnemang."
 
-#: sections/hero.twig:19
-msgctxt "button"
-msgid "Get started now"
-msgstr "Kom igång nu"
+#: sections/how-it-works.twig:2
+msgctxt "heading"
+msgid "Create your account"
+msgstr "Skapa ditt konto"
+
+#: sections/how-it-works.twig:2
+msgid "Sign up in seconds and land on your own dashboard."
+msgstr "Registrera dig på några sekunder och kom direkt till din egen kontrollpanel."
 
 #: sections/how-it-works.twig:3
+msgctxt "heading"
+msgid "Pick a tool and a model"
+msgstr "Välj ett verktyg och en modell"
+
+#: sections/how-it-works.twig:3
+msgid "Chat, write, create images and more. Choose the AI model that suits the job."
+msgstr "Chatta, skriv, skapa bilder och mycket mer. Välj den AI-modell som passar uppgiften."
+
+#: sections/how-it-works.twig:4
+msgctxt "heading"
+msgid "Describe it, get results"
+msgstr "Beskriv det, få resultat"
+
+#: sections/how-it-works.twig:4
+msgid "Say what you need in plain words, refine the result, and find it later in your library."
+msgstr "Säg med egna ord vad du behöver, förfina resultatet och hitta det senare i ditt bibliotek."
+
+#: sections/how-it-works.twig:9
 msgctxt "heading"
 msgid "How it works"
 msgstr "Så fungerar det"
 
-#: sections/how-it-works.twig:13
-msgctxt "heading"
-msgid "Choose Template"
-msgstr "Välj mall"
-
-#: sections/how-it-works.twig:16
-msgid "Choose a our built in templates or create your own."
-msgstr "Välj en av våra inbyggda mallar eller skapa din egen."
-
-#: sections/how-it-works.twig:26
-msgctxt "heading"
-msgid "Describe"
-msgstr "Beskriv"
-
-#: sections/how-it-works.twig:29
-msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
-msgstr "Ange några meningar för att beskriva ditt ämne. Lägg till nyckelförordningar för att ange för din varumärke."
-
-#: sections/how-it-works.twig:39
-msgctxt "heading"
-msgid "Generate"
-msgstr "Generera"
-
-#: sections/how-it-works.twig:42
-msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
-msgstr "Klicka på \"Generera\"-knappen och få en mängd olika högkonverterande kopior varje gång."
-
 #: sections/image.twig:5
-msgid "AI Image"
-msgstr "AI-bild"
+msgid "AI images"
+msgstr "AI-bilder"
 
 #: sections/image.twig:9
 msgctxt "heading"
-msgid "Visualize what you dream of. Create images from text."
-msgstr "Visualisera det du drömmer om. Skapa bilder från text."
+msgid "Turn a sentence into an image."
+msgstr "Förvandla en mening till en bild."
 
 #: sections/image.twig:13
-msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
-msgstr "Skapa storslagna bilder med AI Image Generator - din verktyg för konstnärlig innovation."
+msgid "Describe what you want to see, pick a model, and get images you can download and reuse."
+msgstr "Beskriv vad du vill se, välj en modell och få bilder som du kan ladda ner och återanvända."
 
-#: sections/image.twig:18
+#: sections/image.twig:17
 msgctxt "button"
-msgid "Try for free"
-msgstr "Prova gratis"
+msgid "Create an image"
+msgstr "Skapa en bild"
+
+#: sections/models.twig:53
+msgid "Powered by the leading AI models"
+msgstr "Drivs av de ledande AI-modellerna"
 
 #: sections/presets.twig:9
-msgid "100+ AI Writer Templates"
-msgstr "100+ AI-skrivmallar"
+msgid "Writing templates"
+msgstr "Skrivmallar"
 
 #: sections/presets.twig:14
 msgctxt "heading"
-msgid "What can Writing Assistant create for you?"
-msgstr "Vad kan Writing Assistant skapa åt dig?"
+msgid "What will you write today?"
+msgstr "Vad ska du skriva idag?"
 
 #: sections/presets.twig:18
-msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer's block forever."
-msgstr "Skriv med anmärkningsvärd hastighet, fängsla din publik och säg adjö till skrivkramp för alltid."
+msgid "Product descriptions, social posts, cover letters and more. Pick a template and skip the blank page."
+msgstr "Produktbeskrivningar, inlägg på sociala medier, personliga brev och mycket mer. Välj en mall och slipp börja med ett tomt blad."
 
 #: sections/presets.twig:23
 msgctxt "button"
-msgid "Get Started for Free"
-msgstr "Kom igång gratis"
+msgid "Browse templates"
+msgstr "Bläddra bland mallar"
 
-#: sections/pricing.twig:3
-msgctxt "heading"
-msgid "Pricing"
-msgstr "Prissättning"
+#: sections/preview.twig:10
+msgid "Alex"
+msgstr "Alex"
 
-#: sections/pricing.twig:6
-msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
-msgstr "Upptäck det perfekta plan som passar dina behov och lås upp en värld av möjligheter."
+#: sections/preview.twig:11
+msgid "Alex Morgan"
+msgstr "Alex Morgan"
 
-#: sections/pricing.twig:19
+#: sections/preview.twig:106
+msgid "Hello, :name!"
+msgstr "Hej, :name!"
+
+#: sections/preview.twig:110
+msgid "How can I assist you?"
+msgstr "Hur kan jag hjälpa dig?"
+
+#: sections/preview.twig:115
+msgid "Ask anything…"
+msgstr "Fråga vad som helst…"
+
+#: sections/preview.twig:121
+msgid "Transcribe audio"
+msgstr "Transkribera ljud"
+
+#: sections/preview.twig:122
+msgid "Isolate sounds"
+msgstr "Isolera ljud"
+
+#: sections/preview.twig:123
+msgid "Create videos"
+msgstr "Skapa videor"
+
+#: sections/preview.twig:124
+msgid "Create images"
+msgstr "Skapa bilder"
+
+#: sections/preview.twig:147
+msgid "Scroll to explore"
+msgstr "Rulla för att utforska"
+
+#: sections/pricing.twig:10
 msgctxt "button"
 msgid "Monthly"
 msgstr "Månadsvis"
 
-#: sections/pricing.twig:28
+#: sections/pricing.twig:11
 msgctxt "button"
 msgid "Yearly"
 msgstr "Årsvis"
 
-#: sections/pricing.twig:37
+#: sections/pricing.twig:17
 msgctxt "button"
-msgid "Packs"
-msgstr "Paket"
+msgid "Lifetime"
+msgstr "Livstid"
 
-#: sections/pricing.twig:46
-msgctxt "button"
-msgid "Lifetime Deals"
-msgstr "Livstidsavtal"
+#: sections/pricing.twig:42
+msgctxt "heading"
+msgid "Simple, transparent pricing"
+msgstr "Enkel och transparent prissättning"
 
-#: sections/pricing.twig:78
-msgid "Most Popular"
-msgstr "Mest populär"
+#: sections/pricing.twig:45
+msgid "Pick a plan that fits how you work. Upgrade, downgrade or cancel at any time."
+msgstr "Välj ett abonnemang som passar ditt sätt att arbeta. Uppgradera, nedgradera eller säg upp när som helst."
+
+#: sections/pricing.twig:74
+msgid "Most popular"
+msgstr "Populärast"
+
+#: sections/pricing.twig:105
+msgid "Free"
+msgstr "Gratis"
+
+#: sections/pricing.twig:112
+msgid "/ month"
+msgstr "/ månad"
+
+#: sections/pricing.twig:113
+msgid "/ year"
+msgstr "/ år"
+
+#: sections/pricing.twig:114
+msgid "lifetime"
+msgstr "livstid"
 
 #: sections/pricing.twig:115
-msgid "Chat"
-msgstr "Chatt"
+msgid "one-time"
+msgstr "engångsbetalning"
 
-#: sections/pricing.twig:134
-msgid "Writer"
-msgstr "Skrivare"
+#: sections/pricing.twig:123
+msgid "per month, billed yearly"
+msgstr "per månad, faktureras årsvis"
+
+#: sections/pricing.twig:125
+msgid "Pay once. Allowance refreshes every month."
+msgstr "Betala en gång. Kvoten fylls på varje månad."
+
+#: sections/pricing.twig:127
+msgid "Extra credits on top of your plan."
+msgstr "Extra krediter utöver ditt abonnemang."
+
+#: sections/pricing.twig:135
+msgctxt "button"
+msgid "Start :days-day free trial"
+msgstr "Starta en kostnadsfri provperiod på :days dagar"
+
+#: sections/pricing.twig:137
+msgctxt "button"
+msgid "Start for free"
+msgstr "Börja gratis"
 
 #: sections/pricing.twig:153
-msgid "Image generator"
-msgstr "Bildgenerator"
+msgctxt "button"
+msgid "See all plans"
+msgstr "Se alla abonnemang"
 
-#: sections/pricing.twig:166
-msgid "Transcriber"
-msgstr "Transkriberare"
-
-#: sections/pricing.twig:179
-msgid "Voiceover"
-msgstr "Röstinspelning"
-
-#: sections/pricing.twig:192
-msgid "Voice isolator"
-msgstr "Röstisolator"
-
-#: sections/pricing.twig:205
-msgid "Classifier"
-msgstr "Klassificerare"
-
-#: sections/pricing.twig:213
-msgid "Access to templates is disabled"
-msgstr "Åtkomst till mallar är inaktiverad"
-
-#: sections/pricing.twig:216
-msgid "Access to all templates"
-msgstr "Åtkomst till alla mallar"
-
-#: sections/pricing.twig:232
-msgid "Priority support"
-msgstr "Prioriterad support"
-
-#: sections/pricing.twig:235
-msgid "Basic support"
-msgstr "Grundläggande support"
+#: sections/pricing.twig:161
+msgid "Not ready to pay? Try the free plan"
+msgstr "Inte redo att betala? Prova gratisabonnemanget"
 
 #: sections/speech-to-text.twig:4
-msgid "Speech to Text"
+msgid "Speech to text"
 msgstr "Tal till text"
 
 #: sections/speech-to-text.twig:8
 msgctxt "heading"
-msgid "Transforming Spoken <br> Words into Text."
-msgstr "Omvandla talade <br> ord till text."
+msgid "Turn recordings into text."
+msgstr "Gör inspelningar till text."
 
 #: sections/speech-to-text.twig:12
-msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
-msgstr "Omedelbart översätt talade ord till text för förbättrad produktivitet och tillgänglighet."
+msgid "Upload a meeting, interview or voice note and get a transcript you can copy and download."
+msgstr "Ladda upp ett möte, en intervju eller en röstanteckning och få en transkribering som du kan kopiera och ladda ner."
 
-#: sections/speech-to-text.twig:17
+#: sections/speech-to-text.twig:16
 msgctxt "button"
-msgid "Convert now"
-msgstr "Konvertera nu"
+msgid "Transcribe audio"
+msgstr "Transkribera ljud"
 
 #: sections/text-to-voice.twig:4
-msgid "Text to Voice"
+msgid "Text to speech"
 msgstr "Text till tal"
 
 #: sections/text-to-voice.twig:8
 msgctxt "heading"
-msgid "Convert your texts into <br> Lifelike Speech"
-msgstr "Konvertera dina texter till <br> naturligt tal"
+msgid "Give your words a natural voice."
+msgstr "Ge dina ord en naturlig röst."
 
 #: sections/text-to-voice.twig:12
-msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
-msgstr "Föröka ditt innehåll med uttrycksfullt berättande: Upptäck text till tal-excellens."
+msgid "Pick a lifelike voice for narration, videos and podcasts."
+msgstr "Välj en verklighetstrogen röst för berättarröster, videor och poddar."
 
 #: sections/video.twig:11
-msgid "Video"
-msgstr "Video"
+msgid "AI video"
+msgstr "AI-video"
 
 #: sections/video.twig:15
 msgctxt "heading"
-msgid "Generate high-quality videos using AI Video generation tool."
-msgstr "Skapa högkvalitativa videor med AI Video-genereringsverktyget."
+msgid "Make short videos from a prompt or a photo."
+msgstr "Skapa korta videor utifrån en prompt eller ett foto."
 
 #: sections/video.twig:19
-msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
-msgstr "Inga videoredigeringskunskaper krävs – ladda bara upp dina bilder och skriv några rader med prompt, det är allt."
+msgid "No editing skills needed. Write a few lines, add an image if you like, and the AI does the rest."
+msgstr "Du behöver inte kunna redigera. Skriv några rader, lägg till en bild om du vill och låt AI:n göra resten."
+
+#: sections/video.twig:23
+msgctxt "button"
+msgid "Make a video"
+msgstr "Skapa en video"
 
 #: sections/writer.twig:22
-msgid "AI Writer"
-msgstr "AI-skrivare"
+#: snippets/plan-rows.twig:103
+msgid "AI writer"
+msgstr "AI-skrivverktyg"
 
 #: sections/writer.twig:26
 msgctxt "heading"
-msgid "Write SEO optimized blogs, sales emails and more..."
-msgstr "Skriv SEO-optimerade bloggar, försäljningsmejl och mer..."
+msgid "Blog posts, emails and ads, written in minutes."
+msgstr "Blogginlägg, mejl och annonser på bara några minuter."
 
 #: sections/writer.twig:30
-msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
-msgstr "Uppnå överlägsna resultat på en bråkdel av tiden. Till slut, ett skrivverktyg som du verkligen kommer att använda."
+msgid "Start from a ready-made template, answer a few questions, and refine the draft in chat until it sounds like you."
+msgstr "Börja med en färdig mall, svara på några frågor och finslipa utkastet i chatten tills det låter som du."
 
-#: sections/writer.twig:35
+#: sections/writer.twig:34
 msgctxt "button"
-msgid "See all features"
-msgstr "Se alla funktioner"
+msgid "Start writing"
+msgstr "Börja skriva"
+
+#: snippets/plan-rows.twig:17
+msgid "Unlimited usage"
+msgstr "Obegränsad användning"
+
+#: snippets/plan-rows.twig:17
+msgid "Unlimited credits"
+msgstr "Obegränsat med krediter"
+
+#: snippets/plan-rows.twig:23
+msgid ":amount of usage"
+msgstr "Användning: :amount"
+
+#: snippets/plan-rows.twig:24
+msgid ":amount of usage / month"
+msgstr "Användning per månad: :amount"
+
+#: snippets/plan-rows.twig:27
+msgid ":count credit"
+msgstr ":count kredit"
+
+#: snippets/plan-rows.twig:28
+msgid ":count credits"
+msgstr ":count krediter"
+
+#: snippets/plan-rows.twig:31
+msgid ":amount / month"
+msgstr ":amount / månad"
+
+#: snippets/plan-rows.twig:41
+msgid "Unlimited members"
+msgstr "Obegränsat antal medlemmar"
+
+#: snippets/plan-rows.twig:43
+msgid "Just you"
+msgstr "Bara du"
+
+#: snippets/plan-rows.twig:45
+msgid "Up to :count members"
+msgstr "Upp till :count medlemmar"
+
+#: snippets/plan-rows.twig:63
+msgid "Every AI model"
+msgstr "Alla AI-modeller"
+
+#: snippets/plan-rows.twig:64
+msgid "1 AI model"
+msgstr "1 AI-modell"
+
+#: snippets/plan-rows.twig:64
+msgid ":count AI models"
+msgstr ":count AI-modeller"
+
+#: snippets/plan-rows.twig:79
+msgid "Unlimited custom assistants"
+msgstr "Obegränsat antal anpassade assistenter"
+
+#: snippets/plan-rows.twig:79
+msgid ":count custom assistants"
+msgstr ":count anpassade assistenter"
+
+#: snippets/plan-rows.twig:85
+msgid "Live web search"
+msgstr "Webbsökning i realtid"
+
+#: snippets/plan-rows.twig:86
+msgid "Chat with your documents"
+msgstr "Chatta med dina dokument"
+
+#: snippets/plan-rows.twig:87
+msgid "Read any web page"
+msgstr "Läs vilken webbsida som helst"
+
+#: snippets/plan-rows.twig:88
+msgid "YouTube insights"
+msgstr "YouTube-insikter"
+
+#: snippets/plan-rows.twig:89
+msgid "Create media in chat"
+msgstr "Skapa media i chatten"
+
+#: snippets/plan-rows.twig:90
+msgid "Conversation memory"
+msgstr "Konversationsminne"
+
+#: snippets/plan-rows.twig:91
+msgid "Canvas"
+msgstr "Canvas"
+
+#: snippets/plan-rows.twig:92
+msgid "Clarifying questions"
+msgstr "Förtydligande frågor"
+
+#: snippets/plan-rows.twig:93
+msgid "Connectors to your apps"
+msgstr "Anslutningar till dina appar"
+
+#: snippets/plan-rows.twig:104
+msgid "Image generation"
+msgstr "Bildgenerering"
+
+#: snippets/plan-rows.twig:105
+msgid "Video generation"
+msgstr "Videogenerering"
+
+#: snippets/plan-rows.twig:106
+msgid "Voiceover"
+msgstr "Röstinspelning"
+
+#: snippets/plan-rows.twig:107
+msgid "Transcription"
+msgstr "Transkribering"
+
+#: snippets/plan-rows.twig:108
+msgid "Voice isolation"
+msgstr "Röstisolering"
+
+#: snippets/plan-rows.twig:109
+msgid "Content moderation"
+msgstr "Innehållsmoderering"
+
+#: snippets/plan-rows.twig:122
+msgid "Unlimited voice clones"
+msgstr "Obegränsat antal röstkloner"
+
+#: snippets/plan-rows.twig:122
+msgid ":count voice clones"
+msgstr ":count röstkloner"
+
+#: snippets/plan-rows.twig:133
+msgid "Unlimited scheduled tasks"
+msgstr "Obegränsat antal schemalagda uppgifter"
+
+#: snippets/plan-rows.twig:133
+msgid ":count scheduled tasks"
+msgstr ":count schemalagda uppgifter"
+
+#: snippets/plan-rows.twig:140
+msgid "Private mode"
+msgstr "Privat läge"
+
+#: snippets/plan-rows.twig:166
+msgid "Show less"
+msgstr "Visa mindre"
+
+#: snippets/plan-rows.twig:166
+msgid "Show all features"
+msgstr "Visa alla funktioner"

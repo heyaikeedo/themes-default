@@ -11,232 +11,304 @@ msgstr ""
 "X-Domain: theme\n"
 
 #: sections/chat.twig:11
-msgid "AI Chat Bot"
-msgstr "AI Chat Bot"
+#: snippets/plan-rows.twig:73
+msgid "AI chat"
+msgstr "AI-csevegés"
 
 #: sections/chat.twig:15
 msgctxt "heading"
-msgid "That's remarkably human-like and engaging..."
-msgstr "Ez rendkívül emberi és lebilincselő..."
+msgid "Ask anything. Get clear, useful answers."
+msgstr "Kérdezz bármit. Kapj világos, hasznos válaszokat."
 
 #: sections/chat.twig:19
-msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
-msgstr "Válasszon egyszerűen asztali és engedje meg egy barátságos csevegési robotot, hogy ötleteket hozzon létre, növelje a tartalmait, vagy akár egy mosolyt hozzon a szemébe."
+msgid "Chat with leading AI models to brainstorm, research, write and solve problems faster."
+msgstr "Csevegj a vezető AI-modellekkel, hogy gyorsabban ötletelj, kutass, írj és oldj meg problémákat."
 
-#: sections/chat.twig:24
-#: sections/video.twig:24
+#: sections/chat.twig:23
 msgctxt "button"
-msgid "Try now"
-msgstr "Próbáld ki most"
+msgid "Start chatting"
+msgstr "Csevegés indítása"
 
-#: sections/code.twig:10
-msgid "AI Code"
-msgstr "AI Kód"
-
-#: sections/code.twig:14
+#: sections/cta.twig:9
 msgctxt "heading"
-msgid "Ready to write code at the speed of light?"
-msgstr "Készen állsz kódot írni a fény sebességével?"
+msgid "Pick up where you left off"
+msgstr "Folytasd ott, ahol abbahagytad"
 
-#: sections/code.twig:18
-msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
-msgstr "Kódolás könnyedén AI kódgenerátorral: Azonnali megoldások a programozási igényeinek."
+#: sections/cta.twig:11
+msgid "Your chats, documents and media are waiting in your workspace."
+msgstr "A csevegéseid, dokumentumaid és médiafájljaid a munkaterületedben várnak."
 
-#: sections/code.twig:23
+#: sections/cta.twig:14
+msgctxt "heading"
+msgid "Ready to get started?"
+msgstr "Készen állsz a kezdésre?"
+
+#: sections/cta.twig:16
+msgid "Create your account and put AI to work in minutes."
+msgstr "Hozd létre a fiókodat, és állítsd munkába az AI-t néhány perc alatt."
+
+#: sections/cta.twig:22
+#: sections/header.twig:118
+#: sections/hero.twig:13
 msgctxt "button"
-msgid "Start Generate Code"
-msgstr "Kód generálás indítása"
+msgid "Go to app"
+msgstr "Ugrás az alkalmazáshoz"
 
-#: sections/cta.twig:3
-msgctxt "heading"
-msgid "Ready to level-up?"
-msgstr "Készen állsz a szintlépésre?"
-
-#: sections/cta.twig:5
-msgid "See how easy it can be to write amazing content."
-msgstr "Nézze meg, milyen könnyű csodálatos tartalmat írni."
-
-#: sections/cta.twig:10
+#: sections/cta.twig:22
+#: sections/header.twig:200
+#: sections/hero.twig:18
+#: sections/pricing.twig:139
 msgctxt "button"
-msgid "Get Started Now"
-msgstr "Kezdje el most"
+msgid "Get started"
+msgstr "Kezdés"
 
-#: sections/features.twig:3
+#: sections/cta.twig:28
+#: sections/hero.twig:25
+msgctxt "button"
+msgid "See pricing"
+msgstr "Árak megtekintése"
+
+#: sections/faq.twig:10
+msgid "What are credits?"
+msgstr "Mik azok a kreditek?"
+
+#: sections/faq.twig:11
+msgid "Credits are what you spend when you use the AI. Each request costs credits based on the model and how much it produces, and your plan includes a set amount."
+msgstr "A krediteket az AI használatakor költöd el. Minden kérés kreditbe kerül attól függően, melyik modellt használod, és az mennyi tartalmat állít elő. A csomagod meghatározott mennyiségű kreditet tartalmaz."
+
+#: sections/faq.twig:11
+msgid "Need more? Top up with a credit pack at any time."
+msgstr "Többre van szükséged? Bármikor feltöltheted az egyenlegedet egy kreditcsomaggal."
+
+#: sections/faq.twig:15
+msgid "How is usage measured?"
+msgstr "Hogyan mérjük a használatot?"
+
+#: sections/faq.twig:16
+msgid "Each plan includes an amount of usage. What a request uses depends on the model and how much it produces, and your account always shows what you have left."
+msgstr "Minden csomag meghatározott mennyiségű használatot tartalmaz. A kérésenkénti felhasználás attól függ, melyik modellt használod, és az mennyi tartalmat állít elő. A fiókodban mindig láthatod, mennyi maradt."
+
+#: sections/faq.twig:20
+msgid "Which AI models can I use?"
+msgstr "Milyen AI-modelleket használhatok?"
+
+#: sections/faq.twig:21
+msgid "Each plan lists the models it includes. Hover over the models line on a plan to see them, and pick the one you want while you work."
+msgstr "Minden csomag felsorolja a benne foglalt modelleket. Vidd az egérmutatót a csomag modelljeit felsoroló sor fölé, hogy megtekinthesd őket, és munka közben válaszd ki a használni kívánt modellt."
+
+#: sections/faq.twig:25
+msgid "Can I change or cancel my plan?"
+msgstr "Módosíthatom vagy lemondhatom a csomagomat?"
+
+#: sections/faq.twig:26
+msgid "Yes. You can upgrade, downgrade or cancel from the billing page in your account at any time."
+msgstr "Igen. A fiókod számlázási oldalán bármikor válthatsz nagyobb vagy kisebb csomagra, illetve lemondhatod az előfizetésedet."
+
+#: sections/faq.twig:30
+msgid "Is there a free trial?"
+msgstr "Van ingyenes próbaidőszak?"
+
+#: sections/faq.twig:31
+msgid "Yes. Paid subscriptions start with a :days-day free trial. Cancel before it ends and you will not be charged."
+msgstr "Igen. A fizetős előfizetésekhez :days napos ingyenes próbaidőszak jár. Mondd le az előfizetést a próbaidőszak vége előtt, és nem kell fizetned."
+
+#: sections/faq.twig:35
+msgid "Can I use it with my team?"
+msgstr "Használhatom a csapatommal?"
+
+#: sections/faq.twig:36
+msgid "Yes. Invite teammates to your workspace and they share its plan. How many members you can add depends on your plan."
+msgstr "Igen. Hívd meg a csapattagokat a munkaterületedre, és ugyanazt az előfizetést használják. A csomagodtól függ, hány tagot adhatsz hozzá."
+
+#: sections/faq.twig:40
+msgid "What happens to what I create?"
+msgstr "Mi történik azzal, amit létrehozok?"
+
+#: sections/faq.twig:41
+msgid "It is saved to your library so you can find it later. Switch on private mode and nothing you create is kept: it stays out of your history and is deleted automatically."
+msgstr "A rendszer elmenti a könyvtáradba, így később is megtalálod. Kapcsold be a privát módot, és semmi sem marad meg abból, amit létrehozol: nem kerül be az előzményekbe, és automatikusan törlődik."
+
+#: sections/faq.twig:49
 msgctxt "heading"
-msgid "Coolest Features"
-msgstr "Legmenőbb funkciók"
+msgid "Frequently asked questions"
+msgstr "Gyakran ismételt kérdések"
+
+#: sections/faq.twig:52
+msgid "Answers to what people ask most before they sign up."
+msgstr "Válaszok azokra a kérdésekre, amelyeket a legtöbben feltesznek regisztráció előtt."
 
 #: sections/features.twig:13
 msgctxt "heading"
-msgid "High Quality Code"
-msgstr "Kiváló minőségű kód"
+msgid "Leading AI models"
+msgstr "Vezető AI-modellek"
 
-#: sections/features.twig:16
-msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
-msgstr "A Domain-Driven Design és Onion Architecture elveinek felhasználásával fejlesztve."
+#: sections/features.twig:14
+msgid "Use models from several AI providers in one app, without separate accounts."
+msgstr "Használj több AI-szolgáltatótól származó modelleket egyetlen alkalmazásban, külön fiókok nélkül."
+
+#: sections/features.twig:19
+msgctxt "heading"
+msgid "Custom assistants"
+msgstr "Egyéni asszisztensek"
+
+#: sections/features.twig:20
+msgid "Build assistants with their own instructions and knowledge, and reuse them any time."
+msgstr "Hozz létre saját utasításokkal és tudással rendelkező asszisztenseket, és használd őket újra bármikor."
+
+#: sections/features.twig:25
+msgctxt "heading"
+msgid "Chat with your documents"
+msgstr "Csevegés a dokumentumaiddal"
 
 #: sections/features.twig:26
+msgid "Upload files and ask questions about them. Answers come from your own content."
+msgstr "Tölts fel fájlokat, és tegyél fel kérdéseket velük kapcsolatban. A válaszok a saját tartalmaidon alapulnak."
+
+#: sections/features.twig:31
 msgctxt "heading"
-msgid "Modern Technologies"
-msgstr "Modern technológiák"
+msgid "Live web search"
+msgstr "Élő internetes keresés"
 
-#: sections/features.twig:29
-msgid "Built with modern technologies for best structure and get maximum performance."
-msgstr "A modern technológiák használatával a legjobb szerkezetet és a maximális teljesítményt."
+#: sections/features.twig:32
+msgid "Get answers that draw on up-to-date information from the web."
+msgstr "Kapj válaszokat, amelyek naprakész internetes információkra támaszkodnak."
 
-#: sections/features.twig:39
+#: sections/features.twig:37
 msgctxt "heading"
-msgid "Friendly UI and UX"
-msgstr "Barátságos felhasználói felület és élmény"
+msgid "Connect your apps"
+msgstr "Kapcsold össze az alkalmazásaidat"
 
-#: sections/features.twig:42
-msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
-msgstr "Élvezze a kényelmes és intuitív felhasználói felületet, amely növeli a digitális élményét."
+#: sections/features.twig:38
+msgid "Bring the tools you already use into the conversation."
+msgstr "Hozd be a beszélgetésbe a már használt eszközeidet."
 
-#: sections/features.twig:52
+#: sections/features.twig:43
 msgctxt "heading"
-msgid "Dark Mode"
-msgstr "Sötét mód"
+msgid "Scheduled tasks"
+msgstr "Ütemezett feladatok"
+
+#: sections/features.twig:44
+msgid "Let the AI handle reminders, recurring reports and ongoing updates on a schedule."
+msgstr "Bízd az AI-ra az emlékeztetőket, az ismétlődő jelentéseket és a folyamatos frissítéseket, ütemezés szerint."
+
+#: sections/features.twig:49
+msgctxt "heading"
+msgid "Private mode"
+msgstr "Privát mód"
+
+#: sections/features.twig:50
+msgid "What you create in private mode stays out of your history and library, and is deleted automatically."
+msgstr "A privát módban létrehozott tartalmak nem kerülnek be az előzményekbe vagy a könyvtárba, és automatikusan törlődnek."
 
 #: sections/features.twig:55
-msgid "Turn off the light and switch to dark mode your interface with one click."
-msgstr "Kapcsold ki a fényt, és egy kattintással válts sötét módra az interfészen."
-
-#: sections/features.twig:65
 msgctxt "heading"
-msgid "Documentation"
-msgstr "Dokumentáció"
+msgid "Built for teams"
+msgstr "Csapatokra szabva"
+
+#: sections/features.twig:56
+msgid "Invite your teammates to a shared workspace and work from the same plan."
+msgstr "Hívd meg csapattársaidat egy közös munkaterületre, és dolgozzatok ugyanazzal a csomaggal."
+
+#: sections/features.twig:61
+msgctxt "heading"
+msgid "Your library"
+msgstr "Saját könyvtárad"
+
+#: sections/features.twig:62
+msgid "Everything you create is saved in one place, ready to find, reuse and download."
+msgstr "Minden, amit létrehozol, egy helyen lesz elmentve, így könnyen megtalálhatod, újra felhasználhatod és letöltheted."
+
+#: sections/features.twig:67
+msgctxt "heading"
+msgid "Speaks your language"
+msgstr "A te nyelveden"
 
 #: sections/features.twig:68
-msgid "An all-inclusive learning package seamlessly integrated into our community."
-msgstr "Egy mindenre kiterjedő tanulási csomag, amely zökkenőmentesen integrálódik közösségünkbe."
+msgid "Use the app in the language you are most comfortable with."
+msgstr "Használd az alkalmazást azon a nyelven, amelyik a legkényelmesebb számodra."
 
-#: sections/features.twig:78
+#: sections/features.twig:73
 msgctxt "heading"
-msgid "Payment Gateways"
-msgstr "Fizetési átjárók"
+msgid "Light and dark mode"
+msgstr "Világos és sötét mód"
 
-#: sections/features.twig:81
-msgid "Simplify transactions and boost security with payment gateway solutions."
-msgstr "Egyszerűsítsd a tranzakciókat és növeld a biztonságot fizetési átjáró megoldásokkal."
+#: sections/features.twig:74
+msgid "Work the way your eyes prefer, day or night."
+msgstr "Dolgozz úgy, ahogy a szemednek a legjobb, nappal és éjszaka."
 
-#: sections/features.twig:91
+#: sections/features.twig:79
 msgctxt "heading"
-msgid "AI Generator"
-msgstr "AI Generátor"
+msgid "Secure checkout"
+msgstr "Biztonságos fizetés"
 
-#: sections/features.twig:94
-msgid "Unlock limitless creativity with our AI-powered content generator."
-msgstr "Szabadítsa fel a végtelen kreativitást AI-alapú tartalomgenerátorunkkal."
+#: sections/features.twig:80
+msgid "Pay safely through trusted payment providers and manage your plan any time."
+msgstr "Fizess biztonságosan megbízható fizetési szolgáltatókon keresztül, és kezeld bármikor a csomagodat."
 
-#: sections/features.twig:104
+#: sections/features.twig:86
 msgctxt "heading"
-msgid "SEO Friendly"
-msgstr "SEO Barát"
-
-#: sections/features.twig:107
-msgid "Boost your visibility and reach your audience effectively with AI generated content."
-msgstr "Növelje a láthatóságát és érje el a közönségét hatékonyan AI által generált tartalommal."
-
-#: sections/features.twig:117
-msgctxt "heading"
-msgid "Advanced Dashboard"
-msgstr "Fejlett Irányítópult"
-
-#: sections/features.twig:120
-msgid "Empower your insights and control with our cutting-edge dashboard."
-msgstr "Erősítse meg meglátásait és irányítását csúcstechnológiás irányítópultunkkal."
-
-#: sections/features.twig:130
-msgctxt "heading"
-msgid "Custom Templates"
-msgstr "Egyedi Sablonok"
-
-#: sections/features.twig:133
-msgid "Transform your content creation with AI-driven custom templates."
-msgstr "Alakítsa át tartalomkészítését AI-vezérelt egyedi sablonokkal."
-
-#: sections/features.twig:144
-msgctxt "heading"
-msgid "Login via SM Accounts"
-msgstr "Bejelentkezés SM Fiókokkal"
-
-#: sections/features.twig:147
-msgid "Use Facebook or Google accounts as an alternatively access to platform."
-msgstr "Használja a Facebook vagy Google fiókokat alternatív hozzáférésként a platformhoz."
-
-#: sections/features.twig:157
-msgctxt "heading"
-msgid "High Quality Support"
-msgstr "Kiváló Minőségű Támogatás"
-
-#: sections/features.twig:160
-msgid "Our support team is available 24/7 to help you with any questions or concerns."
-msgstr "A támogató csapatunk 24/7-ig elérhető, hogy segítsen Önnek bármilyen kérdéssel vagy aggánnyal."
+msgid "Everything in one workspace"
+msgstr "Minden egyetlen munkaterületen"
 
 #: sections/footer.twig:4
 msgid "All rights reserved."
 msgstr "Minden jog fenntartva."
 
 #: sections/footer.twig:42
-#: sections/header.twig:19
+#: sections/header.twig:21
 msgctxt "button"
 msgid "Product"
 msgstr "Termék"
 
 #: sections/footer.twig:46
-#: sections/header.twig:33
+#: sections/header.twig:28
+msgctxt "button"
+msgid "Features"
+msgstr "Funkciók"
+
+#: sections/footer.twig:50
+#: sections/header.twig:35
 msgctxt "button"
 msgid "Pricing"
 msgstr "Árazás"
 
-#: sections/footer.twig:50
+#: sections/footer.twig:54
+#: sections/header.twig:42
 msgctxt "button"
 msgid "FAQ"
 msgstr "GYIK"
 
-#: sections/footer.twig:57
+#: sections/footer.twig:61
 msgctxt "button"
 msgid "Terms of services"
 msgstr "Szolgáltatási feltételek"
 
-#: sections/footer.twig:63
+#: sections/footer.twig:67
 msgctxt "button"
 msgid "Privacy policy"
 msgstr "Adatvédelmi irányelvek"
 
-#: sections/footer.twig:69
+#: sections/footer.twig:73
 msgctxt "button"
 msgid "Refund policy"
 msgstr "Visszatérítési szabályzat"
 
-#: sections/generators.twig:3
+#: sections/generators.twig:16
 msgctxt "heading"
-msgid "Meet your ultimate"
-msgstr "Ismerje meg az Ön végső"
+msgid "Every AI tool you need,"
+msgstr "Minden AI-eszköz, amire szükséged van,"
 
-#: sections/generators.twig:6
+#: sections/generators.twig:17
 msgctxt "heading"
-msgid "AI-Powered Content Platform"
-msgstr "Mesterséges intelligencia által vezérelt tartalomplatform"
+msgid "in one place"
+msgstr "egy helyen"
 
-#: sections/header.twig:26
-msgctxt "button"
-msgid "Featured"
-msgstr "Kiemelt"
-
-#: sections/header.twig:111
-#: sections/hero.twig:13
-msgctxt "button"
-msgid "Go to app"
-msgstr "Ugrás az alkalmazáshoz"
-
-#: sections/header.twig:123
+#: sections/header.twig:129
 msgctxt "button"
 msgid "Library"
 msgstr "Könyvtár"
 
-#: sections/header.twig:131
+#: sections/header.twig:136
 msgctxt "button"
 msgid "Billing"
 msgstr "Számlázás"
@@ -246,239 +318,428 @@ msgctxt "button"
 msgid "Account"
 msgstr "Fiók"
 
-#: sections/header.twig:151
+#: sections/header.twig:154
 msgctxt "button"
 msgid "Logout"
 msgstr "Kijelentkezés"
 
-#: sections/header.twig:191
+#: sections/header.twig:195
 msgctxt "button"
 msgid "Login"
 msgstr "Bejelentkezés"
 
-#: sections/header.twig:196
-#: sections/pricing.twig:102
-msgctxt "button"
-msgid "Get started"
-msgstr "Kezdés"
-
 #: sections/hero.twig:3
 msgctxt "heading"
-msgid "Transforming ideas into AI generated masterpieces"
-msgstr "Ötletek átalakítása AI által generált mesterművekké"
+msgid "Your all-in-one AI workspace"
+msgstr "Minden az egyben AI-munkaterületed"
 
 #: sections/hero.twig:7
-msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
-msgstr "Generáljon kiváló minőségű tartalmat az AI-val, amely megfelel a szükségleteinek. Szabadítsa fel a lehetőségeket, mentse az időt, és kezdjen el pénzt keresni ma!"
+msgid "Chat, write and create with the leading AI models, all in one place. No juggling apps or subscriptions."
+msgstr "Csevegj, írj és alkoss a vezető AI-modellekkel, mindezt egy helyen. Nem kell többé alkalmazások és előfizetések között váltogatnod."
 
-#: sections/hero.twig:19
-msgctxt "button"
-msgid "Get started now"
-msgstr "Kezdje el most"
+#: sections/how-it-works.twig:2
+msgctxt "heading"
+msgid "Create your account"
+msgstr "Hozd létre a fiókodat"
+
+#: sections/how-it-works.twig:2
+msgid "Sign up in seconds and land on your own dashboard."
+msgstr "Regisztrálj néhány másodperc alatt, és máris a saját irányítópultodra jutsz."
 
 #: sections/how-it-works.twig:3
+msgctxt "heading"
+msgid "Pick a tool and a model"
+msgstr "Válassz eszközt és modellt"
+
+#: sections/how-it-works.twig:3
+msgid "Chat, write, create images and more. Choose the AI model that suits the job."
+msgstr "Csevegj, írj, készíts képeket és még sok mást. Válaszd ki az adott feladathoz legmegfelelőbb AI-modellt."
+
+#: sections/how-it-works.twig:4
+msgctxt "heading"
+msgid "Describe it, get results"
+msgstr "Írd le, és nézd meg az eredményeket"
+
+#: sections/how-it-works.twig:4
+msgid "Say what you need in plain words, refine the result, and find it later in your library."
+msgstr "Mondd el egyszerűen, mire van szükséged, finomítsd az eredményt, és később keresd meg a könyvtáradban."
+
+#: sections/how-it-works.twig:9
 msgctxt "heading"
 msgid "How it works"
 msgstr "Hogyan működik"
 
-#: sections/how-it-works.twig:13
-msgctxt "heading"
-msgid "Choose Template"
-msgstr "Sablon kiválasztása"
-
-#: sections/how-it-works.twig:16
-msgid "Choose a our built in templates or create your own."
-msgstr "Válasszon beépített sablonjaink közül, vagy készítsen sajátot."
-
-#: sections/how-it-works.twig:26
-msgctxt "heading"
-msgid "Describe"
-msgstr "Leírás"
-
-#: sections/how-it-works.twig:29
-msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
-msgstr "Írjon néhány mondatot a témájának leírására. Adjon hozzá kulcsszavakat a márkájának megadásához."
-
-#: sections/how-it-works.twig:39
-msgctxt "heading"
-msgid "Generate"
-msgstr "Generálás"
-
-#: sections/how-it-works.twig:42
-msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
-msgstr "Kattasson a \"Generálás\" gombra, és mindig kapjon különböző magas konverziós másolatokat."
-
 #: sections/image.twig:5
-msgid "AI Image"
-msgstr "AI Kép"
+msgid "AI images"
+msgstr "AI-képek"
 
 #: sections/image.twig:9
 msgctxt "heading"
-msgid "Visualize what you dream of. Create images from text."
-msgstr "Lássa meg, amiről álmodik. Készítsen képeket szövegből."
+msgid "Turn a sentence into an image."
+msgstr "Alakíts egy mondatot képpé."
 
 #: sections/image.twig:13
-msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
-msgstr "Azonnali kép készítés a technológiai képgenerátorral - a művészeti innovációja."
+msgid "Describe what you want to see, pick a model, and get images you can download and reuse."
+msgstr "Írd le, mit szeretnél látni, válassz modellt, és készíts letölthető, újra felhasználható képeket."
 
-#: sections/image.twig:18
+#: sections/image.twig:17
 msgctxt "button"
-msgid "Try for free"
-msgstr "Próbálja ki ingyen"
+msgid "Create an image"
+msgstr "Kép létrehozása"
+
+#: sections/models.twig:53
+msgid "Powered by the leading AI models"
+msgstr "A vezető AI-modellek támogatásával"
 
 #: sections/presets.twig:9
-msgid "100+ AI Writer Templates"
-msgstr "100+ AI író sablon"
+msgid "Writing templates"
+msgstr "Szövegírási sablonok"
 
 #: sections/presets.twig:14
 msgctxt "heading"
-msgid "What can Writing Assistant create for you?"
-msgstr "Mit készíthet Önnek az Író Asszisztens?"
+msgid "What will you write today?"
+msgstr "Mit szeretnél ma írni?"
 
 #: sections/presets.twig:18
-msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer's block forever."
-msgstr "Írj rendkívüli sebességgel, ragadd meg a közönséged, és búcsúzz el örökre az írói blokktól."
+msgid "Product descriptions, social posts, cover letters and more. Pick a template and skip the blank page."
+msgstr "Termékleírások, közösségi médiás bejegyzések, motivációs levelek és sok más. Válassz sablont, hogy ne kelljen üres lappal kezdened."
 
 #: sections/presets.twig:23
 msgctxt "button"
-msgid "Get Started for Free"
-msgstr "Kezdje el ingyen"
+msgid "Browse templates"
+msgstr "Sablonok böngészése"
 
-#: sections/pricing.twig:3
-msgctxt "heading"
-msgid "Pricing"
-msgstr "Árazás"
+#: sections/preview.twig:10
+msgid "Alex"
+msgstr "Alex"
 
-#: sections/pricing.twig:6
-msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
-msgstr "Fedezze fel a tökéletes tervet, amely megfelel a szükségleteinek és feloldja a lehetőségek világát."
+#: sections/preview.twig:11
+msgid "Alex Morgan"
+msgstr "Alex Morgan"
 
-#: sections/pricing.twig:19
+#: sections/preview.twig:106
+msgid "Hello, :name!"
+msgstr "Szia, :name!"
+
+#: sections/preview.twig:110
+msgid "How can I assist you?"
+msgstr "Miben segíthetek?"
+
+#: sections/preview.twig:115
+msgid "Ask anything…"
+msgstr "Kérdezz bármit…"
+
+#: sections/preview.twig:121
+msgid "Transcribe audio"
+msgstr "Hang átírása"
+
+#: sections/preview.twig:122
+msgid "Isolate sounds"
+msgstr "Hangok elkülönítése"
+
+#: sections/preview.twig:123
+msgid "Create videos"
+msgstr "Videók létrehozása"
+
+#: sections/preview.twig:124
+msgid "Create images"
+msgstr "Képek létrehozása"
+
+#: sections/preview.twig:147
+msgid "Scroll to explore"
+msgstr "Görgess a felfedezéshez"
+
+#: sections/pricing.twig:10
 msgctxt "button"
 msgid "Monthly"
 msgstr "Havi"
 
-#: sections/pricing.twig:28
+#: sections/pricing.twig:11
 msgctxt "button"
 msgid "Yearly"
 msgstr "Éves"
 
-#: sections/pricing.twig:37
+#: sections/pricing.twig:17
 msgctxt "button"
-msgid "Packs"
-msgstr "Csomagok"
+msgid "Lifetime"
+msgstr "Élettartam"
 
-#: sections/pricing.twig:46
-msgctxt "button"
-msgid "Lifetime Deals"
-msgstr "Élettartam ajánlatok"
+#: sections/pricing.twig:42
+msgctxt "heading"
+msgid "Simple, transparent pricing"
+msgstr "Egyszerű, átlátható árak"
 
-#: sections/pricing.twig:78
-msgid "Most Popular"
+#: sections/pricing.twig:45
+msgid "Pick a plan that fits how you work. Upgrade, downgrade or cancel at any time."
+msgstr "Válassz egy, a munkamódszeredhez illő csomagot. Bármikor válthatsz magasabb vagy alacsonyabb csomagra, illetve lemondhatod az előfizetést."
+
+#: sections/pricing.twig:74
+msgid "Most popular"
 msgstr "Legnépszerűbb"
 
-#: sections/pricing.twig:115
-msgid "Chat"
-msgstr "Csevegés"
+#: sections/pricing.twig:105
+msgid "Free"
+msgstr "Ingyenes"
 
-#: sections/pricing.twig:134
-msgid "Writer"
-msgstr "Író"
+#: sections/pricing.twig:112
+msgid "/ month"
+msgstr "/ hónap"
+
+#: sections/pricing.twig:113
+msgid "/ year"
+msgstr "/ év"
+
+#: sections/pricing.twig:114
+msgid "lifetime"
+msgstr "élettartamra"
+
+#: sections/pricing.twig:115
+msgid "one-time"
+msgstr "egyszeri"
+
+#: sections/pricing.twig:123
+msgid "per month, billed yearly"
+msgstr "havonta, éves számlázással"
+
+#: sections/pricing.twig:125
+msgid "Pay once. Allowance refreshes every month."
+msgstr "Fizess egyszer. A keret havonta megújul."
+
+#: sections/pricing.twig:127
+msgid "Extra credits on top of your plan."
+msgstr "További kreditek a csomagod mellé."
+
+#: sections/pricing.twig:135
+msgctxt "button"
+msgid "Start :days-day free trial"
+msgstr "Indítsd el a :days napos ingyenes próbaidőszakot"
+
+#: sections/pricing.twig:137
+msgctxt "button"
+msgid "Start for free"
+msgstr "Kezdés ingyen"
 
 #: sections/pricing.twig:153
-msgid "Image generator"
-msgstr "Kép generátor"
+msgctxt "button"
+msgid "See all plans"
+msgstr "Összes csomag megtekintése"
 
-#: sections/pricing.twig:166
-msgid "Transcriber"
-msgstr "Átirat készítő"
-
-#: sections/pricing.twig:179
-msgid "Voiceover"
-msgstr "Hangalámondás"
-
-#: sections/pricing.twig:192
-msgid "Voice isolator"
-msgstr "Hangszigetelő"
-
-#: sections/pricing.twig:205
-msgid "Classifier"
-msgstr "Osztályozó"
-
-#: sections/pricing.twig:213
-msgid "Access to templates is disabled"
-msgstr "A sablonokhoz való hozzáférés le van tiltva"
-
-#: sections/pricing.twig:216
-msgid "Access to all templates"
-msgstr "Hozzáférés az összes sablonhoz"
-
-#: sections/pricing.twig:232
-msgid "Priority support"
-msgstr "Elsőbbségi támogatás"
-
-#: sections/pricing.twig:235
-msgid "Basic support"
-msgstr "Alap támogatás"
+#: sections/pricing.twig:161
+msgid "Not ready to pay? Try the free plan"
+msgstr "Még nem állsz készen a fizetésre? Próbáld ki az ingyenes csomagot"
 
 #: sections/speech-to-text.twig:4
-msgid "Speech to Text"
-msgstr "Beszéd szöveggé"
+msgid "Speech to text"
+msgstr "Beszéd szöveggé alakítása"
 
 #: sections/speech-to-text.twig:8
 msgctxt "heading"
-msgid "Transforming Spoken <br> Words into Text."
-msgstr "A kimondott szavak <br> szöveggé alakítása."
+msgid "Turn recordings into text."
+msgstr "Alakítsd át a felvételeket szöveggé."
 
 #: sections/speech-to-text.twig:12
-msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
-msgstr "Azonnali átírás a beszédből a szöveggé a termelékenység és a hozzáférhetőség növelése érdekében."
+msgid "Upload a meeting, interview or voice note and get a transcript you can copy and download."
+msgstr "Tölts fel egy megbeszélést, interjút vagy hangjegyzetet, és kapsz egy átiratot, amelyet kimásolhatsz és letölthetsz."
 
-#: sections/speech-to-text.twig:17
+#: sections/speech-to-text.twig:16
 msgctxt "button"
-msgid "Convert now"
-msgstr "Átalakítás most"
+msgid "Transcribe audio"
+msgstr "Hang átírása"
 
 #: sections/text-to-voice.twig:4
-msgid "Text to Voice"
-msgstr "Szöveg hanggá"
+msgid "Text to speech"
+msgstr "Szövegfelolvasás"
 
 #: sections/text-to-voice.twig:8
 msgctxt "heading"
-msgid "Convert your texts into <br> Lifelike Speech"
-msgstr "Alakítsd át szövegeidet <br> élethű beszéddé"
+msgid "Give your words a natural voice."
+msgstr "Adj természetes hangot a szavaidnak."
 
 #: sections/text-to-voice.twig:12
-msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
-msgstr "Emelje meg a tartalmait a kifejező elbeszéléssel: Fedezze fel a szöveg hanggá kiválóságot."
+msgid "Pick a lifelike voice for narration, videos and podcasts."
+msgstr "Válassz élethű hangot narrációhoz, videókhoz és podcastokhoz."
 
 #: sections/video.twig:11
-msgid "Video"
-msgstr "Videó"
+msgid "AI video"
+msgstr "AI-videó"
 
 #: sections/video.twig:15
 msgctxt "heading"
-msgid "Generate high-quality videos using AI Video generation tool."
-msgstr "Készíts kiváló minőségű videókat az AI Videókészítő eszközzel."
+msgid "Make short videos from a prompt or a photo."
+msgstr "Készíts rövid videókat egy promptból vagy egy fotóból."
 
 #: sections/video.twig:19
-msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
-msgstr "Nem szükséges videószerkesztési tudás – csak töltsd fel a képeidet, és adj meg néhány sor utasítást, ennyi az egész."
+msgid "No editing skills needed. Write a few lines, add an image if you like, and the AI does the rest."
+msgstr "Nincs szükség szerkesztési ismeretekre. Írj néhány sort, ha szeretnél, adj hozzá egy képet, a többit pedig bízd az AI-ra."
+
+#: sections/video.twig:23
+msgctxt "button"
+msgid "Make a video"
+msgstr "Videó készítése"
 
 #: sections/writer.twig:22
-msgid "AI Writer"
-msgstr "AI Író"
+#: snippets/plan-rows.twig:103
+msgid "AI writer"
+msgstr "AI-író"
 
 #: sections/writer.twig:26
 msgctxt "heading"
-msgid "Write SEO optimized blogs, sales emails and more..."
-msgstr "Írj SEO-optimalizált blogokat, értékesítési e-maileket és még sok mást..."
+msgid "Blog posts, emails and ads, written in minutes."
+msgstr "Blogbejegyzések, e-mailek és hirdetések percek alatt."
 
 #: sections/writer.twig:30
-msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
-msgstr "Érje el a legjobb eredményeket egy részében a időben. Végre, egy íróeszköz, amelyet igazán használni fog."
+msgid "Start from a ready-made template, answer a few questions, and refine the draft in chat until it sounds like you."
+msgstr "Indulj egy kész sablonból, válaszolj néhány kérdésre, majd finomítsd a vázlatot chaten, amíg igazán a sajátodnak nem érzed."
 
-#: sections/writer.twig:35
+#: sections/writer.twig:34
 msgctxt "button"
-msgid "See all features"
-msgstr "Az összes funkció megtekintése"
+msgid "Start writing"
+msgstr "Írás elkezdése"
+
+#: snippets/plan-rows.twig:17
+msgid "Unlimited usage"
+msgstr "Korlátlan használat"
+
+#: snippets/plan-rows.twig:17
+msgid "Unlimited credits"
+msgstr "Korlátlan kredit"
+
+#: snippets/plan-rows.twig:23
+msgid ":amount of usage"
+msgstr ":amount használat"
+
+#: snippets/plan-rows.twig:24
+msgid ":amount of usage / month"
+msgstr ":amount használat / hónap"
+
+#: snippets/plan-rows.twig:27
+msgid ":count credit"
+msgstr ":count kredit"
+
+#: snippets/plan-rows.twig:28
+msgid ":count credits"
+msgstr ":count kredit"
+
+#: snippets/plan-rows.twig:31
+msgid ":amount / month"
+msgstr ":amount / hónap"
+
+#: snippets/plan-rows.twig:41
+msgid "Unlimited members"
+msgstr "Korlátlan számú tag"
+
+#: snippets/plan-rows.twig:43
+msgid "Just you"
+msgstr "Csak te"
+
+#: snippets/plan-rows.twig:45
+msgid "Up to :count members"
+msgstr "Legfeljebb :count tag"
+
+#: snippets/plan-rows.twig:63
+msgid "Every AI model"
+msgstr "Az összes AI-modell"
+
+#: snippets/plan-rows.twig:64
+msgid "1 AI model"
+msgstr "1 AI-modell"
+
+#: snippets/plan-rows.twig:64
+msgid ":count AI models"
+msgstr ":count AI-modell"
+
+#: snippets/plan-rows.twig:79
+msgid "Unlimited custom assistants"
+msgstr "Korlátlan számú egyéni asszisztens"
+
+#: snippets/plan-rows.twig:79
+msgid ":count custom assistants"
+msgstr ":count egyéni asszisztens"
+
+#: snippets/plan-rows.twig:85
+msgid "Live web search"
+msgstr "Élő webes keresés"
+
+#: snippets/plan-rows.twig:86
+msgid "Chat with your documents"
+msgstr "Csevegés a dokumentumaiddal"
+
+#: snippets/plan-rows.twig:87
+msgid "Read any web page"
+msgstr "Bármely weboldal elolvasása"
+
+#: snippets/plan-rows.twig:88
+msgid "YouTube insights"
+msgstr "YouTube-elemzések"
+
+#: snippets/plan-rows.twig:89
+msgid "Create media in chat"
+msgstr "Média létrehozása a csevegésben"
+
+#: snippets/plan-rows.twig:90
+msgid "Conversation memory"
+msgstr "Beszélgetési memória"
+
+#: snippets/plan-rows.twig:91
+msgid "Canvas"
+msgstr "Canvas"
+
+#: snippets/plan-rows.twig:92
+msgid "Clarifying questions"
+msgstr "Tisztázó kérdések"
+
+#: snippets/plan-rows.twig:93
+msgid "Connectors to your apps"
+msgstr "Csatlakozók az alkalmazásaidhoz"
+
+#: snippets/plan-rows.twig:104
+msgid "Image generation"
+msgstr "Képgenerálás"
+
+#: snippets/plan-rows.twig:105
+msgid "Video generation"
+msgstr "Videógenerálás"
+
+#: snippets/plan-rows.twig:106
+msgid "Voiceover"
+msgstr "Hangalámondás"
+
+#: snippets/plan-rows.twig:107
+msgid "Transcription"
+msgstr "Átírás"
+
+#: snippets/plan-rows.twig:108
+msgid "Voice isolation"
+msgstr "Hangelkülönítés"
+
+#: snippets/plan-rows.twig:109
+msgid "Content moderation"
+msgstr "Tartalommoderálás"
+
+#: snippets/plan-rows.twig:122
+msgid "Unlimited voice clones"
+msgstr "Korlátlan hangklón"
+
+#: snippets/plan-rows.twig:122
+msgid ":count voice clones"
+msgstr ":count hangklón"
+
+#: snippets/plan-rows.twig:133
+msgid "Unlimited scheduled tasks"
+msgstr "Korlátlan ütemezett feladat"
+
+#: snippets/plan-rows.twig:133
+msgid ":count scheduled tasks"
+msgstr ":count ütemezett feladat"
+
+#: snippets/plan-rows.twig:140
+msgid "Private mode"
+msgstr "Privát mód"
+
+#: snippets/plan-rows.twig:166
+msgid "Show less"
+msgstr "Kevesebb megjelenítése"
+
+#: snippets/plan-rows.twig:166
+msgid "Show all features"
+msgstr "Összes funkció megjelenítése"

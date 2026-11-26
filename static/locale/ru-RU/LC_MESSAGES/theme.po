@@ -11,232 +11,304 @@ msgstr ""
 "X-Domain: theme\n"
 
 #: sections/chat.twig:11
-msgid "AI Chat Bot"
-msgstr "ИИ Чат-бот"
+#: snippets/plan-rows.twig:73
+msgid "AI chat"
+msgstr "Чат с ИИ"
 
 #: sections/chat.twig:15
 msgctxt "heading"
-msgid "That's remarkably human-like and engaging..."
-msgstr "Это удивительно похоже на человека и захватывающе..."
+msgid "Ask anything. Get clear, useful answers."
+msgstr "Спрашивайте о чём угодно. Получайте понятные и полезные ответы."
 
 #: sections/chat.twig:19
-msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
-msgstr "Просто выберите своего помощника и общайтесь с дружелюбным чат-ботом для генерации идей, улучшения контента или даже для улыбки на вашем лице."
+msgid "Chat with leading AI models to brainstorm, research, write and solve problems faster."
+msgstr "Общайтесь с ведущими моделями ИИ, чтобы быстрее генерировать идеи, проводить исследования, писать и решать задачи."
 
-#: sections/chat.twig:24
-#: sections/video.twig:24
+#: sections/chat.twig:23
 msgctxt "button"
-msgid "Try now"
-msgstr "Попробовать сейчас"
+msgid "Start chatting"
+msgstr "Начать чат"
 
-#: sections/code.twig:10
-msgid "AI Code"
-msgstr "ИИ Код"
-
-#: sections/code.twig:14
+#: sections/cta.twig:9
 msgctxt "heading"
-msgid "Ready to write code at the speed of light?"
-msgstr "Готовы писать код со скоростью света?"
+msgid "Pick up where you left off"
+msgstr "Продолжите с того места, где остановились"
 
-#: sections/code.twig:18
-msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
-msgstr "Легкое программирование с помощью генератора кода ИИ: мгновенные решения для ваших потребностей в программировании."
+#: sections/cta.twig:11
+msgid "Your chats, documents and media are waiting in your workspace."
+msgstr "Ваши чаты, документы и медиафайлы ждут вас в рабочем пространстве."
 
-#: sections/code.twig:23
+#: sections/cta.twig:14
+msgctxt "heading"
+msgid "Ready to get started?"
+msgstr "Готовы начать?"
+
+#: sections/cta.twig:16
+msgid "Create your account and put AI to work in minutes."
+msgstr "Создайте аккаунт и начните использовать ИИ за считаные минуты."
+
+#: sections/cta.twig:22
+#: sections/header.twig:118
+#: sections/hero.twig:13
 msgctxt "button"
-msgid "Start Generate Code"
-msgstr "Начать генерацию кода"
+msgid "Go to app"
+msgstr "Перейти в приложение"
 
-#: sections/cta.twig:3
-msgctxt "heading"
-msgid "Ready to level-up?"
-msgstr "Готовы подняться на новый уровень?"
-
-#: sections/cta.twig:5
-msgid "See how easy it can be to write amazing content."
-msgstr "Узнайте, как легко создавать потрясающий контент."
-
-#: sections/cta.twig:10
+#: sections/cta.twig:22
+#: sections/header.twig:200
+#: sections/hero.twig:18
+#: sections/pricing.twig:139
 msgctxt "button"
-msgid "Get Started Now"
-msgstr "Начать сейчас"
+msgid "Get started"
+msgstr "Начать"
 
-#: sections/features.twig:3
+#: sections/cta.twig:28
+#: sections/hero.twig:25
+msgctxt "button"
+msgid "See pricing"
+msgstr "Посмотреть цены"
+
+#: sections/faq.twig:10
+msgid "What are credits?"
+msgstr "Что такое кредиты?"
+
+#: sections/faq.twig:11
+msgid "Credits are what you spend when you use the AI. Each request costs credits based on the model and how much it produces, and your plan includes a set amount."
+msgstr "Кредиты расходуются при использовании ИИ. Стоимость каждого запроса в кредитах зависит от модели и объёма результата, а в вашем тарифе предусмотрено определённое количество кредитов."
+
+#: sections/faq.twig:11
+msgid "Need more? Top up with a credit pack at any time."
+msgstr "Нужно больше? В любое время пополните баланс пакетом кредитов."
+
+#: sections/faq.twig:15
+msgid "How is usage measured?"
+msgstr "Как измеряется использование?"
+
+#: sections/faq.twig:16
+msgid "Each plan includes an amount of usage. What a request uses depends on the model and how much it produces, and your account always shows what you have left."
+msgstr "В каждый тариф входит определённый объём использования. Расход на запрос зависит от модели и объёма результата, а в аккаунте всегда отображается остаток."
+
+#: sections/faq.twig:20
+msgid "Which AI models can I use?"
+msgstr "Какие модели ИИ можно использовать?"
+
+#: sections/faq.twig:21
+msgid "Each plan lists the models it includes. Hover over the models line on a plan to see them, and pick the one you want while you work."
+msgstr "В каждом тарифе перечислены доступные модели. Наведите курсор на строку с моделями в тарифе, чтобы посмотреть список, и выберите нужную во время работы."
+
+#: sections/faq.twig:25
+msgid "Can I change or cancel my plan?"
+msgstr "Можно ли изменить тариф или отменить его?"
+
+#: sections/faq.twig:26
+msgid "Yes. You can upgrade, downgrade or cancel from the billing page in your account at any time."
+msgstr "Да. В любое время вы можете перейти на более дорогой или дешёвый тариф либо отменить подписку на странице оплаты в аккаунте."
+
+#: sections/faq.twig:30
+msgid "Is there a free trial?"
+msgstr "Есть ли бесплатный пробный период?"
+
+#: sections/faq.twig:31
+msgid "Yes. Paid subscriptions start with a :days-day free trial. Cancel before it ends and you will not be charged."
+msgstr "Да. Платные подписки начинаются с бесплатного пробного периода на :days дней. Отмените подписку до его окончания, и с вас не спишут деньги."
+
+#: sections/faq.twig:35
+msgid "Can I use it with my team?"
+msgstr "Могу ли я использовать это вместе со своей командой?"
+
+#: sections/faq.twig:36
+msgid "Yes. Invite teammates to your workspace and they share its plan. How many members you can add depends on your plan."
+msgstr "Да. Пригласите коллег в рабочее пространство, и они смогут пользоваться вашим тарифом. Количество участников зависит от вашего тарифа."
+
+#: sections/faq.twig:40
+msgid "What happens to what I create?"
+msgstr "Что происходит с созданным мной контентом?"
+
+#: sections/faq.twig:41
+msgid "It is saved to your library so you can find it later. Switch on private mode and nothing you create is kept: it stays out of your history and is deleted automatically."
+msgstr "Он сохраняется в вашей библиотеке, чтобы вы могли найти его позже. Включите приватный режим, и созданный вами контент не будет сохраняться: он не попадёт в историю и будет автоматически удалён."
+
+#: sections/faq.twig:49
 msgctxt "heading"
-msgid "Coolest Features"
-msgstr "Самые крутые функции"
+msgid "Frequently asked questions"
+msgstr "Часто задаваемые вопросы"
+
+#: sections/faq.twig:52
+msgid "Answers to what people ask most before they sign up."
+msgstr "Ответы на вопросы, которые чаще всего задают перед регистрацией."
 
 #: sections/features.twig:13
 msgctxt "heading"
-msgid "High Quality Code"
-msgstr "Код высокого качества"
+msgid "Leading AI models"
+msgstr "Передовые модели ИИ"
 
-#: sections/features.twig:16
-msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
-msgstr "Разработано с использованием принципов предметно-ориентированного проектирования и луковой архитектуры."
+#: sections/features.twig:14
+msgid "Use models from several AI providers in one app, without separate accounts."
+msgstr "Используйте модели от нескольких ИИ-провайдеров в одном приложении — без отдельных аккаунтов."
+
+#: sections/features.twig:19
+msgctxt "heading"
+msgid "Custom assistants"
+msgstr "Персональные ассистенты"
+
+#: sections/features.twig:20
+msgid "Build assistants with their own instructions and knowledge, and reuse them any time."
+msgstr "Создавайте ассистентов с собственными инструкциями и знаниями и используйте их в любое время."
+
+#: sections/features.twig:25
+msgctxt "heading"
+msgid "Chat with your documents"
+msgstr "Общайтесь со своими документами"
 
 #: sections/features.twig:26
+msgid "Upload files and ask questions about them. Answers come from your own content."
+msgstr "Загружайте файлы и задавайте вопросы о них. Ответы будут основаны на ваших материалах."
+
+#: sections/features.twig:31
 msgctxt "heading"
-msgid "Modern Technologies"
-msgstr "Современные технологии"
+msgid "Live web search"
+msgstr "Поиск в интернете в реальном времени"
 
-#: sections/features.twig:29
-msgid "Built with modern technologies for best structure and get maximum performance."
-msgstr "Создано с современными технологиями для лучшей структуры и получения максимальной производительности."
+#: sections/features.twig:32
+msgid "Get answers that draw on up-to-date information from the web."
+msgstr "Получайте ответы на основе актуальной информации из интернета."
 
-#: sections/features.twig:39
+#: sections/features.twig:37
 msgctxt "heading"
-msgid "Friendly UI and UX"
-msgstr "Дружелюбный интерфейс и удобство использования"
+msgid "Connect your apps"
+msgstr "Подключайте свои приложения"
 
-#: sections/features.twig:42
-msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
-msgstr "Наслаждайтесь беззаботным и интуитивным пользовательским интерфейсом, который улучшает ваше цифровое опыт."
+#: sections/features.twig:38
+msgid "Bring the tools you already use into the conversation."
+msgstr "Используйте в диалоге уже знакомые вам инструменты."
 
-#: sections/features.twig:52
+#: sections/features.twig:43
 msgctxt "heading"
-msgid "Dark Mode"
-msgstr "Темный режим"
+msgid "Scheduled tasks"
+msgstr "Запланированные задачи"
+
+#: sections/features.twig:44
+msgid "Let the AI handle reminders, recurring reports and ongoing updates on a schedule."
+msgstr "Поручите ИИ по расписанию отправлять напоминания, готовить регулярные отчёты и предоставлять актуальную информацию."
+
+#: sections/features.twig:49
+msgctxt "heading"
+msgid "Private mode"
+msgstr "Приватный режим"
+
+#: sections/features.twig:50
+msgid "What you create in private mode stays out of your history and library, and is deleted automatically."
+msgstr "Созданный в приватном режиме контент не попадёт в историю и библиотеку и будет автоматически удалён."
 
 #: sections/features.twig:55
-msgid "Turn off the light and switch to dark mode your interface with one click."
-msgstr "Выключите свет и переключитесь на темный режим интерфейса одним кликом."
-
-#: sections/features.twig:65
 msgctxt "heading"
-msgid "Documentation"
-msgstr "Документация"
+msgid "Built for teams"
+msgstr "Создано для команд"
+
+#: sections/features.twig:56
+msgid "Invite your teammates to a shared workspace and work from the same plan."
+msgstr "Пригласите коллег в общее рабочее пространство и работайте по одному плану."
+
+#: sections/features.twig:61
+msgctxt "heading"
+msgid "Your library"
+msgstr "Ваша библиотека"
+
+#: sections/features.twig:62
+msgid "Everything you create is saved in one place, ready to find, reuse and download."
+msgstr "Всё, что вы создаёте, сохраняется в одном месте — его можно найти, использовать повторно и скачать."
+
+#: sections/features.twig:67
+msgctxt "heading"
+msgid "Speaks your language"
+msgstr "Говорит на вашем языке"
 
 #: sections/features.twig:68
-msgid "An all-inclusive learning package seamlessly integrated into our community."
-msgstr "Всеобъемлющий учебный пакет, бесшовно интегрированный в наше сообщество."
+msgid "Use the app in the language you are most comfortable with."
+msgstr "Пользуйтесь приложением на языке, который вам удобнее всего."
 
-#: sections/features.twig:78
+#: sections/features.twig:73
 msgctxt "heading"
-msgid "Payment Gateways"
-msgstr "Платежные шлюзы"
+msgid "Light and dark mode"
+msgstr "Светлая и тёмная тема"
 
-#: sections/features.twig:81
-msgid "Simplify transactions and boost security with payment gateway solutions."
-msgstr "Упростите транзакции и повысите безопасность с помощью решений платежного шлюза."
+#: sections/features.twig:74
+msgid "Work the way your eyes prefer, day or night."
+msgstr "Работайте так, как удобно вашим глазам, днём и ночью."
 
-#: sections/features.twig:91
+#: sections/features.twig:79
 msgctxt "heading"
-msgid "AI Generator"
-msgstr "Генератор ИИ"
+msgid "Secure checkout"
+msgstr "Безопасная оплата"
 
-#: sections/features.twig:94
-msgid "Unlock limitless creativity with our AI-powered content generator."
-msgstr "Откройте безграничное творчество с нашим генератором контента на базе ИИ."
+#: sections/features.twig:80
+msgid "Pay safely through trusted payment providers and manage your plan any time."
+msgstr "Безопасно платите через надёжных платёжных провайдеров и управляйте своим планом в любое время."
 
-#: sections/features.twig:104
+#: sections/features.twig:86
 msgctxt "heading"
-msgid "SEO Friendly"
-msgstr "SEO-дружелюбный"
-
-#: sections/features.twig:107
-msgid "Boost your visibility and reach your audience effectively with AI generated content."
-msgstr "Повысьте свою видимость и эффективно достигните своей аудитории с помощью контента, созданного ИИ."
-
-#: sections/features.twig:117
-msgctxt "heading"
-msgid "Advanced Dashboard"
-msgstr "Расширенная панель управления"
-
-#: sections/features.twig:120
-msgid "Empower your insights and control with our cutting-edge dashboard."
-msgstr "Расширьте свои возможности и контроль с помощью нашей передовой панели управления."
-
-#: sections/features.twig:130
-msgctxt "heading"
-msgid "Custom Templates"
-msgstr "Пользовательские шаблоны"
-
-#: sections/features.twig:133
-msgid "Transform your content creation with AI-driven custom templates."
-msgstr "Преобразуйте создание контента с помощью ИИ-управляемых пользовательских шаблонов."
-
-#: sections/features.twig:144
-msgctxt "heading"
-msgid "Login via SM Accounts"
-msgstr "Вход через аккаунты соцсетей"
-
-#: sections/features.twig:147
-msgid "Use Facebook or Google accounts as an alternatively access to platform."
-msgstr "Используйте аккаунты Facebook или Google в качестве альтернативного доступа к платформе."
-
-#: sections/features.twig:157
-msgctxt "heading"
-msgid "High Quality Support"
-msgstr "Высококачественная поддержка"
-
-#: sections/features.twig:160
-msgid "Our support team is available 24/7 to help you with any questions or concerns."
-msgstr "Наша команда поддержки доступна 24/7, чтобы помочь вам с любыми вопросами или проблемами."
+msgid "Everything in one workspace"
+msgstr "Всё в одном рабочем пространстве"
 
 #: sections/footer.twig:4
 msgid "All rights reserved."
 msgstr "Все права защищены."
 
 #: sections/footer.twig:42
-#: sections/header.twig:19
+#: sections/header.twig:21
 msgctxt "button"
 msgid "Product"
 msgstr "Продукт"
 
 #: sections/footer.twig:46
-#: sections/header.twig:33
+#: sections/header.twig:28
+msgctxt "button"
+msgid "Features"
+msgstr "Функции"
+
+#: sections/footer.twig:50
+#: sections/header.twig:35
 msgctxt "button"
 msgid "Pricing"
 msgstr "Цены"
 
-#: sections/footer.twig:50
+#: sections/footer.twig:54
+#: sections/header.twig:42
 msgctxt "button"
 msgid "FAQ"
 msgstr "Часто задаваемые вопросы"
 
-#: sections/footer.twig:57
+#: sections/footer.twig:61
 msgctxt "button"
 msgid "Terms of services"
 msgstr "Условия обслуживания"
 
-#: sections/footer.twig:63
+#: sections/footer.twig:67
 msgctxt "button"
 msgid "Privacy policy"
 msgstr "Политика конфиденциальности"
 
-#: sections/footer.twig:69
+#: sections/footer.twig:73
 msgctxt "button"
 msgid "Refund policy"
 msgstr "Политика возврата"
 
-#: sections/generators.twig:3
+#: sections/generators.twig:16
 msgctxt "heading"
-msgid "Meet your ultimate"
-msgstr "Познакомьтесь с вашим идеальным"
+msgid "Every AI tool you need,"
+msgstr "Все инструменты ИИ, которые вам нужны,"
 
-#: sections/generators.twig:6
+#: sections/generators.twig:17
 msgctxt "heading"
-msgid "AI-Powered Content Platform"
-msgstr "Платформа контента с поддержкой ИИ"
+msgid "in one place"
+msgstr "в одном месте"
 
-#: sections/header.twig:26
-msgctxt "button"
-msgid "Featured"
-msgstr "Рекомендуемые"
-
-#: sections/header.twig:111
-#: sections/hero.twig:13
-msgctxt "button"
-msgid "Go to app"
-msgstr "Перейти в приложение"
-
-#: sections/header.twig:123
+#: sections/header.twig:129
 msgctxt "button"
 msgid "Library"
 msgstr "Библиотека"
 
-#: sections/header.twig:131
+#: sections/header.twig:136
 msgctxt "button"
 msgid "Billing"
 msgstr "Оплата"
@@ -246,239 +318,428 @@ msgctxt "button"
 msgid "Account"
 msgstr "Аккаунт"
 
-#: sections/header.twig:151
+#: sections/header.twig:154
 msgctxt "button"
 msgid "Logout"
 msgstr "Выйти"
 
-#: sections/header.twig:191
+#: sections/header.twig:195
 msgctxt "button"
 msgid "Login"
 msgstr "Войти"
 
-#: sections/header.twig:196
-#: sections/pricing.twig:102
-msgctxt "button"
-msgid "Get started"
-msgstr "Начать"
-
 #: sections/hero.twig:3
 msgctxt "heading"
-msgid "Transforming ideas into AI generated masterpieces"
-msgstr "Преобразование идей в шедевры, созданные ИИ"
+msgid "Your all-in-one AI workspace"
+msgstr "Универсальное рабочее пространство с ИИ"
 
 #: sections/hero.twig:7
-msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
-msgstr "Легко генерируйте высококачественный контент на основе ИИ, соответствующий вашим потребностям. Откройте безграничные возможности, экономьте время и начните зарабатывать деньги сегодня!"
+msgid "Chat, write and create with the leading AI models, all in one place. No juggling apps or subscriptions."
+msgstr "Общайтесь, пишите и создавайте контент с помощью ведущих моделей ИИ — всё в одном месте. Больше не нужно переключаться между приложениями и подписками."
 
-#: sections/hero.twig:19
-msgctxt "button"
-msgid "Get started now"
-msgstr "Начать сейчас"
+#: sections/how-it-works.twig:2
+msgctxt "heading"
+msgid "Create your account"
+msgstr "Создайте аккаунт"
+
+#: sections/how-it-works.twig:2
+msgid "Sign up in seconds and land on your own dashboard."
+msgstr "Зарегистрируйтесь за несколько секунд и перейдите в личную панель управления."
 
 #: sections/how-it-works.twig:3
+msgctxt "heading"
+msgid "Pick a tool and a model"
+msgstr "Выберите инструмент и модель"
+
+#: sections/how-it-works.twig:3
+msgid "Chat, write, create images and more. Choose the AI model that suits the job."
+msgstr "Общайтесь, пишите, создавайте изображения и многое другое. Выберите модель ИИ, подходящую для вашей задачи."
+
+#: sections/how-it-works.twig:4
+msgctxt "heading"
+msgid "Describe it, get results"
+msgstr "Опишите — получите результат"
+
+#: sections/how-it-works.twig:4
+msgid "Say what you need in plain words, refine the result, and find it later in your library."
+msgstr "Просто опишите, что вам нужно, доработайте результат и найдите его позже в своей библиотеке."
+
+#: sections/how-it-works.twig:9
 msgctxt "heading"
 msgid "How it works"
 msgstr "Как это работает"
 
-#: sections/how-it-works.twig:13
-msgctxt "heading"
-msgid "Choose Template"
-msgstr "Выбрать шаблон"
-
-#: sections/how-it-works.twig:16
-msgid "Choose a our built in templates or create your own."
-msgstr "Выберите один из наших встроенных шаблонов или создайте свой собственный."
-
-#: sections/how-it-works.twig:26
-msgctxt "heading"
-msgid "Describe"
-msgstr "Описать"
-
-#: sections/how-it-works.twig:29
-msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
-msgstr "Введите несколько предложений, чтобы описать вашу тему. Добавьте ключевые слова, чтобы указать для вашей марки."
-
-#: sections/how-it-works.twig:39
-msgctxt "heading"
-msgid "Generate"
-msgstr "Сгенерировать"
-
-#: sections/how-it-works.twig:42
-msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
-msgstr "Нажмите кнопку «Сгенерировать» и получайте разнообразные высококонвертирующие копии каждый раз."
-
 #: sections/image.twig:5
-msgid "AI Image"
-msgstr "ИИ изображение"
+msgid "AI images"
+msgstr "Изображения, созданные ИИ"
 
 #: sections/image.twig:9
 msgctxt "heading"
-msgid "Visualize what you dream of. Create images from text."
-msgstr "Визуализируйте то, о чем мечтаете. Создавайте изображения из текста."
+msgid "Turn a sentence into an image."
+msgstr "Превратите предложение в изображение."
 
 #: sections/image.twig:13
-msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
-msgstr "Создайте потрясающие изображения с помощью генератора изображений ИИ - вашего инструмента для художественного творчества."
+msgid "Describe what you want to see, pick a model, and get images you can download and reuse."
+msgstr "Опишите, что хотите увидеть, выберите модель и получите изображения, которые можно скачать и использовать повторно."
 
-#: sections/image.twig:18
+#: sections/image.twig:17
 msgctxt "button"
-msgid "Try for free"
-msgstr "Попробовать бесплатно"
+msgid "Create an image"
+msgstr "Создать изображение"
+
+#: sections/models.twig:53
+msgid "Powered by the leading AI models"
+msgstr "На базе ведущих моделей ИИ"
 
 #: sections/presets.twig:9
-msgid "100+ AI Writer Templates"
-msgstr "Более 100 шаблонов для AI-писателя"
+msgid "Writing templates"
+msgstr "Шаблоны для текстов"
 
 #: sections/presets.twig:14
 msgctxt "heading"
-msgid "What can Writing Assistant create for you?"
-msgstr "Что может создать для вас Помощник по письму?"
+msgid "What will you write today?"
+msgstr "Что напишете сегодня?"
 
 #: sections/presets.twig:18
-msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer's block forever."
-msgstr "Пишите с поразительной скоростью, увлекайте свою аудиторию и навсегда забудьте о творческом кризисе."
+msgid "Product descriptions, social posts, cover letters and more. Pick a template and skip the blank page."
+msgstr "Описания товаров, публикации для соцсетей, сопроводительные письма и многое другое. Выберите шаблон и не начинайте с чистого листа."
 
 #: sections/presets.twig:23
 msgctxt "button"
-msgid "Get Started for Free"
-msgstr "Начать бесплатно"
+msgid "Browse templates"
+msgstr "Посмотреть шаблоны"
 
-#: sections/pricing.twig:3
-msgctxt "heading"
-msgid "Pricing"
-msgstr "Цены"
+#: sections/preview.twig:10
+msgid "Alex"
+msgstr "Alex"
 
-#: sections/pricing.twig:6
-msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
-msgstr "Откройте для себя идеальный план, который подходит вашим потребностям и откройте для себя мир возможностей."
+#: sections/preview.twig:11
+msgid "Alex Morgan"
+msgstr "Alex Morgan"
 
-#: sections/pricing.twig:19
+#: sections/preview.twig:106
+msgid "Hello, :name!"
+msgstr "Здравствуйте, :name!"
+
+#: sections/preview.twig:110
+msgid "How can I assist you?"
+msgstr "Чем я могу помочь?"
+
+#: sections/preview.twig:115
+msgid "Ask anything…"
+msgstr "Спросите о чём угодно…"
+
+#: sections/preview.twig:121
+msgid "Transcribe audio"
+msgstr "Расшифровать аудио"
+
+#: sections/preview.twig:122
+msgid "Isolate sounds"
+msgstr "Изолировать звуки"
+
+#: sections/preview.twig:123
+msgid "Create videos"
+msgstr "Создать видео"
+
+#: sections/preview.twig:124
+msgid "Create images"
+msgstr "Создать изображения"
+
+#: sections/preview.twig:147
+msgid "Scroll to explore"
+msgstr "Прокрутите, чтобы изучить"
+
+#: sections/pricing.twig:10
 msgctxt "button"
 msgid "Monthly"
 msgstr "Ежемесячно"
 
-#: sections/pricing.twig:28
+#: sections/pricing.twig:11
 msgctxt "button"
 msgid "Yearly"
 msgstr "Ежегодно"
 
-#: sections/pricing.twig:37
+#: sections/pricing.twig:17
 msgctxt "button"
-msgid "Packs"
-msgstr "Пакеты"
+msgid "Lifetime"
+msgstr "Пожизненно"
 
-#: sections/pricing.twig:46
-msgctxt "button"
-msgid "Lifetime Deals"
-msgstr "Пожизненные предложения"
+#: sections/pricing.twig:42
+msgctxt "heading"
+msgid "Simple, transparent pricing"
+msgstr "Простые и прозрачные цены"
 
-#: sections/pricing.twig:78
-msgid "Most Popular"
-msgstr "Самое популярное"
+#: sections/pricing.twig:45
+msgid "Pick a plan that fits how you work. Upgrade, downgrade or cancel at any time."
+msgstr "Выберите тариф, который подходит вашему стилю работы. Меняйте тариф на более дорогой или дешёвый либо отменяйте подписку в любое время."
+
+#: sections/pricing.twig:74
+msgid "Most popular"
+msgstr "Самый популярный"
+
+#: sections/pricing.twig:105
+msgid "Free"
+msgstr "Бесплатно"
+
+#: sections/pricing.twig:112
+msgid "/ month"
+msgstr "/ месяц"
+
+#: sections/pricing.twig:113
+msgid "/ year"
+msgstr "/ год"
+
+#: sections/pricing.twig:114
+msgid "lifetime"
+msgstr "пожизненно"
 
 #: sections/pricing.twig:115
-msgid "Chat"
-msgstr "Чат"
+msgid "one-time"
+msgstr "разовый платёж"
 
-#: sections/pricing.twig:134
-msgid "Writer"
-msgstr "Писатель"
+#: sections/pricing.twig:123
+msgid "per month, billed yearly"
+msgstr "в месяц при оплате за год"
+
+#: sections/pricing.twig:125
+msgid "Pay once. Allowance refreshes every month."
+msgstr "Заплатите один раз. Лимит обновляется каждый месяц."
+
+#: sections/pricing.twig:127
+msgid "Extra credits on top of your plan."
+msgstr "Дополнительные кредиты сверх вашего тарифа."
+
+#: sections/pricing.twig:135
+msgctxt "button"
+msgid "Start :days-day free trial"
+msgstr "Начать :days-дневный бесплатный пробный период"
+
+#: sections/pricing.twig:137
+msgctxt "button"
+msgid "Start for free"
+msgstr "Начать бесплатно"
 
 #: sections/pricing.twig:153
-msgid "Image generator"
-msgstr "Генератор изображений"
+msgctxt "button"
+msgid "See all plans"
+msgstr "Посмотреть все тарифы"
 
-#: sections/pricing.twig:166
-msgid "Transcriber"
-msgstr "Транскрибатор"
-
-#: sections/pricing.twig:179
-msgid "Voiceover"
-msgstr "Озвучивание"
-
-#: sections/pricing.twig:192
-msgid "Voice isolator"
-msgstr "Изолятор голоса"
-
-#: sections/pricing.twig:205
-msgid "Classifier"
-msgstr "Классификатор"
-
-#: sections/pricing.twig:213
-msgid "Access to templates is disabled"
-msgstr "Доступ к шаблонам отключен"
-
-#: sections/pricing.twig:216
-msgid "Access to all templates"
-msgstr "Доступ ко всем шаблонам"
-
-#: sections/pricing.twig:232
-msgid "Priority support"
-msgstr "Приоритетная поддержка"
-
-#: sections/pricing.twig:235
-msgid "Basic support"
-msgstr "Базовая поддержка"
+#: sections/pricing.twig:161
+msgid "Not ready to pay? Try the free plan"
+msgstr "Не готовы платить? Попробуйте бесплатный тариф"
 
 #: sections/speech-to-text.twig:4
-msgid "Speech to Text"
-msgstr "Речь в текст"
+msgid "Speech to text"
+msgstr "Преобразование речи в текст"
 
 #: sections/speech-to-text.twig:8
 msgctxt "heading"
-msgid "Transforming Spoken <br> Words into Text."
-msgstr "Преобразование устных <br> слов в текст."
+msgid "Turn recordings into text."
+msgstr "Преобразуйте записи в текст."
 
 #: sections/speech-to-text.twig:12
-msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
-msgstr "Мгновенно транскрибируйте устные слова в текст для повышения продуктивности и доступности."
+msgid "Upload a meeting, interview or voice note and get a transcript you can copy and download."
+msgstr "Загрузите запись встречи, интервью или голосовую заметку и получите расшифровку, которую можно скопировать и скачать."
 
-#: sections/speech-to-text.twig:17
+#: sections/speech-to-text.twig:16
 msgctxt "button"
-msgid "Convert now"
-msgstr "Преобразовать сейчас"
+msgid "Transcribe audio"
+msgstr "Расшифровать аудио"
 
 #: sections/text-to-voice.twig:4
-msgid "Text to Voice"
-msgstr "Текст в голос"
+msgid "Text to speech"
+msgstr "Преобразование текста в речь"
 
 #: sections/text-to-voice.twig:8
 msgctxt "heading"
-msgid "Convert your texts into <br> Lifelike Speech"
-msgstr "Преобразуйте ваши тексты в <br> реалистичную речь"
+msgid "Give your words a natural voice."
+msgstr "Придайте своим словам естественное звучание."
 
 #: sections/text-to-voice.twig:12
-msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
-msgstr "Поднимите свой контент с выразительным озвучиванием: откройте для себя совершенство преобразования текста в голос."
+msgid "Pick a lifelike voice for narration, videos and podcasts."
+msgstr "Выберите реалистичный голос для озвучивания, видео и подкастов."
 
 #: sections/video.twig:11
-msgid "Video"
-msgstr "Видео"
+msgid "AI video"
+msgstr "ИИ-видео"
 
 #: sections/video.twig:15
 msgctxt "heading"
-msgid "Generate high-quality videos using AI Video generation tool."
-msgstr "Создавайте высококачественные видео с помощью инструмента генерации видео на базе ИИ."
+msgid "Make short videos from a prompt or a photo."
+msgstr "Создавайте короткие видео по запросу или фотографии."
 
 #: sections/video.twig:19
-msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
-msgstr "Навыки видеомонтажа не требуются — просто загрузите свои изображения и введите несколько строк запроса, и всё."
+msgid "No editing skills needed. Write a few lines, add an image if you like, and the AI does the rest."
+msgstr "Навыки монтажа не нужны. Напишите несколько строк, при желании добавьте изображение, а ИИ сделает всё остальное."
+
+#: sections/video.twig:23
+msgctxt "button"
+msgid "Make a video"
+msgstr "Создать видео"
 
 #: sections/writer.twig:22
-msgid "AI Writer"
-msgstr "ИИ Писатель"
+#: snippets/plan-rows.twig:103
+msgid "AI writer"
+msgstr "ИИ-писатель"
 
 #: sections/writer.twig:26
 msgctxt "heading"
-msgid "Write SEO optimized blogs, sales emails and more..."
-msgstr "Пишите SEO-оптимизированные блоги, продающие письма и многое другое..."
+msgid "Blog posts, emails and ads, written in minutes."
+msgstr "Статьи для блога, электронные письма и рекламные объявления за считаные минуты."
 
 #: sections/writer.twig:30
-msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
-msgstr "Достигайте лучших результатов за долю времени. Наконец-то инструмент для письма, который вы действительно будете использовать."
+msgid "Start from a ready-made template, answer a few questions, and refine the draft in chat until it sounds like you."
+msgstr "Выберите готовый шаблон, ответьте на несколько вопросов и доработайте черновик в чате, пока он не зазвучит как ваш текст."
 
-#: sections/writer.twig:35
+#: sections/writer.twig:34
 msgctxt "button"
-msgid "See all features"
-msgstr "Смотреть все функции"
+msgid "Start writing"
+msgstr "Начать писать"
+
+#: snippets/plan-rows.twig:17
+msgid "Unlimited usage"
+msgstr "Неограниченное использование"
+
+#: snippets/plan-rows.twig:17
+msgid "Unlimited credits"
+msgstr "Неограниченное количество кредитов"
+
+#: snippets/plan-rows.twig:23
+msgid ":amount of usage"
+msgstr ":amount использования"
+
+#: snippets/plan-rows.twig:24
+msgid ":amount of usage / month"
+msgstr ":amount использования / месяц"
+
+#: snippets/plan-rows.twig:27
+msgid ":count credit"
+msgstr ":count кредит"
+
+#: snippets/plan-rows.twig:28
+msgid ":count credits"
+msgstr ":count кредитов"
+
+#: snippets/plan-rows.twig:31
+msgid ":amount / month"
+msgstr ":amount / месяц"
+
+#: snippets/plan-rows.twig:41
+msgid "Unlimited members"
+msgstr "Неограниченное число участников"
+
+#: snippets/plan-rows.twig:43
+msgid "Just you"
+msgstr "Только вы"
+
+#: snippets/plan-rows.twig:45
+msgid "Up to :count members"
+msgstr "До :count участников"
+
+#: snippets/plan-rows.twig:63
+msgid "Every AI model"
+msgstr "Все модели ИИ"
+
+#: snippets/plan-rows.twig:64
+msgid "1 AI model"
+msgstr "1 модель ИИ"
+
+#: snippets/plan-rows.twig:64
+msgid ":count AI models"
+msgstr ":count моделей ИИ"
+
+#: snippets/plan-rows.twig:79
+msgid "Unlimited custom assistants"
+msgstr "Неограниченное количество пользовательских ассистентов"
+
+#: snippets/plan-rows.twig:79
+msgid ":count custom assistants"
+msgstr ":count пользовательских ассистентов"
+
+#: snippets/plan-rows.twig:85
+msgid "Live web search"
+msgstr "Поиск в интернете в реальном времени"
+
+#: snippets/plan-rows.twig:86
+msgid "Chat with your documents"
+msgstr "Общайтесь с документами"
+
+#: snippets/plan-rows.twig:87
+msgid "Read any web page"
+msgstr "Чтение любых веб-страниц"
+
+#: snippets/plan-rows.twig:88
+msgid "YouTube insights"
+msgstr "Аналитика YouTube"
+
+#: snippets/plan-rows.twig:89
+msgid "Create media in chat"
+msgstr "Создание медиа в чате"
+
+#: snippets/plan-rows.twig:90
+msgid "Conversation memory"
+msgstr "Память диалога"
+
+#: snippets/plan-rows.twig:91
+msgid "Canvas"
+msgstr "Холст"
+
+#: snippets/plan-rows.twig:92
+msgid "Clarifying questions"
+msgstr "Уточняющие вопросы"
+
+#: snippets/plan-rows.twig:93
+msgid "Connectors to your apps"
+msgstr "Подключения к вашим приложениям"
+
+#: snippets/plan-rows.twig:104
+msgid "Image generation"
+msgstr "Генерация изображений"
+
+#: snippets/plan-rows.twig:105
+msgid "Video generation"
+msgstr "Генерация видео"
+
+#: snippets/plan-rows.twig:106
+msgid "Voiceover"
+msgstr "Озвучивание"
+
+#: snippets/plan-rows.twig:107
+msgid "Transcription"
+msgstr "Транскрибация"
+
+#: snippets/plan-rows.twig:108
+msgid "Voice isolation"
+msgstr "Изоляция голоса"
+
+#: snippets/plan-rows.twig:109
+msgid "Content moderation"
+msgstr "Модерация контента"
+
+#: snippets/plan-rows.twig:122
+msgid "Unlimited voice clones"
+msgstr "Неограниченное количество голосовых клонов"
+
+#: snippets/plan-rows.twig:122
+msgid ":count voice clones"
+msgstr ":count голосовых клонов"
+
+#: snippets/plan-rows.twig:133
+msgid "Unlimited scheduled tasks"
+msgstr "Неограниченное количество запланированных задач"
+
+#: snippets/plan-rows.twig:133
+msgid ":count scheduled tasks"
+msgstr ":count запланированных задач"
+
+#: snippets/plan-rows.twig:140
+msgid "Private mode"
+msgstr "Приватный режим"
+
+#: snippets/plan-rows.twig:166
+msgid "Show less"
+msgstr "Показать меньше"
+
+#: snippets/plan-rows.twig:166
+msgid "Show all features"
+msgstr "Показать все функции"

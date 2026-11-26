@@ -11,232 +11,304 @@ msgstr ""
 "X-Domain: theme\n"
 
 #: sections/chat.twig:11
-msgid "AI Chat Bot"
-msgstr "Bot de xat AI"
+#: snippets/plan-rows.twig:73
+msgid "AI chat"
+msgstr "Xat amb IA"
 
 #: sections/chat.twig:15
 msgctxt "heading"
-msgid "That's remarkably human-like and engaging..."
-msgstr "Això és sorprenentment humà i captivador..."
+msgid "Ask anything. Get clear, useful answers."
+msgstr "Pregunta el que vulguis. Rep respostes clares i útils."
 
 #: sections/chat.twig:19
-msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
-msgstr "Simplement tria el teu assistent i interactua amb un bot de xat amigable per generar idees, enriquir el teu contingut o fins i tot portar una sonrisa al teu rostre."
+msgid "Chat with leading AI models to brainstorm, research, write and solve problems faster."
+msgstr "Xateja amb models d’IA capdavanters per fer pluja d’idees, investigar, escriure i resoldre problemes més de pressa."
 
-#: sections/chat.twig:24
-#: sections/video.twig:24
+#: sections/chat.twig:23
 msgctxt "button"
-msgid "Try now"
-msgstr "Prova-ho ara"
+msgid "Start chatting"
+msgstr "Comença a xatejar"
 
-#: sections/code.twig:10
-msgid "AI Code"
-msgstr "Codi AI"
-
-#: sections/code.twig:14
+#: sections/cta.twig:9
 msgctxt "heading"
-msgid "Ready to write code at the speed of light?"
-msgstr "Preparat per escriure codi a la velocitat de la llum?"
+msgid "Pick up where you left off"
+msgstr "Continua on ho vas deixar"
 
-#: sections/code.twig:18
-msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
-msgstr "Escriu codi sense esforç amb el Generador de Codi IA: solucions instantànies per a les teves necessitats de programació."
+#: sections/cta.twig:11
+msgid "Your chats, documents and media are waiting in your workspace."
+msgstr "Els teus xats, documents i contingut multimèdia t’esperen a l’espai de treball."
 
-#: sections/code.twig:23
+#: sections/cta.twig:14
+msgctxt "heading"
+msgid "Ready to get started?"
+msgstr "A punt per començar?"
+
+#: sections/cta.twig:16
+msgid "Create your account and put AI to work in minutes."
+msgstr "Crea’t un compte i posa la IA a treballar en qüestió de minuts."
+
+#: sections/cta.twig:22
+#: sections/header.twig:118
+#: sections/hero.twig:13
 msgctxt "button"
-msgid "Start Generate Code"
-msgstr "Comença a generar codi"
+msgid "Go to app"
+msgstr "Vés a l'aplicació"
 
-#: sections/cta.twig:3
-msgctxt "heading"
-msgid "Ready to level-up?"
-msgstr "Preparat per pujar de nivell?"
-
-#: sections/cta.twig:5
-msgid "See how easy it can be to write amazing content."
-msgstr "Ves com de fàcil pot ser escriure contingut increïble."
-
-#: sections/cta.twig:10
+#: sections/cta.twig:22
+#: sections/header.twig:200
+#: sections/hero.twig:18
+#: sections/pricing.twig:139
 msgctxt "button"
-msgid "Get Started Now"
-msgstr "Comença Ara"
+msgid "Get started"
+msgstr "Comença"
 
-#: sections/features.twig:3
+#: sections/cta.twig:28
+#: sections/hero.twig:25
+msgctxt "button"
+msgid "See pricing"
+msgstr "Consulta els preus"
+
+#: sections/faq.twig:10
+msgid "What are credits?"
+msgstr "Què són els crèdits?"
+
+#: sections/faq.twig:11
+msgid "Credits are what you spend when you use the AI. Each request costs credits based on the model and how much it produces, and your plan includes a set amount."
+msgstr "Els crèdits són el que gastes quan fas servir la IA. Cada sol·licitud costa crèdits en funció del model i de la quantitat que genera, i el teu pla inclou una quantitat determinada."
+
+#: sections/faq.twig:11
+msgid "Need more? Top up with a credit pack at any time."
+msgstr "En necessites més? Afegeix un paquet de crèdits en qualsevol moment."
+
+#: sections/faq.twig:15
+msgid "How is usage measured?"
+msgstr "Com es mesura l’ús?"
+
+#: sections/faq.twig:16
+msgid "Each plan includes an amount of usage. What a request uses depends on the model and how much it produces, and your account always shows what you have left."
+msgstr "Cada pla inclou una quota d’ús. El consum de cada sol·licitud depèn del model i de la quantitat que genera, i al teu compte sempre pots veure què et queda."
+
+#: sections/faq.twig:20
+msgid "Which AI models can I use?"
+msgstr "Quins models d’IA puc fer servir?"
+
+#: sections/faq.twig:21
+msgid "Each plan lists the models it includes. Hover over the models line on a plan to see them, and pick the one you want while you work."
+msgstr "Cada pla indica quins models inclou. Passa el cursor per sobre de la línia dels models d’un pla per veure’ls i tria el que vulguis mentre treballes."
+
+#: sections/faq.twig:25
+msgid "Can I change or cancel my plan?"
+msgstr "Puc canviar de pla o cancel·lar-lo?"
+
+#: sections/faq.twig:26
+msgid "Yes. You can upgrade, downgrade or cancel from the billing page in your account at any time."
+msgstr "Sí. Pots canviar a un pla superior o inferior, o cancel·lar-lo, des de la pàgina de facturació del teu compte en qualsevol moment."
+
+#: sections/faq.twig:30
+msgid "Is there a free trial?"
+msgstr "Hi ha una prova gratuïta?"
+
+#: sections/faq.twig:31
+msgid "Yes. Paid subscriptions start with a :days-day free trial. Cancel before it ends and you will not be charged."
+msgstr "Les subscripcions de pagament comencen amb una prova gratuïta de :days dies. Cancel·la abans que s’acabi i no et cobrarem."
+
+#: sections/faq.twig:35
+msgid "Can I use it with my team?"
+msgstr "Puc fer-lo servir amb el meu equip?"
+
+#: sections/faq.twig:36
+msgid "Yes. Invite teammates to your workspace and they share its plan. How many members you can add depends on your plan."
+msgstr "Sí. Convida els companys d’equip al teu espai de treball i compartiran el seu pla. El nombre de membres que hi pots afegir depèn del teu pla."
+
+#: sections/faq.twig:40
+msgid "What happens to what I create?"
+msgstr "Què passa amb el que creo?"
+
+#: sections/faq.twig:41
+msgid "It is saved to your library so you can find it later. Switch on private mode and nothing you create is kept: it stays out of your history and is deleted automatically."
+msgstr "Es desa a la teva biblioteca perquè el puguis trobar més endavant. Activa el mode privat i no es conservarà res del que creïs: no apareixerà a l’historial i s’eliminarà automàticament."
+
+#: sections/faq.twig:49
 msgctxt "heading"
-msgid "Coolest Features"
-msgstr "Característiques més genials"
+msgid "Frequently asked questions"
+msgstr "Preguntes freqüents"
+
+#: sections/faq.twig:52
+msgid "Answers to what people ask most before they sign up."
+msgstr "Respostes a les preguntes més habituals abans de registrar-se."
 
 #: sections/features.twig:13
 msgctxt "heading"
-msgid "High Quality Code"
-msgstr "Codi d'alta qualitat"
+msgid "Leading AI models"
+msgstr "Models d’IA capdavanters"
 
-#: sections/features.twig:16
-msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
-msgstr "Desenvolupat utilitzant Disseny Dirigit pel Domini i Principis d'Arquitectura Cebolla."
+#: sections/features.twig:14
+msgid "Use models from several AI providers in one app, without separate accounts."
+msgstr "Fes servir models de diversos proveïdors d’IA en una sola aplicació, sense necessitat de tenir comptes separats."
+
+#: sections/features.twig:19
+msgctxt "heading"
+msgid "Custom assistants"
+msgstr "Assistents personalitzats"
+
+#: sections/features.twig:20
+msgid "Build assistants with their own instructions and knowledge, and reuse them any time."
+msgstr "Crea assistents amb instruccions i coneixements propis, i reutilitza’ls sempre que vulguis."
+
+#: sections/features.twig:25
+msgctxt "heading"
+msgid "Chat with your documents"
+msgstr "Xateja amb els teus documents"
 
 #: sections/features.twig:26
+msgid "Upload files and ask questions about them. Answers come from your own content."
+msgstr "Puja fitxers i fes-hi preguntes. Les respostes es basen en el teu propi contingut."
+
+#: sections/features.twig:31
 msgctxt "heading"
-msgid "Modern Technologies"
-msgstr "Tecnologies modernes"
+msgid "Live web search"
+msgstr "Cerca web en temps real"
 
-#: sections/features.twig:29
-msgid "Built with modern technologies for best structure and get maximum performance."
-msgstr "Construit amb tecnologies modernes per a la millor estructura i obté el màxim rendiment."
+#: sections/features.twig:32
+msgid "Get answers that draw on up-to-date information from the web."
+msgstr "Obtén respostes basades en informació actualitzada del web."
 
-#: sections/features.twig:39
+#: sections/features.twig:37
 msgctxt "heading"
-msgid "Friendly UI and UX"
-msgstr "UI i UX amigables"
+msgid "Connect your apps"
+msgstr "Connecta les teves aplicacions"
 
-#: sections/features.twig:42
-msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
-msgstr "Disfruta d'una interfície d'usuari sense complicacions i intuïtiva que enriqueix la teva experiència digital."
+#: sections/features.twig:38
+msgid "Bring the tools you already use into the conversation."
+msgstr "Integra a la conversa les eines que ja fas servir."
 
-#: sections/features.twig:52
+#: sections/features.twig:43
 msgctxt "heading"
-msgid "Dark Mode"
-msgstr "Mode fosc"
+msgid "Scheduled tasks"
+msgstr "Tasques programades"
+
+#: sections/features.twig:44
+msgid "Let the AI handle reminders, recurring reports and ongoing updates on a schedule."
+msgstr "Deixa que la IA s’encarregui dels recordatoris, els informes periòdics i les actualitzacions contínues segons un calendari."
+
+#: sections/features.twig:49
+msgctxt "heading"
+msgid "Private mode"
+msgstr "Mode privat"
+
+#: sections/features.twig:50
+msgid "What you create in private mode stays out of your history and library, and is deleted automatically."
+msgstr "El que creïs en mode privat no apareixerà a l’historial ni a la biblioteca, i s’eliminarà automàticament."
 
 #: sections/features.twig:55
-msgid "Turn off the light and switch to dark mode your interface with one click."
-msgstr "Apaga la llum i canvia la teva interfície a mode fosc amb un clic."
-
-#: sections/features.twig:65
 msgctxt "heading"
-msgid "Documentation"
-msgstr "Documentació"
+msgid "Built for teams"
+msgstr "Pensat per als equips"
+
+#: sections/features.twig:56
+msgid "Invite your teammates to a shared workspace and work from the same plan."
+msgstr "Convida els teus companys d’equip a un espai de treball compartit i treballeu amb el mateix pla."
+
+#: sections/features.twig:61
+msgctxt "heading"
+msgid "Your library"
+msgstr "La teva biblioteca"
+
+#: sections/features.twig:62
+msgid "Everything you create is saved in one place, ready to find, reuse and download."
+msgstr "Tot el que crees es desa en un sol lloc, a punt per trobar-ho, reutilitzar-ho i baixar-ho."
+
+#: sections/features.twig:67
+msgctxt "heading"
+msgid "Speaks your language"
+msgstr "Parla la teva llengua"
 
 #: sections/features.twig:68
-msgid "An all-inclusive learning package seamlessly integrated into our community."
-msgstr "Un paquet d'aprenentatge tot inclòs integrat perfectament a la nostra comunitat."
+msgid "Use the app in the language you are most comfortable with."
+msgstr "Fes servir l’aplicació en la llengua amb què et sentis més còmode."
 
-#: sections/features.twig:78
+#: sections/features.twig:73
 msgctxt "heading"
-msgid "Payment Gateways"
-msgstr "Passarel·les de Pagament"
+msgid "Light and dark mode"
+msgstr "Mode clar i fosc"
 
-#: sections/features.twig:81
-msgid "Simplify transactions and boost security with payment gateway solutions."
-msgstr "Simplifica les transaccions i augmenta la seguretat amb solucions de passarel·la de pagament."
+#: sections/features.twig:74
+msgid "Work the way your eyes prefer, day or night."
+msgstr "Treballa com prefereixin els teus ulls, de dia o de nit."
 
-#: sections/features.twig:91
+#: sections/features.twig:79
 msgctxt "heading"
-msgid "AI Generator"
-msgstr "Generador d'IA"
+msgid "Secure checkout"
+msgstr "Pagament segur"
 
-#: sections/features.twig:94
-msgid "Unlock limitless creativity with our AI-powered content generator."
-msgstr "Desbloqueja una creativitat il·limitada amb el nostre generador de contingut impulsat per IA."
+#: sections/features.twig:80
+msgid "Pay safely through trusted payment providers and manage your plan any time."
+msgstr "Paga amb seguretat a través de proveïdors de pagament de confiança i gestiona el teu pla en qualsevol moment."
 
-#: sections/features.twig:104
+#: sections/features.twig:86
 msgctxt "heading"
-msgid "SEO Friendly"
-msgstr "Optimitzat per SEO"
-
-#: sections/features.twig:107
-msgid "Boost your visibility and reach your audience effectively with AI generated content."
-msgstr "Augmenta la teva visibilitat i aconsegueix el teu públic de manera efectiva amb contingut generat per IA."
-
-#: sections/features.twig:117
-msgctxt "heading"
-msgid "Advanced Dashboard"
-msgstr "Tauler Avançat"
-
-#: sections/features.twig:120
-msgid "Empower your insights and control with our cutting-edge dashboard."
-msgstr "Potencia les teves idees i control amb el nostre tauler d'avantguarda."
-
-#: sections/features.twig:130
-msgctxt "heading"
-msgid "Custom Templates"
-msgstr "Plantilles Personalitzades"
-
-#: sections/features.twig:133
-msgid "Transform your content creation with AI-driven custom templates."
-msgstr "Transforma la creació de contingut amb plantilles personalitzades impulsades per IA."
-
-#: sections/features.twig:144
-msgctxt "heading"
-msgid "Login via SM Accounts"
-msgstr "Inicia sessió amb Comptes de Xarxes Socials"
-
-#: sections/features.twig:147
-msgid "Use Facebook or Google accounts as an alternatively access to platform."
-msgstr "Utilitza comptes de Facebook o Google com a accés alternatiu a la plataforma."
-
-#: sections/features.twig:157
-msgctxt "heading"
-msgid "High Quality Support"
-msgstr "Suport d'Alta Qualitat"
-
-#: sections/features.twig:160
-msgid "Our support team is available 24/7 to help you with any questions or concerns."
-msgstr "El nostre equip de suport està disponible 24/7 per ajudar-vos amb qualsevol pregunta o preocupació."
+msgid "Everything in one workspace"
+msgstr "Tot en un mateix espai de treball"
 
 #: sections/footer.twig:4
 msgid "All rights reserved."
 msgstr "Tots els drets reservats."
 
 #: sections/footer.twig:42
-#: sections/header.twig:19
+#: sections/header.twig:21
 msgctxt "button"
 msgid "Product"
 msgstr "Producte"
 
 #: sections/footer.twig:46
-#: sections/header.twig:33
+#: sections/header.twig:28
+msgctxt "button"
+msgid "Features"
+msgstr "Funcions"
+
+#: sections/footer.twig:50
+#: sections/header.twig:35
 msgctxt "button"
 msgid "Pricing"
 msgstr "Preus"
 
-#: sections/footer.twig:50
+#: sections/footer.twig:54
+#: sections/header.twig:42
 msgctxt "button"
 msgid "FAQ"
 msgstr "Preguntes freqüents"
 
-#: sections/footer.twig:57
+#: sections/footer.twig:61
 msgctxt "button"
 msgid "Terms of services"
 msgstr "Termes de servei"
 
-#: sections/footer.twig:63
+#: sections/footer.twig:67
 msgctxt "button"
 msgid "Privacy policy"
 msgstr "Política de privacitat"
 
-#: sections/footer.twig:69
+#: sections/footer.twig:73
 msgctxt "button"
 msgid "Refund policy"
 msgstr "Política de reemborsament"
 
-#: sections/generators.twig:3
+#: sections/generators.twig:16
 msgctxt "heading"
-msgid "Meet your ultimate"
-msgstr "Coneix el teu definitiu"
+msgid "Every AI tool you need,"
+msgstr "Totes les eines d’IA que necessites,"
 
-#: sections/generators.twig:6
+#: sections/generators.twig:17
 msgctxt "heading"
-msgid "AI-Powered Content Platform"
-msgstr "Plataforma de contingut impulsada per IA"
+msgid "in one place"
+msgstr "en un sol lloc"
 
-#: sections/header.twig:26
-msgctxt "button"
-msgid "Featured"
-msgstr "Destacats"
-
-#: sections/header.twig:111
-#: sections/hero.twig:13
-msgctxt "button"
-msgid "Go to app"
-msgstr "Vés a l'aplicació"
-
-#: sections/header.twig:123
+#: sections/header.twig:129
 msgctxt "button"
 msgid "Library"
 msgstr "Biblioteca"
 
-#: sections/header.twig:131
+#: sections/header.twig:136
 msgctxt "button"
 msgid "Billing"
 msgstr "Facturació"
@@ -246,239 +318,428 @@ msgctxt "button"
 msgid "Account"
 msgstr "Compte"
 
-#: sections/header.twig:151
+#: sections/header.twig:154
 msgctxt "button"
 msgid "Logout"
 msgstr "Tancar sessió"
 
-#: sections/header.twig:191
+#: sections/header.twig:195
 msgctxt "button"
 msgid "Login"
 msgstr "Iniciar sessió"
 
-#: sections/header.twig:196
-#: sections/pricing.twig:102
-msgctxt "button"
-msgid "Get started"
-msgstr "Comença"
-
 #: sections/hero.twig:3
 msgctxt "heading"
-msgid "Transforming ideas into AI generated masterpieces"
-msgstr "Transformant idees en obres mestres generades per IA"
+msgid "Your all-in-one AI workspace"
+msgstr "El teu espai de treball d’IA tot en un"
 
 #: sections/hero.twig:7
-msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
-msgstr "Genera fàcilment contingut d'alta qualitat impulsat per IA a les teves necessitats. Desbloqueja possibilitats il·limitades, estalvia el teu temps i comença a guanyar diners avui mateix!"
+msgid "Chat, write and create with the leading AI models, all in one place. No juggling apps or subscriptions."
+msgstr "Xateja, escriu i crea amb els principals models d’IA, tot en un sol lloc. Sense haver de saltar d’una aplicació a una altra ni gestionar diverses subscripcions."
 
-#: sections/hero.twig:19
-msgctxt "button"
-msgid "Get started now"
-msgstr "Comença ara"
+#: sections/how-it-works.twig:2
+msgctxt "heading"
+msgid "Create your account"
+msgstr "Crea el teu compte"
+
+#: sections/how-it-works.twig:2
+msgid "Sign up in seconds and land on your own dashboard."
+msgstr "Registra’t en segons i accedeix al teu propi tauler."
 
 #: sections/how-it-works.twig:3
+msgctxt "heading"
+msgid "Pick a tool and a model"
+msgstr "Tria una eina i un model"
+
+#: sections/how-it-works.twig:3
+msgid "Chat, write, create images and more. Choose the AI model that suits the job."
+msgstr "Xateja, escriu, crea imatges i molt més. Tria el model d’IA que millor s’adapti a la tasca."
+
+#: sections/how-it-works.twig:4
+msgctxt "heading"
+msgid "Describe it, get results"
+msgstr "Descriu-ho i obtén resultats"
+
+#: sections/how-it-works.twig:4
+msgid "Say what you need in plain words, refine the result, and find it later in your library."
+msgstr "Explica què necessites amb paraules senzilles, perfecciona el resultat i troba’l més tard a la teva biblioteca."
+
+#: sections/how-it-works.twig:9
 msgctxt "heading"
 msgid "How it works"
 msgstr "Com funciona"
 
-#: sections/how-it-works.twig:13
-msgctxt "heading"
-msgid "Choose Template"
-msgstr "Tria plantilla"
-
-#: sections/how-it-works.twig:16
-msgid "Choose a our built in templates or create your own."
-msgstr "Tria una de les nostres plantilles integrades o crea la teva pròpia."
-
-#: sections/how-it-works.twig:26
-msgctxt "heading"
-msgid "Describe"
-msgstr "Descriu"
-
-#: sections/how-it-works.twig:29
-msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
-msgstr "Introdueix unes quantes frases per descriure el teu tema. Afegeix paraules clau per especificar-les per a la teva marca."
-
-#: sections/how-it-works.twig:39
-msgctxt "heading"
-msgid "Generate"
-msgstr "Genera"
-
-#: sections/how-it-works.twig:42
-msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
-msgstr "Clica el botó \"Generar\" i obté una varietat de còpies de conversió alt per cada vegada."
-
 #: sections/image.twig:5
-msgid "AI Image"
-msgstr "Imatge AI"
+msgid "AI images"
+msgstr "Imatges amb IA"
 
 #: sections/image.twig:9
 msgctxt "heading"
-msgid "Visualize what you dream of. Create images from text."
-msgstr "Visualitza allò que somies. Crea imatges a partir de text."
+msgid "Turn a sentence into an image."
+msgstr "Converteix una frase en una imatge."
 
 #: sections/image.twig:13
-msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
-msgstr "Crea imatges impressionants instantàniament utilitzant el Generador d'Imatges IA - la teva eina per a la innovació artística."
+msgid "Describe what you want to see, pick a model, and get images you can download and reuse."
+msgstr "Descriu què vols veure, tria un model i obtén imatges que puguis baixar i reutilitzar."
 
-#: sections/image.twig:18
+#: sections/image.twig:17
 msgctxt "button"
-msgid "Try for free"
-msgstr "Prova-ho gratis"
+msgid "Create an image"
+msgstr "Crea una imatge"
+
+#: sections/models.twig:53
+msgid "Powered by the leading AI models"
+msgstr "Amb els principals models d’IA"
 
 #: sections/presets.twig:9
-msgid "100+ AI Writer Templates"
-msgstr "Més de 100 plantilles d'escriptor d'IA"
+msgid "Writing templates"
+msgstr "Plantilles d’escriptura"
 
 #: sections/presets.twig:14
 msgctxt "heading"
-msgid "What can Writing Assistant create for you?"
-msgstr "Què pot crear per a tu l'Assistent d'Escriptura?"
+msgid "What will you write today?"
+msgstr "Què escriuràs avui?"
 
 #: sections/presets.twig:18
-msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer's block forever."
-msgstr "Escriu amb una velocitat sorprenent, captiva la teva audiència i digues adéu al bloqueig de l'escriptor per sempre."
+msgid "Product descriptions, social posts, cover letters and more. Pick a template and skip the blank page."
+msgstr "Descripcions de productes, publicacions per a xarxes socials, cartes de presentació i molt més. Tria una plantilla i evita la pàgina en blanc."
 
 #: sections/presets.twig:23
 msgctxt "button"
-msgid "Get Started for Free"
-msgstr "Comença gratis"
+msgid "Browse templates"
+msgstr "Explora les plantilles"
 
-#: sections/pricing.twig:3
-msgctxt "heading"
-msgid "Pricing"
-msgstr "Preus"
+#: sections/preview.twig:10
+msgid "Alex"
+msgstr "Alex"
 
-#: sections/pricing.twig:6
-msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
-msgstr "Descobreix el pla perfecte per a les teves necessitats i desbloqueja un món de possibilitats."
+#: sections/preview.twig:11
+msgid "Alex Morgan"
+msgstr "Alex Morgan"
 
-#: sections/pricing.twig:19
+#: sections/preview.twig:106
+msgid "Hello, :name!"
+msgstr "Hola, :name!"
+
+#: sections/preview.twig:110
+msgid "How can I assist you?"
+msgstr "Com et puc ajudar?"
+
+#: sections/preview.twig:115
+msgid "Ask anything…"
+msgstr "Pregunta el que vulguis…"
+
+#: sections/preview.twig:121
+msgid "Transcribe audio"
+msgstr "Transcriu l’àudio"
+
+#: sections/preview.twig:122
+msgid "Isolate sounds"
+msgstr "Aïlla els sons"
+
+#: sections/preview.twig:123
+msgid "Create videos"
+msgstr "Crea vídeos"
+
+#: sections/preview.twig:124
+msgid "Create images"
+msgstr "Crea imatges"
+
+#: sections/preview.twig:147
+msgid "Scroll to explore"
+msgstr "Desplaça't per explorar"
+
+#: sections/pricing.twig:10
 msgctxt "button"
 msgid "Monthly"
 msgstr "Mensual"
 
-#: sections/pricing.twig:28
+#: sections/pricing.twig:11
 msgctxt "button"
 msgid "Yearly"
 msgstr "Anual"
 
-#: sections/pricing.twig:37
+#: sections/pricing.twig:17
 msgctxt "button"
-msgid "Packs"
-msgstr "Packs"
+msgid "Lifetime"
+msgstr "De per vida"
 
-#: sections/pricing.twig:46
-msgctxt "button"
-msgid "Lifetime Deals"
-msgstr "Ofertes de per vida"
+#: sections/pricing.twig:42
+msgctxt "heading"
+msgid "Simple, transparent pricing"
+msgstr "Preus senzills i transparents"
 
-#: sections/pricing.twig:78
-msgid "Most Popular"
+#: sections/pricing.twig:45
+msgid "Pick a plan that fits how you work. Upgrade, downgrade or cancel at any time."
+msgstr "Tria el pla que s'adapta a la teva manera de treballar. Canvia a un pla superior o inferior, o cancel·la'l en qualsevol moment."
+
+#: sections/pricing.twig:74
+msgid "Most popular"
 msgstr "Més popular"
 
-#: sections/pricing.twig:115
-msgid "Chat"
-msgstr "Xat"
+#: sections/pricing.twig:105
+msgid "Free"
+msgstr "Gratuït"
 
-#: sections/pricing.twig:134
-msgid "Writer"
-msgstr "Escriptor"
+#: sections/pricing.twig:112
+msgid "/ month"
+msgstr "/ mes"
+
+#: sections/pricing.twig:113
+msgid "/ year"
+msgstr "/ any"
+
+#: sections/pricing.twig:114
+msgid "lifetime"
+msgstr "de per vida"
+
+#: sections/pricing.twig:115
+msgid "one-time"
+msgstr "pagament únic"
+
+#: sections/pricing.twig:123
+msgid "per month, billed yearly"
+msgstr "al mes, facturat anualment"
+
+#: sections/pricing.twig:125
+msgid "Pay once. Allowance refreshes every month."
+msgstr "Paga una vegada. La quota es renova cada mes."
+
+#: sections/pricing.twig:127
+msgid "Extra credits on top of your plan."
+msgstr "Crèdits addicionals al teu pla."
+
+#: sections/pricing.twig:135
+msgctxt "button"
+msgid "Start :days-day free trial"
+msgstr "Comença la prova gratuïta de :days dies"
+
+#: sections/pricing.twig:137
+msgctxt "button"
+msgid "Start for free"
+msgstr "Comença gratis"
 
 #: sections/pricing.twig:153
-msgid "Image generator"
-msgstr "Generador d’imatges"
+msgctxt "button"
+msgid "See all plans"
+msgstr "Mostra tots els plans"
 
-#: sections/pricing.twig:166
-msgid "Transcriber"
-msgstr "Transcriptor"
-
-#: sections/pricing.twig:179
-msgid "Voiceover"
-msgstr "Locució"
-
-#: sections/pricing.twig:192
-msgid "Voice isolator"
-msgstr "Aïllador de veu"
-
-#: sections/pricing.twig:205
-msgid "Classifier"
-msgstr "Classificador"
-
-#: sections/pricing.twig:213
-msgid "Access to templates is disabled"
-msgstr "L’accés a les plantilles està desactivat"
-
-#: sections/pricing.twig:216
-msgid "Access to all templates"
-msgstr "Accés a totes les plantilles"
-
-#: sections/pricing.twig:232
-msgid "Priority support"
-msgstr "Suport prioritari"
-
-#: sections/pricing.twig:235
-msgid "Basic support"
-msgstr "Suport bàsic"
+#: sections/pricing.twig:161
+msgid "Not ready to pay? Try the free plan"
+msgstr "Encara no vols pagar? Prova el pla gratuït"
 
 #: sections/speech-to-text.twig:4
-msgid "Speech to Text"
-msgstr "Veu a Text"
+msgid "Speech to text"
+msgstr "De veu a text"
 
 #: sections/speech-to-text.twig:8
 msgctxt "heading"
-msgid "Transforming Spoken <br> Words into Text."
-msgstr "Transformant paraules <br> parlades en text."
+msgid "Turn recordings into text."
+msgstr "Converteix enregistraments en text."
 
 #: sections/speech-to-text.twig:12
-msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
-msgstr "Transcriu instantàniament paraules parlades en text per a una major productivitat i accesibilitat."
+msgid "Upload a meeting, interview or voice note and get a transcript you can copy and download."
+msgstr "Puja una reunió, una entrevista o una nota de veu i obtén una transcripció que pots copiar i baixar."
 
-#: sections/speech-to-text.twig:17
+#: sections/speech-to-text.twig:16
 msgctxt "button"
-msgid "Convert now"
-msgstr "Converteix ara"
+msgid "Transcribe audio"
+msgstr "Transcriure àudio"
 
 #: sections/text-to-voice.twig:4
-msgid "Text to Voice"
-msgstr "Text a Veu"
+msgid "Text to speech"
+msgstr "Text a veu"
 
 #: sections/text-to-voice.twig:8
 msgctxt "heading"
-msgid "Convert your texts into <br> Lifelike Speech"
-msgstr "Converteix els teus textos en <br> Veu realista"
+msgid "Give your words a natural voice."
+msgstr "Dona una veu natural a les teves paraules."
 
 #: sections/text-to-voice.twig:12
-msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
-msgstr "Eleva el teu contingut amb narració expressiva: Descobreix l'excel·lència del Text a Veu."
+msgid "Pick a lifelike voice for narration, videos and podcasts."
+msgstr "Tria una veu realista per a narracions, vídeos i pòdcasts."
 
 #: sections/video.twig:11
-msgid "Video"
-msgstr "Vídeo"
+msgid "AI video"
+msgstr "Vídeo amb IA"
 
 #: sections/video.twig:15
 msgctxt "heading"
-msgid "Generate high-quality videos using AI Video generation tool."
-msgstr "Genera vídeos d'alta qualitat amb l'eina de generació de vídeo AI."
+msgid "Make short videos from a prompt or a photo."
+msgstr "Crea vídeos curts a partir d’una indicació o una foto."
 
 #: sections/video.twig:19
-msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
-msgstr "No es requereixen habilitats d'edició de vídeo: només puja les teves imatges i introdueix unes línies de prompt, això és tot."
+msgid "No editing skills needed. Write a few lines, add an image if you like, and the AI does the rest."
+msgstr "No cal tenir coneixements d’edició. Escriu unes quantes línies, afegeix-hi una imatge si vols i la IA farà la resta."
+
+#: sections/video.twig:23
+msgctxt "button"
+msgid "Make a video"
+msgstr "Crea un vídeo"
 
 #: sections/writer.twig:22
-msgid "AI Writer"
-msgstr "Escriptor IA"
+#: snippets/plan-rows.twig:103
+msgid "AI writer"
+msgstr "Escriptor amb IA"
 
 #: sections/writer.twig:26
 msgctxt "heading"
-msgid "Write SEO optimized blogs, sales emails and more..."
-msgstr "Escriu blogs optimitzats per SEO, correus de venda i més..."
+msgid "Blog posts, emails and ads, written in minutes."
+msgstr "Entrades de blog, correus electrònics i anuncis escrits en qüestió de minuts."
 
 #: sections/writer.twig:30
-msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
-msgstr "Aconsegueix resultats superiors en una fracció de temps. Finalment, una eina de redacció que realment utilitzes."
+msgid "Start from a ready-made template, answer a few questions, and refine the draft in chat until it sounds like you."
+msgstr "Comença amb una plantilla ja preparada, respon unes quantes preguntes i retoca l’esborrany al xat fins que soni com tu."
 
-#: sections/writer.twig:35
+#: sections/writer.twig:34
 msgctxt "button"
-msgid "See all features"
-msgstr "Veure totes les funcions"
+msgid "Start writing"
+msgstr "Comença a escriure"
+
+#: snippets/plan-rows.twig:17
+msgid "Unlimited usage"
+msgstr "Ús il·limitat"
+
+#: snippets/plan-rows.twig:17
+msgid "Unlimited credits"
+msgstr "Crèdits il·limitats"
+
+#: snippets/plan-rows.twig:23
+msgid ":amount of usage"
+msgstr ":amount d’ús"
+
+#: snippets/plan-rows.twig:24
+msgid ":amount of usage / month"
+msgstr ":amount d’ús / mes"
+
+#: snippets/plan-rows.twig:27
+msgid ":count credit"
+msgstr ":count crèdit"
+
+#: snippets/plan-rows.twig:28
+msgid ":count credits"
+msgstr ":count crèdits"
+
+#: snippets/plan-rows.twig:31
+msgid ":amount / month"
+msgstr ":amount / mes"
+
+#: snippets/plan-rows.twig:41
+msgid "Unlimited members"
+msgstr "Membres il·limitats"
+
+#: snippets/plan-rows.twig:43
+msgid "Just you"
+msgstr "Només tu"
+
+#: snippets/plan-rows.twig:45
+msgid "Up to :count members"
+msgstr "Fins a :count membres"
+
+#: snippets/plan-rows.twig:63
+msgid "Every AI model"
+msgstr "Tots els models d'IA"
+
+#: snippets/plan-rows.twig:64
+msgid "1 AI model"
+msgstr "1 model d'IA"
+
+#: snippets/plan-rows.twig:64
+msgid ":count AI models"
+msgstr ":count models d'IA"
+
+#: snippets/plan-rows.twig:79
+msgid "Unlimited custom assistants"
+msgstr "Assistents personalitzats il·limitats"
+
+#: snippets/plan-rows.twig:79
+msgid ":count custom assistants"
+msgstr ":count assistents personalitzats"
+
+#: snippets/plan-rows.twig:85
+msgid "Live web search"
+msgstr "Cerca web en temps real"
+
+#: snippets/plan-rows.twig:86
+msgid "Chat with your documents"
+msgstr "Xateja amb els teus documents"
+
+#: snippets/plan-rows.twig:87
+msgid "Read any web page"
+msgstr "Llegeix qualsevol pàgina web"
+
+#: snippets/plan-rows.twig:88
+msgid "YouTube insights"
+msgstr "Informació de YouTube"
+
+#: snippets/plan-rows.twig:89
+msgid "Create media in chat"
+msgstr "Crea contingut multimèdia al xat"
+
+#: snippets/plan-rows.twig:90
+msgid "Conversation memory"
+msgstr "Memòria de conversa"
+
+#: snippets/plan-rows.twig:91
+msgid "Canvas"
+msgstr "Canvas"
+
+#: snippets/plan-rows.twig:92
+msgid "Clarifying questions"
+msgstr "Preguntes aclaridores"
+
+#: snippets/plan-rows.twig:93
+msgid "Connectors to your apps"
+msgstr "Connectors per a les teves aplicacions"
+
+#: snippets/plan-rows.twig:104
+msgid "Image generation"
+msgstr "Generació d'imatges"
+
+#: snippets/plan-rows.twig:105
+msgid "Video generation"
+msgstr "Generació de vídeos"
+
+#: snippets/plan-rows.twig:106
+msgid "Voiceover"
+msgstr "Locució"
+
+#: snippets/plan-rows.twig:107
+msgid "Transcription"
+msgstr "Transcripció"
+
+#: snippets/plan-rows.twig:108
+msgid "Voice isolation"
+msgstr "Aïllament de veu"
+
+#: snippets/plan-rows.twig:109
+msgid "Content moderation"
+msgstr "Moderació de continguts"
+
+#: snippets/plan-rows.twig:122
+msgid "Unlimited voice clones"
+msgstr "Clons de veu il·limitats"
+
+#: snippets/plan-rows.twig:122
+msgid ":count voice clones"
+msgstr ":count clons de veu"
+
+#: snippets/plan-rows.twig:133
+msgid "Unlimited scheduled tasks"
+msgstr "Tasques programades il·limitades"
+
+#: snippets/plan-rows.twig:133
+msgid ":count scheduled tasks"
+msgstr ":count tasques programades"
+
+#: snippets/plan-rows.twig:140
+msgid "Private mode"
+msgstr "Mode privat"
+
+#: snippets/plan-rows.twig:166
+msgid "Show less"
+msgstr "Mostra'n menys"
+
+#: snippets/plan-rows.twig:166
+msgid "Show all features"
+msgstr "Mostra totes les funcions"

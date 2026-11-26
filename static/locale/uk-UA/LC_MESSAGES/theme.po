@@ -11,232 +11,304 @@ msgstr ""
 "X-Domain: theme\n"
 
 #: sections/chat.twig:11
-msgid "AI Chat Bot"
-msgstr "Чат-бот на базі ШІ"
+#: snippets/plan-rows.twig:73
+msgid "AI chat"
+msgstr "Чат зі ШІ"
 
 #: sections/chat.twig:15
 msgctxt "heading"
-msgid "That's remarkably human-like and engaging..."
-msgstr "Це надзвичайно людяно та захопливо..."
+msgid "Ask anything. Get clear, useful answers."
+msgstr "Запитуйте про що завгодно. Отримуйте чіткі й корисні відповіді."
 
 #: sections/chat.twig:19
-msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
-msgstr "Просто виберіть свого асистента та спілкуйтеся з дружелюбним чат-ботом для генерації ідей, покращення контенту або навіть для уліпки на ваше обличчя."
+msgid "Chat with leading AI models to brainstorm, research, write and solve problems faster."
+msgstr "Спілкуйтеся з провідними моделями ШІ, щоб швидше генерувати ідеї, досліджувати, писати й розв’язувати задачі."
 
-#: sections/chat.twig:24
-#: sections/video.twig:24
+#: sections/chat.twig:23
 msgctxt "button"
-msgid "Try now"
-msgstr "Спробувати зараз"
+msgid "Start chatting"
+msgstr "Почати чат"
 
-#: sections/code.twig:10
-msgid "AI Code"
-msgstr "Штучний інтелект для коду"
-
-#: sections/code.twig:14
+#: sections/cta.twig:9
 msgctxt "heading"
-msgid "Ready to write code at the speed of light?"
-msgstr "Готові писати код зі швидкістю світла?"
+msgid "Pick up where you left off"
+msgstr "Продовжуйте з того місця, де зупинилися"
 
-#: sections/code.twig:18
-msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
-msgstr "Легко генеруйте код за допомогою генератора коду ШІ: миттєві рішення для ваших потреб у програмуванні."
+#: sections/cta.twig:11
+msgid "Your chats, documents and media are waiting in your workspace."
+msgstr "Ваші чати, документи й медіафайли чекають на вас у робочому просторі."
 
-#: sections/code.twig:23
+#: sections/cta.twig:14
+msgctxt "heading"
+msgid "Ready to get started?"
+msgstr "Готові почати?"
+
+#: sections/cta.twig:16
+msgid "Create your account and put AI to work in minutes."
+msgstr "Створіть обліковий запис і почніть використовувати ШІ за лічені хвилини."
+
+#: sections/cta.twig:22
+#: sections/header.twig:118
+#: sections/hero.twig:13
 msgctxt "button"
-msgid "Start Generate Code"
-msgstr "Почати генерувати код"
+msgid "Go to app"
+msgstr "Перейти до додатку"
 
-#: sections/cta.twig:3
-msgctxt "heading"
-msgid "Ready to level-up?"
-msgstr "Готові піднятися на новий рівень?"
-
-#: sections/cta.twig:5
-msgid "See how easy it can be to write amazing content."
-msgstr "Подивіться, як легко можна створювати дивовижний контент."
-
-#: sections/cta.twig:10
+#: sections/cta.twig:22
+#: sections/header.twig:200
+#: sections/hero.twig:18
+#: sections/pricing.twig:139
 msgctxt "button"
-msgid "Get Started Now"
-msgstr "Почати зараз"
+msgid "Get started"
+msgstr "Почати"
 
-#: sections/features.twig:3
+#: sections/cta.twig:28
+#: sections/hero.twig:25
+msgctxt "button"
+msgid "See pricing"
+msgstr "Переглянути ціни"
+
+#: sections/faq.twig:10
+msgid "What are credits?"
+msgstr "Що таке кредити?"
+
+#: sections/faq.twig:11
+msgid "Credits are what you spend when you use the AI. Each request costs credits based on the model and how much it produces, and your plan includes a set amount."
+msgstr "Кредити — це те, що ви витрачаєте, користуючись ШІ. Кожен запит коштує певну кількість кредитів залежно від моделі та обсягу результату, а ваш план передбачає певну кількість кредитів."
+
+#: sections/faq.twig:11
+msgid "Need more? Top up with a credit pack at any time."
+msgstr "Потрібно більше? Поповніть запас у будь-який час, придбавши пакет кредитів."
+
+#: sections/faq.twig:15
+msgid "How is usage measured?"
+msgstr "Як вимірюється використання?"
+
+#: sections/faq.twig:16
+msgid "Each plan includes an amount of usage. What a request uses depends on the model and how much it produces, and your account always shows what you have left."
+msgstr "Кожен план передбачає певний обсяг використання. Витрати на запит залежать від моделі та обсягу результату, а в обліковому записі завжди видно, скільки у вас залишилося."
+
+#: sections/faq.twig:20
+msgid "Which AI models can I use?"
+msgstr "Які моделі ШІ можна використовувати?"
+
+#: sections/faq.twig:21
+msgid "Each plan lists the models it includes. Hover over the models line on a plan to see them, and pick the one you want while you work."
+msgstr "У кожному плані вказано доступні моделі. Наведіть курсор на рядок із моделями в описі плану, щоб переглянути їх, і виберіть потрібну під час роботи."
+
+#: sections/faq.twig:25
+msgid "Can I change or cancel my plan?"
+msgstr "Чи можу я змінити або скасувати свій план?"
+
+#: sections/faq.twig:26
+msgid "Yes. You can upgrade, downgrade or cancel from the billing page in your account at any time."
+msgstr "Так. Ви можете будь-коли перейти на дорожчий або дешевший план чи скасувати його на сторінці оплати у своєму обліковому записі."
+
+#: sections/faq.twig:30
+msgid "Is there a free trial?"
+msgstr "Чи є безплатний пробний період?"
+
+#: sections/faq.twig:31
+msgid "Yes. Paid subscriptions start with a :days-day free trial. Cancel before it ends and you will not be charged."
+msgstr "Так. Платні підписки починаються з безплатного пробного періоду на :days днів. Скасуйте підписку до його завершення, і з вас не стягуватимуть плату."
+
+#: sections/faq.twig:35
+msgid "Can I use it with my team?"
+msgstr "Чи можу я користуватися ним разом зі своєю командою?"
+
+#: sections/faq.twig:36
+msgid "Yes. Invite teammates to your workspace and they share its plan. How many members you can add depends on your plan."
+msgstr "Так. Запросіть колег до свого робочого простору — вони користуватимуться спільним тарифним планом. Кількість учасників, яких можна додати, залежить від вашого тарифного плану."
+
+#: sections/faq.twig:40
+msgid "What happens to what I create?"
+msgstr "Що відбувається зі створеним мною?"
+
+#: sections/faq.twig:41
+msgid "It is saved to your library so you can find it later. Switch on private mode and nothing you create is kept: it stays out of your history and is deleted automatically."
+msgstr "Створене зберігається у вашій бібліотеці, щоб ви могли знайти його пізніше. Увімкніть приватний режим — і нічого зі створеного вами не зберігатиметься: воно не потрапить до історії та буде видалене автоматично."
+
+#: sections/faq.twig:49
 msgctxt "heading"
-msgid "Coolest Features"
-msgstr "Найкрутіші функції"
+msgid "Frequently asked questions"
+msgstr "Поширені запитання"
+
+#: sections/faq.twig:52
+msgid "Answers to what people ask most before they sign up."
+msgstr "Відповіді на запитання, які найчастіше виникають перед реєстрацією."
 
 #: sections/features.twig:13
 msgctxt "heading"
-msgid "High Quality Code"
-msgstr "Високоякісний код"
+msgid "Leading AI models"
+msgstr "Провідні моделі ШІ"
 
-#: sections/features.twig:16
-msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
-msgstr "Розроблено з використанням принципів Domain-Driven Design та Onion Architecture."
+#: sections/features.twig:14
+msgid "Use models from several AI providers in one app, without separate accounts."
+msgstr "Користуйтеся моделями від різних постачальників ШІ в одному застосунку без окремих облікових записів."
+
+#: sections/features.twig:19
+msgctxt "heading"
+msgid "Custom assistants"
+msgstr "Власні асистенти"
+
+#: sections/features.twig:20
+msgid "Build assistants with their own instructions and knowledge, and reuse them any time."
+msgstr "Створюйте асистентів із власними інструкціями та знаннями й використовуйте їх знову будь-коли."
+
+#: sections/features.twig:25
+msgctxt "heading"
+msgid "Chat with your documents"
+msgstr "Спілкуйтеся зі своїми документами"
 
 #: sections/features.twig:26
+msgid "Upload files and ask questions about them. Answers come from your own content."
+msgstr "Завантажуйте файли й ставте запитання про них. Відповіді ґрунтуються на вашому вмісті."
+
+#: sections/features.twig:31
 msgctxt "heading"
-msgid "Modern Technologies"
-msgstr "Сучасні технології"
+msgid "Live web search"
+msgstr "Пошук в інтернеті в реальному часі"
 
-#: sections/features.twig:29
-msgid "Built with modern technologies for best structure and get maximum performance."
-msgstr "Створено з сучасними технологіями для найкращої структури та отримання максимальної продуктивності."
+#: sections/features.twig:32
+msgid "Get answers that draw on up-to-date information from the web."
+msgstr "Отримуйте відповіді на основі актуальної інформації з інтернету."
 
-#: sections/features.twig:39
+#: sections/features.twig:37
 msgctxt "heading"
-msgid "Friendly UI and UX"
-msgstr "Зручний інтерфейс та UX"
+msgid "Connect your apps"
+msgstr "Підключайте свої застосунки"
 
-#: sections/features.twig:42
-msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
-msgstr "Насолоджуйтеся безпечним та інтуїтивним інтерфейсом, який покращує ваше цифрове досвід."
+#: sections/features.twig:38
+msgid "Bring the tools you already use into the conversation."
+msgstr "Додавайте до розмови інструменти, якими вже користуєтеся."
 
-#: sections/features.twig:52
+#: sections/features.twig:43
 msgctxt "heading"
-msgid "Dark Mode"
-msgstr "Темний режим"
+msgid "Scheduled tasks"
+msgstr "Заплановані завдання"
+
+#: sections/features.twig:44
+msgid "Let the AI handle reminders, recurring reports and ongoing updates on a schedule."
+msgstr "Доручіть ШІ виконувати за розкладом нагадування, регулярні звіти та поточні оновлення."
+
+#: sections/features.twig:49
+msgctxt "heading"
+msgid "Private mode"
+msgstr "Приватний режим"
+
+#: sections/features.twig:50
+msgid "What you create in private mode stays out of your history and library, and is deleted automatically."
+msgstr "Створене вами в приватному режимі не потрапляє до історії та бібліотеки й видаляється автоматично."
 
 #: sections/features.twig:55
-msgid "Turn off the light and switch to dark mode your interface with one click."
-msgstr "Вимкніть світло та переключіться на темний режим інтерфейсу одним кліком."
-
-#: sections/features.twig:65
 msgctxt "heading"
-msgid "Documentation"
-msgstr "Документація"
+msgid "Built for teams"
+msgstr "Створено для команд"
+
+#: sections/features.twig:56
+msgid "Invite your teammates to a shared workspace and work from the same plan."
+msgstr "Запросіть колег до спільного робочого простору й працюйте за одним планом."
+
+#: sections/features.twig:61
+msgctxt "heading"
+msgid "Your library"
+msgstr "Ваша бібліотека"
+
+#: sections/features.twig:62
+msgid "Everything you create is saved in one place, ready to find, reuse and download."
+msgstr "Усе, що ви створюєте, зберігається в одному місці — його можна знайти, повторно використати й завантажити."
+
+#: sections/features.twig:67
+msgctxt "heading"
+msgid "Speaks your language"
+msgstr "Підтримує вашу мову"
 
 #: sections/features.twig:68
-msgid "An all-inclusive learning package seamlessly integrated into our community."
-msgstr "Всеохоплюючий навчальний пакет, безшовно інтегрований у нашу спільноту."
+msgid "Use the app in the language you are most comfortable with."
+msgstr "Користуйтеся застосунком мовою, якою вам найзручніше."
 
-#: sections/features.twig:78
+#: sections/features.twig:73
 msgctxt "heading"
-msgid "Payment Gateways"
-msgstr "Платіжні шлюзи"
+msgid "Light and dark mode"
+msgstr "Світла й темна тема"
 
-#: sections/features.twig:81
-msgid "Simplify transactions and boost security with payment gateway solutions."
-msgstr "Спрощуйте транзакції та підвищуйте безпеку за допомогою рішень платіжних шлюзів."
+#: sections/features.twig:74
+msgid "Work the way your eyes prefer, day or night."
+msgstr "Працюйте так, як зручно вашим очам, удень і вночі."
 
-#: sections/features.twig:91
+#: sections/features.twig:79
 msgctxt "heading"
-msgid "AI Generator"
-msgstr "Генератор ШІ"
+msgid "Secure checkout"
+msgstr "Безпечна оплата"
 
-#: sections/features.twig:94
-msgid "Unlock limitless creativity with our AI-powered content generator."
-msgstr "Відкрийте безмежну творчість з нашим генератором контенту на базі ШІ."
+#: sections/features.twig:80
+msgid "Pay safely through trusted payment providers and manage your plan any time."
+msgstr "Безпечно оплачуйте через надійних платіжних провайдерів і керуйте своїм планом у будь-який час."
 
-#: sections/features.twig:104
+#: sections/features.twig:86
 msgctxt "heading"
-msgid "SEO Friendly"
-msgstr "SEO дружній"
-
-#: sections/features.twig:107
-msgid "Boost your visibility and reach your audience effectively with AI generated content."
-msgstr "Покращіть свою видимість та досягніть своєї аудиторії за допомогою контенту, створеного ШІ."
-
-#: sections/features.twig:117
-msgctxt "heading"
-msgid "Advanced Dashboard"
-msgstr "Розширена панель керування"
-
-#: sections/features.twig:120
-msgid "Empower your insights and control with our cutting-edge dashboard."
-msgstr "Посилюйте свої інсайти та контроль за допомогою нашої передової панелі керування."
-
-#: sections/features.twig:130
-msgctxt "heading"
-msgid "Custom Templates"
-msgstr "Користувацькі шаблони"
-
-#: sections/features.twig:133
-msgid "Transform your content creation with AI-driven custom templates."
-msgstr "Трансформуйте створення контенту з AI-орієнтованими кастомними шаблонами."
-
-#: sections/features.twig:144
-msgctxt "heading"
-msgid "Login via SM Accounts"
-msgstr "Вхід через акаунти соцмереж"
-
-#: sections/features.twig:147
-msgid "Use Facebook or Google accounts as an alternatively access to platform."
-msgstr "Використовуйте облікові записи Facebook або Google як альтернативний доступ до платформи."
-
-#: sections/features.twig:157
-msgctxt "heading"
-msgid "High Quality Support"
-msgstr "Високоякісна підтримка"
-
-#: sections/features.twig:160
-msgid "Our support team is available 24/7 to help you with any questions or concerns."
-msgstr "Наша команда підтримки доступна 24/7, щоб допомогти вам з будь-якими питаннями або проблемами."
+msgid "Everything in one workspace"
+msgstr "Усе в одному робочому просторі"
 
 #: sections/footer.twig:4
 msgid "All rights reserved."
 msgstr "Всі права захищені."
 
 #: sections/footer.twig:42
-#: sections/header.twig:19
+#: sections/header.twig:21
 msgctxt "button"
 msgid "Product"
 msgstr "Продукт"
 
 #: sections/footer.twig:46
-#: sections/header.twig:33
+#: sections/header.twig:28
+msgctxt "button"
+msgid "Features"
+msgstr "Можливості"
+
+#: sections/footer.twig:50
+#: sections/header.twig:35
 msgctxt "button"
 msgid "Pricing"
 msgstr "Ціноутворення"
 
-#: sections/footer.twig:50
+#: sections/footer.twig:54
+#: sections/header.twig:42
 msgctxt "button"
 msgid "FAQ"
 msgstr "Часті питання"
 
-#: sections/footer.twig:57
+#: sections/footer.twig:61
 msgctxt "button"
 msgid "Terms of services"
 msgstr "Умови обслуговування"
 
-#: sections/footer.twig:63
+#: sections/footer.twig:67
 msgctxt "button"
 msgid "Privacy policy"
 msgstr "Політика конфіденційності"
 
-#: sections/footer.twig:69
+#: sections/footer.twig:73
 msgctxt "button"
 msgid "Refund policy"
 msgstr "Політика повернення коштів"
 
-#: sections/generators.twig:3
+#: sections/generators.twig:16
 msgctxt "heading"
-msgid "Meet your ultimate"
-msgstr "Познайомтеся зі своїм ідеальним"
+msgid "Every AI tool you need,"
+msgstr "Кожен потрібний вам інструмент ШІ,"
 
-#: sections/generators.twig:6
+#: sections/generators.twig:17
 msgctxt "heading"
-msgid "AI-Powered Content Platform"
-msgstr "Платформа контенту на базі штучного інтелекту"
+msgid "in one place"
+msgstr "в одному місці"
 
-#: sections/header.twig:26
-msgctxt "button"
-msgid "Featured"
-msgstr "Рекомендоване"
-
-#: sections/header.twig:111
-#: sections/hero.twig:13
-msgctxt "button"
-msgid "Go to app"
-msgstr "Перейти до додатку"
-
-#: sections/header.twig:123
+#: sections/header.twig:129
 msgctxt "button"
 msgid "Library"
 msgstr "Бібліотека"
 
-#: sections/header.twig:131
+#: sections/header.twig:136
 msgctxt "button"
 msgid "Billing"
 msgstr "Оплата"
@@ -246,239 +318,428 @@ msgctxt "button"
 msgid "Account"
 msgstr "Обліковий запис"
 
-#: sections/header.twig:151
+#: sections/header.twig:154
 msgctxt "button"
 msgid "Logout"
 msgstr "Вийти"
 
-#: sections/header.twig:191
+#: sections/header.twig:195
 msgctxt "button"
 msgid "Login"
 msgstr "Увійти"
 
-#: sections/header.twig:196
-#: sections/pricing.twig:102
-msgctxt "button"
-msgid "Get started"
-msgstr "Почати"
-
 #: sections/hero.twig:3
 msgctxt "heading"
-msgid "Transforming ideas into AI generated masterpieces"
-msgstr "Перетворення ідей у шедеври, створені ШІ"
+msgid "Your all-in-one AI workspace"
+msgstr "Ваш універсальний робочий простір зі ШІ"
 
 #: sections/hero.twig:7
-msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
-msgstr "Легко створюйте високоякісний контент на основі ШІ, адаптований до ваших потреб. Відкрийте безмежні можливості, зекономте час та починайте заробляти гроші сьогодні!"
+msgid "Chat, write and create with the leading AI models, all in one place. No juggling apps or subscriptions."
+msgstr "Спілкуйтеся, пишіть і створюйте за допомогою провідних моделей ШІ — усе в одному місці. Більше не потрібно перемикатися між застосунками й підписками."
 
-#: sections/hero.twig:19
-msgctxt "button"
-msgid "Get started now"
-msgstr "Почати зараз"
+#: sections/how-it-works.twig:2
+msgctxt "heading"
+msgid "Create your account"
+msgstr "Створіть обліковий запис"
+
+#: sections/how-it-works.twig:2
+msgid "Sign up in seconds and land on your own dashboard."
+msgstr "Зареєструйтеся за лічені секунди й одразу перейдіть до власної панелі керування."
 
 #: sections/how-it-works.twig:3
+msgctxt "heading"
+msgid "Pick a tool and a model"
+msgstr "Виберіть інструмент і модель"
+
+#: sections/how-it-works.twig:3
+msgid "Chat, write, create images and more. Choose the AI model that suits the job."
+msgstr "Спілкуйтеся, пишіть, створюйте зображення та багато іншого. Виберіть модель ШІ, яка найкраще підходить для вашого завдання."
+
+#: sections/how-it-works.twig:4
+msgctxt "heading"
+msgid "Describe it, get results"
+msgstr "Опишіть — отримайте результат"
+
+#: sections/how-it-works.twig:4
+msgid "Say what you need in plain words, refine the result, and find it later in your library."
+msgstr "Опишіть простими словами, що вам потрібно, уточніть результат і знайдіть його пізніше у своїй бібліотеці."
+
+#: sections/how-it-works.twig:9
 msgctxt "heading"
 msgid "How it works"
 msgstr "Як це працює"
 
-#: sections/how-it-works.twig:13
-msgctxt "heading"
-msgid "Choose Template"
-msgstr "Вибрати шаблон"
-
-#: sections/how-it-works.twig:16
-msgid "Choose a our built in templates or create your own."
-msgstr "Виберіть один із наших вбудованих шаблонів або створіть власний."
-
-#: sections/how-it-works.twig:26
-msgctxt "heading"
-msgid "Describe"
-msgstr "Описати"
-
-#: sections/how-it-works.twig:29
-msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
-msgstr "Введіть кілька речень, щоб описати вашу тему. Додайте ключові слова, щоб вказати для вашої марки."
-
-#: sections/how-it-works.twig:39
-msgctxt "heading"
-msgid "Generate"
-msgstr "Створити"
-
-#: sections/how-it-works.twig:42
-msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
-msgstr "Натисніть кнопку \"Створити\" та отримуйте різноманітні висококонвертуючі копії кожного разу."
-
 #: sections/image.twig:5
-msgid "AI Image"
-msgstr "Штучний інтелект зображень"
+msgid "AI images"
+msgstr "Зображення ШІ"
 
 #: sections/image.twig:9
 msgctxt "heading"
-msgid "Visualize what you dream of. Create images from text."
-msgstr "Візуалізуйте те, про що мрієте. Створюйте зображення з тексту."
+msgid "Turn a sentence into an image."
+msgstr "Перетворіть речення на зображення."
 
 #: sections/image.twig:13
-msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
-msgstr "Миттєво створюйте вражаючі зображення за допомогою генератора зображень AI - вашого інструмента для художнього новаторства."
+msgid "Describe what you want to see, pick a model, and get images you can download and reuse."
+msgstr "Опишіть, що хочете побачити, виберіть модель і створюйте зображення, які можна завантажувати та використовувати повторно."
 
-#: sections/image.twig:18
+#: sections/image.twig:17
 msgctxt "button"
-msgid "Try for free"
-msgstr "Спробуйте безкоштовно"
+msgid "Create an image"
+msgstr "Створити зображення"
+
+#: sections/models.twig:53
+msgid "Powered by the leading AI models"
+msgstr "На основі провідних моделей ШІ"
 
 #: sections/presets.twig:9
-msgid "100+ AI Writer Templates"
-msgstr "Понад 100 шаблонів AI-письменника"
+msgid "Writing templates"
+msgstr "Шаблони для текстів"
 
 #: sections/presets.twig:14
 msgctxt "heading"
-msgid "What can Writing Assistant create for you?"
-msgstr "Що може створити для вас Помічник з написання?"
+msgid "What will you write today?"
+msgstr "Що напишете сьогодні?"
 
 #: sections/presets.twig:18
-msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer's block forever."
-msgstr "Пишіть з неймовірною швидкістю, захоплюйте свою аудиторію та назавжди прощайтеся з творчим блоком."
+msgid "Product descriptions, social posts, cover letters and more. Pick a template and skip the blank page."
+msgstr "Описи товарів, дописи для соцмереж, супровідні листи та багато іншого. Виберіть шаблон і не починайте з чистої сторінки."
 
 #: sections/presets.twig:23
 msgctxt "button"
-msgid "Get Started for Free"
-msgstr "Почати безкоштовно"
+msgid "Browse templates"
+msgstr "Переглянути шаблони"
 
-#: sections/pricing.twig:3
-msgctxt "heading"
-msgid "Pricing"
-msgstr "Ціни"
+#: sections/preview.twig:10
+msgid "Alex"
+msgstr "Alex"
 
-#: sections/pricing.twig:6
-msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
-msgstr "Відкрийте для себе ідеальний план, який відповідає вашим потребам та відкриє для вас світ можливостей."
+#: sections/preview.twig:11
+msgid "Alex Morgan"
+msgstr "Alex Morgan"
 
-#: sections/pricing.twig:19
+#: sections/preview.twig:106
+msgid "Hello, :name!"
+msgstr "Привіт, :name!"
+
+#: sections/preview.twig:110
+msgid "How can I assist you?"
+msgstr "Чим я можу допомогти?"
+
+#: sections/preview.twig:115
+msgid "Ask anything…"
+msgstr "Запитайте про що завгодно…"
+
+#: sections/preview.twig:121
+msgid "Transcribe audio"
+msgstr "Транскрибувати аудіо"
+
+#: sections/preview.twig:122
+msgid "Isolate sounds"
+msgstr "Виокремити звуки"
+
+#: sections/preview.twig:123
+msgid "Create videos"
+msgstr "Створити відео"
+
+#: sections/preview.twig:124
+msgid "Create images"
+msgstr "Створити зображення"
+
+#: sections/preview.twig:147
+msgid "Scroll to explore"
+msgstr "Прокрутіть, щоб дізнатися більше"
+
+#: sections/pricing.twig:10
 msgctxt "button"
 msgid "Monthly"
 msgstr "Щомісячно"
 
-#: sections/pricing.twig:28
+#: sections/pricing.twig:11
 msgctxt "button"
 msgid "Yearly"
 msgstr "Щорічно"
 
-#: sections/pricing.twig:37
+#: sections/pricing.twig:17
 msgctxt "button"
-msgid "Packs"
-msgstr "Пакети"
+msgid "Lifetime"
+msgstr "Довічно"
 
-#: sections/pricing.twig:46
-msgctxt "button"
-msgid "Lifetime Deals"
-msgstr "Пожиттєві пропозиції"
+#: sections/pricing.twig:42
+msgctxt "heading"
+msgid "Simple, transparent pricing"
+msgstr "Прості й прозорі ціни"
 
-#: sections/pricing.twig:78
-msgid "Most Popular"
-msgstr "Найпопулярніше"
+#: sections/pricing.twig:45
+msgid "Pick a plan that fits how you work. Upgrade, downgrade or cancel at any time."
+msgstr "Виберіть план, що відповідає вашому стилю роботи. Ви можете будь-коли перейти на вищий або нижчий план чи скасувати підписку."
+
+#: sections/pricing.twig:74
+msgid "Most popular"
+msgstr "Найпопулярніший"
+
+#: sections/pricing.twig:105
+msgid "Free"
+msgstr "Безкоштовно"
+
+#: sections/pricing.twig:112
+msgid "/ month"
+msgstr "/ місяць"
+
+#: sections/pricing.twig:113
+msgid "/ year"
+msgstr "/ рік"
+
+#: sections/pricing.twig:114
+msgid "lifetime"
+msgstr "довічно"
 
 #: sections/pricing.twig:115
-msgid "Chat"
-msgstr "Чат"
+msgid "one-time"
+msgstr "одноразово"
 
-#: sections/pricing.twig:134
-msgid "Writer"
-msgstr "Письменник"
+#: sections/pricing.twig:123
+msgid "per month, billed yearly"
+msgstr "на місяць, оплата за рік"
+
+#: sections/pricing.twig:125
+msgid "Pay once. Allowance refreshes every month."
+msgstr "Сплатіть один раз. Ліміт оновлюється щомісяця."
+
+#: sections/pricing.twig:127
+msgid "Extra credits on top of your plan."
+msgstr "Додаткові кредити понад ваш ліміт за планом."
+
+#: sections/pricing.twig:135
+msgctxt "button"
+msgid "Start :days-day free trial"
+msgstr "Почати :days-денний безкоштовний пробний період"
+
+#: sections/pricing.twig:137
+msgctxt "button"
+msgid "Start for free"
+msgstr "Почати безкоштовно"
 
 #: sections/pricing.twig:153
-msgid "Image generator"
-msgstr "Генератор зображень"
+msgctxt "button"
+msgid "See all plans"
+msgstr "Переглянути всі плани"
 
-#: sections/pricing.twig:166
-msgid "Transcriber"
-msgstr "Транскрибатор"
-
-#: sections/pricing.twig:179
-msgid "Voiceover"
-msgstr "Озвучення"
-
-#: sections/pricing.twig:192
-msgid "Voice isolator"
-msgstr "Ізолятор голосу"
-
-#: sections/pricing.twig:205
-msgid "Classifier"
-msgstr "Класифікатор"
-
-#: sections/pricing.twig:213
-msgid "Access to templates is disabled"
-msgstr "Доступ до шаблонів вимкнено"
-
-#: sections/pricing.twig:216
-msgid "Access to all templates"
-msgstr "Доступ до всіх шаблонів"
-
-#: sections/pricing.twig:232
-msgid "Priority support"
-msgstr "Пріоритетна підтримка"
-
-#: sections/pricing.twig:235
-msgid "Basic support"
-msgstr "Базова підтримка"
+#: sections/pricing.twig:161
+msgid "Not ready to pay? Try the free plan"
+msgstr "Ще не готові платити? Спробуйте безкоштовний план"
 
 #: sections/speech-to-text.twig:4
-msgid "Speech to Text"
-msgstr "Голос у текст"
+msgid "Speech to text"
+msgstr "Перетворення мовлення на текст"
 
 #: sections/speech-to-text.twig:8
 msgctxt "heading"
-msgid "Transforming Spoken <br> Words into Text."
-msgstr "Перетворення вимовлених <br> слів у текст."
+msgid "Turn recordings into text."
+msgstr "Перетворюйте записи на текст."
 
 #: sections/speech-to-text.twig:12
-msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
-msgstr "Миттєво перекладайте вимовлені слова в текст для підвищення продуктивності та доступності."
+msgid "Upload a meeting, interview or voice note and get a transcript you can copy and download."
+msgstr "Завантажте запис зустрічі, інтерв’ю або голосову нотатку й отримайте текст, який можна скопіювати та завантажити."
 
-#: sections/speech-to-text.twig:17
+#: sections/speech-to-text.twig:16
 msgctxt "button"
-msgid "Convert now"
-msgstr "Перетворити зараз"
+msgid "Transcribe audio"
+msgstr "Транскрибувати аудіо"
 
 #: sections/text-to-voice.twig:4
-msgid "Text to Voice"
-msgstr "Текст у голос"
+msgid "Text to speech"
+msgstr "Текст у мовлення"
 
 #: sections/text-to-voice.twig:8
 msgctxt "heading"
-msgid "Convert your texts into <br> Lifelike Speech"
-msgstr "Перетворіть ваші тексти у <br> реалістичну мову"
+msgid "Give your words a natural voice."
+msgstr "Надайте своїм словам природне звучання."
 
 #: sections/text-to-voice.twig:12
-msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
-msgstr "Підвищіть якість свого контенту за допомогою виразного розповіді: Відкрийте для себе відмінність тексту в голосі."
+msgid "Pick a lifelike voice for narration, videos and podcasts."
+msgstr "Виберіть реалістичний голос для озвучення, відео та подкастів."
 
 #: sections/video.twig:11
-msgid "Video"
-msgstr "Відео"
+msgid "AI video"
+msgstr "Відео зі штучним інтелектом"
 
 #: sections/video.twig:15
 msgctxt "heading"
-msgid "Generate high-quality videos using AI Video generation tool."
-msgstr "Створюйте високоякісні відео за допомогою інструменту генерації відео на основі ШІ."
+msgid "Make short videos from a prompt or a photo."
+msgstr "Створюйте короткі відео за запитом або з фотографії."
 
 #: sections/video.twig:19
-msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
-msgstr "Не потрібні навички відеомонтажу — просто завантажте свої зображення та введіть кілька рядків підказки, і все."
+msgid "No editing skills needed. Write a few lines, add an image if you like, and the AI does the rest."
+msgstr "Навички монтажу не потрібні. Напишіть кілька рядків, за бажанням додайте зображення — і ШІ зробить усе інше."
+
+#: sections/video.twig:23
+msgctxt "button"
+msgid "Make a video"
+msgstr "Створити відео"
 
 #: sections/writer.twig:22
-msgid "AI Writer"
-msgstr "AI Письменник"
+#: snippets/plan-rows.twig:103
+msgid "AI writer"
+msgstr "ШІ-письменник"
 
 #: sections/writer.twig:26
 msgctxt "heading"
-msgid "Write SEO optimized blogs, sales emails and more..."
-msgstr "Пишіть SEO оптимізовані блоги, комерційні листи та інше..."
+msgid "Blog posts, emails and ads, written in minutes."
+msgstr "Дописи для блогів, електронні листи та рекламні оголошення за лічені хвилини."
 
 #: sections/writer.twig:30
-msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
-msgstr "Досягніть надзвичайних результатів за короткий час. Нарешті, інструмент для написання, який ви справді використовуватимете."
+msgid "Start from a ready-made template, answer a few questions, and refine the draft in chat until it sounds like you."
+msgstr "Виберіть готовий шаблон, дайте відповіді на кілька запитань і вдосконалюйте чернетку в чаті, доки вона не звучатиме як ваша."
 
-#: sections/writer.twig:35
+#: sections/writer.twig:34
 msgctxt "button"
-msgid "See all features"
-msgstr "Переглянути всі функції"
+msgid "Start writing"
+msgstr "Почати писати"
+
+#: snippets/plan-rows.twig:17
+msgid "Unlimited usage"
+msgstr "Необмежене використання"
+
+#: snippets/plan-rows.twig:17
+msgid "Unlimited credits"
+msgstr "Необмежена кількість кредитів"
+
+#: snippets/plan-rows.twig:23
+msgid ":amount of usage"
+msgstr ":amount використання"
+
+#: snippets/plan-rows.twig:24
+msgid ":amount of usage / month"
+msgstr ":amount використання / місяць"
+
+#: snippets/plan-rows.twig:27
+msgid ":count credit"
+msgstr ":count кредит"
+
+#: snippets/plan-rows.twig:28
+msgid ":count credits"
+msgstr ":count кредитів"
+
+#: snippets/plan-rows.twig:31
+msgid ":amount / month"
+msgstr ":amount / місяць"
+
+#: snippets/plan-rows.twig:41
+msgid "Unlimited members"
+msgstr "Необмежена кількість учасників"
+
+#: snippets/plan-rows.twig:43
+msgid "Just you"
+msgstr "Лише ви"
+
+#: snippets/plan-rows.twig:45
+msgid "Up to :count members"
+msgstr "До :count учасників"
+
+#: snippets/plan-rows.twig:63
+msgid "Every AI model"
+msgstr "Кожна модель ШІ"
+
+#: snippets/plan-rows.twig:64
+msgid "1 AI model"
+msgstr "1 модель ШІ"
+
+#: snippets/plan-rows.twig:64
+msgid ":count AI models"
+msgstr ":count моделей ШІ"
+
+#: snippets/plan-rows.twig:79
+msgid "Unlimited custom assistants"
+msgstr "Необмежена кількість власних асистентів"
+
+#: snippets/plan-rows.twig:79
+msgid ":count custom assistants"
+msgstr ":count власних асистентів"
+
+#: snippets/plan-rows.twig:85
+msgid "Live web search"
+msgstr "Пошук в інтернеті в реальному часі"
+
+#: snippets/plan-rows.twig:86
+msgid "Chat with your documents"
+msgstr "Спілкуйтеся зі своїми документами"
+
+#: snippets/plan-rows.twig:87
+msgid "Read any web page"
+msgstr "Читайте будь-яку вебсторінку"
+
+#: snippets/plan-rows.twig:88
+msgid "YouTube insights"
+msgstr "Аналітика YouTube"
+
+#: snippets/plan-rows.twig:89
+msgid "Create media in chat"
+msgstr "Створюйте медіаконтент у чаті"
+
+#: snippets/plan-rows.twig:90
+msgid "Conversation memory"
+msgstr "Пам’ять розмови"
+
+#: snippets/plan-rows.twig:91
+msgid "Canvas"
+msgstr "Canvas"
+
+#: snippets/plan-rows.twig:92
+msgid "Clarifying questions"
+msgstr "Уточнювальні запитання"
+
+#: snippets/plan-rows.twig:93
+msgid "Connectors to your apps"
+msgstr "Інтеграції з вашими застосунками"
+
+#: snippets/plan-rows.twig:104
+msgid "Image generation"
+msgstr "Генерація зображень"
+
+#: snippets/plan-rows.twig:105
+msgid "Video generation"
+msgstr "Генерація відео"
+
+#: snippets/plan-rows.twig:106
+msgid "Voiceover"
+msgstr "Озвучення"
+
+#: snippets/plan-rows.twig:107
+msgid "Transcription"
+msgstr "Транскрибування"
+
+#: snippets/plan-rows.twig:108
+msgid "Voice isolation"
+msgstr "Ізоляція голосу"
+
+#: snippets/plan-rows.twig:109
+msgid "Content moderation"
+msgstr "Модерація вмісту"
+
+#: snippets/plan-rows.twig:122
+msgid "Unlimited voice clones"
+msgstr "Необмежена кількість голосових клонів"
+
+#: snippets/plan-rows.twig:122
+msgid ":count voice clones"
+msgstr ":count голосових клонів"
+
+#: snippets/plan-rows.twig:133
+msgid "Unlimited scheduled tasks"
+msgstr "Необмежена кількість запланованих завдань"
+
+#: snippets/plan-rows.twig:133
+msgid ":count scheduled tasks"
+msgstr ":count запланованих завдань"
+
+#: snippets/plan-rows.twig:140
+msgid "Private mode"
+msgstr "Приватний режим"
+
+#: snippets/plan-rows.twig:166
+msgid "Show less"
+msgstr "Показати менше"
+
+#: snippets/plan-rows.twig:166
+msgid "Show all features"
+msgstr "Показати всі функції"

@@ -11,232 +11,304 @@ msgstr ""
 "X-Domain: theme\n"
 
 #: sections/chat.twig:11
-msgid "AI Chat Bot"
-msgstr "Bot trò chuyện AI"
+#: snippets/plan-rows.twig:73
+msgid "AI chat"
+msgstr "Trò chuyện AI"
 
 #: sections/chat.twig:15
 msgctxt "heading"
-msgid "That's remarkably human-like and engaging..."
-msgstr "Điều đó thật sự giống con người và hấp dẫn..."
+msgid "Ask anything. Get clear, useful answers."
+msgstr "Hỏi bất cứ điều gì. Nhận câu trả lời rõ ràng, hữu ích."
 
 #: sections/chat.twig:19
-msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
-msgstr "Chỉ cần chọn trợ lý của bạn và tham gia vào cuộc trò chuyện với bot trò chuyện thân thiện để tạo ra ý tưởng, nâng cao nội dung của bạn hoặc thậm chí làm vui mặt cho bạn."
+msgid "Chat with leading AI models to brainstorm, research, write and solve problems faster."
+msgstr "Trò chuyện với các mô hình AI hàng đầu để lên ý tưởng, nghiên cứu, viết lách và giải quyết vấn đề nhanh hơn."
 
-#: sections/chat.twig:24
-#: sections/video.twig:24
+#: sections/chat.twig:23
 msgctxt "button"
-msgid "Try now"
-msgstr "Thử ngay"
+msgid "Start chatting"
+msgstr "Bắt đầu trò chuyện"
 
-#: sections/code.twig:10
-msgid "AI Code"
-msgstr "Mã AI"
-
-#: sections/code.twig:14
+#: sections/cta.twig:9
 msgctxt "heading"
-msgid "Ready to write code at the speed of light?"
-msgstr "Sẵn sàng viết mã với tốc độ ánh sáng?"
+msgid "Pick up where you left off"
+msgstr "Tiếp tục từ nơi bạn dừng lại"
 
-#: sections/code.twig:18
-msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
-msgstr "Viết mã một cách dễ dàng với trình tạo mã AI: Giải pháp ngay lập tức cho nhu cầu lập trình của bạn."
+#: sections/cta.twig:11
+msgid "Your chats, documents and media are waiting in your workspace."
+msgstr "Các cuộc trò chuyện, tài liệu và nội dung đa phương tiện của bạn đang chờ trong không gian làm việc."
 
-#: sections/code.twig:23
+#: sections/cta.twig:14
+msgctxt "heading"
+msgid "Ready to get started?"
+msgstr "Bạn đã sẵn sàng bắt đầu chưa?"
+
+#: sections/cta.twig:16
+msgid "Create your account and put AI to work in minutes."
+msgstr "Tạo tài khoản và bắt đầu tận dụng AI chỉ trong vài phút."
+
+#: sections/cta.twig:22
+#: sections/header.twig:118
+#: sections/hero.twig:13
 msgctxt "button"
-msgid "Start Generate Code"
-msgstr "Bắt đầu tạo mã"
+msgid "Go to app"
+msgstr "Đi đến ứng dụng"
 
-#: sections/cta.twig:3
-msgctxt "heading"
-msgid "Ready to level-up?"
-msgstr "Sẵn sàng nâng cấp chưa?"
-
-#: sections/cta.twig:5
-msgid "See how easy it can be to write amazing content."
-msgstr "Xem cách viết nội dung tuyệt vời trở nên dễ dàng như thế nào."
-
-#: sections/cta.twig:10
+#: sections/cta.twig:22
+#: sections/header.twig:200
+#: sections/hero.twig:18
+#: sections/pricing.twig:139
 msgctxt "button"
-msgid "Get Started Now"
-msgstr "Bắt Đầu Ngay"
+msgid "Get started"
+msgstr "Bắt đầu"
 
-#: sections/features.twig:3
+#: sections/cta.twig:28
+#: sections/hero.twig:25
+msgctxt "button"
+msgid "See pricing"
+msgstr "Xem giá"
+
+#: sections/faq.twig:10
+msgid "What are credits?"
+msgstr "Tín dụng là gì?"
+
+#: sections/faq.twig:11
+msgid "Credits are what you spend when you use the AI. Each request costs credits based on the model and how much it produces, and your plan includes a set amount."
+msgstr "Tín dụng là đơn vị bạn dùng khi sử dụng AI. Mỗi yêu cầu tiêu tốn một lượng tín dụng tùy theo mô hình và lượng nội dung được tạo ra, còn gói của bạn bao gồm một lượng tín dụng nhất định."
+
+#: sections/faq.twig:11
+msgid "Need more? Top up with a credit pack at any time."
+msgstr "Cần thêm? Bạn có thể nạp thêm bất cứ lúc nào bằng gói tín dụng."
+
+#: sections/faq.twig:15
+msgid "How is usage measured?"
+msgstr "Mức sử dụng được tính như thế nào?"
+
+#: sections/faq.twig:16
+msgid "Each plan includes an amount of usage. What a request uses depends on the model and how much it produces, and your account always shows what you have left."
+msgstr "Mỗi gói bao gồm một lượng sử dụng nhất định. Lượng sử dụng của mỗi yêu cầu tùy thuộc vào mô hình và lượng nội dung được tạo ra, và tài khoản của bạn luôn hiển thị lượng còn lại."
+
+#: sections/faq.twig:20
+msgid "Which AI models can I use?"
+msgstr "Tôi có thể sử dụng những mô hình AI nào?"
+
+#: sections/faq.twig:21
+msgid "Each plan lists the models it includes. Hover over the models line on a plan to see them, and pick the one you want while you work."
+msgstr "Mỗi gói liệt kê các mô hình đi kèm. Di chuột qua dòng mô hình trong gói để xem danh sách, rồi chọn mô hình bạn muốn khi làm việc."
+
+#: sections/faq.twig:25
+msgid "Can I change or cancel my plan?"
+msgstr "Tôi có thể thay đổi hoặc hủy gói không?"
+
+#: sections/faq.twig:26
+msgid "Yes. You can upgrade, downgrade or cancel from the billing page in your account at any time."
+msgstr "Có. Bạn có thể nâng cấp, hạ cấp hoặc hủy gói bất cứ lúc nào trên trang thanh toán trong tài khoản."
+
+#: sections/faq.twig:30
+msgid "Is there a free trial?"
+msgstr "Có bản dùng thử miễn phí không?"
+
+#: sections/faq.twig:31
+msgid "Yes. Paid subscriptions start with a :days-day free trial. Cancel before it ends and you will not be charged."
+msgstr "Có. Các gói đăng ký trả phí có thời gian dùng thử miễn phí :days-day. Hủy trước khi thời gian dùng thử kết thúc để không bị tính phí."
+
+#: sections/faq.twig:35
+msgid "Can I use it with my team?"
+msgstr "Tôi có thể dùng công cụ này cùng nhóm của mình không?"
+
+#: sections/faq.twig:36
+msgid "Yes. Invite teammates to your workspace and they share its plan. How many members you can add depends on your plan."
+msgstr "Có. Hãy mời đồng đội vào không gian làm việc của bạn để họ dùng chung gói dịch vụ. Số thành viên bạn có thể thêm tùy thuộc vào gói dịch vụ của bạn."
+
+#: sections/faq.twig:40
+msgid "What happens to what I create?"
+msgstr "Những nội dung tôi tạo sẽ ra sao?"
+
+#: sections/faq.twig:41
+msgid "It is saved to your library so you can find it later. Switch on private mode and nothing you create is kept: it stays out of your history and is deleted automatically."
+msgstr "Nội dung được lưu vào thư viện để bạn có thể tìm lại sau này. Bật chế độ riêng tư để nội dung bạn tạo không được lưu lại: nội dung sẽ không xuất hiện trong lịch sử và được tự động xóa."
+
+#: sections/faq.twig:49
 msgctxt "heading"
-msgid "Coolest Features"
-msgstr "Tính Năng Đỉnh Cao"
+msgid "Frequently asked questions"
+msgstr "Câu hỏi thường gặp"
+
+#: sections/faq.twig:52
+msgid "Answers to what people ask most before they sign up."
+msgstr "Giải đáp những thắc mắc phổ biến nhất trước khi đăng ký."
 
 #: sections/features.twig:13
 msgctxt "heading"
-msgid "High Quality Code"
-msgstr "Mã Lập Trình Chất Lượng Cao"
+msgid "Leading AI models"
+msgstr "Các mô hình AI hàng đầu"
 
-#: sections/features.twig:16
-msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
-msgstr "Phát triển bằng cách sử dụng Thiết kế theo miền và Nguyên tắc Kiến trúc Hành tây."
+#: sections/features.twig:14
+msgid "Use models from several AI providers in one app, without separate accounts."
+msgstr "Sử dụng các mô hình từ nhiều nhà cung cấp AI trong cùng một ứng dụng mà không cần tạo tài khoản riêng."
+
+#: sections/features.twig:19
+msgctxt "heading"
+msgid "Custom assistants"
+msgstr "Trợ lý tùy chỉnh"
+
+#: sections/features.twig:20
+msgid "Build assistants with their own instructions and knowledge, and reuse them any time."
+msgstr "Tạo trợ lý với hướng dẫn và kiến thức riêng, rồi sử dụng lại bất cứ lúc nào."
+
+#: sections/features.twig:25
+msgctxt "heading"
+msgid "Chat with your documents"
+msgstr "Trò chuyện với tài liệu của bạn"
 
 #: sections/features.twig:26
+msgid "Upload files and ask questions about them. Answers come from your own content."
+msgstr "Tải tệp lên và đặt câu hỏi về chúng. Câu trả lời dựa trên nội dung của chính bạn."
+
+#: sections/features.twig:31
 msgctxt "heading"
-msgid "Modern Technologies"
-msgstr "Công Nghệ Hiện Đại"
+msgid "Live web search"
+msgstr "Tìm kiếm web trực tiếp"
 
-#: sections/features.twig:29
-msgid "Built with modern technologies for best structure and get maximum performance."
-msgstr "Xây dựng với công nghệ hiện đại để có cấu trúc tốt nhất và đạt hiệu suất tối đa."
+#: sections/features.twig:32
+msgid "Get answers that draw on up-to-date information from the web."
+msgstr "Nhận câu trả lời dựa trên thông tin mới nhất từ web."
 
-#: sections/features.twig:39
+#: sections/features.twig:37
 msgctxt "heading"
-msgid "Friendly UI and UX"
-msgstr "Giao Diện và Trải Nghiệm Người Dùng Thân Thiện"
+msgid "Connect your apps"
+msgstr "Kết nối các ứng dụng của bạn"
 
-#: sections/features.twig:42
-msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
-msgstr "Thưởng thức giao diện người dùng dễ dàng và trực quan mà nâng cao trải nghiệm số của bạn."
+#: sections/features.twig:38
+msgid "Bring the tools you already use into the conversation."
+msgstr "Đưa những công cụ bạn đang dùng vào cuộc trò chuyện."
 
-#: sections/features.twig:52
+#: sections/features.twig:43
 msgctxt "heading"
-msgid "Dark Mode"
-msgstr "Chế Độ Tối"
+msgid "Scheduled tasks"
+msgstr "Tác vụ theo lịch"
+
+#: sections/features.twig:44
+msgid "Let the AI handle reminders, recurring reports and ongoing updates on a schedule."
+msgstr "Để AI xử lý lời nhắc, báo cáo định kỳ và cập nhật liên tục theo lịch."
+
+#: sections/features.twig:49
+msgctxt "heading"
+msgid "Private mode"
+msgstr "Chế độ riêng tư"
+
+#: sections/features.twig:50
+msgid "What you create in private mode stays out of your history and library, and is deleted automatically."
+msgstr "Nội dung bạn tạo ở chế độ riêng tư sẽ không xuất hiện trong lịch sử và thư viện, đồng thời được tự động xóa."
 
 #: sections/features.twig:55
-msgid "Turn off the light and switch to dark mode your interface with one click."
-msgstr "Tắt đèn và chuyển giao diện sang chế độ tối chỉ với một cú nhấp chuột."
-
-#: sections/features.twig:65
 msgctxt "heading"
-msgid "Documentation"
-msgstr "Tài Liệu"
+msgid "Built for teams"
+msgstr "Dành cho nhóm"
+
+#: sections/features.twig:56
+msgid "Invite your teammates to a shared workspace and work from the same plan."
+msgstr "Mời đồng đội vào không gian làm việc chung và cùng làm việc trên một gói."
+
+#: sections/features.twig:61
+msgctxt "heading"
+msgid "Your library"
+msgstr "Thư viện của bạn"
+
+#: sections/features.twig:62
+msgid "Everything you create is saved in one place, ready to find, reuse and download."
+msgstr "Mọi thứ bạn tạo đều được lưu ở một nơi, sẵn sàng để tìm, sử dụng lại và tải xuống."
+
+#: sections/features.twig:67
+msgctxt "heading"
+msgid "Speaks your language"
+msgstr "Hỗ trợ ngôn ngữ của bạn"
 
 #: sections/features.twig:68
-msgid "An all-inclusive learning package seamlessly integrated into our community."
-msgstr "Gói học tập toàn diện tích hợp liền mạch vào cộng đồng của chúng tôi."
+msgid "Use the app in the language you are most comfortable with."
+msgstr "Sử dụng ứng dụng bằng ngôn ngữ bạn cảm thấy thoải mái nhất."
 
-#: sections/features.twig:78
+#: sections/features.twig:73
 msgctxt "heading"
-msgid "Payment Gateways"
-msgstr "Cổng Thanh Toán"
+msgid "Light and dark mode"
+msgstr "Chế độ sáng và tối"
 
-#: sections/features.twig:81
-msgid "Simplify transactions and boost security with payment gateway solutions."
-msgstr "Đơn giản hóa giao dịch và tăng cường bảo mật với các giải pháp cổng thanh toán."
+#: sections/features.twig:74
+msgid "Work the way your eyes prefer, day or night."
+msgstr "Làm việc theo cách phù hợp với mắt bạn, dù ngày hay đêm."
 
-#: sections/features.twig:91
+#: sections/features.twig:79
 msgctxt "heading"
-msgid "AI Generator"
-msgstr "Trình Tạo AI"
+msgid "Secure checkout"
+msgstr "Thanh toán an toàn"
 
-#: sections/features.twig:94
-msgid "Unlock limitless creativity with our AI-powered content generator."
-msgstr "Mở khóa sự sáng tạo vô hạn với trình tạo nội dung được hỗ trợ bởi AI của chúng tôi."
+#: sections/features.twig:80
+msgid "Pay safely through trusted payment providers and manage your plan any time."
+msgstr "Thanh toán an toàn qua các nhà cung cấp dịch vụ thanh toán uy tín và quản lý gói của bạn bất cứ lúc nào."
 
-#: sections/features.twig:104
+#: sections/features.twig:86
 msgctxt "heading"
-msgid "SEO Friendly"
-msgstr "Thân Thiện với SEO"
-
-#: sections/features.twig:107
-msgid "Boost your visibility and reach your audience effectively with AI generated content."
-msgstr "Tăng cường tính nhận diện và đạt được độc giả của bạn một cách hiệu quả với nội dung được AI tạo ra."
-
-#: sections/features.twig:117
-msgctxt "heading"
-msgid "Advanced Dashboard"
-msgstr "Bảng Điều Khiển Nâng Cao"
-
-#: sections/features.twig:120
-msgid "Empower your insights and control with our cutting-edge dashboard."
-msgstr "Tăng cường hiểu biết và kiểm soát của bạn với bảng điều khiển tiên tiến của chúng tôi."
-
-#: sections/features.twig:130
-msgctxt "heading"
-msgid "Custom Templates"
-msgstr "Mẫu Tùy Chỉnh"
-
-#: sections/features.twig:133
-msgid "Transform your content creation with AI-driven custom templates."
-msgstr "Biến đổi việc tạo nội dung của bạn với các mẫu tùy chỉnh được điều khiển bởi AI."
-
-#: sections/features.twig:144
-msgctxt "heading"
-msgid "Login via SM Accounts"
-msgstr "Đăng Nhập qua Tài Khoản MXH"
-
-#: sections/features.twig:147
-msgid "Use Facebook or Google accounts as an alternatively access to platform."
-msgstr "Sử dụng tài khoản Facebook hoặc Google như một cách truy cập thay thế vào nền tảng."
-
-#: sections/features.twig:157
-msgctxt "heading"
-msgid "High Quality Support"
-msgstr "Hỗ Trợ Chất Lượng Cao"
-
-#: sections/features.twig:160
-msgid "Our support team is available 24/7 to help you with any questions or concerns."
-msgstr "Đội hỗ trợ của chúng tôi có sẵn 24/7 để giúp bạn với bất kỳ câu hỏi hoặc vấn đề nào."
+msgid "Everything in one workspace"
+msgstr "Mọi thứ trong một không gian làm việc"
 
 #: sections/footer.twig:4
 msgid "All rights reserved."
 msgstr "Bảo lưu mọi quyền."
 
 #: sections/footer.twig:42
-#: sections/header.twig:19
+#: sections/header.twig:21
 msgctxt "button"
 msgid "Product"
 msgstr "Sản phẩm"
 
 #: sections/footer.twig:46
-#: sections/header.twig:33
+#: sections/header.twig:28
+msgctxt "button"
+msgid "Features"
+msgstr "Tính năng"
+
+#: sections/footer.twig:50
+#: sections/header.twig:35
 msgctxt "button"
 msgid "Pricing"
 msgstr "Bảng giá"
 
-#: sections/footer.twig:50
+#: sections/footer.twig:54
+#: sections/header.twig:42
 msgctxt "button"
 msgid "FAQ"
 msgstr "Câu hỏi thường gặp"
 
-#: sections/footer.twig:57
+#: sections/footer.twig:61
 msgctxt "button"
 msgid "Terms of services"
 msgstr "Điều khoản dịch vụ"
 
-#: sections/footer.twig:63
+#: sections/footer.twig:67
 msgctxt "button"
 msgid "Privacy policy"
 msgstr "Chính sách bảo mật"
 
-#: sections/footer.twig:69
+#: sections/footer.twig:73
 msgctxt "button"
 msgid "Refund policy"
 msgstr "Chính sách hoàn tiền"
 
-#: sections/generators.twig:3
+#: sections/generators.twig:16
 msgctxt "heading"
-msgid "Meet your ultimate"
-msgstr "Gặp gỡ điều tuyệt vời nhất của bạn"
+msgid "Every AI tool you need,"
+msgstr "Mọi công cụ AI bạn cần,"
 
-#: sections/generators.twig:6
+#: sections/generators.twig:17
 msgctxt "heading"
-msgid "AI-Powered Content Platform"
-msgstr "Nền tảng nội dung được hỗ trợ bởi AI"
+msgid "in one place"
+msgstr "ở cùng một nơi"
 
-#: sections/header.twig:26
-msgctxt "button"
-msgid "Featured"
-msgstr "Nổi bật"
-
-#: sections/header.twig:111
-#: sections/hero.twig:13
-msgctxt "button"
-msgid "Go to app"
-msgstr "Đi đến ứng dụng"
-
-#: sections/header.twig:123
+#: sections/header.twig:129
 msgctxt "button"
 msgid "Library"
 msgstr "Thư viện"
 
-#: sections/header.twig:131
+#: sections/header.twig:136
 msgctxt "button"
 msgid "Billing"
 msgstr "Thanh toán"
@@ -246,239 +318,428 @@ msgctxt "button"
 msgid "Account"
 msgstr "Tài khoản"
 
-#: sections/header.twig:151
+#: sections/header.twig:154
 msgctxt "button"
 msgid "Logout"
 msgstr "Đăng xuất"
 
-#: sections/header.twig:191
+#: sections/header.twig:195
 msgctxt "button"
 msgid "Login"
 msgstr "Đăng nhập"
 
-#: sections/header.twig:196
-#: sections/pricing.twig:102
-msgctxt "button"
-msgid "Get started"
-msgstr "Bắt đầu"
-
 #: sections/hero.twig:3
 msgctxt "heading"
-msgid "Transforming ideas into AI generated masterpieces"
-msgstr "Biến ý tưởng thành kiệt tác do AI tạo ra"
+msgid "Your all-in-one AI workspace"
+msgstr "Không gian làm việc AI tất cả trong một"
 
 #: sections/hero.twig:7
-msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
-msgstr "Tạo nội dung AI được lái bởi AI phù hợp với nhu cầu của bạn. Mở khóa các khả năng vô hạn, tiết kiệm thời gian và bắt đầu kiếm tiền ngay hôm nay!"
+msgid "Chat, write and create with the leading AI models, all in one place. No juggling apps or subscriptions."
+msgstr "Trò chuyện, viết và sáng tạo với các mô hình AI hàng đầu, tất cả ở cùng một nơi. Không cần chuyển đổi giữa các ứng dụng hay gói đăng ký."
 
-#: sections/hero.twig:19
-msgctxt "button"
-msgid "Get started now"
-msgstr "Bắt đầu ngay"
+#: sections/how-it-works.twig:2
+msgctxt "heading"
+msgid "Create your account"
+msgstr "Tạo tài khoản"
+
+#: sections/how-it-works.twig:2
+msgid "Sign up in seconds and land on your own dashboard."
+msgstr "Đăng ký chỉ trong vài giây và truy cập trang tổng quan của riêng bạn."
 
 #: sections/how-it-works.twig:3
+msgctxt "heading"
+msgid "Pick a tool and a model"
+msgstr "Chọn công cụ và mô hình"
+
+#: sections/how-it-works.twig:3
+msgid "Chat, write, create images and more. Choose the AI model that suits the job."
+msgstr "Trò chuyện, viết, tạo hình ảnh và hơn thế nữa. Chọn mô hình AI phù hợp với công việc."
+
+#: sections/how-it-works.twig:4
+msgctxt "heading"
+msgid "Describe it, get results"
+msgstr "Mô tả, nhận kết quả"
+
+#: sections/how-it-works.twig:4
+msgid "Say what you need in plain words, refine the result, and find it later in your library."
+msgstr "Nói rõ nhu cầu của bạn bằng ngôn từ đơn giản, tinh chỉnh kết quả và tìm lại sau trong thư viện."
+
+#: sections/how-it-works.twig:9
 msgctxt "heading"
 msgid "How it works"
 msgstr "Cách hoạt động"
 
-#: sections/how-it-works.twig:13
-msgctxt "heading"
-msgid "Choose Template"
-msgstr "Chọn mẫu"
-
-#: sections/how-it-works.twig:16
-msgid "Choose a our built in templates or create your own."
-msgstr "Chọn một trong các mẫu có sẵn hoặc tạo mẫu riêng của bạn."
-
-#: sections/how-it-works.twig:26
-msgctxt "heading"
-msgid "Describe"
-msgstr "Mô tả"
-
-#: sections/how-it-works.twig:29
-msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
-msgstr "Nhập vài câu để mô tả chủ đề của bạn. Thêm từ khóa để chỉ định cho thương hiệu của bạn."
-
-#: sections/how-it-works.twig:39
-msgctxt "heading"
-msgid "Generate"
-msgstr "Tạo"
-
-#: sections/how-it-works.twig:42
-msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
-msgstr "Nhấn nút \"Tạo\" và nhận được nhiều bản sao chuyển đổi cao mỗi lần."
-
 #: sections/image.twig:5
-msgid "AI Image"
+msgid "AI images"
 msgstr "Hình ảnh AI"
 
 #: sections/image.twig:9
 msgctxt "heading"
-msgid "Visualize what you dream of. Create images from text."
-msgstr "Hình dung những gì bạn mơ ước. Tạo hình ảnh từ văn bản."
+msgid "Turn a sentence into an image."
+msgstr "Biến một câu thành hình ảnh."
 
 #: sections/image.twig:13
-msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
-msgstr "Tạo hình ảnh tuyệt vời ngay lập tức bằng cách sử dụng trình tạo hình ảnh AI - công cụ của bạn để sáng tạo."
+msgid "Describe what you want to see, pick a model, and get images you can download and reuse."
+msgstr "Mô tả hình ảnh bạn muốn, chọn một mô hình và tạo hình ảnh để tải xuống, tái sử dụng."
 
-#: sections/image.twig:18
+#: sections/image.twig:17
 msgctxt "button"
-msgid "Try for free"
-msgstr "Dùng thử miễn phí"
+msgid "Create an image"
+msgstr "Tạo hình ảnh"
+
+#: sections/models.twig:53
+msgid "Powered by the leading AI models"
+msgstr "Được hỗ trợ bởi các mô hình AI hàng đầu"
 
 #: sections/presets.twig:9
-msgid "100+ AI Writer Templates"
-msgstr "Hơn 100 Mẫu Viết AI"
+msgid "Writing templates"
+msgstr "Mẫu viết"
 
 #: sections/presets.twig:14
 msgctxt "heading"
-msgid "What can Writing Assistant create for you?"
-msgstr "Trợ lý Viết có thể tạo gì cho bạn?"
+msgid "What will you write today?"
+msgstr "Hôm nay bạn sẽ viết gì?"
 
 #: sections/presets.twig:18
-msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer's block forever."
-msgstr "Viết với tốc độ đáng kinh ngạc, thu hút khán giả của bạn và nói lời tạm biệt với tình trạng bí ý tưởng mãi mãi."
+msgid "Product descriptions, social posts, cover letters and more. Pick a template and skip the blank page."
+msgstr "Mô tả sản phẩm, bài đăng mạng xã hội, thư xin việc và nhiều nội dung khác. Chọn một mẫu để không phải bắt đầu từ trang giấy trắng."
 
 #: sections/presets.twig:23
 msgctxt "button"
-msgid "Get Started for Free"
-msgstr "Bắt đầu miễn phí"
+msgid "Browse templates"
+msgstr "Duyệt mẫu"
 
-#: sections/pricing.twig:3
-msgctxt "heading"
-msgid "Pricing"
-msgstr "Bảng giá"
+#: sections/preview.twig:10
+msgid "Alex"
+msgstr "Alex"
 
-#: sections/pricing.twig:6
-msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
-msgstr "Khám phá kế hoạch hoàn hảo phù hợp với nhu cầu của bạn và mở khóa một thế giới các khả năng."
+#: sections/preview.twig:11
+msgid "Alex Morgan"
+msgstr "Alex Morgan"
 
-#: sections/pricing.twig:19
+#: sections/preview.twig:106
+msgid "Hello, :name!"
+msgstr "Xin chào, :name!"
+
+#: sections/preview.twig:110
+msgid "How can I assist you?"
+msgstr "Tôi có thể giúp gì cho bạn?"
+
+#: sections/preview.twig:115
+msgid "Ask anything…"
+msgstr "Hỏi bất cứ điều gì…"
+
+#: sections/preview.twig:121
+msgid "Transcribe audio"
+msgstr "Chép lời âm thanh"
+
+#: sections/preview.twig:122
+msgid "Isolate sounds"
+msgstr "Tách riêng âm thanh"
+
+#: sections/preview.twig:123
+msgid "Create videos"
+msgstr "Tạo video"
+
+#: sections/preview.twig:124
+msgid "Create images"
+msgstr "Tạo hình ảnh"
+
+#: sections/preview.twig:147
+msgid "Scroll to explore"
+msgstr "Cuộn để khám phá"
+
+#: sections/pricing.twig:10
 msgctxt "button"
 msgid "Monthly"
 msgstr "Hàng tháng"
 
-#: sections/pricing.twig:28
+#: sections/pricing.twig:11
 msgctxt "button"
 msgid "Yearly"
 msgstr "Hàng năm"
 
-#: sections/pricing.twig:37
+#: sections/pricing.twig:17
 msgctxt "button"
-msgid "Packs"
-msgstr "Gói"
+msgid "Lifetime"
+msgstr "Trọn đời"
 
-#: sections/pricing.twig:46
-msgctxt "button"
-msgid "Lifetime Deals"
-msgstr "Ưu đãi trọn đời"
+#: sections/pricing.twig:42
+msgctxt "heading"
+msgid "Simple, transparent pricing"
+msgstr "Giá cả đơn giản, minh bạch"
 
-#: sections/pricing.twig:78
-msgid "Most Popular"
+#: sections/pricing.twig:45
+msgid "Pick a plan that fits how you work. Upgrade, downgrade or cancel at any time."
+msgstr "Chọn gói phù hợp với cách bạn làm việc. Nâng cấp, hạ cấp hoặc hủy bất cứ lúc nào."
+
+#: sections/pricing.twig:74
+msgid "Most popular"
 msgstr "Phổ biến nhất"
 
-#: sections/pricing.twig:115
-msgid "Chat"
-msgstr "Trò chuyện"
+#: sections/pricing.twig:105
+msgid "Free"
+msgstr "Miễn phí"
 
-#: sections/pricing.twig:134
-msgid "Writer"
-msgstr "Người viết"
+#: sections/pricing.twig:112
+msgid "/ month"
+msgstr "/ tháng"
+
+#: sections/pricing.twig:113
+msgid "/ year"
+msgstr "/ năm"
+
+#: sections/pricing.twig:114
+msgid "lifetime"
+msgstr "trọn đời"
+
+#: sections/pricing.twig:115
+msgid "one-time"
+msgstr "một lần"
+
+#: sections/pricing.twig:123
+msgid "per month, billed yearly"
+msgstr "mỗi tháng, thanh toán theo năm"
+
+#: sections/pricing.twig:125
+msgid "Pay once. Allowance refreshes every month."
+msgstr "Thanh toán một lần. Hạn mức được làm mới mỗi tháng."
+
+#: sections/pricing.twig:127
+msgid "Extra credits on top of your plan."
+msgstr "Tín dụng bổ sung ngoài gói của bạn."
+
+#: sections/pricing.twig:135
+msgctxt "button"
+msgid "Start :days-day free trial"
+msgstr "Bắt đầu dùng thử miễn phí trong :days ngày"
+
+#: sections/pricing.twig:137
+msgctxt "button"
+msgid "Start for free"
+msgstr "Bắt đầu miễn phí"
 
 #: sections/pricing.twig:153
-msgid "Image generator"
-msgstr "Trình tạo hình ảnh"
+msgctxt "button"
+msgid "See all plans"
+msgstr "Xem tất cả các gói"
 
-#: sections/pricing.twig:166
-msgid "Transcriber"
-msgstr "Người phiên âm"
-
-#: sections/pricing.twig:179
-msgid "Voiceover"
-msgstr "Lồng tiếng"
-
-#: sections/pricing.twig:192
-msgid "Voice isolator"
-msgstr "Bộ tách giọng nói"
-
-#: sections/pricing.twig:205
-msgid "Classifier"
-msgstr "Bộ phân loại"
-
-#: sections/pricing.twig:213
-msgid "Access to templates is disabled"
-msgstr "Truy cập vào mẫu bị vô hiệu hóa"
-
-#: sections/pricing.twig:216
-msgid "Access to all templates"
-msgstr "Truy cập vào tất cả các mẫu"
-
-#: sections/pricing.twig:232
-msgid "Priority support"
-msgstr "Hỗ trợ ưu tiên"
-
-#: sections/pricing.twig:235
-msgid "Basic support"
-msgstr "Hỗ trợ cơ bản"
+#: sections/pricing.twig:161
+msgid "Not ready to pay? Try the free plan"
+msgstr "Chưa sẵn sàng thanh toán? Hãy dùng thử gói miễn phí"
 
 #: sections/speech-to-text.twig:4
-msgid "Speech to Text"
-msgstr "Chuyển Giọng Nói Thành Văn Bản"
+msgid "Speech to text"
+msgstr "Chuyển giọng nói thành văn bản"
 
 #: sections/speech-to-text.twig:8
 msgctxt "heading"
-msgid "Transforming Spoken <br> Words into Text."
-msgstr "Chuyển đổi lời nói <br> thành văn bản."
+msgid "Turn recordings into text."
+msgstr "Biến bản ghi âm thành văn bản."
 
 #: sections/speech-to-text.twig:12
-msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
-msgstr "Chuyển đổi ngay lập tức từ lời nói thành văn bản để nâng cao năng suất và khả dụng."
+msgid "Upload a meeting, interview or voice note and get a transcript you can copy and download."
+msgstr "Tải lên bản ghi cuộc họp, phỏng vấn hoặc ghi chú thoại để nhận bản chép lời có thể sao chép và tải xuống."
 
-#: sections/speech-to-text.twig:17
+#: sections/speech-to-text.twig:16
 msgctxt "button"
-msgid "Convert now"
-msgstr "Chuyển đổi ngay"
+msgid "Transcribe audio"
+msgstr "Chép lời âm thanh"
 
 #: sections/text-to-voice.twig:4
-msgid "Text to Voice"
-msgstr "Chuyển Văn Bản Thành Giọng Nói"
+msgid "Text to speech"
+msgstr "Chuyển văn bản thành giọng nói"
 
 #: sections/text-to-voice.twig:8
 msgctxt "heading"
-msgid "Convert your texts into <br> Lifelike Speech"
-msgstr "Chuyển đổi văn bản của bạn thành <br> Giọng nói giống thật"
+msgid "Give your words a natural voice."
+msgstr "Thổi hồn tự nhiên vào lời nói của bạn."
 
 #: sections/text-to-voice.twig:12
-msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
-msgstr "Nâng cao nội dung của bạn với trình bày đặc sắc: Khám phá sự hoàn hảo của văn bản thành giọng nói."
+msgid "Pick a lifelike voice for narration, videos and podcasts."
+msgstr "Chọn giọng đọc chân thực cho lời dẫn, video và podcast."
 
 #: sections/video.twig:11
-msgid "Video"
-msgstr "Video"
+msgid "AI video"
+msgstr "Video AI"
 
 #: sections/video.twig:15
 msgctxt "heading"
-msgid "Generate high-quality videos using AI Video generation tool."
-msgstr "Tạo video chất lượng cao bằng công cụ tạo video AI."
+msgid "Make short videos from a prompt or a photo."
+msgstr "Tạo video ngắn từ câu lệnh hoặc ảnh."
 
 #: sections/video.twig:19
-msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
-msgstr "Không cần kỹ năng chỉnh sửa video - chỉ cần tải lên hình ảnh và nhập vài dòng lệnh, thế là xong."
+msgid "No editing skills needed. Write a few lines, add an image if you like, and the AI does the rest."
+msgstr "Không cần kỹ năng chỉnh sửa. Viết vài dòng, thêm ảnh nếu muốn, AI sẽ lo phần còn lại."
+
+#: sections/video.twig:23
+msgctxt "button"
+msgid "Make a video"
+msgstr "Tạo video"
 
 #: sections/writer.twig:22
-msgid "AI Writer"
-msgstr "Trình Viết AI"
+#: snippets/plan-rows.twig:103
+msgid "AI writer"
+msgstr "AI viết nội dung"
 
 #: sections/writer.twig:26
 msgctxt "heading"
-msgid "Write SEO optimized blogs, sales emails and more..."
-msgstr "Viết blog tối ưu SEO, email bán hàng và nhiều hơn nữa..."
+msgid "Blog posts, emails and ads, written in minutes."
+msgstr "Bài đăng blog, email và quảng cáo được viết chỉ trong vài phút."
 
 #: sections/writer.twig:30
-msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
-msgstr "Đạt được kết quả vượt trội trong một phần thời gian. Cuối cùng, một công cụ viết mà bạn sẽ thực sự sử dụng."
+msgid "Start from a ready-made template, answer a few questions, and refine the draft in chat until it sounds like you."
+msgstr "Bắt đầu với mẫu có sẵn, trả lời vài câu hỏi rồi chỉnh sửa bản nháp trong đoạn chat cho đến khi đúng với phong cách của bạn."
 
-#: sections/writer.twig:35
+#: sections/writer.twig:34
 msgctxt "button"
-msgid "See all features"
-msgstr "Xem tất cả tính năng"
+msgid "Start writing"
+msgstr "Bắt đầu viết"
+
+#: snippets/plan-rows.twig:17
+msgid "Unlimited usage"
+msgstr "Sử dụng không giới hạn"
+
+#: snippets/plan-rows.twig:17
+msgid "Unlimited credits"
+msgstr "Tín dụng không giới hạn"
+
+#: snippets/plan-rows.twig:23
+msgid ":amount of usage"
+msgstr ":amount lượt sử dụng"
+
+#: snippets/plan-rows.twig:24
+msgid ":amount of usage / month"
+msgstr ":amount lượt sử dụng / tháng"
+
+#: snippets/plan-rows.twig:27
+msgid ":count credit"
+msgstr ":count tín dụng"
+
+#: snippets/plan-rows.twig:28
+msgid ":count credits"
+msgstr ":count tín dụng"
+
+#: snippets/plan-rows.twig:31
+msgid ":amount / month"
+msgstr ":amount / tháng"
+
+#: snippets/plan-rows.twig:41
+msgid "Unlimited members"
+msgstr "Thành viên không giới hạn"
+
+#: snippets/plan-rows.twig:43
+msgid "Just you"
+msgstr "Chỉ mình bạn"
+
+#: snippets/plan-rows.twig:45
+msgid "Up to :count members"
+msgstr "Tối đa :count thành viên"
+
+#: snippets/plan-rows.twig:63
+msgid "Every AI model"
+msgstr "Mọi mô hình AI"
+
+#: snippets/plan-rows.twig:64
+msgid "1 AI model"
+msgstr "1 mô hình AI"
+
+#: snippets/plan-rows.twig:64
+msgid ":count AI models"
+msgstr ":count mô hình AI"
+
+#: snippets/plan-rows.twig:79
+msgid "Unlimited custom assistants"
+msgstr "Trợ lý tùy chỉnh không giới hạn"
+
+#: snippets/plan-rows.twig:79
+msgid ":count custom assistants"
+msgstr ":count trợ lý tùy chỉnh"
+
+#: snippets/plan-rows.twig:85
+msgid "Live web search"
+msgstr "Tìm kiếm web trực tiếp"
+
+#: snippets/plan-rows.twig:86
+msgid "Chat with your documents"
+msgstr "Trò chuyện với tài liệu của bạn"
+
+#: snippets/plan-rows.twig:87
+msgid "Read any web page"
+msgstr "Đọc mọi trang web"
+
+#: snippets/plan-rows.twig:88
+msgid "YouTube insights"
+msgstr "Thông tin chuyên sâu từ YouTube"
+
+#: snippets/plan-rows.twig:89
+msgid "Create media in chat"
+msgstr "Tạo nội dung đa phương tiện trong cuộc trò chuyện"
+
+#: snippets/plan-rows.twig:90
+msgid "Conversation memory"
+msgstr "Ghi nhớ cuộc trò chuyện"
+
+#: snippets/plan-rows.twig:91
+msgid "Canvas"
+msgstr "Canvas"
+
+#: snippets/plan-rows.twig:92
+msgid "Clarifying questions"
+msgstr "Câu hỏi làm rõ"
+
+#: snippets/plan-rows.twig:93
+msgid "Connectors to your apps"
+msgstr "Kết nối với các ứng dụng của bạn"
+
+#: snippets/plan-rows.twig:104
+msgid "Image generation"
+msgstr "Tạo hình ảnh"
+
+#: snippets/plan-rows.twig:105
+msgid "Video generation"
+msgstr "Tạo video"
+
+#: snippets/plan-rows.twig:106
+msgid "Voiceover"
+msgstr "Lồng tiếng"
+
+#: snippets/plan-rows.twig:107
+msgid "Transcription"
+msgstr "Phiên âm"
+
+#: snippets/plan-rows.twig:108
+msgid "Voice isolation"
+msgstr "Tách giọng nói"
+
+#: snippets/plan-rows.twig:109
+msgid "Content moderation"
+msgstr "Kiểm duyệt nội dung"
+
+#: snippets/plan-rows.twig:122
+msgid "Unlimited voice clones"
+msgstr "Bản sao giọng nói không giới hạn"
+
+#: snippets/plan-rows.twig:122
+msgid ":count voice clones"
+msgstr ":count bản sao giọng nói"
+
+#: snippets/plan-rows.twig:133
+msgid "Unlimited scheduled tasks"
+msgstr "Tác vụ đã lên lịch không giới hạn"
+
+#: snippets/plan-rows.twig:133
+msgid ":count scheduled tasks"
+msgstr ":count tác vụ đã lên lịch"
+
+#: snippets/plan-rows.twig:140
+msgid "Private mode"
+msgstr "Chế độ riêng tư"
+
+#: snippets/plan-rows.twig:166
+msgid "Show less"
+msgstr "Thu gọn"
+
+#: snippets/plan-rows.twig:166
+msgid "Show all features"
+msgstr "Hiển thị tất cả tính năng"

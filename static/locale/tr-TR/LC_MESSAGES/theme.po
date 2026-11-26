@@ -11,232 +11,304 @@ msgstr ""
 "X-Domain: theme\n"
 
 #: sections/chat.twig:11
-msgid "AI Chat Bot"
-msgstr "Yapay Zeka Sohbet Botu"
+#: snippets/plan-rows.twig:73
+msgid "AI chat"
+msgstr "AI sohbeti"
 
 #: sections/chat.twig:15
 msgctxt "heading"
-msgid "That's remarkably human-like and engaging..."
-msgstr "Bu inanılmaz derecede insana benziyor ve etkileyici..."
+msgid "Ask anything. Get clear, useful answers."
+msgstr "Her şeyi sorun. Net ve faydalı yanıtlar alın."
 
 #: sections/chat.twig:19
-msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
-msgstr "Sadece asistanınızı seçin ve dost bir sohbet botu ile birlikte etkileşime geçin, fikirler oluşturun, içeriklerinizi geliştirin ve hatta yüzünüze gülüş getirin."
+msgid "Chat with leading AI models to brainstorm, research, write and solve problems faster."
+msgstr "Önde gelen AI modelleriyle sohbet ederek beyin fırtınası yapın, araştırın, yazın ve sorunları daha hızlı çözün."
 
-#: sections/chat.twig:24
-#: sections/video.twig:24
+#: sections/chat.twig:23
 msgctxt "button"
-msgid "Try now"
-msgstr "Şimdi dene"
+msgid "Start chatting"
+msgstr "Sohbete başlayın"
 
-#: sections/code.twig:10
-msgid "AI Code"
-msgstr "Yapay Zeka Kodu"
-
-#: sections/code.twig:14
+#: sections/cta.twig:9
 msgctxt "heading"
-msgid "Ready to write code at the speed of light?"
-msgstr "Işık hızıyla kod yazmaya hazır mısınız?"
+msgid "Pick up where you left off"
+msgstr "Kaldığınız yerden devam edin"
 
-#: sections/code.twig:18
-msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
-msgstr "Yapay zeka kod oluşturucu ile kolayca kod yazın: Programlama ihtiyaçlarınız için anında çözümler."
+#: sections/cta.twig:11
+msgid "Your chats, documents and media are waiting in your workspace."
+msgstr "Sohbetleriniz, belgeleriniz ve medya dosyalarınız çalışma alanınızda sizi bekliyor."
 
-#: sections/code.twig:23
+#: sections/cta.twig:14
+msgctxt "heading"
+msgid "Ready to get started?"
+msgstr "Başlamaya hazır mısınız?"
+
+#: sections/cta.twig:16
+msgid "Create your account and put AI to work in minutes."
+msgstr "Hesabınızı oluşturun ve AI'ı dakikalar içinde kullanmaya başlayın."
+
+#: sections/cta.twig:22
+#: sections/header.twig:118
+#: sections/hero.twig:13
 msgctxt "button"
-msgid "Start Generate Code"
-msgstr "Kod Üretmeye Başla"
+msgid "Go to app"
+msgstr "Uygulamaya git"
 
-#: sections/cta.twig:3
-msgctxt "heading"
-msgid "Ready to level-up?"
-msgstr "Seviyeyi yükseltmeye hazır mısınız?"
-
-#: sections/cta.twig:5
-msgid "See how easy it can be to write amazing content."
-msgstr "Harika içerikler yazmanın ne kadar kolay olabileceğini görün."
-
-#: sections/cta.twig:10
+#: sections/cta.twig:22
+#: sections/header.twig:200
+#: sections/hero.twig:18
+#: sections/pricing.twig:139
 msgctxt "button"
-msgid "Get Started Now"
-msgstr "Hemen Başlayın"
+msgid "Get started"
+msgstr "Başlayın"
 
-#: sections/features.twig:3
+#: sections/cta.twig:28
+#: sections/hero.twig:25
+msgctxt "button"
+msgid "See pricing"
+msgstr "Fiyatları görün"
+
+#: sections/faq.twig:10
+msgid "What are credits?"
+msgstr "Krediler nedir?"
+
+#: sections/faq.twig:11
+msgid "Credits are what you spend when you use the AI. Each request costs credits based on the model and how much it produces, and your plan includes a set amount."
+msgstr "Krediler, AI'ı kullandığınızda harcadığınız birimlerdir. Her isteğin kredi maliyeti, modele ve ürettiği içerik miktarına bağlıdır; planınız belirli miktarda kredi içerir."
+
+#: sections/faq.twig:11
+msgid "Need more? Top up with a credit pack at any time."
+msgstr "Daha fazlasına mı ihtiyacınız var? İstediğiniz zaman kredi paketi satın alarak bakiyenizi artırın."
+
+#: sections/faq.twig:15
+msgid "How is usage measured?"
+msgstr "Kullanım nasıl ölçülür?"
+
+#: sections/faq.twig:16
+msgid "Each plan includes an amount of usage. What a request uses depends on the model and how much it produces, and your account always shows what you have left."
+msgstr "Her plan belirli miktarda kullanım içerir. Bir isteğin ne kadar kullanım gerektirdiği modele ve ürettiği içerik miktarına bağlıdır; hesabınızda kalan miktarı her zaman görebilirsiniz."
+
+#: sections/faq.twig:20
+msgid "Which AI models can I use?"
+msgstr "Hangi AI modellerini kullanabilirim?"
+
+#: sections/faq.twig:21
+msgid "Each plan lists the models it includes. Hover over the models line on a plan to see them, and pick the one you want while you work."
+msgstr "Her planda içerdiği modeller listelenir. Modelleri görmek için planın model satırının üzerine gelin ve çalışırken istediğiniz modeli seçin."
+
+#: sections/faq.twig:25
+msgid "Can I change or cancel my plan?"
+msgstr "Planımı değiştirebilir veya iptal edebilir miyim?"
+
+#: sections/faq.twig:26
+msgid "Yes. You can upgrade, downgrade or cancel from the billing page in your account at any time."
+msgstr "Evet. Hesabınızdaki faturalandırma sayfasından istediğiniz zaman planınızı yükseltebilir, düşürebilir veya iptal edebilirsiniz."
+
+#: sections/faq.twig:30
+msgid "Is there a free trial?"
+msgstr "Ücretsiz deneme var mı?"
+
+#: sections/faq.twig:31
+msgid "Yes. Paid subscriptions start with a :days-day free trial. Cancel before it ends and you will not be charged."
+msgstr "Ücretli abonelikler :days günlük ücretsiz denemeyle başlar. Deneme sona ermeden iptal ederseniz ücret ödemezsiniz."
+
+#: sections/faq.twig:35
+msgid "Can I use it with my team?"
+msgstr "Ekibimle kullanabilir miyim?"
+
+#: sections/faq.twig:36
+msgid "Yes. Invite teammates to your workspace and they share its plan. How many members you can add depends on your plan."
+msgstr "Evet. Ekip arkadaşlarınızı çalışma alanınıza davet edin; planı ortak kullanırlar. Ekleyebileceğiniz üye sayısı planınıza bağlıdır."
+
+#: sections/faq.twig:40
+msgid "What happens to what I create?"
+msgstr "Oluşturduklarıma ne olur?"
+
+#: sections/faq.twig:41
+msgid "It is saved to your library so you can find it later. Switch on private mode and nothing you create is kept: it stays out of your history and is deleted automatically."
+msgstr "Daha sonra bulabilmeniz için kitaplığınıza kaydedilir. Gizli modu açtığınızda oluşturduğunuz hiçbir şey saklanmaz: geçmişinizde yer almaz ve otomatik olarak silinir."
+
+#: sections/faq.twig:49
 msgctxt "heading"
-msgid "Coolest Features"
-msgstr "En Harika Özellikler"
+msgid "Frequently asked questions"
+msgstr "Sıkça sorulan sorular"
+
+#: sections/faq.twig:52
+msgid "Answers to what people ask most before they sign up."
+msgstr "Kaydolmadan önce insanların en sık sorduğu soruların yanıtları."
 
 #: sections/features.twig:13
 msgctxt "heading"
-msgid "High Quality Code"
-msgstr "Yüksek Kaliteli Kod"
+msgid "Leading AI models"
+msgstr "Önde gelen yapay zekâ modelleri"
 
-#: sections/features.twig:16
-msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
-msgstr "Alan Odaklı Tasarım ve Soğan Mimarisi İlkeleri Kullanılarak Geliştirilmiştir."
+#: sections/features.twig:14
+msgid "Use models from several AI providers in one app, without separate accounts."
+msgstr "Ayrı hesaplar oluşturmadan, tek bir uygulamada birden fazla yapay zekâ sağlayıcısının modellerini kullanın."
+
+#: sections/features.twig:19
+msgctxt "heading"
+msgid "Custom assistants"
+msgstr "Özel asistanlar"
+
+#: sections/features.twig:20
+msgid "Build assistants with their own instructions and knowledge, and reuse them any time."
+msgstr "Kendi talimatları ve bilgileri olan asistanlar oluşturun ve bunları istediğiniz zaman yeniden kullanın."
+
+#: sections/features.twig:25
+msgctxt "heading"
+msgid "Chat with your documents"
+msgstr "Belgelerinizle sohbet edin"
 
 #: sections/features.twig:26
+msgid "Upload files and ask questions about them. Answers come from your own content."
+msgstr "Dosya yükleyin ve onlarla ilgili sorular sorun. Yanıtlar kendi içeriklerinizden gelir."
+
+#: sections/features.twig:31
 msgctxt "heading"
-msgid "Modern Technologies"
-msgstr "Modern Teknolojiler"
+msgid "Live web search"
+msgstr "Canlı web araması"
 
-#: sections/features.twig:29
-msgid "Built with modern technologies for best structure and get maximum performance."
-msgstr "En iyi yapıyı ve maksimum performansı elde etmek için modern teknolojilerle oluşturulmuştur."
+#: sections/features.twig:32
+msgid "Get answers that draw on up-to-date information from the web."
+msgstr "Web'deki güncel bilgilerden yararlanan yanıtlar alın."
 
-#: sections/features.twig:39
+#: sections/features.twig:37
 msgctxt "heading"
-msgid "Friendly UI and UX"
-msgstr "Kullanıcı Dostu Arayüz ve Deneyim"
+msgid "Connect your apps"
+msgstr "Uygulamalarınızı bağlayın"
 
-#: sections/features.twig:42
-msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
-msgstr "Hassas bir kullanıcı arayüzüyle rahat ve sezgisel bir deneyim sunuyoruz."
+#: sections/features.twig:38
+msgid "Bring the tools you already use into the conversation."
+msgstr "Zaten kullandığınız araçları sohbete dahil edin."
 
-#: sections/features.twig:52
+#: sections/features.twig:43
 msgctxt "heading"
-msgid "Dark Mode"
-msgstr "Karanlık Mod"
+msgid "Scheduled tasks"
+msgstr "Planlanmış görevler"
+
+#: sections/features.twig:44
+msgid "Let the AI handle reminders, recurring reports and ongoing updates on a schedule."
+msgstr "Yapay zekânın hatırlatıcıları, yinelenen raporları ve devam eden güncellemeleri belirli bir programa göre yönetmesini sağlayın."
+
+#: sections/features.twig:49
+msgctxt "heading"
+msgid "Private mode"
+msgstr "Gizli mod"
+
+#: sections/features.twig:50
+msgid "What you create in private mode stays out of your history and library, and is deleted automatically."
+msgstr "Gizli modda oluşturduklarınız geçmişinizde ve kitaplığınızda yer almaz ve otomatik olarak silinir."
 
 #: sections/features.twig:55
-msgid "Turn off the light and switch to dark mode your interface with one click."
-msgstr "Işığı kapatın ve arayüzünüzü tek tıklamayla karanlık moda geçirin."
-
-#: sections/features.twig:65
 msgctxt "heading"
-msgid "Documentation"
-msgstr "Dokümantasyon"
+msgid "Built for teams"
+msgstr "Ekipler için tasarlandı"
+
+#: sections/features.twig:56
+msgid "Invite your teammates to a shared workspace and work from the same plan."
+msgstr "Ekip arkadaşlarınızı ortak bir çalışma alanına davet edin ve aynı plan üzerinden çalışın."
+
+#: sections/features.twig:61
+msgctxt "heading"
+msgid "Your library"
+msgstr "Kütüphaneniz"
+
+#: sections/features.twig:62
+msgid "Everything you create is saved in one place, ready to find, reuse and download."
+msgstr "Oluşturduğunuz her şey tek bir yerde kaydedilir; bulmaya, yeniden kullanmaya ve indirmeye hazırdır."
+
+#: sections/features.twig:67
+msgctxt "heading"
+msgid "Speaks your language"
+msgstr "Sizin dilinizde"
 
 #: sections/features.twig:68
-msgid "An all-inclusive learning package seamlessly integrated into our community."
-msgstr "Topluluğumuza sorunsuz bir şekilde entegre edilmiş kapsamlı bir öğrenme paketi."
+msgid "Use the app in the language you are most comfortable with."
+msgstr "Uygulamayı kendinizi en rahat hissettiğiniz dilde kullanın."
 
-#: sections/features.twig:78
+#: sections/features.twig:73
 msgctxt "heading"
-msgid "Payment Gateways"
-msgstr "Ödeme Ağ Geçitleri"
+msgid "Light and dark mode"
+msgstr "Açık ve koyu mod"
 
-#: sections/features.twig:81
-msgid "Simplify transactions and boost security with payment gateway solutions."
-msgstr "Ödeme geçidi çözümleri ile işlemleri basitleştirin ve güvenliği artırın."
+#: sections/features.twig:74
+msgid "Work the way your eyes prefer, day or night."
+msgstr "Gece veya gündüz, gözünüze en uygun şekilde çalışın."
 
-#: sections/features.twig:91
+#: sections/features.twig:79
 msgctxt "heading"
-msgid "AI Generator"
-msgstr "Yapay Zeka Üreticisi"
+msgid "Secure checkout"
+msgstr "Güvenli ödeme"
 
-#: sections/features.twig:94
-msgid "Unlock limitless creativity with our AI-powered content generator."
-msgstr "Yapay zeka destekli içerik oluşturucumuzla sınırsız yaratıcılığın kilidini açın."
+#: sections/features.twig:80
+msgid "Pay safely through trusted payment providers and manage your plan any time."
+msgstr "Güvenilir ödeme sağlayıcıları üzerinden güvenle ödeme yapın ve planınızı istediğiniz zaman yönetin."
 
-#: sections/features.twig:104
+#: sections/features.twig:86
 msgctxt "heading"
-msgid "SEO Friendly"
-msgstr "SEO Dostu"
-
-#: sections/features.twig:107
-msgid "Boost your visibility and reach your audience effectively with AI generated content."
-msgstr "Yapay zeka destekli içeriklerle görünürlüğünüzü artırın ve sektörünüzdeki hedef kitlenize etkili bir şekilde ulaşın."
-
-#: sections/features.twig:117
-msgctxt "heading"
-msgid "Advanced Dashboard"
-msgstr "Gelişmiş Kontrol Paneli"
-
-#: sections/features.twig:120
-msgid "Empower your insights and control with our cutting-edge dashboard."
-msgstr "En son teknoloji kontrol panelimizle içgörülerinizi güçlendirin ve kontrolü elinize alın."
-
-#: sections/features.twig:130
-msgctxt "heading"
-msgid "Custom Templates"
-msgstr "Özel Şablonlar"
-
-#: sections/features.twig:133
-msgid "Transform your content creation with AI-driven custom templates."
-msgstr "Yapay zeka destekli özel şablonlarla içerik oluşturmanızı dönüştürün."
-
-#: sections/features.twig:144
-msgctxt "heading"
-msgid "Login via SM Accounts"
-msgstr "Sosyal Medya Hesapları ile Giriş"
-
-#: sections/features.twig:147
-msgid "Use Facebook or Google accounts as an alternatively access to platform."
-msgstr "Platforma alternatif erişim için Facebook veya Google hesaplarını kullanın."
-
-#: sections/features.twig:157
-msgctxt "heading"
-msgid "High Quality Support"
-msgstr "Yüksek Kaliteli Destek"
-
-#: sections/features.twig:160
-msgid "Our support team is available 24/7 to help you with any questions or concerns."
-msgstr "Destek ekibimiz 24/7 mevcut olarak herhangi bir sorunuz veya endişeniz için size yardımcı olmak için burada."
+msgid "Everything in one workspace"
+msgstr "Her şey tek bir çalışma alanında"
 
 #: sections/footer.twig:4
 msgid "All rights reserved."
 msgstr "Tüm hakları saklıdır."
 
 #: sections/footer.twig:42
-#: sections/header.twig:19
+#: sections/header.twig:21
 msgctxt "button"
 msgid "Product"
 msgstr "Ürün"
 
 #: sections/footer.twig:46
-#: sections/header.twig:33
+#: sections/header.twig:28
+msgctxt "button"
+msgid "Features"
+msgstr "Özellikler"
+
+#: sections/footer.twig:50
+#: sections/header.twig:35
 msgctxt "button"
 msgid "Pricing"
 msgstr "Fiyatlandırma"
 
-#: sections/footer.twig:50
+#: sections/footer.twig:54
+#: sections/header.twig:42
 msgctxt "button"
 msgid "FAQ"
 msgstr "SSS"
 
-#: sections/footer.twig:57
+#: sections/footer.twig:61
 msgctxt "button"
 msgid "Terms of services"
 msgstr "Hizmet Şartları"
 
-#: sections/footer.twig:63
+#: sections/footer.twig:67
 msgctxt "button"
 msgid "Privacy policy"
 msgstr "Gizlilik Politikası"
 
-#: sections/footer.twig:69
+#: sections/footer.twig:73
 msgctxt "button"
 msgid "Refund policy"
 msgstr "İade Politikası"
 
-#: sections/generators.twig:3
+#: sections/generators.twig:16
 msgctxt "heading"
-msgid "Meet your ultimate"
-msgstr "Nihai tanışmanız"
+msgid "Every AI tool you need,"
+msgstr "İhtiyacınız olan her yapay zekâ aracı,"
 
-#: sections/generators.twig:6
+#: sections/generators.twig:17
 msgctxt "heading"
-msgid "AI-Powered Content Platform"
-msgstr "Yapay Zeka Destekli İçerik Platformu"
+msgid "in one place"
+msgstr "tek bir yerde"
 
-#: sections/header.twig:26
-msgctxt "button"
-msgid "Featured"
-msgstr "Öne çıkanlar"
-
-#: sections/header.twig:111
-#: sections/hero.twig:13
-msgctxt "button"
-msgid "Go to app"
-msgstr "Uygulamaya git"
-
-#: sections/header.twig:123
+#: sections/header.twig:129
 msgctxt "button"
 msgid "Library"
 msgstr "Kütüphane"
 
-#: sections/header.twig:131
+#: sections/header.twig:136
 msgctxt "button"
 msgid "Billing"
 msgstr "Faturalandırma"
@@ -246,239 +318,428 @@ msgctxt "button"
 msgid "Account"
 msgstr "Hesap"
 
-#: sections/header.twig:151
+#: sections/header.twig:154
 msgctxt "button"
 msgid "Logout"
 msgstr "Çıkış yap"
 
-#: sections/header.twig:191
+#: sections/header.twig:195
 msgctxt "button"
 msgid "Login"
 msgstr "Giriş yap"
 
-#: sections/header.twig:196
-#: sections/pricing.twig:102
-msgctxt "button"
-msgid "Get started"
-msgstr "Başlayın"
-
 #: sections/hero.twig:3
 msgctxt "heading"
-msgid "Transforming ideas into AI generated masterpieces"
-msgstr "Fikirleri yapay zeka tarafından oluşturulan başyapıtlara dönüştürmek"
+msgid "Your all-in-one AI workspace"
+msgstr "Hepsi bir arada yapay zekâ çalışma alanınız"
 
 #: sections/hero.twig:7
-msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
-msgstr "Gereksiz zorluktan kurtulun ve ihtiyaçlarınıza uygun yüksek kaliteli yapay zeka içeriği oluşturun. Sınırsız fırsatları açın, zamanınızı kazanın ve bugün para kazanmaya başlayın!"
+msgid "Chat, write and create with the leading AI models, all in one place. No juggling apps or subscriptions."
+msgstr "Önde gelen yapay zekâ modelleriyle tek bir yerde sohbet edin, yazın ve içerik oluşturun. Uygulamalar veya abonelikler arasında gidip gelmeye son."
 
-#: sections/hero.twig:19
-msgctxt "button"
-msgid "Get started now"
-msgstr "Hemen başlayın"
+#: sections/how-it-works.twig:2
+msgctxt "heading"
+msgid "Create your account"
+msgstr "Hesabınızı oluşturun"
+
+#: sections/how-it-works.twig:2
+msgid "Sign up in seconds and land on your own dashboard."
+msgstr "Saniyeler içinde kaydolun ve kendi kontrol panelinize geçin."
 
 #: sections/how-it-works.twig:3
+msgctxt "heading"
+msgid "Pick a tool and a model"
+msgstr "Bir araç ve model seçin"
+
+#: sections/how-it-works.twig:3
+msgid "Chat, write, create images and more. Choose the AI model that suits the job."
+msgstr "Sohbet edin, yazın, görseller oluşturun ve daha fazlasını yapın. İşinize uygun yapay zekâ modelini seçin."
+
+#: sections/how-it-works.twig:4
+msgctxt "heading"
+msgid "Describe it, get results"
+msgstr "Anlatın, sonuçları alın"
+
+#: sections/how-it-works.twig:4
+msgid "Say what you need in plain words, refine the result, and find it later in your library."
+msgstr "Ne istediğinizi günlük ifadelerle söyleyin, sonucu iyileştirin ve daha sonra kitaplığınızda bulun."
+
+#: sections/how-it-works.twig:9
 msgctxt "heading"
 msgid "How it works"
 msgstr "Nasıl çalışır"
 
-#: sections/how-it-works.twig:13
-msgctxt "heading"
-msgid "Choose Template"
-msgstr "Şablon Seç"
-
-#: sections/how-it-works.twig:16
-msgid "Choose a our built in templates or create your own."
-msgstr "Hazır şablonlarımızdan birini seçin veya kendi şablonunuzu oluşturun."
-
-#: sections/how-it-works.twig:26
-msgctxt "heading"
-msgid "Describe"
-msgstr "Tanımla"
-
-#: sections/how-it-works.twig:29
-msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
-msgstr "Konuyu açıklayan birkaç cümle girin. Markanız için belirlemek için anahtar kelimeler ekleyin."
-
-#: sections/how-it-works.twig:39
-msgctxt "heading"
-msgid "Generate"
-msgstr "Oluştur"
-
-#: sections/how-it-works.twig:42
-msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
-msgstr "\"Oluştur\" düğmesine tıklayın ve her seferinde farklı yüksek dönüşüm oranına sahip kopyalar alın."
-
 #: sections/image.twig:5
-msgid "AI Image"
-msgstr "Yapay Zeka Görseli"
+msgid "AI images"
+msgstr "Yapay zekâ görselleri"
 
 #: sections/image.twig:9
 msgctxt "heading"
-msgid "Visualize what you dream of. Create images from text."
-msgstr "Hayal ettiklerinizi görselleştirin. Metinden görseller oluşturun."
+msgid "Turn a sentence into an image."
+msgstr "Bir cümleyi görsele dönüştürün."
 
 #: sections/image.twig:13
-msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
-msgstr "Harika görseller oluşturmak için AI Görüntü Oluşturucu'yu hemen kullanın - sanatsal yenilik için araç."
+msgid "Describe what you want to see, pick a model, and get images you can download and reuse."
+msgstr "Görmek istediklerinizi anlatın, bir model seçin ve indirip yeniden kullanabileceğiniz görseller oluşturun."
 
-#: sections/image.twig:18
+#: sections/image.twig:17
 msgctxt "button"
-msgid "Try for free"
-msgstr "Ücretsiz deneyin"
+msgid "Create an image"
+msgstr "Görsel oluştur"
+
+#: sections/models.twig:53
+msgid "Powered by the leading AI models"
+msgstr "Önde gelen yapay zekâ modelleriyle desteklenir"
 
 #: sections/presets.twig:9
-msgid "100+ AI Writer Templates"
-msgstr "100+ AI Yazı Şablonu"
+msgid "Writing templates"
+msgstr "Yazı şablonları"
 
 #: sections/presets.twig:14
 msgctxt "heading"
-msgid "What can Writing Assistant create for you?"
-msgstr "Yazma Asistanı sizin için ne oluşturabilir?"
+msgid "What will you write today?"
+msgstr "Bugün ne yazacaksınız?"
 
 #: sections/presets.twig:18
-msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer's block forever."
-msgstr "Olağanüstü hızda yazın, izleyicilerinizi büyüleyin ve yazar tıkanıklığına sonsuza dek veda edin."
+msgid "Product descriptions, social posts, cover letters and more. Pick a template and skip the blank page."
+msgstr "Ürün açıklamaları, sosyal medya gönderileri, ön yazılar ve daha fazlası. Bir şablon seçin ve boş sayfayla uğraşmayın."
 
 #: sections/presets.twig:23
 msgctxt "button"
-msgid "Get Started for Free"
-msgstr "Ücretsiz Başlayın"
+msgid "Browse templates"
+msgstr "Şablonlara göz at"
 
-#: sections/pricing.twig:3
-msgctxt "heading"
-msgid "Pricing"
-msgstr "Fiyatlandırma"
+#: sections/preview.twig:10
+msgid "Alex"
+msgstr "Alex"
 
-#: sections/pricing.twig:6
-msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
-msgstr "İhtiyaçlarınıza uygun mükemmel planı keşfedin ve mümkün olduğunca fazla fırsatı açın."
+#: sections/preview.twig:11
+msgid "Alex Morgan"
+msgstr "Alex Morgan"
 
-#: sections/pricing.twig:19
+#: sections/preview.twig:106
+msgid "Hello, :name!"
+msgstr "Merhaba, :name!"
+
+#: sections/preview.twig:110
+msgid "How can I assist you?"
+msgstr "Size nasıl yardımcı olabilirim?"
+
+#: sections/preview.twig:115
+msgid "Ask anything…"
+msgstr "Her şeyi sorun…"
+
+#: sections/preview.twig:121
+msgid "Transcribe audio"
+msgstr "Sesi yazıya dök"
+
+#: sections/preview.twig:122
+msgid "Isolate sounds"
+msgstr "Sesleri ayır"
+
+#: sections/preview.twig:123
+msgid "Create videos"
+msgstr "Video oluştur"
+
+#: sections/preview.twig:124
+msgid "Create images"
+msgstr "Görsel oluştur"
+
+#: sections/preview.twig:147
+msgid "Scroll to explore"
+msgstr "Keşfetmek için kaydırın"
+
+#: sections/pricing.twig:10
 msgctxt "button"
 msgid "Monthly"
 msgstr "Aylık"
 
-#: sections/pricing.twig:28
+#: sections/pricing.twig:11
 msgctxt "button"
 msgid "Yearly"
 msgstr "Yıllık"
 
-#: sections/pricing.twig:37
+#: sections/pricing.twig:17
 msgctxt "button"
-msgid "Packs"
-msgstr "Paketler"
+msgid "Lifetime"
+msgstr "Ömür boyu"
 
-#: sections/pricing.twig:46
-msgctxt "button"
-msgid "Lifetime Deals"
-msgstr "Ömür Boyu Fırsatlar"
+#: sections/pricing.twig:42
+msgctxt "heading"
+msgid "Simple, transparent pricing"
+msgstr "Basit ve şeffaf fiyatlandırma"
 
-#: sections/pricing.twig:78
-msgid "Most Popular"
-msgstr "En Popüler"
+#: sections/pricing.twig:45
+msgid "Pick a plan that fits how you work. Upgrade, downgrade or cancel at any time."
+msgstr "Çalışma şeklinize uygun bir plan seçin. İstediğiniz zaman planınızı yükseltin, düşürün veya iptal edin."
+
+#: sections/pricing.twig:74
+msgid "Most popular"
+msgstr "En popüler"
+
+#: sections/pricing.twig:105
+msgid "Free"
+msgstr "Ücretsiz"
+
+#: sections/pricing.twig:112
+msgid "/ month"
+msgstr "/ ay"
+
+#: sections/pricing.twig:113
+msgid "/ year"
+msgstr "/ yıl"
+
+#: sections/pricing.twig:114
+msgid "lifetime"
+msgstr "ömür boyu"
 
 #: sections/pricing.twig:115
-msgid "Chat"
-msgstr "Sohbet"
+msgid "one-time"
+msgstr "tek seferlik"
 
-#: sections/pricing.twig:134
-msgid "Writer"
-msgstr "Yazar"
+#: sections/pricing.twig:123
+msgid "per month, billed yearly"
+msgstr "aylık, yıllık faturalandırılır"
+
+#: sections/pricing.twig:125
+msgid "Pay once. Allowance refreshes every month."
+msgstr "Bir kez ödeyin. Kullanım hakkınız her ay yenilenir."
+
+#: sections/pricing.twig:127
+msgid "Extra credits on top of your plan."
+msgstr "Planınıza ek olarak ekstra krediler."
+
+#: sections/pricing.twig:135
+msgctxt "button"
+msgid "Start :days-day free trial"
+msgstr ":days günlük ücretsiz denemeyi başlat"
+
+#: sections/pricing.twig:137
+msgctxt "button"
+msgid "Start for free"
+msgstr "Ücretsiz başlayın"
 
 #: sections/pricing.twig:153
-msgid "Image generator"
-msgstr "Görüntü oluşturucu"
+msgctxt "button"
+msgid "See all plans"
+msgstr "Tüm planları görün"
 
-#: sections/pricing.twig:166
-msgid "Transcriber"
-msgstr "Transkriptör"
-
-#: sections/pricing.twig:179
-msgid "Voiceover"
-msgstr "Seslendirme"
-
-#: sections/pricing.twig:192
-msgid "Voice isolator"
-msgstr "Ses izolatörü"
-
-#: sections/pricing.twig:205
-msgid "Classifier"
-msgstr "Sınıflandırıcı"
-
-#: sections/pricing.twig:213
-msgid "Access to templates is disabled"
-msgstr "Şablonlara erişim devre dışı bırakıldı"
-
-#: sections/pricing.twig:216
-msgid "Access to all templates"
-msgstr "Tüm şablonlara erişim"
-
-#: sections/pricing.twig:232
-msgid "Priority support"
-msgstr "Öncelikli destek"
-
-#: sections/pricing.twig:235
-msgid "Basic support"
-msgstr "Temel destek"
+#: sections/pricing.twig:161
+msgid "Not ready to pay? Try the free plan"
+msgstr "Ödeme yapmaya hazır değil misiniz? Ücretsiz planı deneyin"
 
 #: sections/speech-to-text.twig:4
-msgid "Speech to Text"
-msgstr "Sesten Metne"
+msgid "Speech to text"
+msgstr "Konuşmayı metne dönüştürme"
 
 #: sections/speech-to-text.twig:8
 msgctxt "heading"
-msgid "Transforming Spoken <br> Words into Text."
-msgstr "Konuşulan <br> Kelimeleri Metne Dönüştürme."
+msgid "Turn recordings into text."
+msgstr "Kayıtları metne dönüştürün."
 
 #: sections/speech-to-text.twig:12
-msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
-msgstr "Hemen Konuşulan Kelimeleri Metne Dönüştürün, Üretkenlik ve Erişilebilirlik Artırın."
+msgid "Upload a meeting, interview or voice note and get a transcript you can copy and download."
+msgstr "Bir toplantı, röportaj veya sesli not yükleyin; kopyalayıp indirebileceğiniz bir döküm alın."
 
-#: sections/speech-to-text.twig:17
+#: sections/speech-to-text.twig:16
 msgctxt "button"
-msgid "Convert now"
-msgstr "Şimdi dönüştür"
+msgid "Transcribe audio"
+msgstr "Sesi yazıya dök"
 
 #: sections/text-to-voice.twig:4
-msgid "Text to Voice"
-msgstr "Metinden Sese"
+msgid "Text to speech"
+msgstr "Metinden sese"
 
 #: sections/text-to-voice.twig:8
 msgctxt "heading"
-msgid "Convert your texts into <br> Lifelike Speech"
-msgstr "Metinlerinizi <br> Gerçekçi Konuşmaya dönüştürün"
+msgid "Give your words a natural voice."
+msgstr "Kelimelerinize doğal bir ses verin."
 
 #: sections/text-to-voice.twig:12
-msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
-msgstr "İçeriklerinizi ifade edici anlatımla yükseltin: Metinden Sese Mükemmeliğini Keşfedin."
+msgid "Pick a lifelike voice for narration, videos and podcasts."
+msgstr "Anlatım, videolar ve podcast'ler için gerçekçi bir ses seçin."
 
 #: sections/video.twig:11
-msgid "Video"
-msgstr "Video"
+msgid "AI video"
+msgstr "Yapay zekâ videosu"
 
 #: sections/video.twig:15
 msgctxt "heading"
-msgid "Generate high-quality videos using AI Video generation tool."
-msgstr "Yapay Zeka Video oluşturma aracıyla yüksek kaliteli videolar oluşturun."
+msgid "Make short videos from a prompt or a photo."
+msgstr "Bir komutla veya fotoğrafla kısa videolar oluşturun."
 
 #: sections/video.twig:19
-msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
-msgstr "Video düzenleme becerisi gerekmez - sadece resimlerinizi yükleyin ve birkaç satır komut girin, hepsi bu."
+msgid "No editing skills needed. Write a few lines, add an image if you like, and the AI does the rest."
+msgstr "Düzenleme becerisi gerekmez. Birkaç satır yazın, isterseniz bir görsel ekleyin; gerisini yapay zekâ halletsin."
+
+#: sections/video.twig:23
+msgctxt "button"
+msgid "Make a video"
+msgstr "Video oluştur"
 
 #: sections/writer.twig:22
-msgid "AI Writer"
-msgstr "Yapay Zeka Yazarı"
+#: snippets/plan-rows.twig:103
+msgid "AI writer"
+msgstr "Yapay zekâ yazarı"
 
 #: sections/writer.twig:26
 msgctxt "heading"
-msgid "Write SEO optimized blogs, sales emails and more..."
-msgstr "SEO uyumlu bloglar, satış e-postaları ve daha fazlasını yazın..."
+msgid "Blog posts, emails and ads, written in minutes."
+msgstr "Dakikalar içinde yazılmış blog gönderileri, e-postalar ve reklamlar."
 
 #: sections/writer.twig:30
-msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
-msgstr "Üstün sonuçları bir kısım zamanda elde edin. Sonunda, gerçekten kullanacağınız bir yazma aracı."
+msgid "Start from a ready-made template, answer a few questions, and refine the draft in chat until it sounds like you."
+msgstr "Hazır bir şablonla başlayın, birkaç soruyu yanıtlayın ve taslak size benzeyene kadar sohbet ederek üzerinde düzenlemeler yapın."
 
-#: sections/writer.twig:35
+#: sections/writer.twig:34
 msgctxt "button"
-msgid "See all features"
-msgstr "Tüm özellikleri gör"
+msgid "Start writing"
+msgstr "Yazmaya başla"
+
+#: snippets/plan-rows.twig:17
+msgid "Unlimited usage"
+msgstr "Sınırsız kullanım"
+
+#: snippets/plan-rows.twig:17
+msgid "Unlimited credits"
+msgstr "Sınırsız kredi"
+
+#: snippets/plan-rows.twig:23
+msgid ":amount of usage"
+msgstr ":amount kullanım hakkı"
+
+#: snippets/plan-rows.twig:24
+msgid ":amount of usage / month"
+msgstr ":amount aylık kullanım hakkı"
+
+#: snippets/plan-rows.twig:27
+msgid ":count credit"
+msgstr ":count kredi"
+
+#: snippets/plan-rows.twig:28
+msgid ":count credits"
+msgstr ":count kredi"
+
+#: snippets/plan-rows.twig:31
+msgid ":amount / month"
+msgstr ":amount / ay"
+
+#: snippets/plan-rows.twig:41
+msgid "Unlimited members"
+msgstr "Sınırsız üye"
+
+#: snippets/plan-rows.twig:43
+msgid "Just you"
+msgstr "Yalnızca siz"
+
+#: snippets/plan-rows.twig:45
+msgid "Up to :count members"
+msgstr ":count üyeye kadar"
+
+#: snippets/plan-rows.twig:63
+msgid "Every AI model"
+msgstr "Tüm yapay zekâ modelleri"
+
+#: snippets/plan-rows.twig:64
+msgid "1 AI model"
+msgstr "1 yapay zekâ modeli"
+
+#: snippets/plan-rows.twig:64
+msgid ":count AI models"
+msgstr ":count yapay zekâ modeli"
+
+#: snippets/plan-rows.twig:79
+msgid "Unlimited custom assistants"
+msgstr "Sınırsız özel asistan"
+
+#: snippets/plan-rows.twig:79
+msgid ":count custom assistants"
+msgstr ":count özel asistan"
+
+#: snippets/plan-rows.twig:85
+msgid "Live web search"
+msgstr "Canlı web araması"
+
+#: snippets/plan-rows.twig:86
+msgid "Chat with your documents"
+msgstr "Belgelerinizle sohbet edin"
+
+#: snippets/plan-rows.twig:87
+msgid "Read any web page"
+msgstr "Herhangi bir web sayfasını okuyun"
+
+#: snippets/plan-rows.twig:88
+msgid "YouTube insights"
+msgstr "YouTube içgörüleri"
+
+#: snippets/plan-rows.twig:89
+msgid "Create media in chat"
+msgstr "Sohbette medya oluşturun"
+
+#: snippets/plan-rows.twig:90
+msgid "Conversation memory"
+msgstr "Sohbet belleği"
+
+#: snippets/plan-rows.twig:91
+msgid "Canvas"
+msgstr "Canvas"
+
+#: snippets/plan-rows.twig:92
+msgid "Clarifying questions"
+msgstr "Netleştirme soruları"
+
+#: snippets/plan-rows.twig:93
+msgid "Connectors to your apps"
+msgstr "Uygulamalarınıza bağlayıcılar"
+
+#: snippets/plan-rows.twig:104
+msgid "Image generation"
+msgstr "Görsel oluşturma"
+
+#: snippets/plan-rows.twig:105
+msgid "Video generation"
+msgstr "Video oluşturma"
+
+#: snippets/plan-rows.twig:106
+msgid "Voiceover"
+msgstr "Seslendirme"
+
+#: snippets/plan-rows.twig:107
+msgid "Transcription"
+msgstr "Transkripsiyon"
+
+#: snippets/plan-rows.twig:108
+msgid "Voice isolation"
+msgstr "Ses yalıtımı"
+
+#: snippets/plan-rows.twig:109
+msgid "Content moderation"
+msgstr "İçerik denetimi"
+
+#: snippets/plan-rows.twig:122
+msgid "Unlimited voice clones"
+msgstr "Sınırsız ses klonu"
+
+#: snippets/plan-rows.twig:122
+msgid ":count voice clones"
+msgstr ":count ses klonu"
+
+#: snippets/plan-rows.twig:133
+msgid "Unlimited scheduled tasks"
+msgstr "Sınırsız zamanlanmış görev"
+
+#: snippets/plan-rows.twig:133
+msgid ":count scheduled tasks"
+msgstr ":count zamanlanmış görev"
+
+#: snippets/plan-rows.twig:140
+msgid "Private mode"
+msgstr "Gizli mod"
+
+#: snippets/plan-rows.twig:166
+msgid "Show less"
+msgstr "Daha az göster"
+
+#: snippets/plan-rows.twig:166
+msgid "Show all features"
+msgstr "Tüm özellikleri göster"

@@ -5,232 +5,304 @@ msgstr ""
 "X-Domain: theme\n"
 
 #: sections/chat.twig:11
-msgid "AI Chat Bot"
-msgstr "एआई च्याटबट"
+#: snippets/plan-rows.twig:73
+msgid "AI chat"
+msgstr "AI च्याट"
 
 #: sections/chat.twig:15
 msgctxt "heading"
-msgid "That's remarkably human-like and engaging..."
-msgstr "अचम्मै मानवीय र आकर्षक..."
+msgid "Ask anything. Get clear, useful answers."
+msgstr "जे पनि सोध्नुहोस्। स्पष्ट र उपयोगी जवाफ पाउनुहोस्।"
 
 #: sections/chat.twig:19
-msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
-msgstr "आफ्नो सहायक छान्नुहोस् र विचारहरू सिर्जना गर्न, आफ्नो सामग्री सुधार्न वा तपाईंलाई मुस्कुराउन पनि सहयोग गर्ने मैत्रीपूर्ण च्याटबटसँग कुराकानी गर्नुहोस्।"
+msgid "Chat with leading AI models to brainstorm, research, write and solve problems faster."
+msgstr "विचार मन्थन गर्न, अनुसन्धान गर्न, लेख्न र समस्याहरू छिटो समाधान गर्न अग्रणी AI मोडेलहरूसँग च्याट गर्नुहोस्।"
 
-#: sections/chat.twig:24
-#: sections/video.twig:24
+#: sections/chat.twig:23
 msgctxt "button"
-msgid "Try now"
-msgstr "अहिले प्रयास गर्नुहोस्"
+msgid "Start chatting"
+msgstr "च्याट सुरु गर्नुहोस्"
 
-#: sections/code.twig:10
-msgid "AI Code"
-msgstr "एआई कोड"
-
-#: sections/code.twig:14
+#: sections/cta.twig:9
 msgctxt "heading"
-msgid "Ready to write code at the speed of light?"
-msgstr "के तपाईं बिजुलीको गतिमा कोड लेख्न तयार हुनुहुन्छ?"
+msgid "Pick up where you left off"
+msgstr "तपाईंले छोडेको ठाउँबाटै जारी राख्नुहोस्"
 
-#: sections/code.twig:18
-msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
-msgstr "एआई कोड जेनेरेटरसँग सहज कोडिङ: तपाईंका प्रोग्रामिङ आवश्यकताका लागि तत्काल समाधानहरू।"
+#: sections/cta.twig:11
+msgid "Your chats, documents and media are waiting in your workspace."
+msgstr "तपाईंका च्याटहरू, कागजातहरू र मिडिया तपाईंको कार्यक्षेत्रमा पर्खिरहेका छन्।"
 
-#: sections/code.twig:23
+#: sections/cta.twig:14
+msgctxt "heading"
+msgid "Ready to get started?"
+msgstr "सुरु गर्न तयार हुनुहुन्छ?"
+
+#: sections/cta.twig:16
+msgid "Create your account and put AI to work in minutes."
+msgstr "आफ्नो खाता सिर्जना गर्नुहोस् र केही मिनेटमै AI को उपयोग गर्नुहोस्।"
+
+#: sections/cta.twig:22
+#: sections/header.twig:118
+#: sections/hero.twig:13
 msgctxt "button"
-msgid "Start Generate Code"
-msgstr "कोड सिर्जना गर्न सुरु गर्नुहोस्"
+msgid "Go to app"
+msgstr "एपमा जानुहोस्"
 
-#: sections/cta.twig:3
-msgctxt "heading"
-msgid "Ready to level-up?"
-msgstr "अर्को स्तरमा जान तयार हुनुहुन्छ?"
-
-#: sections/cta.twig:5
-msgid "See how easy it can be to write amazing content."
-msgstr "उत्कृष्ट सामग्री लेख्न कति सजिलो हुन सक्छ, हेर्नुहोस्।"
-
-#: sections/cta.twig:10
+#: sections/cta.twig:22
+#: sections/header.twig:200
+#: sections/hero.twig:18
+#: sections/pricing.twig:139
 msgctxt "button"
-msgid "Get Started Now"
-msgstr "अहिले नै सुरु गर्नुहोस्"
+msgid "Get started"
+msgstr "सुरु गर्नुहोस्"
 
-#: sections/features.twig:3
+#: sections/cta.twig:28
+#: sections/hero.twig:25
+msgctxt "button"
+msgid "See pricing"
+msgstr "मूल्य हेर्नुहोस्"
+
+#: sections/faq.twig:10
+msgid "What are credits?"
+msgstr "क्रेडिटहरू के हुन्?"
+
+#: sections/faq.twig:11
+msgid "Credits are what you spend when you use the AI. Each request costs credits based on the model and how much it produces, and your plan includes a set amount."
+msgstr "AI प्रयोग गर्दा खर्च हुने एकाइहरू नै क्रेडिट हुन्। प्रत्येक अनुरोधमा प्रयोग हुने मोडेल र त्यसले उत्पादन गर्ने सामग्रीको मात्राका आधारमा क्रेडिट खर्च हुन्छ, र तपाईंको योजनामा निश्चित क्रेडिट समावेश हुन्छ।"
+
+#: sections/faq.twig:11
+msgid "Need more? Top up with a credit pack at any time."
+msgstr "थप चाहिन्छ? जुनसुकै बेला क्रेडिट प्याक लिएर थप क्रेडिट लिनुहोस्।"
+
+#: sections/faq.twig:15
+msgid "How is usage measured?"
+msgstr "प्रयोगको मापन कसरी गरिन्छ?"
+
+#: sections/faq.twig:16
+msgid "Each plan includes an amount of usage. What a request uses depends on the model and how much it produces, and your account always shows what you have left."
+msgstr "प्रत्येक योजनामा निश्चित मात्राको प्रयोग समावेश हुन्छ। कुनै अनुरोधमा कति प्रयोग हुन्छ भन्ने कुरा मोडेल र त्यसले उत्पादन गर्ने सामग्रीको मात्रामा निर्भर गर्छ, र तपाईंको खातामा बाँकी रहेको मात्रा सधैँ देखिन्छ।"
+
+#: sections/faq.twig:20
+msgid "Which AI models can I use?"
+msgstr "म कुन AI मोडेलहरू प्रयोग गर्न सक्छु?"
+
+#: sections/faq.twig:21
+msgid "Each plan lists the models it includes. Hover over the models line on a plan to see them, and pick the one you want while you work."
+msgstr "प्रत्येक योजनामा समावेश मोडेलहरूको सूची हुन्छ। ती हेर्न कुनै योजनाको मोडेलहरू भन्ने पङ्क्तिमाथि माउस लैजानुहोस्, र काम गर्दा आफूले चाहेको मोडेल छान्नुहोस्।"
+
+#: sections/faq.twig:25
+msgid "Can I change or cancel my plan?"
+msgstr "के म आफ्नो योजना परिवर्तन वा रद्द गर्न सक्छु?"
+
+#: sections/faq.twig:26
+msgid "Yes. You can upgrade, downgrade or cancel from the billing page in your account at any time."
+msgstr "सक्नुहुन्छ। तपाईंले आफ्नो खाताको बिलिङ पृष्ठबाट जुनसुकै बेला योजना अपग्रेड, डाउनग्रेड वा रद्द गर्न सक्नुहुन्छ।"
+
+#: sections/faq.twig:30
+msgid "Is there a free trial?"
+msgstr "के निःशुल्क परीक्षण उपलब्ध छ?"
+
+#: sections/faq.twig:31
+msgid "Yes. Paid subscriptions start with a :days-day free trial. Cancel before it ends and you will not be charged."
+msgstr "हो। सशुल्क सदस्यतामा सुरुमा :days-दिने निःशुल्क परीक्षण हुन्छ। यो समाप्त हुनुअघि रद्द गर्नुहोस् र तपाईंलाई शुल्क लाग्ने छैन।"
+
+#: sections/faq.twig:35
+msgid "Can I use it with my team?"
+msgstr "के म यसलाई आफ्नो टोलीसँग प्रयोग गर्न सक्छु?"
+
+#: sections/faq.twig:36
+msgid "Yes. Invite teammates to your workspace and they share its plan. How many members you can add depends on your plan."
+msgstr "सहकर्मीहरूलाई आफ्नो कार्यक्षेत्रमा आमन्त्रित गर्नुहोस् र उनीहरूले त्यसको योजना साझा गर्छन्। तपाईंले थप्न सक्ने सदस्यहरूको सङ्ख्या तपाईंको योजनामा निर्भर हुन्छ।"
+
+#: sections/faq.twig:40
+msgid "What happens to what I create?"
+msgstr "मैले सिर्जना गरेका सामग्रीको के हुन्छ?"
+
+#: sections/faq.twig:41
+msgid "It is saved to your library so you can find it later. Switch on private mode and nothing you create is kept: it stays out of your history and is deleted automatically."
+msgstr "तपाईंले पछि फेला पार्न सक्नुहोस् भनेर ती तपाईंको लाइब्रेरीमा सुरक्षित हुन्छन्। निजी मोड अन गर्नुहोस् र तपाईंले सिर्जना गरेको केही पनि राखिँदैन: ती तपाईंको इतिहासमा देखिँदैनन् र स्वचालित रूपमा मेटिन्छन्।"
+
+#: sections/faq.twig:49
 msgctxt "heading"
-msgid "Coolest Features"
-msgstr "सबैभन्दा उत्कृष्ट सुविधाहरू"
+msgid "Frequently asked questions"
+msgstr "बारम्बार सोधिने प्रश्नहरू"
+
+#: sections/faq.twig:52
+msgid "Answers to what people ask most before they sign up."
+msgstr "साइन अप गर्नुअघि मानिसहरूले प्रायः सोध्ने प्रश्नहरूको जवाफ।"
 
 #: sections/features.twig:13
 msgctxt "heading"
-msgid "High Quality Code"
-msgstr "उच्च गुणस्तरको कोड"
+msgid "Leading AI models"
+msgstr "अग्रणी AI मोडेलहरू"
 
-#: sections/features.twig:16
-msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
-msgstr "डोमेन-ड्रिभन डिजाइन र अनियन आर्किटेक्चरका सिद्धान्तहरू प्रयोग गरेर विकसित।"
+#: sections/features.twig:14
+msgid "Use models from several AI providers in one app, without separate accounts."
+msgstr "अलग-अलग खाता नखोलीकन एउटै एपमा विभिन्न AI प्रदायकका मोडेलहरू प्रयोग गर्नुहोस्।"
+
+#: sections/features.twig:19
+msgctxt "heading"
+msgid "Custom assistants"
+msgstr "आफू अनुकूल सहायकहरू"
+
+#: sections/features.twig:20
+msgid "Build assistants with their own instructions and knowledge, and reuse them any time."
+msgstr "आफ्नै निर्देशन र ज्ञान भएका सहायकहरू बनाउनुहोस् र तिनलाई जुनसुकै बेला फेरि प्रयोग गर्नुहोस्।"
+
+#: sections/features.twig:25
+msgctxt "heading"
+msgid "Chat with your documents"
+msgstr "आफ्ना कागजातहरूसँग कुराकानी गर्नुहोस्"
 
 #: sections/features.twig:26
+msgid "Upload files and ask questions about them. Answers come from your own content."
+msgstr "फाइलहरू अपलोड गर्नुहोस् र तिनका बारेमा प्रश्नहरू सोध्नुहोस्। जवाफहरू तपाईंका आफ्नै सामग्रीबाट आउँछन्।"
+
+#: sections/features.twig:31
 msgctxt "heading"
-msgid "Modern Technologies"
-msgstr "आधुनिक प्रविधिहरू"
+msgid "Live web search"
+msgstr "प्रत्यक्ष वेब खोज"
 
-#: sections/features.twig:29
-msgid "Built with modern technologies for best structure and get maximum performance."
-msgstr "उत्कृष्ट संरचना र अधिकतम कार्यसम्पादनका लागि आधुनिक प्रविधिहरू प्रयोग गरेर निर्माण गरिएको।"
+#: sections/features.twig:32
+msgid "Get answers that draw on up-to-date information from the web."
+msgstr "वेबका अद्यावधिक जानकारीमा आधारित जवाफहरू पाउनुहोस्।"
 
-#: sections/features.twig:39
+#: sections/features.twig:37
 msgctxt "heading"
-msgid "Friendly UI and UX"
-msgstr "मैत्रीपूर्ण UI र UX"
+msgid "Connect your apps"
+msgstr "आफ्ना एपहरू जडान गर्नुहोस्"
 
-#: sections/features.twig:42
-msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
-msgstr "तपाईंको डिजिटल अनुभवलाई अझ राम्रो बनाउने झन्झटरहित र सहज प्रयोगकर्ता इन्टरफेसको आनन्द लिनुहोस्।"
+#: sections/features.twig:38
+msgid "Bring the tools you already use into the conversation."
+msgstr "तपाईंले पहिले नै प्रयोग गर्ने उपकरणहरूलाई कुराकानीमा ल्याउनुहोस्।"
 
-#: sections/features.twig:52
+#: sections/features.twig:43
 msgctxt "heading"
-msgid "Dark Mode"
-msgstr "डार्क मोड"
+msgid "Scheduled tasks"
+msgstr "निर्धारित कार्यहरू"
+
+#: sections/features.twig:44
+msgid "Let the AI handle reminders, recurring reports and ongoing updates on a schedule."
+msgstr "AI लाई निर्धारित समयमा रिमाइन्डर, नियमित रिपोर्ट र निरन्तर अद्यावधिकहरू सम्हाल्न दिनुहोस्।"
+
+#: sections/features.twig:49
+msgctxt "heading"
+msgid "Private mode"
+msgstr "निजी मोड"
+
+#: sections/features.twig:50
+msgid "What you create in private mode stays out of your history and library, and is deleted automatically."
+msgstr "निजी मोडमा तपाईंले सिर्जना गरेका सामग्री तपाईंको इतिहास र लाइब्रेरीमा देखिँदैनन् र स्वचालित रूपमा मेटिन्छन्।"
 
 #: sections/features.twig:55
-msgid "Turn off the light and switch to dark mode your interface with one click."
-msgstr "एक क्लिकमै बत्ती निभाएर आफ्नो इन्टरफेसलाई डार्क मोडमा बदल्नुहोस्।"
-
-#: sections/features.twig:65
 msgctxt "heading"
-msgid "Documentation"
-msgstr "दस्तावेजीकरण"
+msgid "Built for teams"
+msgstr "टोलीहरूका लागि बनाइएको"
+
+#: sections/features.twig:56
+msgid "Invite your teammates to a shared workspace and work from the same plan."
+msgstr "आफ्ना टोलीका सदस्यहरूलाई साझा कार्यक्षेत्रमा आमन्त्रित गर्नुहोस् र एउटै योजनाअनुसार काम गर्नुहोस्।"
+
+#: sections/features.twig:61
+msgctxt "heading"
+msgid "Your library"
+msgstr "तपाईंको लाइब्रेरी"
+
+#: sections/features.twig:62
+msgid "Everything you create is saved in one place, ready to find, reuse and download."
+msgstr "तपाईंले सिर्जना गर्नुभएको सबै कुरा एउटै ठाउँमा सुरक्षित हुन्छ, खोज्न, फेरि प्रयोग गर्न र डाउनलोड गर्न तयार।"
+
+#: sections/features.twig:67
+msgctxt "heading"
+msgid "Speaks your language"
+msgstr "तपाईंको भाषा बोल्छ"
 
 #: sections/features.twig:68
-msgid "An all-inclusive learning package seamlessly integrated into our community."
-msgstr "हाम्रो समुदायमा सहज रूपमा एकीकृत गरिएको सम्पूर्ण सिकाइ प्याकेज।"
+msgid "Use the app in the language you are most comfortable with."
+msgstr "तपाईंलाई सबैभन्दा सहज लाग्ने भाषामा एप प्रयोग गर्नुहोस्।"
 
-#: sections/features.twig:78
+#: sections/features.twig:73
 msgctxt "heading"
-msgid "Payment Gateways"
-msgstr "भुक्तानी गेटवेहरू"
+msgid "Light and dark mode"
+msgstr "लाइट र डार्क मोड"
 
-#: sections/features.twig:81
-msgid "Simplify transactions and boost security with payment gateway solutions."
-msgstr "भुक्तानी गेटवे समाधानहरूमार्फत कारोबारलाई सरल बनाउनुहोस् र सुरक्षा बढाउनुहोस्।"
+#: sections/features.twig:74
+msgid "Work the way your eyes prefer, day or night."
+msgstr "दिन होस् वा रात, तपाईंको आँखालाई सहज हुने तरिकाले काम गर्नुहोस्।"
 
-#: sections/features.twig:91
+#: sections/features.twig:79
 msgctxt "heading"
-msgid "AI Generator"
-msgstr "AI जनरेटर"
+msgid "Secure checkout"
+msgstr "सुरक्षित भुक्तानी"
 
-#: sections/features.twig:94
-msgid "Unlock limitless creativity with our AI-powered content generator."
-msgstr "हाम्रो AI-सञ्चालित सामग्री जनरेटरमार्फत असीमित सिर्जनशीलता उजागर गर्नुहोस्।"
+#: sections/features.twig:80
+msgid "Pay safely through trusted payment providers and manage your plan any time."
+msgstr "विश्वसनीय भुक्तानी प्रदायकहरूमार्फत सुरक्षित रूपमा भुक्तानी गर्नुहोस् र जुनसुकै बेला आफ्नो योजना व्यवस्थापन गर्नुहोस्।"
 
-#: sections/features.twig:104
+#: sections/features.twig:86
 msgctxt "heading"
-msgid "SEO Friendly"
-msgstr "SEO-अनुकूल"
-
-#: sections/features.twig:107
-msgid "Boost your visibility and reach your audience effectively with AI generated content."
-msgstr "AI द्वारा सिर्जित सामग्रीमार्फत आफ्नो दृश्यता बढाउनुहोस् र आफ्ना दर्शकसम्म प्रभावकारी रूपमा पुग्नुहोस्।"
-
-#: sections/features.twig:117
-msgctxt "heading"
-msgid "Advanced Dashboard"
-msgstr "उन्नत ड्यासबोर्ड"
-
-#: sections/features.twig:120
-msgid "Empower your insights and control with our cutting-edge dashboard."
-msgstr "हाम्रो अत्याधुनिक ड्यासबोर्डमार्फत आफ्ना अन्तर्दृष्टि र नियन्त्रणलाई सशक्त बनाउनुहोस्।"
-
-#: sections/features.twig:130
-msgctxt "heading"
-msgid "Custom Templates"
-msgstr "अनुकूलित टेम्प्लेटहरू"
-
-#: sections/features.twig:133
-msgid "Transform your content creation with AI-driven custom templates."
-msgstr "AI-सञ्चालित अनुकूलित टेम्प्लेटहरूमार्फत आफ्नो सामग्री सिर्जना प्रक्रियालाई रूपान्तरण गर्नुहोस्।"
-
-#: sections/features.twig:144
-msgctxt "heading"
-msgid "Login via SM Accounts"
-msgstr "सामाजिक सञ्जाल खातामार्फत लगइन"
-
-#: sections/features.twig:147
-msgid "Use Facebook or Google accounts as an alternatively access to platform."
-msgstr "प्लेटफर्ममा वैकल्पिक रूपमा पहुँच गर्न Facebook वा Google खाता प्रयोग गर्नुहोस्।"
-
-#: sections/features.twig:157
-msgctxt "heading"
-msgid "High Quality Support"
-msgstr "उच्च-गुणस्तरको सहायता"
-
-#: sections/features.twig:160
-msgid "Our support team is available 24/7 to help you with any questions or concerns."
-msgstr "तपाईंका कुनै पनि प्रश्न वा चिन्तामा सहयोग गर्न हाम्रो सहायता टोली २४/७ उपलब्ध छ।"
+msgid "Everything in one workspace"
+msgstr "एउटै कार्यक्षेत्रमा सबै कुरा"
 
 #: sections/footer.twig:4
 msgid "All rights reserved."
 msgstr "सबै अधिकार सुरक्षित।"
 
 #: sections/footer.twig:42
-#: sections/header.twig:19
+#: sections/header.twig:21
 msgctxt "button"
 msgid "Product"
 msgstr "उत्पादन"
 
 #: sections/footer.twig:46
-#: sections/header.twig:33
+#: sections/header.twig:28
+msgctxt "button"
+msgid "Features"
+msgstr "सुविधाहरू"
+
+#: sections/footer.twig:50
+#: sections/header.twig:35
 msgctxt "button"
 msgid "Pricing"
 msgstr "मूल्य निर्धारण"
 
-#: sections/footer.twig:50
+#: sections/footer.twig:54
+#: sections/header.twig:42
 msgctxt "button"
 msgid "FAQ"
 msgstr "बारम्बार सोधिने प्रश्नहरू"
 
-#: sections/footer.twig:57
+#: sections/footer.twig:61
 msgctxt "button"
 msgid "Terms of services"
 msgstr "सेवाका सर्तहरू"
 
-#: sections/footer.twig:63
+#: sections/footer.twig:67
 msgctxt "button"
 msgid "Privacy policy"
 msgstr "गोपनीयता नीति"
 
-#: sections/footer.twig:69
+#: sections/footer.twig:73
 msgctxt "button"
 msgid "Refund policy"
 msgstr "रिफन्ड नीति"
 
-#: sections/generators.twig:3
+#: sections/generators.twig:16
 msgctxt "heading"
-msgid "Meet your ultimate"
-msgstr "तपाईंको उत्कृष्ट"
+msgid "Every AI tool you need,"
+msgstr "तपाईंलाई चाहिने हरेक AI उपकरण,"
 
-#: sections/generators.twig:6
+#: sections/generators.twig:17
 msgctxt "heading"
-msgid "AI-Powered Content Platform"
-msgstr "AI-सञ्चालित सामग्री प्लेटफर्मसँग भेट्नुहोस्"
+msgid "in one place"
+msgstr "एउटै ठाउँमा"
 
-#: sections/header.twig:26
-msgctxt "button"
-msgid "Featured"
-msgstr "विशेष"
-
-#: sections/header.twig:111
-#: sections/hero.twig:13
-msgctxt "button"
-msgid "Go to app"
-msgstr "एपमा जानुहोस्"
-
-#: sections/header.twig:123
+#: sections/header.twig:129
 msgctxt "button"
 msgid "Library"
 msgstr "पुस्तकालय"
 
-#: sections/header.twig:131
+#: sections/header.twig:136
 msgctxt "button"
 msgid "Billing"
 msgstr "बिलिङ"
@@ -240,239 +312,428 @@ msgctxt "button"
 msgid "Account"
 msgstr "खाता"
 
-#: sections/header.twig:151
+#: sections/header.twig:154
 msgctxt "button"
 msgid "Logout"
 msgstr "लगआउट"
 
-#: sections/header.twig:191
+#: sections/header.twig:195
 msgctxt "button"
 msgid "Login"
 msgstr "लगइन"
 
-#: sections/header.twig:196
-#: sections/pricing.twig:102
-msgctxt "button"
-msgid "Get started"
-msgstr "सुरु गर्नुहोस्"
-
 #: sections/hero.twig:3
 msgctxt "heading"
-msgid "Transforming ideas into AI generated masterpieces"
-msgstr "विचारहरूलाई AI-निर्मित उत्कृष्ट कृतिमा रूपान्तरण गर्दै"
+msgid "Your all-in-one AI workspace"
+msgstr "तपाईंको सबै-एकमा AI कार्यक्षेत्र"
 
 #: sections/hero.twig:7
-msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
-msgstr "तपाईंको आवश्यकताअनुसार उच्च गुणस्तरको AI-सञ्चालित सामग्री सहजै तयार गर्नुहोस्। असीमित सम्भावनाहरूको ढोका खोल्नुहोस्, आफ्नो समय बचत गर्नुहोस् र आजै पैसा कमाउन सुरु गर्नुहोस्!"
+msgid "Chat, write and create with the leading AI models, all in one place. No juggling apps or subscriptions."
+msgstr "अग्रणी AI मोडेलहरूसँग च्याट गर्नुहोस्, लेख्नुहोस् र सिर्जना गर्नुहोस्—सबै एउटै ठाउँमा। एप वा सदस्यताहरू फेरि फेरि बदलिरहनु पर्दैन।"
 
-#: sections/hero.twig:19
-msgctxt "button"
-msgid "Get started now"
-msgstr "अहिले नै सुरु गर्नुहोस्"
+#: sections/how-it-works.twig:2
+msgctxt "heading"
+msgid "Create your account"
+msgstr "आफ्नो खाता सिर्जना गर्नुहोस्"
+
+#: sections/how-it-works.twig:2
+msgid "Sign up in seconds and land on your own dashboard."
+msgstr "केही सेकेन्डमै साइन अप गर्नुहोस् र आफ्नै ड्यासबोर्डमा पुग्नुहोस्।"
 
 #: sections/how-it-works.twig:3
+msgctxt "heading"
+msgid "Pick a tool and a model"
+msgstr "एउटा उपकरण र मोडेल छान्नुहोस्"
+
+#: sections/how-it-works.twig:3
+msgid "Chat, write, create images and more. Choose the AI model that suits the job."
+msgstr "च्याट गर्नुहोस्, लेख्नुहोस्, तस्बिरहरू सिर्जना गर्नुहोस् र अरू धेरै गर्नुहोस्। कामअनुसार उपयुक्त AI मोडेल छान्नुहोस्।"
+
+#: sections/how-it-works.twig:4
+msgctxt "heading"
+msgid "Describe it, get results"
+msgstr "वर्णन गर्नुहोस्, नतिजा पाउनुहोस्"
+
+#: sections/how-it-works.twig:4
+msgid "Say what you need in plain words, refine the result, and find it later in your library."
+msgstr "तपाईंलाई के चाहिन्छ, सरल शब्दमा भन्नुहोस्, नतिजालाई परिष्कृत गर्नुहोस् र पछि आफ्नो सङ्ग्रहमा फेला पार्नुहोस्।"
+
+#: sections/how-it-works.twig:9
 msgctxt "heading"
 msgid "How it works"
 msgstr "यसले कसरी काम गर्छ"
 
-#: sections/how-it-works.twig:13
-msgctxt "heading"
-msgid "Choose Template"
-msgstr "टेम्प्लेट छान्नुहोस्"
-
-#: sections/how-it-works.twig:16
-msgid "Choose a our built in templates or create your own."
-msgstr "हाम्रा तयार टेम्प्लेटहरूमध्ये एउटा छान्नुहोस् वा आफ्नै सिर्जना गर्नुहोस्।"
-
-#: sections/how-it-works.twig:26
-msgctxt "heading"
-msgid "Describe"
-msgstr "वर्णन गर्नुहोस्"
-
-#: sections/how-it-works.twig:29
-msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
-msgstr "आफ्नो विषय वर्णन गर्न केही वाक्यहरू लेख्नुहोस्। आफ्नो ब्रान्डका लागि उपयुक्त बनाउन कीवर्डहरू थप्नुहोस्।"
-
-#: sections/how-it-works.twig:39
-msgctxt "heading"
-msgid "Generate"
-msgstr "उत्पन्न गर्नुहोस्"
-
-#: sections/how-it-works.twig:42
-msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
-msgstr "\"उत्पन्न गर्नुहोस्\" बटनमा क्लिक गर्नुहोस् र हरेक पटक रूपान्तरण बढाउने विभिन्न सामग्रीहरू पाउनुहोस्।"
-
 #: sections/image.twig:5
-msgid "AI Image"
-msgstr "AI छवि"
+msgid "AI images"
+msgstr "AI तस्बिरहरू"
 
 #: sections/image.twig:9
 msgctxt "heading"
-msgid "Visualize what you dream of. Create images from text."
-msgstr "आफ्नो कल्पनालाई दृश्यमा उतार्नुहोस्। पाठबाट छविहरू सिर्जना गर्नुहोस्।"
+msgid "Turn a sentence into an image."
+msgstr "एउटा वाक्यलाई तस्बिरमा बदल्नुहोस्।"
 
 #: sections/image.twig:13
-msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
-msgstr "AI छवि जनरेटर प्रयोग गरेर तुरुन्तै उत्कृष्ट छविहरू सिर्जना गर्नुहोस्—कलात्मक नवप्रवर्तनका लागि तपाईंको उपकरण।"
+msgid "Describe what you want to see, pick a model, and get images you can download and reuse."
+msgstr "तपाईं कस्तो तस्बिर हेर्न चाहनुहुन्छ, वर्णन गर्नुहोस्, एउटा मोडेल छान्नुहोस् र डाउनलोड गर्न तथा पुनः प्रयोग गर्न मिल्ने तस्बिरहरू पाउनुहोस्।"
 
-#: sections/image.twig:18
+#: sections/image.twig:17
 msgctxt "button"
-msgid "Try for free"
-msgstr "निःशुल्क प्रयास गर्नुहोस्"
+msgid "Create an image"
+msgstr "तस्बिर बनाउनुहोस्"
+
+#: sections/models.twig:53
+msgid "Powered by the leading AI models"
+msgstr "अग्रणी AI मोडेलहरूद्वारा सञ्चालित"
 
 #: sections/presets.twig:9
-msgid "100+ AI Writer Templates"
-msgstr "१०० भन्दा बढी AI लेखक टेम्प्लेटहरू"
+msgid "Writing templates"
+msgstr "लेखनका टेम्प्लेटहरू"
 
 #: sections/presets.twig:14
 msgctxt "heading"
-msgid "What can Writing Assistant create for you?"
-msgstr "लेखन सहायकले तपाईंका लागि के सिर्जना गर्न सक्छ?"
+msgid "What will you write today?"
+msgstr "आज तपाईं के लेख्नुहुनेछ?"
 
 #: sections/presets.twig:18
-msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer's block forever."
-msgstr "असाधारण गतिमा लेख्नुहोस्, आफ्ना पाठकहरूलाई मोहित पार्नुहोस् र सधैँका लागि लेखकको अवरोधलाई बिदा गर्नुहोस्।"
+msgid "Product descriptions, social posts, cover letters and more. Pick a template and skip the blank page."
+msgstr "उत्पादन विवरण, सामाजिक सञ्जालका पोस्ट, आवरणपत्र र अन्य धेरै। एउटा टेम्प्लेट छान्नुहोस् र खाली पृष्ठबाट सुरु गर्नुपर्ने झन्झटबाट बच्नुहोस्।"
 
 #: sections/presets.twig:23
 msgctxt "button"
-msgid "Get Started for Free"
-msgstr "निःशुल्क सुरु गर्नुहोस्"
+msgid "Browse templates"
+msgstr "टेम्प्लेटहरू हेर्नुहोस्"
 
-#: sections/pricing.twig:3
-msgctxt "heading"
-msgid "Pricing"
-msgstr "मूल्य निर्धारण"
+#: sections/preview.twig:10
+msgid "Alex"
+msgstr "Alex"
 
-#: sections/pricing.twig:6
-msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
-msgstr "तपाईंका आवश्यकताअनुसार उपयुक्त योजना पत्ता लगाउनुहोस् र सम्भावनाहरूको संसार खोल्नुहोस्।"
+#: sections/preview.twig:11
+msgid "Alex Morgan"
+msgstr "Alex Morgan"
 
-#: sections/pricing.twig:19
+#: sections/preview.twig:106
+msgid "Hello, :name!"
+msgstr "नमस्कार, :name!"
+
+#: sections/preview.twig:110
+msgid "How can I assist you?"
+msgstr "म तपाईंलाई कसरी मद्दत गर्न सक्छु?"
+
+#: sections/preview.twig:115
+msgid "Ask anything…"
+msgstr "जे पनि सोध्नुहोस्…"
+
+#: sections/preview.twig:121
+msgid "Transcribe audio"
+msgstr "अडियोको लिप्यन्तरण गर्नुहोस्"
+
+#: sections/preview.twig:122
+msgid "Isolate sounds"
+msgstr "ध्वनिहरू अलग गर्नुहोस्"
+
+#: sections/preview.twig:123
+msgid "Create videos"
+msgstr "भिडियोहरू बनाउनुहोस्"
+
+#: sections/preview.twig:124
+msgid "Create images"
+msgstr "तस्बिरहरू बनाउनुहोस्"
+
+#: sections/preview.twig:147
+msgid "Scroll to explore"
+msgstr "अन्वेषण गर्न स्क्रोल गर्नुहोस्"
+
+#: sections/pricing.twig:10
 msgctxt "button"
 msgid "Monthly"
 msgstr "मासिक"
 
-#: sections/pricing.twig:28
+#: sections/pricing.twig:11
 msgctxt "button"
 msgid "Yearly"
 msgstr "वार्षिक"
 
-#: sections/pricing.twig:37
+#: sections/pricing.twig:17
 msgctxt "button"
-msgid "Packs"
-msgstr "प्याकहरू"
+msgid "Lifetime"
+msgstr "आजीवन"
 
-#: sections/pricing.twig:46
-msgctxt "button"
-msgid "Lifetime Deals"
-msgstr "आजीवन सम्झौताहरू"
+#: sections/pricing.twig:42
+msgctxt "heading"
+msgid "Simple, transparent pricing"
+msgstr "सरल र पारदर्शी मूल्य निर्धारण"
 
-#: sections/pricing.twig:78
-msgid "Most Popular"
+#: sections/pricing.twig:45
+msgid "Pick a plan that fits how you work. Upgrade, downgrade or cancel at any time."
+msgstr "तपाईंले काम गर्ने तरिकासँग मिल्ने योजना छान्नुहोस्। जुनसुकै बेला अपग्रेड, डाउनग्रेड वा रद्द गर्नुहोस्।"
+
+#: sections/pricing.twig:74
+msgid "Most popular"
 msgstr "सबैभन्दा लोकप्रिय"
 
-#: sections/pricing.twig:115
-msgid "Chat"
-msgstr "च्याट"
+#: sections/pricing.twig:105
+msgid "Free"
+msgstr "निःशुल्क"
 
-#: sections/pricing.twig:134
-msgid "Writer"
-msgstr "लेखक"
+#: sections/pricing.twig:112
+msgid "/ month"
+msgstr "/ महिना"
+
+#: sections/pricing.twig:113
+msgid "/ year"
+msgstr "/ वर्ष"
+
+#: sections/pricing.twig:114
+msgid "lifetime"
+msgstr "आजीवन"
+
+#: sections/pricing.twig:115
+msgid "one-time"
+msgstr "एकपटक"
+
+#: sections/pricing.twig:123
+msgid "per month, billed yearly"
+msgstr "प्रति महिना, वार्षिक रूपमा बिल गरिने"
+
+#: sections/pricing.twig:125
+msgid "Pay once. Allowance refreshes every month."
+msgstr "एकपटक भुक्तानी गर्नुहोस्। उपलब्ध क्रेडिटहरू हरेक महिना नवीकरण हुन्छन्।"
+
+#: sections/pricing.twig:127
+msgid "Extra credits on top of your plan."
+msgstr "तपाईंको योजनामा थप क्रेडिटहरू।"
+
+#: sections/pricing.twig:135
+msgctxt "button"
+msgid "Start :days-day free trial"
+msgstr ":days-दिने निःशुल्क परीक्षण सुरु गर्नुहोस्"
+
+#: sections/pricing.twig:137
+msgctxt "button"
+msgid "Start for free"
+msgstr "निःशुल्क सुरु गर्नुहोस्"
 
 #: sections/pricing.twig:153
-msgid "Image generator"
-msgstr "छवि जनरेटर"
+msgctxt "button"
+msgid "See all plans"
+msgstr "सबै योजनाहरू हेर्नुहोस्"
 
-#: sections/pricing.twig:166
-msgid "Transcriber"
-msgstr "लिप्यन्तरण उपकरण"
-
-#: sections/pricing.twig:179
-msgid "Voiceover"
-msgstr "भ्वाइसओभर"
-
-#: sections/pricing.twig:192
-msgid "Voice isolator"
-msgstr "आवाज अलग गर्ने उपकरण"
-
-#: sections/pricing.twig:205
-msgid "Classifier"
-msgstr "वर्गीकरणकर्ता"
-
-#: sections/pricing.twig:213
-msgid "Access to templates is disabled"
-msgstr "टेम्प्लेटहरूमा पहुँच बन्द गरिएको छ"
-
-#: sections/pricing.twig:216
-msgid "Access to all templates"
-msgstr "सबै टेम्प्लेटहरूमा पहुँच"
-
-#: sections/pricing.twig:232
-msgid "Priority support"
-msgstr "प्राथमिकता सहयोग"
-
-#: sections/pricing.twig:235
-msgid "Basic support"
-msgstr "आधारभूत सहयोग"
+#: sections/pricing.twig:161
+msgid "Not ready to pay? Try the free plan"
+msgstr "भुक्तानी गर्न तयार हुनुहुन्न? निःशुल्क योजना प्रयोग गर्नुहोस्"
 
 #: sections/speech-to-text.twig:4
-msgid "Speech to Text"
-msgstr "वाणीबाट पाठ"
+msgid "Speech to text"
+msgstr "बोलीलाई पाठमा रूपान्तरण"
 
 #: sections/speech-to-text.twig:8
 msgctxt "heading"
-msgid "Transforming Spoken <br> Words into Text."
-msgstr "बोलिएका <br> शब्दलाई पाठमा रूपान्तरण"
+msgid "Turn recordings into text."
+msgstr "रेकर्डिङलाई पाठमा रूपान्तरण गर्नुहोस्।"
 
 #: sections/speech-to-text.twig:12
-msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
-msgstr "उत्पादकता र पहुँचयोग्यता बढाउन बोलिएका शब्दलाई तुरुन्तै पाठमा लिप्यन्तरण गर्नुहोस्।"
+msgid "Upload a meeting, interview or voice note and get a transcript you can copy and download."
+msgstr "बैठक, अन्तर्वार्ता वा भ्वाइस नोट अपलोड गर्नुहोस् र प्रतिलिपि गर्न तथा डाउनलोड गर्न मिल्ने ट्रान्सक्रिप्ट प्राप्त गर्नुहोस्।"
 
-#: sections/speech-to-text.twig:17
+#: sections/speech-to-text.twig:16
 msgctxt "button"
-msgid "Convert now"
-msgstr "अहिले रूपान्तरण गर्नुहोस्"
+msgid "Transcribe audio"
+msgstr "अडियोको लिप्यन्तरण गर्नुहोस्"
 
 #: sections/text-to-voice.twig:4
-msgid "Text to Voice"
-msgstr "पाठबाट आवाज"
+msgid "Text to speech"
+msgstr "पाठबाट वाणी"
 
 #: sections/text-to-voice.twig:8
 msgctxt "heading"
-msgid "Convert your texts into <br> Lifelike Speech"
-msgstr "तपाईंको पाठलाई <br> जीवन्त वाणीमा रूपान्तरण गर्नुहोस्"
+msgid "Give your words a natural voice."
+msgstr "आफ्ना शब्दहरूलाई प्राकृतिक आवाज दिनुहोस्।"
 
 #: sections/text-to-voice.twig:12
-msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
-msgstr "अभिव्यक्तिपूर्ण वाचनका साथ आफ्नो सामग्रीलाई अझ उत्कृष्ट बनाउनुहोस्: पाठबाट आवाजमा रूपान्तरणको उत्कृष्टता अनुभव गर्नुहोस्।"
+msgid "Pick a lifelike voice for narration, videos and podcasts."
+msgstr "वाचन, भिडियो र पोडकास्टका लागि जीवन्त सुनिने आवाज छान्नुहोस्।"
 
 #: sections/video.twig:11
-msgid "Video"
-msgstr "भिडियो"
+msgid "AI video"
+msgstr "एआई भिडियो"
 
 #: sections/video.twig:15
 msgctxt "heading"
-msgid "Generate high-quality videos using AI Video generation tool."
-msgstr "AI भिडियो उत्पादन उपकरण प्रयोग गरेर उच्च गुणस्तरका भिडियोहरू बनाउनुहोस्।"
+msgid "Make short videos from a prompt or a photo."
+msgstr "प्रम्प्ट वा तस्बिरबाट छोटा भिडियोहरू बनाउनुहोस्।"
 
 #: sections/video.twig:19
-msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
-msgstr "भिडियो सम्पादन सीप आवश्यक पर्दैन—तपाईंका छविहरू अपलोड गर्नुहोस् र केही लाइनको निर्देशन लेख्नुहोस्, यत्ति हो।"
+msgid "No editing skills needed. Write a few lines, add an image if you like, and the AI does the rest."
+msgstr "सम्पादन गर्ने सीप चाहिँदैन। केही लाइनहरू लेख्नुहोस्, चाहनुहुन्छ भने एउटा तस्बिर थप्नुहोस्, बाँकी काम एआईले गर्छ।"
+
+#: sections/video.twig:23
+msgctxt "button"
+msgid "Make a video"
+msgstr "भिडियो बनाउनुहोस्"
 
 #: sections/writer.twig:22
-msgid "AI Writer"
-msgstr "AI लेखक"
+#: snippets/plan-rows.twig:103
+msgid "AI writer"
+msgstr "एआई लेखक"
 
 #: sections/writer.twig:26
 msgctxt "heading"
-msgid "Write SEO optimized blogs, sales emails and more..."
-msgstr "SEO अनुकूलित ब्लगहरू, बिक्री इमेलहरू र थप..."
+msgid "Blog posts, emails and ads, written in minutes."
+msgstr "ब्लग पोस्ट, इमेल र विज्ञापनहरू केही मिनेटमै लेख्नुहोस्।"
 
 #: sections/writer.twig:30
-msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
-msgstr "थोरै समयमै उत्कृष्ट नतिजा हासिल गर्नुहोस्। आखिरकार, तपाईंले साँच्चै प्रयोग गर्ने लेखन उपकरण।"
+msgid "Start from a ready-made template, answer a few questions, and refine the draft in chat until it sounds like you."
+msgstr "तयार टेम्प्लेटबाट सुरु गर्नुहोस्, केही प्रश्नहरूको जवाफ दिनुहोस्, अनि तपाईंको शैलीजस्तै सुनिएसम्म च्याटमा मस्यौदालाई परिष्कृत गर्नुहोस्।"
 
-#: sections/writer.twig:35
+#: sections/writer.twig:34
 msgctxt "button"
-msgid "See all features"
-msgstr "सबै सुविधाहरू हेर्नुहोस्"
+msgid "Start writing"
+msgstr "लेख्न सुरु गर्नुहोस्"
+
+#: snippets/plan-rows.twig:17
+msgid "Unlimited usage"
+msgstr "असीमित प्रयोग"
+
+#: snippets/plan-rows.twig:17
+msgid "Unlimited credits"
+msgstr "असीमित क्रेडिटहरू"
+
+#: snippets/plan-rows.twig:23
+msgid ":amount of usage"
+msgstr ":amount को प्रयोग"
+
+#: snippets/plan-rows.twig:24
+msgid ":amount of usage / month"
+msgstr ":amount को प्रयोग / महिना"
+
+#: snippets/plan-rows.twig:27
+msgid ":count credit"
+msgstr ":count क्रेडिट"
+
+#: snippets/plan-rows.twig:28
+msgid ":count credits"
+msgstr ":count क्रेडिटहरू"
+
+#: snippets/plan-rows.twig:31
+msgid ":amount / month"
+msgstr ":amount / महिना"
+
+#: snippets/plan-rows.twig:41
+msgid "Unlimited members"
+msgstr "असीमित सदस्यहरू"
+
+#: snippets/plan-rows.twig:43
+msgid "Just you"
+msgstr "तपाईं मात्र"
+
+#: snippets/plan-rows.twig:45
+msgid "Up to :count members"
+msgstr ":count सदस्यसम्म"
+
+#: snippets/plan-rows.twig:63
+msgid "Every AI model"
+msgstr "सबै AI मोडेलहरू"
+
+#: snippets/plan-rows.twig:64
+msgid "1 AI model"
+msgstr "१ AI मोडेल"
+
+#: snippets/plan-rows.twig:64
+msgid ":count AI models"
+msgstr ":count AI मोडेलहरू"
+
+#: snippets/plan-rows.twig:79
+msgid "Unlimited custom assistants"
+msgstr "असीमित अनुकूलित सहायकहरू"
+
+#: snippets/plan-rows.twig:79
+msgid ":count custom assistants"
+msgstr ":count अनुकूलित सहायकहरू"
+
+#: snippets/plan-rows.twig:85
+msgid "Live web search"
+msgstr "प्रत्यक्ष वेब खोज"
+
+#: snippets/plan-rows.twig:86
+msgid "Chat with your documents"
+msgstr "तपाईंका कागजातहरूसँग च्याट गर्नुहोस्"
+
+#: snippets/plan-rows.twig:87
+msgid "Read any web page"
+msgstr "कुनै पनि वेब पृष्ठ पढ्नुहोस्"
+
+#: snippets/plan-rows.twig:88
+msgid "YouTube insights"
+msgstr "YouTube अन्तर्दृष्टि"
+
+#: snippets/plan-rows.twig:89
+msgid "Create media in chat"
+msgstr "च्याटमा मिडिया सिर्जना गर्नुहोस्"
+
+#: snippets/plan-rows.twig:90
+msgid "Conversation memory"
+msgstr "संवाद स्मृति"
+
+#: snippets/plan-rows.twig:91
+msgid "Canvas"
+msgstr "क्यानभास"
+
+#: snippets/plan-rows.twig:92
+msgid "Clarifying questions"
+msgstr "स्पष्टीकरणका प्रश्नहरू"
+
+#: snippets/plan-rows.twig:93
+msgid "Connectors to your apps"
+msgstr "तपाईंका एपहरूसँगका कनेक्टरहरू"
+
+#: snippets/plan-rows.twig:104
+msgid "Image generation"
+msgstr "छवि सिर्जना"
+
+#: snippets/plan-rows.twig:105
+msgid "Video generation"
+msgstr "भिडियो सिर्जना"
+
+#: snippets/plan-rows.twig:106
+msgid "Voiceover"
+msgstr "भ्वाइसओभर"
+
+#: snippets/plan-rows.twig:107
+msgid "Transcription"
+msgstr "ट्रान्सक्रिप्सन"
+
+#: snippets/plan-rows.twig:108
+msgid "Voice isolation"
+msgstr "आवाज पृथकीकरण"
+
+#: snippets/plan-rows.twig:109
+msgid "Content moderation"
+msgstr "सामग्रीको नियमन"
+
+#: snippets/plan-rows.twig:122
+msgid "Unlimited voice clones"
+msgstr "असीमित आवाजका क्लोनहरू"
+
+#: snippets/plan-rows.twig:122
+msgid ":count voice clones"
+msgstr ":count आवाजका क्लोनहरू"
+
+#: snippets/plan-rows.twig:133
+msgid "Unlimited scheduled tasks"
+msgstr "असीमित निर्धारित कार्यहरू"
+
+#: snippets/plan-rows.twig:133
+msgid ":count scheduled tasks"
+msgstr ":count निर्धारित कार्यहरू"
+
+#: snippets/plan-rows.twig:140
+msgid "Private mode"
+msgstr "निजी मोड"
+
+#: snippets/plan-rows.twig:166
+msgid "Show less"
+msgstr "कम देखाउनुहोस्"
+
+#: snippets/plan-rows.twig:166
+msgid "Show all features"
+msgstr "सबै सुविधाहरू देखाउनुहोस्"

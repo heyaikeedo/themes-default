@@ -5,232 +5,304 @@ msgstr ""
 "X-Domain: theme\n"
 
 #: sections/chat.twig:11
-msgid "AI Chat Bot"
-msgstr "Chatbot AI"
+#: snippets/plan-rows.twig:73
+msgid "AI chat"
+msgstr "Chat AI"
 
 #: sections/chat.twig:15
 msgctxt "heading"
-msgid "That's remarkably human-like and engaging..."
-msgstr "Terasa Sangat Mirip Manusia dan Menarik..."
+msgid "Ask anything. Get clear, useful answers."
+msgstr "Tanyakan apa saja. Dapatkan jawaban yang jelas dan bermanfaat."
 
 #: sections/chat.twig:19
-msgid "Simply choose your asistant and engage with a friendly chatbot to generate ideas, enhance your content, or even bring a smile to your face."
-msgstr "Cukup pilih asisten Anda dan berinteraksilah dengan chatbot yang ramah untuk menghasilkan ide, menyempurnakan konten, atau bahkan membuat Anda tersenyum."
+msgid "Chat with leading AI models to brainstorm, research, write and solve problems faster."
+msgstr "Mengobrol dengan model AI terkemuka untuk bertukar ide, melakukan riset, menulis, dan menyelesaikan masalah dengan lebih cepat."
 
-#: sections/chat.twig:24
-#: sections/video.twig:24
+#: sections/chat.twig:23
 msgctxt "button"
-msgid "Try now"
-msgstr "Coba sekarang"
+msgid "Start chatting"
+msgstr "Mulai mengobrol"
 
-#: sections/code.twig:10
-msgid "AI Code"
-msgstr "Kode AI"
-
-#: sections/code.twig:14
+#: sections/cta.twig:9
 msgctxt "heading"
-msgid "Ready to write code at the speed of light?"
-msgstr "Siap menulis kode secepat kilat?"
+msgid "Pick up where you left off"
+msgstr "Lanjutkan dari terakhir kali"
 
-#: sections/code.twig:18
-msgid "Effortless coding with AI Code Generator: Instant solutions for your programming needs."
-msgstr "Coding tanpa repot dengan Generator Kode AI: solusi instan untuk kebutuhan pemrograman Anda."
+#: sections/cta.twig:11
+msgid "Your chats, documents and media are waiting in your workspace."
+msgstr "Chat, dokumen, dan media Anda menunggu di ruang kerja."
 
-#: sections/code.twig:23
+#: sections/cta.twig:14
+msgctxt "heading"
+msgid "Ready to get started?"
+msgstr "Siap untuk memulai?"
+
+#: sections/cta.twig:16
+msgid "Create your account and put AI to work in minutes."
+msgstr "Buat akun dan manfaatkan AI dalam hitungan menit."
+
+#: sections/cta.twig:22
+#: sections/header.twig:118
+#: sections/hero.twig:13
 msgctxt "button"
-msgid "Start Generate Code"
-msgstr "Mulai Buat Kode"
+msgid "Go to app"
+msgstr "Buka aplikasi"
 
-#: sections/cta.twig:3
-msgctxt "heading"
-msgid "Ready to level-up?"
-msgstr "Siap untuk naik level?"
-
-#: sections/cta.twig:5
-msgid "See how easy it can be to write amazing content."
-msgstr "Lihat betapa mudahnya menulis konten yang luar biasa."
-
-#: sections/cta.twig:10
+#: sections/cta.twig:22
+#: sections/header.twig:200
+#: sections/hero.twig:18
+#: sections/pricing.twig:139
 msgctxt "button"
-msgid "Get Started Now"
-msgstr "Mulai Sekarang"
+msgid "Get started"
+msgstr "Mulai"
 
-#: sections/features.twig:3
+#: sections/cta.twig:28
+#: sections/hero.twig:25
+msgctxt "button"
+msgid "See pricing"
+msgstr "Lihat harga"
+
+#: sections/faq.twig:10
+msgid "What are credits?"
+msgstr "Apa itu kredit?"
+
+#: sections/faq.twig:11
+msgid "Credits are what you spend when you use the AI. Each request costs credits based on the model and how much it produces, and your plan includes a set amount."
+msgstr "Kredit adalah saldo yang Anda gunakan saat memakai AI. Setiap permintaan menggunakan kredit sesuai model dan jumlah konten yang dihasilkan, dan paket Anda mencakup sejumlah kredit."
+
+#: sections/faq.twig:11
+msgid "Need more? Top up with a credit pack at any time."
+msgstr "Butuh lebih banyak? Isi ulang dengan paket kredit kapan saja."
+
+#: sections/faq.twig:15
+msgid "How is usage measured?"
+msgstr "Bagaimana penggunaan diukur?"
+
+#: sections/faq.twig:16
+msgid "Each plan includes an amount of usage. What a request uses depends on the model and how much it produces, and your account always shows what you have left."
+msgstr "Setiap paket mencakup sejumlah kuota penggunaan. Jumlah yang digunakan oleh suatu permintaan bergantung pada model dan jumlah konten yang dihasilkan, dan akun Anda selalu menampilkan sisa kuota."
+
+#: sections/faq.twig:20
+msgid "Which AI models can I use?"
+msgstr "Model AI apa saja yang bisa saya gunakan?"
+
+#: sections/faq.twig:21
+msgid "Each plan lists the models it includes. Hover over the models line on a plan to see them, and pick the one you want while you work."
+msgstr "Setiap paket mencantumkan model yang disertakan. Arahkan kursor ke baris model pada paket untuk melihatnya, lalu pilih model yang Anda inginkan saat bekerja."
+
+#: sections/faq.twig:25
+msgid "Can I change or cancel my plan?"
+msgstr "Bisakah saya mengubah atau membatalkan paket?"
+
+#: sections/faq.twig:26
+msgid "Yes. You can upgrade, downgrade or cancel from the billing page in your account at any time."
+msgstr "Ya. Anda dapat meningkatkan, menurunkan, atau membatalkan paket kapan saja dari halaman penagihan di akun Anda."
+
+#: sections/faq.twig:30
+msgid "Is there a free trial?"
+msgstr "Apakah ada uji coba gratis?"
+
+#: sections/faq.twig:31
+msgid "Yes. Paid subscriptions start with a :days-day free trial. Cancel before it ends and you will not be charged."
+msgstr "Ya. Langganan berbayar dimulai dengan uji coba gratis selama :days-day. Batalkan sebelum masa uji coba berakhir dan Anda tidak akan dikenai biaya."
+
+#: sections/faq.twig:35
+msgid "Can I use it with my team?"
+msgstr "Bisakah saya menggunakannya bersama tim saya?"
+
+#: sections/faq.twig:36
+msgid "Yes. Invite teammates to your workspace and they share its plan. How many members you can add depends on your plan."
+msgstr "Ya. Undang anggota tim ke ruang kerja Anda dan mereka akan berbagi paketnya. Jumlah anggota yang dapat Anda tambahkan bergantung pada paket Anda."
+
+#: sections/faq.twig:40
+msgid "What happens to what I create?"
+msgstr "Apa yang terjadi dengan hasil yang saya buat?"
+
+#: sections/faq.twig:41
+msgid "It is saved to your library so you can find it later. Switch on private mode and nothing you create is kept: it stays out of your history and is deleted automatically."
+msgstr "Hasilnya disimpan di koleksi Anda agar dapat ditemukan nanti. Aktifkan mode privat dan hasil yang Anda buat tidak akan disimpan: hasil tersebut tidak akan muncul di riwayat Anda dan akan dihapus secara otomatis."
+
+#: sections/faq.twig:49
 msgctxt "heading"
-msgid "Coolest Features"
-msgstr "Fitur Paling Keren"
+msgid "Frequently asked questions"
+msgstr "Pertanyaan yang sering diajukan"
+
+#: sections/faq.twig:52
+msgid "Answers to what people ask most before they sign up."
+msgstr "Jawaban atas pertanyaan yang paling sering diajukan orang sebelum mendaftar."
 
 #: sections/features.twig:13
 msgctxt "heading"
-msgid "High Quality Code"
-msgstr "Kode Berkualitas Tinggi"
+msgid "Leading AI models"
+msgstr "Model AI terkemuka"
 
-#: sections/features.twig:16
-msgid "Developed by Using Domain-Driven Design and Onion Architecture Principles."
-msgstr "Dikembangkan dengan Menggunakan Prinsip Domain-Driven Design dan Onion Architecture."
+#: sections/features.twig:14
+msgid "Use models from several AI providers in one app, without separate accounts."
+msgstr "Gunakan model dari beberapa penyedia AI dalam satu aplikasi, tanpa akun terpisah."
+
+#: sections/features.twig:19
+msgctxt "heading"
+msgid "Custom assistants"
+msgstr "Asisten kustom"
+
+#: sections/features.twig:20
+msgid "Build assistants with their own instructions and knowledge, and reuse them any time."
+msgstr "Buat asisten dengan instruksi dan pengetahuan mereka sendiri, lalu gunakan kembali kapan saja."
+
+#: sections/features.twig:25
+msgctxt "heading"
+msgid "Chat with your documents"
+msgstr "Mengobrol dengan dokumen Anda"
 
 #: sections/features.twig:26
+msgid "Upload files and ask questions about them. Answers come from your own content."
+msgstr "Unggah file dan ajukan pertanyaan tentang isinya. Jawaban bersumber dari konten Anda sendiri."
+
+#: sections/features.twig:31
 msgctxt "heading"
-msgid "Modern Technologies"
-msgstr "Teknologi Modern"
+msgid "Live web search"
+msgstr "Pencarian web langsung"
 
-#: sections/features.twig:29
-msgid "Built with modern technologies for best structure and get maximum performance."
-msgstr "Dibangun dengan teknologi modern untuk struktur terbaik dan kinerja maksimal."
+#: sections/features.twig:32
+msgid "Get answers that draw on up-to-date information from the web."
+msgstr "Dapatkan jawaban berdasarkan informasi terbaru dari web."
 
-#: sections/features.twig:39
+#: sections/features.twig:37
 msgctxt "heading"
-msgid "Friendly UI and UX"
-msgstr "UI dan UX yang Ramah"
+msgid "Connect your apps"
+msgstr "Hubungkan aplikasi Anda"
 
-#: sections/features.twig:42
-msgid "Enjoy a hassle-free and intuitive user interface that enhances your digital experience."
-msgstr "Nikmati antarmuka pengguna yang intuitif dan bebas repot untuk meningkatkan pengalaman digital Anda."
+#: sections/features.twig:38
+msgid "Bring the tools you already use into the conversation."
+msgstr "Gunakan alat yang sudah Anda pakai dalam percakapan."
 
-#: sections/features.twig:52
+#: sections/features.twig:43
 msgctxt "heading"
-msgid "Dark Mode"
-msgstr "Mode Gelap"
+msgid "Scheduled tasks"
+msgstr "Tugas terjadwal"
+
+#: sections/features.twig:44
+msgid "Let the AI handle reminders, recurring reports and ongoing updates on a schedule."
+msgstr "Biarkan AI menangani pengingat, laporan berkala, dan pembaruan rutin sesuai jadwal."
+
+#: sections/features.twig:49
+msgctxt "heading"
+msgid "Private mode"
+msgstr "Mode privat"
+
+#: sections/features.twig:50
+msgid "What you create in private mode stays out of your history and library, and is deleted automatically."
+msgstr "Hasil yang Anda buat dalam mode privat tidak akan muncul di riwayat dan koleksi Anda, serta akan dihapus secara otomatis."
 
 #: sections/features.twig:55
-msgid "Turn off the light and switch to dark mode your interface with one click."
-msgstr "Matikan lampu dan ubah antarmuka Anda ke mode gelap dengan satu klik."
-
-#: sections/features.twig:65
 msgctxt "heading"
-msgid "Documentation"
-msgstr "Dokumentasi"
+msgid "Built for teams"
+msgstr "Dibuat untuk tim"
+
+#: sections/features.twig:56
+msgid "Invite your teammates to a shared workspace and work from the same plan."
+msgstr "Undang rekan tim Anda ke ruang kerja bersama dan bekerja dengan paket yang sama."
+
+#: sections/features.twig:61
+msgctxt "heading"
+msgid "Your library"
+msgstr "Pustaka Anda"
+
+#: sections/features.twig:62
+msgid "Everything you create is saved in one place, ready to find, reuse and download."
+msgstr "Semua yang Anda buat tersimpan di satu tempat, siap ditemukan, digunakan kembali, dan diunduh."
+
+#: sections/features.twig:67
+msgctxt "heading"
+msgid "Speaks your language"
+msgstr "Mendukung bahasa Anda"
 
 #: sections/features.twig:68
-msgid "An all-inclusive learning package seamlessly integrated into our community."
-msgstr "Paket pembelajaran lengkap yang terintegrasi dengan mulus ke dalam komunitas kami."
+msgid "Use the app in the language you are most comfortable with."
+msgstr "Gunakan aplikasi dalam bahasa yang paling nyaman bagi Anda."
 
-#: sections/features.twig:78
+#: sections/features.twig:73
 msgctxt "heading"
-msgid "Payment Gateways"
-msgstr "Gerbang Pembayaran"
+msgid "Light and dark mode"
+msgstr "Mode terang dan gelap"
 
-#: sections/features.twig:81
-msgid "Simplify transactions and boost security with payment gateway solutions."
-msgstr "Sederhanakan transaksi dan tingkatkan keamanan dengan solusi gerbang pembayaran."
+#: sections/features.twig:74
+msgid "Work the way your eyes prefer, day or night."
+msgstr "Bekerjalah dengan tampilan yang nyaman bagi mata Anda, siang maupun malam."
 
-#: sections/features.twig:91
+#: sections/features.twig:79
 msgctxt "heading"
-msgid "AI Generator"
-msgstr "Generator AI"
+msgid "Secure checkout"
+msgstr "Pembayaran aman"
 
-#: sections/features.twig:94
-msgid "Unlock limitless creativity with our AI-powered content generator."
-msgstr "Bebaskan kreativitas tanpa batas dengan generator konten bertenaga AI kami."
+#: sections/features.twig:80
+msgid "Pay safely through trusted payment providers and manage your plan any time."
+msgstr "Bayar dengan aman melalui penyedia pembayaran tepercaya dan kelola paket Anda kapan saja."
 
-#: sections/features.twig:104
+#: sections/features.twig:86
 msgctxt "heading"
-msgid "SEO Friendly"
-msgstr "Ramah SEO"
-
-#: sections/features.twig:107
-msgid "Boost your visibility and reach your audience effectively with AI generated content."
-msgstr "Tingkatkan visibilitas dan jangkau audiens secara efektif dengan konten yang dihasilkan AI."
-
-#: sections/features.twig:117
-msgctxt "heading"
-msgid "Advanced Dashboard"
-msgstr "Dasbor Canggih"
-
-#: sections/features.twig:120
-msgid "Empower your insights and control with our cutting-edge dashboard."
-msgstr "Dapatkan wawasan dan kendali lebih besar dengan dasbor mutakhir kami."
-
-#: sections/features.twig:130
-msgctxt "heading"
-msgid "Custom Templates"
-msgstr "Templat Kustom"
-
-#: sections/features.twig:133
-msgid "Transform your content creation with AI-driven custom templates."
-msgstr "Transformasikan pembuatan konten Anda dengan templat kustom berbasis AI."
-
-#: sections/features.twig:144
-msgctxt "heading"
-msgid "Login via SM Accounts"
-msgstr "Masuk melalui Akun Media Sosial"
-
-#: sections/features.twig:147
-msgid "Use Facebook or Google accounts as an alternatively access to platform."
-msgstr "Gunakan akun Facebook atau Google sebagai cara alternatif untuk mengakses platform."
-
-#: sections/features.twig:157
-msgctxt "heading"
-msgid "High Quality Support"
-msgstr "Dukungan Berkualitas Tinggi"
-
-#: sections/features.twig:160
-msgid "Our support team is available 24/7 to help you with any questions or concerns."
-msgstr "Tim dukungan kami tersedia 24/7 untuk membantu Anda menjawab pertanyaan atau mengatasi masalah apa pun."
+msgid "Everything in one workspace"
+msgstr "Semua dalam satu ruang kerja"
 
 #: sections/footer.twig:4
 msgid "All rights reserved."
 msgstr "Seluruh hak dilindungi."
 
 #: sections/footer.twig:42
-#: sections/header.twig:19
+#: sections/header.twig:21
 msgctxt "button"
 msgid "Product"
 msgstr "Produk"
 
 #: sections/footer.twig:46
-#: sections/header.twig:33
+#: sections/header.twig:28
+msgctxt "button"
+msgid "Features"
+msgstr "Fitur"
+
+#: sections/footer.twig:50
+#: sections/header.twig:35
 msgctxt "button"
 msgid "Pricing"
 msgstr "Harga"
 
-#: sections/footer.twig:50
+#: sections/footer.twig:54
+#: sections/header.twig:42
 msgctxt "button"
 msgid "FAQ"
 msgstr "FAQ"
 
-#: sections/footer.twig:57
+#: sections/footer.twig:61
 msgctxt "button"
 msgid "Terms of services"
 msgstr "Ketentuan Layanan"
 
-#: sections/footer.twig:63
+#: sections/footer.twig:67
 msgctxt "button"
 msgid "Privacy policy"
 msgstr "Kebijakan Privasi"
 
-#: sections/footer.twig:69
+#: sections/footer.twig:73
 msgctxt "button"
 msgid "Refund policy"
 msgstr "Kebijakan Pengembalian Dana"
 
-#: sections/generators.twig:3
+#: sections/generators.twig:16
 msgctxt "heading"
-msgid "Meet your ultimate"
-msgstr "Temukan yang terbaik untuk Anda"
+msgid "Every AI tool you need,"
+msgstr "Setiap alat AI yang Anda butuhkan,"
 
-#: sections/generators.twig:6
+#: sections/generators.twig:17
 msgctxt "heading"
-msgid "AI-Powered Content Platform"
-msgstr "Platform Konten Berbasis AI"
+msgid "in one place"
+msgstr "di satu tempat"
 
-#: sections/header.twig:26
-msgctxt "button"
-msgid "Featured"
-msgstr "Unggulan"
-
-#: sections/header.twig:111
-#: sections/hero.twig:13
-msgctxt "button"
-msgid "Go to app"
-msgstr "Buka aplikasi"
-
-#: sections/header.twig:123
+#: sections/header.twig:129
 msgctxt "button"
 msgid "Library"
 msgstr "Pustaka"
 
-#: sections/header.twig:131
+#: sections/header.twig:136
 msgctxt "button"
 msgid "Billing"
 msgstr "Penagihan"
@@ -240,239 +312,428 @@ msgctxt "button"
 msgid "Account"
 msgstr "Akun"
 
-#: sections/header.twig:151
+#: sections/header.twig:154
 msgctxt "button"
 msgid "Logout"
 msgstr "Keluar"
 
-#: sections/header.twig:191
+#: sections/header.twig:195
 msgctxt "button"
 msgid "Login"
 msgstr "Masuk"
 
-#: sections/header.twig:196
-#: sections/pricing.twig:102
-msgctxt "button"
-msgid "Get started"
-msgstr "Mulai"
-
 #: sections/hero.twig:3
 msgctxt "heading"
-msgid "Transforming ideas into AI generated masterpieces"
-msgstr "Mengubah ide menjadi mahakarya yang dihasilkan AI"
+msgid "Your all-in-one AI workspace"
+msgstr "Ruang kerja AI serba ada Anda"
 
 #: sections/hero.twig:7
-msgid "Effortlessly generate high-quality AI-driven content tailored to your needs. Unlock limitless possibilities, save your time and start making money today!"
-msgstr "Hasilkan konten berkualitas tinggi berbasis AI yang disesuaikan dengan kebutuhan Anda dengan mudah. Buka peluang tanpa batas, hemat waktu, dan mulai hasilkan uang hari ini!"
+msgid "Chat, write and create with the leading AI models, all in one place. No juggling apps or subscriptions."
+msgstr "Mengobrol, menulis, dan berkarya dengan model AI terkemuka, semuanya di satu tempat. Tak perlu berpindah-pindah aplikasi atau langganan."
 
-#: sections/hero.twig:19
-msgctxt "button"
-msgid "Get started now"
-msgstr "Mulai sekarang"
+#: sections/how-it-works.twig:2
+msgctxt "heading"
+msgid "Create your account"
+msgstr "Buat akun Anda"
+
+#: sections/how-it-works.twig:2
+msgid "Sign up in seconds and land on your own dashboard."
+msgstr "Daftar dalam hitungan detik dan langsung masuk ke dasbor Anda sendiri."
 
 #: sections/how-it-works.twig:3
+msgctxt "heading"
+msgid "Pick a tool and a model"
+msgstr "Pilih alat dan model"
+
+#: sections/how-it-works.twig:3
+msgid "Chat, write, create images and more. Choose the AI model that suits the job."
+msgstr "Mengobrol, menulis, membuat gambar, dan banyak lagi. Pilih model AI yang sesuai dengan tugasnya."
+
+#: sections/how-it-works.twig:4
+msgctxt "heading"
+msgid "Describe it, get results"
+msgstr "Jelaskan, dapatkan hasil"
+
+#: sections/how-it-works.twig:4
+msgid "Say what you need in plain words, refine the result, and find it later in your library."
+msgstr "Sampaikan kebutuhan Anda dengan kata-kata sederhana, sempurnakan hasilnya, dan temukan lagi nanti di pustaka Anda."
+
+#: sections/how-it-works.twig:9
 msgctxt "heading"
 msgid "How it works"
 msgstr "Cara kerjanya"
 
-#: sections/how-it-works.twig:13
-msgctxt "heading"
-msgid "Choose Template"
-msgstr "Pilih Template"
-
-#: sections/how-it-works.twig:16
-msgid "Choose a our built in templates or create your own."
-msgstr "Pilih salah satu template bawaan kami atau buat template Anda sendiri."
-
-#: sections/how-it-works.twig:26
-msgctxt "heading"
-msgid "Describe"
-msgstr "Deskripsikan"
-
-#: sections/how-it-works.twig:29
-msgid "Enter a few sentences to describe your topic. Add keywords to specify for your brand."
-msgstr "Masukkan beberapa kalimat untuk menjelaskan topik Anda. Tambahkan kata kunci untuk menyesuaikannya dengan merek Anda."
-
-#: sections/how-it-works.twig:39
-msgctxt "heading"
-msgid "Generate"
-msgstr "Hasilkan"
-
-#: sections/how-it-works.twig:42
-msgid "Click the \"Generate\" button and get a variety of high-converting copy every time."
-msgstr "Klik tombol \"Hasilkan\" dan dapatkan beragam teks promosi yang berkonversi tinggi setiap saat."
-
 #: sections/image.twig:5
-msgid "AI Image"
+msgid "AI images"
 msgstr "Gambar AI"
 
 #: sections/image.twig:9
 msgctxt "heading"
-msgid "Visualize what you dream of. Create images from text."
-msgstr "Visualisasikan apa yang Anda impikan. Buat gambar dari teks."
+msgid "Turn a sentence into an image."
+msgstr "Ubah kalimat menjadi gambar."
 
 #: sections/image.twig:13
-msgid "Instantly create stunning images using AI Image Generator – your tool for artistic innovation."
-msgstr "Buat gambar menakjubkan secara instan menggunakan Generator Gambar AI – alat Anda untuk inovasi artistik."
+msgid "Describe what you want to see, pick a model, and get images you can download and reuse."
+msgstr "Jelaskan gambar yang ingin Anda lihat, pilih model, lalu dapatkan gambar yang bisa diunduh dan digunakan kembali."
 
-#: sections/image.twig:18
+#: sections/image.twig:17
 msgctxt "button"
-msgid "Try for free"
-msgstr "Coba gratis"
+msgid "Create an image"
+msgstr "Buat gambar"
+
+#: sections/models.twig:53
+msgid "Powered by the leading AI models"
+msgstr "Didukung oleh model AI terkemuka"
 
 #: sections/presets.twig:9
-msgid "100+ AI Writer Templates"
-msgstr "100+ Template Penulis AI"
+msgid "Writing templates"
+msgstr "Template tulisan"
 
 #: sections/presets.twig:14
 msgctxt "heading"
-msgid "What can Writing Assistant create for you?"
-msgstr "Apa yang bisa dibuat Asisten Penulisan untuk Anda?"
+msgid "What will you write today?"
+msgstr "Apa yang akan Anda tulis hari ini?"
 
 #: sections/presets.twig:18
-msgid "Write with remarkable speed, captivate your audience, and bid farewell to writer's block forever."
-msgstr "Menulislah dengan kecepatan luar biasa, pikat audiens Anda, dan ucapkan selamat tinggal pada kebuntuan menulis selamanya."
+msgid "Product descriptions, social posts, cover letters and more. Pick a template and skip the blank page."
+msgstr "Deskripsi produk, unggahan media sosial, surat lamaran, dan lainnya. Pilih template dan tak perlu mulai dari halaman kosong."
 
 #: sections/presets.twig:23
 msgctxt "button"
-msgid "Get Started for Free"
-msgstr "Mulai Gratis"
+msgid "Browse templates"
+msgstr "Jelajahi template"
 
-#: sections/pricing.twig:3
-msgctxt "heading"
-msgid "Pricing"
-msgstr "Harga"
+#: sections/preview.twig:10
+msgid "Alex"
+msgstr "Alex"
 
-#: sections/pricing.twig:6
-msgid "Discover the perfect plan to suit your needs and unlock a world of possibilities."
-msgstr "Temukan paket yang paling sesuai dengan kebutuhan Anda dan buka dunia yang penuh kemungkinan."
+#: sections/preview.twig:11
+msgid "Alex Morgan"
+msgstr "Alex Morgan"
 
-#: sections/pricing.twig:19
+#: sections/preview.twig:106
+msgid "Hello, :name!"
+msgstr "Halo, :name!"
+
+#: sections/preview.twig:110
+msgid "How can I assist you?"
+msgstr "Ada yang bisa saya bantu?"
+
+#: sections/preview.twig:115
+msgid "Ask anything…"
+msgstr "Tanyakan apa saja…"
+
+#: sections/preview.twig:121
+msgid "Transcribe audio"
+msgstr "Transkripsikan audio"
+
+#: sections/preview.twig:122
+msgid "Isolate sounds"
+msgstr "Pisahkan suara"
+
+#: sections/preview.twig:123
+msgid "Create videos"
+msgstr "Buat video"
+
+#: sections/preview.twig:124
+msgid "Create images"
+msgstr "Buat gambar"
+
+#: sections/preview.twig:147
+msgid "Scroll to explore"
+msgstr "Gulir untuk menjelajah"
+
+#: sections/pricing.twig:10
 msgctxt "button"
 msgid "Monthly"
 msgstr "Bulanan"
 
-#: sections/pricing.twig:28
+#: sections/pricing.twig:11
 msgctxt "button"
 msgid "Yearly"
 msgstr "Tahunan"
 
-#: sections/pricing.twig:37
+#: sections/pricing.twig:17
 msgctxt "button"
-msgid "Packs"
-msgstr "Paket"
+msgid "Lifetime"
+msgstr "Seumur hidup"
 
-#: sections/pricing.twig:46
-msgctxt "button"
-msgid "Lifetime Deals"
-msgstr "Penawaran Seumur Hidup"
+#: sections/pricing.twig:42
+msgctxt "heading"
+msgid "Simple, transparent pricing"
+msgstr "Harga sederhana dan transparan"
 
-#: sections/pricing.twig:78
-msgid "Most Popular"
-msgstr "Paling Populer"
+#: sections/pricing.twig:45
+msgid "Pick a plan that fits how you work. Upgrade, downgrade or cancel at any time."
+msgstr "Pilih paket yang sesuai dengan cara Anda bekerja. Tingkatkan, turunkan, atau batalkan kapan saja."
+
+#: sections/pricing.twig:74
+msgid "Most popular"
+msgstr "Paling populer"
+
+#: sections/pricing.twig:105
+msgid "Free"
+msgstr "Gratis"
+
+#: sections/pricing.twig:112
+msgid "/ month"
+msgstr "/ bulan"
+
+#: sections/pricing.twig:113
+msgid "/ year"
+msgstr "/ tahun"
+
+#: sections/pricing.twig:114
+msgid "lifetime"
+msgstr "seumur hidup"
 
 #: sections/pricing.twig:115
-msgid "Chat"
-msgstr "Chat"
+msgid "one-time"
+msgstr "sekali bayar"
 
-#: sections/pricing.twig:134
-msgid "Writer"
-msgstr "Penulis"
+#: sections/pricing.twig:123
+msgid "per month, billed yearly"
+msgstr "per bulan, ditagih tahunan"
+
+#: sections/pricing.twig:125
+msgid "Pay once. Allowance refreshes every month."
+msgstr "Bayar sekali. Kuota diperbarui setiap bulan."
+
+#: sections/pricing.twig:127
+msgid "Extra credits on top of your plan."
+msgstr "Kredit tambahan di luar paket Anda."
+
+#: sections/pricing.twig:135
+msgctxt "button"
+msgid "Start :days-day free trial"
+msgstr "Mulai uji coba gratis :days hari"
+
+#: sections/pricing.twig:137
+msgctxt "button"
+msgid "Start for free"
+msgstr "Mulai gratis"
 
 #: sections/pricing.twig:153
-msgid "Image generator"
-msgstr "Generator gambar"
+msgctxt "button"
+msgid "See all plans"
+msgstr "Lihat semua paket"
 
-#: sections/pricing.twig:166
-msgid "Transcriber"
-msgstr "Transkriptor"
-
-#: sections/pricing.twig:179
-msgid "Voiceover"
-msgstr "Sulih suara"
-
-#: sections/pricing.twig:192
-msgid "Voice isolator"
-msgstr "Pemisah suara"
-
-#: sections/pricing.twig:205
-msgid "Classifier"
-msgstr "Pengklasifikasi"
-
-#: sections/pricing.twig:213
-msgid "Access to templates is disabled"
-msgstr "Akses ke templat dinonaktifkan"
-
-#: sections/pricing.twig:216
-msgid "Access to all templates"
-msgstr "Akses ke semua templat"
-
-#: sections/pricing.twig:232
-msgid "Priority support"
-msgstr "Dukungan prioritas"
-
-#: sections/pricing.twig:235
-msgid "Basic support"
-msgstr "Dukungan dasar"
+#: sections/pricing.twig:161
+msgid "Not ready to pay? Try the free plan"
+msgstr "Belum siap membayar? Coba paket gratis"
 
 #: sections/speech-to-text.twig:4
-msgid "Speech to Text"
-msgstr "Ucapan ke Teks"
+msgid "Speech to text"
+msgstr "Suara ke teks"
 
 #: sections/speech-to-text.twig:8
 msgctxt "heading"
-msgid "Transforming Spoken <br> Words into Text."
-msgstr "Mengubah Kata-Kata yang Diucapkan <br> Menjadi Teks."
+msgid "Turn recordings into text."
+msgstr "Ubah rekaman menjadi teks."
 
 #: sections/speech-to-text.twig:12
-msgid "Instantly Transcribe Spoken Words into Text for Enhanced Productivity and Accessibility."
-msgstr "Transkripsikan ucapan menjadi teks secara instan untuk meningkatkan produktivitas dan aksesibilitas."
+msgid "Upload a meeting, interview or voice note and get a transcript you can copy and download."
+msgstr "Unggah rekaman rapat, wawancara, atau catatan suara untuk mendapatkan transkrip yang dapat Anda salin dan unduh."
 
-#: sections/speech-to-text.twig:17
+#: sections/speech-to-text.twig:16
 msgctxt "button"
-msgid "Convert now"
-msgstr "Konversi sekarang"
+msgid "Transcribe audio"
+msgstr "Transkripsikan audio"
 
 #: sections/text-to-voice.twig:4
-msgid "Text to Voice"
-msgstr "Teks ke Suara"
+msgid "Text to speech"
+msgstr "Teks ke suara"
 
 #: sections/text-to-voice.twig:8
 msgctxt "heading"
-msgid "Convert your texts into <br> Lifelike Speech"
-msgstr "Ubah teks Anda menjadi <br> Ucapan Alami"
+msgid "Give your words a natural voice."
+msgstr "Beri kata-kata Anda suara yang alami."
 
 #: sections/text-to-voice.twig:12
-msgid "Elevate Your Content with Expressive Narration: Discover Text-to-Voice Excellence."
-msgstr "Tingkatkan Konten Anda dengan Narasi Ekspresif: Temukan Keunggulan Teks ke Suara."
+msgid "Pick a lifelike voice for narration, videos and podcasts."
+msgstr "Pilih suara yang terdengar alami untuk narasi, video, dan podcast."
 
 #: sections/video.twig:11
-msgid "Video"
-msgstr "Video"
+msgid "AI video"
+msgstr "Video AI"
 
 #: sections/video.twig:15
 msgctxt "heading"
-msgid "Generate high-quality videos using AI Video generation tool."
-msgstr "Buat video berkualitas tinggi menggunakan alat pembuatan video AI."
+msgid "Make short videos from a prompt or a photo."
+msgstr "Buat video pendek dari prompt atau foto."
 
 #: sections/video.twig:19
-msgid "No video editing skills required - just upload your images and enter a few lines of prompt, that's it."
-msgstr "Tidak perlu keahlian mengedit video—cukup unggah gambar Anda dan masukkan beberapa baris prompt, selesai."
+msgid "No editing skills needed. Write a few lines, add an image if you like, and the AI does the rest."
+msgstr "Tak perlu keahlian mengedit. Tulis beberapa baris, tambahkan gambar jika mau, dan AI akan mengerjakan sisanya."
+
+#: sections/video.twig:23
+msgctxt "button"
+msgid "Make a video"
+msgstr "Buat video"
 
 #: sections/writer.twig:22
-msgid "AI Writer"
+#: snippets/plan-rows.twig:103
+msgid "AI writer"
 msgstr "Penulis AI"
 
 #: sections/writer.twig:26
 msgctxt "heading"
-msgid "Write SEO optimized blogs, sales emails and more..."
-msgstr "Tulis blog yang dioptimalkan untuk SEO, email penjualan, dan lainnya..."
+msgid "Blog posts, emails and ads, written in minutes."
+msgstr "Postingan blog, email, dan iklan, ditulis dalam hitungan menit."
 
 #: sections/writer.twig:30
-msgid "Achieve superior outcomes in a fraction of the time. At last, a writing tool that you'll genuinely utilize."
-msgstr "Raih hasil yang lebih unggul dalam waktu yang jauh lebih singkat. Akhirnya, alat tulis yang benar-benar akan Anda gunakan."
+msgid "Start from a ready-made template, answer a few questions, and refine the draft in chat until it sounds like you."
+msgstr "Mulai dengan templat siap pakai, jawab beberapa pertanyaan, lalu sempurnakan draf lewat chat hingga terdengar seperti tulisan Anda."
 
-#: sections/writer.twig:35
+#: sections/writer.twig:34
 msgctxt "button"
-msgid "See all features"
-msgstr "Lihat semua fitur"
+msgid "Start writing"
+msgstr "Mulai menulis"
+
+#: snippets/plan-rows.twig:17
+msgid "Unlimited usage"
+msgstr "Penggunaan tanpa batas"
+
+#: snippets/plan-rows.twig:17
+msgid "Unlimited credits"
+msgstr "Kredit tanpa batas"
+
+#: snippets/plan-rows.twig:23
+msgid ":amount of usage"
+msgstr ":amount penggunaan"
+
+#: snippets/plan-rows.twig:24
+msgid ":amount of usage / month"
+msgstr ":amount penggunaan / bulan"
+
+#: snippets/plan-rows.twig:27
+msgid ":count credit"
+msgstr ":count kredit"
+
+#: snippets/plan-rows.twig:28
+msgid ":count credits"
+msgstr ":count kredit"
+
+#: snippets/plan-rows.twig:31
+msgid ":amount / month"
+msgstr ":amount / bulan"
+
+#: snippets/plan-rows.twig:41
+msgid "Unlimited members"
+msgstr "Anggota tanpa batas"
+
+#: snippets/plan-rows.twig:43
+msgid "Just you"
+msgstr "Hanya Anda"
+
+#: snippets/plan-rows.twig:45
+msgid "Up to :count members"
+msgstr "Hingga :count anggota"
+
+#: snippets/plan-rows.twig:63
+msgid "Every AI model"
+msgstr "Setiap model AI"
+
+#: snippets/plan-rows.twig:64
+msgid "1 AI model"
+msgstr "1 model AI"
+
+#: snippets/plan-rows.twig:64
+msgid ":count AI models"
+msgstr ":count model AI"
+
+#: snippets/plan-rows.twig:79
+msgid "Unlimited custom assistants"
+msgstr "Asisten kustom tanpa batas"
+
+#: snippets/plan-rows.twig:79
+msgid ":count custom assistants"
+msgstr ":count asisten kustom"
+
+#: snippets/plan-rows.twig:85
+msgid "Live web search"
+msgstr "Pencarian web langsung"
+
+#: snippets/plan-rows.twig:86
+msgid "Chat with your documents"
+msgstr "Mengobrol dengan dokumen Anda"
+
+#: snippets/plan-rows.twig:87
+msgid "Read any web page"
+msgstr "Membaca halaman web apa pun"
+
+#: snippets/plan-rows.twig:88
+msgid "YouTube insights"
+msgstr "Wawasan YouTube"
+
+#: snippets/plan-rows.twig:89
+msgid "Create media in chat"
+msgstr "Membuat media dalam chat"
+
+#: snippets/plan-rows.twig:90
+msgid "Conversation memory"
+msgstr "Memori percakapan"
+
+#: snippets/plan-rows.twig:91
+msgid "Canvas"
+msgstr "Kanvas"
+
+#: snippets/plan-rows.twig:92
+msgid "Clarifying questions"
+msgstr "Pertanyaan klarifikasi"
+
+#: snippets/plan-rows.twig:93
+msgid "Connectors to your apps"
+msgstr "Konektor ke aplikasi Anda"
+
+#: snippets/plan-rows.twig:104
+msgid "Image generation"
+msgstr "Pembuatan gambar"
+
+#: snippets/plan-rows.twig:105
+msgid "Video generation"
+msgstr "Pembuatan video"
+
+#: snippets/plan-rows.twig:106
+msgid "Voiceover"
+msgstr "Sulih suara"
+
+#: snippets/plan-rows.twig:107
+msgid "Transcription"
+msgstr "Transkripsi"
+
+#: snippets/plan-rows.twig:108
+msgid "Voice isolation"
+msgstr "Isolasi suara"
+
+#: snippets/plan-rows.twig:109
+msgid "Content moderation"
+msgstr "Moderasi konten"
+
+#: snippets/plan-rows.twig:122
+msgid "Unlimited voice clones"
+msgstr "Klon suara tanpa batas"
+
+#: snippets/plan-rows.twig:122
+msgid ":count voice clones"
+msgstr ":count klon suara"
+
+#: snippets/plan-rows.twig:133
+msgid "Unlimited scheduled tasks"
+msgstr "Tugas terjadwal tanpa batas"
+
+#: snippets/plan-rows.twig:133
+msgid ":count scheduled tasks"
+msgstr ":count tugas terjadwal"
+
+#: snippets/plan-rows.twig:140
+msgid "Private mode"
+msgstr "Mode privat"
+
+#: snippets/plan-rows.twig:166
+msgid "Show less"
+msgstr "Tampilkan lebih sedikit"
+
+#: snippets/plan-rows.twig:166
+msgid "Show all features"
+msgstr "Tampilkan semua fitur"
