@@ -1,22 +1,51 @@
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.34.0/tabler-icons.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.52.0/dist/tabler-icons.min.css"/>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+{#
+  Commissioner for headings, Inter for text. Both cover Latin, Cyrillic, Greek
+  and Vietnamese. Scripts they don't cover get a Noto font, loaded only on
+  the locale that needs it; the browser picks it per character, so Latin
+  words in the same line keep Commissioner and Inter.
+#}
+{% set lang = (locale.code ?? 'en-US')|lower %}
+{% set script_fonts = {
+  ar: 'Noto Sans Arabic',
+  he: 'Noto Sans Hebrew',
+  hi: 'Noto Sans Devanagari',
+  ne: 'Noto Sans Devanagari',
+  th: 'Noto Sans Thai',
+  ja: 'Noto Sans JP',
+  ko: 'Noto Sans KR',
+  'zh-cn': 'Noto Sans SC',
+  'zh-tw': 'Noto Sans TC'
+} %}
+{% set script_font = script_fonts[lang] ?? script_fonts[lang|split('-')|first] ?? null %}
+{% set families = ['Commissioner:wght@500;600;700;800', 'Inter:wght@400;500;600;700'] %}
+{% if script_font %}
+  {% set families = families|merge([script_font|replace({' ': '+'}) ~ ':wght@400;500;600;700']) %}
+{% endif %}
+<link href="https://fonts.googleapis.com/css2?family={{ families|join('&family=') }}&display=swap" rel="stylesheet">
+{% set script_stack %}{% if script_font %}'{{ script_font }}', {% endif %}{% endset %}
+
+{# The admin's accent (Settings → Appearance) drives the highlight colour,
+   so the page matches the app without rebuilding the theme. #}
+{% set accent = option.color_scheme.accent.rgb ?? '211 243 107' %}
+{% set accent_content = option.color_scheme.accent_content.rgb ?? '36 40 44' %}
 
 <style>
     :root {
       /* Typography */
-      --font-family-primary: 'Inter', sans-serif;
-      --font-family-secondary: 'Inter', sans-serif;
+      --font-family-primary: 'Inter', {{ script_stack }}system-ui, sans-serif;
+      --font-family-secondary: 'Commissioner', {{ script_stack }}system-ui, sans-serif;
 
       /* Theme colors */
       --color-primary: 36 40 44;
       --color-secondary: 90 93 96;
       --color-tertiary: 172 174 175;
-      --color-accent: 36 40 44;
+      --color-accent: {{ accent_content }};
       --color-contrast-primary: 255 255 255;
       --color-contrast-secondary: 245 246 246;
-      --color-contrast-accent: 211 243 107;
+      --color-contrast-accent: {{ accent }};
       --color-line-primary: 200 201 202;
       --color-line-secondary: 227 228 228;
       --color-line-tertiary: 245 246 246;
@@ -36,6 +65,6 @@
       --color-line-primary: 145 147 149;
       --color-line-secondary: 118 120 123;
       --color-line-tertiary: 63 66 70;
-      --color-line-accent: 211 243 107;
+      --color-line-accent: {{ accent }};
     }
   </style>

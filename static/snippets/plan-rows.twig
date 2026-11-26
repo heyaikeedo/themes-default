@@ -1,0 +1,169 @@
+{#
+  What a plan includes, as the app's plans page lists it
+  (resources/assets/js/app/plan-features.js in Aikeedo): allowance, members,
+  models, chat and its tools, apps, caps, private mode, then the admin's own
+  feature list. Only what this installation has switched on is listed.
+
+  Expects: plan, models (optional, the catalog the landing page passes),
+  limit (rows shown before "Show all features").
+#}
+{% set c = plan.config ?? {} %}
+{% set f = option.features ?? {} %}
+{% set mode = option.billing.usage_mode ?? 'unpaced' %}
+{% set rows = [] %}
+
+{# Allowance #}
+{% if plan.credit_count is null %}
+  {% set label = mode == 'session' ? d__('theme', 'Unlimited usage') : d__('theme', 'Unlimited credits') %}
+{% else %}
+  {% if mode == 'session' %}
+    {% set per = (option.billing.credits_per_currency ?? 1) ?: 1 %}
+    {% set amount = (plan.credit_count / per)|format_currency(currency.code ?? 'USD') %}
+    {% set label = plan.billing_cycle == 'one-time'
+      ? d__('theme', ':amount of usage')|replace({':amount': amount})
+      : d__('theme', ':amount of usage / month')|replace({':amount': amount}) %}
+  {% else %}
+    {% set amount = plan.credit_count == 1
+      ? d__('theme', ':count credit')|replace({':count': plan.credit_count|format_number})
+      : d__('theme', ':count credits')|replace({':count': plan.credit_count|format_number}) %}
+    {% set label = plan.billing_cycle == 'one-time'
+      ? amount
+      : d__('theme', ':amount / month')|replace({':amount': amount}) %}
+  {% endif %}
+{% endif %}
+{% set rows = rows|merge([{icon: 'sparkles', label: label, strong: true, included: true}]) %}
+
+{# Credit packs top up a subscription; members and tools come from it. #}
+{% if plan.billing_cycle != 'one-time' %}
+
+  {# Members #}
+  {% if plan.member_cap is null %}
+    {% set label = d__('theme', 'Unlimited members') %}
+  {% elseif plan.member_cap == 1 %}
+    {% set label = d__('theme', 'Just you') %}
+  {% else %}
+    {% set label = d__('theme', 'Up to :count members')|replace({':count': plan.member_cap}) %}
+  {% endif %}
+  {% set rows = rows|merge([{icon: 'users', label: label, included: true}]) %}
+
+  {# Models, counted from those users can pick #}
+  {% if models is defined and models is iterable %}
+    {% set granted = c.models ?? null %}
+    {% set included = granted is null ? models : models|filter(m => granted[m.key] ?? false) %}
+
+    {% if included|length > 0 %}
+      {% set names = [] %}
+      {% for m in included %}
+        {% if m.name not in names %}{% set names = names|merge([m.name]) %}{% endif %}
+      {% endfor %}
+
+      {% set rows = rows|merge([{
+        icon: 'brain',
+        label: granted is null
+          ? d__('theme', 'Every AI model')
+          : (included|length == 1 ? d__('theme', '1 AI model') : d__('theme', ':count AI models')|replace({':count': included|length})),
+        hint: names|slice(0, 12)|join(', ') ~ (names|length > 12 ? ' …' : ''),
+        included: true
+      }]) %}
+    {% endif %}
+  {% endif %}
+
+  {# Chat and its tools #}
+  {% if (f.chat.is_enabled ?? false) and (c.chat.is_enabled ?? false) %}
+    {% set rows = rows|merge([{icon: 'message-circle', label: d__('theme', 'AI chat'), included: true}]) %}
+
+    {% set cap = c.chat.custom_assistants_cap ?? null %}
+    {% if cap is null or cap > 0 %}
+      {% set rows = rows|merge([{
+        icon: 'robot',
+        label: cap is null ? d__('theme', 'Unlimited custom assistants') : d__('theme', ':count custom assistants')|replace({':count': cap}),
+        included: true
+      }]) %}
+    {% endif %}
+
+    {% for key, tool in {
+      web_search: ['world-search', d__('theme', 'Live web search')],
+      embedding_search: ['file-text-ai', d__('theme', 'Chat with your documents')],
+      web_scrap: ['world-www', d__('theme', 'Read any web page')],
+      youtube: ['brand-youtube', d__('theme', 'YouTube insights')],
+      generate_media: ['sparkles', d__('theme', 'Create media in chat')],
+      memory: ['database', d__('theme', 'Conversation memory')],
+      canvas: ['layout-sidebar-right-expand', d__('theme', 'Canvas')],
+      ask_questions: ['help-circle', d__('theme', 'Clarifying questions')],
+      connectors: ['plug-connected', d__('theme', 'Connectors to your apps')]
+    } %}
+      {% if (f.tools[key].is_enabled ?? false) and (c.tools[key] ?? false) %}
+        {% set rows = rows|merge([{icon: tool[0], label: tool[1], included: true}]) %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+
+  {# Apps #}
+  {% for key, app in {
+    writer: ['writing', d__('theme', 'AI writer')],
+    imagine: ['photo', d__('theme', 'Image generation')],
+    video: ['movie', d__('theme', 'Video generation')],
+    voiceover: ['microphone', d__('theme', 'Voiceover')],
+    transcriber: ['text-recognition', d__('theme', 'Transcription')],
+    voice_isolator: ['wave-sine', d__('theme', 'Voice isolation')],
+    classifier: ['shield-check', d__('theme', 'Content moderation')]
+  } %}
+    {% if (f[key].is_enabled ?? false) and (c[key].is_enabled ?? false) %}
+      {% set rows = rows|merge([{icon: app[0], label: app[1], included: true}]) %}
+    {% endif %}
+  {% endfor %}
+
+  {# Caps #}
+  {% if (f.voiceover.is_enabled ?? false) and (c.voiceover.is_enabled ?? false) %}
+    {% set cap = c.voiceover.clone_cap ?? null %}
+    {% if cap is null or cap > 0 %}
+      {% set rows = rows|merge([{
+        icon: 'copy',
+        label: cap is null ? d__('theme', 'Unlimited voice clones') : d__('theme', ':count voice clones')|replace({':count': cap}),
+        included: true
+      }]) %}
+    {% endif %}
+  {% endif %}
+
+  {% if f.routines.is_enabled ?? false %}
+    {% set cap = c.routines.cap ?? null %}
+    {% if cap is null or cap > 0 %}
+      {% set rows = rows|merge([{
+        icon: 'clock-play',
+        label: cap is null ? d__('theme', 'Unlimited scheduled tasks') : d__('theme', ':count scheduled tasks')|replace({':count': cap}),
+        included: true
+      }]) %}
+    {% endif %}
+  {% endif %}
+
+  {% if (f.private_mode.is_enabled ?? false) and (c.private_mode ?? false) %}
+    {% set rows = rows|merge([{icon: 'eye-off', label: d__('theme', 'Private mode'), included: true}]) %}
+  {% endif %}
+{% endif %}
+
+{# The admin's own list #}
+{% for li in plan.feature_list ?? [] %}
+  {% set rows = rows|merge([{icon: li.is_included ? 'check' : 'x', label: li.title, included: li.is_included}]) %}
+{% endfor %}
+
+{% set limit = limit ?? 8 %}
+
+<ul class="flex flex-col gap-2.5 text-sm">
+  {% for row in rows %}
+  <li class="flex items-start gap-2 {{ row.included ? '' : 'text-tertiary' }}"
+    {% if loop.index > limit %}x-show="expanded" x-cloak{% endif %}>
+    <i class="ti ti-{{ row.icon }} text-base mt-0.5 shrink-0"></i>
+    <span class="{{ row.strong ?? false ? 'font-semibold' : '' }} {{ row.included ? '' : 'line-through' }}"
+      {% if row.hint ?? false %}title="{{ row.hint }}"{% endif %}>{{ row.label }}</span>
+  </li>
+  {% endfor %}
+</ul>
+
+{% if rows|length > limit %}
+<button type="button"
+  class="flex items-center gap-1 mt-4 text-xs font-semibold text-secondary hover:text-primary"
+  @click="expanded = !expanded">
+  <span x-text="expanded ? '{{ d__('theme', 'Show less')|e('js') }}' : '{{ d__('theme', 'Show all features')|e('js') }}'">{{ d__('theme', 'Show all features') }}</span>
+  <i class="ti" :class="expanded ? 'ti-chevron-up' : 'ti-chevron-down'"></i>
+</button>
+{% endif %}

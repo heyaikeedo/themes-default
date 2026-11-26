@@ -1,23 +1,37 @@
-<div id="product">
-	<h2 class="text-center enter">
-		{{ dp__('theme', 'heading', 'Meet your ultimate') }}
+{#
+  One showcase per tool, shown only when the admin has switched that tool on
+  (Settings → Features).
+#}
+{% set f = option.features ?? {} %}
+{% set chat = f.chat.is_enabled ?? false %}
+{% set imagine = f.imagine.is_enabled ?? false %}
+{% set video = f.video.is_enabled ?? false %}
+{% set writer = (f.writer.is_enabled ?? false) and chat %}
+{% set transcriber = f.transcriber.is_enabled ?? false %}
+{% set voiceover = f.voiceover.is_enabled ?? false %}
 
-		<div class="from-[#D3F36B] to-[#6BAAF3] bg-gradient-to-r bg-clip-text">
-			{{ dp__('theme', 'heading', 'AI-Powered Content Platform') }}
-		</div>
-	</h2>
+{% if chat or imagine or video or writer or transcriber or voiceover %}
+<section id="product" class="scroll-mt-10">
+  <div class="text-center enter">
+    <h2>{{ dp__('theme', 'heading', 'Every AI tool you need,') }}</h2>
+    <h2 class="text-secondary">{{ dp__('theme', 'heading', 'in one place') }}</h2>
+  </div>
 
-	<div class="flex flex-col gap-6 mt-6 md:mt-12 md:gap-10">
-		{% include "@theme/sections/chat.twig" %}
-		{% include "@theme/sections/image.twig" %}
-		{% include "@theme/sections/video.twig" %}
-		{% include "@theme/sections/writer.twig" %}
-		{% include "@theme/sections/presets.twig" %}
-		{% include "@theme/sections/code.twig" %}
+  <div class="flex flex-col gap-6 mt-6 md:mt-10 md:gap-10">
+    {% if chat %}{% include "@theme/sections/chat.twig" %}{% endif %}
+    {% if imagine %}{% include "@theme/sections/image.twig" %}{% endif %}
+    {% if video %}{% include "@theme/sections/video.twig" %}{% endif %}
+    {% if writer %}
+      {% include "@theme/sections/writer.twig" %}
+      {% include "@theme/sections/presets.twig" %}
+    {% endif %}
 
-		<div class="grid gap-5 md:gap-12 md:grid-cols-2 enter">
-			{% include "@theme/sections/speech-to-text.twig" %}
-			{% include "@theme/sections/text-to-voice.twig" %}
-		</div>
-	</div>
-</div>
+    {% if transcriber or voiceover %}
+    <div class="grid gap-6 md:gap-10 enter {{ transcriber and voiceover ? 'md:grid-cols-2' : '' }}">
+      {% if transcriber %}{% include "@theme/sections/speech-to-text.twig" %}{% endif %}
+      {% if voiceover %}{% include "@theme/sections/text-to-voice.twig" %}{% endif %}
+    </div>
+    {% endif %}
+  </div>
+</section>
+{% endif %}

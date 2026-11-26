@@ -12,12 +12,13 @@ customElements.define('mode-switcher', ModeSwitcher);
 customElements.define('x-money', MoneyElement);
 customElements.define('x-credit', CreditElement);
 
-Alpine.data('pricing', () => ({
-    cycle: null,
-
-    init() {
-        this.cycle = this.$refs.cycles.querySelector('button').dataset.cycle;
-    }
+// Pricing: the billing cycle on show, and whether every card lists all of
+// its features (they open together so cards stay side by side), and
+// whether the plans past the first three are on show.
+Alpine.data('pricing', (cycle = 'monthly') => ({
+    cycle,
+    expanded: false,
+    showAll: false,
 }));
 
 Alpine.start();

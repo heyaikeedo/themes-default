@@ -1,0 +1,6 @@
+{# A showcase button: straight to the tool for signed-in users, to sign-up
+   for everyone else. Expects: path (e.g. /app/chat), label. #}
+<a href="{{ user is defined ? path : '/signup' }}" class="gap-4 button button-primary">
+  {{ label }}
+  <i class="text-2xl ti ti-arrow-right"></i>
+</a>

@@ -45,6 +45,28 @@ default/
     └── release.mjs    # Release creation
 ```
 
+## What follows your Aikeedo settings
+
+The landing page is built from the installation's own settings, so most
+changes need no rebuild:
+
+- **Logo and colours.** The header, footer and the dashboard preview in the
+  hero use the logos from Settings → Logo. The highlight colour comes from
+  the accent colour in Settings → Appearance.
+- **Tools.** The dashboard preview draws the app's sidebar from the same nav
+  sections the app uses (Library, Models, Scheduled, Build, Apps). Each showcase section only appears when
+  its tool is enabled, and feature cards follow their settings.
+- **Pricing.** Plan cards list what each plan includes the way the app's
+  plans page does: credits, members, AI models, chat tools, apps, caps, and
+  the plan's own feature list. Like the plans page, it shows three cards per
+  tab with "See all plans" for the rest, and offers a single free plan as a
+  link below the cards. Credit packs stay in the app; lifetime plans show
+  only when no monthly or yearly plan is on sale. The page receives `plans`
+  and `models` (the models users can pick) from Aikeedo.
+- **Fonts.** Commissioner (headings) and Inter (text) cover Latin, Cyrillic,
+  Greek and Vietnamese. For Arabic, Hebrew, Hindi, Nepali, Thai, Japanese,
+  Korean and Chinese the matching Noto font is loaded on that locale only.
+
 ## Prerequisites
 
 - Node.js 18+ and npm (for asset building)

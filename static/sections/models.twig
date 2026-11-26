@@ -1,0 +1,65 @@
+{# The AI behind the app: each developer whose models users can pick, from
+   the model catalog the landing page passes. #}
+{% if models is defined and models|length > 0 %}
+  {# Keyed case-insensitively: providers sometimes spell a developer
+     differently ("OpenAI", "Openai"). The first spelling wins. #}
+  {% set seen = {} %}
+  {% set developers = {} %}
+  {# Developers whose models come through a hub are often named without a
+     logo; these are the ones the app ships an icon for. #}
+  {% set known = {
+    alibaba: 'alibaba', anthropic: 'anthropic', azure: 'azure',
+    blackforestlabs: 'bfl', bytedance: 'bytedance', cohere: 'cohere',
+    deepseek: 'deepseek', elevenlabs: 'elevenlabs', google: 'google',
+    kuaishouaiteam: 'kling', kling: 'kling', luma: 'luma', lumaai: 'luma',
+    meta: 'meta', minimax: 'minimax', mistral: 'mistral', mistralai: 'mistral',
+    moonshot: 'moonshot', moonshotai: 'moonshot', openai: 'openai',
+    perplexity: 'perplexity', pika: 'pika', reve: 'reve',
+    stabilityai: 'stabilityai', tencent: 'hunyuan', hunyuan: 'hunyuan',
+    xai: 'xai', zai: 'zai', 'z.ai': 'zai', zhipuai: 'zai', decart: 'decart'
+  } %}
+  {% for m in models %}
+    {% set id = m.developer|lower|replace({' ': '', '-': ''}) %}
+    {% if m.developer|trim != '' and seen[id] is not defined %}
+      {% set seen = seen|merge({(id): true}) %}
+      {% set icon = m.icon ?: (known[id] is defined ? '/assets/icons/monochrome/' ~ known[id] ~ '.svg' : null) %}
+      {% set developers = developers|merge({(m.developer): icon}) %}
+    {% endif %}
+  {% endfor %}
+
+  {# Those with a logo first, so the strip reads as logos. #}
+  {% set with_icon = developers|filter(icon => icon) %}
+  {% set without_icon = developers|filter(icon => not icon) %}
+  {% set developers = with_icon|merge(without_icon) %}
+
+  {% macro logos(developers) %}
+    <ul class="flex items-center shrink-0 gap-12 pr-12">
+      {% for developer, icon in developers %}
+      <li class="flex items-center gap-2.5 text-lg font-semibold whitespace-nowrap text-secondary">
+        {% if icon %}
+        <span class="w-6 h-6 bg-current shrink-0"
+          style="-webkit-mask: url('{{ icon }}') center / contain no-repeat; mask: url('{{ icon }}') center / contain no-repeat;"></span>
+        {% else %}
+        <i class="text-2xl ti ti-sparkles shrink-0"></i>
+        {% endif %}
+        {{ developer }}
+      </li>
+      {% endfor %}
+    </ul>
+  {% endmacro %}
+
+  <section class="enter">
+    <p class="text-sm font-medium text-center text-secondary">
+      {{ d__('theme', 'Powered by the leading AI models') }}
+    </p>
+
+    {# Two copies side by side, sliding by one copy's width, so the loop has
+       no seam. The mask fades both ends into the page background. #}
+    <div class="relative flex max-w-5xl mx-auto mt-6 overflow-hidden marquee [mask-image:linear-gradient(to_right,transparent,black_12%,black_88%,transparent)]">
+      <div class="flex marquee-track">
+        {{ _self.logos(developers) }}
+        <div aria-hidden="true" class="flex">{{ _self.logos(developers) }}</div>
+      </div>
+    </div>
+  </section>
+{% endif %}

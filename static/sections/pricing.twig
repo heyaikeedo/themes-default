@@ -1,256 +1,166 @@
-<div x-data="pricing" id="pricing">
-  <div class="text-center">
-    <h2>{{ dp__('theme', 'heading', 'Pricing') }}</h2>
+{#
+  The plans, laid out like the app's own plans page (app/billing/plans):
+  monthly and yearly tabs, three cards at a time around the featured plan
+  with "See all plans" for the rest, and a free plan offered as a link
+  below rather than taking a card. Credit packs top up a subscription, so
+  they stay in the app. Lifetime plans show only when nothing recurring is
+  on sale.
+#}
+{% set cycles = {
+  monthly: dp__('theme', 'button', 'Monthly'),
+  yearly: dp__('theme', 'button', 'Yearly')
+} %}
+{% set free = plans|filter(p => p.price == 0 and p.billing_cycle in ['monthly', 'yearly']) %}
+{% set free_plan = free|length == 1 ? free|first : null %}
+{% set listed = plans|filter(p => p.billing_cycle in ['monthly', 'yearly'] and (free_plan is null or p.id != free_plan.id)) %}
+{% if listed|length == 0 %}
+  {% set cycles = {lifetime: dp__('theme', 'button', 'Lifetime')} %}
+  {% set listed = plans|filter(p => p.billing_cycle == 'lifetime') %}
+{% endif %}
 
-    <p class="mx-auto mt-6 max-w-md">
-      {{ d__('theme', 'Discover the perfect plan to suit your needs and unlock a world of possibilities.')  }}
+{% set present = [] %}
+{% set shown = [] %}
+{% set more = [] %}
+{% for key, label in cycles %}
+  {% set list = listed|filter(p => p.billing_cycle == key) %}{% set list = list is empty ? [] : list|slice(0) %}
+  {% if list|length > 0 %}
+    {% set present = present|merge([key]) %}
+
+    {# Three cards, the featured one in the middle when it can be. #}
+    {% set featured = 0 %}
+    {% for p in list %}{% if p.is_featured and featured == 0 %}{% set featured = loop.index0 %}{% endif %}{% endfor %}
+    {% set start = max(0, min(featured - 1, list|length - 3)) %}
+    {% for p in list|slice(start, 3) %}{% set shown = shown|merge([p.id]) %}{% endfor %}
+    {% if list|length > 3 %}{% set more = more|merge([key]) %}{% endif %}
+  {% endif %}
+{% endfor %}
+{% set trial_days = option.billing.trial_period_days ?? 0 %}
+
+{% if present|length > 0 or free_plan %}
+<section x-data="pricing('{{ present|length > 0 ? present|first : 'monthly' }}')" id="pricing" class="scroll-mt-10">
+  <div class="text-center enter">
+    <h2>{{ dp__('theme', 'heading', 'Simple, transparent pricing') }}</h2>
+
+    <p class="max-w-xl mx-auto mt-4 md:text-lg text-secondary">
+      {{ d__('theme', 'Pick a plan that fits how you work. Upgrade, downgrade or cancel at any time.') }}
     </p>
   </div>
 
+  {% if present|length > 1 %}
   <div class="flex justify-center mt-8">
-    <div class="flex gap-1 items-center p-0.5 rounded-full bg-line-tertiary"
-      x-ref="cycles">
-      {% if plans|filter(p => p.billing_cycle == 'monthly')|length > 0 %}
-      <button type="button" class="px-6 py-3 text-sm font-medium rounded-full"
-        data-cycle="monthly" :class="{
-          'bg-contrast-primary': cycle=='monthly',
-          'shadow': cycle=='monthly'
-        }"
-        @click="cycle='monthly'">{{ dp__('theme', 'button', 'Monthly') }}</button>
-      {% endif %}
-
-      {% if plans|filter(p => p.billing_cycle == 'yearly')|length > 0 %}
-      <button type="button" class="px-6 py-3 text-sm font-medium rounded-full"
-        data-cycle="yearly" :class="{
-          'bg-contrast-primary': cycle=='yearly',
-          'shadow': cycle=='yearly'
-        }"
-        @click="cycle='yearly'">{{ dp__('theme', 'button', 'Yearly') }}</button>
-      {% endif %}
-
-      {% if plans|filter(p => p.billing_cycle == 'one-time')|length > 0 %}
-      <button type="button" class="px-6 py-3 text-sm font-medium rounded-full"
-        data-cycle="one-time" :class="{
-          'bg-contrast-primary': cycle=='one-time',
-          'shadow': cycle=='one-time'
-        }"
-        @click="cycle='one-time'">{{ dp__('theme', 'button', 'Packs') }}</button>
-      {% endif %}
-
-      {% if plans|filter(p => p.billing_cycle == 'lifetime')|length > 0 %}
-      <button type="button" class="px-6 py-3 text-sm font-medium rounded-full"
-        data-cycle="lifetime" :class="{
-          'bg-contrast-primary': cycle=='lifetime',
-          'shadow': cycle=='lifetime'
-        }"
-        @click="cycle='lifetime'">{{ dp__('theme', 'button', 'Lifetime Deals') }}</button>
-      {% endif %}
+    <div class="flex items-center gap-1 p-1 rounded-full bg-line-tertiary" role="tablist">
+      {% for key in present %}
+      <button type="button" role="tab" class="px-5 py-2.5 text-sm font-medium rounded-full transition-colors"
+        :class="cycle == '{{ key }}' ? 'bg-contrast-primary shadow' : 'text-secondary hover:text-primary'"
+        :aria-selected="cycle == '{{ key }}'"
+        @click="cycle = '{{ key }}'">{{ cycles[key] }}</button>
+      {% endfor %}
     </div>
   </div>
+  {% endif %}
 
-  <div class="grid gap-12 mt-8 lg:mt-16 lg:grid-cols-2 xl:grid-cols-3" x-cloak>
-    {% for plan in plans %}
-    <div
-      class="enter p-[10px] rounded-4xl bg-contrast-secondary flex {% if plan.is_featured %}bg-gradient-to-br from-[#E7FF9B] to-[#CFE6FF]{% endif %}"
-      x-show="`{{ plan.billing_cycle }}` == cycle">
-      <div class="p-8 w-full rounded-3xl bg-contrast-primary">
-        <div class="flex justify-between items-center">
-          {% if plan.icon %}
-          <div
-            class="flex items-center justify-center w-12 h-12 rounded-full shadow-md [&_svg]:w-8 [&_svg]:h-8">
-            {% if plan.icon starts with '<svg'  %}
-            {{ plan.icon | raw }}
-            {% else %}
-            <i class="ti ti-{{ plan.icon }} text-3xl"></i>
-            {% endif %}
-          </div>
-          {% endif %}
+  <div class="flex flex-wrap items-stretch justify-center gap-6 mt-6 md:gap-10 md:mt-10">
+    {% for plan in listed %}
+    {% set price = plan.sale_price is not null and plan.sale_price < plan.price ? plan.sale_price : plan.price %}
+    {% set recurring = plan.billing_cycle in ['monthly', 'yearly'] %}
 
-          {% if plan.is_featured %}
-          <div class="relative">
-            <div
-              class="absolute top-1 left-1 w-full h-full rounded-lg bg-[#E7FF9B] flex bg-gradient-to-br from-[#E7FF9B] to-[#CFE6FF]">
-            </div>
+    <div class="relative flex flex-col w-full p-7 border rounded-3xl bg-contrast-primary md:w-[calc(50%-20px)] lg:w-[calc(33.333%-27px)]
+      {{ plan.is_featured ? 'border-transparent ring-2 ring-primary shadow-xl' : 'border-line-secondary dark:border-line-tertiary' }}"
+      x-show="cycle == '{{ plan.billing_cycle }}'{{ plan.id in shown ? '' : ' && showAll' }}"
+      {% if plan.billing_cycle != present|first or plan.id not in shown %}x-cloak{% endif %}>
 
-            <div
-              class="p-0.5 rounded-lg bg-[#E7FF9B] flex bg-gradient-to-br from-[#E7FF9B] to-[#CFE6FF] font-bold relative text-accent">
-              <span class="bg-[#E7FF9B] rounded-md py-1 px-2">
-                {{ d__('theme', 'Most Popular') }}
-              </span>
-            </div>
+      {% if plan.is_featured %}
+      <span class="absolute top-0 px-3 py-1 text-xs font-bold -translate-x-1/2 -translate-y-1/2 rounded-full left-1/2 whitespace-nowrap bg-contrast-accent text-accent">
+        {{ d__('theme', 'Most popular') }}
+      </span>
+      {% endif %}
 
-          </div>
+      <div class="flex items-center gap-3">
+        {% if plan.icon %}
+        <div class="flex items-center justify-center w-10 h-10 rounded-full shrink-0 bg-contrast-secondary [&_svg]:w-6 [&_svg]:h-6">
+          {% if plan.icon starts with '<svg' %}
+          {{ plan.icon|raw }}
+          {% else %}
+          <i class="text-2xl ti ti-{{ plan.icon }}"></i>
           {% endif %}
         </div>
-
-        <h3 class="mt-6">{{ plan.title }}</h3>
-
-        {% if plan.description is not empty %}
-        <p class="text-tertiary">{{ plan.description }}</p>
         {% endif %}
 
-        <div class="mt-8">
-          <x-money class="text-4xl money" data-value="{{ plan.price }}"
-            currency="{{ currency.code }}"
-            minor-units="{{ currency.fraction_digits }}" fraction="auto">
-          </x-money>
+        <div class="min-w-0">
+          <div class="text-lg font-bold">{{ plan.title }}</div>
+          {% if plan.description is not empty %}
+          <p class="text-sm text-secondary">{{ plan.description }}</p>
+          {% endif %}
+        </div>
+      </div>
 
-          <span class="text-tertiary">/{{ plan.billing_cycle }}</span>
+      <div class="mt-6">
+        <div class="flex flex-wrap items-baseline gap-x-2">
+          {% if price != plan.price %}
+          <x-money class="line-through text-tertiary" data-value="{{ plan.price }}"
+            currency="{{ currency.code }}" minor-units="{{ currency.fraction_digits }}" fraction="auto"></x-money>
+          {% endif %}
+
+          {% if price == 0 %}
+          <span class="text-4xl font-bold">{{ d__('theme', 'Free') }}</span>
+          {% else %}
+          <x-money class="text-4xl font-bold money" data-value="{{ price }}"
+            currency="{{ currency.code }}" minor-units="{{ currency.fraction_digits }}" fraction="auto"></x-money>
+          {% endif %}
+
+          <span class="text-sm text-secondary {{ price == 0 ? 'hidden' : '' }}">
+            {% if plan.billing_cycle == 'monthly' %}{{ d__('theme', '/ month') }}
+            {% elseif plan.billing_cycle == 'yearly' %}{{ d__('theme', '/ year') }}
+            {% elseif plan.billing_cycle == 'lifetime' %}{{ d__('theme', 'lifetime') }}
+            {% else %}{{ d__('theme', 'one-time') }}{% endif %}
+          </span>
         </div>
 
-        <a href="/app/billing/checkout/{{ plan.id }}" class="flex mt-8 button">
+        <div class="mt-1 text-xs text-secondary min-h-4">
+          {% if plan.billing_cycle == 'yearly' and price > 0 %}
+            <x-money data-value="{{ (price / 12)|round }}" currency="{{ currency.code }}"
+              minor-units="{{ currency.fraction_digits }}" fraction="auto"></x-money>
+            {{ d__('theme', 'per month, billed yearly') }}
+          {% elseif plan.billing_cycle == 'lifetime' %}
+            {{ d__('theme', 'Pay once. Allowance refreshes every month.') }}
+          {% elseif plan.billing_cycle == 'one-time' %}
+            {{ d__('theme', 'Extra credits on top of your plan.') }}
+          {% endif %}
+        </div>
+      </div>
+
+      <a href="/app/billing/checkout/{{ plan.id }}"
+        class="w-full mt-6 button {{ plan.is_featured ? '' : 'button-outline' }}">
+        {% if recurring and price > 0 and trial_days > 0 and user is not defined %}
+          {{ dp__('theme', 'button', 'Start :days-day free trial')|replace({':days': trial_days}) }}
+        {% elseif price == 0 %}
+          {{ dp__('theme', 'button', 'Start for free') }}
+        {% else %}
           {{ dp__('theme', 'button', 'Get started') }}
-        </a>
+        {% endif %}
+      </a>
 
-        <ul class="flex flex-col gap-4 mt-12">
-          {% if plan.billing_cycle != 'one-time' and option.features.chat.is_enabled is defined and option.features.chat.is_enabled %}
-          <li
-            class="flex items-center gap-2 font-semibold {{ plan.config.chat.is_enabled ? '' : 'text-tertiary' }}">
-            {% if plan.config.chat.is_enabled %}
-            <i class="text-2xl ti ti-square-rounded-check-filled"></i>
-            {% else %}
-            <i class="text-2xl ti ti-square-rounded-x"></i>
-            {% endif %}
-
-            {{ d__('theme', 'Chat') }}
-
-            {% if plan.config.chat.is_enabled %}
-            <div
-              class="p-0.5 rounded-lg bg-[#E7FF9B] flex bg-gradient-to-br from-[#E7FF9B] to-[#CFE6FF] font-bold relative text-accent">
-            </div>
-            {% endif %}
-          </li>
-          {% endif %}
-
-          {% if plan.billing_cycle != 'one-time' and option.features.writer.is_enabled is defined and option.features.writer.is_enabled %}
-          <li
-            class="flex items-center gap-2 font-semibold {{ plan.config.writer.is_enabled ? '' : 'text-tertiary' }}">
-            {% if plan.config.writer.is_enabled %}
-            <i class="text-2xl ti ti-square-rounded-check-filled"></i>
-            {% else %}
-            <i class="text-2xl ti ti-square-rounded-x"></i>
-            {% endif %}
-
-            {{ d__('theme', 'Writer') }}
-
-            {% if plan.config.writer.is_enabled %}
-            <div
-              class="p-0.5 rounded-lg bg-[#E7FF9B] flex bg-gradient-to-br from-[#E7FF9B] to-[#CFE6FF] font-bold relative text-accent">
-            </div>
-            {% endif %}
-          </li>
-          {% endif %}
-
-          {% if plan.billing_cycle != 'one-time' and option.features.imagine.is_enabled is defined and option.features.imagine.is_enabled %}
-          <li
-            class="flex items-center gap-2 font-semibold {{ plan.config.imagine.is_enabled ? '' : 'text-tertiary' }}">
-            {% if plan.config.imagine.is_enabled %}
-            <i class="text-2xl ti ti-square-rounded-check-filled"></i>
-            {% else %}
-            <i class="text-2xl ti ti-square-rounded-x"></i>
-            {% endif %}
-
-            {{ d__('theme', 'Image generator') }}
-          </li>
-          {% endif %}
-
-          {% if plan.billing_cycle != 'one-time' and option.features.transcriber.is_enabled is defined and option.features.transcriber.is_enabled %}
-          <li
-            class="flex items-center gap-2 font-semibold {{ plan.config.transcriber.is_enabled ? '' : 'text-tertiary' }}">
-            {% if plan.config.transcriber.is_enabled %}
-            <i class="text-2xl ti ti-square-rounded-check-filled"></i>
-            {% else %}
-            <i class="text-2xl ti ti-square-rounded-x"></i>
-            {% endif %}
-
-            {{ d__('theme', 'Transcriber') }}
-          </li>
-          {% endif %}
-
-          {% if plan.billing_cycle != 'one-time' and option.features.voiceover.is_enabled is defined and option.features.voiceover.is_enabled %}
-          <li
-            class="flex items-center gap-2 font-semibold {{ plan.config.voiceover.is_enabled ? '' : 'text-tertiary' }}">
-            {% if plan.config.voiceover.is_enabled %}
-            <i class="text-2xl ti ti-square-rounded-check-filled"></i>
-            {% else %}
-            <i class="text-2xl ti ti-square-rounded-x"></i>
-            {% endif %}
-
-            {{ d__('theme', 'Voiceover') }}
-          </li>
-          {% endif %}
-
-          {% if plan.billing_cycle != 'one-time' and option.features.voice_isolator.is_enabled is defined and option.features.voice_isolator.is_enabled %}
-          <li
-            class="flex items-center gap-2 font-semibold {{ plan.config.voice_isolator.is_enabled ? '' : 'text-tertiary' }}">
-            {% if plan.config.voice_isolator.is_enabled %}
-            <i class="text-2xl ti ti-square-rounded-check-filled"></i>
-            {% else %}
-            <i class="text-2xl ti ti-square-rounded-x"></i>
-            {% endif %}
-
-            {{ d__('theme', 'Voice isolator') }}
-          </li>
-          {% endif %}
-
-          {% if plan.billing_cycle != 'one-time' and option.features.classifier.is_enabled is defined and option.features.classifier.is_enabled %}
-          <li
-            class="flex items-center gap-2 font-semibold {{ plan.config.classifier.is_enabled ? '' : 'text-tertiary' }}">
-            {% if plan.config.classifier.is_enabled %}
-            <i class="text-2xl ti ti-square-rounded-check-filled"></i>
-            {% else %}
-            <i class="text-2xl ti ti-square-rounded-x"></i>
-            {% endif %}
-
-            {{ d__('theme', 'Classifier') }}
-          </li>
-          {% endif %}
-
-          {% if plan.billing_cycle != 'one-time' %}
-          <li class="flex gap-2 items-center font-semibold">
-            {% if plan.credit_count == 0 and plan.credit_count is not null %}
-            <i class="text-2xl ti ti-square-rounded-x text-tertiary"></i>
-            {{ d__('theme', 'Access to templates is disabled') }}
-            {% else %}
-            <i class="text-2xl ti ti-square-rounded-check-filled"></i>
-            {{ d__('theme', 'Access to all templates') }}
-            {% endif %}
-          </li>
-          {% endif %}
-
-          <li class="flex gap-2 items-center font-semibold">
-            <i class="text-2xl ti ti-square-rounded-check-filled"></i>
-
-            <x-credit data-value="{{ plan.credit_count }}"
-              format="{{ __(":count credits") }}"></x-credit>
-          </li>
-
-          {% if plan.billing_cycle != 'one-time' %}
-          <li class="flex gap-2 items-center font-semibold">
-            {% if plan.price > 0  %}
-            <i class="text-2xl ti ti-square-rounded-check-filled"></i>
-            {{ d__('theme', 'Priority support')  }}
-            {% else %}
-            <i class="text-2xl ti ti-square-rounded-check-filled"></i>
-            {{ d__('theme', 'Basic support')  }}
-            {% endif %}
-          </li>
-          {% endif %}
-
-          {% for li in plan.feature_list %}
-          <li class="flex gap-2 items-center font-semibold">
-            {% if li.is_included %}
-            <i class="text-2xl ti ti-square-rounded-check-filled"></i>
-            {% else %}
-            <i class="text-2xl ti ti-square-rounded-x text-tertiary"></i>
-            {% endif %}
-
-            {{ li.title  }}
-          </li>
-          {% endfor %}
-        </ul>
+      <div class="pt-6 mt-6 border-t border-line-secondary dark:border-line-tertiary">
+        {% include "@theme/snippets/plan-rows.twig" with {plan: plan, limit: 8} %}
       </div>
     </div>
     {% endfor %}
   </div>
-</div>
+
+  <div class="flex flex-col items-center gap-3 mt-8 text-sm text-center">
+    {% if more|length > 0 %}
+    <button type="button" class="button button-outline button-sm" x-show="!showAll && {{ more|json_encode|e('html_attr') }}.includes(cycle)" @click="showAll = true">
+      {{ dp__('theme', 'button', 'See all plans') }}
+      <i class="ti ti-chevron-down"></i>
+    </button>
+    {% endif %}
+
+    {% if free_plan %}
+    <a href="{{ user is defined ? '/app/billing/checkout/' ~ free_plan.id : '/signup' }}"
+      class="font-semibold underline underline-offset-2 hover:text-secondary">
+      {{ d__('theme', 'Not ready to pay? Try the free plan') }}
+    </a>
+    {% endif %}
+  </div>
+</section>
+{% endif %}

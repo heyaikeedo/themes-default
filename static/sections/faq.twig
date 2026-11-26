@@ -1,0 +1,73 @@
+{% set f = option.features ?? {} %}
+{% set mode = option.billing.usage_mode ?? 'unpaced' %}
+{% set trial_days = option.billing.trial_period_days ?? 0 %}
+{% set has_plans = plans is defined and plans|length > 0 %}
+{% set has_packs = has_plans and plans|filter(p => p.billing_cycle == 'one-time')|length > 0 %}
+
+{% set items = [
+  {
+    show: has_plans and mode != 'session',
+    q: d__('theme', 'What are credits?'),
+    a: d__('theme', 'Credits are what you spend when you use the AI. Each request costs credits based on the model and how much it produces, and your plan includes a set amount.') ~ (has_packs ? ' ' ~ d__('theme', 'Need more? Top up with a credit pack at any time.') : '')
+  },
+  {
+    show: has_plans and mode == 'session',
+    q: d__('theme', 'How is usage measured?'),
+    a: d__('theme', 'Each plan includes an amount of usage. What a request uses depends on the model and how much it produces, and your account always shows what you have left.')
+  },
+  {
+    show: models is defined and models|length > 0,
+    q: d__('theme', 'Which AI models can I use?'),
+    a: d__('theme', 'Each plan lists the models it includes. Hover over the models line on a plan to see them, and pick the one you want while you work.')
+  },
+  {
+    show: has_plans,
+    q: d__('theme', 'Can I change or cancel my plan?'),
+    a: d__('theme', 'Yes. You can upgrade, downgrade or cancel from the billing page in your account at any time.')
+  },
+  {
+    show: has_plans and trial_days > 0,
+    q: d__('theme', 'Is there a free trial?'),
+    a: d__('theme', 'Yes. Paid subscriptions start with a :days-day free trial. Cancel before it ends and you will not be charged.')|replace({':days': trial_days})
+  },
+  {
+    show: true,
+    q: d__('theme', 'Can I use it with my team?'),
+    a: d__('theme', 'Yes. Invite teammates to your workspace and they share its plan. How many members you can add depends on your plan.')
+  },
+  {
+    show: f.private_mode.is_enabled ?? false,
+    q: d__('theme', 'What happens to what I create?'),
+    a: d__('theme', 'It is saved to your library so you can find it later. Switch on private mode and nothing you create is kept: it stays out of your history and is deleted automatically.')
+  }
+]|filter(item => item.show) %}
+
+{% if items|length > 0 %}
+<section id="faq" class="scroll-mt-10">
+  <div class="grid gap-6 md:gap-10 lg:grid-cols-[1fr_1.6fr]">
+    <div class="enter">
+      <h2>{{ dp__('theme', 'heading', 'Frequently asked questions') }}</h2>
+
+      <p class="max-w-sm mt-4 md:text-lg text-secondary">
+        {{ d__('theme', 'Answers to what people ask most before they sign up.') }}
+      </p>
+    </div>
+
+    <div class="border-t border-line-secondary dark:border-line-tertiary">
+      {% for item in items %}
+      <details class="border-b group border-line-secondary dark:border-line-tertiary enter" {{ loop.first ? 'open' : '' }}>
+        <summary class="flex items-center justify-between gap-6 py-5 font-semibold list-none cursor-pointer md:text-lg font-secondary [&::-webkit-details-marker]:hidden">
+          {{ item.q }}
+
+          <span class="flex items-center justify-center transition-colors border rounded-full size-8 shrink-0 border-line-secondary dark:border-line-tertiary group-open:bg-primary group-open:border-primary group-open:text-contrast-primary">
+            <i class="text-base transition-transform ti ti-plus group-open:rotate-45"></i>
+          </span>
+        </summary>
+
+        <p class="max-w-2xl pb-6 -mt-1 pr-14 text-secondary">{{ item.a }}</p>
+      </details>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
