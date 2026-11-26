@@ -13,39 +13,39 @@ msgstr ""
 #: sections/chat.twig:11
 #: snippets/plan-rows.twig:73
 msgid "AI chat"
-msgstr ""
+msgstr "KI-klets"
 
 #: sections/chat.twig:15
 msgctxt "heading"
 msgid "Ask anything. Get clear, useful answers."
-msgstr ""
+msgstr "Vra enigiets. Kry duidelike, nuttige antwoorde."
 
 #: sections/chat.twig:19
 msgid "Chat with leading AI models to brainstorm, research, write and solve problems faster."
-msgstr ""
+msgstr "Gesels met toonaangewende KI-modelle om vinniger idees te ontwikkel, navorsing te doen, te skryf en probleme op te los."
 
 #: sections/chat.twig:23
 msgctxt "button"
 msgid "Start chatting"
-msgstr ""
+msgstr "Begin gesels"
 
 #: sections/cta.twig:9
 msgctxt "heading"
 msgid "Pick up where you left off"
-msgstr ""
+msgstr "Gaan voort waar jy opgehou het"
 
 #: sections/cta.twig:11
 msgid "Your chats, documents and media are waiting in your workspace."
-msgstr ""
+msgstr "Jou kletse, dokumente en media wag in jou werkruimte."
 
 #: sections/cta.twig:14
 msgctxt "heading"
 msgid "Ready to get started?"
-msgstr ""
+msgstr "Gereed om te begin?"
 
 #: sections/cta.twig:16
 msgid "Create your account and put AI to work in minutes."
-msgstr ""
+msgstr "Skep jou rekening en begin binne minute om KI te gebruik."
 
 #: sections/cta.twig:22
 #: sections/header.twig:118
@@ -66,189 +66,189 @@ msgstr "Begin"
 #: sections/hero.twig:25
 msgctxt "button"
 msgid "See pricing"
-msgstr ""
+msgstr "Sien pryse"
 
 #: sections/faq.twig:10
 msgid "What are credits?"
-msgstr ""
+msgstr "Wat is krediete?"
 
 #: sections/faq.twig:11
 msgid "Credits are what you spend when you use the AI. Each request costs credits based on the model and how much it produces, and your plan includes a set amount."
-msgstr ""
+msgstr "Krediete is wat jy bestee wanneer jy die KI gebruik. Elke versoek kos krediete na gelang van die model en hoeveel dit oplewer, en jou plan sluit ’n vasgestelde hoeveelheid in."
 
 #: sections/faq.twig:11
 msgid "Need more? Top up with a credit pack at any time."
-msgstr ""
+msgstr "Het jy meer nodig? Vul enige tyd aan met ’n kredietpakket."
 
 #: sections/faq.twig:15
 msgid "How is usage measured?"
-msgstr ""
+msgstr "Hoe word gebruik gemeet?"
 
 #: sections/faq.twig:16
 msgid "Each plan includes an amount of usage. What a request uses depends on the model and how much it produces, and your account always shows what you have left."
-msgstr ""
+msgstr "Elke plan sluit ’n hoeveelheid gebruik in. Wat ’n versoek gebruik, hang af van die model en hoeveel dit oplewer, en jou rekening wys altyd hoeveel jy oor het."
 
 #: sections/faq.twig:20
 msgid "Which AI models can I use?"
-msgstr ""
+msgstr "Watter KI-modelle kan ek gebruik?"
 
 #: sections/faq.twig:21
 msgid "Each plan lists the models it includes. Hover over the models line on a plan to see them, and pick the one you want while you work."
-msgstr ""
+msgstr "Elke plan lys die modelle wat dit insluit. Beweeg oor die modellery op ’n plan om hulle te sien, en kies die een wat jy wil gebruik terwyl jy werk."
 
 #: sections/faq.twig:25
 msgid "Can I change or cancel my plan?"
-msgstr ""
+msgstr "Kan ek my plan verander of kanselleer?"
 
 #: sections/faq.twig:26
 msgid "Yes. You can upgrade, downgrade or cancel from the billing page in your account at any time."
-msgstr ""
+msgstr "Ja. Jy kan enige tyd vanaf die faktureringsbladsy in jou rekening opgradeer, afgradeer of kanselleer."
 
 #: sections/faq.twig:30
 msgid "Is there a free trial?"
-msgstr ""
+msgstr "Is daar ’n gratis proeflopie?"
 
 #: sections/faq.twig:31
 msgid "Yes. Paid subscriptions start with a :days-day free trial. Cancel before it ends and you will not be charged."
-msgstr ""
+msgstr "Ja. Betaalde intekeninge begin met ’n gratis proeflopie van :days-dae. Kanselleer voor dit eindig, en jy sal nie gehef word nie."
 
 #: sections/faq.twig:35
 msgid "Can I use it with my team?"
-msgstr ""
+msgstr "Kan ek dit saam met my span gebruik?"
 
 #: sections/faq.twig:36
 msgid "Yes. Invite teammates to your workspace and they share its plan. How many members you can add depends on your plan."
-msgstr ""
+msgstr "Ja. Nooi spanlede na jou werkruimte en hulle deel die plan daarvan. Hoeveel lede jy kan byvoeg, hang van jou plan af."
 
 #: sections/faq.twig:40
 msgid "What happens to what I create?"
-msgstr ""
+msgstr "Wat gebeur met wat ek skep?"
 
 #: sections/faq.twig:41
 msgid "It is saved to your library so you can find it later. Switch on private mode and nothing you create is kept: it stays out of your history and is deleted automatically."
-msgstr ""
+msgstr "Dit word in jou biblioteek gestoor sodat jy dit later kan vind. Skakel privaatmodus aan en niks wat jy skep, word bewaar nie: dit bly buite jou geskiedenis en word outomaties uitgevee."
 
 #: sections/faq.twig:49
 msgctxt "heading"
 msgid "Frequently asked questions"
-msgstr ""
+msgstr "Gereelde vrae"
 
 #: sections/faq.twig:52
 msgid "Answers to what people ask most before they sign up."
-msgstr ""
+msgstr "Antwoorde op die vrae wat mense die meeste vra voordat hulle aansluit."
 
 #: sections/features.twig:13
 msgctxt "heading"
 msgid "Leading AI models"
-msgstr ""
+msgstr "Voorste KI-modelle"
 
 #: sections/features.twig:14
 msgid "Use models from several AI providers in one app, without separate accounts."
-msgstr ""
+msgstr "Gebruik modelle van verskeie KI-verskaffers in een toepassing, sonder aparte rekeninge."
 
 #: sections/features.twig:19
 msgctxt "heading"
 msgid "Custom assistants"
-msgstr ""
+msgstr "Pasgemaakte assistente"
 
 #: sections/features.twig:20
 msgid "Build assistants with their own instructions and knowledge, and reuse them any time."
-msgstr ""
+msgstr "Skep assistente met hul eie instruksies en kennis, en gebruik hulle enige tyd weer."
 
 #: sections/features.twig:25
 msgctxt "heading"
 msgid "Chat with your documents"
-msgstr ""
+msgstr "Gesels met jou dokumente"
 
 #: sections/features.twig:26
 msgid "Upload files and ask questions about them. Answers come from your own content."
-msgstr ""
+msgstr "Laai lêers op en vra vrae daaroor. Antwoorde kom uit jou eie inhoud."
 
 #: sections/features.twig:31
 msgctxt "heading"
 msgid "Live web search"
-msgstr ""
+msgstr "Regstreekse websoektog"
 
 #: sections/features.twig:32
 msgid "Get answers that draw on up-to-date information from the web."
-msgstr ""
+msgstr "Kry antwoorde wat op bygewerkte inligting van die web gegrond is."
 
 #: sections/features.twig:37
 msgctxt "heading"
 msgid "Connect your apps"
-msgstr ""
+msgstr "Koppel jou toepassings"
 
 #: sections/features.twig:38
 msgid "Bring the tools you already use into the conversation."
-msgstr ""
+msgstr "Bring die nutsgoed wat jy reeds gebruik by die gesprek in."
 
 #: sections/features.twig:43
 msgctxt "heading"
 msgid "Scheduled tasks"
-msgstr ""
+msgstr "Geskeduleerde take"
 
 #: sections/features.twig:44
 msgid "Let the AI handle reminders, recurring reports and ongoing updates on a schedule."
-msgstr ""
+msgstr "Laat die KI herinneringe, herhalende verslae en deurlopende bywerkings volgens ’n skedule hanteer."
 
 #: sections/features.twig:49
 msgctxt "heading"
 msgid "Private mode"
-msgstr ""
+msgstr "Privaatmodus"
 
 #: sections/features.twig:50
 msgid "What you create in private mode stays out of your history and library, and is deleted automatically."
-msgstr ""
+msgstr "Wat jy in privaatmodus skep, bly buite jou geskiedenis en biblioteek en word outomaties uitgevee."
 
 #: sections/features.twig:55
 msgctxt "heading"
 msgid "Built for teams"
-msgstr ""
+msgstr "Gemaak vir spanne"
 
 #: sections/features.twig:56
 msgid "Invite your teammates to a shared workspace and work from the same plan."
-msgstr ""
+msgstr "Nooi jou spanmaats na ’n gedeelde werkruimte en werk volgens dieselfde plan."
 
 #: sections/features.twig:61
 msgctxt "heading"
 msgid "Your library"
-msgstr ""
+msgstr "Jou biblioteek"
 
 #: sections/features.twig:62
 msgid "Everything you create is saved in one place, ready to find, reuse and download."
-msgstr ""
+msgstr "Alles wat jy skep, word op een plek gestoor, gereed om gevind, hergebruik en afgelaai te word."
 
 #: sections/features.twig:67
 msgctxt "heading"
 msgid "Speaks your language"
-msgstr ""
+msgstr "Praat jou taal"
 
 #: sections/features.twig:68
 msgid "Use the app in the language you are most comfortable with."
-msgstr ""
+msgstr "Gebruik die toepassing in die taal waarmee jy die gemaklikste is."
 
 #: sections/features.twig:73
 msgctxt "heading"
 msgid "Light and dark mode"
-msgstr ""
+msgstr "Ligte en donker modus"
 
 #: sections/features.twig:74
 msgid "Work the way your eyes prefer, day or night."
-msgstr ""
+msgstr "Werk soos jou oë verkies, dag of nag."
 
 #: sections/features.twig:79
 msgctxt "heading"
 msgid "Secure checkout"
-msgstr ""
+msgstr "Veilige betaalproses"
 
 #: sections/features.twig:80
 msgid "Pay safely through trusted payment providers and manage your plan any time."
-msgstr ""
+msgstr "Betaal veilig deur vertroude betalingsverskaffers en bestuur jou plan enige tyd."
 
 #: sections/features.twig:86
 msgctxt "heading"
 msgid "Everything in one workspace"
-msgstr ""
+msgstr "Alles in een werkruimte"
 
 #: sections/footer.twig:4
 msgid "All rights reserved."
@@ -264,7 +264,7 @@ msgstr "Produk"
 #: sections/header.twig:28
 msgctxt "button"
 msgid "Features"
-msgstr ""
+msgstr "Kenmerke"
 
 #: sections/footer.twig:50
 #: sections/header.twig:35
@@ -296,12 +296,12 @@ msgstr "Terugbetalingsbeleid"
 #: sections/generators.twig:16
 msgctxt "heading"
 msgid "Every AI tool you need,"
-msgstr ""
+msgstr "Elke KI-nutsding wat jy nodig het,"
 
 #: sections/generators.twig:17
 msgctxt "heading"
 msgid "in one place"
-msgstr ""
+msgstr "op een plek"
 
 #: sections/header.twig:129
 msgctxt "button"
@@ -331,38 +331,38 @@ msgstr "Teken in"
 #: sections/hero.twig:3
 msgctxt "heading"
 msgid "Your all-in-one AI workspace"
-msgstr ""
+msgstr "Jou alles-in-een-KI-werkruimte"
 
 #: sections/hero.twig:7
 msgid "Chat, write and create with the leading AI models, all in one place. No juggling apps or subscriptions."
-msgstr ""
+msgstr "Gesels, skryf en skep met die toonaangewende KI-modelle, alles op een plek. Geen gesukkel met programme of intekeninge nie."
 
 #: sections/how-it-works.twig:2
 msgctxt "heading"
 msgid "Create your account"
-msgstr ""
+msgstr "Skep jou rekening"
 
 #: sections/how-it-works.twig:2
 msgid "Sign up in seconds and land on your own dashboard."
-msgstr ""
+msgstr "Registreer binne sekondes en kom op jou eie kontroleskerm uit."
 
 #: sections/how-it-works.twig:3
 msgctxt "heading"
 msgid "Pick a tool and a model"
-msgstr ""
+msgstr "Kies ’n nutsding en ’n model"
 
 #: sections/how-it-works.twig:3
 msgid "Chat, write, create images and more. Choose the AI model that suits the job."
-msgstr ""
+msgstr "Gesels, skryf, skep beelde en meer. Kies die KI-model wat by die taak pas."
 
 #: sections/how-it-works.twig:4
 msgctxt "heading"
 msgid "Describe it, get results"
-msgstr ""
+msgstr "Beskryf dit, kry resultate"
 
 #: sections/how-it-works.twig:4
 msgid "Say what you need in plain words, refine the result, and find it later in your library."
-msgstr ""
+msgstr "Sê in gewone taal wat jy nodig het, verfyn die resultaat en vind dit later in jou biblioteek."
 
 #: sections/how-it-works.twig:9
 msgctxt "heading"
@@ -371,79 +371,79 @@ msgstr "Hoe dit werk"
 
 #: sections/image.twig:5
 msgid "AI images"
-msgstr ""
+msgstr "KI-beelde"
 
 #: sections/image.twig:9
 msgctxt "heading"
 msgid "Turn a sentence into an image."
-msgstr ""
+msgstr "Verander ’n sin in ’n beeld."
 
 #: sections/image.twig:13
 msgid "Describe what you want to see, pick a model, and get images you can download and reuse."
-msgstr ""
+msgstr "Beskryf wat jy wil sien, kies ’n model en kry beelde wat jy kan aflaai en hergebruik."
 
 #: sections/image.twig:17
 msgctxt "button"
 msgid "Create an image"
-msgstr ""
+msgstr "Skep ’n beeld"
 
 #: sections/models.twig:53
 msgid "Powered by the leading AI models"
-msgstr ""
+msgstr "Aangedryf deur die toonaangewende KI-modelle"
 
 #: sections/presets.twig:9
 msgid "Writing templates"
-msgstr ""
+msgstr "Skryfsjablone"
 
 #: sections/presets.twig:14
 msgctxt "heading"
 msgid "What will you write today?"
-msgstr ""
+msgstr "Wat gaan jy vandag skryf?"
 
 #: sections/presets.twig:18
 msgid "Product descriptions, social posts, cover letters and more. Pick a template and skip the blank page."
-msgstr ""
+msgstr "Produkbeskrywings, sosiale media-plasings, dekbriewe en meer. Kies ’n sjabloon en begin sommer dadelik."
 
 #: sections/presets.twig:23
 msgctxt "button"
 msgid "Browse templates"
-msgstr ""
+msgstr "Blaai deur sjablone"
 
 #: sections/preview.twig:10
 msgid "Alex"
-msgstr ""
+msgstr "Alex"
 
 #: sections/preview.twig:11
 msgid "Alex Morgan"
-msgstr ""
+msgstr "Alex Morgan"
 
 #: sections/preview.twig:106
 msgid "Hello, :name!"
-msgstr ""
+msgstr "Hallo, :name!"
 
 #: sections/preview.twig:110
 msgid "How can I assist you?"
-msgstr ""
+msgstr "Hoe kan ek jou help?"
 
 #: sections/preview.twig:115
 msgid "Ask anything…"
-msgstr ""
+msgstr "Vra enigiets…"
 
 #: sections/preview.twig:121
 msgid "Transcribe audio"
-msgstr ""
+msgstr "Transkribeer oudio"
 
 #: sections/preview.twig:122
 msgid "Isolate sounds"
-msgstr ""
+msgstr "Isoleer klanke"
 
 #: sections/preview.twig:123
 msgid "Create videos"
-msgstr ""
+msgstr "Skep video’s"
 
 #: sections/preview.twig:124
 msgid "Create images"
-msgstr ""
+msgstr "Skep beelde"
 
 #: sections/preview.twig:147
 msgid "Scroll to explore"
