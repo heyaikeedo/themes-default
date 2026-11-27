@@ -152,8 +152,10 @@
   {# Fades the bottom of the picture into the page. #}
   <div class="absolute inset-x-0 bottom-0 pointer-events-none h-1/3 bg-gradient-to-b from-transparent to-contrast-primary"></div>
 
-  {# A hairline where the picture ends, fading out at both ends; the floating icon sits on it. #}
-  <div class="absolute bottom-0 h-px pointer-events-none inset-x-0 md:-inset-x-8 bg-gradient-to-r from-transparent via-line-secondary to-transparent dark:via-line-tertiary"></div>
+  {# A hairline where the picture ends, as wide as the window and fading out at
+     both ends; the floating icon sits on it. It stops 1rem short of each edge
+     so a classic scrollbar never adds a horizontal scroll, which the fade hides. #}
+  <div class="absolute bottom-0 h-px pointer-events-none left-1/2 -translate-x-1/2 w-[calc(100vw-2rem)] bg-gradient-to-r from-transparent via-line-secondary to-transparent dark:via-line-tertiary"></div>
 
   <div class="float -top-6 -right-6 rotate-[15deg]">
     <span class="hidden md:inline-flex icon text-[#30C862]">
