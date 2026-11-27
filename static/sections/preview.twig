@@ -31,6 +31,12 @@
 {% endmacro %}
 
 <div class="relative enter">
+  {# A faint dot grid behind the hero, window-wide, rising from the hairline
+     and fading out towards the top and both sides, so wide screens don't read
+     as an empty white band. It lights up around the cursor. #}
+  <div class="absolute bottom-0 h-[1200px] -z-10 pointer-events-none left-1/2 -translate-x-1/2 w-[calc(100vw-2rem)] hero-grid"
+    aria-hidden="true"></div>
+
   <div class="flex overflow-hidden text-left border select-none pointer-events-none rounded-3xl bg-contrast-primary border-line-secondary dark:border-line-tertiary text-[13px] h-[440px] md:h-auto md:aspect-video"
     aria-hidden="true" inert>
 

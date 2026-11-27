@@ -1,4 +1,4 @@
-<section class="text-center enter">
+<section class="relative z-10 text-center enter">
   <h1 class="max-w-4xl mx-auto">
     {{ dp__('theme', 'heading', 'Your all-in-one AI workspace') }}
   </h1>
@@ -21,7 +21,7 @@
     {% endif %}
 
     {% if plans is defined and plans|length > 0 %}
-    <a href="/#pricing" class="button button-outline">
+    <a href="/#pricing" class="button button-outline bg-contrast-primary">
       {{ dp__('theme', 'button', 'See pricing') }}
     </a>
     {% endif %}

@@ -6,6 +6,7 @@ import Alpine from 'alpinejs';
 import { ModeSwitcher } from './components/mode.js';
 import { MoneyElement } from './components/money.js';
 import { CreditElement } from './components/credit.js';
+import { heroGrid } from './components/hero-grid.js';
 
 // Define custom elements
 customElements.define('mode-switcher', ModeSwitcher);
@@ -22,3 +23,5 @@ Alpine.data('pricing', (cycle = 'monthly') => ({
 }));
 
 Alpine.start();
+
+heroGrid();

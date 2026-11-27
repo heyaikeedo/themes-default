@@ -42,3 +42,50 @@ a {
     @apply align-super text-base;
   }
 }
+
+/* The dot grid behind the hero: 24px apart, anchored to its bottom edge and
+   faded out towards the top and both sides. A darker copy (::after) shows only
+   in a circle around the cursor; src/js/components/hero-grid.js moves it. */
+.hero-grid {
+  --hero-grid-dot: var(--color-line-primary);
+  --hero-grid-x: 50%;
+  --hero-grid-y: 50%;
+  -webkit-mask-image:
+    linear-gradient(to top, black, transparent 85%),
+    linear-gradient(to right, transparent, black 20%, black 80%, transparent);
+  -webkit-mask-composite: source-in;
+  mask-image:
+    linear-gradient(to top, black, transparent 85%),
+    linear-gradient(to right, transparent, black 20%, black 80%, transparent);
+  mask-composite: intersect;
+}
+
+.hero-grid,
+.hero-grid::after {
+  background-image: radial-gradient(circle, rgb(var(--hero-grid-dot)) 1px, transparent 1.5px);
+  background-size: 24px 24px;
+  background-position: center bottom;
+}
+
+.hero-grid::after {
+  --hero-grid-dot: var(--color-line-accent);
+  content: '';
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 400ms ease;
+  -webkit-mask-image: radial-gradient(260px circle at var(--hero-grid-x) var(--hero-grid-y), black, transparent);
+  mask-image: radial-gradient(260px circle at var(--hero-grid-x) var(--hero-grid-y), black, transparent);
+}
+
+.hero-grid[data-active]::after {
+  opacity: 1;
+}
+
+[data-mode="dark"] .hero-grid {
+  --hero-grid-dot: var(--color-line-secondary);
+}
+
+[data-mode="dark"] .hero-grid::after {
+  --hero-grid-dot: var(--color-line-primary);
+}
