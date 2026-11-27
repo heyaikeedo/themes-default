@@ -1,8 +1,9 @@
 {# The closing call to action: the same hairline card as the rest of the page,
    with the admin's accent colour only as a soft glow from the bottom edge. #}
 <section class="relative overflow-hidden text-center border rounded-3xl bg-contrast-primary border-line-secondary dark:border-line-tertiary enter">
-  <div class="absolute left-1/2 -bottom-[120%] w-[180%] h-[200%] -translate-x-1/2 pointer-events-none"
-    style="background: radial-gradient(closest-side, rgb(var(--color-contrast-accent) / 0.7), transparent)"></div>
+  {# Softer in dark mode, where a strong glow muddies the accent. #}
+  <div class="absolute left-1/2 -bottom-[120%] w-[180%] h-[200%] -translate-x-1/2 pointer-events-none [--cta-glow:0.7] dark:[--cta-glow:0.22]"
+    style="background: radial-gradient(closest-side, rgb(var(--color-contrast-accent) / var(--cta-glow)), transparent)"></div>
 
   <div class="relative px-6 py-12 md:p-16">
     {% if user is defined %}
